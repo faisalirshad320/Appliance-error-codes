@@ -1,0 +1,203 @@
+{
+  "title": "Frigidaire Washer E20 Error Code: Causes and Fix",
+  "meta_description": "Frigidaire E20 means the washer could not pump the water out in time. Usually the drain filter behind the lower front panel.",
+  "h1": "Frigidaire washer E20 error code: what it means and how to fix it",
+  "answer": "E20 is a drain fault: your Frigidaire washer ran the pump, checked the water level again and found the drum had not emptied in the time it allows. The water is still in there, the door will stay locked while it is, and the machine will not spin. On a front loader the first place to look is the drain filter behind the lower access panel at the front, which catches coins, hair clips and lint and is the single most common cause. After that it is the drain hose, the standpipe, and then the pump itself.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "45 minutes to 2 hours",
+  "cost_estimate": {
+    "diy": "$0 to $110",
+    "technician": "$150 to $350"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain pump filter is blocked",
+      "frequency": "most cases",
+      "confirm": "Open the lower front access panel and turn the filter cap anticlockwise. Coins, hair clips, buttons, a sodden mass of lint and the occasional bra underwire are what comes out. If the filter has not been cleaned in a year or more, it is almost certainly your fault, and clearing it costs nothing."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or blocked",
+      "frequency": "most cases",
+      "confirm": "Pull the machine out and run the hose through your hands from the back of the cabinet to the standpipe. A flat spot where the washer has been pushed back onto it, a tight bend behind a leg, or a slug of soap scum you can feel through the hose wall all show up by touch."
+    },
+    {
+      "cause": "The standpipe or house drain is restricted",
+      "frequency": "common",
+      "confirm": "Take the hose out of the standpipe and pour a gallon of water in from a jug. It should disappear immediately. If it hesitates, gurgles or rises, the restriction is in your plumbing and the washer is reporting the problem accurately rather than failing."
+    },
+    {
+      "cause": "Something is jammed in the pump impeller",
+      "frequency": "common",
+      "confirm": "The filter is clean but the pump buzzes or hums at the point it should run instead of making the steady whirr of moving water. Reach into the filter housing with the filter out and turn the impeller with a fingertip: it should spin freely. Grit, a coin on edge or a wire stops it dead."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "occasional",
+      "confirm": "Complete silence when the pump should be running, with the filter clear, the impeller free and the hose open. A dead pump makes no noise at all, which is a different symptom from a blocked one that buzzes. This is the point at which a part is needed."
+    },
+    {
+      "cause": "The pressure sensing circuit thinks there is still water",
+      "frequency": "occasional",
+      "confirm": "The drum is visibly empty and E20 still appears. The control reads the level through a thin air hose running from the bottom of the outer tub to a sensor. Soap scum in that hose, or a split along it, leaves the control certain there is water in a machine that has drained perfectly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the washer and get a tray ready",
+      "detail": "Pull the plug at the wall before touching anything. Put old towels down across the front of the machine and have at least two shallow trays or a roasting tin to hand, plus a bucket to empty them into. There are several liters sitting in that drum and all of it is going to arrive on the floor if you are not set up for it.",
+      "minutes": 10,
+      "tools": "Towels, two shallow trays, bucket",
+      "warning": "Unplug at the wall first. You are about to put water near the base of the machine."
+    },
+    {
+      "name": "Drain the machine through the small tube",
+      "detail": "Open the lower access panel at the front; it usually unclips or comes off with a couple of Phillips screws, or pops out with a coin in the slot. Beside the round filter cap is a short tube with a stopper. Pull it out, hold it over the tray and let the water run, pinching it off to swap trays. Keep going until nothing more comes out, which may take four or five tray-loads.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, shallow trays, towels",
+      "warning": null
+    },
+    {
+      "name": "Open the filter and clear it",
+      "detail": "Turn the round cap anticlockwise and pull the filter straight out; a little more water always follows, so keep the tray under it. Pick out the coins, hair, lint and buttons, rinse the filter under a tap and scrub the mesh with an old toothbrush. Reach into the empty housing and feel around the bottom for anything that has dropped past the filter.",
+      "minutes": 15,
+      "tools": "Old toothbrush, towels",
+      "warning": null
+    },
+    {
+      "name": "Check the impeller spins",
+      "detail": "With the filter out, put a fingertip on the impeller you can see at the back of the housing and turn it. It should rotate freely with a light drag and keep going for a fraction of a turn when you let go. If it is stiff, gritty or will not move, something is wedged in it or the pump has seized. Pull out anything you can see with needle-nose pliers.",
+      "minutes": 8,
+      "tools": "Needle-nose pliers, flashlight",
+      "warning": "Washer still unplugged. Never put a finger near the impeller with power connected."
+    },
+    {
+      "name": "Refit the filter and check for leaks",
+      "detail": "Screw the filter cap back in clockwise, hand tight and square, with the seal clean and seated. Push the drain tube stopper firmly back in. Run a Rinse and Spin and watch the base of the machine for the first two minutes, because a cross-threaded cap leaks under pump pressure rather than at rest and you want to catch it while you are standing there.",
+      "minutes": 15,
+      "tools": "Towels",
+      "warning": null
+    },
+    {
+      "name": "Inspect the drain hose and the standpipe",
+      "detail": "If the code returns, pull the machine out and walk the drain hose from the cabinet to the standpipe, straightening kinks and checking for a crushed section. Disconnect it over a bucket and pour a gallon into the standpipe to test your plumbing. Check too that the hose sits only a few inches into the standpipe and is not taped airtight, which makes the machine siphon.",
+      "minutes": 25,
+      "tools": "Bucket, jug, flashlight, pliers",
+      "warning": null
+    },
+    {
+      "name": "Listen for the pump at the moment it should run",
+      "detail": "Start a Rinse and Spin and put your ear against the lower front of the cabinet. Within a minute you should hear a steady whirring and water moving. A buzz or hum with no water means the pump is powered but blocked or seized. Silence means either it is dead or it is never being switched on, and those are different repairs.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter was clean, the impeller spins and the hose and standpipe are clear, work through what is left in this order. First, settle whether the pump is being told to run, by listening at the cabinet during a Rinse and Spin. A buzz means power is reaching a pump that cannot turn, and since you have already cleared the obvious blockage, that pump has seized: a replacement is typically $45 to $110 and the job is an hour or so with the machine on its side on a sheet of cardboard. Silence means either a dead pump or a pump that is never switched on, and a technician with a meter settles that in minutes. Second, if the drum is visibly empty and E20 still shows, stop looking at the drain altogether. The washer is not failing to empty, it is failing to notice that it has emptied, and that moves the fault to the pressure sensing circuit. The thin air hose from the bottom of the outer tub up to the pressure sensor gets plugged with soap scum or splits with age, and the result is a control convinced there is still water in the drum. Pull both ends off, check it for a blockage, look along it for a hairline crack and blow it through. That is free and it resolves a real minority of stubborn E20 codes. Third, check the drain hose height. The hose needs to rise to the height the installation instructions specify before it enters the standpipe, and a hose lying flat across the floor to a low outlet lets the machine siphon, so the water level never behaves as the control expects. Fourth, if you have also been seeing suds, deal with that first: foam does not pump like water, and a machine that is foam-locked produces drain codes with a perfectly healthy pump. Cut to a tablespoon of HE liquid and run two empty rinses. The cost jump on this fault is the control board at $180 to $400 fitted, and nobody should be ordering one until the pump, the hose and the pressure circuit have all been cleared.",
+  "reset_procedure": "Unplug the washer at the wall or switch off its breaker, and leave it for a full five minutes before restoring power. The control holds residual charge, so a quick off and on often leaves the stored fault in place. Bear in mind that a reset only clears the message: if there is still water in the drum, the machine will reach the same point in the next cycle and raise E20 again a few minutes later. Drain the tub through the filter tube first, then reset, then test with a Rinse and Spin rather than a full wash.",
+  "model_notes": "E20 sits in the E2x group, which covers everything to do with getting water out, and the neighbouring E21 is the same fault described more precisely as the pump failing to empty the tub within the allotted time; some control generations display one, some the other, and the repair is identical. Frigidaire is part of the Electrolux group, so the same code appears on Electrolux-badged machines built on the same platform. The filter location varies: most Frigidaire front loaders have it behind a lower front access panel, but a few compact and stacked models put the access elsewhere, and Frigidaire top loaders have no user-accessible filter at all and use a completely different single-digit code set.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$45 to $110",
+      "difficulty": "moderate",
+      "note": "Needed when the pump buzzes with a clear filter, or is silent"
+    },
+    {
+      "name": "Drain pump filter and seal",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Only if the filter is cracked or the cap seal is perished; usually just cleaning"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $30",
+      "difficulty": "easy",
+      "note": "Cheaper than fighting a hose that has been crushed flat behind the machine"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "For an E20 on an empty drum; usually just needs clearing"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $400",
+      "difficulty": "technician only",
+      "note": "Last resort, after the pump and pressure circuit are proved good"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if a gallon of water poured into the standpipe backs up, because the machine is reporting your house drain accurately and an appliance engineer will charge a call-out to tell you the same thing. Call an appliance technician if the pump is silent when it should run with the filter clear and the hose open, since the next step is metering the pump and its harness inside a wet machine. It is also reasonable to call if the filter cap will not come out, which happens when it has not been opened for years and the thread has corroded; forcing it cracks the housing and turns a free job into a pump assembly. Stop and close the taps if the machine is leaking while showing E20.",
+  "faqs": [
+    {
+      "q": "What does E20 mean on a Frigidaire washer?",
+      "a": "The washer could not pump the water out of the drum within the time it allows, so it stopped the cycle rather than trying to spin a full drum. The door stays locked while water is present. In most cases the drain pump filter behind the lower front panel is blocked with coins and lint, and clearing it costs nothing."
+    },
+    {
+      "q": "How do I drain a Frigidaire washer with an E20 code?",
+      "a": "Unplug it, open the lower front access panel, and pull out the short drain tube clipped beside the round filter cap. Hold it over a shallow tray and let the water out, pinching the tube to swap trays as they fill. Expect several liters. Only open the filter cap once the flow has stopped, or the rest arrives on the floor."
+    },
+    {
+      "q": "Why is my Frigidaire washer door locked with an E20 code?",
+      "a": "Because there is water in the drum. The interlock keeps the door shut while the machine is full, which is deliberate rather than a second fault. Drain the water out through the filter tube behind the lower panel and the lock will usually release once the level drops and the machine is powered back on."
+    },
+    {
+      "q": "What is the difference between E20 and E10 on a Frigidaire washer?",
+      "a": "They are opposite ends of the machine. E20 is water failing to leave, so the drum is full, the door is locked and there is no spin. E10 is water failing to arrive, so the drum is empty and the cycle stalls early. Look at the drum before you start work, because that single observation tells you which fault you really have."
+    },
+    {
+      "q": "Can I still use my washer with an E20 code?",
+      "a": "No. The drum is full and the machine will not spin, so nothing will finish and the laundry comes out soaking. Leaving standing water in there for more than a day or two also puts a smell in the drum and the seal that takes a cleaning cycle to shift. Drain it through the filter tube even if you cannot fix the cause today."
+    },
+    {
+      "q": "How often should I clean the Frigidaire drain filter?",
+      "a": "Every three to six months, and more often with a household that washes bedding, pet bedding or work clothes. It takes fifteen minutes with a tray and a towel, and it prevents most of the drain codes this machine will ever show. Many owners never open it at all, which is why a blocked filter is the most common cause of E20."
+    },
+    {
+      "q": "Why does E20 come back after I cleaned the filter?",
+      "a": "Three usual reasons. Something has got past the filter into the pump impeller, so check that it spins freely with the filter out. The drain hose is kinked or the standpipe is restricted, so test both. Or the drum is actually empty and the pressure sensing air hose is blocked, which makes the control believe water is still there."
+    },
+    {
+      "q": "Does too much detergent cause E20?",
+      "a": "It can. Foam does not pump like water, so a foam-locked machine fails to clear the drum in the time allowed and raises a drain code with a perfectly healthy pump. If the drum has a head of suds on it at the end of a cycle, cut to about a tablespoon of HE liquid and run two empty rinses before suspecting the pump."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "The drain path on a Frigidaire front loader, and where E20 starts",
+    "labels": {
+      "display": "E20",
+      "c1": "Drain tube beside the filter cap",
+      "c2": "Filter cap turns anticlockwise",
+      "c3": "Check the impeller spins freely",
+      "c4": "Drain hose and standpipe clear"
+    }
+  },
+  "sources": [
+    {
+      "title": "Front load washer displays error E20 or E21, drain troubleshooting",
+      "publisher": "Frigidaire and Electrolux owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Drain pump filter access and cleaning on front load washers",
+      "publisher": "Frigidaire use and care guide supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on E20 causes, seized pumps and pressure hose faults",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E21",
+    "E10",
+    "E11",
+    "E13",
+    "E35",
+    "E4A"
+  ]
+}

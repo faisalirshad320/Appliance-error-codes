@@ -1,0 +1,124 @@
+{
+  "title": "Frigidaire Oven F31 Error Code: Causes and Fix",
+  "meta_description": "F31 on a Frigidaire oven is a temperature sensor circuit fault. The probe or its wiring is out of range. Here is how to test it without a chart.",
+  "h1": "Frigidaire oven F31 error code: what it means and how to fix it",
+  "answer": "F31 means the control cannot get a sensible temperature reading out of the oven sensor circuit, so it stops heating rather than guess. The sensor is a thin metal probe that pokes through the back wall of the oven cavity, and the fault is either in the probe, in the two wires running from it to the control, or in the connector where they meet behind the rear panel. Sources disagree about whether F31 specifically means an open circuit or a shorted one, and its partner code F30 covers the other direction, so rather than trusting either reading, measure the probe: the result tells you which you have in about ten minutes.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 90 minutes",
+  "cost_estimate": { "diy": "$25 to $70", "technician": "$170 to $380" },
+  "safety_warning": "The rear of an electric Frigidaire range carries 240 volts at the terminal block whether or not the oven is switched on at the panel. Switch off the double breaker before any panel comes off and confirm the oven is dead before putting your hands in. On a gas range the sensor and its wiring are fair game, but the burners, gas valve and igniter circuit are licensed trade work.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor probe has failed",
+      "frequency": "most cases",
+      "confirm": "Unplug the probe behind the rear panel and measure across its two pins. An open circuit, or a dead short, both condemn it. A probe that reads a sensible resistance at room temperature and climbs when you warm it in your hand is fine, whatever the display says."
+    },
+    {
+      "cause": "A damaged wire or a corroded connector between probe and control",
+      "frequency": "most cases",
+      "confirm": "The probe measures correctly at its own plug, but measuring the same circuit from the control end gives a different answer. That difference is the wiring. Look where the harness passes a sheet metal edge or runs near the oven cavity, which is where insulation hardens and cracks."
+    },
+    {
+      "cause": "The connector behind the rear panel has worked loose",
+      "frequency": "common",
+      "confirm": "The two-pin plug is visibly not fully seated, or a pin has backed out of its housing. Ovens expand and contract through every cycle and these plugs walk apart over years. This one costs nothing and is worth checking before you measure anything."
+    },
+    {
+      "cause": "Heat damage to the probe's leads inside the cavity insulation",
+      "frequency": "occasional",
+      "confirm": "The probe body looks fine and reads correctly cold, but the resistance jumps around when you wiggle the leads where they pass through the cavity wall. Often follows a run of self-clean cycles, which is the hottest thing that wiring ever sees."
+    },
+    {
+      "cause": "The control board cannot read a healthy sensor circuit",
+      "frequency": "occasional",
+      "confirm": "The probe measures correctly at the board end of the harness, which clears both the sensor and the wiring, and F31 still appears on power-up. That leaves the input on the control. Confirm the sensor twice before accepting this, because it is the expensive answer."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker and note what the oven was doing",
+      "detail": "Switch the range off at the double breaker, not at its own controls, and leave it five minutes. While you wait, write down whether F31 appeared cold, during preheat, during a bake, or during self-clean. A code that only appears once the cavity is hot points at wiring that fails as it expands rather than a dead probe.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Find the sensor in the oven cavity",
+      "detail": "Open the oven and look at the upper rear of the cavity. The sensor is a thin stainless probe a few inches long on a small bracket, usually top left or top right. Check it is not bent against the cavity wall, not wrapped in foil, and that nothing has been pushed against it, because a probe touching metal reads the metal rather than the air.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Get to the plug behind the rear panel",
+      "detail": "With the breaker still off, pull the range out and take the rear access panel off with a nut driver. The sensor's two wires come through the cavity wall and end in a small two-pin plug a few inches inside. Unplug it and look at both halves for green corrosion, a browned shell or a pin sitting proud of its housing.",
+      "minutes": 25,
+      "tools": "Nut driver, flashlight",
+      "warning": "Breaker off first. There is 240 volts at the terminal block behind an electric range even with the oven switched off."
+    },
+    {
+      "name": "Measure the probe, then warm it and measure again",
+      "detail": "Put a multimeter on ohms across the two pins on the probe side. Note the reading. Then hold the probe in your fist for a minute, or play a hairdryer on it on a low setting, and measure again. This is an RTD sensor, so the resistance should climb noticeably as it warms. A reading that does not move, reads open, or reads near zero condemns the probe without needing any reference chart for your model.",
+      "minutes": 12,
+      "tools": "Multimeter, hairdryer",
+      "warning": null
+    },
+    {
+      "name": "Measure the same circuit from the control end",
+      "detail": "Plug the probe back in, then find where its harness lands at the control and measure across the same two wires there. You should get what you measured at the probe. A sensible reading at the probe and a wrong one at the board means the fault is the wiring in between, not the sensor, and swapping the probe will achieve nothing.",
+      "minutes": 18,
+      "tools": "Multimeter, flashlight",
+      "warning": "Breaker off. Measure resistance on a dead circuit only, never on a live one."
+    },
+    {
+      "name": "Replace the sensor if it failed the warming test",
+      "detail": "The probe is held by two screws through the cavity wall. Undo them, pull the probe into the cavity, and feed the new one's leads back through the hole before screwing it in. Keep the leads clear of the cavity wall on the way through, and refit the plug squarely so it does not back out again with the next thermal cycle.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver",
+      "warning": "Breaker off throughout."
+    },
+    {
+      "name": "Restore power and run a bake cycle to test",
+      "detail": "Switch the breaker back on and set a normal bake at a moderate temperature rather than running self-clean. Stand with it through the preheat, which is when a marginal sensor circuit usually gives itself away. If it reaches temperature and holds without the code returning, the repair is good.",
+      "minutes": 25,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the probe passes the warming test and the reading is the same at the control end of the harness, both the sensor and the wiring are cleared and the fault is the control's sensor input. That is the expensive answer, so confirm it twice before you accept it, because an intermittent connector that happened to be seated while you measured is far more common than a failed board input. The useful trick for an intermittent is to measure at the board end with the plug connected and then flex the harness along its length and watch the meter. A reading that jumps as you move the wire is the fault, and you have just found it for nothing. Pay attention to where the harness crosses a sheet metal edge and where it runs closest to the cavity, because that insulation hardens and cracks over years of heat. If the code only appears once the oven is hot and never from cold, that is the same story: something is opening as it expands, and it is wiring far more often than it is a board. If after all that the circuit really is sound from the board's own terminals, the control board is next, and on a Frigidaire range that part is usually well over a hundred dollars before labor. At that point get the full model number off the tag inside the door frame, price the board, and weigh it honestly against the age of the range. One thing worth knowing: F30 is the partner code covering the other direction of the same circuit fault, and the available sources do not agree on which of F30 and F31 is the open circuit and which is the short. Do not let a parts seller route you on the code number alone. The measurement settles it and the code does not.",
+  "reset_procedure": "Switch the range off at the double breaker, leave it a full five minutes, then switch it back on. Turning the oven off at its own controls does not reset the board. Test with an ordinary bake at a moderate temperature rather than a self-clean, and stay with it through the preheat, because that is where a marginal sensor circuit shows itself.",
+  "model_notes": "Frigidaire F-codes group by circuit: F1x is the control and user interface, F3x the oven temperature probe, and F9x the door latch motor. F30 and F31 are the two directions of the same sensor circuit fault, one for an open circuit and one for a short, but the published descriptions disagree about which is which, so measure rather than trust the number. Related to both is F10, which is a runaway temperature fault and means the opposite problem of a sensor reading that is believable but wrong. Kenmore ranges and wall ovens whose model number starts 790 are built by Frigidaire and use the same codes and the same probe.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $70", "difficulty": "easy", "note": "Two screws through the cavity wall and one plug; the usual answer" },
+    { "name": "Oven sensor wiring harness", "cost": "$30 to $80", "difficulty": "moderate", "note": "For a probe that reads correctly at its own plug but not at the board" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "hard", "note": "Only after the probe and the harness both measure correctly at the board" }
+  ],
+  "when_to_call": "Call someone if the probe and the harness both measure correctly from the control end and the code persists, because the next step is a control board and that is worth a diagnosis rather than a guess. Call sooner if you are not comfortable pulling the rear panel on a range with 240 volts at the terminal block, since the measurement has to happen back there. Weigh any board quote against the range's age and get the part price separately from the labor. On a gas range the sensor circuit is electrical and everything here still applies, but the burners, the gas valve and the igniter are licensed trade work and not something to investigate alongside it.",
+  "faqs": [
+    { "q": "What does F31 mean on a Frigidaire oven?", "a": "The control cannot get a believable temperature reading from the oven sensor circuit, so it refuses to heat. The fault is in the probe at the back of the cavity, the two wires running from it, or the connector between them. Published sources disagree on whether F31 is specifically the open or the shorted version, which is why measuring beats interpreting." },
+    { "q": "What is the difference between F30 and F31?", "a": "They are the two directions of the same sensor circuit fault, one for an open circuit and one for a short. The problem is that the available descriptions contradict each other about which code is which. Treat them as one fault, measure the probe cold and then warmed, and let the meter tell you which direction you are dealing with." },
+    { "q": "Can I still use the oven with an F31 code?", "a": "No, and the oven will not let you. Without a temperature reading the control has no way to regulate the element, so it stops heating rather than run blind. There is no safety risk in leaving the range powered, but nothing will cook. The cooktop on a freestanding range usually still works, since it does not use this sensor." },
+    { "q": "How do I test the sensor without a resistance chart for my model?", "a": "Measure across the probe's two pins cold and write the number down, then warm the probe in your hand or with a hairdryer and measure again. It is an RTD, so the resistance should climb clearly as it heats. A reading that will not move, or that shows open or near zero, condemns the probe with no chart needed." },
+    { "q": "Is the oven sensor hard to replace?", "a": "It is one of the easier oven repairs. Two screws hold the probe through the back wall of the cavity, and its leads end in a plug a few inches behind the rear panel. The fiddly part is feeding the new leads back through the hole without catching them. Budget an hour including getting the range out and back." },
+    { "q": "Why did F31 appear during self-clean?", "a": "Self-clean is the hottest thing the sensor and its wiring ever experience, so marginal insulation and a tired connector both tend to fail during it rather than during a normal bake. A code that only appears hot and never from cold is a strong hint that something is opening as it expands, which points at wiring rather than the probe." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The sensor circuit behind an F31, from cavity probe to control board",
+    "labels": {
+      "display": "F31",
+      "c1": "Breaker off before any panel",
+      "c2": "Probe through the cavity rear wall",
+      "c3": "Two-pin plug behind rear panel",
+      "c4": "Measure again at the board end"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Newer Frigidaire range fault codes reference", "publisher": "ApplianceAid technician reference", "url": null },
+    { "title": "Frigidaire self-cleaning range error codes", "publisher": "Sears PartsDirect repair guides", "url": null },
+    { "title": "Field reports on F30 and F31 descriptions conflicting across sources", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F30", "F10", "F11", "F16", "F050"]
+}

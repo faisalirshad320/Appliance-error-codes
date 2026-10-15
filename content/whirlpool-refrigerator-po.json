@@ -1,0 +1,194 @@
+{
+  "title": "Whirlpool Refrigerator PO Code: Power Outage Alert Fix",
+  "meta_description": "Whirlpool fridge PO means power was cut and the freezer warmed up while it was off. Check the food first, then press a button to dismiss it.",
+  "h1": "Whirlpool refrigerator PO code: what it means and how to clear it",
+  "answer": "PO on a Whirlpool refrigerator is a power outage alert, not a fault. It means the power to the unit was interrupted long enough for the freezer to warm to around 18 degrees Fahrenheit or higher, and the control has flagged it so you check your food instead of assuming everything stayed frozen. On most models an alarm sounds and the display holds PO until you acknowledge it with a button press, and some models will not resume cooling until you do. Deal with the food first and the display second.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 to 20 minutes",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$120 to $250 only if it will not cool afterward"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A utility power outage while nobody was home",
+      "frequency": "most cases",
+      "confirm": "Check the clocks on the microwave and the oven. If they are flashing or reset, the whole house lost power. A storm, a planned outage or a neighborhood fault that lasted a couple of hours is the standard version of this and there is nothing wrong with the refrigerator."
+    },
+    {
+      "cause": "A tripped breaker or GFCI outlet on the refrigerator's circuit",
+      "frequency": "common",
+      "confirm": "The house clocks are fine but the fridge logged an outage, which means the interruption was local to its circuit. Check the panel for a breaker sitting between on and off, and press the test and reset buttons on any GFCI outlet in the kitchen or garage, since the fridge may be downstream of one."
+    },
+    {
+      "cause": "A loose plug, a worn outlet or a damaged cord",
+      "frequency": "common",
+      "confirm": "Pull the unit out and look at the plug. One that falls out under its own weight, shows heat discoloration on the blades, or sits in an outlet that feels warm has been making and breaking contact. This is the version that repeats, because the interruption will happen again next time the fridge rocks on its wheels."
+    },
+    {
+      "cause": "Somebody unplugged it",
+      "frequency": "occasional",
+      "confirm": "Recent work in the kitchen, a floor cleaned behind the fridge, a holiday light run plugged into the same outlet, or a vacation shutdown. Ask before you investigate anything electrical. This is a more common cause of a mystery PO than people expect."
+    },
+    {
+      "cause": "An intermittent fault in the outlet or the house wiring",
+      "frequency": "occasional",
+      "confirm": "PO keeps reappearing with no outages, no tripped breakers and a plug that is firmly seated. A backed-out terminal screw inside the outlet, or a worn receptacle, makes and breaks contact as the appliance vibrates. An electrician finds this in minutes; an appliance technician will not."
+    },
+    {
+      "cause": "A control board logging outages that did not happen",
+      "frequency": "rare",
+      "confirm": "PO returns within hours of being cleared, the refrigerator is otherwise cooling normally, and both the outlet and the circuit have been checked and are sound. This is the last explanation to reach for, not the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check the freezer contents before you touch the display",
+      "detail": "Open the freezer and look, and more usefully, feel. Ice cream that has gone soft, a bag of peas that has fused into a solid block, or meat that is soft to the touch all mean the food thawed and refroze. Standard food safety guidance is that frozen food still holding ice crystals and at or below 40 degrees Fahrenheit can be refrozen, while anything that reached room temperature for more than two hours should go in the trash. Decide this before you clear anything, because the alert is the only record you have.",
+      "minutes": 10,
+      "tools": "Appliance or probe thermometer if you have one",
+      "warning": null
+    },
+    {
+      "name": "Check the refrigerator compartment too",
+      "detail": "The freezer is what triggers the alert, but the fresh food side warms faster. A closed refrigerator holds a safe temperature for about four hours without power, so a short outage is fine and an all-day one is not. Pay most attention to meat, poultry, fish, dairy, eggs and leftovers. Hard cheese, butter, condiments and whole fruit are far more forgiving. When in doubt on anything protein-based, throw it out.",
+      "minutes": 10,
+      "tools": "Appliance thermometer",
+      "warning": null
+    },
+    {
+      "name": "Dismiss the alert at the control panel",
+      "detail": "On most Whirlpool models any button press on the control panel acknowledges the alert and clears PO from the display. Some models want a specific button instead, and the owner's manual for your model names which one. Hold it for a couple of seconds rather than tapping it. Clearing the alert is also what releases some models to resume cooling, so do not leave it sitting there assuming the fridge is running.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Confirm the compressor actually restarts",
+      "detail": "Stand quietly beside the unit after clearing the alert and listen. You want the low hum of the compressor and the sound of the evaporator fan behind the freezer wall. Most refrigerators have a built-in delay of several minutes before the compressor restarts, which protects it, so give it ten minutes before worrying. If nothing has started after that, unplug the unit for five minutes and plug it back in.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find out why the power went off",
+      "detail": "Check the house clocks for a whole-house outage, then check the breaker panel for a breaker sitting halfway between on and off, which does not always look tripped at a glance. Press test and then reset on any GFCI outlet in the kitchen, garage or basement, because refrigerators are often downstream of one. Then pull the unit out and check the plug sits firmly in the outlet with no heat discoloration on the blades.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "If the plug blades or the outlet face show scorching or feel hot, stop and get an electrician. That is a fire risk, not an appliance fault."
+    },
+    {
+      "name": "Set up a refreeze indicator for next time",
+      "detail": "Freeze a cup of water solid, put a coin on top of the ice and leave it in the freezer. If you come home to the coin sitting at the bottom of the cup, the contents thawed and refroze while you were away, whatever the display says. It costs nothing, it works while you are on vacation, and it tells you something the PO alert alone cannot: how far things went.",
+      "minutes": 5,
+      "tools": "Cup, water, a coin",
+      "warning": null
+    },
+    {
+      "name": "Check temperatures again a day later",
+      "detail": "Put an appliance thermometer in the fresh food compartment and another in the freezer and read them 24 hours after clearing the alert. The fresh food side should be at or below 40 degrees Fahrenheit and the freezer at or below 0 degrees Fahrenheit. If either is drifting warm a day later, the outage exposed a cooling problem that was already there and the fridge now needs looking at properly.",
+      "minutes": 5,
+      "tools": "Two appliance thermometers",
+      "warning": null
+    }
+  ],
+  "still_showing": "If PO will not clear, or it clears and comes straight back, work through it in this order. First, make sure you are pressing the right thing. Most Whirlpool models accept any button press to acknowledge the alert, but some want one specific button, so check the owner's manual for your model rather than jabbing at the panel. Hold the button for two or three seconds rather than tapping it. Second, if no button does anything at all, the panel itself may be unresponsive rather than the alert being stuck: unplug the refrigerator at the wall for five full minutes, plug it back in and try again. That sequence clears most stuck displays. Third, if PO reappears within hours of being cleared, the refrigerator is telling you the truth and the power really is being interrupted. The order of suspects is outlet, cord, circuit. Pull the unit out, look at the plug blades for heat discoloration, wiggle the plug gently in the outlet and see whether the display flickers, and press test and reset on any GFCI the circuit may run through. A refrigerator that rocks slightly on its rollers every time the compressor cycles will work a loose plug out of a tired outlet over months, and that is a ten-dollar fix by an electrician rather than anything to do with the appliance. Fourth, the case where it matters more: PO cleared, no further outages, and the refrigerator is not getting back down to temperature after 24 hours. That is not a PO problem. The outage simply exposed a cooling fault that was already there, usually a failing start relay, a condenser fan that is not running or a defrost system that has let the evaporator ice over. Pull the unit out and feel the condenser coils at the back or underneath: warm is normal, stone cold with the compressor supposedly running is not. If the freezer holds temperature but the fresh food side does not, suspect the damper or the evaporator fan rather than the compressor. That is the point to call someone, and the first question to ask them is whether they will diagnose before quoting. Last, the rare one: PO returning repeatedly on a circuit that an electrician has confirmed is sound, with the appliance cooling perfectly. At that point the control board is logging interruptions that are not happening, and since the alert is cosmetic and the refrigerator works, replacing a board over it is rarely worth the money on anything but a nearly new unit under warranty.",
+  "reset_procedure": "Press a button on the control panel to acknowledge the alert; on most Whirlpool models any button will do, and on some the owner's manual names a specific one. Hold it for two or three seconds. If the panel does not respond at all, unplug the refrigerator at the wall for five full minutes, plug it back in and try again. Expect the compressor to take up to about ten minutes to start after power is restored, because the control delays it deliberately to protect the compressor. If PO reappears on its own, the power is genuinely being interrupted and no reset will stop that.",
+  "model_notes": "The display shows this as PO on most models, and the letter O and the digit zero are hard to tell apart on a seven-segment display, which is why it also gets written as P0. They are the same alert. What varies between models is how you acknowledge it: on many, any button press clears it, while some dispenser models want a specific button and the manual names which. Behavior afterward also varies, and on some units cooling does not resume until the alert is acknowledged, which is why a refrigerator can sit apparently dead with PO on the screen while nothing is wrong with it. Whirlpool uses the same alert across several of its brands, so a Maytag, KitchenAid or Amana unit built on the same platform behaves the same way.",
+  "parts": [
+    {
+      "name": "Replacement wall outlet, fitted by an electrician",
+      "cost": "$15 to $30 for the part",
+      "difficulty": "technician only",
+      "note": "The usual real fix when PO keeps repeating with no outages"
+    },
+    {
+      "name": "Appliance thermometers",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Not a repair part, but the only way to know whether the unit recovered"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and rarely worth it for a cosmetic alert on a working refrigerator"
+    }
+  ],
+  "when_to_call": "You do not need anyone for PO itself. It is an alert, and clearing it plus checking the food is the whole job. Call an electrician, not an appliance technician, if PO keeps returning with no outages anywhere else in the house, because the fault is in the outlet or the circuit and that is outside an appliance engineer's remit. Call them immediately, before anything else, if the plug blades or the outlet face are scorched or warm to the touch. Call an appliance technician only if the refrigerator will not get back down to temperature a day after the alert was cleared, since that means the outage uncovered a cooling fault that was already developing. In that case the common culprits are the start relay, the condenser fan and the defrost system, and a diagnostic visit runs $120 to $200 in most of the country with the repair on top. Whirlpool is the easy brand for this: parts are cheap and stocked everywhere and nearly every independent technician works on them, so get two quotes rather than accepting the first.",
+  "faqs": [
+    {
+      "q": "What does PO mean on a Whirlpool refrigerator?",
+      "a": "It is a power outage alert. The power to the unit was interrupted for long enough that the freezer warmed to roughly 18 degrees Fahrenheit or higher, and the control flagged it so you check your food rather than assuming it stayed frozen. It is a notification, not a fault code, and nothing in the refrigerator is broken because of it."
+    },
+    {
+      "q": "Is it PO or P0 on the display?",
+      "a": "The same thing. On a seven-segment display the letter O and the digit zero look nearly identical, so the alert gets written both ways in manuals, forums and search boxes. If your freezer display is showing two characters that look like P and an O or a zero after a power cut, this is the alert and this page applies."
+    },
+    {
+      "q": "Is my food safe after a PO alert?",
+      "a": "It depends how long the power was off. Frozen food that still holds ice crystals and is at or below 40 degrees Fahrenheit can be refrozen. A closed refrigerator keeps food safe for about four hours without power, and a full freezer for considerably longer than a half-empty one. Anything protein-based that reached room temperature for more than two hours should be discarded."
+    },
+    {
+      "q": "How do I clear the PO code?",
+      "a": "Press a button on the control panel; on most Whirlpool models any button acknowledges it, and some models want a specific one named in the owner's manual. Hold it for two or three seconds rather than tapping. If the panel is unresponsive, unplug the unit at the wall for five minutes, plug it back in and try again."
+    },
+    {
+      "q": "Why is my refrigerator not cooling while PO is showing?",
+      "a": "On some Whirlpool models, cooling does not resume until the alert is acknowledged, so the unit can sit apparently dead with nothing wrong with it. Clear the alert and then give it up to ten minutes, because the control deliberately delays the compressor restart. If it still has not started after that, unplug for five minutes and restore power."
+    },
+    {
+      "q": "Why does PO keep coming back when there has been no outage?",
+      "a": "Because the power really is being interrupted, just locally to the refrigerator. The usual suspects are a loose plug in a worn outlet, a GFCI upstream that keeps tripping, or a backed-out terminal screw inside the receptacle. A refrigerator rocking slightly on its rollers every compressor cycle works a tired outlet loose over months. That is an electrician's job."
+    },
+    {
+      "q": "Does the PO alert mean my refrigerator is damaged?",
+      "a": "No. A power cut does not harm the sealed system, and the alert exists to protect your food rather than to report a failure. What a long outage can do is expose a weakness that was already developing, such as a tired start relay, which is why the useful check is whether the unit returns to normal temperature within 24 hours of being restarted."
+    },
+    {
+      "q": "How can I tell if my food thawed while I was away?",
+      "a": "Freeze a cup of water solid, set a coin on top of the ice and leave it in the freezer. If you come back to the coin at the bottom of the cup, everything thawed and refroze while you were out, and the PO alert is only telling you part of the story. It costs nothing and it works whether or not the display remembers the outage."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "What to do, in order, when a Whirlpool fridge shows PO",
+    "labels": {
+      "display": "PO",
+      "c1": "Check freezer and fridge food first",
+      "c2": "Press a panel button to acknowledge",
+      "c3": "Listen for the compressor restarting",
+      "c4": "Find the breaker, GFCI or loose plug"
+    }
+  },
+  "sources": [
+    {
+      "title": "Refrigerator power outage indicator and how to acknowledge it",
+      "publisher": "Whirlpool owner manual and product help documentation",
+      "url": null
+    },
+    {
+      "title": "Whirlpool refrigerator error codes reference, power outage alert",
+      "publisher": "iFixit Whirlpool refrigerator error code wiki",
+      "url": null
+    },
+    {
+      "title": "Guidance on refrigerated and frozen food safety after a power outage",
+      "publisher": "USDA Food Safety and Inspection Service",
+      "url": null
+    },
+    {
+      "title": "Field reports of repeating power outage alerts traced to outlets and GFCIs",
+      "publisher": "Appliance parts retailer guides and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "CF",
+    "6",
+    "E4",
+    "F4"
+  ]
+}

@@ -17,7 +17,7 @@
     {
       "cause": "Choked filter and collapsed airflow",
       "frequency": "most cases",
-      "confirm": "Pull the filter from the back or side grille and hold it to the light. A grey felt mat across the mesh, or no light through it, means airflow has collapsed. This causes sensor codes indirectly, because the sensors end up sitting in air nothing like the room's real condition, and it ices the coil in the process."
+      "confirm": "Pull the filter from the back or side grille and hold it to the light. A gray felt mat across the mesh, or no light through it, means airflow has collapsed. This causes sensor codes indirectly, because the sensors end up sitting in air nothing like the room's real condition, and it ices the coil in the process."
     },
     {
       "cause": "Sensor faults, the E code family including E9, E1 and E2",
@@ -32,7 +32,7 @@
     {
       "cause": "Low room temperature icing the coil",
       "frequency": "common",
-      "confirm": "Look through the grille at the fins behind the filter. White frost or a sheet of ice means the unit has been working in a room too cold for it. On these units the low-temperature defrost condition is generally reported as P2 rather than as an E code, so treat a guide that tells you E9 simply means defrosting with suspicion."
+      "confirm": "Look through the grille at the fins behind the filter. White frost or a sheet of ice means the unit has been working in a room too cold for it. On these units the low-temperature defrost condition is generally reported as P2 rather than as an E code, so treat a guide that tells you E9 just means defrosting with suspicion."
     },
     {
       "cause": "A one-off control glitch after a power event",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Pull and wash the air filter",
-      "detail": "Slide the filter out of the grille on the back or side. Rinse it under a warm tap until water runs clear through the mesh, shake it off and leave it to dry fully before it goes back in. A filter that looks lightly dusty can still be half blocked by the fine grey felt that builds up in a basement. Never run the unit with the filter removed, because the coil loads up with dust instead and that is much harder to clean.",
+      "detail": "Slide the filter out of the grille on the back or side. Rinse it under a warm tap until water runs clear through the mesh, shake it off and leave it to dry fully before it goes back in. A filter that looks lightly dusty can still be half blocked by the fine gray felt that builds up in a basement. Never run the unit with the filter removed, because the coil loads up with dust instead and that is much harder to clean.",
       "minutes": 10,
       "tools": null,
       "warning": null

@@ -89,6 +89,21 @@ a page a technician would respect and one that just sounds confident.
    lowercase b and a 6 are nearly the same glyph, and S and 5 are the same glyph. Where two
    codes on a brand collide that way, say it plainly.
 
+## If a briefing note is wrong, say so and do not write it
+
+Batch notes from the orchestrator are a starting point, not an instruction to assert
+something false. One wave-one note claimed LG refrigerator CL E is usually demo mode and told
+the writer to lead with that. LG's own help library documents CL E as a low-side refrigerant
+leak. The writer refused the note, wrote the real meaning, and was right: a page telling
+someone with a leaking sealed system that their fridge is probably fine would have been the
+single most harmful thing on this site.
+
+So: when a note conflicts with what you find, follow the sources, write the page correctly,
+and say in your report that the note was wrong and why. Where the note's confusion is itself
+a thing readers arrive with, address it on the page. CL on an LG dishwasher really is the
+child lock, which is why the refrigerator confusion exists, so that page answers "could this
+just be the child lock?" directly rather than ignoring it.
+
 ## Output
 
 One file per page at `content/<slug>.json`, matching the schema in `site/lib/schema.py`

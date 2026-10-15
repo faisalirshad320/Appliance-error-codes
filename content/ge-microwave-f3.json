@@ -1,0 +1,177 @@
+{
+  "title": "GE Microwave F3 Error Code: Causes and Fix",
+  "meta_description": "F3 on a GE microwave is a stuck or shorted touchpad: the control reads a key as held down. Unplugging clears it only briefly.",
+  "h1": "GE microwave F3 error code: shorted touch pad explained",
+  "answer": "F3 on a GE microwave means the control board is reading the touch pad as shorted, as though a key is being held down continuously, so it stops responding and displays the fault. The usual cause is moisture or grease that has worked into the membrane keypad, which is why over-the-range units sitting above a cooktop get this far more often than countertop ones. There is a short list of things worth trying from outside the cabinet. The actual repair is a keypad or control board replacement, and that is inside the machine, which on a microwave means a technician.",
+  "severity": "moderate",
+  "can_diy": "no",
+  "time_estimate": "30 minutes to try the free fixes, then a technician",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$150 to $380"
+  },
+  "safety_warning": "The high-voltage capacitor inside a microwave holds a lethal charge after the unit is unplugged, and it does not bleed off reliably on its own. That is not a disclaimer, it is the reason microwave repair is a technician's job and the reason this page stops where it does. Do not remove the outer cabinet, the rear panel or the control panel. The door switches, the keypad ribbon and the control board are all inside, so none of them are a home repair. Unplugging the unit does not make the inside safe.",
+  "causes": [
+    {
+      "cause": "Steam and cooking grease have worked into the membrane keypad",
+      "frequency": "most cases",
+      "confirm": "An over-the-range unit above a cooktop that is used for boiling, frying or steaming. The fault often appears after cooking and clears once the panel has cooled and dried overnight, then comes back. That come-and-go pattern tied to cooking is close to conclusive."
+    },
+    {
+      "cause": "The touch pad has failed with age",
+      "frequency": "most cases",
+      "confirm": "F3 is permanent rather than intermittent, the panel is nine or ten years old, and individual keys had been getting unreliable for months beforehand. Membrane keypads wear out as a matter of course and this is the normal end of one."
+    },
+    {
+      "cause": "Something is physically holding a key down",
+      "frequency": "common",
+      "confirm": "Look along the edges of the panel. A cabinet door that closes against it, a trim screw that has been overtightened, a warped overlay lifting at one corner, or a magnet or note stuck across the keys will all read as a held key. This is the one cause you can genuinely fix yourself in two minutes."
+    },
+    {
+      "cause": "The ribbon cable connector at the control board",
+      "frequency": "occasional",
+      "confirm": "The keypad was recently replaced and F3 came straight back, or the fault started after other work on the unit. A ribbon that is not fully seated or has corrosion on its contacts reads the same as a shorted panel. This is inside the cabinet, so it is a technician check."
+    },
+    {
+      "cause": "The control board itself",
+      "frequency": "occasional",
+      "confirm": "A new keypad was fitted correctly and F3 persists. This is the order it has to be diagnosed in, because the keypad is the cheaper part and the likelier failure, and no honest technician replaces the board first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the microwave for five minutes",
+      "detail": "Pull the plug, or switch off its breaker if you cannot reach it. On an over-the-range unit the outlet is in the cabinet above, with the cord running up through a hole at the back. Leave it off for five full minutes so the control loses its residual charge, then restore power. A one-off F3 caused by a transient does occasionally clear here and never return.",
+      "minutes": 7,
+      "tools": "Step stool",
+      "warning": "Reach the plug or the breaker only. Unplugging does not make the inside of a microwave safe to open, and nothing on this page requires opening it."
+    },
+    {
+      "name": "Check that nothing is pressing on the panel",
+      "detail": "Run a fingertip along all four edges of the control panel and look at it from the side. You are checking for a cabinet door or trim piece bearing on it, an overlay lifting or bubbled at a corner, a screw pulled too tight and distorting the plastic, or anything stuck to the face. Take off magnets, notes and the protective film some people never remove. A held key reads exactly like a short.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the panel face and dry it properly",
+      "detail": "With the power still off, wipe the keypad with a cloth barely dampened with warm water and a drop of dish soap, then go over it again with a dry cloth and leave it to air. Never spray cleaner directly at a control panel, because the liquid runs down behind the overlay and into the exact place causing your problem. Grease films on the surface also make keys read inconsistently.",
+      "minutes": 8,
+      "tools": "Soft cloths",
+      "warning": "No spray bottles anywhere near the panel, and nothing wet enough to drip."
+    },
+    {
+      "name": "Leave it unplugged overnight to dry out",
+      "detail": "If the unit sits over a cooktop and the fault came on after a steamy session of cooking, leave it unplugged with the door open for a full night, or longer in a humid kitchen. Moisture that has got between the membrane layers takes time to leave, and a panel that works again after drying tells you exactly what is wrong even if it eventually fails for good.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test which keys respond and whether the control lock is on",
+      "detail": "Restore power and press each pad in turn, listening for the beep. A panel where a few keys work and the rest do nothing is a failing keypad. A panel that beeps but refuses commands may simply have the control lock on, which on most GE models is cleared by holding the Clear/Off pad for a few seconds. It is worth ruling out before you pay anyone.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note the pattern and get the model number",
+      "detail": "Write down whether F3 is constant or comes and goes, and whether it correlates with cooking on the range below. Then open the microwave door and find the rating plate on the door frame or the inner cabinet edge, and photograph the full model number. A technician quoting a keypad for your exact model over the phone needs that number, and the pattern tells them whether to bring a keypad or a board.",
+      "minutes": 6,
+      "tools": "Flashlight, phone camera",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the panel is clean, nothing is pressing on it, it has had a night to dry and F3 is still there, the fault is genuine and the repair is inside the cabinet. That is where you stop, and it is worth being clear about why rather than leaving it as a vague warning. A microwave's high-voltage capacitor stores enough energy to kill a person, and it stays charged after the unit is unplugged. Technicians discharge it deliberately with an insulated tool before touching anything. There is no careful-enough way to do that for the first time on your own kitchen counter, and the door switches people most often want to get at are right in that area. So the sequence from here is a phone call, not a screwdriver. What you are paying for breaks down like this. The touch pad, sometimes sold as the membrane switch or key panel, typically runs $60 to $180 for the part and is the correct first replacement in the large majority of F3 cases. Fitted, expect $150 to $300 all in. If a new keypad is fitted properly and F3 returns, the control board is next, at $120 to $300 for the part and $250 to $380 finished. That second step is the one to watch, because two parts and two visits can reach the price of a new microwave. Get the technician to confirm on the phone whether their call-out is credited against the work and whether a second visit for a board would be charged again. Then do the arithmetic honestly. On a countertop microwave past about six years old, a keypad repair is borderline and a board repair almost never makes sense. On a built-in or over-the-range unit it usually does, because replacement means matching the cabinet opening, the trim kit and the vent arrangement, and that turns a $200 appliance decision into a $700 one. One last thing worth checking before you spend anything: if the microwave ever starts on its own, runs with the door open, or will not stop when you press Clear, unplug it at the outlet and leave it unplugged until a technician has seen it.",
+  "reset_procedure": "Unplug the microwave at the outlet, or switch off its breaker, and leave it for five full minutes before restoring power. That is the entire reset available on a microwave, and there is no hidden service sequence that does more. It is worth one attempt, because a transient F3 can clear and never return. If the code comes straight back on power-up, or returns within a cooking session, the touch pad is reading as shorted for a real reason and resetting will not change it.",
+  "model_notes": "F3 is reported as a shorted touch pad or key panel across GE's microwave range, including the over-the-range Spacemaker and Profile lines, and the same convention runs through GE's other appliance controls. Two things vary by model. First, some GE units display F3 only after the short has been present continuously for a period rather than instantly, which is why an intermittent panel can take a while to produce a code. Second, GE has used F3 for different things in other appliance categories, so a GE range or wall oven showing F3 is not telling you about a keypad. Check the category before applying any code list. A small number of third-party sources describe microwave F3 as a humidity sensor fault, which does not match the weight of the evidence or the symptoms owners actually report.",
+  "parts": [
+    {
+      "name": "Touch pad, also sold as the membrane switch or key panel",
+      "cost": "$60 to $180",
+      "difficulty": "technician only",
+      "note": "The correct first replacement in most F3 cases. Inside the cabinet, so not a home job"
+    },
+    {
+      "name": "Control board",
+      "cost": "$120 to $300",
+      "difficulty": "technician only",
+      "note": "Only after a correctly fitted keypad has failed to clear the code"
+    },
+    {
+      "name": "Keypad ribbon connector or harness",
+      "cost": "$20 to $60",
+      "difficulty": "technician only",
+      "note": "The cheap outcome. Worth asking a technician to check before ordering either of the above"
+    }
+  ],
+  "when_to_call": "Call once the panel has been cleaned, freed of anything pressing on it, and dried overnight without the code clearing, because everything beyond that point is behind the cabinet and behind the capacitor. When you call, give the full model number from the door frame and say whether F3 is constant or comes and goes with cooking, since that determines whether they bring a keypad or expect a board. Ask three questions: the call-out fee, whether it is credited against the work, and what happens on cost if a keypad does not fix it. Call immediately, and unplug the unit first, if the microwave ever runs on its own, continues running with the door open, or will not stop when you press Clear. Those are not F3 symptoms and they are not something to wait on.",
+  "faqs": [
+    {
+      "q": "What does F3 mean on a GE microwave?",
+      "a": "The control board is reading the touch pad as shorted, as if a key were held down without being released. It stops accepting input and shows the fault. The cause is usually moisture or grease inside the membrane keypad, or occasionally something physically pressing on the panel from outside, which is the one version you can fix yourself."
+    },
+    {
+      "q": "Can I fix an F3 code myself?",
+      "a": "You can try the free things: clean the panel, make sure nothing is bearing on it, unplug it overnight to dry out. You cannot do the actual repair. Replacing a keypad or a control board means opening the cabinet, and a microwave's high-voltage capacitor holds a lethal charge after unplugging. That is a genuine hazard, not a liability warning."
+    },
+    {
+      "q": "Why is a microwave different from other appliances I have fixed?",
+      "a": "The high-voltage capacitor. It stores enough energy to kill and stays charged after the unit is unplugged, so technicians discharge it deliberately before touching anything inside. On a washer or a dishwasher, pulling the plug makes the machine safe. On a microwave it does not, and that single difference is why door switches and keypads are off limits."
+    },
+    {
+      "q": "Can I still use the microwave with F3 showing?",
+      "a": "Generally not, because the control stops responding to the keypad. If the unit does still run but behaves oddly, starts without being told to, or will not stop on Clear, unplug it at the outlet and leave it unplugged until a technician has seen it. A microwave that will not obey its own stop command is not something to live with."
+    },
+    {
+      "q": "Why did F3 start after I was cooking on the stove below?",
+      "a": "Steam. An over-the-range microwave sits directly in the plume from the cooktop, and moisture works into the membrane keypad over years of boiling and frying. The classic pattern is F3 appearing during or after cooking and clearing once the panel cools and dries. Running the vent fan while you cook genuinely slows this down."
+    },
+    {
+      "q": "I replaced the touch pad and F3 came back. What now?",
+      "a": "Either the ribbon cable is not fully seated at the control board, or the board itself is the fault. Have the connector checked before anything else is ordered, since that is the cheap outcome. If the ribbon is good and seated, the board is next at $120 to $300 for the part, which is the point to weigh against a new microwave."
+    },
+    {
+      "q": "Is an F3 repair worth it or should I replace the microwave?",
+      "a": "Depends which kind you have. On a countertop unit past about six years, a $200 keypad repair is borderline and a board repair rarely makes sense. On an over-the-range or built-in model it usually is worth it, because replacing means matching the cabinet opening, trim kit and venting, which costs far more than the repair."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What F3 is reading, and where the safe checks stop",
+    "labels": {
+      "display": "F3",
+      "c1": "Membrane keypad, steam damage",
+      "c2": "Panel edges, nothing pressing",
+      "c3": "Ribbon to the control board",
+      "c4": "Capacitor inside, technician only"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE microwave and range fault code reference, key panel shorted",
+      "publisher": "GE appliance service fault code documentation",
+      "url": null
+    },
+    {
+      "title": "F3 microwave error code troubleshooting, membrane keypad short circuits",
+      "publisher": "Appliance Parts Pros repair guidance",
+      "url": null
+    },
+    {
+      "title": "Owner reports on GE microwave F3, keypad replacement and recurrence",
+      "publisher": "Appliance Parts Pros community forum threads",
+      "url": null
+    },
+    {
+      "title": "High-voltage capacitor discharge procedure and microwave service safety",
+      "publisher": "Appliance repair trade training references",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "PF",
+    "F1",
+    "F2"
+  ]
+}

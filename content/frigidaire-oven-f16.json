@@ -1,0 +1,122 @@
+{
+  "title": "Frigidaire Oven F16 Error Code: Causes and Fix",
+  "meta_description": "F16 on a Frigidaire oven points at the control and display boards failing to talk to each other. Start with a full power cycle at the breaker.",
+  "h1": "Frigidaire oven F16 error code: what it means and how to fix it",
+  "answer": "F16 is a communication fault between the boards that run a Frigidaire oven: the control cannot read what the user interface is telling it, most often the position of the knobs or dials. It is worth saying plainly that F16 is thinly documented. Frigidaire does not publish a public description of it, most technician references describe it as the interface board failing to read the potentiometers or the two boards losing communication, and one source instead calls it a temperature sensor fault, which does not match the rest. The one step everybody agrees on is a full power cycle at the breaker, and it clears a meaningful share of them.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to try a reset, 1 to 2 hours beyond that",
+  "cost_estimate": { "diy": "$0 to $250", "technician": "$180 to $450" },
+  "safety_warning": "The rear of an electric Frigidaire range carries 240 volts at the terminal block whether or not the oven is switched on at the panel, and both boards behind the fascia are live. Switch off the double breaker before any panel comes off and confirm the oven is dead before putting your hands in. On a gas range the burners, gas valve and igniter circuit are licensed trade work.",
+  "causes": [
+    {
+      "cause": "A transient fault that clears with a proper power cycle",
+      "frequency": "most cases",
+      "confirm": "The code clears when you kill power at the breaker for five minutes and does not come back over the following days. Communication faults are frequently triggered by a brownout, a surge or a momentary dropout, and the boards come back talking to each other once they restart together."
+    },
+    {
+      "cause": "The ribbon or harness between the control and the display board",
+      "frequency": "common",
+      "confirm": "The code returns on power-up but the oven behaves normally for a while before it appears, or the display flickers. With the breaker off, check the connectors at both ends for a cable not fully seated, a browned patch where it crosses a bracket, or a pin backed out of its housing."
+    },
+    {
+      "cause": "A knob potentiometer that the interface cannot read",
+      "frequency": "common",
+      "confirm": "Applies to models with rotary knobs rather than a pure touch panel. The code appears when a knob is turned, or one particular knob does nothing while the others work. The interface reads these as variable resistors and a worn or dirty one reads as out of range."
+    },
+    {
+      "cause": "Moisture or grease behind the fascia",
+      "frequency": "occasional",
+      "confirm": "The code started after a boil-over, a steamy session or a wet clean of the panel. Leave the range off at the breaker in a dry room overnight and try again. This costs nothing and genuinely clears some of them, which is why it is worth doing before ordering a board."
+    },
+    {
+      "cause": "The user interface or display board has failed",
+      "frequency": "occasional",
+      "confirm": "The code returns immediately on every power-up, the harness is sound at both ends, and the display is dim, partly dead or showing segments that should not be lit. On ranges with a separate interface board this is the cheaper of the two board replacements."
+    },
+    {
+      "cause": "The main control board has failed",
+      "frequency": "rare",
+      "confirm": "A new interface board changed nothing and the harness measures through. This is the last and most expensive answer, and it should only be reached by elimination rather than chosen first because the code mentions communication."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker for five minutes",
+      "detail": "Switch the range off at the double breaker in the consumer panel, not at the oven's own controls, and leave it a full five minutes so both boards fully discharge and restart together. Turning the oven off at the panel leaves the control powered and will not reset anything. This single step clears a large share of F16s.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Watch what happens over the next few days",
+      "detail": "If the code clears on power-up, use the oven normally and keep an eye on it. An F16 that never returns was a transient, which is the most likely outcome and costs nothing. An F16 that comes back within hours or on every power-up is a live fault and is worth working on. Note whether it appears when a knob is turned.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try each knob and button in turn",
+      "detail": "On a model with rotary knobs, turn each one slowly through its full travel and watch whether the code appears with one in particular. On a touch model, press each key and look for one that does nothing or gives no beep. Finding one control that behaves differently from the rest points straight at the interface rather than the main board.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Dry the panel out if moisture is plausible",
+      "detail": "If the code appeared after a boil-over, a wet clean or a steamy cooking session, leave the range off at the breaker overnight in a dry room with the kitchen ventilated. Wipe the fascia with a barely damp cloth and dry it thoroughly, including the seams around the knobs where liquid runs in. Then restore power and retest.",
+      "minutes": 15,
+      "tools": "Soft cloth",
+      "warning": null
+    },
+    {
+      "name": "Check the harness between the two boards",
+      "detail": "With the breaker off, take the rear access panel off a freestanding range or the trim above the door on a wall oven. Find the ribbon or multi-way plug linking the user interface board behind the fascia to the main control. Unplug and reseat each end squarely, and look for a browned or creased section where the cable crosses a metal edge.",
+      "minutes": 30,
+      "tools": "Nut driver or Phillips screwdriver, flashlight",
+      "warning": "Breaker off first. There is 240 volts at the terminal block behind an electric range even with the oven switched off."
+    },
+    {
+      "name": "Identify which boards your model actually has",
+      "detail": "Look up your full model number on a parts site and see whether the range is listed with a separate user interface board and main control, or with one combined board. Frigidaire does both. Knowing this before you call changes the quote and stops you being sold the expensive part when the cheap one is the likely culprit.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a proper breaker reset does not hold, work this one by elimination and start from the position that F16 is poorly documented, so nobody including this page can tell you with certainty which board is at fault. The free steps first: reseat both ends of the harness between the interface and the control, check for a browned patch where it crosses a bracket, and give the range a night off at the breaker if there has been any moisture near the fascia. Then narrow it by behavior. If the code appears when you turn one particular knob, or one knob does nothing while the rest work, the interface board and its potentiometers are the suspect and that is usually the cheaper of the two boards. If the display itself is dim, partly dead or lighting segments it should not, the same conclusion follows. If the oven behaves normally for a while and then drops into F16 with no pattern, favor the harness over either board, because an intermittent connection looks exactly like a board fault and costs nothing to rule out. Only when the harness is sound and the interface has been eliminated does the main control board become the answer, and on a Frigidaire range that part is often well over a hundred dollars before anyone touches it. Before committing, get the full model number off the tag inside the oven door frame, find out whether your model splits the boards or combines them, and price both. On a range that is already ten years old and has had other faults, the combined-assembly case is frequently the point where a new range is the better buy. Do not let the word communication in the code description push you straight to the main board, because the cable and the interface sit in front of it and are far more likely.",
+  "reset_procedure": "Switch the range off at the double breaker, leave it a full five minutes so both boards discharge and restart together, then switch it back on. Turning the oven off at its own controls does not reset anything because the control stays powered. This is the step most likely to clear F16 outright, so do it properly before concluding anything.",
+  "model_notes": "F16 is thinly documented and the available descriptions do not fully agree. Most technician references put it in the control and user interface group, describing either a failure to read the knob potentiometers or a loss of communication between the main control and the display board, which is consistent with the Frigidaire convention that F1x codes are control faults. One source instead describes it as a temperature sensor problem, which conflicts with the rest and with the numbering convention, so treat that reading as the outlier. If your model's own service data sheet, usually tucked behind the lower drawer or the rear panel, lists F16, believe it over any general guide. Kenmore ranges and wall ovens with a model number starting 790 are Frigidaire-built and show the same code.",
+  "parts": [
+    { "name": "User interface or display board", "cost": "$90 to $250", "difficulty": "hard", "note": "The cheaper board where your model has two; try it before the main control" },
+    { "name": "Interface to control ribbon or harness", "cost": "$20 to $60", "difficulty": "moderate", "note": "Worth reseating before replacing; often just unseated rather than faulty" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "hard", "note": "Last by elimination, not first because the code says communication" }
+  ],
+  "when_to_call": "Call someone if a full breaker reset does not hold and reseating the harness changes nothing, because the remaining answer is a board and which board it is cannot be settled from the outside on a code this thinly documented. Ask the technician to check the interface and the harness before quoting for the main control, and get the model number ready so they can tell you whether your range has one board or two. Call sooner if the oven does anything unprompted, such as heating when it has not been asked to, since a control that has lost touch with its interface should not be left in service. On a gas range this circuit is electrical and the same applies, but leave the gas side to a licensed technician.",
+  "faqs": [
+    { "q": "What does F16 mean on a Frigidaire oven?", "a": "It points at the boards that run the oven failing to communicate, most often the interface being unable to read the knob positions. Frigidaire does not publish a public description, so this comes from technician references rather than the manufacturer. A full power cycle at the breaker is the agreed first step and clears a good share of them." },
+    { "q": "Will a reset fix F16?", "a": "Often, yes. Communication faults are frequently triggered by a brownout, a surge or a momentary power dropout, and the boards come back working once they restart together. Switch the range off at the double breaker for five minutes rather than using the oven's own controls, which leaves the board powered and resets nothing." },
+    { "q": "Can I still use the oven with an F16 code?", "a": "Not reliably, and it is better not to. The control may not be reading what you set, so temperatures and timers cannot be trusted. There is no immediate hazard in leaving the range powered, but if the oven ever heats without being asked to, switch it off at the breaker and leave it off until someone has looked at it." },
+    { "q": "Why do different sites give different meanings for F16?", "a": "Because Frigidaire does not publish one, so sites are inferring from the numbering convention and from field experience. Most land on a control or interface communication fault, which fits the convention that F1x codes are control faults. One calls it a temperature sensor issue, which fits nothing else, so treat that as the outlier." },
+    { "q": "Which board do I need, the display or the main control?", "a": "Narrow it by behavior before buying either. If one knob misbehaves or the display is dim or showing wrong segments, the interface board is the suspect and it is usually cheaper. If the fault is intermittent with no pattern, suspect the harness between them first, because an intermittent connection looks exactly like a failed board." },
+    { "q": "Is an F16 repair worth it on an older range?", "a": "Get the part price before you decide. If your model has a separate interface board, that is often a sensible repair. If the boards come as one combined assembly on a range already ten years old with a history of other faults, the quote frequently gets close enough to a new range that replacing it is the better call." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The two boards behind an F16, and the cable that links them",
+    "labels": {
+      "display": "F16",
+      "c1": "Breaker off before any panel",
+      "c2": "Reseat the interface harness, both ends",
+      "c3": "Knob potentiometers on the interface",
+      "c4": "Main control, last by elimination"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Newer Frigidaire range fault codes reference", "publisher": "ApplianceAid technician reference", "url": null },
+    { "title": "Technician question and answer threads on F16 on Frigidaire and Kenmore ovens", "publisher": "JustAnswer appliance technician threads", "url": null },
+    { "title": "Field reports on F16 interface board and harness substitution", "publisher": "AppliancePartsPros community answers", "url": null }
+  ],
+  "related_codes": ["F11", "F10", "F31", "F050", "F13"]
+}

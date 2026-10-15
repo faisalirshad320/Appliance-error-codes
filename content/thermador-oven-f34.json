@@ -1,0 +1,118 @@
+{
+  "title": "Thermador Oven F34 Error Code: Cooling Fan or Latch",
+  "meta_description": "Thermador F34 is read two ways: a cooling fan or airflow fault, and a door lock fault. One listening test at the vent separates them in five minutes.",
+  "h1": "Thermador oven F34 error code: what it means and how to fix it",
+  "answer": "F34 is a code the published sources read two different ways, and it is worth knowing that before you spend anything. Most references tie it to the cooling fan, where the control cannot confirm the fan is moving air within the time it allows after the oven starts heating. One widely read source instead describes it as a door lock fault around the self-clean cycle. The two are easy to tell apart without a meter: run the oven for ten minutes and put your hand near the vent above the door. Air moving means the fan is fine and you are looking at the lock side; no air means the fan or its sensing circuit, which is the reading most sources support.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to identify, 1 to 3 hours to repair",
+  "cost_estimate": { "diy": "$0 to $180", "technician": "$200 to $450" },
+  "safety_warning": "An oven that runs without its cooling fan puts heat into the cabinetry and the control electronics rather than out of the vent. Stop using it until this is settled. Any work behind the panels means mains wiring, and on a gas model the supply line, so switch off at the breaker first and leave gas connections to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The cooling fan is not running or not moving enough air",
+      "frequency": "most cases",
+      "confirm": "Run the oven on bake for ten minutes and hold your hand a few inches from the vent slot above the door. A working cooling fan produces a clear, steady flow of warm air you cannot miss. Nothing coming out, or a faint drift, is the fault. You should also hear the fan as a constant background whirr distinct from the burner or element."
+    },
+    {
+      "cause": "The airflow sensing circuit is not confirming the fan",
+      "frequency": "common",
+      "confirm": "You can hear the fan running and feel air at the vent, and F34 appears anyway. The fan is doing its job but the control is not receiving confirmation, which puts the fault in the sensing circuit or its wiring rather than the fan motor."
+    },
+    {
+      "cause": "The vent path is blocked",
+      "frequency": "common",
+      "confirm": "Look into the vent slot above the door with a flashlight for debris, foil or a buildup of grease, and check the oven has the clearances the installation requires. A built-in squeezed into a tight cabinet with blocked intakes starves the fan, and the control reads the result rather than the cause."
+    },
+    {
+      "cause": "The self-clean door lock is not completing its travel",
+      "frequency": "occasional",
+      "confirm": "This is the alternative reading of F34 and the one to check if the fan is clearly working. The giveaway is a latch motor you can hear running without the hook moving, or a code that only ever appears around a clean cycle rather than during normal baking."
+    },
+    {
+      "cause": "A wiring or control board fault",
+      "frequency": "occasional",
+      "confirm": "The fan runs, air moves, the latch travels properly and F34 persists. Check the connectors at the fan and the control for heat damage or a backed-out pin before accepting that the board is at fault."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Stop using the oven until you know which fault it is",
+      "detail": "If the cooling fan is genuinely not running, every hour of cooking pushes heat into the cabinet and the control electronics instead of out through the vent. That turns a fan repair into a control repair. Leave the oven off while you work through the checks below rather than using it between attempts.",
+      "minutes": 1,
+      "tools": null,
+      "warning": "Do not keep cooking with a suspected cooling fan fault. The heat has to go somewhere, and without the fan it goes into the cabinetry and the electronics."
+    },
+    {
+      "name": "Run the test that separates the two readings",
+      "detail": "Set the oven to bake at a moderate temperature and leave it ten minutes. Then hold your hand four to six inches from the vent slot above the door, and listen with the kitchen quiet. A healthy cooling fan gives a constant whirr and a flow of warm air you can clearly feel. Air moving means the fan side is fine and you should check the lock. No air means the fan or its sensing circuit, which is what most sources describe. Cancel and switch off afterward.",
+      "minutes": 15,
+      "tools": null,
+      "warning": "Keep your hand clear of the vent slot itself. The air coming out of it is hot enough to scald."
+    },
+    {
+      "name": "Power cycle at the breaker",
+      "detail": "Switch the oven off at its circuit breaker for five minutes, then back on. Give it the full five minutes rather than a quick flick, because the control holds residual charge and a short interruption often leaves the stored code in place. This clears the F34 codes left behind by a one-off stall or a brownout, which is the only free outcome available here.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the vent path and the installation clearances",
+      "detail": "Shine a flashlight into the vent slot above the door and look for grease buildup, foil, or anything dropped in. Then check around the unit: a built-in oven needs the air gaps its installation instructions specify, and a cabinet that has been rebuilt or a filler strip added since installation can choke the intake. Clearing an obstruction is free and it is the cheapest possible outcome.",
+      "minutes": 20,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the latch if the fan is clearly working",
+      "detail": "With the oven cool and empty, start a self-clean and listen at the top of the door for the first minute, then cancel before it heats. A working latch gives a motor whirr and a solid clunk as the hook travels. A buzz with no movement, or silence, puts the fault on the lock side and matches the alternative reading of this code. Check the slot the hook passes through for baked-on spill while the door is open.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "Cancel the clean cycle before the oven heats, and never force or dismantle a locked door while the cavity is hot."
+    },
+    {
+      "name": "Inspect the fan and its connector",
+      "detail": "Switch off at the breaker. Depending on the model the cooling fan is reached through the rear panel or from above after the oven is slid out of its cabinet, which on a Thermador wall oven usually means removing the trim screws in the front frame first. Check the fan blade spins freely by hand and is not fouled by a stray wire or packing material, and look at its connector for a backed-out pin or a shell browned by heat.",
+      "minutes": 45,
+      "tools": "Torx and Phillips screwdrivers, flashlight",
+      "warning": "Breaker off before any panel comes off. These are mains circuits and some terminals stay live with the oven switched off at its own controls."
+    }
+  ],
+  "still_showing": "Thermador publishes very little about its fault codes publicly, so the honest position with F34 is that you are choosing between two readings and the listening test is what decides. Work it in this order. First, settle the fan question definitively, because everything else follows from it. If you can feel air at the vent after ten minutes of baking, the fan motor is turning and the fault is either in the circuit that confirms it to the control, or on the lock side entirely. If you cannot, the fan or its power supply is the problem and it needs fixing before the oven is used again, because the heat it should be removing is going into your cabinetry. Second, check the obstruction and clearance angle properly, since it is free and it is the only outcome that costs nothing. An oven refitted into a rebuilt cabinet without its specified air gaps will throw airflow faults forever and no part will fix it. Third, if the fan runs and the latch travels and the code still appears, you are into the sensing circuit or the control, and that is where the cost jumps hard on Thermador. These are premium appliances and the boards are priced accordingly, so get the quote in writing and ask specifically which part is being replaced and why. Fourth, and this matters more here than on most brands: insist the technician works from the model-specific service documentation rather than a published code list. Thermador's F-codes are not consistently documented in public sources, the difference between the two readings of F34 is the difference between a fan and a latch, and a technician guessing from the same thin material you have is not worth the call-out. The tech sheet is usually tucked inside the unit, and it outranks anything published online including this page.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes, then restore it. Thermador controls hold residual charge, so a quick off and on frequently leaves the stored code showing even after the underlying condition has gone. This reset clears a code left by a one-off fan stall or a power glitch. If F34 returns as soon as the oven starts heating, the condition is live and resetting again will not help.",
+  "model_notes": "Thermador publishes less about its fault codes than most brands, and F34 is a clear example of the consequences. Several independent references describe it as the upper oven cooling fan failing to be confirmed within a set time after it should have started, and one of them frames it specifically as an air switch circuit not completing. A separate widely read repair source describes the same code as a cleaning door lock problem where the latch motor spins without engaging. Both readings appear in sources that look authoritative, and nothing public settles it. On double ovens the code is generally associated with the upper cavity. Treat the number as a pointer to the fan and lock circuits rather than a precise diagnosis, and use the tech sheet inside your own unit as the authority.",
+  "parts": [
+    { "name": "Oven cooling fan or blower motor", "cost": "$90 to $220", "difficulty": "hard", "note": "Access varies a lot by model; often means sliding the oven out of its cabinet" },
+    { "name": "Door latch assembly", "cost": "$70 to $180", "difficulty": "moderate", "note": "Only if the listening test points at the lock rather than the fan" },
+    { "name": "Fan or latch wiring connector", "cost": "$15 to $40", "difficulty": "moderate", "note": "For a plug browned by heat rather than a failed component" },
+    { "name": "Oven control board", "cost": "$250 to $600", "difficulty": "technician only", "note": "Last resort on a Thermador, and expensive; get the quote in writing" }
+  ],
+  "when_to_call": "Call a Thermador-authorized technician for anything beyond the listening test and clearing an obstruction, and say up front which way the test came out, because that saves them an hour and you the money. Insist they work from the service documentation for your model rather than a general code list, since the public sources contradict each other on what F34 means and you are paying for a diagnosis, not a guess. Call immediately rather than continuing to cook if no air comes out of the vent while the oven is hot, because the heat that should be leaving through the vent is going into the cabinet and the electronics instead. And on a gas model, leave anything near the supply line to a licensed technician.",
+  "faqs": [
+    { "q": "What does F34 mean on a Thermador oven?", "a": "The sources disagree. Most describe it as a cooling fan or airflow fault, where the control cannot confirm the fan is moving air after the oven starts heating. One widely read source describes it as a self-clean door lock fault instead. Running the oven ten minutes and feeling for air at the vent tells you which one you have." },
+    { "q": "Can I still use the oven with F34 showing?", "a": "Not until you know whether the cooling fan is running. If it is not, every hour of use pushes heat into the surrounding cabinetry and the control electronics rather than out of the vent, which turns a fan repair into a much more expensive one. Do the vent test first and leave the oven off in the meantime." },
+    { "q": "Where is the cooling fan on a Thermador oven?", "a": "Behind the control area, venting through the slot above the door. It is a separate fan from the convection fan inside the cavity, and its job is to keep the electronics and the surrounding cabinetry cool rather than to circulate cooking air. Reaching it usually means removing a rear panel or sliding the unit out of its cabinet." },
+    { "q": "Why does the fan keep running after I turn the oven off?", "a": "That is normal and not related to the fault. The cooling fan runs on after a cycle until the cavity and the electronics have cooled, which can be twenty minutes or more after a high-temperature bake. A fan that runs on is a working fan, which is useful information if you are trying to decide which reading of F34 applies." },
+    { "q": "Why is Thermador documentation on this code so thin?", "a": "Thermador publishes far less fault code information publicly than mass-market brands, so most of what circulates comes from repair companies compiling their own lists, and those lists disagree. The authoritative document for your oven is the tech sheet supplied inside the unit, which a technician will work from and which outranks any published list." },
+    { "q": "Is an F34 repair worth it?", "a": "On a Thermador, usually yes, because these are expensive appliances that are generally worth maintaining. The cost depends entirely on which way the diagnosis falls: an obstruction is free, a latch is modest, a cooling fan is a few hundred with labor, and a control board is the one worth getting in writing before you approve it." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Checking Thermador cooling airflow at the vent above the door",
+    "labels": {
+      "display": "F34",
+      "c1": "Vent slot above the oven door",
+      "c2": "Feel for air after ten minutes",
+      "c3": "Cooling fan behind the controls",
+      "c4": "Cabinet clearances around the unit"
+    }
+  },
+  "sources": [
+    { "title": "Thermador oven and range fault code references, cooling fan reading", "publisher": "Appliance repair trade code references", "url": null },
+    { "title": "Thermador oven fault code references, door lock reading", "publisher": "Appliance repair company code guide", "url": null },
+    { "title": "Thermador service documentation and the tech sheet supplied inside the unit", "publisher": "Thermador service literature", "url": null },
+    { "title": "Technician discussion of Thermador F34 on double ovens", "publisher": "Appliance Parts Pros community forum", "url": null }
+  ],
+  "related_codes": ["F7", "F34 upper", "F1"]
+}

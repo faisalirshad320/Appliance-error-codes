@@ -44,8 +44,11 @@ STOP = {"code","codes","error","errors","fault","list","pdf","chart","on","a","t
         "loader","washing","machine","elite","series","diagnostic","binary","combo","in",
         "is","why","for","and","no","not","it","still","inverter","side","test",
         "unlock","bespoke","profile","cafe","gallery","thinq","gold","gas"}
-# Tokens that look like codes but are really words in these queries.
-NOT_A_CODE = {"he","xl","4t","e9"} - {"e9"}
+# Tokens that look like codes but are usually words. "he" is the awkward one: on washers it
+# means high-efficiency, but on Samsung dryers HE is a real heating fault, so the exclusion
+# is scoped to the appliance rather than applied everywhere.
+NOT_A_CODE = {"xl", "4t"}
+NOT_A_CODE_FOR = {"he": {"washer"}}
 
 def parse(kw):
     k = kw.lower()
@@ -64,7 +67,9 @@ def parse(kw):
         if m:
             code = re.sub(r"[\s-]+", "", m.group(1)).upper()
             break
-    if code and code.lower() in NOT_A_CODE: code = None
+    if code and (code.lower() in NOT_A_CODE
+                 or appliance in NOT_A_CODE_FOR.get(code.lower(), set())):
+        code = None
     if brand in BRAND_ALIAS: brand = BRAND_ALIAS[brand]
     return brand, appliance, code
 

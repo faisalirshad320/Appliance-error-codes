@@ -1,0 +1,130 @@
+{
+  "title": "Bosch Oven E011 Error Code: Stuck Key, and the Fix",
+  "meta_description": "E011 on a Bosch oven means the control sees a key held down, so it stops heating. Clean and dry the touch panel, then press each key to find the stuck one.",
+  "h1": "Bosch oven E011 error code: what it means and how to fix it",
+  "answer": "E011 means the control has seen one of the touch keys held down continuously for several seconds, decided someone is leaning on the panel or a key has failed closed, and stopped heating as a safety measure. The usual cause is not a broken part at all: grease, cleaning spray or condensation sitting on or under the glass makes the panel read a permanent press. Wipe the panel down, dry it thoroughly, kill the breaker for ten minutes, and press each key in turn to find the one that no longer responds normally.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes to 1 hour",
+  "cost_estimate": { "diy": "$0 to $30", "technician": "$180 to $450" },
+  "safety_warning": "Everything behind the control panel is at mains voltage, and on a Bosch wall oven the panel assembly is awkward and heavy. Switch the oven off at the breaker before removing any fastener, and verify it is dead before touching anything. Do not tape over, jam or otherwise defeat a key or a door lock to stop the code appearing.",
+  "causes": [
+    {
+      "cause": "Moisture or grease on the touch panel",
+      "frequency": "most cases",
+      "confirm": "The code turned up after cooking something steamy, after cleaning the front, or after a self-clean cycle. Capacitive keys respond to anything conductive sitting on the glass, and a film of cleaning spray or condensation reads exactly like a finger that never lifts."
+    },
+    {
+      "cause": "A key that has failed closed",
+      "frequency": "common",
+      "confirm": "Press every key in turn and watch for the beep and the display response. One key that does nothing at all, or one that behaves differently from its neighbours, is the one the control is stuck on. On a panel with physical buttons, look for one sitting lower than the rest."
+    },
+    {
+      "cause": "Steam escaping past the door seal onto the panel",
+      "frequency": "common",
+      "confirm": "The code shows up reliably during long roasts or anything with a lot of liquid, and never on a dry bake. Run a finger along the door gasket for a gap, a flattened section or a piece that has pulled out of its clip. Vapour tracking up the front and onto the controls is the mechanism."
+    },
+    {
+      "cause": "A loose or contaminated ribbon cable",
+      "frequency": "occasional",
+      "confirm": "Cleaning and a reset make no difference, and the panel is sometimes partly unresponsive rather than fully dead. The flat ribbon between the touch glass and the control board works loose with thermal cycling, and the contacts pick up a film that reads as a held key."
+    },
+    {
+      "cause": "The touch control board has failed",
+      "frequency": "occasional",
+      "confirm": "The panel is clean and dry, no key is physically stuck, the ribbon is seated, and E011 returns within seconds of every reset. At that point the fault is in the electronics behind the glass rather than in anything you can clean."
+    },
+    {
+      "cause": "A temperature sensor fault reported under the same code",
+      "frequency": "rare",
+      "confirm": "This is the contested reading. Treat it as live only if the oven also heats badly: no heat at all, or wild overshoot. If the oven heats correctly whenever it will start, the sensor is not your problem and chasing it wastes money."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clean and dry the whole control panel",
+      "detail": "Wipe the glass with a barely damp cloth and then dry it completely with a second cloth, including the edges where the glass meets the trim. Do not spray cleaner directly at the panel; spray the cloth instead, because liquid runs down behind the glass and causes exactly this fault. Give it ten minutes to dry out before testing.",
+      "minutes": 10,
+      "tools": "Two soft cloths",
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker for ten minutes",
+      "detail": "Switch the oven off at the breaker rather than at the control, and leave it off for a full ten minutes so any residual charge in the board drains and the panel re-reads its keys from scratch at power-up. Restore power and watch whether E011 reappears immediately or only when you press something.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Press every key one at a time",
+      "detail": "Work along the panel pressing each key separately and noting what happens. You are looking for the odd one out: a key that gives no beep, one that triggers something else, or one that needs much harder pressure than its neighbours. That key is what the control is reading as held. Write down which one it is before you call anybody; it shortens the visit.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Settle which fault you actually have",
+      "detail": "This is the step that saves money, because two different faults get reported under this code. Set a plain bake and see whether the oven will start and hold temperature. An oven that heats correctly whenever it starts has a key or panel problem, and the sensor is irrelevant. An oven that will not heat at all, or runs wildly hot, is pointing at the temperature sensor instead and the rest of the panel work is wasted.",
+      "minutes": 20,
+      "tools": "Oven thermometer",
+      "warning": null
+    },
+    {
+      "name": "Check the door seal for escaping steam",
+      "detail": "With the oven cold, run a finger all the way round the gasket feeling for a flattened length, a tear, or a section unclipped from the door. Close the door onto a sheet of paper at several points around the opening; it should grip firmly everywhere. A seal that leaks vapour up the front of the oven puts condensation on the touch panel on every wet cooking job.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reseat the ribbon cable behind the panel",
+      "detail": "Breaker off and confirmed dead. Open the oven door and remove the fasteners along the underside of the control panel trim, supporting the panel as it comes free; on a wall oven it is heavier than it looks and the cables are short. Release the flat ribbon connector by lifting its retaining tab rather than pulling the cable, check the contacts for a greasy film, wipe them with a dry lint-free cloth, and push it fully home until the tab latches.",
+      "minutes": 35,
+      "tools": "Torx set, Phillips screwdriver, lint-free cloth",
+      "warning": "Breaker off and verified dead. Mains wiring sits immediately behind this panel."
+    },
+    {
+      "name": "Test the oven sensor without a reference value",
+      "detail": "Only do this if the heating test pointed here. Breaker off. Unplug the sensor connector, put a meter on ohms across the sensor pins and note the cold reading. Warm the probe in the cavity with a hairdryer for a minute and read again. An oven temperature sensor should read higher as it warms. A value that will not move, or an open circuit, condemns it, and you never need to know the correct figure for your model.",
+      "minutes": 25,
+      "tools": "Multimeter, hairdryer, nut driver",
+      "warning": "Breaker off before opening any panel to reach the sensor connector."
+    }
+  ],
+  "still_showing": "If the panel is clean and dry, a ten minute breaker reset has not held, and no key is obviously stuck, work through it in this order. First, settle which of the two readings applies, because the sources genuinely disagree and the repairs have nothing in common. Set a plain bake: an oven that starts and holds temperature properly has a key or panel fault and nothing is wrong with its sensor; an oven that will not heat or runs wildly off has a heating problem and the panel work is a distraction. Second, if it is the panel, go after the ribbon cable before the board, because it costs nothing. With the breaker off, drop the control panel, lift the connector tab, wipe the flat contacts with a dry lint-free cloth and reseat it until the tab latches. Thermal cycling works these loose over years and a greasy film on the contacts reads exactly like a held key. Third, check the door gasket, because an oven that puts steam on its own control panel will keep doing this however many times you clean it, and a gasket is a cheap part. Fourth, if the code returns within seconds of every reset with a clean panel and a seated ribbon, the touch control board has failed and that is where the cost jumps: on a Bosch wall oven the panel assembly is a significant part and the labour is awkward, so expect a few hundred dollars and get it in writing. One thing worth knowing before you spend: if your model has a key test in its service mode, a technician can confirm the stuck key in a couple of minutes rather than replacing the board on suspicion. Ask for that test by name when you book.",
+  "reset_procedure": "Switch the oven off at the breaker, not at the control panel, and leave it off for ten minutes so the board fully discharges and re-reads the keypad at power-up. Restore power and watch what happens before touching anything: a code that reappears on its own within seconds points at a failed key or board, while one that only returns when you press a particular key tells you exactly which key is the problem.",
+  "model_notes": "The documentation on this code is thinner than it looks and the sources are not unanimous. Most references, and the behavior owners actually report, describe E011 as a stuck or continuously held touch key, with heating stopped deliberately as a safety response. One widely circulated repair page instead calls it an open or disconnected temperature sensor, and that same page contradicts itself by listing the code as a touch sensor failure in its own table. Rather than pick a side, use the heating test above: if the oven heats correctly whenever it will start, you have the key fault. Bosch also shares control platforms with Thermador and Gaggenau, so the same code appears on those with the same meaning.",
+  "parts": [
+    { "name": "Touch control panel assembly", "cost": "$200 to $500", "difficulty": "technician only", "note": "Confirm with a service-mode key test before buying this" },
+    { "name": "Ribbon cable between panel and control board", "cost": "$20 to $60", "difficulty": "hard", "note": "Try reseating and cleaning the contacts first; it is often free" },
+    { "name": "Oven door gasket", "cost": "$40 to $100", "difficulty": "moderate", "note": "Only if steam is reaching the panel past a failed seal" },
+    { "name": "Oven temperature sensor", "cost": "$30 to $70", "difficulty": "moderate", "note": "Only if the heating test pointed at the sensor rather than the panel" }
+  ],
+  "when_to_call": "Call a technician once the panel is clean, the breaker reset has not held, and the ribbon has been reseated, because the next step is a service-mode key test and then a control panel assembly, which is the expensive part on these ovens. Ask specifically whether they will run the key test before quoting a board; a stuck key can be confirmed in minutes and it is worth knowing whether you are paying for a diagnosis or a guess. Call sooner if the oven ever heats when you have not asked it to, if the display behaves erratically on its own, or if you can see scorching or smell hot plastic around the controls, since all three mean switching off at the breaker and leaving it off.",
+  "faqs": [
+    { "q": "Can I still use my Bosch oven with an E011 code?", "a": "Not for cooking. The control stops heating on purpose when it thinks a key is held, because it cannot tell the difference between a failed key and someone leaning on the panel. That is the safety response working rather than failing. Clean and dry the panel and reset at the breaker; a surprising number clear at that point and never return." },
+    { "q": "Why did E011 appear right after I cleaned the oven front?", "a": "Because cleaning spray ran down behind the glass. Capacitive touch keys respond to anything conductive resting on the panel, and a film of liquid reads exactly like a finger that never lifts. Spray the cloth rather than the panel in future. Give it a thorough dry, leave it ten minutes, and reset at the breaker before assuming anything has broken." },
+    { "q": "Does E011 mean the touch panel needs replacing?", "a": "Usually not. Most of these clear with a clean, a dry and a ten minute breaker reset, and the next most common fix is reseating the ribbon cable, which costs nothing. Only treat the panel as failed when it is clean, no key is stuck, the ribbon is seated, and the code returns within seconds of every reset." },
+    { "q": "Is E011 a stuck key or a temperature sensor fault?", "a": "Most sources say stuck key, one says sensor, and you can settle it yourself in twenty minutes. Set a plain bake. If the oven starts and holds temperature properly, the sensor is fine and you have a key or panel problem. If it will not heat or runs wildly hot, the sensor is worth testing and the panel is a red herring." },
+    { "q": "How do I find which key is stuck?", "a": "Press every key separately and watch the display and listen for the beep. The odd one out is your answer: a key that does nothing, one that triggers the wrong function, or one needing noticeably harder pressure. Write down which it is before booking a repair, because it turns an open-ended diagnosis into a specific one." },
+    { "q": "How much does it cost to fix E011 on a Bosch oven?", "a": "Nothing at all in the common case, since cleaning and a breaker reset fix most of them. A door gasket, if steam is reaching the controls, is $40 to $100. A touch control panel assembly is the expensive outcome at $200 to $500 in parts plus awkward labour, which is why a service-mode key test before buying one is worth asking for." },
+    { "q": "Will E011 come back after a reset?", "a": "It depends what caused it. A reset after a proper clean and dry fixes a panel that was reading moisture, and that one stays fixed. A reset on a genuinely failed key buys you minutes, because the control re-reads the keypad at power-up and finds the same held key. How quickly it returns is itself the diagnosis." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Why a Bosch oven stops heating and shows E011",
+    "labels": {
+      "display": "E011",
+      "c1": "Panel clean and fully dry",
+      "c2": "Press each key to find the dead one",
+      "c3": "Ribbon contacts seated and clean",
+      "c4": "Door seal not steaming the panel"
+    }
+  },
+  "sources": [
+    { "title": "Bosch and Siemens oven error code guidance, keys held too long", "publisher": "Bosch and Siemens retailer and support advice pages", "url": null },
+    { "title": "Bosch oven fault code references for E011 and the service-mode key test", "publisher": "Third-party appliance fault code databases", "url": null },
+    { "title": "Field reports of E011 following panel cleaning and steam exposure", "publisher": "Appliance repair community threads", "url": null }
+  ],
+  "related_codes": ["E0532"]
+}
