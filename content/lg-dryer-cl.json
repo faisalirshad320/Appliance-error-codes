@@ -61,7 +61,7 @@
     },
     {
       "name": "Power the dryer down and try again",
-      "detail": "Switch the dryer off at its breaker for five minutes, restore power, then try the hold again. This does not turn the child lock off by itself, because the setting survives a power cut by design, but it clears a frozen control panel that is simply not registering presses. If the panel comes back to life and the hold now works, you had a hung control rather than a hardware fault.",
+      "detail": "Switch the dryer off at its breaker for five minutes, restore power, then try the hold again. This does not turn the child lock off by itself, because the setting survives a power cut by design, but it clears a frozen control panel that is not registering presses at all. If the panel comes back to life and the hold now works, you had a hung control rather than a hardware fault.",
       "minutes": 7,
       "tools": null,
       "warning": null

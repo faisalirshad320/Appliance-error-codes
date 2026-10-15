@@ -1,0 +1,210 @@
+{
+  "title": "GE Dishwasher H2O Error Code: Causes and Fix",
+  "meta_description": "H2O on a GE dishwasher means it asked for water and none arrived. Usually a closed supply valve under the sink or a failed inlet valve. How to tell which",
+  "h1": "GE dishwasher H2O error code: what it means and how to fix it",
+  "answer": "H2O means the dishwasher called for a fill and the water level in the tub never rose, so the control cancelled the cycle. It is a water supply fault, not a wash fault, and the cause is upstream of the machine far more often than inside it. Start with the shut-off valve under the sink, which is the single most common answer, especially if a plumber, a filter change or a new faucet brought anyone under there recently. The code is the letters H, 2 and the letter O, not a zero, and it means exactly what it looks like.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $70",
+    "technician": "$130 to $300"
+  },
+  "safety_warning": "Switch the dishwasher off at its breaker before removing the lower access panel or touching the inlet valve. The valve solenoid and the junction box under the machine carry line voltage, and water will be present at the same time.",
+  "causes": [
+    {
+      "cause": "The supply shut-off valve under the sink is closed or barely open",
+      "frequency": "most cases",
+      "confirm": "Open the sink cabinet and find the small valve on the hot line feeding the dishwasher, usually a quarter-turn lever or a small round handle. A lever sitting across the pipe is closed; it should sit in line with the pipe. If anyone has worked under that sink lately, this is almost certainly it."
+    },
+    {
+      "cause": "The water inlet valve has failed",
+      "frequency": "most cases",
+      "confirm": "Supply valve open, line clear, and you hear no click and no hiss from the bottom front of the machine when a fill should start. A valve that does not click has either an open-circuit solenoid or is not being commanded; a valve that clicks with no water arriving is mechanically stuck or blocked."
+    },
+    {
+      "cause": "The inlet valve screen is clogged with grit or scale",
+      "frequency": "common",
+      "confirm": "You hear the valve click and buzz, water trickles in far too slowly, and the fill times out. The small mesh screen set into the valve inlet looks brown or furred rather than bright. This is common after mains work in the street or a water meter change stirs sediment into the line."
+    },
+    {
+      "cause": "The supply line is kinked or crushed behind the machine",
+      "frequency": "common",
+      "confirm": "Pull the machine forward and look at the braided or copper line where it turns up into the valve. A line squashed against the wall or pinched by a leveling foot will pass enough to drip but not enough to fill inside the time allowed."
+    },
+    {
+      "cause": "The door is not latching fully, so the fill never starts",
+      "frequency": "occasional",
+      "confirm": "The cycle appears to start but nothing at all happens, no valve click and no pump. Press the door firmly shut and listen for a definite click from the latch. A door that has dropped on its hinges or a strike that has shifted will read as open to the control."
+    },
+    {
+      "cause": "The water level sensor is not registering the fill",
+      "frequency": "occasional",
+      "confirm": "You can see and hear water going into the tub and the machine still reports H2O. In that case the water is arriving and the control cannot tell, which points at the level sensor or the float rather than the supply."
+    },
+    {
+      "cause": "The overfill float is stuck up",
+      "frequency": "rare",
+      "confirm": "On models with a visible plastic float in the tub floor, press it down and let go. It should drop freely and rattle. A float held up by grit or a warped cup tells the control the tub is already full, so it never calls for water."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the supply valve under the sink",
+      "detail": "Clear out the cabinet and find the valve on the line that runs to the dishwasher, normally teed off the hot supply to the faucet. Turn a round handle anticlockwise until it stops, or swing a quarter-turn lever so it lies along the pipe rather than across it. Valves that have not moved in years can be stiff, so use a cloth for grip rather than pliers, which crack the handle.",
+      "minutes": 5,
+      "tools": "Cloth",
+      "warning": null
+    },
+    {
+      "name": "Check the hot water is actually reaching the sink",
+      "detail": "Run the hot tap at the kitchen sink for a full minute. A dishwasher fed from a hot line that is airlocked, isolated or fed by a water heater that is off will throw H2O while everything in the machine is perfectly healthy. If the tap runs hot and strong, the supply is good up to the tee and the problem is between there and the valve.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel and restart, then listen for the inlet valve",
+      "detail": "Hold the Start pad to cancel, then start a rinse-only cycle and crouch at the bottom front corner of the machine with the door just closed. Within the first minute you should hear a distinct click followed by a soft hiss of water. A click with no hiss means a blocked screen or a stuck valve. No click at all means the valve is dead or is not being commanded.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door latches properly",
+      "detail": "Close the door slowly and listen for the latch to engage with a clear click, then pull gently on the handle without releasing it to confirm it holds. Look along the top edge for an even gap. A door that has sagged or a strike that has worked loose will leave the control thinking the door is open, and the machine will never call for water.",
+      "minutes": 5,
+      "tools": "Phillips #2 screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Inspect the supply line behind the machine",
+      "detail": "Switch off the breaker and the supply valve, then pull the dishwasher forward a few inches, watching that you do not drag the drain hose or the electrical cable with it. Follow the water line from the valve under the sink to the inlet at the machine. Straighten any kink and lift the line clear of the leveling feet before you push the machine back.",
+      "minutes": 15,
+      "tools": "Flashlight, towel",
+      "warning": "Breaker off before you move the machine. The power cable under a dishwasher is often shorter than the hoses and is easy to strain."
+    },
+    {
+      "name": "Clean the inlet valve screen",
+      "detail": "With the breaker off and the supply valve closed, remove the two screws holding the lower access panel and lift it off. The inlet valve sits at the bottom front corner with the water line coming into it. Put a tray under it, undo the fitting with a wrench and expect a cupful of water. Pick the mesh screen out of the inlet with needle-nose pliers, rinse and brush it, and push it back in squarely.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, adjustable wrench, needle-nose pliers, old toothbrush, tray, towels",
+      "warning": "Breaker off and supply valve closed before you undo the fitting, or you get mains pressure into a cupboard full of electrics."
+    },
+    {
+      "name": "Test the valve solenoid",
+      "detail": "With the machine still off at the breaker, pull the two wires off the inlet valve solenoid terminals and measure across them with a multimeter on ohms. A healthy solenoid reads a definite resistance; an open circuit reads infinite and means the coil is dead. Check the tech sheet inside the machine for the expected figure for your model rather than working to a number from a different one.",
+      "minutes": 15,
+      "tools": "Multimeter, needle-nose pliers",
+      "warning": "Breaker off at the panel, not just the door open. Do not test this valve with the machine powered."
+    },
+    {
+      "name": "Reset and run a rinse cycle",
+      "detail": "Switch the breaker back on and open the supply valve fully. Start a rinse-only cycle and open the door after two minutes to check for water in the tub floor. A film of water across the bottom means the machine is filling again. The control holds the fault, so a dishwasher you have already fixed will keep showing H2O until it has been through a reset.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the supply valve is open, the hot tap runs strong, the line is straight and the screen is clean, work through the rest in this order. First, confirm whether water is reaching the machine at all: with the breaker off and the supply valve closed, undo the water line at the inlet valve, hold the open end into a bucket, and crack the supply valve for three seconds. A strong jet means the plumbing is fine and the fault is in the machine; a dribble means the restriction is upstream, in the valve under the sink or a saddle valve that has silted up, and that is a plumber's job. Second, if the supply is strong, test the inlet valve solenoid for continuity with a multimeter. An open circuit confirms a dead valve, and the part is a $30 to $70 item that takes about an hour with the machine pulled out. Third, if the solenoid reads correctly but the valve never clicks during a fill, the valve is not being commanded, and the fault is in the harness, the door switch or the control board. Check the door latch switch before anything else there, because a marginal latch switch is cheap and is a far more common cause than a board. Fourth, if you can see water genuinely entering the tub and the code still appears, the fill is happening and the control cannot detect it, which puts the water level sensor or a stuck overfill float in the frame. That is where a technician earns the call-out, because distinguishing a sensor fault from a board fault means watching live readings during a fill. One thing worth ruling out for free at any stage: if the machine was recently installed or moved, check it was not plumbed into a line that is still isolated at a valve somewhere else in the house.",
+  "reset_procedure": "Hold the Start or Start/Reset pad for about three seconds to cancel the running cycle. If the code stays, switch the dishwasher off at its breaker for five minutes and back on. Five minutes matters, because the control holds residual charge and a quick off-and-on often leaves the fault latched. Test with a rinse-only cycle and open the door after two minutes to look for water rather than waiting out a full wash.",
+  "model_notes": "Older GE dishwashers use a mechanical overfill float in the tub floor that can stick up and stop the fill; newer models use a water level sensor in the sump and have no float to check. Models with an alphanumeric display show H2O as letters, while models that show numeric codes report the same fill failure as a C-series code, and models with status lights only will blink it on the Start pad. The letters are often misread through a tinted panel: it is H2O with the letter O, and searching for H20 with a zero leads to the same fault.",
+  "parts": [
+    {
+      "name": "Water inlet valve",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Behind the lower access panel; about an hour with the machine pulled out"
+    },
+    {
+      "name": "Inlet valve mesh screen",
+      "cost": "$5 to $15",
+      "difficulty": "easy",
+      "note": "Usually just needs cleaning rather than replacing"
+    },
+    {
+      "name": "Door latch and switch assembly",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Worth checking before any board, if the latch feels loose"
+    },
+    {
+      "name": "Water level sensor",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Only if water visibly enters the tub and the code still appears"
+    },
+    {
+      "name": "Braided stainless supply line",
+      "cost": "$15 to $35",
+      "difficulty": "moderate",
+      "note": "Replace rather than straighten a line that has been kinked hard"
+    }
+  ],
+  "when_to_call": "Call a plumber if the supply line held into a bucket gives a weak flow, because the fault is in your plumbing and an appliance technician will charge a call-out to confirm it. Call an appliance technician when the supply is strong, the valve solenoid reads correctly and the valve still never clicks during a fill, since the next step is measuring for voltage at the valve with the machine live and water in the vicinity. Call straight away, without troubleshooting, if you find water on the floor of the cabinet or signs of a leak at the inlet fitting, and close the supply valve while you wait.",
+  "faqs": [
+    {
+      "q": "Is the code H2O or H20?",
+      "a": "It is H2O, with the letter O, which is why GE used it: the code means water. Behind a tinted display panel the O reads like a zero, so most people search for H20 and end up in the right place anyway. Either way it is the same fault, which is that the dishwasher asked for water and the tub level never rose."
+    },
+    {
+      "q": "Can I still use the dishwasher with an H2O code?",
+      "a": "No, because it will not wash without water and the control stops the cycle rather than running dry. There is no safety risk in leaving it showing the code. If you need to use it today, check the shut-off valve under the sink first, since that takes thirty seconds and is the most common answer by a wide margin."
+    },
+    {
+      "q": "Why did H2O appear suddenly when nothing changed?",
+      "a": "Something usually did change, just not in the kitchen. A plumber turning a stopcock down, a water meter swap, or mains work in the street that stirs sediment into your supply will all land within a week or two. The other slow-burn cause is an inlet screen that has been silting up for months and finally crossed the threshold."
+    },
+    {
+      "q": "How do I know whether it is the valve or the supply?",
+      "a": "Shut off the breaker and the supply valve, disconnect the water line at the machine, hold it in a bucket and open the valve for three seconds. A strong jet rules out the supply and points at the inlet valve or the control. A dribble means the restriction is upstream and the dishwasher is reporting the problem accurately."
+    },
+    {
+      "q": "Does H2O mean I need a new inlet valve?",
+      "a": "Not usually. In most cases the valve is fine and the water is being held back by a closed shut-off valve, a kinked line or a clogged screen. Only replace the valve after you have confirmed strong flow at the line and an open circuit across the solenoid, because a new valve on a restricted supply throws the same code on its first cycle."
+    },
+    {
+      "q": "The dishwasher fills a little then stops with H2O. What does that mean?",
+      "a": "It is filling too slowly rather than not at all, so the control times out before the level is reached. That points at a partly closed shut-off valve or a silted inlet screen rather than a dead valve. Open the valve fully and clean the screen, and check whether anyone has fitted an in-line filter to that supply."
+    },
+    {
+      "q": "Could a new faucet or filter installation cause this?",
+      "a": "Yes, and it is one of the most common triggers. Working under a sink usually means closing the dishwasher's shut-off valve, and it very often does not get fully reopened afterwards. Loose debris knocked into the line during the work also finds its way straight into the dishwasher's inlet screen."
+    }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "Where a GE dishwasher gets its water, and the four points that stop it",
+    "labels": {
+      "display": "H2O",
+      "c1": "Shut-off valve under the sink",
+      "c2": "Supply line behind the machine",
+      "c3": "Inlet valve and mesh screen",
+      "c4": "Door latch must click shut"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE dishwasher fill system diagnosis and fault code descriptions",
+      "publisher": "GE Appliances technical service literature",
+      "url": null
+    },
+    {
+      "title": "Dishwasher is not filling with water: supply and inlet valve checks",
+      "publisher": "GE Appliances support documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on H2O fill failures and inlet valve testing",
+      "publisher": "Appliance repair technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "FTD",
+    "F56",
+    "LEAK",
+    "PF",
+    "C5"
+  ]
+}
