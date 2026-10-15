@@ -1,12 +1,15 @@
 {
   "title": "Bosch Dishwasher E25 Error Code: Drain Pump Blocked",
-  "meta_description": "Bosch E25 means the drain pump is blocked or its cover is loose. Free the impeller under the pump cover in the sump, and the code usually clears in 20 minutes.",
+  "meta_description": "Bosch E25 means the drain pump is blocked or its cover is loose. Free the impeller under the pump cover in the sump. Usually a 20-minute fix.",
   "h1": "Bosch dishwasher E25 error code: what it means and how to fix it",
   "answer": "E25 points at the drain pump rather than the pipework: either something is jamming the impeller, or the plastic pump cover in the floor of the sump is loose, missing, or not clicked down. The classic sign is a hum from under the machine during the drain with no water moving. Lift out the filters, take off the pump cover, and turn the impeller with a finger. A shard of glass, a fruit pit or a toothpick wedged against the housing is the usual culprit, and freeing it costs nothing.",
   "severity": "moderate",
   "can_diy": "yes",
   "time_estimate": "20 to 45 minutes",
-  "cost_estimate": { "diy": "$0 to $120", "technician": "$140 to $280" },
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$140 to $280"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -95,20 +98,61 @@
   "reset_procedure": "Hold the Start button for about three seconds to cancel the program. Once the blockage is cleared, cut power at the breaker for five minutes and restore it, which drops the stored fault from the control. Run the shortest cycle to test rather than a full wash, since the drain phase runs in the first couple of minutes and you will know straight away.",
   "model_notes": "Bosch puts its drain-side faults in the E22 to E25 range and the exact split varies between model generations and between the US and European service documentation; Bosch's own US support material describes E23 as the pump fault and E24 as a blocked pump or loose pump cover, while E25 is more commonly documented by repair sources as the pump being blocked or its cover unseated. The practical consequence is that these numbers are a hint rather than a precise diagnosis: clear the filters, the pump housing and the drain hose together, whichever of the four you are looking at. On hidden-control models the code appears only on the inner panel display.",
   "parts": [
-    { "name": "Pump cover or sump cover plate", "cost": "$10 to $25", "difficulty": "easy", "note": "Only if cracked; a cover that just was not clicked down costs nothing" },
-    { "name": "Drain pump", "cost": "$50 to $120", "difficulty": "moderate", "note": "Twists off the underside of the sump; about an hour with the machine tipped back" },
-    { "name": "Filter assembly, cylinder and flat screen", "cost": "$20 to $45", "difficulty": "easy", "note": "Replace only if the mesh is torn or the cylinder is cracked" },
-    { "name": "Drain pump wiring connector or pigtail", "cost": "$10 to $25", "difficulty": "moderate", "note": "For a corroded connector rather than a failed pump" }
+    {
+      "name": "Pump cover or sump cover plate",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if cracked; a cover that just was not clicked down costs nothing"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "Twists off the underside of the sump; about an hour with the machine tipped back"
+    },
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Replace only if the mesh is torn or the cylinder is cracked"
+    },
+    {
+      "name": "Drain pump wiring connector or pigtail",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "For a corroded connector rather than a failed pump"
+    }
   ],
   "when_to_call": "Call a technician if the pump makes no sound at all during the drain phase and the connector at the pump is clean and tight, because the next step is testing a live circuit back to the control module. Call as well if the pump hums with a free impeller and a seated cover and you do not want to tip the machine onto its back to change it, which is the awkward part of an otherwise straightforward job. And think twice before authorizing a control module on a dishwasher over eight years old: by the time you add labor you are most of the way to a new machine, and the sensible move is often to put the money toward a replacement instead.",
   "faqs": [
-    { "q": "Why does my Bosch dishwasher hum but not drain?", "a": "The drain pump is getting power but cannot move water. Either the impeller is jammed by debris, the pump cover in the sump is not seated so the pump is pulling air, or the pump is worn out internally. Check the first two before buying a part, because both are free to fix and together they account for most of these." },
-    { "q": "What is the difference between E24 and E25?", "a": "Both are drain-side faults. E24 points at the path the water takes out, so the filters, drain hose, air gap and disposal connection, while E25 points at the pump itself being blocked or its cover loose. The codes overlap between model generations, so clearing the filters, the pump housing and the hose together is the practical approach." },
-    { "q": "Where is the drain pump on a Bosch dishwasher?", "a": "It mounts on the underside of the sump, in the middle of the machine. You reach its impeller from inside the tub by lifting out the filters and removing the plastic pump cover in the sump floor. To replace the whole pump you have to pull the machine out, tip it back, and twist the pump off from underneath." },
-    { "q": "Can broken glass really stop the drain pump?", "a": "Yes, and it is the most common single cause. A shard small enough to pass the filter mesh can sit against an impeller vane and block it, or score the housing so the pump loses its seal. If a glass broke in the machine any time in the last few weeks, check the pump housing with a flashlight even if you thought you collected every piece." },
-    { "q": "Can I still use the dishwasher with an E25 code?", "a": "No, because the water from the previous stage is still in the tub and another cycle just adds to it. There is no danger in leaving it, but you will get dirty dishes sitting in standing water. Bail the tub out rather than leaving it full, since a sump of warm food water turns unpleasant within a day or two." },
-    { "q": "I cleared the pump and E25 came straight back. Why?", "a": "The usual reason is the pump cover going back in slightly off. It can look fitted while sitting a few degrees out of its lock, which leaves the pump pulling air and gives you the identical code. Take the filters back out, lift the cover, and refit it until it positively locks before you conclude the pump has failed." },
-    { "q": "Is it worth replacing the drain pump myself?", "a": "On most Bosch models yes, if you are comfortable pulling the machine out and tipping it onto its back. The pump twists off the bottom of the sump and the job runs about an hour with a $50 to $120 part, against $140 to $280 for a technician. The awkward part is the handling, not the pump itself." }
+    {
+      "q": "Why does my Bosch dishwasher hum but not drain?",
+      "a": "The drain pump is getting power but cannot move water. Either the impeller is jammed by debris, the pump cover in the sump is not seated so the pump is pulling air, or the pump is worn out internally. Check the first two before buying a part, because both are free to fix and together they account for most of these."
+    },
+    {
+      "q": "What is the difference between E24 and E25?",
+      "a": "Both are drain-side faults. E24 points at the path the water takes out, so the filters, drain hose, air gap and disposal connection, while E25 points at the pump itself being blocked or its cover loose. The codes overlap between model generations, so clearing the filters, the pump housing and the hose together is the practical approach."
+    },
+    {
+      "q": "Where is the drain pump on a Bosch dishwasher?",
+      "a": "It mounts on the underside of the sump, in the middle of the machine. You reach its impeller from inside the tub by lifting out the filters and removing the plastic pump cover in the sump floor. To replace the whole pump you have to pull the machine out, tip it back, and twist the pump off from underneath."
+    },
+    {
+      "q": "Can broken glass really stop the drain pump?",
+      "a": "Yes, and it is the most common single cause. A shard small enough to pass the filter mesh can sit against an impeller vane and block it, or score the housing so the pump loses its seal. If a glass broke in the machine any time in the last few weeks, check the pump housing with a flashlight even if you thought you collected every piece."
+    },
+    {
+      "q": "Can I still use the dishwasher with an E25 code?",
+      "a": "No, because the water from the previous stage is still in the tub and another cycle just adds to it. There is no danger in leaving it, but you will get dirty dishes sitting in standing water. Bail the tub out rather than leaving it full, since a sump of warm food water turns unpleasant within a day or two."
+    },
+    {
+      "q": "I cleared the pump and E25 came straight back. Why?",
+      "a": "The usual reason is the pump cover going back in slightly off. It can look fitted while sitting a few degrees out of its lock, which leaves the pump pulling air and gives you the identical code. Take the filters back out, lift the cover, and refit it until it positively locks before you conclude the pump has failed."
+    },
+    {
+      "q": "Is it worth replacing the drain pump myself?",
+      "a": "On most Bosch models yes, if you are comfortable pulling the machine out and tipping it onto its back. The pump twists off the bottom of the sump and the job runs about an hour with a $50 to $120 part, against $140 to $280 for a technician. The awkward part is the handling, not the pump itself."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-drain",
@@ -122,9 +166,27 @@
     }
   },
   "sources": [
-    { "title": "Dishwasher error codes, owner support", "publisher": "Bosch Home Appliances", "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers" },
-    { "title": "Bosch dishwasher service literature, drain pump and sump assembly", "publisher": "Bosch service documentation", "url": null },
-    { "title": "Technician threads on E23 and E25 after drain pump replacement", "publisher": "Appliantology forum", "url": null }
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature, drain pump and sump assembly",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Technician threads on E23 and E25 after drain pump replacement",
+      "publisher": "Appliantology forum",
+      "url": null
+    }
   ],
-  "related_codes": ["E24", "E23", "E22", "E15", "E09"]
+  "related_codes": [
+    "E24",
+    "E23",
+    "E22",
+    "E15",
+    "E09"
+  ]
 }

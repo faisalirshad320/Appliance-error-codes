@@ -1,12 +1,15 @@
 {
   "title": "Bosch Dishwasher E22 Error Code: Blocked Filter Fix",
-  "meta_description": "Bosch E22 means the filters in the sump are blocked, so water cannot circulate or drain properly. Lift them out, scrub the flat mesh, and refit it locked down.",
+  "meta_description": "Bosch E22 means the filters in the sump are blocked. Lift them out, scrub the underside of the flat mesh, and refit the cylinder locked down.",
   "h1": "Bosch dishwasher E22 error code: what it means and how to fix it",
   "answer": "E22 means the filters in the bottom of the tub are blocked and water can no longer pass through them at the rate the machine expects. It is the mildest of the Bosch drain-side codes and usually the easiest to fix: lift the filter assembly out, scrub the flat mesh screen, clear the sump, and put it back locked down. A filter that was refitted loose or left out entirely produces the same code as a dirty one, so check the seating as carefully as you check the dirt.",
   "severity": "minor",
   "can_diy": "yes",
   "time_estimate": "15 to 30 minutes",
-  "cost_estimate": { "diy": "$0 to $45", "technician": "$120 to $200" },
+  "cost_estimate": {
+    "diy": "$0 to $45",
+    "technician": "$120 to $200"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -83,18 +86,51 @@
   "reset_procedure": "Hold the Start button for roughly three seconds to cancel the program. Once the filters are clean and refitted, switch the machine off at its breaker for five minutes and back on so the control drops the stored fault. Test with the shortest cycle rather than a full wash so you find out within a few minutes.",
   "model_notes": "Bosch uses the E22 to E25 block for everything on the drain and circulation side, and the exact split between them shifts across model generations and between the US and European service documentation. E22 is consistently the filter end of that range, but the same clog can show as E22 on one machine and E24 on another, so clear the filters, the pump housing and the drain hose as one job rather than treating the number as a precise diagnosis. On hidden-control models the code shows only on the inner panel display, so from outside you just see a cycle that stops.",
   "parts": [
-    { "name": "Filter assembly, cylinder and flat screen", "cost": "$20 to $45", "difficulty": "easy", "note": "Only needed if the mesh is torn or the cylinder cracked; most just need scrubbing" },
-    { "name": "Lower spray arm", "cost": "$25 to $55", "difficulty": "easy", "note": "If the jets are scaled beyond clearing with a toothpick" },
-    { "name": "Pump cover or sump cover plate", "cost": "$10 to $25", "difficulty": "easy", "note": "Replace only if cracked; a loose one just needs seating" }
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Only needed if the mesh is torn or the cylinder cracked; most just need scrubbing"
+    },
+    {
+      "name": "Lower spray arm",
+      "cost": "$25 to $55",
+      "difficulty": "easy",
+      "note": "If the jets are scaled beyond clearing with a toothpick"
+    },
+    {
+      "name": "Pump cover or sump cover plate",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Replace only if cracked; a loose one just needs seating"
+    }
   ],
   "when_to_call": "E22 rarely needs a technician, so call one only if you have cleaned the filters, seated the pump cover, freed the impeller and cleared the drain hose and the code keeps returning, because at that point you are looking at a pump or a sensing fault rather than a blockage. Call sooner if you find water standing in the base of the machine under the tub rather than in the tub itself, since that is a leak and a different problem. And if the machine is also throwing a drain code alongside E22, treat the drain fault as the real one and come back to the filter afterward.",
   "faqs": [
-    { "q": "Where is the filter on a Bosch dishwasher?", "a": "In the floor of the tub, under the lower spray arm. You will see a cylindrical plastic filter standing in a well, sitting in a flat mesh screen that covers the rest of the sump. The cylinder turns anticlockwise a quarter turn and lifts out, and the flat screen lifts out after it. No tools are needed for either." },
-    { "q": "How often should I clean the Bosch dishwasher filter?", "a": "Once a month if the machine runs most days, every couple of months if it runs a few times a week. The job takes about five minutes at the sink. Scraping plates properly before loading matters more than pre-rinsing them, because it is soft food debris and grease that mats under the flat screen and eventually triggers the code." },
-    { "q": "Can I still use the dishwasher with an E22 code?", "a": "You can, but the wash quality will be poor because water is not circulating the way the machine expects, and the blockage gets worse with every cycle. There is no safety risk. Since the fix is a five-minute clean at the sink, running it dirty to put the job off is a false economy." },
-    { "q": "Why did E22 appear suddenly when I clean the filter regularly?", "a": "Two common reasons. The filter was refitted without being twisted and locked, which lets debris bypass it, and that gives the same code as a dirty filter. Or something hard and small, a fruit pit or a bottle label, went down into the sump in a single load and blocked the inlet under an otherwise clean screen." },
-    { "q": "What is the difference between E22 and E24 on a Bosch dishwasher?", "a": "E22 points at the filters in the sump, E24 at the rest of the drain path, so the hose, air gap and disposal connection. The two overlap enough across model generations that the same blockage can show up as either. Clean the filters first since that is quickest, then walk the drain hose if the code stays." },
-    { "q": "Will a dishwasher cleaning tablet clear E22?", "a": "Partly. A degreasing cleaner run on a hot empty cycle helps with the grease film on the mesh and is worth doing as maintenance after the repair. It will not shift a mat of soft debris, a fruit pit in the sump or a filter that is not locked down. Clean it by hand first, then use the tablet to keep it clean." }
+    {
+      "q": "Where is the filter on a Bosch dishwasher?",
+      "a": "In the floor of the tub, under the lower spray arm. You will see a cylindrical plastic filter standing in a well, sitting in a flat mesh screen that covers the rest of the sump. The cylinder turns anticlockwise a quarter turn and lifts out, and the flat screen lifts out after it. No tools are needed for either."
+    },
+    {
+      "q": "How often should I clean the Bosch dishwasher filter?",
+      "a": "Once a month if the machine runs most days, every couple of months if it runs a few times a week. The job takes about five minutes at the sink. Scraping plates properly before loading matters more than pre-rinsing them, because it is soft food debris and grease that mats under the flat screen and eventually triggers the code."
+    },
+    {
+      "q": "Can I still use the dishwasher with an E22 code?",
+      "a": "You can, but the wash quality will be poor because water is not circulating the way the machine expects, and the blockage gets worse with every cycle. There is no safety risk. Since the fix is a five-minute clean at the sink, running it dirty to put the job off is a false economy."
+    },
+    {
+      "q": "Why did E22 appear suddenly when I clean the filter regularly?",
+      "a": "Two common reasons. The filter was refitted without being twisted and locked, which lets debris bypass it, and that gives the same code as a dirty filter. Or something hard and small, a fruit pit or a bottle label, went down into the sump in a single load and blocked the inlet under an otherwise clean screen."
+    },
+    {
+      "q": "What is the difference between E22 and E24 on a Bosch dishwasher?",
+      "a": "E22 points at the filters in the sump, E24 at the rest of the drain path, so the hose, air gap and disposal connection. The two overlap enough across model generations that the same blockage can show up as either. Clean the filters first since that is quickest, then walk the drain hose if the code stays."
+    },
+    {
+      "q": "Will a dishwasher cleaning tablet clear E22?",
+      "a": "Partly. A degreasing cleaner run on a hot empty cycle helps with the grease film on the mesh and is worth doing as maintenance after the repair. It will not shift a mat of soft debris, a fruit pit in the sump or a filter that is not locked down. Clean it by hand first, then use the tablet to keep it clean."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-sump-float",
@@ -108,9 +144,26 @@
     }
   },
   "sources": [
-    { "title": "Dishwasher error codes, owner support", "publisher": "Bosch Home Appliances", "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers" },
-    { "title": "Bosch dishwasher service literature, filter and sump assembly", "publisher": "Bosch service documentation", "url": null },
-    { "title": "Field notes on the Bosch E22 to E25 code range and overlapping causes", "publisher": "Appliance technician training references and r/appliancerepair threads", "url": null }
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature, filter and sump assembly",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Field notes on the Bosch E22 to E25 code range and overlapping causes",
+      "publisher": "Appliance technician training references and r/appliancerepair threads",
+      "url": null
+    }
   ],
-  "related_codes": ["E24", "E25", "E23", "E15"]
+  "related_codes": [
+    "E24",
+    "E25",
+    "E23",
+    "E15"
+  ]
 }

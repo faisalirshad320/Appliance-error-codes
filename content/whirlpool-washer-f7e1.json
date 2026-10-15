@@ -1,0 +1,137 @@
+{
+  "title": "Whirlpool Washer F7 E1 Error Code: Motor Speed Fault",
+  "meta_description": "Whirlpool F7 E1 means the motor could not reach the speed the cycle asked for. Usually an overloaded drum or shipping bolts left in. How to fix it.",
+  "h1": "Whirlpool washer F7 E1 error code: what it means and how to fix it",
+  "answer": "F7 E1 means your Whirlpool washer could not get the drum turning at the speed the cycle called for. The F7 half points at the motor and drive system and the E1 half says the speed was never reached, which the control reads as the motor struggling to turn. Something physical is usually in the way rather than broken: an overpacked or badly tangled load is the everyday cause, and on a machine installed in the last few weeks it is almost always the four shipping bolts and their plastic spacers still bolted through the back panel. Take half the load out, check the back of the machine, and power it down for five minutes before you suspect the motor.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $70", "technician": "$200 to $450" },
+  "safety_warning": "Everything past the load and shipping bolt checks means removing panels. Unplug the washer at the wall first. The motor, the motor control board and the drive harness all carry mains voltage, and a capacitor on a motor control can hold charge after the plug is out.",
+  "causes": [
+    {
+      "cause": "The drum is overloaded or the load is tangled into one mass",
+      "frequency": "most cases",
+      "confirm": "Open the door and look. If the drum is packed above about three quarters, or the whole wash has twisted into a single rope around a duvet or a fitted sheet, the motor is trying to accelerate a solid lump and cannot reach speed. Pulling half of it out and restarting proves it immediately."
+    },
+    {
+      "cause": "Shipping bolts and spacers still fitted on a new installation",
+      "frequency": "most cases",
+      "confirm": "Look at the back panel. Four bolt heads in a row across the rear, with plastic spacers, mean the drum is still clamped to the cabinet for transport. A machine delivered in the last month that has banged and errored from day one is this, and nothing else, until proven otherwise."
+    },
+    {
+      "cause": "Something is physically jamming the drum",
+      "frequency": "common",
+      "confirm": "Reach in with the machine unplugged and turn the drum by hand. It should spin a full turn freely and coast. A hard stop, a scrape or a metallic tick once per revolution means a bra wire, a coin or a hair clip has worked through a drum hole and is wedged between the inner drum and the outer tub."
+    },
+    {
+      "cause": "The drive belt is slipping, worn or off its pulley",
+      "frequency": "common",
+      "confirm": "The motor is clearly running and the drum barely moves, often with a smell of hot rubber. Unplug the machine, take the rear panel off and look: a belt sitting beside its pulley, glazed shiny on the inner face, or snapped altogether is immediately obvious."
+    },
+    {
+      "cause": "The rotor position sensor or the motor harness has failed",
+      "frequency": "occasional",
+      "confirm": "The drum turns freely by hand, the belt is good, and the motor either does not move at all or starts and stops in short jerks. The control can no longer read how fast the rotor is going, so it never sees the speed it asked for."
+    },
+    {
+      "cause": "The motor control board or the motor itself has failed",
+      "frequency": "occasional",
+      "confirm": "No motor noise at all with a free drum and good wiring, or a burning smell from the back of the machine. This is a measurement job rather than a look-and-see, and it is where the bill moves from part money to a few hundred dollars."
+    },
+    {
+      "cause": "The drum bearings have seized",
+      "frequency": "rare",
+      "confirm": "The drum is stiff or gritty to turn by hand even empty, and the machine has been roaring like a jet on spin for months beforehand. Bearings do not fail quietly or suddenly, so if this is new and silent it is not your fault."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel and power the machine down for five minutes",
+      "detail": "Press Pause or Cancel, then unplug at the wall for a full five minutes. The control latches the fault and will show F7 E1 again on a machine you have already fixed if you skip this. It also forces the motor control to reinitialise, which clears a fair number of one-off codes caused by a brownout or a momentary stall.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take half the load out and untangle the rest",
+      "detail": "Pull the wash out onto the floor and separate it. A fitted sheet or a duvet cover will swallow everything else in the drum and turn the load into one lump that the motor cannot spin up. Put back no more than about three quarters of a drum of loose, separated items, and never wash a single heavy item like a bath mat or one duvet on its own.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the back of the machine for shipping bolts",
+      "detail": "Pull the washer forward and look at the rear panel. A front loader ships with bolts through the back that clamp the drum to the cabinet, usually four of them in a row, each with a plastic spacer or sleeve. They all have to come out before the machine ever runs, and the holes get capped with the plugs that came in the parts bag. Undo them with the spanner supplied with the machine and keep them somewhere safe for the next move.",
+      "minutes": 15,
+      "tools": "Spanner supplied with the washer, or an adjustable wrench",
+      "warning": null
+    },
+    {
+      "name": "Turn the drum by hand and listen",
+      "detail": "With the machine unplugged and empty, reach in and spin the drum a full turn in both directions. You want it to rotate smoothly and coast for a moment. A scrape in one spot, a tick once per revolution or a gritty rumble all mean something is between the inner drum and the outer tub, or the bearings are going. Shine a torch through the holes in the drum as you rotate it slowly and look for a glint of wire.",
+      "minutes": 10,
+      "tools": "Torch",
+      "warning": "Unplug at the wall before putting a hand in the drum."
+    },
+    {
+      "name": "Check the machine is level and not rocking",
+      "detail": "Push down on each front corner in turn. If the cabinet rocks, the feet need adjusting: wind the short ones down until all four sit solid, then tighten their lock nuts up against the cabinet. A washer that walks on a soft or uneven floor throws the drum out of true during acceleration and can produce speed faults as well as the balance codes you would expect.",
+      "minutes": 15,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Look at the drive belt",
+      "detail": "Unplug the machine. Take the rear panel off, which is usually a row of screws round the edge, commonly hex head or Torx. On most Whirlpool front loaders you will see a flat ribbed belt running from a small motor pulley to the big drum pulley. Check it sits central in the pulley grooves, is not glazed or cracked, and has some resistance when you twist it. Refit a belt that has jumped off by rolling it onto the large pulley while turning the drum.",
+      "minutes": 35,
+      "tools": "Nut driver or Torx driver set, torch",
+      "warning": "Unplug at the wall. Keep fingers clear of the pulley nip while turning the drum."
+    },
+    {
+      "name": "Check the motor connections before condemning anything",
+      "detail": "Still unplugged, with the rear panel off, find the connectors at the motor and at the motor control board. Pull each one and look for green corrosion, a browned or melted shell, or a terminal pushed back out of its housing. Reseat them firmly. This is the last free check, and a bad connector produces exactly the same symptom as a failed board at a fraction of the price.",
+      "minutes": 20,
+      "tools": "Torch",
+      "warning": "Unplug at the wall. A motor control board can hold charge after the plug is out, so handle it by the edges and do not probe it live."
+    }
+  ],
+  "still_showing": "If the load is light, the drum spins freely by hand and there are no shipping bolts in the back, the fault has moved into the drive system and the useful question is whether the motor is turning at all. Run a spin cycle with an empty drum and listen from the back of the machine. A motor you can hear working while the drum does little or nothing is a belt problem on a belt-driven model: look for a belt lying beside its pulley, glazed shiny, or snapped. That is a $20 to $45 part and a forty-minute job once the rear panel is off. A motor that starts, jerks and stops, or hums without turning, points at the rotor position sensor or the harness between the motor and the motor control board, because the control cannot read the speed it is asking for and shuts the attempt down. Reseating connectors is free and occasionally fixes it; the sensor itself is $25 to $70 and needs the drive end stripped down. Total silence from the motor with good connections means the motor control board or the motor, and that is a measurement job on a live machine rather than a look-and-see, which is where a technician earns their money. One case to take seriously rather than chase: a drum that is stiff or gritty to turn by hand with nothing in it, on a machine that has been getting louder on spin for months, is failed drum bearings. On most Whirlpool front loaders the bearings sit in the outer tub and the repair means splitting the tub or replacing it, which runs $300 to $600 fitted. On a machine past about eight years old that number is usually more than the washer is worth, and it is the point at which replacing it is the honest answer.",
+  "reset_procedure": "Unplug the washer at the wall for five minutes, then plug it back in. The control stores the fault, so a machine you have already unloaded and freed will keep reporting F7 E1 until the board is properly reset. On most models you can also clear the display with Pause or Cancel pressed twice and Power once. Test with a short spin on an empty drum, which asks the motor for high speed within a minute or two.",
+  "model_notes": "On front loaders, F7 E1 is a motor speed sensing fault and the drive is usually a belt from the motor to a large drum pulley, so the belt is a real suspect. Top-load Cabrio and Vertical Modular machines use a direct drive motor with no belt at all; on those the same code points at the rotor position sensor, the shifter assembly that switches the machine between agitate and spin, or the harness between them, and the diagnosis is different enough that the model number matters. On brand new installations of either type, check the shipping bolts first regardless of what the rest of the page says. The same code and the same drive hardware appear on Maytag and Amana machines built on the Whirlpool platform.",
+  "parts": [
+    { "name": "Drive belt", "cost": "$20 to $45", "difficulty": "moderate", "note": "Belt-driven front loaders only; about 40 minutes with the rear panel off" },
+    { "name": "Rotor position sensor", "cost": "$25 to $70", "difficulty": "hard", "note": "Needs the drive end stripped down to reach" },
+    { "name": "Motor control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Only after the belt, the harness and the drum have been cleared" },
+    { "name": "Drive motor", "cost": "$150 to $400", "difficulty": "technician only", "note": "Rare as a genuine failure; confirm before ordering" },
+    { "name": "Outer tub and bearing assembly", "cost": "$300 to $600 fitted", "difficulty": "technician only", "note": "Often more than an older machine is worth" }
+  ],
+  "when_to_call": "Call a technician once the load, the shipping bolts, the free-spinning drum and the belt have all been checked and F7 E1 is still there, because the next steps mean measuring the motor and its control board with the machine powered and the back open. That is live mains work next to a capacitor that holds charge, and it is not a good first electrical job. Call sooner if you can smell burning from the back of the machine, or if the drum is stiff and gritty by hand, since a seized bearing run hard can damage the tub and the motor as well. Before you authorise a tub and bearing repair on a machine over about eight years old, get the cost in writing and compare it to a new washer; that repair frequently costs more than the machine is worth.",
+  "faqs": [
+    { "q": "What does F7 E1 mean on a Whirlpool washer?", "a": "The motor could not reach the speed the cycle asked for. F7 identifies the motor and drive system and E1 identifies the speed sensing failure, which Whirlpool describes as the motor having difficulty turning. It is more often something physically resisting the drum than a failed motor, so check the load and the drum before assuming a part has died." },
+    { "q": "Why does F7 E1 appear on a brand new washer?", "a": "Because the shipping bolts are still in. A front loader is delivered with bolts through the back panel clamping the drum to the cabinet so it cannot move in transit, and all of them have to come out before the first wash. If your machine is new, banging and erroring from day one, look at the back before anything else." },
+    { "q": "Can I still use the washer with F7 E1?", "a": "You can usually start a cycle, but it will fail at the same point every time and the motor is being asked to force a drum that will not turn properly. Running it repeatedly that way stresses the motor and the control board. Take the load out, check the drum spins freely by hand, and fix the cause before running it again." },
+    { "q": "Does F7 E1 mean I need a new motor?", "a": "Usually not. In the field this code is far more often an overpacked drum, shipping bolts, something wedged between the drum and the tub, or a slipped belt. A genuinely failed motor is uncommon and should only be diagnosed after the drum turns freely, the belt is good and the wiring has been checked." },
+    { "q": "How do I know if my drum is jammed?", "a": "Unplug the machine, empty it, and spin the drum a full turn by hand in both directions. A healthy drum turns smoothly and coasts. A hard stop, a scrape in one place or a metallic tick once per revolution means something is wedged between the inner drum and the outer tub, most often a bra wire or a coin that worked through a drum hole." },
+    { "q": "Is F7 E1 worth repairing?", "a": "Depends entirely on which part it turns out to be. A belt is $20 to $45 and worth doing on any machine. A motor control board at $150 to $350 is reasonable on a washer under about eight years old. A tub and bearing job at $300 to $600 fitted is usually more than an older machine is worth, and that is the point to compare against a replacement." },
+    { "q": "Why did F7 E1 start after I moved house?", "a": "Either the shipping bolts went back in for the move and were not taken out again, or the machine is no longer level and rocks on the new floor. Check the back panel for bolts first, then push down on each front corner and wind the feet until nothing moves. Both are free fixes and both are common after a move." }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why a Whirlpool drum will not reach speed, and the four things to check",
+    "labels": {
+      "display": "F7 E1",
+      "c1": "Remove half the load",
+      "c2": "Shipping bolts at the rear",
+      "c3": "Drum must turn freely by hand",
+      "c4": "Drive belt and motor wiring"
+    }
+  },
+  "sources": [
+    { "title": "What is an F7 E1 error code on a front load washer", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool washer installation instructions, shipping bolt removal", "publisher": "Whirlpool installation guide supplied with the machine", "url": null },
+    { "title": "Whirlpool front load washer technical sheet, drive system fault codes", "publisher": "Service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on F7 E1 drive and rotor sensor diagnosis", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["uL", "oL", "F5 E2", "F9 E1", "F21", "5D"]
+}

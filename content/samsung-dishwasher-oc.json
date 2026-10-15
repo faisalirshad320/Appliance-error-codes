@@ -1,0 +1,130 @@
+{
+  "title": "Samsung Dishwasher OC Code: Too Much Water in the Tub",
+  "meta_description": "Samsung OC means the dishwasher sees more water in the tub than it should. Usually a blocked drain, sometimes an inlet valve that will not shut off fully.",
+  "h1": "Samsung dishwasher OC error code: what it means and how to fix it",
+  "answer": "OC is the over-level water error: the dishwasher has detected more water in the tub than the cycle should have put there, and it has stopped rather than risk an overflow. Two very different things produce it. Either water went in and could not get out, which is a drain blockage, or water kept arriving when it should have stopped, which is an inlet valve passing through. Telling them apart takes one test: shut the supply valve under the sink overnight and see whether the tub is wetter in the morning. Some panels display this as 0C or oE.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $85", "technician": "$140 to $280" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain is blocked, so the water from an earlier stage never left",
+      "frequency": "most cases",
+      "confirm": "Open the door and look at the water line. Water standing well above the filter at the end of a cycle, with the sump full, means the machine filled normally and could not empty. Bail it out, run a short cycle, and watch whether it drains at all in the first two minutes."
+    },
+    {
+      "cause": "Suds are making the level read high",
+      "frequency": "common",
+      "confirm": "Look for foam on the water surface and dried residue on the inner door above the normal line. Hand dish soap, laundry detergent, or far too much dishwasher detergent will all do it. Foam stacks up and reads as depth even though there is no more water than usual."
+    },
+    {
+      "cause": "The water inlet valve is passing water when it should be shut",
+      "frequency": "common",
+      "confirm": "This is the test that separates OC from an ordinary drain fault. Bail the tub dry, close the shutoff valve under the sink, and leave the machine off overnight. A dry tub in the morning means the valve is fine. Water back in the sump with the supply shut off means it came from somewhere else; water appearing only when the supply is open means the valve is leaking through."
+    },
+    {
+      "cause": "The drain pump has failed or its impeller is jammed",
+      "frequency": "occasional",
+      "confirm": "Standing water, filters clean, hose clear, and during the drain phase you hear a flat hum from under the machine with nothing moving. Silence instead of a hum points at power reaching the pump rather than the pump itself."
+    },
+    {
+      "cause": "The water level sensor or float is stuck",
+      "frequency": "occasional",
+      "confirm": "The tub is visibly empty, it drains fine when you watch it, and OC comes back anyway. The level sensing sits in the sump area and can jam on debris or foul up with grease, so it reports a full tub that does not exist."
+    },
+    {
+      "cause": "Water is backing up from the garbage disposal or the sink drain",
+      "frequency": "rare",
+      "confirm": "The kitchen sink drains slowly or gurgles when the dishwasher pumps out, or the air gap spits onto the counter. The dishwasher is emptying correctly and your plumbing is pushing it back, so the tub refills and the level reads high."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and bail the tub out",
+      "detail": "End the program, then scoop the standing water out of the tub into a bucket with a plastic cup and sponge up the last of it. Measure what comes out roughly as you go, because knowing whether the tub held a cup or a gallon tells you later whether the level was genuinely high or the sensing was wrong. You cannot judge anything while the sump is full.",
+      "minutes": 12,
+      "tools": "Plastic cup, bucket, sponge",
+      "warning": null
+    },
+    {
+      "name": "Clean the filter and clear the sump",
+      "detail": "Twist the filter assembly in the tub floor counterclockwise and lift it out, along with any flat screen beneath it. Scrub both under a hot tap with a dish brush until the mesh passes light cleanly. Then put a glove on, shine a flashlight into the empty sump, and pick out glass, fruit pits, labels and bone chips with needle-nose pliers. Refit the filter and twist it clockwise until it locks.",
+      "minutes": 15,
+      "tools": "Dish brush, needle-nose pliers, work glove, flashlight",
+      "warning": "Check the sump with a flashlight before reaching in. Broken glass settles there and you will not feel it until it is too late."
+    },
+    {
+      "name": "Rule out suds",
+      "detail": "Check the inner door for dried foam above the normal water line and find out what detergent went in. If there is any chance hand dish soap went into the machine, that alone explains the reading. Run two rinse-only cycles with a quarter cup of white vinegar in the empty tub to knock the remaining foam down before you judge anything else.",
+      "minutes": 15,
+      "tools": "White vinegar",
+      "warning": null
+    },
+    {
+      "name": "Run the overnight supply test",
+      "detail": "With the tub bailed dry, close the shutoff valve under the sink and leave the dishwasher switched off overnight. In the morning, look in the sump. Bone dry means the inlet valve holds and your problem is on the drain side. A sump with water in it, with the supply shut off, means it is arriving from the drain hose or the sink plumbing rather than the fill. Then open the valve, leave it off another night, and check again: water now means the inlet valve is passing.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Walk the drain path",
+      "detail": "Pull the machine forward and follow the drain hose from the pump to its termination, straightening kinks and freeing it from behind a leveling leg. Confirm it rises to just under the countertop before dropping to the disposal or trap. Lift the chrome cap off the countertop air gap and clear the sludge out with a bottle brush. If the machine drains into a disposal fitted recently, check the knockout plug in its inlet was actually driven out.",
+      "minutes": 25,
+      "tools": "Nut driver, bucket, bottle brush",
+      "warning": null
+    },
+    {
+      "name": "Listen to the drain pump",
+      "detail": "Restore power, start the shortest cycle, and put your ear near the kickplate for the first two minutes. A working drain rises to a whine and ends with a slurp as the sump empties. A flat hum with no water movement means the pump has power but cannot pump. Silence means it is not being driven at all, which is a different and more expensive problem.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the inlet valve if the supply test pointed there",
+      "detail": "Power off at the breaker and close the shutoff valve. Remove the kickplate, usually two to four screws along the bottom edge, and find the inlet valve where the fill line enters the machine. Look for mineral scale around the valve seat and a damp trail below it. A valve that passes water when de-energized has debris or scale holding the diaphragm off its seat, and the practical fix is replacement rather than cleaning.",
+      "minutes": 25,
+      "tools": "Screwdriver, flashlight, adjustable wrench",
+      "warning": "Power off at the breaker and water off at the shutoff valve before removing the kickplate."
+    }
+  ],
+  "still_showing": "If the filter is clean, the drain path is clear, the pump empties the sump properly and the overnight test showed no water arriving, you have ruled out both of the common stories and the question is whether the machine is measuring the level correctly. Work it in this order. First, watch a cycle with the door opened briefly at the end of the wash phase and look at the actual water line against the filter, because a tub that is visibly normal while the panel reports over-level tells you the sensing is wrong rather than the plumbing. Second, pull the filter and clean the sump area thoroughly, since the level sensing sits down there and a greased-up float or a probe fouled with scale reads high; this is free and it clears a fair share of them. Third, recheck the suds question properly, because detergent residue that has built up in the machine over months keeps foaming long after you switch brands, and two or three empty hot rinses with vinegar are needed to clear it rather than one. Fourth, if the sensing is still wrong on a clean machine, you are into the level sensor and its wiring, which means pulling the kickplate and checking the connector for corrosion before replacing anything. The cost steps up at the control board, and that is the point to get a quote in writing rather than agree to it. One trap worth avoiding: do not replace the drain pump on an OC code just because there is standing water. OC reports the level, not the pump, and plenty of these turn out to be an inlet valve passing water into a perfectly healthy machine overnight.",
+  "reset_procedure": "Cancel the program, then switch the dishwasher off at its breaker for five minutes and back on so the control drops the stored fault. The code will return immediately if the tub still has water above the expected level, so bail it out first rather than resetting into the same condition. Test with a rinse-only program, since the fill and drain both happen within the first few minutes.",
+  "model_notes": "Samsung shows this fault as OC on most current dishwashers, and as 0C or oE on others depending on the panel and the model generation; they all mean over-level water. Samsung's own guidance ties it closely to drainage, and recommends checking the drain connections, hose, filter and sump, which matches what the field sees most often. On models where the code appears alongside a drain code such as 5C or SC, treat the drain fault as the primary one and work that first.",
+  "parts": [
+    { "name": "Filter assembly", "cost": "$20 to $45", "difficulty": "easy", "note": "Replace only if the mesh is torn; most need a scrub" },
+    { "name": "Water inlet valve", "cost": "$35 to $85", "difficulty": "moderate", "note": "For a valve that passes water with the machine off" },
+    { "name": "Drain pump", "cost": "$45 to $110", "difficulty": "moderate", "note": "Only after a hum with no flow and a free impeller" },
+    { "name": "Water level sensor", "cost": "$30 to $80", "difficulty": "moderate", "note": "Last part to suspect, and clean the sump first" },
+    { "name": "Corrugated drain hose", "cost": "$15 to $35", "difficulty": "moderate", "note": "If it is crushed or split rather than just dirty" }
+  ],
+  "when_to_call": "Call a technician if the tub drains properly and visibly holds a normal amount of water but OC keeps returning, because the next step is testing the level sensing circuit back to the board and that is not something to improvise on a live machine. Call a plumber rather than an appliance technician if the sink gurgles or backs up when the dishwasher pumps out, or the air gap spits on the counter, since the blockage is in your kitchen drain. And shut the supply valve and call sooner if water keeps appearing in the tub with the machine switched off, because a valve passing water unattended can overflow onto your floor while you are out.",
+  "faqs": [
+    { "q": "What does OC mean on a Samsung dishwasher?", "a": "It is the over-level water error. The machine has detected more water in the tub than the program should have put there and has stopped the cycle to avoid an overflow. Samsung ties it most often to drainage problems, but an inlet valve that will not fully shut and a heavy head of suds will both produce the same reading." },
+    { "q": "What is the difference between OC and SC on a Samsung dishwasher?", "a": "SC is the drain error: the machine tried to pump out and the water did not leave in time. OC is the level error: the machine sees more water in the tub than it expected, whatever the reason. A blocked drain can produce either, but only OC also covers water arriving when it should not, from an inlet valve passing through." },
+    { "q": "Can I still use the dishwasher with an OC code?", "a": "No, and running it again adds more water to a tub that is already too full. There is no electrical danger, but an over-full tub is one failed seal away from water on your floor. Bail the tub out rather than leaving it standing, because warm food water turns unpleasant within a day or two." },
+    { "q": "Why is my dishwasher filling with water when it is off?", "a": "Because the water inlet valve is not sealing. Scale or debris holds the diaphragm slightly off its seat, so a trickle passes even with the machine unpowered. Confirm it by bailing the tub dry, leaving the machine off overnight with the supply valve open, and checking the sump in the morning. Shut the supply valve until it is fixed." },
+    { "q": "Does too much detergent cause OC?", "a": "It can. A heavy head of foam stacks up in the tub and reads as depth, so the machine sees an over-level condition that is mostly air. Hand dish soap is the usual culprit. Clear it with two or three empty hot rinse cycles and a quarter cup of white vinegar, then use the marked dose of real dishwasher detergent." },
+    { "q": "Should I replace the drain pump for an OC code?", "a": "Not as a first move. OC reports the water level, not the pump, and plenty of them turn out to be a blocked filter, a packed air gap, or an inlet valve leaking through overnight. Replace the pump only after you have heard it hum with no flow while the impeller turns freely and the drain path is clear." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "Why a Samsung tub holds too much water, in and out",
+    "labels": {
+      "display": "OC",
+      "c1": "Filter and sump, clear the blockage",
+      "c2": "Drain hose loop and air gap",
+      "c3": "Inlet valve passing water in",
+      "c4": "Level sensing in the sump area"
+    }
+  },
+  "sources": [
+    { "title": "Common Samsung dishwasher error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung dishwasher service literature, water level sensing and drain system", "publisher": "Samsung service documentation", "url": null },
+    { "title": "Field reports on over-level water codes and inlet valves passing through", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["SC", "LC", "LE", "4C", "4E"]
+}

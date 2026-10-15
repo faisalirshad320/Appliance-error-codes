@@ -1,0 +1,123 @@
+{
+  "title": "Samsung Washer UE Error Code: Causes and Fix",
+  "meta_description": "UE on a Samsung washer means the drum would not balance so it stopped spinning. Same fault as UB on newer machines. Redistribute the load and level it.",
+  "h1": "Samsung washer UE error code: what it means and how to fix it",
+  "answer": "UE means the washer detected an uneven load at the spin, retried, and eventually stopped rather than spin a drum that is out of balance. That is why the clothes are still soaking. It is the pre-2017 display for the fault newer Samsung machines show as UB, and the two are the same. Most of the time the answer is one heavy item like a bath mat or a tangled duvet cover, but on machines old enough to show UE rather than UB, worn suspension is a far more realistic suspect than it would be on a new washer.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes for a load problem, up to 3 hours for suspension",
+  "cost_estimate": { "diy": "$0 to $160", "technician": "$180 to $400" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "One heavy item, or a load roped into a single mass",
+      "frequency": "most cases",
+      "confirm": "Open the door. A soaked bath mat, hoodie or duvet cover sitting in a lump on one side with everything else flat against the drum wall. Wet, that single item outweighs the rest of the wash and no retry will spread it out."
+    },
+    {
+      "cause": "Worn shock absorbers or suspension rods",
+      "frequency": "most cases",
+      "confirm": "Specific to machines of this age. With the drum empty and the power off, push the top of the drum down sharply and let go. A healthy machine drops and settles in one movement. Two or three rebounds means the damping is gone, and a ten-year-old Samsung on original dampers usually has none left."
+    },
+    {
+      "cause": "The machine is not level, or the lock nuts have worked loose",
+      "frequency": "common",
+      "confirm": "Push each top corner down in turn and find the rocking diagonal. Then check each foot's lock nut. A foot set correctly at installation will slowly unwind itself over years of spinning if the nut was never tightened against the cabinet."
+    },
+    {
+      "cause": "The load is too small or too large for the drum",
+      "frequency": "common",
+      "confirm": "One pair of jeans on its own has nothing to counterweight against, and a drum packed to the roof cannot redistribute at all. The test is whether you can lay a flat hand on top of the dry load and still fit it under the top of the drum."
+    },
+    {
+      "cause": "The floor flexes under the machine",
+      "frequency": "occasional",
+      "confirm": "Stand beside it during spin-up. If the floor moves under your feet, the machine is feeding its own vibration back into a suspended timber floor and the sensor reads that as imbalance."
+    },
+    {
+      "cause": "Worn drum bearings",
+      "frequency": "rare",
+      "confirm": "A rumble or growl that rises and falls with drum speed, rather than a knock, plus play when you rock the empty drum front to back by hand. On a machine this age it happens, and it is the point at which replacing the washer usually beats repairing it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Redistribute the load by hand",
+      "detail": "Pause and wait for the drum to stop so the door releases. Pull everything out, shake each item loose and untwist anything that has roped together. Put it back spread evenly around the drum rather than dropped in as one lump, then run Spin or Rinse and Spin. This clears most UE codes on its own.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Wait for the drum to come to a complete stop before reaching in."
+    },
+    {
+      "name": "Run an empty spin to separate load from machine",
+      "detail": "Take everything out and run Spin only on a completely empty drum. An empty machine has nothing to unbalance. If it runs up smoothly and quietly to full speed, the machine is mechanically sound and the problem is how it is being loaded. If UE appears on an empty drum, the machine is at fault and you can stop rearranging laundry.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Level it on all four feet and lock them",
+      "detail": "Put a spirit level across the top both ways and push each corner down to find the rocking diagonal. Adjust the feet until the cabinet sits solid at every corner, then hold each foot and tighten its lock nut firmly up against the underside of the cabinet with a wrench. Check the drain hose is not trapped behind a foot, which quietly lifts one corner.",
+      "minutes": 20,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Bounce test the suspension",
+      "detail": "With the machine empty and switched off, grip the top edge of the drum, push it down firmly and release. One controlled drop and stop is healthy. Two or three rebounds means the shock absorbers on a front loader, or the suspension rods on a top loader, have lost their damping. On a machine of this age that is the expected result rather than a surprise.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the pump filter before buying suspension parts",
+      "detail": "A machine that drains slowly leaves water in the tub, and water sloshing in the outer drum throws the balance off exactly like a heavy towel would. Unplug, open the panel at the bottom front, drain through the small hose, turn the filter cap anticlockwise and clean it. This is free and rules out a drain problem wearing a balance code.",
+      "minutes": 18,
+      "tools": "Phillips #2, shallow tray, towels",
+      "warning": "Unplug at the wall before opening the filter housing."
+    },
+    {
+      "name": "Replace the dampers or rods as a full set",
+      "detail": "On a front loader the shock absorbers are a pair of struts between tub and base, reached with the front panel off. On a top loader the suspension rods are a set of four. Replace every unit in the set together, because one new damper working against three tired ones just relocates the imbalance to a different corner.",
+      "minutes": 150,
+      "tools": "Socket set, screwdrivers, flashlight",
+      "warning": "Unplug the machine at the wall before removing any panel."
+    }
+  ],
+  "still_showing": "If an empty spin also throws UE, the laundry is irrelevant and you are into the machine itself. On a washer old enough to display UE rather than UB, go to the suspension early rather than treating it as a last resort, because original dampers simply do not last this long. Order of work. First the free checks: level on all four corners with the machine loaded and wet rather than empty, every lock nut tightened, nothing trapped under a foot, and a look at whether the floor itself moves during spin-up. A front loader on a springy timber floor throws balance codes it would never throw on concrete, and plywood screwed across the joists underneath is the cheapest real fix available. Second, the pump filter, because a slow drain leaves water sloshing in the outer drum and imitates an unbalanced load exactly. Third, the dampers: a pair for a front loader runs $30 to $90 and a confident DIYer can change them in a couple of hours with the front panel off, while a top loader's four suspension rods cost more and should also go in as a set. Fourth, listen during spin-up with the drum empty. A knock is suspension; a rumble that rises and falls with speed is bearings, and that is where the economics usually stop making sense. A bearing job on a Samsung front loader involves splitting the outer tub, and on a machine of this vintage the labor alone approaches the price of a new washer. Get a written quote before agreeing to it, and compare it honestly against what the machine is worth.",
+  "reset_procedure": "Press Power to cancel, unplug for five minutes, then plug back in. Redistribute the load by hand before restarting, and use Spin or Rinse and Spin rather than a full wash so you learn within a couple of minutes whether the drum now balances. Resetting on its own achieves nothing if the laundry is still bunched on one side.",
+  "model_notes": "UE is the older display and was replaced by UB on Samsung washers made from roughly 2017 onward. The fault, the checks and the parts are the same. Both are different from UR, which is the retry status shown while the machine is still trying to rebalance and is not in itself a failure. A minority of Samsung models, mostly some top loaders, show dC for an unbalanced load instead, which is confusing because dC is a door fault across most of the range; if the lid is plainly shut and the code appears at the spin, treat it as a balance problem.",
+  "parts": [
+    { "name": "Shock absorber or damper pair, front loader", "cost": "$30 to $90 a pair", "difficulty": "hard", "note": "The usual answer on a machine this age; always fit as a pair" },
+    { "name": "Suspension rod set, top loader", "cost": "$60 to $160 a set", "difficulty": "hard", "note": "Replace all four together or the imbalance moves to another corner" },
+    { "name": "Leveling feet and lock nuts", "cost": "$10 to $25", "difficulty": "easy", "note": "Only if a foot is bent, seized or has lost its rubber pad" },
+    { "name": "Drum bearing kit", "cost": "$40 to $120", "difficulty": "technician only", "note": "Labor dominates the cost; rarely worth it on a machine this old" }
+  ],
+  "when_to_call": "Call someone if UE appears on an empty spin after the machine is properly levelled, because that rules out the load and the installation and leaves suspension, bearings or the balance sensor. Call sooner if the machine bangs hard enough to walk across the floor or to knock audibly from inside, since running it in that state wrecks the tub and bearings. Before booking anything on a machine old enough to display UE, ask for the likely parts and the labor separately. Dampers are good value. A bearing replacement usually is not, and an honest technician will tell you so rather than quote for it.",
+  "faqs": [
+    { "q": "Is UE the same as UB on a Samsung washer?", "a": "Yes, one fault with two displays. UE is used on machines made before roughly 2017 and UB replaced it on later ones. Both mean the washer could not balance the drum and abandoned the spin. The causes, the checks and the parts are identical, so guidance written for UB applies directly to UE." },
+    { "q": "What is the difference between UE and UR?", "a": "UR is the washer still trying, UE is the washer having given up. UR means it has detected imbalance and is adding water and tumbling to redistribute before another spin attempt, which is normal behavior. UE means those attempts failed and the cycle ended without a proper spin, which is why your laundry is dripping." },
+    { "q": "Can I still use my washer with a UE code?", "a": "You can wash, but you will not get a proper spin, so everything comes out soaked. There is no safety risk, though a machine that bangs hard during spin is steadily damaging its own suspension and bearings. Redistribute and run Spin again rather than accepting cycle after cycle that ends wet." },
+    { "q": "My washer is ten years old. Is UE a sign it is worn out?", "a": "It can be, and on a machine that age worn shock absorbers are a genuinely likely cause rather than a last resort. Test it properly with an empty spin and a bounce test on the drum. If the drum rebounds two or three times when you push it down, the dampers are finished, and a new pair is still far cheaper than a new washer." },
+    { "q": "Why does UE only happen with bedding and towels?", "a": "Those are the hardest loads to balance. Wet towels hold a great deal of water and move as a block, and a duvet cover acts like a bag that collects the rest of the wash into one lump on one side. Wash bedding on its own, shake it out before loading, and split big towel loads in two." },
+    { "q": "Can a blocked drain cause a UE code?", "a": "Yes, and it is worth ruling out before you buy any parts. If the machine drains slowly, water left sloshing in the outer drum unbalances it exactly the way a heavy towel does. Cleaning the pump filter at the bottom front costs nothing and takes twenty minutes, and it occasionally solves a balance code outright." }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why an older Samsung drum stops balancing, load first and suspension second",
+    "labels": {
+      "display": "UE",
+      "c1": "Heavy item bunched on one side",
+      "c2": "Feet level, lock nuts tight",
+      "c3": "Bounce test the worn dampers",
+      "c4": "Springy floor amplifies the wobble"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine displays an unbalanced load code and will not spin", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, spin balance detection and suspension checks", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Samsung washer UE error: unbalanced load and suspension diagnosis", "publisher": "Independent appliance repair field guides", "url": null },
+    { "title": "Field reports on damper and suspension rod wear on older Samsung washers", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["UB", "UR", "U6", "dC", "SE"]
+}

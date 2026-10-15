@@ -1,12 +1,15 @@
 {
   "title": "Samsung Dishwasher LC Code: Leak Detected and How to Fix",
-  "meta_description": "Samsung LC means the leak sensor in the base pan got wet. The machine runs its pump nonstop until you cut power. Dry the pan and sensor, then find the source.",
+  "meta_description": "Samsung LC means the leak sensor in the base pan got wet. The machine pumps nonstop until you cut power. Dry the pan, then find what wet it.",
   "h1": "Samsung dishwasher LC error code: what it means and how to fix it",
   "answer": "LC means the moisture sensor sitting in the base pan beneath the tub has got wet, so the dishwasher has declared a leak. Samsung's response to that is aggressive: the machine switches itself on, runs the drain pump continuously, and will not respond to the power button, so the only way to stop it is to pull the plug or trip the breaker. Three things cause it in practice, in this order: an actual leak, too much detergent foaming over, and a sensor that got splashed and simply needs drying out. All three need the pan dried before the code will clear.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "45 minutes of work, plus up to 24 hours of drying",
-  "cost_estimate": { "diy": "$0 to $70", "technician": "$150 to $380" },
+  "cost_estimate": {
+    "diy": "$0 to $70",
+    "technician": "$150 to $380"
+  },
   "safety_warning": "Water has reached the compartment that carries the machine's mains wiring and pump connections. Cut power at the breaker before pulling the dishwasher out, removing the kickplate, or putting your hands under the tub.",
   "causes": [
     {
@@ -95,21 +98,67 @@
   "reset_procedure": "There is no button sequence that dismisses LC while the sensor is wet, because the machine reads the sensor continuously and re-posts the code immediately. The reset is physical: cut the power at the breaker, drain and dry the base pan and the sensor, then restore power. If the pan is genuinely dry and the code is stored rather than live, leaving the breaker off for five minutes before restoring it clears the fault memory. Expect to leave a fan running under the machine for several hours before testing, rather than trying again straight away.",
   "model_notes": "Samsung uses LC on newer dishwashers and LE on older ones for the same leak detection, and both appear in Samsung's own documentation alongside each other. On Waterwall models, which spray from a moving bar rather than a rotating arm, the leak code is also tied to the water reflector being blocked or off its track, so check that the reflector moves freely before assuming a plumbing leak. Some models show the code as 'LC' on the panel and others blink a leak indicator instead. Samsung's published guidance for this code specifically calls out avoiding detergent overfill and checking the garbage disposal connection, which matches what the field sees.",
   "parts": [
-    { "name": "Door gasket or tub seal", "cost": "$25 to $60", "difficulty": "easy", "note": "Presses into a channel; a common source and a cheap fix" },
-    { "name": "Leak sensor assembly", "cost": "$30 to $70", "difficulty": "moderate", "note": "Only after a full day of drying has failed to clear the code" },
-    { "name": "Drain or fill hose clamp", "cost": "$3 to $10", "difficulty": "easy", "note": "A weeping clamp often just needs tightening" },
-    { "name": "Sump gasket or sump assembly", "cost": "$50 to $140", "difficulty": "hard", "note": "Means laying the machine down and stripping the bottom end" },
-    { "name": "Water inlet valve", "cost": "$35 to $85", "difficulty": "moderate", "note": "If the pan refills with the machine idle and the supply on" }
+    {
+      "name": "Door gasket or tub seal",
+      "cost": "$25 to $60",
+      "difficulty": "easy",
+      "note": "Presses into a channel; a common source and a cheap fix"
+    },
+    {
+      "name": "Leak sensor assembly",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Only after a full day of drying has failed to clear the code"
+    },
+    {
+      "name": "Drain or fill hose clamp",
+      "cost": "$3 to $10",
+      "difficulty": "easy",
+      "note": "A weeping clamp often just needs tightening"
+    },
+    {
+      "name": "Sump gasket or sump assembly",
+      "cost": "$50 to $140",
+      "difficulty": "hard",
+      "note": "Means laying the machine down and stripping the bottom end"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$35 to $85",
+      "difficulty": "moderate",
+      "note": "If the pan refills with the machine idle and the supply on"
+    }
   ],
   "when_to_call": "Call a technician if the leak traces to the sump collar or the tub itself, because reaching either means laying the machine on its back and stripping the bottom end, and a gasket refitted slightly proud gives you the same code a month later. Call immediately, after shutting the supply valve, if the pan keeps filling with the dishwasher switched off, since that is a live leak that will damage your floor whether you run the machine or not. Call a plumber rather than an appliance technician if the sink backs up or the air gap spits during the drain, because the blockage is in your kitchen plumbing. And weigh the quote against the machine: past seven or eight years old, a sump repair is usually most of the price of a replacement.",
   "faqs": [
-    { "q": "Why won't my Samsung dishwasher turn off with an LC code?", "a": "Because leak mode overrides the power button by design. The machine assumes water is escaping and runs the drain pump continuously to keep the tub empty until someone intervenes. The only way to stop it is at the breaker or by unplugging it. Leave it running for days and you will wear out a perfectly good drain pump." },
-    { "q": "Can an LC code appear without an actual leak?", "a": "Yes, and it happens often. The sensor reads moisture in the base pan, so a splash during installation, leveling, or plumbing work under the sink triggers it with nothing broken. So does detergent foaming over the tub lip. Dry the pan thoroughly, run a fan under the machine for several hours, and see whether it stays clear." },
-    { "q": "How long does the base pan take to dry out?", "a": "Longer than it looks. Soaking up the standing water takes minutes, but the sensor keeps reading wet while residual damp sits around it, so plan on several hours with a fan blowing into the open kickplate and up to a full day if the pan was properly flooded. Do not use a heat gun; the housing is plastic." },
-    { "q": "Can I still use the dishwasher with an LC code?", "a": "No. The machine locks into leak mode, runs its pump, and will not accept a cycle. Even if you could force it, running a dishwasher that is leaking into its own base makes the problem worse and puts water next to the wiring. Deal with the pan and the source first." },
-    { "q": "Does too much detergent really cause LC?", "a": "Yes, and Samsung's own guidance says so. Excess detergent, and especially hand dish soap, generates foam that climbs the tub walls and pours over the lip into the base pan, where it lands on the leak sensor. The machine cannot tell foam from a burst hose. Use the marked dose of dishwasher detergent only." },
-    { "q": "Why did LC appear suddenly when nothing changed?", "a": "Most real leaks are slow. A gasket weeps a spoonful per cycle for months, the pan fills unnoticed, and one day the water finally reaches the sensor. It feels instant and has been building all along. The other sudden trigger is a one-off: the wrong soap, a spilled rinse aid bottle, or a sink backing up into the cabinet." },
-    { "q": "Is an LC repair worth it?", "a": "It depends where the leak is. A door gasket, a loose hose clamp, or a sensor that just needs drying are all cheap and clearly worth doing. A sump gasket or a cracked tub on a machine past seven or eight years old usually is not, because the labor to reach those parts approaches the cost of a new dishwasher." }
+    {
+      "q": "Why won't my Samsung dishwasher turn off with an LC code?",
+      "a": "Because leak mode overrides the power button by design. The machine assumes water is escaping and runs the drain pump continuously to keep the tub empty until someone intervenes. The only way to stop it is at the breaker or by unplugging it. Leave it running for days and you will wear out a perfectly good drain pump."
+    },
+    {
+      "q": "Can an LC code appear without an actual leak?",
+      "a": "Yes, and it happens often. The sensor reads moisture in the base pan, so a splash during installation, leveling, or plumbing work under the sink triggers it with nothing broken. So does detergent foaming over the tub lip. Dry the pan thoroughly, run a fan under the machine for several hours, and see whether it stays clear."
+    },
+    {
+      "q": "How long does the base pan take to dry out?",
+      "a": "Longer than it looks. Soaking up the standing water takes minutes, but the sensor keeps reading wet while residual damp sits around it, so plan on several hours with a fan blowing into the open kickplate and up to a full day if the pan was properly flooded. Do not use a heat gun; the housing is plastic."
+    },
+    {
+      "q": "Can I still use the dishwasher with an LC code?",
+      "a": "No. The machine locks into leak mode, runs its pump, and will not accept a cycle. Even if you could force it, running a dishwasher that is leaking into its own base makes the problem worse and puts water next to the wiring. Deal with the pan and the source first."
+    },
+    {
+      "q": "Does too much detergent really cause LC?",
+      "a": "Yes, and Samsung's own guidance says so. Excess detergent, and especially hand dish soap, generates foam that climbs the tub walls and pours over the lip into the base pan, where it lands on the leak sensor. The machine cannot tell foam from a burst hose. Use the marked dose of dishwasher detergent only."
+    },
+    {
+      "q": "Why did LC appear suddenly when nothing changed?",
+      "a": "Most real leaks are slow. A gasket weeps a spoonful per cycle for months, the pan fills unnoticed, and one day the water finally reaches the sensor. It feels instant and has been building all along. The other sudden trigger is a one-off: the wrong soap, a spilled rinse aid bottle, or a sink backing up into the cabinet."
+    },
+    {
+      "q": "Is an LC repair worth it?",
+      "a": "It depends where the leak is. A door gasket, a loose hose clamp, or a sensor that just needs drying are all cheap and clearly worth doing. A sump gasket or a cracked tub on a machine past seven or eight years old usually is not, because the labor to reach those parts approaches the cost of a new dishwasher."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-sump-float",
@@ -123,10 +172,32 @@
     }
   },
   "sources": [
-    { "title": "Common Samsung dishwasher error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
-    { "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher", "publisher": "Samsung support documentation", "url": null },
-    { "title": "Samsung dishwasher service literature, leak detection and base pan sensor", "publisher": "Samsung service documentation", "url": null },
-    { "title": "Field reports on LC causes, drying times and false triggers", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+    {
+      "title": "Common Samsung dishwasher error codes and their meaning",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung dishwasher service literature, leak detection and base pan sensor",
+      "publisher": "Samsung service documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on LC causes, drying times and false triggers",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
   ],
-  "related_codes": ["LE", "OC", "SC", "4C", "4E"]
+  "related_codes": [
+    "LE",
+    "OC",
+    "SC",
+    "4C",
+    "4E"
+  ]
 }

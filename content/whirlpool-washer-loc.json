@@ -1,0 +1,107 @@
+{
+  "title": "Whirlpool Washer LOC Code: Control Lock, Not a Fault",
+  "meta_description": "LOC on a Whirlpool washer is the control lock, not an error. Hold the button with the small padlock icon for three seconds to turn it off.",
+  "h1": "Whirlpool washer LOC code: it is the control lock, and how to turn it off",
+  "answer": "LOC is not an error. It means the control lock is switched on, which is the child lock that stops the buttons doing anything so a toddler or a cleaning cloth cannot change your cycle. Nothing is broken and no part needs replacing. Find the button on your panel with a small padlock printed on or beside it, press and hold it for about three seconds, and the LOC indicator goes out and the controls come back.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "Under 5 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Someone turned the control lock on deliberately",
+      "frequency": "most cases",
+      "confirm": "There is a padlock symbol lit on the panel alongside LOC. If anyone in the house has small children, has been showing someone how the machine works, or has been reading the manual lately, this is it."
+    },
+    {
+      "cause": "A button got held down long enough to toggle the lock by accident",
+      "frequency": "most cases",
+      "confirm": "LOC appeared after the panel was wiped down, after something was set on top of the machine, or after a child was playing with the buttons. A touch panel only needs a cloth resting on the right spot for three seconds."
+    },
+    {
+      "cause": "You are holding the wrong button",
+      "frequency": "common",
+      "confirm": "You have pressed and held something for three seconds and nothing happened. Most Whirlpool panels do not print the word lock anywhere; the control is marked only with a small padlock icon, often sharing one of the option buttons, and it is easy to miss on a dark panel."
+    },
+    {
+      "cause": "The lock is being released but the machine is in a state that will not accept it",
+      "frequency": "occasional",
+      "confirm": "Holding the right button does nothing mid-cycle but works once the machine is idle. Cancel the cycle, let the display settle, and try again rather than holding the button harder."
+    },
+    {
+      "cause": "The touch panel or user interface board has failed",
+      "frequency": "rare",
+      "confirm": "LOC will not clear with the correct button, will not clear after a five-minute power down, and other buttons on the panel are also dead or need several presses. At that point the panel is not reading your input at all."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the padlock icon on the panel",
+      "detail": "Look along the row of option buttons for a small padlock symbol printed above, below or beside one of them. Whirlpool rarely labels this with a word, so you are hunting for the picture rather than the text. Take a photo with your phone's flash on if the panel is dark and the printing is low contrast, which it usually is on the grey and black panels.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Press and hold that button for three seconds",
+      "detail": "Hold it steadily rather than tapping it, and keep holding past the point where it feels like nothing is happening. On most Whirlpool washers the LOC indicator goes out at around three seconds and the panel beeps. If three does nothing, hold the same button for five, because the required time varies between model generations.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Make sure the machine is idle when you try",
+      "detail": "Some controls will not accept the lock toggle in the middle of a running or paused cycle. Press Pause or Cancel, wait until the display settles and the drum has stopped, then hold the padlock button again. This is the single most common reason the correct button appears not to work.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check your model's manual for the exact button",
+      "detail": "If no button on the panel carries a padlock, your model assigns the control lock to a specific button named in the use and care guide. Search the PDF for control lock with your model number, which is printed on a sticker inside the door opening or on the rim of the door on front loaders. Two minutes with the manual beats ten minutes of holding buttons at random.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power the machine down for five minutes",
+      "detail": "Unplug the washer at the wall and leave it for five minutes, then plug it back in. Note that this does not usually turn the control lock off, because the setting is stored deliberately so it survives a power cut. What it does do is clear a control that has hung and is showing LOC when the lock is not actually set. Try the padlock button again once it is back up.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the padlock button does nothing after a five-minute power down and the machine is sitting idle, work through two possibilities before calling anyone. First, confirm you have the right button by checking the use and care guide against your exact model number from the sticker inside the door. Panels that look identical across a model range sometimes assign the lock to different buttons, and holding the wrong one forever will not help. Second, test whether the rest of the panel works: press a few cycle and option buttons and see whether the display responds at all. If nothing on the panel does anything, the problem is not the control lock, it is the touch panel or user interface board failing to read input, and LOC is just what happened to be showing when it died. That is a $120 to $280 part and a technician job on most models, and it is the only outcome here that costs money. One more thing to rule out, because it catches people: make sure what you are reading is LOC and not dL. A Whirlpool washer showing dL is telling you the door is locked during a cycle, which is normal operation and clears when the cycle ends, and no amount of holding the control lock button will change it.",
+  "reset_procedure": "Press and hold the button marked with the padlock icon for about three seconds with the machine idle, and hold for five if three does nothing. A full unplug for five minutes does not normally clear the control lock, because the setting is stored on purpose so a power cut cannot unlock the panel, but it will clear a hung control that is displaying LOC incorrectly.",
+  "model_notes": "The same setting appears as LOC, LC, Loc or just a lit padlock symbol depending on the panel, and on some Whirlpool models the display shows CL instead. All of them mean the control lock is on. The hold time is three seconds on most machines and five on some, and the button carrying the padlock differs across model ranges, which is why the manual for your specific model number is worth the two minutes. Do not confuse any of these with dL, which means the door is locked during a cycle and is normal.",
+  "parts": [
+    { "name": "Touch panel or user interface board", "cost": "$120 to $280", "difficulty": "technician only", "note": "Only needed in the rare case where the whole panel has stopped responding" }
+  ],
+  "when_to_call": "There is almost nothing here worth paying for. The only case that justifies a call-out is a panel where no button does anything at all, including Power and Start, after you have confirmed the right lock button from the manual and tried a five-minute power down. That is a failed user interface board rather than a lock setting, and it runs $120 to $280 for the part plus labor. Before you book anyone, check the model number on the sticker inside the door and read the control lock section of the use and care guide, because the overwhelming majority of LOC call-outs end with a technician holding a button for three seconds and charging for the visit.",
+  "faqs": [
+    { "q": "What does LOC mean on a Whirlpool washer?", "a": "The control lock is on. It is a child lock that disables the buttons so the cycle cannot be changed by accident, and it is a setting rather than a fault. Nothing is broken and nothing needs replacing. Hold the button marked with a small padlock icon for about three seconds and the controls come back." },
+    { "q": "How do I unlock a Whirlpool washer showing LOC?", "a": "Find the button on the panel with a padlock symbol printed on or near it, make sure the machine is idle rather than mid-cycle, and press and hold that button for three seconds. If nothing happens, hold the same button for five seconds. If no button carries a padlock, the manual for your model names which button to use." },
+    { "q": "Why won't the control lock turn off when I hold the button?", "a": "Three usual reasons: you are holding the wrong button, because most Whirlpool panels mark this with an icon rather than a word; the machine is mid-cycle and will not accept the toggle; or you are not holding long enough, since some models want five seconds rather than three. Cancel the cycle, check the manual, and hold steadily." },
+    { "q": "Will unplugging the washer clear LOC?", "a": "Usually not, and that is deliberate. The control lock is stored so that a power cut cannot leave the panel unlocked around children. A five-minute unplug is still worth doing if the panel has hung, because it clears a control that is displaying LOC when the lock is not really set, but the button is what actually turns the setting off." },
+    { "q": "Is LOC the same as dL on a Whirlpool washer?", "a": "No, and it is worth not confusing them. LOC is the control lock, a setting you turn on and off with a button. dL means the door is locked, which is normal while a cycle is running and clears by itself at the end. If a door stays locked after the cycle finishes, the code to look at is F5 E3, not LOC." },
+    { "q": "Did my washer lock itself?", "a": "Possibly. A cloth resting on a touch button while you wipe the panel down will hold it long enough to toggle the lock, and so will a child leaning on the console or a laundry basket set on top of the machine. It is the most common way LOC appears on a washer nobody deliberately locked." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Turning the Whirlpool control lock off in four moves",
+    "labels": {
+      "display": "LOC",
+      "c1": "Find the small padlock icon",
+      "c2": "Hold that button three seconds",
+      "c3": "Machine must be idle, not running",
+      "c4": "Check the manual for your model"
+    }
+  },
+  "sources": [
+    { "title": "Control lock feature on washers and how to turn it off", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool washer use and care guide, control lock section", "publisher": "Whirlpool owner documentation supplied with the machine", "url": null },
+    { "title": "Whirlpool washing machine display code reference", "publisher": "iFixit community repair wiki", "url": null }
+  ],
+  "related_codes": ["LC", "CL", "dL", "F5 E3", "F5 E2", "int"]
+}

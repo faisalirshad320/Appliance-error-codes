@@ -1,12 +1,15 @@
 {
   "title": "LG Dryer tE1 Error Code: Thermistor Fault and Fixes",
-  "meta_description": "tE1 on an LG dryer is a thermistor fault: the control is reading an impossible temperature. Try a reset, check the vent, then test the sensor and its wiring.",
+  "meta_description": "tE1 on an LG dryer is a thermistor fault: the control is reading an impossible temperature. Try a reset, check the vent, then test the sensor and its",
   "h1": "LG dryer tE1 error code: what it means and how to fix it",
   "answer": "tE1 means the control board is reading a temperature from the dryer's thermistor that it does not believe. The thermistor is the small temperature sensor that tells the board how hot the air in the dryer is, and tE1 is raised when that reading is out of range, usually because the sensor has gone open circuit or its wiring has come loose. Start with a power reset, because LG says a reset clears a fair number of these, then check the exhaust vent for restriction before you open anything up. If it comes back, the sensor and its connector are the parts to test.",
   "severity": "moderate",
   "can_diy": "sometimes",
   "time_estimate": "20 minutes for the reset and vent check, 1 to 2 hours for the sensor",
-  "cost_estimate": { "diy": "$15 to $45", "technician": "$150 to $320" },
+  "cost_estimate": {
+    "diy": "$15 to $45",
+    "technician": "$150 to $320"
+  },
   "safety_warning": "Testing or replacing the thermistor means taking a panel off a machine that runs on 240 volt mains. Unplug the dryer at the wall before any panel comes off, and do not rely on the Power button. On a gas model, close the gas shutoff valve behind the dryer before moving it, and leave every gas component alone: burner, valve and igniter work goes to a licensed technician. Never bypass or jumper a thermal cut-out or thermal fuse to get a cycle to run.",
   "causes": [
     {
@@ -95,21 +98,67 @@
   "reset_procedure": "Press Power to turn the dryer off, then unplug it at the wall or switch the breaker off and wait a full five minutes before restoring power. The five minutes matters, because the control board holds charge and a quick cycle often leaves the stored fault in place. Then run a short heated cycle with a few damp towels to test. If tE1 returns on the next load, the reset has only hidden it and the sensor circuit needs checking properly.",
   "model_notes": "LG uses several thermistor codes and they are not interchangeable. tE1 and tE3 both point at thermistor circuits that have gone out of range, while tE2 generally indicates a shorted sensor rather than an open one, and the sensor each code refers to can differ between a vented dryer and a heat pump or condensing model. Sources outside LG disagree about whether tE1 is the inlet or the outlet sensor, so use the wiring diagram inside your own cabinet rather than a generic answer to identify which sensor the connector belongs to. On heat pump models the sensors sit in the refrigerant circuit area, which is not DIY territory.",
   "parts": [
-    { "name": "Dryer thermistor, also sold as a temperature sensor", "cost": "$15 to $45", "difficulty": "moderate", "note": "Order by your exact model number; one screw and a push-on connector" },
-    { "name": "Wiring harness connector repair kit", "cost": "$10 to $25", "difficulty": "moderate", "note": "For a corroded or backed-out terminal, which is cheaper than any part" },
-    { "name": "Thermal cut-out and thermostat kit", "cost": "$20 to $50", "difficulty": "moderate", "note": "Only if the dryer tumbles without heating; find the vent restriction that blew it" },
-    { "name": "Heating element", "cost": "$45 to $120", "difficulty": "moderate", "note": "Electric models only, and only when there is no heat at all" },
-    { "name": "Main control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Last resort, after the harness has been proven good end to end" }
+    {
+      "name": "Dryer thermistor, also sold as a temperature sensor",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Order by your exact model number; one screw and a push-on connector"
+    },
+    {
+      "name": "Wiring harness connector repair kit",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "For a corroded or backed-out terminal, which is cheaper than any part"
+    },
+    {
+      "name": "Thermal cut-out and thermostat kit",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "Only if the dryer tumbles without heating; find the vent restriction that blew it"
+    },
+    {
+      "name": "Heating element",
+      "cost": "$45 to $120",
+      "difficulty": "moderate",
+      "note": "Electric models only, and only when there is no heat at all"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, after the harness has been proven good end to end"
+    }
   ],
   "when_to_call": "Call a technician if you are not comfortable taking the rear panel off a 240 volt appliance or using a multimeter, because the rest of this job needs both. Call one straight away if you have a gas dryer that tumbles without lighting, since burner and gas valve work is licensed trade only. Call if the thermistor measures correctly, the harness has continuity and the vent is clear, because the next step is board level diagnosis. And on a heat pump or condensing LG dryer, where the sensors sit in the sealed refrigerant circuit area, treat tE1 as a service call from the start.",
   "faqs": [
-    { "q": "What is a thermistor on an LG dryer?", "a": "It is a small temperature sensor, usually clipped to the blower housing or the heater duct, that reports air temperature to the control board as a changing electrical resistance. The board uses it to decide when to switch the heater on and off. When the reading goes outside the range the board expects, you get tE1." },
-    { "q": "Can I still use the dryer with a tE1 code?", "a": "Usually not, because the dryer stops the cycle rather than heating without a temperature reading it trusts. That caution is deliberate: running a heater with no reliable temperature feedback is how things overheat. If it does still tumble, it will be on no heat, so you are air-drying at best." },
-    { "q": "Will a reset fix tE1?", "a": "Sometimes, and it is LG's own first suggestion, so it is worth the five minutes. Power off, unplug or trip the breaker, wait five full minutes, restore power and run a heated cycle. If the code stays away over several loads it was a glitch. If it returns, the reset has not fixed anything and the sensor circuit needs testing." },
-    { "q": "Can a blocked vent cause tE1?", "a": "It can contribute. A restricted duct keeps hot air in the drum and pushes real temperatures above what the control expects, which can be read as an abnormal sensor reading. If you have seen D80, D90 or D95 recently, or clothes come out hot and damp after a long cycle, clear the duct before you buy any part." },
-    { "q": "How much does a tE1 repair cost?", "a": "The thermistor itself is typically $15 to $45 and is a one-screw part if you are willing to take the back panel off, so a DIY fix is cheap. A technician doing the same job usually charges $150 to $320 including the call-out. If the diagnosis lands on the main control board instead, expect $250 to $400." },
-    { "q": "Is tE1 the same as tE2 or tE3?", "a": "They are related but not identical. tE1 and tE3 both indicate a thermistor reading out of range, typically an open circuit or a sensor that is not responding, while tE2 generally points at a shorted sensor. Which physical sensor each refers to varies by model, so check the wiring diagram inside your own dryer." },
-    { "q": "Why did tE1 appear suddenly?", "a": "Thermistors usually fail abruptly rather than drifting: the element cracks, or a wire that has been rubbing against sheet metal for years finally breaks through. The other common trigger is work behind the machine, where moving the dryer tugs a harness and pulls a terminal out of its connector, which shows up on the very next cycle." }
+    {
+      "q": "What is a thermistor on an LG dryer?",
+      "a": "It is a small temperature sensor, usually clipped to the blower housing or the heater duct, that reports air temperature to the control board as a changing electrical resistance. The board uses it to decide when to switch the heater on and off. When the reading goes outside the range the board expects, you get tE1."
+    },
+    {
+      "q": "Can I still use the dryer with a tE1 code?",
+      "a": "Usually not, because the dryer stops the cycle rather than heating without a temperature reading it trusts. That caution is deliberate: running a heater with no reliable temperature feedback is how things overheat. If it does still tumble, it will be on no heat, so you are air-drying at best."
+    },
+    {
+      "q": "Will a reset fix tE1?",
+      "a": "Sometimes, and it is LG's own first suggestion, so it is worth the five minutes. Power off, unplug or trip the breaker, wait five full minutes, restore power and run a heated cycle. If the code stays away over several loads it was a glitch. If it returns, the reset has not fixed anything and the sensor circuit needs testing."
+    },
+    {
+      "q": "Can a blocked vent cause tE1?",
+      "a": "It can contribute. A restricted duct keeps hot air in the drum and pushes real temperatures above what the control expects, which can be read as an abnormal sensor reading. If you have seen D80, D90 or D95 recently, or clothes come out hot and damp after a long cycle, clear the duct before you buy any part."
+    },
+    {
+      "q": "How much does a tE1 repair cost?",
+      "a": "The thermistor itself is typically $15 to $45 and is a one-screw part if you are willing to take the back panel off, so a DIY fix is cheap. A technician doing the same job usually charges $150 to $320 including the call-out. If the diagnosis lands on the main control board instead, expect $250 to $400."
+    },
+    {
+      "q": "Is tE1 the same as tE2 or tE3?",
+      "a": "They are related but not identical. tE1 and tE3 both indicate a thermistor reading out of range, typically an open circuit or a sensor that is not responding, while tE2 generally points at a shorted sensor. Which physical sensor each refers to varies by model, so check the wiring diagram inside your own dryer."
+    },
+    {
+      "q": "Why did tE1 appear suddenly?",
+      "a": "Thermistors usually fail abruptly rather than drifting: the element cracks, or a wire that has been rubbing against sheet metal for years finally breaks through. The other common trigger is work behind the machine, where moving the dryer tugs a harness and pulls a terminal out of its connector, which shows up on the very next cycle."
+    }
   ],
   "diagram": {
     "kind": "dryer-thermistor",
@@ -123,10 +172,33 @@
     }
   },
   "sources": [
-    { "title": "LG dryer error code list, thermistor codes tE1 and tE3", "publisher": "LG support help library", "url": null },
-    { "title": "LG dryer wiring diagram and service sheet, thermistor resistance table", "publisher": "LG service sheet folded inside the dryer cabinet", "url": null },
-    { "title": "tE1 troubleshooting and repair guidance for LG dryers", "publisher": "AppliancePartsPros repair guides", "url": null },
-    { "title": "Field reports distinguishing thermistor failure from harness breaks on tE1", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+    {
+      "title": "LG dryer error code list, thermistor codes tE1 and tE3",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG dryer wiring diagram and service sheet, thermistor resistance table",
+      "publisher": "LG service sheet folded inside the dryer cabinet",
+      "url": null
+    },
+    {
+      "title": "tE1 troubleshooting and repair guidance for LG dryers",
+      "publisher": "AppliancePartsPros repair guides",
+      "url": null
+    },
+    {
+      "title": "Field reports distinguishing thermistor failure from harness breaks on tE1",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
   ],
-  "related_codes": ["tE2", "tE3", "D80", "D90", "dE", "PS"]
+  "related_codes": [
+    "tE2",
+    "tE3",
+    "D80",
+    "D90",
+    "dE",
+    "PS"
+  ]
 }

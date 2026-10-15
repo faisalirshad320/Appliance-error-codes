@@ -1,12 +1,15 @@
 {
   "title": "LG Dishwasher OE Error Code: Won't Drain, and How to Fix",
-  "meta_description": "OE on an LG dishwasher means it did not drain in the time allowed. Usually a clogged filter, a blocked drain hose, or a disposal knockout plug left in place.",
+  "meta_description": "OE on an LG dishwasher means it did not drain in the time allowed. Usually a clogged filter, a blocked drain hose, or a disposal knockout plug left in",
   "h1": "LG dishwasher OE error code: why it will not drain and how to clear it",
   "answer": "OE means your LG dishwasher tried to pump the water out and the water level did not drop far enough in the time the control allows. It is a drain fault, and it is a blockage rather than a broken pump in most cases. Start with the filter in the bottom of the tub and the drain hose under the sink, which between them account for the large majority of OE codes. If the machine was recently installed and has never drained properly, check whether the knockout plug in the garbage disposal inlet was removed, because that single oversight causes this code more often than any part failure.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "30 to 60 minutes",
-  "cost_estimate": { "diy": "$0 to $40", "technician": "$130 to $300" },
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$130 to $300"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -102,20 +105,61 @@
   "reset_procedure": "Press Power to cancel, then switch the dishwasher off at the breaker for five minutes and back on. The fault is stored, so a machine that now drains perfectly will keep showing OE until it is reset. Test with a rinse-only cycle. If OE comes back within a couple of minutes of starting, the machine is still finding water in the tub at the start of the cycle, which means it never drained at all rather than draining slowly.",
   "model_notes": "Older LG dishwashers display this as 0E or OE depending on the panel font, and they are the same drain fault. The filter design differs: most models since the mid 2010s use a twist-out cylinder plus a flat mesh screen, while earlier ones use a one-piece filter that lifts straight out. On models with the drain pump accessible from inside the tub, clearing the impeller is a filter-out job; on models where the pump sits under the base, it means pulling the machine out and laying it on its back.",
   "parts": [
-    { "name": "Drain pump assembly", "cost": "$40 to $95", "difficulty": "moderate", "note": "Confirm the impeller is clear before buying one" },
-    { "name": "Drain hose", "cost": "$20 to $45", "difficulty": "moderate", "note": "Only when the hose is split, crushed permanently, or scaled shut" },
-    { "name": "Sump filter set", "cost": "$15 to $35", "difficulty": "easy", "note": "Most filters just need cleaning; replace only a torn mesh" },
-    { "name": "Check valve or sump gasket kit", "cost": "$15 to $40", "difficulty": "hard", "note": "Means splitting the sump, so usually bundled with other work" }
+    {
+      "name": "Drain pump assembly",
+      "cost": "$40 to $95",
+      "difficulty": "moderate",
+      "note": "Confirm the impeller is clear before buying one"
+    },
+    {
+      "name": "Drain hose",
+      "cost": "$20 to $45",
+      "difficulty": "moderate",
+      "note": "Only when the hose is split, crushed permanently, or scaled shut"
+    },
+    {
+      "name": "Sump filter set",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Most filters just need cleaning; replace only a torn mesh"
+    },
+    {
+      "name": "Check valve or sump gasket kit",
+      "cost": "$15 to $40",
+      "difficulty": "hard",
+      "note": "Means splitting the sump, so usually bundled with other work"
+    }
   ],
   "when_to_call": "Call an appliance technician if the pump is silent at the drain step and the connector and winding check out, or if the water barely moves with a pump that sounds healthy, because the next step is splitting the sump with the machine on its back. Call a plumber instead if the kitchen sink drains slowly as well, or if the disposal backs up when you run it, because the restriction is in the house plumbing and the dishwasher is reporting it correctly. If there is standing water in the tub and you are leaving the machine for more than a day, bail it out and prop the door ajar; a sealed tub of dirty water turns unpleasant quickly.",
   "faqs": [
-    { "q": "Can I still use my LG dishwasher with an OE code?", "a": "No, and it will not let you. The machine stops the cycle with water still in the tub rather than running a wash it cannot drain afterward. There is no safety risk in leaving it there, but the dishes will not get clean and the standing water will start to smell within a day or two, so bail it out while you work on the cause." },
-    { "q": "Why is there still water in the bottom of my LG dishwasher?", "a": "Because OE means the drain step never completed, so the water the machine was trying to pump out is still sitting there. A small amount of water in the sump is normal between cycles and keeps the seals wet. An inch or more across the tub floor is not, and means a blockage in the filter, the hose or the pump." },
-    { "q": "How do I clean the filter on an LG dishwasher?", "a": "Pull the lower rack out, twist the cylindrical filter in the tub floor anticlockwise about a quarter turn, and lift it out. A flat mesh screen underneath lifts out separately on most models. Rinse both under hot water, scrub the mesh with an old toothbrush, and refit by twisting clockwise until it locks. Do this monthly." },
-    { "q": "Why did OE appear suddenly when the dishwasher was fine yesterday?", "a": "Drain blockages build gradually and then cross a threshold, so the failure looks sudden after months of slow accumulation. The other trigger is a single object: a fruit sticker, a shard of glass or a cherry pit going into the pump in one load. If the machine has just been installed or the disposal replaced, look at the knockout plug instead." },
-    { "q": "Does OE mean my drain pump is broken?", "a": "Usually not. Most OE codes are a clogged filter, a crushed hose, a blocked air gap or a knockout plug. Listen at the drain step before you buy anything: a whirring pump with no water movement points at a restriction, a buzz points at a jammed impeller, and only silence points at the pump itself." },
-    { "q": "Can the garbage disposal cause an OE error?", "a": "Yes, in two ways. A new disposal ships with a solid plug sealing the dishwasher inlet, and if nobody knocks it out, the dishwasher can never drain. Separately, a disposal full of waste blocks the inlet from the inside. Run the disposal with cold water before each dishwasher cycle and that second problem disappears." },
-    { "q": "How much does it cost to fix an OE error on an LG dishwasher?", "a": "Nothing in most cases, because the fix is cleaning a filter or unkinking a hose. A replacement drain pump runs roughly $40 to $95 for the part and about an hour of work. A technician visit to diagnose and fit one typically lands between $130 and $300 depending on where you are and how awkward the install is." }
+    {
+      "q": "Can I still use my LG dishwasher with an OE code?",
+      "a": "No, and it will not let you. The machine stops the cycle with water still in the tub rather than running a wash it cannot drain afterward. There is no safety risk in leaving it there, but the dishes will not get clean and the standing water will start to smell within a day or two, so bail it out while you work on the cause."
+    },
+    {
+      "q": "Why is there still water in the bottom of my LG dishwasher?",
+      "a": "Because OE means the drain step never completed, so the water the machine was trying to pump out is still sitting there. A small amount of water in the sump is normal between cycles and keeps the seals wet. An inch or more across the tub floor is not, and means a blockage in the filter, the hose or the pump."
+    },
+    {
+      "q": "How do I clean the filter on an LG dishwasher?",
+      "a": "Pull the lower rack out, twist the cylindrical filter in the tub floor anticlockwise about a quarter turn, and lift it out. A flat mesh screen underneath lifts out separately on most models. Rinse both under hot water, scrub the mesh with an old toothbrush, and refit by twisting clockwise until it locks. Do this monthly."
+    },
+    {
+      "q": "Why did OE appear suddenly when the dishwasher was fine yesterday?",
+      "a": "Drain blockages build gradually and then cross a threshold, so the failure looks sudden after months of slow accumulation. The other trigger is a single object: a fruit sticker, a shard of glass or a cherry pit going into the pump in one load. If the machine has just been installed or the disposal replaced, look at the knockout plug instead."
+    },
+    {
+      "q": "Does OE mean my drain pump is broken?",
+      "a": "Usually not. Most OE codes are a clogged filter, a crushed hose, a blocked air gap or a knockout plug. Listen at the drain step before you buy anything: a whirring pump with no water movement points at a restriction, a buzz points at a jammed impeller, and only silence points at the pump itself."
+    },
+    {
+      "q": "Can the garbage disposal cause an OE error?",
+      "a": "Yes, in two ways. A new disposal ships with a solid plug sealing the dishwasher inlet, and if nobody knocks it out, the dishwasher can never drain. Separately, a disposal full of waste blocks the inlet from the inside. Run the disposal with cold water before each dishwasher cycle and that second problem disappears."
+    },
+    {
+      "q": "How much does it cost to fix an OE error on an LG dishwasher?",
+      "a": "Nothing in most cases, because the fix is cleaning a filter or unkinking a hose. A replacement drain pump runs roughly $40 to $95 for the part and about an hour of work. A technician visit to diagnose and fit one typically lands between $130 and $300 depending on where you are and how awkward the install is."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-drain",
@@ -129,9 +173,28 @@
     }
   },
   "sources": [
-    { "title": "Dishwasher error codes and what they indicate", "publisher": "LG support help library", "url": null },
-    { "title": "LG dishwasher drain system service notes and filter maintenance", "publisher": "LG service literature supplied with the appliance", "url": null },
-    { "title": "Field reports on OE drain faults, impeller jams and knockout plugs", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Dishwasher error codes and what they indicate",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG dishwasher drain system service notes and filter maintenance",
+      "publisher": "LG service literature supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Field reports on OE drain faults, impeller jams and knockout plugs",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["AE", "IE", "FE", "LE", "bE", "HE"]
+  "related_codes": [
+    "AE",
+    "IE",
+    "FE",
+    "LE",
+    "bE",
+    "HE"
+  ]
 }

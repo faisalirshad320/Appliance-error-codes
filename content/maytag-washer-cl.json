@@ -1,0 +1,112 @@
+{
+  "title": "Maytag Washer CL Code: Clean Washer Reminder",
+  "meta_description": "CL on a Maytag washer is not a fault. It is the reminder to run the Clean Washer cycle, shown after about 30 washes. Here is how to clear it properly.",
+  "h1": "Maytag washer CL code: it means clean the washer, not a breakdown",
+  "answer": "CL on a Maytag washer is a maintenance reminder, not an error. The control counts your wash cycles and puts CL on the display after roughly thirty of them to tell you it is time to run the Clean Washer cycle. Nothing is broken, no part is needed, and the machine will keep washing normally if you ignore it. Run the Clean Washer cycle with an empty drum and a washer cleaner tablet and the code clears itself; on most models it also drops off on its own after a few more ordinary cycles.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes of work, plus a cleaning cycle of 1 to 4 hours",
+  "cost_estimate": { "diy": "$0 to $15", "technician": "No technician needed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The washer has counted about thirty cycles since it was last cleaned",
+      "frequency": "most cases",
+      "confirm": "CL appears while the machine is idle or at the end of a normal wash, and everything else behaves perfectly: it fills, washes, drains and spins. There is no error beeping, no locked lid, no interrupted cycle. That is a reminder, and it is doing exactly what it was designed to do."
+    },
+    {
+      "cause": "You ran a cleaning cycle but the counter did not reset",
+      "frequency": "common",
+      "confirm": "You cleaned the machine and CL came back. Either the Clean Washer cycle was cancelled partway, or you ran a normal hot wash instead of the dedicated Clean Washer cycle. The counter only resets when the actual Clean Washer cycle is allowed to finish."
+    },
+    {
+      "cause": "You are reading the control lock message, which is a different thing",
+      "frequency": "common",
+      "confirm": "The buttons are dead and nothing will start. Maytag writes the control lock as LoC or LC depending on the model, and on a cramped display it is easy to read as CL. If the panel is unresponsive rather than just carrying a message, you have the lock, and holding the Control Lock button for three seconds releases it."
+    },
+    {
+      "cause": "The machine genuinely needs cleaning and the reminder has been ignored for months",
+      "frequency": "occasional",
+      "confirm": "CL keeps reappearing, and there is a sour smell from the drum, a grey film on the door seal or sludge in the dispenser drawer. One cleaning cycle will clear the code but not the buildup. Expect to run two or three, and to wipe the seal and dispenser by hand."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Empty the drum completely",
+      "detail": "Take everything out, including the single sock at the back that you will otherwise find welded to the drum with cleaner residue. Maytag machines check for a load during the cleaning cycle and will stop with a remove-load message, shown as rL or F0 E1 on some models, if anything is in there. An empty drum is not optional for this cycle.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Add a washer cleaner to the correct place",
+      "detail": "Drop an affresh tablet or an equivalent washing machine cleaner straight into the drum, not into the dispenser drawer, unless your model's panel specifically says otherwise. If you have no tablet, a cup of liquid chlorine bleach in the bleach compartment does the same job. Do not add regular laundry detergent; it foams and can trigger a suds code partway through.",
+      "minutes": 2,
+      "tools": "Washing machine cleaner tablet",
+      "warning": null
+    },
+    {
+      "name": "Select Clean Washer and let it run to the end",
+      "detail": "Find the cycle marked Clean Washer, Clean Washer with affresh, or Affresh on the dial or touch panel and start it. It runs long, often somewhere between one and four hours depending on the model, because it fills higher and holds the water hot. Do not cancel it partway. The cycle counter only resets when the cycle completes, which is why CL so often comes back after a half-finished attempt.",
+      "minutes": 150,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wipe the door seal and the dispenser while it finishes",
+      "detail": "On a front loader, pull the rubber door boot back and wipe right into the fold at the bottom with a cloth and hot water. That is where the black mold and the grey slime live, and no cycle flushes it out. Pull the dispenser drawer right out, take the softener siphon cap off, and scrub the sludge out of both with an old toothbrush.",
+      "minutes": 15,
+      "tools": "Cloth, old toothbrush",
+      "warning": null
+    },
+    {
+      "name": "Check whether you are actually looking at the control lock",
+      "detail": "If the display still shows something that looks like CL and none of the buttons respond, that is the control lock rather than the clean reminder. Look along the panel for a button labelled Control Lock, or a small padlock icon printed below one of the buttons, and hold it for a full three seconds until the panel wakes up. On some Maytag models the lock shares a button with another function, so check the manual for your model number.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Put the cleaning cycle on a schedule",
+      "detail": "Run Clean Washer once a month and CL will never surprise you. Between times, leave the door and the dispenser drawer open after the last wash of the day so the drum and seal dry out. A machine that is left shut after every load builds the film that causes the smell, which is the real reason the reminder exists.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If CL is still on the display after a completed Clean Washer cycle, work through this before assuming anything is wrong. First, confirm the cycle actually finished rather than being stopped by a remove-load check partway through; if anything was in the drum, the machine will have halted and the counter will not have reset. Run it again with the drum truly empty. Second, give it a few normal washes. On most Maytag models the reminder clears itself after about three further cycles whether or not you cleaned anything, so a code that is still there after one wash is not evidence of a problem. Third, if the panel is unresponsive as well as showing the code, you are looking at the control lock written as LoC or LC, not the clean reminder, and holding the Control Lock button for three seconds is the fix. Fourth, if the machine smells sour or the drum leaves grey marks on light-colored laundry even after cleaning, the reminder is doing its job and one cycle was not enough. Run two more back to back, and check the drain pump filter behind the lower front panel, because trapped water and lint in the sump will keep reseeding the smell no matter how many cleaning cycles you run. There is no scenario here where CL by itself means you need a technician or a part. If the display is garbled, flickering, or showing CL alongside an actual F-and-E fault code, deal with the fault code instead; that one is the real message.",
+  "reset_procedure": "There is nothing to reset. CL clears when the Clean Washer cycle completes, and on most models it also clears on its own after about three more normal wash cycles. Cutting power at the breaker will blank the display but the cycle counter is stored, so the reminder comes straight back. If you want it gone now, run the cleaning cycle properly rather than pressing buttons at the panel.",
+  "model_notes": "Maytag documents CL as the Clean Washer reminder on front load machines, where it appears after about thirty cycles. Many Maytag top loaders use a lit Clean Washer indicator light on the console rather than a code in the display, so there is nothing to read; the same monthly cleaning applies. Separately, the control lock is documented as LoC or LC rather than CL, but on narrow seven-segment displays the two are easy to confuse, which is why a good share of people searching for a Maytag CL code are actually looking at a locked keypad.",
+  "parts": [
+    { "name": "Washing machine cleaner tablets", "cost": "$8 to $18 for a pack", "difficulty": "easy", "note": "One tablet per cleaning cycle; a cup of liquid chlorine bleach also works" },
+    { "name": "Dispenser drawer siphon cap", "cost": "$10 to $30", "difficulty": "easy", "note": "Only if the cap is cracked or missing; otherwise just clean it" }
+  ],
+  "when_to_call": "You do not need anyone for CL. It is a reminder, and the only thing a technician would do is run the cleaning cycle you can run yourself. The one reason to pick up the phone is if the display is showing CL alongside a genuine fault code, such as an F-and-E pair or a drain code, or if the machine smells strongly of mildew after several cleaning cycles and you can see standing water in the drum between washes. That second one points at a drain problem rather than a cleanliness problem, and it is worth a diagnosis rather than another tablet.",
+  "faqs": [
+    { "q": "Is CL an error code on a Maytag washer?", "a": "No. It is a maintenance reminder telling you to run the Clean Washer cycle, and Maytag puts it on the display after roughly thirty wash cycles. The machine is not faulty, nothing needs replacing, and your laundry will keep washing normally. Run the cleaning cycle with an empty drum and the code goes away." },
+    { "q": "How do I get rid of the CL code?", "a": "Empty the drum, drop a washer cleaner tablet in, select the Clean Washer cycle and let it run all the way through. The counter resets when the cycle completes. On most models the reminder also disappears by itself after about three more normal wash cycles, so you have a little latitude if you are mid-laundry." },
+    { "q": "Can I keep using my washer while CL is showing?", "a": "Yes. CL does not stop anything. The machine will fill, wash, drain and spin exactly as usual while the reminder sits on the display. The only downside of ignoring it indefinitely is a drum and door seal that gradually build up detergent film and start to smell, which is the problem the reminder exists to prevent." },
+    { "q": "Does CL mean child lock on a Maytag washer?", "a": "Not on Maytag. The keypad lock is documented as LoC or LC, and child lock is the term LG and Samsung use. If your buttons are dead and the display shows something lock-like, hold the Control Lock button for three seconds. If the buttons work normally and the code is just sitting there, it is the clean reminder." },
+    { "q": "What do I put in for the Clean Washer cycle?", "a": "An affresh tablet or any washing machine cleaner tablet, dropped straight into the empty drum. A cup of liquid chlorine bleach in the bleach dispenser works too. Do not use regular laundry detergent, which foams heavily in the high water level of a cleaning cycle and can trigger a suds code before the cycle finishes." },
+    { "q": "Why does CL keep coming back after I clean it?", "a": "Almost always because the cycle did not finish. If anything was left in the drum, the washer stops with a remove-load message and the counter never resets. Take everything out, including small items stuck to the drum wall, and run it again without cancelling. A hot normal wash is not the same thing and will not reset the counter." },
+    { "q": "How often should I actually run the Clean Washer cycle?", "a": "Once a month is the sensible rhythm, which is roughly what thirty cycles works out to for most households. Between cleans, leave the door and dispenser drawer ajar after the last load so the drum dries. That single habit does more to stop a front loader smelling than any tablet on the shelf." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "CL is a counter on the control, not a fault inside the machine.",
+    "labels": {
+      "display": "CL",
+      "c1": "Empty the drum completely",
+      "c2": "Cleaner tablet into the drum",
+      "c3": "Run Clean Washer to the end",
+      "c4": "Wipe the seal and dispenser"
+    }
+  },
+  "sources": [
+    { "title": "CL code on a front load washer", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "LoC or LC control lock code on a front load washer", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "rL remove load error during the Clean Washer cycle", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "Maytag washer use and care guide, washer maintenance section", "publisher": "Maytag owner's manual supplied with the machine", "url": null }
+  ],
+  "related_codes": ["LoC", "LC", "rL", "F0 E1", "Sd", "F8 E1"]
+}

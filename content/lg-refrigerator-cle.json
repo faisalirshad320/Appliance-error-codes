@@ -1,0 +1,204 @@
+{
+  "title": "LG Refrigerator CL E Error Code: Low-Side Leak",
+  "meta_description": "CL E on an LG refrigerator means a refrigerant leak on the low side of the sealed system, usually the evaporator. Not a DIY repair. Check your compressor",
+  "h1": "LG refrigerator CL E error code: what it means and what to do",
+  "answer": "CL E means the refrigerator's control has decided there is a refrigerant leak on the low-pressure side of the sealed cooling system, most often at the evaporator. That is the sealed circuit, so there is no filter to clean and no part you can swap at home: it needs a licensed technician with recovery and charging equipment. Before you book anyone, find the model and serial number on the sticker inside the fresh food compartment and call LG, because compressor and sealed-system coverage on these refrigerators often runs years longer than the standard warranty and a lot of owners pay for repairs they were entitled to free. If your refrigerator is still cooling perfectly, reset the code once and see whether it returns before you spend anything.",
+  "severity": "serious",
+  "can_diy": "no",
+  "time_estimate": "20 minutes to confirm and reset; a technician visit if it returns",
+  "cost_estimate": {
+    "diy": "$0, there is no home repair for a sealed system",
+    "technician": "$400 to $1,200, and more if the evaporator itself is replaced"
+  },
+  "safety_warning": "This code points at the sealed refrigerant circuit. Only a technician licensed to handle refrigerant may open, recover, repair or recharge it. Do not cut, braze, tap or vent any refrigeration line, and ignore any video that shows you fitting a can of refrigerant to a domestic refrigerator: it is illegal in most places, it destroys the system, and it will not fix a leak.",
+  "causes": [
+    {
+      "cause": "A genuine refrigerant leak on the low-pressure side, usually at the evaporator",
+      "frequency": "most cases",
+      "confirm": "The giveaway is a refrigerator that runs almost continuously and still does not get properly cold, or a freezer that frosts in one patch of the coil and nowhere else. The compressor sounds like it is working hard, the condenser at the back or base is barely warm, and the temperature in both compartments drifts up over days rather than failing all at once."
+    },
+    {
+      "cause": "A one-off control glitch after a power interruption",
+      "frequency": "common",
+      "confirm": "The code appeared after a power cut, a surge, a breaker trip or the refrigerator being moved, and both compartments are holding their set temperatures normally. Reset it. If it does not come back within a week of normal running, that is what it was."
+    },
+    {
+      "cause": "A sensor or control board reading the system wrongly",
+      "frequency": "occasional",
+      "confirm": "The refrigerator is cooling correctly, the ice maker is producing, food is frozen solid, and yet the code keeps returning after every reset. A machine that cools properly does not have a meaningful loss of charge, so a persistent code on a cold refrigerator points at the sensing rather than the refrigerant."
+    },
+    {
+      "cause": "A restriction rather than a leak, read as low-side pressure loss",
+      "frequency": "occasional",
+      "confirm": "Partial cooling with a frost line that stops abruptly partway along the evaporator, and a suction line that is cold and sweating in one spot and warm just past it. Only a technician with gauges can tell this apart from a true leak, and it matters, because the repair is different."
+    },
+    {
+      "cause": "A compressor that is no longer pumping properly",
+      "frequency": "rare",
+      "confirm": "The compressor runs continuously, stays unusually quiet or unusually hot, and neither compartment cools despite plenty of airflow and a clean condenser. Common enough on older linear compressor models that it is always worth checking the warranty position before paying for any diagnosis."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check whether the refrigerator is actually cooling",
+      "detail": "Put a glass of water in the middle of the fresh food compartment and leave it four hours, or use a thermometer if you have one. Check whether ice cream in the freezer is hard or soft. This single observation splits the whole problem: a refrigerator that is holding temperature does not have a significant refrigerant leak, whatever the display says, and you are probably chasing a reset. A refrigerator that is warming is telling you the code is real.",
+      "minutes": 10,
+      "tools": "Thermometer if you have one",
+      "warning": null
+    },
+    {
+      "name": "Clear the code and see whether it returns",
+      "detail": "Open the right-hand fresh food door and press the refrigerator and freezer temperature buttons together three times in a row. Button names and combinations vary across LG model generations, so if that does nothing, unplug the refrigerator at the wall for five minutes instead and restore power. Then leave it alone for several days of normal use. A code that never returns was a glitch, and a code that comes straight back is a fault.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Rule out the cheap things that mimic poor cooling",
+      "detail": "Pull the refrigerator out and vacuum the condenser coils at the base or the rear, where a mat of dust and pet hair stops heat escaping and makes the whole system look starved. Check that no door is being held ajar by a drawer or a bottle, that the vents inside both compartments are not blocked by packed food, and that the gaskets grip a dollar bill all the way round. None of these cause CL E on their own, but all of them make cooling worse and muddy the diagnosis.",
+      "minutes": 25,
+      "tools": "Vacuum with a crevice tool, coil brush",
+      "warning": "Unplug the refrigerator before reaching behind it with a brush or a vacuum nozzle."
+    },
+    {
+      "name": "Listen to and feel the condenser",
+      "detail": "With the refrigerator running, put a hand near the coils at the back or under the base grille. On a healthy system that has been running a while they are distinctly warm. A compressor that is audibly running while the condenser stays near room temperature means very little heat is being moved, which supports a real loss of charge. Note what you find, because it is the single most useful thing you can tell a technician on the phone.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "The condenser can be hot enough to be uncomfortable. Touch briefly and near, not firmly on."
+    },
+    {
+      "name": "Find your model and serial number",
+      "detail": "The sticker is usually on the inside left wall of the fresh food compartment, behind the crisper drawers, or along the top of the door opening. Photograph it. You need both numbers for every call you are about to make, and the serial is what decides warranty coverage, so a photo saves you kneeling on the kitchen floor three separate times.",
+      "minutes": 5,
+      "tools": "Phone camera, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check your warranty position with LG before booking anyone",
+      "detail": "Call LG support or open a service request with that model and serial, and ask specifically what coverage remains on the compressor and the sealed system. On many LG refrigerators that coverage runs substantially longer than the one-year whole-appliance warranty, and in some markets parts and labor are handled differently from each other. Terms vary by country and by when the unit was sold, so get the answer for your actual serial number rather than trusting any figure you read online, this page included.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run the app diagnosis if your model supports it",
+      "detail": "If the refrigerator is a ThinQ model, LG's app can read the stored fault directly from the appliance by holding the phone to the panel while the unit plays a diagnostic tone. It takes a few minutes and gives LG support a code they trust more than a description over the phone, which sometimes gets you a correct part on the first visit instead of the second.",
+      "minutes": 15,
+      "tools": "Smartphone with the LG ThinQ app",
+      "warning": null
+    },
+    {
+      "name": "Move your food before the technician date, not on the day",
+      "detail": "Sealed-system work is not a same-afternoon job and the appliance is usually out of action for most of a day once it starts. If cooling is already degrading, empty the freezer into a cooler with ice or a neighbor's freezer now rather than discovering on the morning of the visit that everything has partly thawed and refrozen.",
+      "minutes": 30,
+      "tools": "Coolers, ice",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code keeps coming back after a reset, the next move depends entirely on whether the refrigerator is cold. Take that seriously, because the two branches go in opposite directions. If it is cooling normally, food is frozen hard and the ice maker is working, then there is no meaningful loss of refrigerant happening, whatever the panel says, and you are looking at a sensing or control problem rather than a leak. That is still worth a service call, but it is a much cheaper one, and it is reasonable to keep using the refrigerator while you wait rather than emptying the kitchen in a panic. If it is not cooling properly, treat the code as true and stop trying to fix it yourself. There is no legitimate home repair for a sealed refrigerant circuit: the stop-leak cans and top-up kits sold for car air conditioning are not for domestic refrigerators, they contaminate the system, and a technician who finds one in there will often refuse the job or charge far more to flush it. What you can usefully do is narrow the question before you pay for diagnosis. Clean the condenser properly, confirm the compressor is actually running rather than clicking and stopping, and check whether the evaporator behind the rear freezer panel frosts evenly, partly or not at all, because a coil that frosts for six inches and then stops dead is the classic picture of a low charge and tells a technician a great deal. Then make the warranty call before the repair call. LG compressor and sealed-system coverage on these refrigerators commonly runs well beyond the first year, the exact terms depend on your market and your serial number, and the difference between a covered repair and an uncovered one is several hundred dollars. If coverage has lapsed and you are quoted a sealed-system repair on a refrigerator that is already eight or more years old, that is the point where replacing it becomes a reasonable decision rather than a defeat, because a leak repaired at one joint on an aging evaporator has a real chance of reappearing somewhere else.",
+  "reset_procedure": "With the right-hand fresh food door open, press the refrigerator temperature button and the freezer temperature button at the same time, three times in succession. Button labels and the exact combination differ across LG generations, so if the code does not clear, unplug the refrigerator at the wall or trip its breaker, wait five minutes and restore power. Clearing the code does not fix anything: it only tells you whether the fault is still being detected. If CL E returns, it is being detected, and it needs a technician.",
+  "model_notes": "The same fault is written CL E on some panels and E CL on others, and older LG displays show it as Er CL. Treat them as identical. It is the low-pressure companion to CH E, which is the same kind of detection on the high side of the circuit and usually points at the condenser end rather than the evaporator. A plain CL with no E, on an LG dishwasher or dryer, means Control Lock or Child Lock and is not an error at all, which is why searching for this code turns up confident answers about holding two buttons for three seconds. Those answers are about a different appliance and a different code. LG refrigerators also have a retail demo mode, but that announces itself as OF F or OFF on the display and switches cooling off deliberately, so it is not mistakable for CL E once you know what you are looking at.",
+  "parts": [
+    {
+      "name": "Sealed-system diagnosis and leak search",
+      "cost": "$100 to $250 as a diagnostic visit",
+      "difficulty": "technician only",
+      "note": "Gauges and leak detection; often credited against the repair"
+    },
+    {
+      "name": "Evaporator assembly",
+      "cost": "$150 to $400 for the part",
+      "difficulty": "technician only",
+      "note": "Requires recovery, brazing, evacuation and recharge"
+    },
+    {
+      "name": "Compressor",
+      "cost": "$180 to $500 for the part",
+      "difficulty": "technician only",
+      "note": "Check LG warranty coverage on your serial before paying for this"
+    },
+    {
+      "name": "Filter drier",
+      "cost": "$10 to $30",
+      "difficulty": "technician only",
+      "note": "Replaced as a matter of course whenever the system is opened"
+    }
+  ],
+  "when_to_call": "Call as soon as you have confirmed the code returns after a reset and the refrigerator is not holding temperature, because every day of a partly working sealed system is another day of food at marginal temperatures. Make the call to LG first rather than to an independent shop: with your model and serial they can tell you what sealed-system coverage remains, and on these refrigerators that coverage frequently outlasts what owners assume, so an independent technician may be about to charge you for work LG would have done. If coverage has run out, use a technician licensed to handle refrigerant and ask whether the quote includes recovery, a new filter drier, evacuation and a measured recharge, because a cheap quote that skips those steps is a repair that fails again. Call immediately regardless of any of this if you smell burning, see scorching around the compressor, or the appliance trips a breaker.",
+  "faqs": [
+    {
+      "q": "Can I still use the refrigerator with a CL E code?",
+      "a": "Yes if it is still holding temperature, and you should keep using it while you arrange service. If it is warming, move perishable food out now and treat the freezer as unreliable even while things still feel cold, because a partly charged system can hold ice cream soft and meat at an unsafe temperature at the same time. There is no shock or fire hazard in leaving it plugged in."
+    },
+    {
+      "q": "Does CL E definitely mean my refrigerator has lost refrigerant?",
+      "a": "No. It means the control believes the low side has lost pressure. If the appliance is cooling properly, that belief is almost certainly wrong, and the fault is in the sensing or the board rather than the charge. The temperature in your compartments is better evidence than the display, so check that before accepting an expensive diagnosis."
+    },
+    {
+      "q": "Can I recharge the refrigerant myself?",
+      "a": "No, and the kits sold for car air conditioning will make things worse. Domestic refrigerators are sealed, charged by weight to a precision you cannot reach at home, and opening the circuit without recovery equipment is illegal in most places. A system topped up through a tapped valve will leak again within weeks and will often be refused by the technician who comes to fix it properly."
+    },
+    {
+      "q": "Is CL E covered by warranty?",
+      "a": "Often, and more often than owners expect. LG refrigerators with linear and inverter compressors have carried sealed-system and compressor coverage running well past the standard first-year warranty, and the terms differ by market and by when the unit was sold. Get your model and serial off the sticker inside the fresh food compartment and ask LG about your specific unit rather than relying on a figure from a forum."
+    },
+    {
+      "q": "Why did CL E appear suddenly with no warning?",
+      "a": "A slow leak gives no symptoms until the charge drops past the point where the system can still pull the set temperature, and then performance falls away quickly. Power cuts and surges are the other common trigger, in which case the code is spurious and clears for good on a reset. That is why the first thing to do is reset it once and watch for a few days."
+    },
+    {
+      "q": "What is the difference between CL E and CH E?",
+      "a": "Which side of the sealed circuit the control thinks has lost pressure. CL E is the low side and points toward the evaporator inside the cabinet. CH E is the high side and points toward the condenser and compressor end. Both are sealed-system faults, both need a licensed technician, and neither has a home fix, so in practice your next step is the same for either."
+    },
+    {
+      "q": "Is it worth repairing, or should I buy a new refrigerator?",
+      "a": "Depends on age and coverage. Under warranty, repair it without hesitating. Out of warranty on a unit under about seven years old, a sealed-system repair is usually still cheaper than replacement. Beyond that, weigh a four-figure repair on an aging evaporator against a new appliance, because a leak fixed at one joint can reappear elsewhere on a coil of the same age."
+    },
+    {
+      "q": "Could CL E just be the child lock or demo mode?",
+      "a": "No. Child Lock shows as a plain CL on LG dishwashers and dryers, not as CL E on a refrigerator, which is where a lot of the confusion online comes from. LG's retail demo mode is also distinct: it displays OF F or OFF and turns cooling off on purpose. If your panel reads CL E, you are looking at the sealed-system code."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "What CL E is reporting, and what you can check before calling",
+    "labels": {
+      "display": "CL E",
+      "c1": "Is it still cooling? Check first",
+      "c2": "Reset: temp buttons, three times",
+      "c3": "Condenser coils, clean and warm",
+      "c4": "Model and serial for warranty"
+    }
+  },
+  "sources": [
+    {
+      "title": "Refrigerator CL E and CH E error code guidance",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG refrigerator error code list and reset procedure",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of LG sealed-system leak codes and diagnosis",
+      "publisher": "Appliantology and r/appliancerepair",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied inside the appliance",
+      "publisher": "LG service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "CH E",
+    "CF E",
+    "FF E",
+    "rF E",
+    "IF E",
+    "CO E"
+  ]
+}

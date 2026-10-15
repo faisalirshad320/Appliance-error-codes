@@ -1,12 +1,15 @@
 {
   "title": "Samsung Washer 4C Error Code: Causes and Fix",
-  "meta_description": "A Samsung washer 4C code means it cannot draw water. Usually a closed tap or a blocked inlet filter screen. Here is how to find which, and clear it in 15 minutes.",
+  "meta_description": "A Samsung washer 4C code means it cannot draw water. Usually a closed tap or a blocked inlet filter screen. Here is how to find which, and clear it in 15",
   "h1": "Samsung washer 4C error code: what it means and how to fix it",
   "answer": "4C means your Samsung washer asked for water and did not get enough within the time it allows. It is a water supply fault, not a washer fault, about four times out of five. Check that both taps are fully open and that the small mesh filter screens where the hoses meet the machine are not clogged with grit, which is the single most common cause. The code is displayed as 4E on older Samsung models and means exactly the same thing.",
   "severity": "minor",
   "can_diy": "yes",
   "time_estimate": "15 to 30 minutes",
-  "cost_estimate": { "diy": "$0 to $25", "technician": "$120 to $250" },
+  "cost_estimate": {
+    "diy": "$0 to $25",
+    "technician": "$120 to $250"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -95,20 +98,61 @@
   "reset_procedure": "Press Power to cancel the cycle, unplug the washer at the wall socket, wait a full five minutes, then plug it back in. The five minutes matters: the control board holds residual charge and a quick off-on often does not clear the stored fault. Start a rinse-and-spin to test rather than a full cycle, so you find out in two minutes instead of fifty.",
   "model_notes": "Samsung uses 4C on machines made from roughly 2017 onward and 4E on earlier ones; they are the same water supply fault and the same fix. A related 4C2 or 4E2 means the water is too hot, which usually means the hot and cold hoses are swapped, or a cold-fill-only machine has been plumbed into a hot tap. On top loaders the inlet screens are reached the same way, but the top panel is held by clips rather than screws at the back.",
   "parts": [
-    { "name": "Inlet hose mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Only needed if a screen is torn; most just need cleaning" },
-    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws and a connector, about 30 minutes" },
-    { "name": "Braided stainless supply hoses", "cost": "$15 to $30 a pair", "difficulty": "easy", "note": "Worth replacing rubber hoses over five years old anyway" },
-    { "name": "Main control board", "cost": "$180 to $320", "difficulty": "technician only", "note": "Last resort, and check the harness first" }
+    {
+      "name": "Inlet hose mesh filter screens",
+      "cost": "$5 to $12 a pair",
+      "difficulty": "easy",
+      "note": "Only needed if a screen is torn; most just need cleaning"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Two screws and a connector, about 30 minutes"
+    },
+    {
+      "name": "Braided stainless supply hoses",
+      "cost": "$15 to $30 a pair",
+      "difficulty": "easy",
+      "note": "Worth replacing rubber hoses over five years old anyway"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $320",
+      "difficulty": "technician only",
+      "note": "Last resort, and check the harness first"
+    }
   ],
   "when_to_call": "Call someone if the flow into a bucket is strong but the machine still will not fill after you have cleaned both screens and confirmed the valve solenoids read correctly on a multimeter, because the next step is diagnosing the harness and control board with the machine live. Call a plumber rather than an appliance technician if the bucket test shows weak flow, since that fault is in your house plumbing and an appliance engineer will charge you a call-out to tell you the same thing. And if the machine is leaking from anywhere while this is happening, turn the taps off and stop; a supply-side leak at mains pressure does far more damage than a washing machine that will not run.",
   "faqs": [
-    { "q": "What is the difference between 4C and 4E on a Samsung washer?", "a": "Nothing. They are the same water supply fault displayed differently across model generations, with 4E on older machines and 4C from around 2017 onward. Every fix on this page applies to both. A trailing 2, as in 4C2 or 4E2, is a different fault meaning the incoming water is too hot, usually because the hoses are on the wrong taps." },
-    { "q": "Can I still use the washer with a 4C code?", "a": "Not really, because the machine stops the cycle rather than running without enough water. There is no safety risk in leaving it there, but nothing will wash. If only your hot supply has failed, a cold-only cycle will often run normally, which is a useful way to confirm where the problem is while you wait for a repair." },
-    { "q": "Why did 4C appear suddenly when nothing changed?", "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden even though it has been building for months. The other common trigger is work elsewhere in the house: a plumber turning a stopcock down, a water meter change, or a mains repair that stirs up sediment and lands it in your screens within a week." },
-    { "q": "Does 4C mean my water inlet valve is broken?", "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a clogged screen or a kinked hose. Only replace the valve after you have confirmed strong flow at the hose and an open circuit across the solenoid, because a new valve fitted to a blocked supply will throw the same code on its first cycle." },
-    { "q": "How do I clear the 4C code once I have fixed the problem?", "a": "Cancel the cycle with the Power button, unplug the machine for five minutes, then restart. The board stores the fault and will keep showing it until it is reset, so a washer that now has a perfectly good water supply can still display 4C if you skip this step." },
-    { "q": "Can a frozen hose cause 4C?", "a": "Yes, and it is the standard winter cause for machines in garages, outbuildings and anywhere plumbed along an outside wall. The giveaway is a hose that is rigid and very cold to the touch. Thaw it with warm towels rather than any kind of flame or boiling water, and lag the pipework before the next cold snap." },
-    { "q": "My washer fills but still shows 4C. What then?", "a": "It is filling too slowly rather than not at all, and the control times out before the water level is reached. That points at a partially blocked screen or a partly closed tap rather than a total failure, so clean both screens and check that the taps are fully open rather than cracked open a turn." }
+    {
+      "q": "What is the difference between 4C and 4E on a Samsung washer?",
+      "a": "Nothing. They are the same water supply fault displayed differently across model generations, with 4E on older machines and 4C from around 2017 onward. Every fix on this page applies to both. A trailing 2, as in 4C2 or 4E2, is a different fault meaning the incoming water is too hot, usually because the hoses are on the wrong taps."
+    },
+    {
+      "q": "Can I still use the washer with a 4C code?",
+      "a": "Not really, because the machine stops the cycle rather than running without enough water. There is no safety risk in leaving it there, but nothing will wash. If only your hot supply has failed, a cold-only cycle will often run normally, which is a useful way to confirm where the problem is while you wait for a repair."
+    },
+    {
+      "q": "Why did 4C appear suddenly when nothing changed?",
+      "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden even though it has been building for months. The other common trigger is work elsewhere in the house: a plumber turning a stopcock down, a water meter change, or a mains repair that stirs up sediment and lands it in your screens within a week."
+    },
+    {
+      "q": "Does 4C mean my water inlet valve is broken?",
+      "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a clogged screen or a kinked hose. Only replace the valve after you have confirmed strong flow at the hose and an open circuit across the solenoid, because a new valve fitted to a blocked supply will throw the same code on its first cycle."
+    },
+    {
+      "q": "How do I clear the 4C code once I have fixed the problem?",
+      "a": "Cancel the cycle with the Power button, unplug the machine for five minutes, then restart. The board stores the fault and will keep showing it until it is reset, so a washer that now has a perfectly good water supply can still display 4C if you skip this step."
+    },
+    {
+      "q": "Can a frozen hose cause 4C?",
+      "a": "Yes, and it is the standard winter cause for machines in garages, outbuildings and anywhere plumbed along an outside wall. The giveaway is a hose that is rigid and very cold to the touch. Thaw it with warm towels rather than any kind of flame or boiling water, and lag the pipework before the next cold snap."
+    },
+    {
+      "q": "My washer fills but still shows 4C. What then?",
+      "a": "It is filling too slowly rather than not at all, and the control times out before the water level is reached. That points at a partially blocked screen or a partly closed tap rather than a total failure, so clean both screens and check that the taps are fully open rather than cracked open a turn."
+    }
   ],
   "diagram": {
     "kind": "washer-inlet-valve",
@@ -121,9 +165,27 @@
     }
   },
   "sources": [
-    { "title": "Washing machine displays a 4E or 4C water supply error", "publisher": "Samsung support documentation", "url": null },
-    { "title": "Samsung front load washer service literature, water supply fault codes", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
-    { "title": "Field reports on 4C causes and resolutions", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Washing machine displays a 4E or 4C water supply error",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung front load washer service literature, water supply fault codes",
+      "publisher": "Samsung service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on 4C causes and resolutions",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["4E", "4C2", "5E", "nF", "SC"]
+  "related_codes": [
+    "4E",
+    "4C2",
+    "5E",
+    "nF",
+    "SC"
+  ]
 }

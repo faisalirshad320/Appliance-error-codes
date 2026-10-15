@@ -1,0 +1,140 @@
+{
+  "title": "Whirlpool Dryer AF Code: Restricted Airflow Fix",
+  "meta_description": "AF on a Whirlpool dryer means restricted airflow in the exhaust. Clear the lint screen, the duct behind the machine and the outside wall cap. Full guide.",
+  "h1": "Whirlpool dryer AF code: restricted airflow and how to clear it",
+  "answer": "AF means restricted air flow. The dryer has worked out that it cannot push exhaust air out fast enough, and on newer models the same fault reads as F4 E3 or shows as a Check Vent message. The dryer keeps running, so it is a warning rather than a shutdown, but it is a warning about the single most common cause of dryer fires. The blockage is almost always lint: in the screen, in the flexible duct behind the machine, or packed behind the flap of the outside wall cap. Clear the whole run from the lint screen to the outside, not just the screen.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "45 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $45", "technician": "$100 to $200 for a vent cleaning, $150 to $350 for a service call" },
+  "safety_warning": "A restricted dryer vent is a genuine fire risk. Lint burns readily, and a duct that cannot carry hot, damp air away lets heat build up around the heater and inside the duct itself. Failure to clean the vent is the leading cause of dryer fires in the US. AF is the machine telling you to clear it, so treat it as a job for this week.",
+  "causes": [
+    {
+      "cause": "Lint packed into the flexible transition duct behind the dryer",
+      "frequency": "most cases",
+      "confirm": "Pull the duct off the back of the dryer and look down it. Healthy duct is grey and lightly fuzzy. Blocked duct has a felt lining you can pinch between two fingers, or a solid plug at the first bend. Reach in and you will come out with a mat of lint."
+    },
+    {
+      "cause": "The outside wall cap flap is stuck shut or blocked",
+      "frequency": "most cases",
+      "confirm": "With the dryer running on heat, go outside and hold your hand at the vent hood. You want a steady push of warm, damp air. A flap that will not swing, a mat of lint behind it, a bird or wasp nest, or paint sealing it shut from the last time the siding was done are all common."
+    },
+    {
+      "cause": "The lint screen or the housing below it is clogged",
+      "frequency": "common",
+      "confirm": "Run water onto the screen from a tap. If it pools on the mesh instead of running straight through, fabric softener has glazed it over even though it looks clean. Then shine a flashlight down the empty screen slot: a grey wall partway down means the housing itself is packed."
+    },
+    {
+      "cause": "The duct is crushed or kinked behind the machine",
+      "frequency": "common",
+      "confirm": "Slide the dryer out and look where the duct meets the wall. Foil flex duct folds flat like a concertina when the dryer is shoved back against it, turning a four inch pipe into a one inch slot. You will see the crease."
+    },
+    {
+      "cause": "The duct run is too long or has too many elbows",
+      "frequency": "occasional",
+      "confirm": "This is the AF-with-a-clean-duct case. You cleaned everything last month and the code is back. Walk the run: every 90 degree elbow costs roughly as much airflow as five extra feet of straight duct, so a long basement run with four bends is over the limit even when spotless. The allowance for your model is on the installation sheet."
+    },
+    {
+      "cause": "Thermistor or control fault reporting airflow that is actually fine",
+      "frequency": "rare",
+      "confirm": "AF still shows with the duct completely disconnected and the dryer exhausting into the room. Most Whirlpool dryers infer restriction from how the exhaust temperature behaves, so a bad thermistor can fake it. Suspect this last, not first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clean the lint screen properly and clear its housing",
+      "detail": "Pull the screen, peel the lint off, then wash the mesh with warm water and a drop of dish soap to strip the invisible film fabric softener leaves. Dry it fully before it goes back. Shine a flashlight down the empty slot and vacuum the housing with a crevice tool or a long narrow brush. There is usually more lint just below where your fingers reach than there was on the screen.",
+      "minutes": 10,
+      "tools": "Vacuum with crevice tool, dish soap, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Unplug the dryer and pull it out",
+      "detail": "Unplug an electric dryer at the wall. On a gas model, unplug it and close the gas shutoff valve behind it before you move anything, then move the machine gently so you do not strain the flexible gas connector. Walk it out far enough to stand behind it rather than reaching around the side with one arm.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "On a gas dryer, close the gas shutoff valve before moving the machine and never pull on the flexible gas line."
+    },
+    {
+      "name": "Take off the transition duct and clear it",
+      "detail": "Loosen the clamp at the dryer outlet with a nut driver or flathead, pull the duct off and carry it outside. Shake it out and run your hand or a vent brush through the full length. If it is the thin white plastic or foil concertina type, do not clean it, replace it with semi-rigid aluminum. The ribs in cheap flex duct catch lint faster than you can clear it and most installation instructions do not allow it.",
+      "minutes": 15,
+      "tools": "Nut driver or flathead screwdriver, vent brush",
+      "warning": null
+    },
+    {
+      "name": "Clear the outside wall cap",
+      "detail": "Find where the duct exits the building. Open the flap with a finger: it should swing freely and fall shut under its own weight. Pull out any lint mat behind it, clear a bird or wasp nest, and free a flap that has been painted shut. If the hood has a wire mesh insect screen across it, take the screen out. Mesh on a dryer vent clogs within months and is the most common reason a vent that was clean last year is blocked today.",
+      "minutes": 15,
+      "tools": "Screwdriver, gloves",
+      "warning": null
+    },
+    {
+      "name": "Brush the whole duct run end to end",
+      "detail": "Feed a rotary vent brush on flexible rods into the duct from the wall opening, pushing a few feet at a time and pulling back out to drag the lint with it. Run a shop vacuum at the opening to catch what comes loose. Work from both ends where you can reach them. On a duct that has never been done, expect several handfuls.",
+      "minutes": 30,
+      "tools": "Rotary dryer vent brush kit, shop vacuum",
+      "warning": null
+    },
+    {
+      "name": "Measure the run and count the bends before you reassemble",
+      "detail": "Work out the duct length from the dryer to the outside and count the elbows. Most dryer installation instructions allow somewhere around 35 feet of four inch rigid duct, with every 90 degree elbow eating about five feet of that allowance and every 45 degree bend roughly half as much. The exact figure for your model is on the installation sheet that came with it. Over the limit means AF can appear on a perfectly clean duct.",
+      "minutes": 10,
+      "tools": "Tape measure",
+      "warning": null
+    },
+    {
+      "name": "Reconnect with the shortest possible run",
+      "detail": "Push the dryer back only as far as the duct allows without folding. Use the shortest length of semi-rigid aluminum that reaches, keep it off the floor, and seal the joints with foil tape rather than sheet metal screws. Screws poke into the airway and grow a beard of lint around every one. Leave the clamp snug rather than crushing.",
+      "minutes": 15,
+      "tools": "Foil tape, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Run a test load and check the exhaust outside",
+      "detail": "Plug the dryer in, reopen the gas valve if you closed it, and run a normal heated cycle with a few damp towels. Touch any key to clear AF from the display first. Halfway through, go outside and feel the hood: a strong, warm, humid push is what you want. A weak trickle means something in the run is still blocked.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the duct is genuinely clean and AF keeps coming back, stop cleaning and start measuring, because the restriction is built into the installation rather than sitting in the pipe. Work through it in this order. First, duct material: thin foil or plastic concertina duct acts like a hundred small baffles, and swapping even a four foot length of it for smooth semi-rigid aluminum often drops the restriction enough on its own, for about twenty dollars. Second, count elbows. Each 90 degree bend costs roughly five feet of equivalent length, so a 20 foot run with four elbows behaves like a 40 foot one and exceeds what most installation sheets allow. Removing a single bend, or replacing a tight elbow with a wide sweep, is cheap and permanent. Third, pull any sheet metal screws at the joints; they stick into the airway, catch lint and grow a plug, and foil tape does the same job without the beard. Fourth, look at the hood style: a louvered cap with an insect screen will reclog within months no matter what you do, and a proper dryer vent hood with a wide swinging damper and no mesh fixes a code that returns every spring. Fifth, if you are in an apartment or condo with a shared duct, or your run climbs through two floors to a roof cap, you may need a booster fan, and that is worth paying for because it has to be sized and wired properly. Only when all of that is ruled out is it reasonable to suspect the machine. The test that settles it: disconnect the duct completely, leave the dryer exhausting into the room with the laundry room door open, and run a short heated cycle. If AF still appears with nothing attached to the outlet, the dryer is reporting a restriction that does not exist and the exhaust thermistor or the control is at fault, which is a service call rather than a Saturday morning. If the code stays away with the duct off, the dryer is right and your ductwork is the thing that has to change.",
+  "reset_procedure": "AF is a warning rather than a locked fault. Touch any key to clear it from the display and the dryer returns to showing the estimated time remaining. The dryer recalculates airflow on each cycle, so once the duct is clear the code stops appearing on its own. If it will not clear, switch the dryer's breaker off for a minute, restore power, and run a short heated cycle with damp towels to test rather than a full load.",
+  "model_notes": "AF appears on Whirlpool dryers across the Cabrio, Duet and current vented ranges, and the same fault is shown as F4 E3 on models using the two-part F and E code system, or as a plain Check Vent message on models with a text display. They are the same measurement and the same fix. Whirlpool's own guidance is that the dryer keeps running with AF present and that touching any key clears the display. Ventless heat pump and HybridCare dryers have no exhaust duct and do not use this code; their airflow problems show up as blocked lint filters and a clogged condenser coil instead.",
+  "parts": [
+    { "name": "Semi-rigid aluminum transition duct", "cost": "$12 to $25", "difficulty": "easy", "note": "Replaces thin foil or plastic flex; buy the shortest length that reaches" },
+    { "name": "Rotary dryer vent brush kit", "cost": "$20 to $40", "difficulty": "easy", "note": "Flexible rods with a brush head for a drill; pays for itself the first time" },
+    { "name": "Outside vent hood with a wide damper", "cost": "$10 to $30", "difficulty": "moderate", "note": "Worth fitting if your current hood has an insect mesh screen" },
+    { "name": "Aluminum foil duct tape", "cost": "$8 to $15", "difficulty": "easy", "note": "Seals joints without screws sticking into the airway" },
+    { "name": "Exhaust thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "Only after AF persists with the duct completely disconnected" }
+  ],
+  "when_to_call": "Call a vent cleaning company if the run is long, climbs through a ceiling, or exits at a roof cap, because those need proper rods and a vacuum and are not a stepladder job. Call an appliance technician if AF still shows with the duct disconnected and the dryer exhausting into the room, since the restriction is not real at that point and the thermistor or control is reporting wrongly. Call a licensed gas technician, and nobody else, if a gas dryer tumbles but will not heat properly. And stop using the dryer immediately if you find browned or scorched lint in the duct, or smell burning during a cycle.",
+  "faqs": [
+    { "q": "What does AF mean on a Whirlpool dryer?", "a": "Restricted air flow. The dryer has determined that exhaust air is not leaving fast enough, which almost always means lint in the duct, a blocked outside vent cap, or a crushed transition hose. On models with two-part codes the same fault shows as F4 E3, and models with a text display say Check Vent instead." },
+    { "q": "Can I keep using the dryer with an AF code?", "a": "The dryer will keep running, and Whirlpool designed it that way, but do not leave it for months. A restricted vent makes cycles longer, wastes energy, overheats the drum and its components, and builds lint where heat is highest. That is the leading cause of dryer fires. Clear the duct within the next few days." },
+    { "q": "How do I clear the AF code?", "a": "Touch any key and the code clears from the display, returning it to the time remaining. That only clears the message, not the blockage. Once the duct is actually clear the dryer stops reporting AF on its own, because it works the airflow out fresh on every cycle rather than storing a fault." },
+    { "q": "Why do I get AF when my vent is clean?", "a": "Because restriction is not only about lint. A duct that is too long, has too many elbows, is made from ribbed foil flex, or ends in a hood with an insect screen restricts airflow when spotless. Measure the run, count bends at roughly five feet of penalty each, and swap flex duct for smooth semi-rigid aluminum before suspecting the machine." },
+    { "q": "Is AF the same as F4 E3?", "a": "Yes. They are the same restricted airflow fault displayed by two generations of Whirlpool control. Older panels show the two letters AF, newer ones split codes into a function number and a fault number and show F4 E3. Some models with a text display say Check Vent. The checks and the fix are identical." },
+    { "q": "Why did AF appear suddenly when nothing changed?", "a": "Lint accumulates gradually and then crosses a threshold, so the first warning always feels abrupt. Two other triggers are seasonal: a bird or wasp nest built behind the outside flap in spring, and the dryer being pushed back hard against its duct after someone cleaned behind it, which folds foil flex flat in a single shove." },
+    { "q": "Will a blocked vent damage my dryer?", "a": "Over time, yes. Running against a restriction keeps the heater cycling and the drum hotter than designed, which shortens the life of the heating element, the thermistor and the thermal cut-out, and leads to heat-related codes later. Clearing the duct is the cheapest preventive maintenance a dryer ever gets." },
+    { "q": "How often should I clean the dryer vent?", "a": "Clean the lint screen every load and the full duct run once a year, more often with a large household, a long duct, or if you dry pet bedding and towels. If AF has already appeared once, put a reminder in for six months rather than waiting for the code to come back and tell you." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Follow the air from the lint screen to the outside; AF is one of these four",
+    "labels": {
+      "display": "AF",
+      "c1": "Lint screen and its housing",
+      "c2": "Transition duct behind the dryer",
+      "c3": "Duct run through wall or ceiling",
+      "c4": "Outside wall cap and flap"
+    }
+  },
+  "sources": [
+    { "title": "AF or Check Vent error code on dryers, restricted airflow", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Dryer installation instructions, exhaust duct length and elbow allowances", "publisher": "Whirlpool installation sheet supplied with the dryer", "url": null },
+    { "title": "Clothes dryer fire causes and vent maintenance guidance", "publisher": "US Fire Administration and NFPA fire safety material", "url": null },
+    { "title": "Field reports on AF persisting after a full vent clean", "publisher": "Appliance technician forums and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["F4 E3", "LF", "F3 E3", "F3 E2", "L2", "PF"]
+}

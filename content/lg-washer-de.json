@@ -1,12 +1,15 @@
 {
   "title": "LG Washer dE Error Code: Door Lock Fault and Fix",
-  "meta_description": "dE on an LG washer means the door would not lock. Usually laundry caught in the gasket or a worn latch. Here is how to find which and get the cycle running.",
+  "meta_description": "dE on an LG washer means the door would not lock. Usually laundry caught in the gasket or a worn latch. Here is how to find which and get the cycle",
   "h1": "LG washer dE error code: what it means and how to fix it",
   "answer": "dE means your LG washer tried to lock the door at the start of the cycle and the lock did not engage, so it refused to run. The usual reason is something physically in the way: a sleeve, a sock or a corner of a duvet caught in the rubber door seal, which holds the door a few millimetres open. Open the door, run a hand all the way around the inside of the gasket, pull out anything you find, and push the door firmly shut until it clicks. If the door is genuinely clean and closes solidly, the next suspect is the latch itself or the door lock assembly behind it.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "5 to 60 minutes",
-  "cost_estimate": { "diy": "$20 to $80", "technician": "$150 to $320" },
+  "cost_estimate": {
+    "diy": "$20 to $80",
+    "technician": "$150 to $320"
+  },
   "safety_warning": "The door lock is a safety device. It exists to stop the drum turning with the door open. Never wedge, tape, bypass or trick it into thinking the door is shut, whatever a video tells you. If you replace the lock assembly, unplug the washer at the wall first; the lock circuit sits on mains voltage.",
   "causes": [
     {
@@ -100,21 +103,67 @@
   "reset_procedure": "Press Power to turn the washer off, unplug it at the wall, then press and hold Start/Pause for about five seconds with the plug still out. That drains the residual charge from the control instead of just interrupting it. Plug the machine back in, close the door with a firm push until it clicks, and start a short cycle to test. If dE returns immediately on a clean, properly closed door, it is a real fault rather than a glitch.",
   "model_notes": "Newer LG washers split the fault in two and the distinction is useful. dE1 means the door was not shut properly in the first place, which is the laundry-in-the-gasket case. dE2 means the door is shut but has not latched, which points at the hook, the striker or the lock assembly. A plain dE, with no number, is the older single code covering both. There is no dE on most LG top loaders, which use a lid switch rather than a locking door and report lid problems differently.",
   "parts": [
-    { "name": "Door lock and interlock assembly", "cost": "$20 to $80", "difficulty": "moderate", "note": "The part that actually fails on most persistent dE codes" },
-    { "name": "Door latch hook or striker", "cost": "$10 to $30", "difficulty": "easy", "note": "For a hook that is cracked, rounded off or wobbling" },
-    { "name": "Door hinge assembly", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only if tightening the existing hinge does not square the door up" },
-    { "name": "Door gasket, front load", "cost": "$50 to $120", "difficulty": "hard", "note": "Only if the seal is torn and holding the door open" },
-    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, after a new lock has changed nothing" }
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$20 to $80",
+      "difficulty": "moderate",
+      "note": "The part that actually fails on most persistent dE codes"
+    },
+    {
+      "name": "Door latch hook or striker",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "For a hook that is cracked, rounded off or wobbling"
+    },
+    {
+      "name": "Door hinge assembly",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Only if tightening the existing hinge does not square the door up"
+    },
+    {
+      "name": "Door gasket, front load",
+      "cost": "$50 to $120",
+      "difficulty": "hard",
+      "note": "Only if the seal is torn and holding the door open"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, after a new lock has changed nothing"
+    }
   ],
   "when_to_call": "Call a technician if a new door lock assembly makes no difference, because the next step is testing the lock circuit with the machine powered and that is mains work inside the cabinet. Call as well if the door will not open at all and there is water in the drum, since forcing a locked door on a full machine breaks the latch and empties the tub onto your floor; drain through the pump filter at the bottom front first, then wait, because many LG models release the door a couple of minutes after the water is out. Whatever you do, do not let anyone talk you into bypassing the interlock to get the machine running. It is the only thing stopping the drum turning with the door open.",
   "faqs": [
-    { "q": "Can I still use my LG washer with a dE code?", "a": "No. The washer will not start a cycle until the door locks, which is the safety interlock doing exactly its job. There is no workaround and no safe way around it. The good news is that the most common cause, something caught in the rubber door seal, takes thirty seconds to find and costs nothing to fix." },
-    { "q": "What is the difference between dE, dE1 and dE2?", "a": "dE is the older, single door lock error. Newer LG models split it: dE1 means the door was never properly shut, typically because laundry is caught in the gasket, and dE2 means the door is shut but has not latched, which points at the hook or the lock assembly. The checks overlap heavily, so work through both regardless." },
-    { "q": "Why does dE appear halfway through a cycle?", "a": "Because the load swelled. Dry laundry packed to the opening takes on water, expands, and pushes against the glass until the latch gives up its grip, at which point the control sees the door open and stops. Run the same wash with a third less in the drum and it will almost always complete." },
-    { "q": "My door looks closed but the washer says dE. Why?", "a": "A door that rests closed is not the same as a door that has latched. Push it with the flat of your hand until you hear a clear click. If it still fails, check the hook on the door edge for cracks and the latch hole in the cabinet for lint and broken plastic, both of which stop the hook seating even though the door looks shut." },
-    { "q": "How much does it cost to fix a dE error on an LG washer?", "a": "Nothing if it is laundry in the gasket or a door that needed a firmer push. A door lock assembly is $20 to $80 in parts and around $150 to $320 fitted by a technician. Anything beyond that, meaning the harness or the control board, runs into a few hundred dollars and is worth weighing against the age of the machine." },
-    { "q": "Can I bypass the door lock to run the washer?", "a": "No, and nobody should help you do it. The interlock is the only thing stopping a drum that spins at high speed from turning with the door open. Beyond the obvious injury risk, a bypassed lock dumps the entire wash onto the floor the first time the door swings open mid-cycle. Replace the lock instead; it is a cheap part." },
-    { "q": "Why did dE start suddenly on a washer that was fine?", "a": "Door lock assemblies fail without warning, and latch hooks snap at the root after years of being pulled shut. The third common trigger is a change in habit, such as filling the drum fuller than you used to, which loads the latch in a way it was not loaded before. Check the gasket and the hook before assuming a part has died." }
+    {
+      "q": "Can I still use my LG washer with a dE code?",
+      "a": "No. The washer will not start a cycle until the door locks, which is the safety interlock doing exactly its job. There is no workaround and no safe way around it. The good news is that the most common cause, something caught in the rubber door seal, takes thirty seconds to find and costs nothing to fix."
+    },
+    {
+      "q": "What is the difference between dE, dE1 and dE2?",
+      "a": "dE is the older, single door lock error. Newer LG models split it: dE1 means the door was never properly shut, typically because laundry is caught in the gasket, and dE2 means the door is shut but has not latched, which points at the hook or the lock assembly. The checks overlap heavily, so work through both regardless."
+    },
+    {
+      "q": "Why does dE appear halfway through a cycle?",
+      "a": "Because the load swelled. Dry laundry packed to the opening takes on water, expands, and pushes against the glass until the latch gives up its grip, at which point the control sees the door open and stops. Run the same wash with a third less in the drum and it will almost always complete."
+    },
+    {
+      "q": "My door looks closed but the washer says dE. Why?",
+      "a": "A door that rests closed is not the same as a door that has latched. Push it with the flat of your hand until you hear a clear click. If it still fails, check the hook on the door edge for cracks and the latch hole in the cabinet for lint and broken plastic, both of which stop the hook seating even though the door looks shut."
+    },
+    {
+      "q": "How much does it cost to fix a dE error on an LG washer?",
+      "a": "Nothing if it is laundry in the gasket or a door that needed a firmer push. A door lock assembly is $20 to $80 in parts and around $150 to $320 fitted by a technician. Anything beyond that, meaning the harness or the control board, runs into a few hundred dollars and is worth weighing against the age of the machine."
+    },
+    {
+      "q": "Can I bypass the door lock to run the washer?",
+      "a": "No, and nobody should help you do it. The interlock is the only thing stopping a drum that spins at high speed from turning with the door open. Beyond the obvious injury risk, a bypassed lock dumps the entire wash onto the floor the first time the door swings open mid-cycle. Replace the lock instead; it is a cheap part."
+    },
+    {
+      "q": "Why did dE start suddenly on a washer that was fine?",
+      "a": "Door lock assemblies fail without warning, and latch hooks snap at the root after years of being pulled shut. The third common trigger is a change in habit, such as filling the drum fuller than you used to, which loads the latch in a way it was not loaded before. Check the gasket and the hook before assuming a part has died."
+    }
   ],
   "diagram": {
     "kind": "washer-door-latch",
@@ -128,9 +177,28 @@
     }
   },
   "sources": [
-    { "title": "dE error code on a front load washer, door unable to lock", "publisher": "LG support documentation", "url": null },
-    { "title": "Front load washer: what are the dE, dE1 and dE2 error codes", "publisher": "LG support documentation", "url": null },
-    { "title": "Field experience on door lock assembly failure and latch wear", "publisher": "Appliance repair trade forums and parts retailers' repair guides", "url": null }
+    {
+      "title": "dE error code on a front load washer, door unable to lock",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Front load washer: what are the dE, dE1 and dE2 error codes",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Field experience on door lock assembly failure and latch wear",
+      "publisher": "Appliance repair trade forums and parts retailers' repair guides",
+      "url": null
+    }
   ],
-  "related_codes": ["dE1", "dE2", "CL", "UE", "OE", "LE"]
+  "related_codes": [
+    "dE1",
+    "dE2",
+    "CL",
+    "UE",
+    "OE",
+    "LE"
+  ]
 }

@@ -1,0 +1,209 @@
+{
+  "title": "Kenmore Washer LE Code: Locked Motor Error and Fix",
+  "meta_description": "LE on a Kenmore washer is LG's locked motor error: the drum would not turn. Usually an overloaded drum or a loose motor connector. How to tell which, and",
+  "h1": "Kenmore washer LE error code: what it means and how to fix it",
+  "answer": "LE means the control told the drum to turn, did not see it turn, and shut the cycle down. It is LG's locked motor error, which tells you something useful before you touch anything: your Kenmore was built by LG and its model number starts with 796. The usual cause is not a dead motor but a drum packed too full, or one sodden heavy item like a comforter that the motor cannot get moving. Take half the load out, unplug the machine for five minutes and run a spin-only cycle; most LE codes do not come back.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to 2 hours depending on cause",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$150 to $400"
+  },
+  "safety_warning": "The motor, the stator connector and the control board are all behind panels that also carry mains wiring. Unplug the washer at the wall before any panel comes off, and never work on it plugged in to watch the drum turn.",
+  "causes": [
+    {
+      "cause": "The drum is overloaded or holding one heavy sodden item",
+      "frequency": "most cases",
+      "confirm": "Washing packed above the top row of drum paddles, or a single comforter, rug or sleeping bag full of water. Take half of it out and run spin only. If the drum turns, that was the whole fault."
+    },
+    {
+      "cause": "Something is jammed between the drum and the outer tub",
+      "frequency": "common",
+      "confirm": "With the machine unplugged, turn the drum slowly by hand. A healthy drum spins freely and coasts. A hard stop, a scrape or a metallic click at one point in the rotation means an underwire, coin or hair clip has worked through a drum hole."
+    },
+    {
+      "cause": "The motor harness connector at the stator is loose or corroded",
+      "frequency": "common",
+      "confirm": "Unplug, take the rear panel off and look at the plug on the stator. Green or white powder on the pins, a pin pushed back out of the housing, or a plug that lifts off with no resistance at all. Damp laundry rooms do this."
+    },
+    {
+      "cause": "The hall sensor that reports rotor position has failed",
+      "frequency": "occasional",
+      "confirm": "The motor hums, twitches the drum a few degrees and then faults, rather than doing nothing at all. The sensor is a small plastic block clipped to the stator with a thin multi-wire plug, and it is a far cheaper part than the motor."
+    },
+    {
+      "cause": "The rotor bolt has loosened or the rotor is rubbing the stator",
+      "frequency": "occasional",
+      "confirm": "The rotor rocks or ticks against the stator when you turn the drum by hand, or you can see bright scoring on the rotor face. Check whether the large centre bolt is tight before anything else."
+    },
+    {
+      "cause": "The tub bearings have seized",
+      "frequency": "rare",
+      "confirm": "An empty drum is hard to turn by hand and grinds as it goes round. Almost always preceded by months of jet-engine noise on spin. This is the expensive one."
+    },
+    {
+      "cause": "The main control board or inverter stage has failed",
+      "frequency": "rare",
+      "confirm": "Connector clean, drum turns freely, rotor and hall sensor check out, and the motor still never gets drive. Diagnose this last, not first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Take half the washing out",
+      "detail": "Open the door and remove enough that the drum is no more than about two thirds full with the load pushed down. Overloading is the single biggest cause of LE, and a wet comforter alone can weigh enough to stall the motor on its first attempt. If you are washing one bulky item, add two or three towels so it has something to balance against rather than riding on one side of the drum.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Turn the drum by hand and listen",
+      "detail": "Unplug the machine, then reach in and rotate the drum slowly through at least two full turns in both directions. It should move with light resistance and keep coasting when you let go. A grinding noise, a point where it jams, or a sharp click at the same spot each rotation points at something trapped in the outer tub rather than at the motor. Note where in the rotation it happens; that helps later.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Unplug before putting your hands in the drum."
+    },
+    {
+      "name": "Reset and test with a spin-only cycle",
+      "detail": "With the machine unplugged for five full minutes, plug it back in and start spin only with a small, evenly spread load. The control stores the fault and will keep showing LE until it is cleared, so a machine you have already fixed can look broken. Spin only gets you to the part that failed in about three minutes rather than making you sit through a wash.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look for an item trapped between drum and tub",
+      "detail": "Shine a flashlight through the drum holes while turning the drum a few degrees at a time. A bra underwire shows as a dark straight line lying against the outer tub; coins and hair clips show as bright spots. Pull the door boot back at the bottom and check the fold, which is where small items collect first. Anything you can reach with long needle-nose pliers comes out from here; anything you cannot means dropping the heater or pulling the rear panel.",
+      "minutes": 30,
+      "tools": "Flashlight, long needle-nose pliers",
+      "warning": "Unplug at the wall first. Underwires are sharp and often sit edge-on."
+    },
+    {
+      "name": "Check the motor connector at the stator",
+      "detail": "Unplug the machine. On a front loader the rotor and stator are on the back of the outer tub behind the large rear panel, held by screws around its edge. On an LG-built top loader they are underneath, at the base of the tub. Pull the main plug off the stator, look for corrosion or a backed-out pin, clean the pins with contact cleaner and push it back until it clicks. Reseat it three times to scrape the contacts clean. Follow the harness back along the tub and look for chafing where it rubs.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, nut driver, contact cleaner, flashlight",
+      "warning": "Unplug at the wall. Mains wiring runs to the stator and the board in this area."
+    },
+    {
+      "name": "Check the rotor bolt and the hall sensor",
+      "detail": "With the rear panel off and the machine unplugged, check that the large centre bolt holding the rotor is tight. Look at the rotor face for scoring where it has contacted the stator, and at the magnet ring for cracked or missing magnets. The hall sensor is a small plastic block clipped to the stator with a thin multi-wire plug; unplug it, check the pins are clean and dry, and reseat it. Wipe metal dust off the magnet face while you are in there, since it builds up and drags.",
+      "minutes": 30,
+      "tools": "Socket set, flashlight, clean rag",
+      "warning": "Unplug at the wall before removing the rear panel."
+    },
+    {
+      "name": "Run the machine with the rear panel off and watch, only if you have a helper and no exposed wiring",
+      "detail": "If the drum is free, the connectors are clean and the code still comes back, the next test is watching what the rotor does when the cycle calls for rotation. A rotor that twitches and stops points at the hall sensor or the stator windings. A rotor that does nothing at all with everything else good points at the board. If that means exposed live wiring on your machine, stop here and hand it over; there is no safe way to do it with the terminals open.",
+      "minutes": 20,
+      "tools": "Flashlight",
+      "warning": "Do not run the machine with mains terminals exposed. If anything live is reachable, stop and call a technician."
+    }
+  ],
+  "still_showing": "If the load is light, the drum turns freely by hand and the stator connector is clean, work through the cheap possibilities before you spend anything. Start with the hall sensor. It is the component that tells the board where the rotor is, it fails far more often than the motor itself, and on most of these machines it is a modest part held on with a clip and one plug. A machine that hums and twitches rather than sitting silent is pointing straight at it. Next, check the rotor properly with the panel off: a loose centre bolt lets the rotor wobble out of alignment and reads to the board as a stalled motor, and tightening it costs nothing. Look for metal dust bridging the magnet gap too, which is common on machines in garages and workshops. After that, measure the stator windings with a multimeter across each pair of motor terminals; the readings should be low and close to each other, and one winding reading open or very different from the other two condemns the stator. Use the resistance figures from the tech sheet inside your machine rather than numbers from a forum, because they vary between LG motor generations. If the stator reads correctly, the hall sensor is good and the rotor is tight, you are left with the harness and the main control board, and that is where the cost jumps from tens of dollars to a few hundred. Before you order a board, run the harness between the board and the motor through your fingers along its whole length, particularly where it passes the tub and where it enters any clip, since a wire broken inside its insulation gives exactly these symptoms and costs nothing but time to find. One honest warning: if the drum is genuinely hard to turn by hand when empty and it grinds, the bearings have gone. On most Kenmore front loaders that job means splitting the tub, and the labor alone frequently costs more than the machine is worth.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for five full minutes, then plug it back in and run spin only with a light load. The board holds the LE fault through a short interruption, so a quick off-and-on leaves it in place and makes a successful fix look like a failure. If LE comes back within the first minute of the spin, the fault is live and no amount of resetting will clear it.",
+  "model_notes": "LE is an LG code, so it appears on Kenmore washers with model numbers starting 796 and on a few Kenmore Elite models carrying other LG-sourced prefixes. If your model number starts with 110, the machine is a Whirlpool and will not show LE at all; the nearest Whirlpool-built equivalents are F51 on Oasis and Cabrio-platform top loaders, which is a rotor position sensor fault, and the F7 motor family on Duet front loaders. LG also uses LE on its dishwashers and some dryers for a motor fault, and a separate LE1 on certain models. On LG-built top loaders the rotor and stator are underneath the machine rather than behind a rear panel, which makes the connector check a tip-the-machine job rather than a panel-off job.",
+  "parts": [
+    {
+      "name": "Hall sensor / rotor position sensor",
+      "cost": "$20 to $70",
+      "difficulty": "moderate",
+      "note": "Clips to the stator, one plug. Check this before the motor"
+    },
+    {
+      "name": "Stator assembly",
+      "cost": "$120 to $300",
+      "difficulty": "hard",
+      "note": "Only after a winding reads open on a meter"
+    },
+    {
+      "name": "Rotor assembly",
+      "cost": "$100 to $260",
+      "difficulty": "hard",
+      "note": "Needed when magnets are cracked or the face is badly scored"
+    },
+    {
+      "name": "Motor wiring harness",
+      "cost": "$30 to $90",
+      "difficulty": "moderate",
+      "note": "Worth it when a wire has chafed through against the tub"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Harness and hall sensor first, always"
+    }
+  ],
+  "when_to_call": "Call a technician once the load, the free rotation of the drum and the stator connector have all been ruled out, because the remaining tests need a multimeter, the resistance figures from the tech sheet and the machine partly dismantled. Call straight away if the drum is hard to turn by hand when empty and grinds, since that is a bearing job and it needs doing properly rather than diagnosed further. Call too if you smell hot insulation or see scorching around the stator plug, which means a connection has been arcing and the harness needs replacing rather than reseating. On a machine over about ten years old, get the quote before agreeing to the work: a stator, a board or a bearing job on an older Kenmore front loader frequently costs more than the washer is worth.",
+  "faqs": [
+    {
+      "q": "Does LE mean my Kenmore washer motor is dead?",
+      "a": "Usually not. LE says the control did not see the drum turn, and an overloaded drum, a jammed underwire or a dirty motor connector all produce that result with a perfectly healthy motor. Genuine motor failures are a small minority of LE codes. Take half the load out and turn the drum by hand before you consider buying anything."
+    },
+    {
+      "q": "Why does my Kenmore show an LG error code?",
+      "a": "Because LG built the machine. Kenmore is a Sears badge rather than a manufacturer, and model numbers starting with 796 are LG washers with Kenmore trim. The code set is LG's, so LE, OE, IE, UE, dE and CL all mean on your washer exactly what they mean on an LG. Any LG guide for the equivalent model applies."
+    },
+    {
+      "q": "Can I still use the washer while it shows LE?",
+      "a": "Not usefully. The machine stops the cycle rather than running, and repeatedly restarting it with a stalled motor puts heat into the windings for no benefit. There is no fire risk in leaving the code on the display, but there is no point running cycle after cycle hoping it clears. Fix the load or the fault first."
+    },
+    {
+      "q": "Why did LE appear suddenly when nothing changed?",
+      "a": "Two things usually explain it. Either the load was heavier or wetter than normal, which is why LE often shows up the first time someone washes a comforter or bath mats, or a connector that has been slowly corroding finally lost contact. Connector failures look sudden even though they have been developing for a year or more."
+    },
+    {
+      "q": "Is LE the same as the Whirlpool F51 code?",
+      "a": "They are the same kind of fault on different platforms. F51 on a Whirlpool-built Kenmore Oasis or Cabrio is a rotor position sensor failure, and LE on an LG-built Kenmore is a locked motor error that is frequently caused by the equivalent hall sensor. The diagnosis follows the same logic, but the parts, connectors and resistance figures are completely different, so use the guide that matches your model prefix."
+    },
+    {
+      "q": "How much does an LE repair cost?",
+      "a": "Nothing at all if it was the load, which is the common outcome. A hall sensor is typically $20 to $70 as a part and about an hour of work. A stator or rotor runs into the low hundreds, and a control board is $180 to $350 before labor. A technician visit to diagnose and fix one of the electrical causes usually lands between $150 and $400."
+    },
+    {
+      "q": "Will resetting the washer get rid of LE?",
+      "a": "Only if you have already dealt with whatever caused it. The reset clears the stored code so the machine will attempt the cycle again, but if the drum is still packed or the connector is still corroded, LE returns within a minute. Use the reset as a test after a fix rather than as the fix."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What LE is actually reporting, and the four things to check behind the panel",
+    "labels": {
+      "display": "LE",
+      "c1": "Drum must turn freely by hand",
+      "c2": "Stator plug, clean and seated",
+      "c3": "Hall sensor clipped to stator",
+      "c4": "Rotor centre bolt tight"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG front load washer LE locked motor error service guidance",
+      "publisher": "LG service literature for the equivalent LG model",
+      "url": null
+    },
+    {
+      "title": "Kenmore front load washer LE error code repair article",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Tech sheet inside the machine, listing motor winding and sensor resistance figures",
+      "publisher": "LG service sheet supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on LE causes, hall sensor failures and stator connector corrosion",
+      "publisher": "r/appliancerepair and Appliantology threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F51",
+    "UE",
+    "dE",
+    "OE",
+    "CL",
+    "IE"
+  ]
+}

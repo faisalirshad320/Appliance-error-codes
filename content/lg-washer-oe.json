@@ -1,12 +1,15 @@
 {
   "title": "LG Washer OE Error Code: Drain Fault Causes and Fix",
-  "meta_description": "OE on an LG washer means it could not drain in the time allowed. Usually a clogged pump filter or a kinked drain hose. Clear it yourself in about 30 minutes.",
+  "meta_description": "OE on an LG washer means it could not drain in the time allowed. Usually a clogged pump filter or a kinked drain hose. Clear it yourself in about 30",
   "h1": "LG washer OE error code: what it means and how to fix it",
   "answer": "OE means your LG washer tried to pump the water out, did not get the tub empty inside the time it allows, and stopped with the water still in it. On a front loader the cause is a clogged drain pump filter more often than everything else put together: coins, hair clips, lint and the occasional baby sock. Open the small access door at the bottom front right, drain the water off through the little tube first, then unscrew the round filter and clear it. If the filter is clean, the drain hose or the standpipe it empties into is the next place to look.",
   "severity": "moderate",
   "can_diy": "yes",
   "time_estimate": "30 to 60 minutes",
-  "cost_estimate": { "diy": "$0 to $80", "technician": "$150 to $320" },
+  "cost_estimate": {
+    "diy": "$0 to $80",
+    "technician": "$150 to $320"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -100,22 +103,71 @@
   "reset_procedure": "Unplug the washer at the wall for a minute, plug it back in, and run Drain and Spin rather than a full cycle so you find out in three minutes instead of an hour. OE clears as soon as the machine completes a drain successfully. If the drum is still full of water when you restart, drain it through the filter tube first, because a machine that starts a cycle with a full tub often just throws the same code again.",
   "model_notes": "The code is OE, the letter O, not a zero, but on the seven-segment displays LG uses the two are nearly identical, so you will see it written 0E all over the internet. They are the same drain fault. The big practical difference across the range is the filter: LG front loaders all have a user-accessible drain pump filter behind a small door at the bottom front, but most LG top loaders in the WT series do not. On a top loader you cannot clean the filter from the front, so the order of work changes: check the drain hose and standpipe first, then get at the pump from underneath or behind the machine. On some LG models the same fault is logged as E03 or E21 in service mode.",
   "parts": [
-    { "name": "Drain pump assembly", "cost": "$30 to $80", "difficulty": "moderate", "note": "A few screws, one connector and two hose clamps" },
-    { "name": "Drain pump filter and cap", "cost": "$12 to $30", "difficulty": "easy", "note": "Only if the cap is cracked or the seal is perished and it leaks" },
-    { "name": "Corrugated drain hose", "cost": "$15 to $35", "difficulty": "easy", "note": "Worth replacing if the old one is kinked permanently or split" },
-    { "name": "Water level pressure sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Clear the sludge from its hose before buying one" },
-    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, and only after the pump and sensor check out" }
+    {
+      "name": "Drain pump assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "A few screws, one connector and two hose clamps"
+    },
+    {
+      "name": "Drain pump filter and cap",
+      "cost": "$12 to $30",
+      "difficulty": "easy",
+      "note": "Only if the cap is cracked or the seal is perished and it leaks"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Worth replacing if the old one is kinked permanently or split"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Clear the sludge from its hose before buying one"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and only after the pump and sensor check out"
+    }
   ],
   "when_to_call": "Call an appliance technician if the pump filter is clean, the drain hose is clear, and the machine either makes no sound at all on a drain cycle or hums without moving water, and you are not comfortable taking the lower panel off to reach the pump. Call a plumber instead if the bucket test showed the washer draining normally, because the blockage is in your house drain and an appliance engineer will charge you a call-out to tell you that. Stop and deal with it straight away if water is coming out onto the floor rather than just sitting in the drum, and do not keep running cycles hoping it clears; each failed cycle leaves several gallons of dirty water sitting against the door seal.",
   "faqs": [
-    { "q": "Is 0E the same as OE on an LG washer?", "a": "Yes. It is the letter O for the drain error, but LG's display makes an O and a zero look almost identical, so plenty of owners and plenty of websites write it as 0E. There is no separate zero-E code on LG washers. Everything on this page applies whichever way you read it off the panel." },
-    { "q": "Can I still use my LG washer with an OE code?", "a": "No, not usefully. The machine will not spin with water in the tub, so every cycle ends with soaking clothes and a full drum you have to bail by hand. There is no electrical danger, but leaving several gallons of dirty water sitting in the machine for days makes the door seal smell within a week." },
-    { "q": "How do I drain an LG washer manually?", "a": "Unplug it, open the small access door at the bottom front right, and pull out the short black tube beside the round filter. Hold it over a shallow tray, pull its cap off, and let the water run. The tray will fill several times over, so plug the tube between trips. Only unscrew the round filter once the water has stopped." },
-    { "q": "Why does my LG washer drain but still show OE?", "a": "It is draining too slowly rather than not at all, and the control times out before the tub is empty. A partly clogged filter, a sagging section of drain hose, or a standpipe coated in lint all reduce flow without stopping it. Less often, the water level sensor hose is blocked and the machine cannot tell that the tub has emptied." },
-    { "q": "Can too much detergent cause an OE code?", "a": "Yes. A pump cannot move foam, so a drum full of suds leaves the pump spinning on air while the water stays put. Regular detergent in an HE machine, or too much HE detergent, both do it. Run a Tub Clean cycle and cut down to about a tablespoon of liquid for a normal load." },
-    { "q": "How much does it cost to fix an OE error on an LG washer?", "a": "Nothing in most cases, because cleaning the pump filter fixes it and takes half an hour. If the pump itself has failed, the part runs about $30 to $80 and a technician will charge roughly $150 to $320 including labour. A blocked house drain is a plumber's bill instead, typically more than the appliance repair." },
-    { "q": "Why did OE appear suddenly when the washer was fine yesterday?", "a": "Pump filters clog gradually and then cross a threshold, so a machine goes from fine to failed in one load. The other common trigger is a single object: a coin, a hair tie or a bra underwire getting through to the impeller. Check the filter before assuming anything has broken." },
-    { "q": "Does an OE code mean the drain pump needs replacing?", "a": "Usually not. In most cases the pump is healthy and something is blocking it, either in the filter, in the impeller, or further down the drain. Only replace the pump after you have confirmed the filter is clean, the impeller turns freely, and the machine drains into a bucket no better than it drains into the standpipe." }
+    {
+      "q": "Is 0E the same as OE on an LG washer?",
+      "a": "Yes. It is the letter O for the drain error, but LG's display makes an O and a zero look almost identical, so plenty of owners and plenty of websites write it as 0E. There is no separate zero-E code on LG washers. Everything on this page applies whichever way you read it off the panel."
+    },
+    {
+      "q": "Can I still use my LG washer with an OE code?",
+      "a": "No, not usefully. The machine will not spin with water in the tub, so every cycle ends with soaking clothes and a full drum you have to bail by hand. There is no electrical danger, but leaving several gallons of dirty water sitting in the machine for days makes the door seal smell within a week."
+    },
+    {
+      "q": "How do I drain an LG washer manually?",
+      "a": "Unplug it, open the small access door at the bottom front right, and pull out the short black tube beside the round filter. Hold it over a shallow tray, pull its cap off, and let the water run. The tray will fill several times over, so plug the tube between trips. Only unscrew the round filter once the water has stopped."
+    },
+    {
+      "q": "Why does my LG washer drain but still show OE?",
+      "a": "It is draining too slowly rather than not at all, and the control times out before the tub is empty. A partly clogged filter, a sagging section of drain hose, or a standpipe coated in lint all reduce flow without stopping it. Less often, the water level sensor hose is blocked and the machine cannot tell that the tub has emptied."
+    },
+    {
+      "q": "Can too much detergent cause an OE code?",
+      "a": "Yes. A pump cannot move foam, so a drum full of suds leaves the pump spinning on air while the water stays put. Regular detergent in an HE machine, or too much HE detergent, both do it. Run a Tub Clean cycle and cut down to about a tablespoon of liquid for a normal load."
+    },
+    {
+      "q": "How much does it cost to fix an OE error on an LG washer?",
+      "a": "Nothing in most cases, because cleaning the pump filter fixes it and takes half an hour. If the pump itself has failed, the part runs about $30 to $80 and a technician will charge roughly $150 to $320 including labour. A blocked house drain is a plumber's bill instead, typically more than the appliance repair."
+    },
+    {
+      "q": "Why did OE appear suddenly when the washer was fine yesterday?",
+      "a": "Pump filters clog gradually and then cross a threshold, so a machine goes from fine to failed in one load. The other common trigger is a single object: a coin, a hair tie or a bra underwire getting through to the impeller. Check the filter before assuming anything has broken."
+    },
+    {
+      "q": "Does an OE code mean the drain pump needs replacing?",
+      "a": "Usually not. In most cases the pump is healthy and something is blocking it, either in the filter, in the impeller, or further down the drain. Only replace the pump after you have confirmed the filter is clean, the impeller turns freely, and the machine drains into a bucket no better than it drains into the standpipe."
+    }
   ],
   "diagram": {
     "kind": "washer-drain-filter",
@@ -129,9 +181,28 @@
     }
   },
   "sources": [
-    { "title": "OE error code on a washing machine, drain fault", "publisher": "LG support documentation", "url": null },
-    { "title": "LG front load washer error code list", "publisher": "LG support documentation", "url": null },
-    { "title": "Field reports on OE causes, pump filter contents and standpipe blockages", "publisher": "Appliance repair trade forums and r/appliancerepair", "url": null }
+    {
+      "title": "OE error code on a washing machine, drain fault",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG front load washer error code list",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on OE causes, pump filter contents and standpipe blockages",
+      "publisher": "Appliance repair trade forums and r/appliancerepair",
+      "url": null
+    }
   ],
-  "related_codes": ["0E", "SUD", "UE", "FE", "PE", "dE"]
+  "related_codes": [
+    "0E",
+    "SUD",
+    "UE",
+    "FE",
+    "PE",
+    "dE"
+  ]
 }

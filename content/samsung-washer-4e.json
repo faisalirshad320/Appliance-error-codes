@@ -1,0 +1,122 @@
+{
+  "title": "Samsung Washer 4E Error Code: Causes and Fix",
+  "meta_description": "4E on a Samsung washer means it could not draw enough water. Same fault as 4C on newer machines. Check the taps and the inlet mesh screens first.",
+  "h1": "Samsung washer 4E error code: what it means and how to fix it",
+  "answer": "4E means your Samsung washer asked for water and did not get enough of it within the time the control allows. It is a water supply fault far more often than a washer fault. It is the pre-2017 display for the code newer machines show as 4C, and the two are identical in meaning, cause and fix. Check that both taps are fully open and that the fine mesh screens where the hoses screw into the machine are not furred up with grit and scale, which on a machine of this age is the single likeliest answer.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "15 to 30 minutes",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The inlet mesh filter screens are clogged",
+      "frequency": "most cases",
+      "confirm": "Close the taps, undo a hose at the machine end and look into the inlet port. There is a fine mesh screen set into it. Brown, furred or scaled rather than bright metal is your fault. On a machine old enough to show 4E, these have had a decade to silt up."
+    },
+    {
+      "cause": "A supply tap is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Turn both taps anticlockwise until they stop. A quarter-turn lever must sit in line with the pipe, not across it. If anyone has worked on the plumbing, had a leak scare or moved the machine, one tap has almost certainly been left turned down."
+    },
+    {
+      "cause": "A supply hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow both hoses. A hose flattened against the wall behind the machine drips but will not fill. In winter, a run through an unheated garage or along an outside wall freezes solid and feels rigid and very cold to the touch."
+    },
+    {
+      "cause": "A perished or collapsed old rubber hose",
+      "frequency": "common",
+      "confirm": "Specific to machines of this age. Squeeze along each hose. A rubber hose more than five or six years old can delaminate internally, so the liner collapses under flow and chokes it while the outside looks perfectly normal."
+    },
+    {
+      "cause": "Water pressure at the tap is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "Put the loose hose end in a bucket and open the tap for five seconds. You want a strong jet, not a dribble. A weak flow means the restriction is upstream in the house plumbing, and the washer is reporting the problem correctly."
+    },
+    {
+      "cause": "The water inlet valve has failed",
+      "frequency": "occasional",
+      "confirm": "Taps open, screens clean, hoses sound, strong flow at the bucket, and still 4E. The solenoid is open circuit or the valve is mechanically stuck. This is the point at which a part is genuinely needed rather than a clean-up."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps fully and reset",
+      "detail": "Reach behind the machine and turn both taps anticlockwise until they stop. Then press Power to cancel, unplug for five minutes and plug back in, because the control holds the fault and will keep showing 4E even once water is available. Start a rinse cycle to test rather than a full wash.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Walk the length of both hoses",
+      "detail": "Pull the machine out and follow each hose from tap to machine. Look for a tight bend, a flat spot where the cabinet has been pushed back onto it, and in winter a section that feels rigid and cold. Straighten anything kinked and leave a hand's width of clearance behind the machine when you push it back.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet mesh screens",
+      "detail": "Close both taps. Put a towel and a shallow tray down, then unscrew each hose at the machine end; expect a cupful of water. Pick the fine mesh screen out of the inlet port with needle-nose pliers, rinse it, scrub it with an old toothbrush and push it back in squarely. Do both hot and cold even if only one looks dirty.",
+      "minutes": 14,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close the taps before undoing a hose or you take mains pressure in the face."
+    },
+    {
+      "name": "Bucket test the flow at the tap",
+      "detail": "With a hose still off the machine, put the loose end in a bucket and open that tap for five seconds. You should get a strong jet filling a good part of the bucket. A weak dribble means the problem is upstream of the washer, in your plumbing or a partly shut isolation valve, and no amount of work on the machine will fix it.",
+      "minutes": 5,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Replace tired rubber supply hoses",
+      "detail": "On a machine this age the hoses are often original. Rubber ones delaminate internally and choke the flow while looking fine outside. Braided stainless hoses are inexpensive and are worth fitting on any machine over five years old regardless of this code, because an old hose that bursts floods a room at mains pressure.",
+      "minutes": 15,
+      "tools": "Pliers, towel",
+      "warning": "Close the taps first, and hand-tighten the new hoses with a quarter turn of pliers at most; over-tightening splits the plastic port."
+    },
+    {
+      "name": "Check the inlet valve electrically",
+      "detail": "Unplug the machine. Take the top panel off, usually two screws at the back, and slide it rearward. The inlet valve sits where the hoses enter. Pull the connector off a solenoid and measure across its terminals on the ohms range. An open circuit means a dead valve. Check the service sheet inside the machine for the correct figure for your model rather than working to a number from the internet.",
+      "minutes": 22,
+      "tools": "Phillips screwdriver, multimeter",
+      "warning": "Unplug at the wall before removing any panel. Do not rely on the power button."
+    }
+  ],
+  "still_showing": "If both taps are open, both screens are clean, the hoses are sound and the bucket test gives a strong jet, the supply side is proven and the fault is inside the machine. Work in this order. First, unplug the washer, take the top panel off and check the connector at the inlet valve for green corrosion or a terminal backed out of its housing, which is common on older machines in damp laundry rooms and costs nothing to fix. Second, measure each solenoid across its terminals with a multimeter; an open circuit confirms a dead valve, and the part is a $25 to $60 item that takes about half an hour to swap with a couple of screws and a connector. Third, if the solenoids read correctly but never energize when the cycle calls for water, the fault is in the harness or the main control board, and that is where the cost jumps past the point of being worth it on a machine of this vintage. Before spending anything, rule out one free possibility: if your machine has both hot and cold inlets and the hot supply is off, isolated or fed by a water heater that has been turned down, the washer will throw 4E on a warm cycle and run a cold one perfectly. Try a cold-only wash. If it fills normally, the washer is fine and the hot supply is not. Finally, check what else in the house changed recently. Mains work, a meter swap or a stopcock left part closed by a plumber all stir up sediment or reduce flow, and both land in your inlet screens within a week.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full five minutes, then plug it back in. The control stores the fault, so a machine with a perfectly good supply will keep displaying 4E until it is cleared. Start a rinse-and-spin to test rather than a full cycle, so you find out in two minutes instead of fifty.",
+  "model_notes": "4E is the older display and was replaced by 4C on Samsung machines made from roughly 2017 onward. They are the same water supply fault with the same causes and the same fixes, so guidance written for either applies to both. A trailing digit changes the meaning: 4E1 or 4C2 indicates the incoming water is too hot, which almost always means the hot and cold hoses are on the wrong taps, or a cold-fill-only machine has been plumbed into a hot supply. Older top loaders reach the inlet screens the same way, but their top panel is usually held by clips rather than screws at the back.",
+  "parts": [
+    { "name": "Inlet hose mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Only needed if a screen is torn; most just need cleaning" },
+    { "name": "Braided stainless supply hoses", "cost": "$15 to $30 a pair", "difficulty": "easy", "note": "Worth fitting on any machine over five years old whatever the code says" },
+    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws and a connector, about 30 minutes" },
+    { "name": "Main control board", "cost": "$180 to $320", "difficulty": "technician only", "note": "Rarely worth it on a machine old enough to display 4E" }
+  ],
+  "when_to_call": "Call an appliance technician if the bucket test gives strong flow, both screens are clean and the valve solenoids read correctly, because the next step is diagnosing the harness and the board with the machine live. Call a plumber instead if the bucket test is weak, since that fault is in your house plumbing and an appliance engineer will charge a call-out to tell you the same thing. Given the age of a machine still displaying 4E rather than 4C, get the quote before the work: a valve is worth replacing, a control board usually is not. If anything is leaking while this is going on, close the taps and stop, because a supply-side leak does far more damage than a washer that will not fill.",
+  "faqs": [
+    { "q": "Is 4E the same as 4C on a Samsung washer?", "a": "Yes, exactly the same fault. 4E is the display used on machines made before roughly 2017 and 4C replaced it on later ones. Both mean the washer did not receive enough water in the time allowed. Every check and every part is the same, so a guide written for 4C applies to 4E without modification." },
+    { "q": "What does 4E1 mean on a Samsung washer?", "a": "It is a different fault from plain 4E. The trailing digit means the incoming water temperature is wrong, usually too hot. The common cause is the hot and cold hoses being connected to the wrong taps, which happens most often just after an installation or a move. Swap them back and the code goes." },
+    { "q": "Can I still use the washer with a 4E code?", "a": "Not for a normal wash, because the machine stops the cycle rather than run without enough water. There is no safety risk in leaving it. If only the hot supply has failed, a cold-only cycle will often run perfectly, which is a useful way to confirm where the problem is while you sort out the repair." },
+    { "q": "Why did 4E appear suddenly after years of working?", "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other common trigger is work elsewhere in the house: a plumber turning a stopcock down, a meter change, or a mains repair that stirs up sediment and deposits it in your screens within a week." },
+    { "q": "Should I replace the hoses on a machine this old?", "a": "Yes, regardless of this code. Rubber hoses delaminate internally with age, which chokes the flow while the outside still looks fine, and an old hose that bursts floods a room at mains pressure while you are out. Braided stainless replacements are inexpensive and take fifteen minutes with the taps closed." },
+    { "q": "Does 4E mean the water inlet valve has failed?", "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a silted screen, a kinked hose or a collapsed old one. Replace the valve only after you have confirmed a strong bucket-test flow and an open circuit across the solenoid, or the new valve will throw the same code on its first cycle." }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "The supply path behind a 4E code, from tap to machine inlet",
+    "labels": {
+      "display": "4E",
+      "c1": "Tap fully open, both of them",
+      "c2": "Inlet mesh screen, silted with grit",
+      "c3": "Kinked or collapsed old hose",
+      "c4": "Machine inlet and valve"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine displays a 4E or 4C water supply error", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, water supply fault codes and valve checks", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on 4E causes, inlet screens and perished supply hoses", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["4C", "4E1", "nF", "SE", "nd"]
+}

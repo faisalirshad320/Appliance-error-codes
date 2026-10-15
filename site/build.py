@@ -16,6 +16,11 @@ SITE, URL = CFG["site_name"], CFG["site_url"].rstrip("/")
 TODAY = datetime.date.today().isoformat()
 E = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
+# Populated by main() once it knows which pages have content. The footer and any other
+# site-wide navigation is rendered from this, so a link can never point at a page the
+# build did not write.
+NAV = {"appliances": [], "brands": []}
+
 BRAND_LABEL = {"lg":"LG","ge":"GE","kitchenaid":"KitchenAid","kitchen aid":"KitchenAid",
                "speed queen":"Speed Queen","asko":"Asko","miele":"Miele","beko":"Beko"}
 label_brand = lambda b: BRAND_LABEL.get(b, b.title())
@@ -35,6 +40,10 @@ def layout(*, title, desc, canonical, body, jsonld=None, crumb=None, extra_head=
             f'<li><a href="{E(u)}">{E(t)}</a></li>' if u else f"<li>{E(t)}</li>"
             for t, u in crumb)
         crumbs = f'<nav class="crumb" aria-label="Breadcrumb"><div class="wrap"><ol>{items}</ol></div></nav>'
+    foot_appliances = "".join(f'<li><a href="{E(u)}">{E(t)}</a></li>'
+                              for t, u in NAV["appliances"]) or "<li>Coming soon</li>"
+    foot_brands = "".join(f'<li><a href="{E(u)}">{E(t)}</a></li>'
+                          for t, u in NAV["brands"]) or "<li>Coming soon</li>"
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -69,14 +78,8 @@ def layout(*, title, desc, canonical, body, jsonld=None, crumb=None, extra_head=
 </div></main>
 <footer class="site-foot"><div class="wrap">
   <div class="foot-grid">
-    <div><h2>Appliances</h2><ul>
-      <li><a href="/codes/washer/">Washer codes</a></li>
-      <li><a href="/codes/dryer/">Dryer codes</a></li>
-      <li><a href="/codes/dishwasher/">Dishwasher codes</a></li>
-      <li><a href="/codes/refrigerator/">Refrigerator codes</a></li></ul></div>
-    <div><h2>Top brands</h2><ul>
-      <li><a href="/samsung/">Samsung</a></li><li><a href="/lg/">LG</a></li>
-      <li><a href="/whirlpool/">Whirlpool</a></li><li><a href="/bosch/">Bosch</a></li></ul></div>
+    <div><h2>Appliances</h2><ul>{foot_appliances}</ul></div>
+    <div><h2>Top brands</h2><ul>{foot_brands}</ul></div>
     <div><h2>Site</h2><ul>
       <li><a href="/about/">About and sources</a></li>
       <li><a href="/editorial-policy/">Editorial policy</a></li>
@@ -216,6 +219,18 @@ def render_code_page(page, d, index):
     toc_html = '<section><h2>On this page</h2><ul class="toc">' + "".join(
         f'<li><a href="{u}">{E(t)}</a></li>' for t, u in toc) + '</ul></section>'
 
+    # Hubs exist only where the family has at least one written page.
+    hub_links = ""
+    if any(x["slug"] in index.built for x in index.by_brand[page["brand"]]):
+        hub_links += (f'<li><a href="/{slugify(page["brand"])}/">All {E(brand)} codes</a></li>')
+    if any(x["slug"] in index.built
+           for x in index.by_ba[(page["brand"], page["appliance"])]):
+        hub_links += (f'<li><a href="/{slugify(page["brand"])}/{slugify(page["appliance"])}/">'
+                      f'{E(brand)} {E(appl.lower())} codes</a></li>')
+    if any(x["slug"] in index.built for x in index.by_appl[page["appliance"]]):
+        hub_links += (f'<li><a href="/codes/{slugify(page["appliance"])}/">'
+                      f'Every {E(appl.lower())} code</a></li>')
+
     body = f'''<div class="page">
 <article>
 <h1>{E(d["h1"])}</h1>
@@ -253,11 +268,7 @@ Work within your competence: anything involving mains wiring, gas or a sealed re
 circuit belongs to a qualified technician.</p>
 </article>
 <aside class="side">{toc_html}{rel_html}
-<section><h2>More {E(brand)}</h2><ul>
-<li><a href="/{slugify(page["brand"])}/">All {E(brand)} codes</a></li>
-<li><a href="/{slugify(page["brand"])}/{slugify(page["appliance"])}/">{E(brand)} {E(appl.lower())} codes</a></li>
-<li><a href="/codes/{slugify(page["appliance"])}/">Every {E(appl.lower())} code</a></li>
-</ul></section>
+<section><h2>More {E(brand)}</h2><ul>{hub_links}</ul></section>
 </aside>
 </div>'''
 
@@ -274,7 +285,10 @@ def slugify(s):
 # ----------------------------------------------------------------- index / hubs
 
 class Index:
-    def __init__(self, pages):
+    def __init__(self, pages, built=None):
+        # `built` is the set of slugs that have content. Everything this class hands back
+        # for linking is filtered through it, so a hub or sidebar can never link into a 404.
+        self.built = built if built is not None else {p["slug"] for p in pages}
         self.pages = pages
         self.by_brand = collections.defaultdict(list)
         self.by_appl = collections.defaultdict(list)
@@ -288,14 +302,11 @@ class Index:
                 v.sort(key=lambda p: -p["cluster_volume"])
 
     def related(self, page, n=6):
-        same = [p for p in self.by_ba[(page["brand"], page["appliance"])]
-                if p["slug"] != page["slug"]][:n]
-        if len(same) < n:
-            same += [p for p in self.by_brand[page["brand"]]
-                     if p["slug"] != page["slug"] and p not in same][:n - len(same)]
-        if len(same) < n:
-            same += [p for p in self.by_appl[page["appliance"]]
-                     if p["slug"] != page["slug"] and p not in same][:n - len(same)]
+        ok = lambda p: p["slug"] in self.built and p["slug"] != page["slug"]
+        same = [p for p in self.by_ba[(page["brand"], page["appliance"])] if ok(p)][:n]
+        for pool in (self.by_brand[page["brand"]], self.by_appl[page["appliance"]]):
+            if len(same) >= n: break
+            same += [p for p in pool if ok(p) and p not in same][:n - len(same)]
         return same[:n]
 
 
@@ -575,7 +586,6 @@ def main():
     pages = json.loads((ROOT/"data"/"pagemap.json").read_text())
     content_dir = ROOT/"content"
     dist = ROOT/"dist"
-    idx = Index(pages)
 
     loaded, problems = {}, []
     for p in pages:
@@ -588,6 +598,15 @@ def main():
         errs = pschema.validate(d, p["slug"])
         if errs: problems.extend(errs); continue
         loaded[p["slug"]] = d
+
+    idx = Index(pages, built=set(loaded))
+    # Footer navigation: the four biggest appliance hubs and brand hubs that have content.
+    na = [(a, len([p for p in ps if p["slug"] in loaded])) for a, ps in idx.by_appl.items()]
+    nb = [(b, len([p for p in ps if p["slug"] in loaded])) for b, ps in idx.by_brand.items()]
+    NAV["appliances"] = [(f"{label_appl(a)} codes", f"/codes/{slugify(a)}/")
+                         for a, n in sorted(na, key=lambda x: -x[1])[:5] if n]
+    NAV["brands"] = [(label_brand(b), f"/{slugify(b)}/")
+                     for b, n in sorted(nb, key=lambda x: -x[1])[:5] if n]
 
     if dist.exists():
         import shutil; shutil.rmtree(dist)

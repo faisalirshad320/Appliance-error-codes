@@ -1,0 +1,129 @@
+{
+  "title": "Samsung Washer ND Error Code: Causes and Fix",
+  "meta_description": "ND on a Samsung washer means no drain: the water level did not fall when the pump ran. Check the drain hose and pump. It is not a door fault.",
+  "h1": "Samsung washer ND error code: what it means and how to fix it",
+  "answer": "nd means no drain. The washer ran its pump and the water level in the tub did not fall within the time it allows, so it stopped the cycle with the drum still full. It is the code most often seen on older Samsung top loaders, and it is the same underlying fault that front loaders report as 5E, SE, 5C or SC. Start with the drain hose, because on most top loaders there is no pump filter you can reach from the front, and a kinked hose or a hose pushed too far into the standpipe causes a large share of these.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 90 minutes",
+  "cost_estimate": { "diy": "$0 to $120", "technician": "$150 to $350" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain hose is kinked, crushed or sitting in water",
+      "frequency": "most cases",
+      "confirm": "Pull the machine out and follow the grey hose end to end. Look for a flat spot where the cabinet has been pushed back onto it, and check how far it goes into the standpipe. If the end is below the water line in the pipe, the machine siphons and the level never reads as falling."
+    },
+    {
+      "cause": "Something is blocking the pump or the sump",
+      "frequency": "most cases",
+      "confirm": "Listen at the base during the drain stage. A pump straining against a blockage buzzes or hums without moving water. Coins, hair clips and the corner of a face cloth are the usual offenders, and on a top loader they get past the drum far more easily than on a front loader."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "common",
+      "confirm": "Complete silence from the base when the cycle reaches drain, with no hum at all. On an older top loader with the original pump this is an entirely ordinary outcome rather than a last resort."
+    },
+    {
+      "cause": "The house standpipe or waste pipe is blocked",
+      "frequency": "common",
+      "confirm": "Pull the drain hose out of the standpipe, hook it over a large bucket on the floor and run a spin. Strong flow into the bucket means the washer is healthy and your plumbing is not. This one test splits the problem in half and costs nothing."
+    },
+    {
+      "cause": "The water level sensor or its pressure hose is misreading",
+      "frequency": "occasional",
+      "confirm": "You can see the drum is empty and the code still appears. The control is being told there is water when there is not, usually because the thin pressure hose from the tub to the sensor is blocked with detergent sludge or has split at an end."
+    },
+    {
+      "cause": "Wiring to the pump, or the control board",
+      "frequency": "rare",
+      "confirm": "A pump that tests fine but never gets driven. Check the connector at the pump for green corrosion or a pushed-back pin before anyone talks about a board, because damp laundry rooms do this and it costs nothing to put right."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel, unplug and bail the drum down",
+      "detail": "Press Power to cancel and pull the plug at the wall. Scoop the standing water out of the drum with a jug into a bucket. On a top loader you can get most of it this way, and it makes everything that follows far less messy. Take out the wet laundry and wring it into the bucket too.",
+      "minutes": 18,
+      "tools": "Jug, bucket, towels",
+      "warning": "Unplug at the wall before working on the machine."
+    },
+    {
+      "name": "Walk the drain hose and check its height",
+      "detail": "Pull the machine out and follow the grey hose from the cabinet to the wall. Take out every kink, free it from behind a leveling foot, and make sure the end sits just inside the standpipe rather than pushed down into standing water. The standpipe height matters as well, so check the installation sheet for the range your model needs.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Bucket test the drain",
+      "detail": "Leave the drain hose out of the standpipe, hook it over the rim of a large bucket on the floor, plug the machine back in and run Spin or Rinse and Spin. Strong steady flow into the bucket means the washer drains fine and your standpipe is blocked. Nothing, or a weak dribble, means the fault is inside the machine.",
+      "minutes": 15,
+      "tools": "Large bucket",
+      "warning": null
+    },
+    {
+      "name": "Clean the pump filter if your model has one",
+      "detail": "Some Samsung washers have a filter behind a small panel at the bottom front, but many top loaders have none at all. If yours has one, unplug the machine, put a shallow tray underneath, drain through the short hose beside the cap, then turn the filter cap anticlockwise and clean the mesh. If there is no panel there, skip this and go to the pump itself.",
+      "minutes": 18,
+      "tools": "Phillips #2, shallow tray, old toothbrush, towels",
+      "warning": "Unplug at the wall before opening the filter housing."
+    },
+    {
+      "name": "Listen at the drain stage",
+      "detail": "With the lower panel off if you can get it off, run a spin and put your ear to the base when the pump should run. A healthy pump gives a steady whirr. A buzz or a hum with no water movement means a jammed or seized impeller. Dead silence means the pump is not running at all, which is either a dead motor or a wiring problem.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Reach the pump and clear or replace it",
+      "detail": "On most Samsung top loaders the pump is reached from the back or underneath rather than the front. Unplug the machine, lay a towel down and tip it gently backwards, then find the pump where the sump hose meets it. Pull the hose clamp, check for a blockage, and if the impeller is seized or the motor is dead, fit a replacement.",
+      "minutes": 70,
+      "tools": "Socket set, screwdrivers, pliers, towels",
+      "warning": "Unplug at the wall first, and get as much water out of the tub as you can before tipping the machine."
+    },
+    {
+      "name": "Reset and run a short test cycle",
+      "detail": "Unplug for five minutes so the board clears the stored fault, plug back in and run Rinse and Spin rather than a full wash. Stand and listen at the drain stage. A steady whirr that changes note as the tub empties means the pump has done its job and the code should not return.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "The bucket test is the fork in the road, so do it before anything else if you have not already. If the machine pumps strongly into a bucket on the floor, the washer is fine and the blockage is in your standpipe or waste pipe. Snake it or call a plumber, and do not let anyone sell you a drain pump. If it will not pump into the bucket either, the fault is inside and you work towards the pump in order of cost. First, the sump hose: the thick rubber hose from the bottom of the tub to the pump. Squeeze along it for a soft lump, because a sock or a face cloth stuck there blocks the drain completely while leaving a filter, if your model even has one, looking spotless. Second, the pump connector, which corrodes green in damp laundry rooms and is free to clean. Third, the pump itself, which is a $40 to $120 part and roughly an hour of work once you can reach it. On a top loader that usually means tipping the machine back, so get the water out first and have towels down. Fourth, if the drum visibly empties and nd keeps coming back, stop chasing the drain and look at the level sensing: the thin pressure hose from the tub to the water level sensor silts up with detergent sludge or splits where it pushes on, and a control that never sees the level drop reports no drain even though the water has gone. Clearing that hose is free. The main board is the last thing on the list, and on a machine old enough to be showing nd rather than SC, a board is usually where the repair stops being worth the money.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full five minutes, then plug it back in. The control latches the drain fault, so nd stays on the display after you have cleared the blockage until you reset. Test with Rinse and Spin rather than a full cycle so you know in two minutes rather than fifty.",
+  "model_notes": "nd is used mainly on older Samsung washers, particularly WA-series top loaders, and means the same thing as 5E and SE on earlier front loaders and 5C or SC on machines from roughly 2017 onward. Treat the whole group as one fault with one diagnostic path. The practical difference is access: most front loaders have a pump debris filter behind a panel at the bottom front, while many top loaders have no user-serviceable filter at all and the pump has to be reached from behind or underneath. Check the front of your machine for a small access door before assuming there is a filter to clean.",
+  "parts": [
+    { "name": "Drain pump assembly", "cost": "$40 to $120", "difficulty": "moderate", "note": "About an hour once you can reach it; drain the tub before tipping the machine" },
+    { "name": "Corrugated drain hose", "cost": "$15 to $35", "difficulty": "easy", "note": "Replace if crushed flat or split rather than just kinked" },
+    { "name": "Sump hose and clamps", "cost": "$20 to $50", "difficulty": "moderate", "note": "Usually a blockage to clear rather than a hose to replace" },
+    { "name": "Water level pressure hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "For the case where the drum empties but nd keeps returning" }
+  ],
+  "when_to_call": "Call someone if the machine will not pump into a bucket on the floor and reaching the pump means tipping a washer with water still in it onto its back in your laundry room, which is more awkward than it sounds and easy to do badly. Call a plumber instead of an appliance technician if the bucket test gives strong flow, because the blockage is in your plumbing and an appliance engineer will charge a call-out to tell you so. Weigh any quote against the machine's age: a pump is worth replacing on almost any washer, a control board on a machine old enough to display nd usually is not.",
+  "faqs": [
+    { "q": "What does nd mean on a Samsung washer?", "a": "No drain. The washer ran the drain pump and the water level in the tub did not fall in the time it allows, so it stopped with the drum full. It is a drain fault, not a door, lid or balance fault. On newer Samsung machines the same condition is displayed as 5C or SC, and on earlier front loaders as 5E or SE." },
+    { "q": "Is nd the same as the DC code?", "a": "No, and it is worth being clear about. nd is a drain fault: water will not leave the machine. DC is a door or lid fault: the machine cannot confirm the door is shut and locked. They look similar on a small display but they are unrelated circuits. If the drum is full of water, you have a drain problem whatever the letters look like." },
+    { "q": "My washer has no filter at the bottom. Where do I start?", "a": "With the drain hose and the bucket test, which is the right first move anyway. Many Samsung top loaders have no user-accessible pump filter. Straighten the hose, check the end is not submerged in the standpipe, then hang it in a bucket and run a spin. That single test tells you whether the problem is the machine or your plumbing." },
+    { "q": "Can I still use the washer with an nd code?", "a": "No. The cycle stops with the drum full of dirty water and running it again just repeats the failed drain. On top loaders the lid may unlock, but spinning a tub that has not emptied will throw a balance code as well. Get the water out by hand, clear the blockage, then run a short test cycle." },
+    { "q": "How do I empty the drum if the machine will not pump?", "a": "Bail it. Unplug the washer and scoop the water out with a jug into a bucket, which on a top loader gets most of it. If your model has a filter access panel at the bottom front, drain through the short hose beside the filter cap into a shallow tray instead. Wring the laundry out into the bucket as you remove it." },
+    { "q": "Is a drain pump worth replacing on an older Samsung?", "a": "Usually yes. The part is modest and the job is about an hour once you can reach the pump, which beats replacing the machine by a wide margin. The calculation only changes if the diagnosis moves on to the main control board, which costs several times as much and rarely makes sense on a washer this old." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "The drain path behind an nd code, from sump hose to standpipe",
+    "labels": {
+      "display": "nd",
+      "c1": "Impeller must spin freely",
+      "c2": "Pump housing, often rear access",
+      "c3": "Standpipe, hose end not submerged",
+      "c4": "Sump hose, feel for a trapped sock"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine will not drain and shows a drain information code", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung top load washer service literature, drain system fault codes", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on Samsung nd and 5E drain faults and pump access on top loaders", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["5E", "SE", "SC", "5C", "SUD", "UE"]
+}

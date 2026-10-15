@@ -1,12 +1,15 @@
 {
   "title": "LG Dishwasher AE Error Code: Leak Detected and How to Fix",
-  "meta_description": "AE on an LG dishwasher means water has reached the base tray and the leak float has tripped. Stop using it, find the drip, dry the pan. Full diagnosis here.",
+  "meta_description": "AE on an LG dishwasher means water has reached the base tray and the leak float has tripped. Stop using it, find the drip, dry the pan.",
   "h1": "LG dishwasher AE error code: water in the base, and how to find the leak",
   "answer": "AE means your LG dishwasher has detected water where water should never be: in the shallow metal tray under the tub. A foam float sits in that tray, and when water lifts it, the control stops the cycle and usually runs the drain pump to protect the house. It is a real leak nine times out of ten, not a sensor glitch, so the machine should stay off until you find where the water is coming from. Drying the tray will clear the code, but it comes straight back on the next cycle if the leak is still there.",
   "severity": "stop-using-it",
   "can_diy": "sometimes",
   "time_estimate": "45 minutes to find it, 1 to 3 hours to fix it",
-  "cost_estimate": { "diy": "$0 to $80", "technician": "$150 to $400" },
+  "cost_estimate": {
+    "diy": "$0 to $80",
+    "technician": "$150 to $400"
+  },
   "safety_warning": "You are working around water and a 120V appliance. Switch the dishwasher off at the breaker, not just at the panel, before you pull it out or reach into the base. Do not run the machine with the toe kick off to watch for the leak unless the power is off and you are only filling it by hand.",
   "causes": [
     {
@@ -102,22 +105,71 @@
   "reset_procedure": "Switch the dishwasher off at the breaker for five minutes, then back on. Pressing Power alone will not clear a stored AE on most models. The code will not stay cleared unless the base tray is actually dry and the float has dropped, so dry the tray first and reset second. If AE returns within seconds of powering up, the float is still raised or stuck, not the control.",
   "model_notes": "The AE code behaves the same across LG's front-control and top-control dishwashers, but the leak hardware differs slightly. Most models use a foam float and a small reed or microswitch in the base tray. Some later models add a second moisture sensor and will also close an inlet valve at the supply, which means the machine will not fill at all until the fault is cleared. On a model with LG's ThinQ app, a separate cloud alert can appear as SmDg-AE; that is a notification generated from the machine's data, not a different fault, and it points at the same base tray.",
   "parts": [
-    { "name": "Base tray float switch", "cost": "$20 to $45", "difficulty": "moderate", "note": "Only needed when the tray is dry and the switch reads tripped" },
-    { "name": "Door perimeter gasket", "cost": "$25 to $60", "difficulty": "moderate", "note": "Presses into a channel; no tools beyond patience on most models" },
-    { "name": "Lower door seal or baffle strip", "cost": "$15 to $35", "difficulty": "easy", "note": "Common wear item and a frequent cause of water in front of the machine" },
-    { "name": "Sump gasket kit", "cost": "$20 to $50", "difficulty": "hard", "note": "Means laying the machine on its back and splitting the sump from the tub" },
-    { "name": "Circulation pump assembly", "cost": "$120 to $260", "difficulty": "technician only", "note": "Last resort, and only when the leak is traced to the pump body itself" }
+    {
+      "name": "Base tray float switch",
+      "cost": "$20 to $45",
+      "difficulty": "moderate",
+      "note": "Only needed when the tray is dry and the switch reads tripped"
+    },
+    {
+      "name": "Door perimeter gasket",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Presses into a channel; no tools beyond patience on most models"
+    },
+    {
+      "name": "Lower door seal or baffle strip",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Common wear item and a frequent cause of water in front of the machine"
+    },
+    {
+      "name": "Sump gasket kit",
+      "cost": "$20 to $50",
+      "difficulty": "hard",
+      "note": "Means laying the machine on its back and splitting the sump from the tub"
+    },
+    {
+      "name": "Circulation pump assembly",
+      "cost": "$120 to $260",
+      "difficulty": "technician only",
+      "note": "Last resort, and only when the leak is traced to the pump body itself"
+    }
   ],
   "when_to_call": "Call someone if you have dried the tray, confirmed the float moves freely, checked the door gasket and every hose clamp, and the tray still fills on a cycle. At that point the leak is inside the sump, the pump or the tub itself, and tracing it means laying the machine on its back with the plumbing disconnected. Call sooner if you can see water getting to anything electrical, if the machine trips the breaker, or if there is water under the adjacent cabinet or a soft patch in the floor, because at that point the water damage costs more than the repair. Get a quote before agreeing to a sump or pump replacement on a machine over eight years old; the parts and labor often approach the cost of a new one.",
   "faqs": [
-    { "q": "Can I still use my LG dishwasher with an AE code?", "a": "No. AE means water is sitting in the base tray, which is one pan of water away from the floor and the cabinets. The machine will shut the cycle down anyway, and forcing it through resets just pumps more water into the leak. Turn it off, close the supply valve under the sink, and wash by hand until you have found the source." },
-    { "q": "Why does AE come back after I dried the base?", "a": "Because drying the tray clears the symptom, not the cause. The float drops, the code goes, then the next cycle puts water back in the tray within minutes. If AE returns on the first cycle after a dry-out, you have a live leak. If it returns only after several loads, the leak is slow, which usually points at a gasket rather than a hose joint." },
-    { "q": "Does AE always mean a leak, or can the sensor be wrong?", "a": "A leak, most of the time. The float does occasionally stick up on dried detergent or a shard of glass, and the switch itself does fail, but both are the exception. Check the tray before you assume a sensor fault: if there is any water in it at all, believe the machine. A dry tray plus an instant AE on power-up points at the float." },
-    { "q": "Can too much detergent cause an AE error?", "a": "Yes, and it is more common than people expect. Hand dish soap in the dispenser, or plates rinsed in a sink of soapy water, generates foam that climbs over the tub lip into the base tray. Run one empty cycle with no detergent and a half cup of vinegar to clear it, then use dishwasher powder or tablets only." },
-    { "q": "How much does it cost to fix an AE error on an LG dishwasher?", "a": "Nothing at all if it is suds or a loose clamp. A door gasket or float switch runs roughly $20 to $60 in parts and an hour of your time. A sump gasket or pump seal is a technician job at around $150 to $400 fitted, and on a machine past eight years old that is close enough to replacement cost to be worth a conversation." },
-    { "q": "Why did AE appear suddenly when nothing changed?", "a": "Seals harden slowly and then cross a threshold, so a gasket that has been marginal for a year fails in one load. The other common trigger is something that moved the machine: a floor replacement, a new countertop, or anyone pulling it out to retrieve a dropped fork can tip it forward or nudge a hose clamp off square." },
-    { "q": "Should I pull the dishwasher out to find the leak?", "a": "Not as the first step. Take the toe kick off first, which takes four screws and shows you most of the base. Only pull the machine out if the toe kick view shows nothing and you need to see the back, and when you do, switch off the breaker, close the supply valve, and watch that the drain hose does not pull out of its standpipe." },
-    { "q": "Is an LG dishwasher with an AE error worth repairing?", "a": "It depends entirely on where the leak is. A gasket, a clamp or a float switch is worth fixing on any machine. A cracked sump or a leaking pump body on a machine older than about eight years usually is not, because the fitted cost lands in the same bracket as a new mid-range dishwasher with a fresh warranty." }
+    {
+      "q": "Can I still use my LG dishwasher with an AE code?",
+      "a": "No. AE means water is sitting in the base tray, which is one pan of water away from the floor and the cabinets. The machine will shut the cycle down anyway, and forcing it through resets just pumps more water into the leak. Turn it off, close the supply valve under the sink, and wash by hand until you have found the source."
+    },
+    {
+      "q": "Why does AE come back after I dried the base?",
+      "a": "Because drying the tray clears the symptom, not the cause. The float drops, the code goes, then the next cycle puts water back in the tray within minutes. If AE returns on the first cycle after a dry-out, you have a live leak. If it returns only after several loads, the leak is slow, which usually points at a gasket rather than a hose joint."
+    },
+    {
+      "q": "Does AE always mean a leak, or can the sensor be wrong?",
+      "a": "A leak, most of the time. The float does occasionally stick up on dried detergent or a shard of glass, and the switch itself does fail, but both are the exception. Check the tray before you assume a sensor fault: if there is any water in it at all, believe the machine. A dry tray plus an instant AE on power-up points at the float."
+    },
+    {
+      "q": "Can too much detergent cause an AE error?",
+      "a": "Yes, and it is more common than people expect. Hand dish soap in the dispenser, or plates rinsed in a sink of soapy water, generates foam that climbs over the tub lip into the base tray. Run one empty cycle with no detergent and a half cup of vinegar to clear it, then use dishwasher powder or tablets only."
+    },
+    {
+      "q": "How much does it cost to fix an AE error on an LG dishwasher?",
+      "a": "Nothing at all if it is suds or a loose clamp. A door gasket or float switch runs roughly $20 to $60 in parts and an hour of your time. A sump gasket or pump seal is a technician job at around $150 to $400 fitted, and on a machine past eight years old that is close enough to replacement cost to be worth a conversation."
+    },
+    {
+      "q": "Why did AE appear suddenly when nothing changed?",
+      "a": "Seals harden slowly and then cross a threshold, so a gasket that has been marginal for a year fails in one load. The other common trigger is something that moved the machine: a floor replacement, a new countertop, or anyone pulling it out to retrieve a dropped fork can tip it forward or nudge a hose clamp off square."
+    },
+    {
+      "q": "Should I pull the dishwasher out to find the leak?",
+      "a": "Not as the first step. Take the toe kick off first, which takes four screws and shows you most of the base. Only pull the machine out if the toe kick view shows nothing and you need to see the back, and when you do, switch off the breaker, close the supply valve, and watch that the drain hose does not pull out of its standpipe."
+    },
+    {
+      "q": "Is an LG dishwasher with an AE error worth repairing?",
+      "a": "It depends entirely on where the leak is. A gasket, a clamp or a float switch is worth fixing on any machine. A cracked sump or a leaking pump body on a machine older than about eight years usually is not, because the fitted cost lands in the same bracket as a new mid-range dishwasher with a fresh warranty."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-sump-float",
@@ -131,10 +183,33 @@
     }
   },
   "sources": [
-    { "title": "Dishwasher error codes and what they indicate", "publisher": "LG support help library", "url": null },
-    { "title": "LG dishwasher leak detection and base pan float service notes", "publisher": "LG service literature supplied with the appliance", "url": null },
-    { "title": "Field diagnosis of LG dishwasher AE leak codes", "publisher": "Fred's Appliance Academy training material", "url": null },
-    { "title": "Reported AE causes and resolutions from working technicians", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Dishwasher error codes and what they indicate",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG dishwasher leak detection and base pan float service notes",
+      "publisher": "LG service literature supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Field diagnosis of LG dishwasher AE leak codes",
+      "publisher": "Fred's Appliance Academy training material",
+      "url": null
+    },
+    {
+      "title": "Reported AE causes and resolutions from working technicians",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["OE", "IE", "FE", "LE", "bE", "HE"]
+  "related_codes": [
+    "OE",
+    "IE",
+    "FE",
+    "LE",
+    "bE",
+    "HE"
+  ]
 }

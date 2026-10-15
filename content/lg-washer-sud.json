@@ -1,0 +1,122 @@
+{
+  "title": "LG Washer SUD Code: Too Many Suds, and How to Clear It",
+  "meta_description": "SUD on an LG washer means it has detected too much foam. Usually too much detergent or the wrong type. Here is how to clear it and stop it coming back.",
+  "h1": "LG washer SUD code: what it means and how to clear it",
+  "answer": "SUD means your LG washer has detected more foam than it can work with, so it has paused the cycle and started a suds reduction routine: adding water, soaking and draining to break the foam down. It is not a fault, and the machine usually clears it on its own if you leave it alone for twenty to forty minutes. The cause is almost always detergent, either too much of it or the wrong kind, and a tablespoon of HE liquid is enough for a normal load in most households. If SUD keeps appearing with the right detergent correctly measured, check the drain pump filter, because a restricted drain whips water into foam.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "20 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $25", "technician": "$130 to $280" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Too much detergent",
+      "frequency": "most cases",
+      "confirm": "Look through the door glass. Foam filling the upper half of the drum, or suds pushing into the gasket, means the dose was too high. Most people pour to the line on the cap, which is sized for an old top loader using several times the water an LG uses."
+    },
+    {
+      "cause": "Regular detergent in an HE machine",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard detergent is formulated to foam in a tubful of water; an LG front loader washes in a few inches of it. Without the HE formulation even a correct-looking dose produces far more foam than the machine can rinse away."
+    },
+    {
+      "cause": "Soft water",
+      "frequency": "common",
+      "confirm": "SUD appears at a dose that the packaging calls normal, and glasses come out of the dishwasher cloudy-free and the soap in the shower lathers instantly. Soft water needs appreciably less detergent, because none of it is being used up by hardness minerals."
+    },
+    {
+      "cause": "The drain is partly restricted",
+      "frequency": "common",
+      "confirm": "SUD appears on cycles where you know the detergent was right, and the machine is slow to empty. A pump struggling against a clogged filter churns the water and makes foam that was never there to start with. You will often see OE on the same machine sooner or later."
+    },
+    {
+      "cause": "Detergent build-up in the tub",
+      "frequency": "occasional",
+      "confirm": "A machine that has been over-dosed for years holds a layer of soap residue in the outer tub that no wash cycle reaches. It redissolves into every load, so even a correctly measured wash foams. Often comes with a musty smell from the gasket."
+    },
+    {
+      "cause": "The water level sensor is misreading",
+      "frequency": "rare",
+      "confirm": "SUD on a wash run with no detergent at all. Foam and water press on the level sensor differently, so a sensor fed by a sludged-up hose can report suds conditions that do not exist. This is also the case where SUD alternates with FE or PE."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Leave it alone for half an hour",
+      "detail": "SUD is the machine fixing the problem, not refusing to. It adds water, pauses to let the foam collapse, drains, and tries the spin again, and that routine can add thirty to forty minutes to the cycle. Walk away and come back. Cancelling and restarting with the foam still in there just begins the whole process again from the top.",
+      "minutes": 35,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run an extra rinse and spin with no detergent",
+      "detail": "If the machine is still stuck on SUD after about forty minutes, cancel the cycle and start Rinse and Spin with nothing added. Cold water rinses foam out faster than hot, so pick the cold setting if the program lets you. Two back-to-back rinses are sometimes needed after a bad over-dose, and neither costs anything but time.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the drain pump filter",
+      "detail": "Unplug the washer. Open the small access door at the bottom front right with a coin, pull the short black tube out, hold it over a shallow tray and drain the tub in stages. Then unscrew the round filter anticlockwise, clear out lint, hair and coins, rinse it and screw it back in firmly. A restricted drain both causes foam and stops the machine clearing it, so this is the one mechanical check worth doing early.",
+      "minutes": 20,
+      "tools": "Shallow tray, towels, flat screwdriver",
+      "warning": "Unplug the machine before opening the filter, and expect a litre or more of water."
+    },
+    {
+      "name": "Measure the detergent properly next time",
+      "detail": "For a normal load in an LG front loader, about a tablespoon of HE liquid is enough, and less again if your water is soft. Ignore the cap line, which is sized for machines that use several times as much water. Pods are convenient but are dosed for a full load, so use half a pod or none for a small wash, and never two.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check that your detergent is actually HE",
+      "detail": "Look for the HE symbol on the bottle. If it is not there, the detergent is designed to foam in a full tub of water and will overwhelm a low-water machine at any sensible dose. The same goes for hand-wash liquid, dish soap or anything improvised, which produce enough foam to fill the drum from a teaspoon.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a Tub Clean cycle",
+      "detail": "With the drum empty, run Tub Clean with an oxygen-based washing machine cleaner at the dose on the packet. This strips the soap film out of the outer tub that keeps reintroducing foam into clean loads. Avoid chlorine bleach and acidic descalers in this cycle, which can discolour or corrode parts of the machine. Repeat monthly if the machine has had years of heavy dosing.",
+      "minutes": 100,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If SUD is still appearing on loads where you know the detergent was a measured tablespoon of HE liquid, stop treating it as a dosing problem. Work through it in this order. First, clean the drain pump filter if you have not already, because a pump fighting a restriction aerates the water and produces foam out of nothing; this is the most common mechanical cause and costs nothing. Second, check the drain hose: a kinked hose, or one pushed too far down the standpipe so its end sits in water, does the same thing. Third, run two or three Tub Clean cycles back to back with an oxygen cleaner. A machine that has been over-dosed for years carries a layer of soap in the outer tub that no ordinary wash touches, and it takes more than one clean to shift. Fourth, consider your water: if you have a softener, or live somewhere naturally soft, halve your dose again, because soft water leaves all the detergent free to foam. Fifth, try a wash with no detergent at all. If the machine still reports SUD on a plain water cycle, the fault is in the sensing rather than the suds, and the thing to check is the thin clear hose running from the bottom of the outer tub to the water level sensor, which blocks with sludge and gives false readings. If that hose is clear and a plain-water cycle still shows SUD, the level sensor itself is suspect, and that is a $25 to $70 part. That is as far as this goes: SUD almost never means anything expensive.",
+  "reset_procedure": "Press Power to cancel, then run Rinse and Spin rather than pulling the plug, because the foam needs rinsing out whatever the display says. If the control will not respond, unplug at the wall for a minute and plug back in. SUD clears as soon as a cycle completes without the machine detecting foam, so test with a rinse rather than a full wash.",
+  "model_notes": "LG displays this as SUD, Sud or SUdS depending on how many characters the panel has, and all of them mean the same thing. On machines with a TurboWash or high-speed spin, SUD shows up more readily because foam interferes most at high spin speeds, which is why the code so often appears at the end of a cycle rather than during the wash. LG top loaders use more water than front loaders and foam less, so a SUD on a top loader points harder at wrong detergent or a drain restriction than at a slightly heavy hand with the cap.",
+  "parts": [
+    { "name": "HE washing machine cleaner, oxygen based", "cost": "$8 to $20 for a pack", "difficulty": "easy", "note": "Not a repair part, but it is what actually fixes a residue-loaded tub" },
+    { "name": "Drain pump filter and cap", "cost": "$12 to $30", "difficulty": "easy", "note": "Only if the cap seal is perished and it weeps after cleaning" },
+    { "name": "Water level pressure sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only for SUD that appears on a wash with no detergent at all" }
+  ],
+  "when_to_call": "There is rarely anything to call about. SUD is a condition rather than a failure, and the fix is almost always in the detergent cupboard or the pump filter. Call a technician only if the machine reports SUD on a cycle run with plain water and no detergent, with the pump filter clean and the drain hose clear, because at that point the water level sensor or its hose is giving false readings and the diagnosis needs the top panel off. If SUD keeps arriving alongside OE, treat the drain as the real problem and read up on that code instead; the foam is a symptom.",
+  "faqs": [
+    { "q": "Is SUD an error code on an LG washer?", "a": "Not really. It is a status message telling you the machine has found too much foam and is running a routine to deal with it, adding water and soaking to break the suds down. The cycle will usually complete on its own, just later than planned. Nothing is broken and no part needs replacing." },
+    { "q": "How long does an LG washer take to clear a SUD code?", "a": "Typically twenty to forty minutes of added time while it soaks, drains and retries the spin, though a bad over-dose can take longer. Leave it to run. Cancelling and restarting puts fresh water on top of the same foam and starts the clock again, which is why people end up with a machine that seems stuck on SUD for hours." },
+    { "q": "How much detergent should I use in an LG washer?", "a": "About a tablespoon of HE liquid for a normal load, and less if your water is soft. The line inside the cap is sized for old top loaders that washed in a tubful of water, not for a front loader using a few inches. If you use pods, half a pod is plenty for a small load and two is always too many." },
+    { "q": "Can a clogged drain filter cause a SUD code?", "a": "Yes, and it is the most common cause once detergent has been ruled out. A pump straining against a restriction churns and aerates the water, creating foam that was never in the wash, and then cannot clear it. Clean the filter behind the little door at the bottom front; if you have also seen OE, the drain is almost certainly the real fault." },
+    { "q": "Can I still use my LG washer with SUD showing?", "a": "Yes. The machine is washing, just pausing to deal with foam, and your clothes are fine. The practical cost is time rather than damage. What you should not do is add more detergent to the next load to compensate for a wash that seemed under-soaped, because that is how a one-off SUD becomes a permanent one." },
+    { "q": "Why does SUD appear even though I barely use any detergent?", "a": "Usually because the machine is still carrying residue from years of heavier dosing, which redissolves into every load. Run two or three Tub Clean cycles with an oxygen cleaner. Soft water is the other common answer: with no hardness minerals to absorb it, a dose that looks tiny still foams heavily." },
+    { "q": "Does SUD damage the washing machine?", "a": "No, as long as you let it run its course. The routine exists to protect the pump and the spin, and the machine handles it. The indirect risk is the habit behind it: long-term over-dosing leaves soap film in the outer tub, which feeds mould and gives the gasket that musty smell, and that is worth fixing even when the code never appears." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Why foam stops an LG washer, and where to look after the detergent",
+    "labels": {
+      "display": "SUD",
+      "c1": "A tablespoon of HE liquid is enough",
+      "c2": "Pump filter clear, drain unrestricted",
+      "c3": "Rinse and Spin with no detergent",
+      "c4": "Tub Clean to strip soap residue"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine suds error, excessive detergent", "publisher": "LG support documentation", "url": null },
+    { "title": "LG front loader: how to clean the tub", "publisher": "LG support documentation", "url": null },
+    { "title": "Field experience linking suds detection to drain restrictions and HE dosing", "publisher": "Appliance repair trade forums and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["OE", "tCL", "FE", "UE", "PE", "0E"]
+}
