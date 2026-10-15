@@ -32,7 +32,7 @@
     {
       "cause": "You are reading an F11 off the wrong Kenmore platform",
       "frequency": "occasional",
-      "confirm": "Kenmore ranges were built by several different manufacturers and their code charts do not agree. Find the three-digit prefix before the decimal in your model number and check you have a manual for that builder. A good share of the disagreement between sources on F11 is simply different companies using the same number for different things."
+      "confirm": "Kenmore ranges were built by several different manufacturers and their code charts do not agree. Find the three-digit prefix before the decimal in your model number and check you have a manual for that builder. A good share of the disagreement between sources on F11 is just different companies using the same number for different things."
     }
   ],
   "steps": [
