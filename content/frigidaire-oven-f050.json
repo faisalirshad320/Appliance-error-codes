@@ -1,0 +1,125 @@
+{
+  "title": "Frigidaire Oven F050 Error Code: Causes and Fix",
+  "meta_description": "F050 on a Frigidaire oven means the board cannot tell whether the door is open, closed or locked. Usually the door lock switch or the relay board.",
+  "h1": "Frigidaire oven F050 error code: what it means and how to fix it",
+  "answer": "F050 means the board has lost track of the oven door: it cannot read the switches that tell it whether the door is open, closed or locked, so the reading it gets is outside the range it will accept. The usual suspects are the motorized door lock assembly, the switches inside it, the wiring between them and the relay board, or the relay board itself. This code is thinly documented, with no public Frigidaire description and the available explanations coming from repair references rather than the manufacturer. Until it is diagnosed, do not run self-clean, because self-clean depends on the oven knowing the door is locked.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to check, 1 to 3 hours to repair",
+  "cost_estimate": { "diy": "$0 to $200", "technician": "$190 to $480" },
+  "safety_warning": "The rear of an electric Frigidaire range carries 240 volts at the terminal block whether or not the oven is switched on at the panel, and the relay board and lock motor are live. Switch off the double breaker before any panel comes off. Never defeat, tape or jam the door lock switch to make the oven run: it is what stops a self-clean cycle starting with the door unlocked, and bypassing it removes the only protection against a 900-degree cavity opening.",
+  "causes": [
+    {
+      "cause": "The motorized door lock assembly or its switches have failed",
+      "frequency": "most cases",
+      "confirm": "Watch and listen when the oven powers up or when self-clean is selected. A working assembly runs its motor and moves the latch audibly. A motor that runs and never stops, a latch that moves part way, or complete silence all point here. The switches that report latch position live inside this assembly."
+    },
+    {
+      "cause": "Wiring or a connector between the lock assembly and the relay board",
+      "frequency": "most cases",
+      "confirm": "The latch moves correctly by eye but the board still reports the fault. Look at the multi-way plug at the lock assembly and at the board end for a pin backed out, green corrosion, or a browned section of harness where it runs near the cavity. This is the cheapest of the real causes."
+    },
+    {
+      "cause": "The latch is physically obstructed or out of alignment",
+      "frequency": "common",
+      "confirm": "Open the door and look at the latch slot along the top of the cavity opening. A bent strike, a deformed door seal pushed into the slot, or debris from a boil-over stops the latch travelling to the position the switch expects, so the switch never closes."
+    },
+    {
+      "cause": "The door hinges have sagged so the door sits low",
+      "frequency": "occasional",
+      "confirm": "Close the door and look along the top edge for an uneven gap, or lift the handle gently and feel for play. Oven doors are heavy and the hinges wear, and a door sitting a few millimeters low presents the strike where the latch cannot reach it properly."
+    },
+    {
+      "cause": "The relay board has failed",
+      "frequency": "occasional",
+      "confirm": "The lock assembly runs correctly, the latch travels fully, and the harness measures through from the board end, and the code is still there on every power-up. This is the answer by elimination rather than the one to start with, because the board sits behind three cheaper things."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Stop using self-clean and cut power at the breaker",
+      "detail": "Do not attempt a self-clean cycle while this code is present, because the oven cannot confirm the door is locked and that is the whole basis of the interlock. Switch the range off at the double breaker, not at its own controls, and leave it five minutes so the board restarts. Then power up and see whether the code returns.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Listen to the lock motor on power-up",
+      "detail": "Stand at the range when you restore power and listen along the top of the oven opening. Many Frigidaire ovens run the lock motor briefly as a self-check. A short run and a clean stop is healthy. A motor that whirs on and on, a single click with no movement, or silence where you expect movement each tell you something different about where the fault sits.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect the latch and the strike with the door open",
+      "detail": "Open the door fully and look into the slot along the top edge of the cavity opening, where the latch bar travels. Clear any baked-on spill with a cloth and a plastic scraper, check the strike on the door is straight and not bent back, and make sure the door seal has not been pushed into the path of the latch.",
+      "minutes": 12,
+      "tools": "Flashlight, plastic scraper, cloth",
+      "warning": null
+    },
+    {
+      "name": "Check the door sits square on its hinges",
+      "detail": "Close the door and sight along the top and both sides for an even gap. Lift the handle gently and feel for vertical play. A sagged door presents the strike low, so the latch runs past it or stops short and the position switch never sees the latch arrive. Hinge wear is normal on an oven door that gets leaned on.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get to the lock assembly and check its connector",
+      "detail": "With the breaker off, take the rear access panel off a freestanding range, or the top trim on a wall oven, to reach the lock assembly along the top of the cavity. Find its multi-way plug, unplug it and inspect both halves for a pin that has backed out, green corrosion, or a shell discoloured by heat. Reseat it squarely.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off first. There is 240 volts at the terminal block behind an electric range even with the oven switched off."
+    },
+    {
+      "name": "Follow the harness from the lock back to the relay board",
+      "detail": "Trace the wires from the lock assembly to where they land on the relay board. Look for a section that has hardened or browned where it passes close to the oven cavity, and for any point where the harness crosses a sheet metal edge. Flex it gently along its length while watching for a cracked or chafed patch.",
+      "minutes": 20,
+      "tools": "Flashlight",
+      "warning": "Breaker off throughout."
+    },
+    {
+      "name": "Restore power and test with a normal bake only",
+      "detail": "Switch the breaker back on and run an ordinary bake at a moderate temperature. Do not select self-clean as a test, even if the code has gone, until you are satisfied the latch runs fully and reliably. A normal bake tells you the oven is working without putting the interlock under the one condition where it matters most.",
+      "minutes": 25,
+      "tools": null,
+      "warning": "Do not use self-clean as a diagnostic test while any door lock fault is unresolved."
+    }
+  ],
+  "still_showing": "If the latch is clear, the door sits square and reseating the connector changed nothing, work from cheapest to dearest and be honest that this code is thinly documented, so there is no authoritative chart that will shortcut it. First, settle whether the lock mechanism physically works. Watch it through a power-up with the trim off: either the motor runs and drives the latch fully home, or it does not. A latch that travels correctly but still produces the code points at the switches inside the assembly or at the wiring, not at the mechanism. A latch that moves part way or not at all points at the assembly itself, and that is a single part covering the motor, the cam and the switches. Second, check the harness properly rather than by eye. Flex it along its length where it runs near the cavity and where it crosses a metal edge, because insulation hardens over years of heat and an intermittent break there looks exactly like a board fault while costing a fraction to fix. Third, only after the mechanism and the wiring are both cleared does the relay board become the answer, and that is the expensive end. Get the full model number from the tag inside the door frame, price the lock assembly and the relay board separately, and compare the total against the range's age before committing. Throughout all of this, keep self-clean switched off. An oven that cannot reliably report its own door position has no business running the one cycle that depends on the door being locked, and no technician worth paying will tell you otherwise. If anyone suggests bypassing the switch to get the oven working, find a different technician.",
+  "reset_procedure": "Switch the range off at the double breaker, leave it a full five minutes, then switch it back on and watch the first thirty seconds. Turning the oven off at its own controls does not reset the board. If the lock motor runs briefly and the display comes up clear, the reset has held; if F050 reappears straight away, the fault is live and needs the checks above.",
+  "model_notes": "F050 is thinly documented. Frigidaire does not publish a public description, and the available explanations come from repair references, which describe it as an out-of-range reading on the circuit that reports door and latch position to the relay board. The same fault appears in some references as F50 without the leading zero, and the two should be treated as one code. Frigidaire's broader convention puts latch motor faults in the F9x group, with F96 specifically covering a door detected open during self-clean, so F050 sitting outside that group is part of why its documentation is inconsistent. If your model's own service data sheet lists it, believe that over any general guide. Kenmore ranges and wall ovens with a model number starting 790 are Frigidaire-built and show the same code.",
+  "parts": [
+    { "name": "Motorized door lock assembly", "cost": "$70 to $200", "difficulty": "hard", "note": "One part covering the motor, cam and position switches; usually the answer" },
+    { "name": "Door lock wiring harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "Check and reseat before replacing; heat-damaged sections are common" },
+    { "name": "Oven door hinges, pair", "cost": "$60 to $160", "difficulty": "hard", "note": "Only where the door visibly sags and the strike no longer lines up" },
+    { "name": "Relay board", "cost": "$130 to $320", "difficulty": "technician only", "note": "By elimination only, after the lock and the harness are both cleared" }
+  ],
+  "when_to_call": "Call someone if the latch does not travel fully, or if it does and the code persists after you have reseated the connector and checked the harness, because the remaining answers are a lock assembly or a relay board and both are worth a diagnosis rather than a guess. Call sooner if the oven has ever locked its door and refused to release it, or if the lock motor runs continuously, since both leave the range in a state you should not keep power-cycling around. Do not run self-clean while this is unresolved, and do not accept any repair that involves bypassing the door switch. On a gas range the lock circuit is electrical and the same applies, but the gas side is licensed trade work.",
+  "faqs": [
+    { "q": "What does F050 mean on a Frigidaire oven?", "a": "The board cannot tell what the oven door is doing. The circuit that reports whether the door is open, closed or locked is giving a reading outside the range the board accepts. The usual causes are the motorized lock assembly, its internal switches, the wiring to the relay board, or the board itself. Frigidaire does not publish a description of this code." },
+    { "q": "Is F050 the same as F50?", "a": "Treat them as the same code. Repair references list both, with and without the leading zero, and give the same door and latch explanation for each. Which way your display renders it depends on the model and the number of characters it has. Search for both spellings if you are looking for model-specific information." },
+    { "q": "Can I still use the oven with an F050 code?", "a": "Avoid self-clean entirely, because that cycle depends on the oven knowing its door is locked and that is precisely what it has lost. Whether normal baking still works varies by model: some keep cooking, some refuse. If yours still bakes, treat it as borrowed time and get the lock circuit sorted rather than leaving it indefinitely." },
+    { "q": "Why did F050 appear right after a self-clean cycle?", "a": "Self-clean is the hardest thing the lock assembly and its wiring ever experience. The motor works against a latch that has expanded, and the harness near the cavity sees its highest temperature of the year. Marginal switches and hardened insulation both tend to give out then rather than during ordinary baking." },
+    { "q": "Can I bypass the door lock switch to get the oven working?", "a": "No. That switch is what stops a self-clean cycle running with the door unlocked, and defeating it removes the only thing preventing a cavity at cleaning temperature from being opened. It is also the circuit the board is already failing to read, so bypassing it hides the fault rather than fixing it. Get the lock assembly diagnosed instead." },
+    { "q": "Is the door lock assembly a DIY job?", "a": "It is on the harder end. The assembly sits along the top of the oven cavity and usually means pulling the range out and taking off the rear or top panel, working around a harness that has been baked for years. If you are comfortable doing that with the breaker off and confirmed dead, it is doable in a couple of hours." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The door lock circuit behind an F050, from latch switch to relay board",
+    "labels": {
+      "display": "F050",
+      "c1": "Breaker off before any panel",
+      "c2": "Latch and strike, clear the slot",
+      "c3": "Lock assembly plug, reseat it",
+      "c4": "Relay board reads latch position"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Newer Frigidaire range fault codes reference", "publisher": "ApplianceAid technician reference", "url": null },
+    { "title": "Repair reference listings for F050 and F50 door and latch circuit faults", "publisher": "Independent appliance error code references", "url": null },
+    { "title": "Field reports on Frigidaire door lock assemblies failing after self-clean", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F50", "F96", "F11", "F16", "F31"]
+}

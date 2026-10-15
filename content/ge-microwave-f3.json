@@ -1,6 +1,6 @@
 {
   "title": "GE Microwave F3 Error Code: Causes and Fix",
-  "meta_description": "F3 on a GE microwave is a stuck or shorted touchpad: the control reads a key as held down. Unplugging clears it only briefly.",
+  "meta_description": "GE microwave F3 means the control sees a shorted touch pad. Usually steam damage to the membrane keypad. What is safe to try, and why the repair is inside.",
   "h1": "GE microwave F3 error code: shorted touch pad explained",
   "answer": "F3 on a GE microwave means the control board is reading the touch pad as shorted, as though a key is being held down continuously, so it stops responding and displays the fault. The usual cause is moisture or grease that has worked into the membrane keypad, which is why over-the-range units sitting above a cooktop get this far more often than countertop ones. There is a short list of things worth trying from outside the cabinet. The actual repair is a keypad or control board replacement, and that is inside the machine, which on a microwave means a technician.",
   "severity": "moderate",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Test which keys respond and whether the control lock is on",
-      "detail": "Restore power and press each pad in turn, listening for the beep. A panel where a few keys work and the rest do nothing is a failing keypad. A panel that beeps but refuses commands may simply have the control lock on, which on most GE models is cleared by holding the Clear/Off pad for a few seconds. It is worth ruling out before you pay anyone.",
+      "detail": "Restore power and press each pad in turn, listening for the beep. A panel where a few keys work and the rest do nothing is a failing keypad. A panel that beeps but refuses commands may just have the control lock on, which on most GE models is cleared by holding the Clear/Off pad for a few seconds. It is worth ruling out before you pay anyone.",
       "minutes": 6,
       "tools": null,
       "warning": null

@@ -53,7 +53,7 @@
     },
     {
       "name": "Check whether anything else lost power",
-      "detail": "Walk round and look at the oven clock, the coffee maker, any bedside clock radio, and anything with a battery backup that logs outages. If they are all flashing, you had a household power interruption and the microwave is simply the one that tells you about it in words. That rules out the appliance in about sixty seconds and saves you chasing a fault that does not exist.",
+      "detail": "Walk round and look at the oven clock, the coffee maker, any bedside clock radio, and anything with a battery backup that logs outages. If they are all flashing, you had a household power interruption and the microwave is the one appliance that tells you about it in words. That rules out the appliance in about sixty seconds and saves you chasing a fault that does not exist.",
       "minutes": 3,
       "tools": null,
       "warning": null
