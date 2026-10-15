@@ -1,12 +1,15 @@
 {
   "title": "LG Washer 1E Error Code: It Is IE, a Water Fill Fault",
-  "meta_description": "1E on an LG washer is the inlet error IE: the display draws a capital I as a bar. It means the machine could not fill. Check the taps and inlet screens first.",
+  "meta_description": "1E on an LG washer is the inlet error IE: the display draws a capital I as a bar. It means the machine could not fill.",
   "h1": "LG washer 1E error code: what it actually is and how to fix it",
   "answer": "The code on your panel is IE, not 1E. LG's display draws a capital I as a single vertical bar, which is indistinguishable from the number one, so the inlet error gets read and written both ways. It means the washer called for water and did not reach the level it wanted inside the time it allows. Start with the two things that cause most of them: a supply tap that is closed or only part open, and the fine mesh screens in the inlet ports clogged with grit.",
   "severity": "minor",
   "can_diy": "yes",
   "time_estimate": "15 to 40 minutes",
-  "cost_estimate": { "diy": "$0 to $60", "technician": "$130 to $280" },
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$130 to $280"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -88,20 +91,61 @@
   "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full minute, then plug it back in. The board stores the fault, so a machine with a perfectly good supply keeps showing it until it is cleared. Test with Rinse and Spin rather than a full wash so you know within two minutes whether water is entering.",
   "model_notes": "There is no separate 1E fault on LG washers. The character is a capital I on a seven-segment display, which is drawn as a single vertical bar and reads as a one. The same applies to LG dishwashers, where IE is also an inlet fault and gets written 1E for the same reason. Be careful transferring the code between brands: on some other manufacturers' machines a 1E refers to the water level sensor rather than the fill, which is a different part and a different repair.",
   "parts": [
-    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws and a connector, about 30 minutes" },
-    { "name": "Inlet mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Only if a screen is torn; most just need cleaning" },
-    { "name": "Braided stainless supply hoses", "cost": "$15 to $30 a pair", "difficulty": "easy", "note": "Worth doing while the machine is pulled out if the old ones are rubber" },
-    { "name": "Water level pressure sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Clear its hose first; sludge there mimics a dead sensor" }
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Two screws and a connector, about 30 minutes"
+    },
+    {
+      "name": "Inlet mesh filter screens",
+      "cost": "$5 to $12 a pair",
+      "difficulty": "easy",
+      "note": "Only if a screen is torn; most just need cleaning"
+    },
+    {
+      "name": "Braided stainless supply hoses",
+      "cost": "$15 to $30 a pair",
+      "difficulty": "easy",
+      "note": "Worth doing while the machine is pulled out if the old ones are rubber"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Clear its hose first; sludge there mimics a dead sensor"
+    }
   ],
   "when_to_call": "Call an appliance technician when the bucket test gives a strong jet, both screens are clean, and the machine still will not fill, because the next step is checking whether the valve is actually being energised with the machine live. Call a plumber instead if the bucket test gives a weak dribble, since the restriction is in your house plumbing and an appliance engineer will charge a call-out to tell you exactly that. Turn the taps off and stop if you find a hose weeping or split while you are back there; a supply-side leak at mains pressure does far more damage than a washer that will not start.",
   "faqs": [
-    { "q": "Is 1E a real error code on an LG washer?", "a": "Not as a separate fault. What you are reading is IE, the inlet error, and LG's display draws a capital I as a single vertical bar that looks exactly like a one. The machine is telling you it could not fill with water in the time it allows. Every fix for IE applies, whichever way the characters look to you." },
-    { "q": "Can I still use my washer with a 1E or IE code?", "a": "Not for a full wash, because the machine stops rather than running without enough water. There is no safety risk. If only the hot supply has failed, a cold-only cycle will often run normally, which both gets your laundry done and proves where the problem is while you wait for parts or a repair." },
-    { "q": "What is the first thing to check for a 1E code?", "a": "The taps. Reach behind the machine and turn both fully anticlockwise, or set a lever valve in line with the pipe. A closed or partly closed tap causes more of these codes than every other reason put together, takes two minutes to rule out, and costs nothing. Then reset the washer, because it holds the fault until cleared." },
-    { "q": "Why does my LG washer show 1E when water is going in?", "a": "It is filling too slowly, or it cannot tell it is filling. A partly clogged mesh screen passes water but not fast enough, so the control times out. Less often the thin hose feeding the water level sensor is blocked with detergent sludge, so the board never sees the level rise even though the drum is filling normally." },
-    { "q": "Does 1E mean I need a new inlet valve?", "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a clogged screen or a kinked hose. Only replace it once you have confirmed a strong flow from the hose into a bucket and an open circuit across the solenoid, because a new valve fitted to a restricted supply throws the same code on its first cycle." },
-    { "q": "Is 1E on an LG dishwasher the same thing?", "a": "Broadly yes: it is also an inlet fault, and the same logic applies about the capital I being drawn as a bar. The checks differ in detail, because a dishwasher has one supply rather than two and its inlet screen sits in a different place, so work from a dishwasher guide rather than this page for the specifics." },
-    { "q": "Why did this appear suddenly when nothing changed?", "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other usual trigger is work elsewhere: a plumber turning a stopcock down, a meter swap, or a mains repair up the street that stirs sediment into the supply and lands it in your screens within a week." }
+    {
+      "q": "Is 1E a real error code on an LG washer?",
+      "a": "Not as a separate fault. What you are reading is IE, the inlet error, and LG's display draws a capital I as a single vertical bar that looks exactly like a one. The machine is telling you it could not fill with water in the time it allows. Every fix for IE applies, whichever way the characters look to you."
+    },
+    {
+      "q": "Can I still use my washer with a 1E or IE code?",
+      "a": "Not for a full wash, because the machine stops rather than running without enough water. There is no safety risk. If only the hot supply has failed, a cold-only cycle will often run normally, which both gets your laundry done and proves where the problem is while you wait for parts or a repair."
+    },
+    {
+      "q": "What is the first thing to check for a 1E code?",
+      "a": "The taps. Reach behind the machine and turn both fully anticlockwise, or set a lever valve in line with the pipe. A closed or partly closed tap causes more of these codes than every other reason put together, takes two minutes to rule out, and costs nothing. Then reset the washer, because it holds the fault until cleared."
+    },
+    {
+      "q": "Why does my LG washer show 1E when water is going in?",
+      "a": "It is filling too slowly, or it cannot tell it is filling. A partly clogged mesh screen passes water but not fast enough, so the control times out. Less often the thin hose feeding the water level sensor is blocked with detergent sludge, so the board never sees the level rise even though the drum is filling normally."
+    },
+    {
+      "q": "Does 1E mean I need a new inlet valve?",
+      "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a clogged screen or a kinked hose. Only replace it once you have confirmed a strong flow from the hose into a bucket and an open circuit across the solenoid, because a new valve fitted to a restricted supply throws the same code on its first cycle."
+    },
+    {
+      "q": "Is 1E on an LG dishwasher the same thing?",
+      "a": "Broadly yes: it is also an inlet fault, and the same logic applies about the capital I being drawn as a bar. The checks differ in detail, because a dishwasher has one supply rather than two and its inlet screen sits in a different place, so work from a dishwasher guide rather than this page for the specifics."
+    },
+    {
+      "q": "Why did this appear suddenly when nothing changed?",
+      "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other usual trigger is work elsewhere: a plumber turning a stopcock down, a meter swap, or a mains repair up the street that stirs sediment into the supply and lands it in your screens within a week."
+    }
   ],
   "diagram": {
     "kind": "washer-inlet-valve",
@@ -115,9 +159,28 @@
     }
   },
   "sources": [
-    { "title": "IE error code, washing machine not filling with water", "publisher": "LG support documentation", "url": null },
-    { "title": "LG front load washer error code list", "publisher": "LG support documentation", "url": null },
-    { "title": "Owner reports of IE being read and reported as 1E on LG panels", "publisher": "Appliance parts retailers' repair guides and community threads", "url": null }
+    {
+      "title": "IE error code, washing machine not filling with water",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG front load washer error code list",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Owner reports of IE being read and reported as 1E on LG panels",
+      "publisher": "Appliance parts retailers' repair guides and community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["IE", "FE", "PE", "OE", "0E", "CL"]
+  "related_codes": [
+    "IE",
+    "FE",
+    "PE",
+    "OE",
+    "0E",
+    "CL"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "title": "GE Oven F96 Error Code: Causes and Fix",
-  "meta_description": "GE oven F96 means the control sees the cooling fan running too slowly or not at all. Stop using the oven, check the vents, then look at the fan motor and board.",
+  "meta_description": "GE oven F96 means the control sees the cooling fan running too slowly or not at all. Usually a seized fan motor or a blocked vent path.",
   "h1": "GE oven F96 error code: what it means and how to fix it",
   "answer": "F96 means the control is watching the cooling fan above the oven cavity and does not see it turning at the speed it expects. That fan is what keeps the electronics, the cabinet and the surrounding kitchen units from cooking, so the control raises the fault rather than carrying on. Stop using the oven while F96 is showing. The usual causes are a fan motor that has seized or slowed with age, a blocked vent path that is loading the fan, or a wiring fault between the fan and the board.",
   "severity": "serious",

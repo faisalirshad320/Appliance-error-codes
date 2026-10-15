@@ -1,0 +1,109 @@
+{
+  "title": "Kenmore Washer CL Code: It's the Child Lock, Not a Fault",
+  "meta_description": "CL on a Kenmore washer is the child lock, not an error. Hold the button marked with a padlock for about three seconds to turn it off. Nothing is broken.",
+  "h1": "Kenmore washer CL code: the child lock is on, and how to turn it off",
+  "answer": "CL is not an error. It means the child lock, which LG also calls Control Lock, is switched on, and the panel will ignore every button except Power until you switch it off. You clear it by pressing and holding the button marked with a small padlock for about three seconds, or holding the pair of adjacent buttons with Child Lock printed between them. A Kenmore that shows CL was built by LG and has a model number starting 796; Whirlpool-built Kenmores show LOC and a padlock icon instead.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 5 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "not needed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The child lock was switched on deliberately and forgotten",
+      "frequency": "most cases",
+      "confirm": "CL on the display and every button dead except Power. Usually traced to whoever last ran a load with a toddler in the room, or to a machine someone bought used with the lock already set."
+    },
+    {
+      "cause": "It was switched on by accident",
+      "frequency": "most cases",
+      "confirm": "Nobody admits to it. These controls arm on a press-and-hold, which is exactly what happens when a laundry basket, a cat or a cleaning cloth rests on the panel for a few seconds."
+    },
+    {
+      "cause": "The panel is wet, so the lock will not accept the unlock press",
+      "frequency": "occasional",
+      "confirm": "You hold the right button, the machine beeps or does nothing, and CL stays. Water on a touch panel registers as a continuous press. Dry it completely with a towel and try again."
+    },
+    {
+      "cause": "A button is physically stuck in its bezel",
+      "frequency": "occasional",
+      "confirm": "Look along the row at eye level. A button sitting lower than its neighbours, or one that does not pop back when pressed, holds a signal the control reads as a permanent press. Detergent spills cause this."
+    },
+    {
+      "cause": "The control panel or its touch membrane has failed",
+      "frequency": "rare",
+      "confirm": "Panel dry, no button stuck, the correct hold does nothing even after a five-minute power cycle, and other buttons are unresponsive too. This is the only version of CL that needs a part."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the padlock marking on the control panel",
+      "detail": "Look along the button row for a small padlock icon, or the words Child Lock or Control Lock printed in small text under a button or between two adjacent buttons. On LG-built machines it is sometimes a dedicated button and sometimes a legend sitting between a pair that have to be held together. Reading the panel properly takes thirty seconds and saves ten minutes of pressing the wrong things.",
+      "minutes": 2,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Press and hold for about three seconds",
+      "detail": "With the machine powered on, hold the padlock button, or both buttons of the marked pair at the same time, for roughly three seconds. Keep holding past the point where it feels like nothing is happening, because the control deliberately ignores short presses. You should get a beep and CL should drop off the display. If it is a pair, press them together rather than one slightly before the other.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Dry the panel and try again",
+      "detail": "If the hold does nothing, wipe the whole control panel dry with a towel, including the gap along the bottom edge of the buttons where water sits after someone wipes the machine down. A damp touch panel reads as a permanent press and will not accept any new input. Give it a few minutes to dry fully in a humid laundry room before you try the hold again.",
+      "minutes": 5,
+      "tools": "Dry towel",
+      "warning": null
+    },
+    {
+      "name": "Check for a stuck button",
+      "detail": "Crouch so the button row is at eye level and look across it. Every button should sit at the same height and spring back when pressed. One sitting proud or sunk, or one that stays down, is holding a signal the control treats as a continuous press, which blocks the unlock. Work it gently in and out a few times, and clean dried detergent out of the bezel with a cotton bud and warm water.",
+      "minutes": 8,
+      "tools": "Cotton buds, warm water",
+      "warning": null
+    },
+    {
+      "name": "Power cycle the machine and retry",
+      "detail": "Unplug the washer at the wall for five full minutes, plug it back in, power it on and do the press-and-hold again. The lock setting itself is stored and survives a power cut by design, so this will not turn the lock off on its own, but it does clear a control that has latched up and stopped responding to the panel at all.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the padlock hold does nothing after you have dried the panel and ruled out a stuck button, the next thing to check is whether you have the right button combination for your exact machine, because LG used several across model years and the one printed in a generic online list may not be yours. The authoritative answer is on the tech sheet folded inside the machine, or in the user manual, which will name the exact button or pair. Failing that, work along the row holding each button for a full five seconds in turn, then each adjacent pair; it is tedious but it is free and it finds the combination on most machines in under ten minutes. If the whole panel is unresponsive rather than just the lock, press Power and see whether the machine even acknowledges it. A panel where nothing at all responds is not a child lock problem: it is either a failed control panel, a failed user interface board, or a loose ribbon connector between the panel and the main board, and the connector is worth checking first because it costs nothing. At that point a control panel or interface board is typically a $90 to $250 part and the only case where CL costs money. One last possibility that catches people out: if CL only reappears a minute or two after you clear it, somebody or something is re-arming it, which usually means an object resting against the panel or a button that sticks intermittently rather than permanently.",
+  "reset_procedure": "Press and hold the padlock button, or the marked pair of buttons, for about three seconds until the machine beeps and CL clears. Unplugging the washer does not switch the lock off, since the setting is stored deliberately so a power cut cannot unlock the machine. Use the five-minute power cycle only to wake up a panel that has stopped responding to any input.",
+  "model_notes": "CL is an LG code and belongs to Kenmore washers built by LG, with model numbers starting 796. The unlock combination varies by model year and by whether the machine is a front loader or a top loader, which is why generic instructions so often fail: some machines have a dedicated Child Lock button, others use a pair with the legend printed between them. Kenmore washers with a 110 model number are Whirlpool-built and show LOC or Control Locked with a padlock icon instead, cleared by holding the button directly under that icon for about three seconds. LG uses CL in the same way on its dishwashers and some dryers.",
+  "parts": [
+    { "name": "Control panel assembly", "cost": "$90 to $250", "difficulty": "moderate", "note": "Only needed when the panel itself has failed, which is rare for CL" },
+    { "name": "User interface board", "cost": "$80 to $220", "difficulty": "moderate", "note": "Check the ribbon connector to the main board before ordering one" }
+  ],
+  "when_to_call": "You should not need to call anyone for CL, and if a technician quotes for a part before trying the press-and-hold and the tech sheet combination, get a second opinion. The only version worth a call-out is a control panel that is completely unresponsive to every button including Power, which is a genuine panel or interface board failure rather than a lock. Before that, check the ribbon connector between the panel and the main board, since a loose one produces exactly the same symptom for nothing. On an older machine, price a control panel against a new washer before agreeing to the work.",
+  "faqs": [
+    { "q": "What does CL mean on a Kenmore washer?", "a": "It means the child lock is on. The machine is working normally and has simply stopped accepting button presses other than Power, which is what the lock is for. Hold the button marked with a padlock, or the pair of buttons with Child Lock printed between them, for about three seconds and the display clears." },
+    { "q": "How do I turn off the child lock on a Kenmore washer?", "a": "Press and hold the padlock-marked button for roughly three seconds until the machine beeps. On models without a dedicated button, hold both buttons of the pair that has Child Lock or Control Lock printed between them. Keep holding past the point where nothing seems to be happening; short presses are ignored deliberately." },
+    { "q": "Will unplugging the washer clear the CL code?", "a": "No, and that is by design. The lock setting is stored so a power cut cannot unlock the machine, which would defeat the point of a child lock. Unplugging for five minutes is still worth doing if the whole panel has become unresponsive, but it will not turn the lock off on its own." },
+    { "q": "Can I still use the washer with CL showing?", "a": "Only if a cycle is already running, which will finish normally. You cannot start a new one or change any setting until the lock is off, because that is exactly what it prevents. Nothing is damaged and nothing is at risk, so there is no urgency beyond the laundry waiting." },
+    { "q": "Why did the child lock come on by itself?", "a": "It almost certainly did not. These locks arm on a press-and-hold of a few seconds, which is what happens when a laundry basket, a pet or a cleaning cloth rests on the panel. A wet panel can also register as a held press. Dry the panel and check nothing is leaning on it." },
+    { "q": "Is CL the same as LOC on a Kenmore washer?", "a": "Same idea, different builders. CL is LG's child lock on Kenmores with 796 model numbers. LOC, usually with a padlock icon, is Whirlpool's control lock on Kenmores with 110 model numbers. Both are cleared by holding the marked button for about three seconds, but the button is in a different place on each." },
+    { "q": "The hold does nothing. What now?", "a": "Dry the panel thoroughly, then check for a button sitting proud or sunk compared with its neighbours. If both are fine, you probably have the wrong combination for your model: the tech sheet inside the machine or the user manual names the exact one, and LG used several across model years." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing a child lock on a Kenmore washer built by LG",
+    "labels": {
+      "display": "CL",
+      "c1": "Find the small padlock icon",
+      "c2": "Hold for about three seconds",
+      "c3": "Dry the panel completely",
+      "c4": "Check for a stuck button"
+    }
+  },
+  "sources": [
+    { "title": "LG washing machine child lock and control lock operation", "publisher": "LG support documentation for the equivalent LG model", "url": null },
+    { "title": "Kenmore washer control lock and child lock instructions", "publisher": "Kenmore use and care guide supplied with the washer", "url": null },
+    { "title": "Tech sheet inside the machine, panel button functions by model", "publisher": "LG service sheet supplied with the washer", "url": null }
+  ],
+  "related_codes": ["LOC", "LE", "OE", "UE", "dE", "IE"]
+}

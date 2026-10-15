@@ -1,12 +1,15 @@
 {
   "title": "Kenmore Washer DE Code: Door Error Causes and Fix",
-  "meta_description": "dE on a Kenmore washer is LG's door error: the lock did not confirm the door is shut. Usually something in the way or a worn latch. How to check it in 15 minutes.",
+  "meta_description": "dE on a Kenmore washer is LG's door error: the lock did not confirm the door is shut. Usually something in the way or a worn latch.",
   "h1": "Kenmore washer dE error code: what it means and how to fix it",
   "answer": "dE means the washer could not confirm the door is closed and locked, so it refused to start or stopped mid-cycle. It is LG's door error, which also tells you who built the machine: a Kenmore showing dE is an LG, with a model number starting 796. Most of the time nothing is broken. A sleeve trapped in the seal, a door pushed to rather than clicked shut, or a worn latch that no longer catches is the usual answer. Open the door fully, clear the seal, close it firmly and restart.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "10 to 60 minutes",
-  "cost_estimate": { "diy": "$0 to $130", "technician": "$130 to $300" },
+  "cost_estimate": {
+    "diy": "$0 to $130",
+    "technician": "$130 to $300"
+  },
   "safety_warning": "The door interlock is a safety device that keeps the door shut while the drum is turning and water is in the tub. Never bypass it, jam it, tape the switch or run the machine with the lock defeated.",
   "causes": [
     {
@@ -88,21 +91,67 @@
   "reset_procedure": "Press Power to cancel, unplug the washer at the wall for five full minutes, then plug it back in and start a rinse cycle. If there is water in the drum, the door will stay locked until the machine drains, so run a drain and spin first rather than forcing it. Most LG-built machines also release the lock automatically a minute or two after power is removed, so if the door is stuck shut, unplug it and wait before trying the emergency release.",
   "model_notes": "dE is LG's code, so it belongs to Kenmore washers built by LG, with model numbers starting 796. Newer LG-built machines split it into dE1, meaning the lock did not engage, and dE2, meaning the door was detected open during the cycle, which is a useful distinction if your display shows a number after the letters. A Kenmore with a 110 model number is Whirlpool-built and will not show dE at all: door lock faults there appear as an F5 code on front loaders and as a lid lock warning on top loaders. On LG-built top loaders the lid lock is a different mechanism entirely, mounted under the lid edge rather than in the front panel.",
   "parts": [
-    { "name": "Door lock and interlock assembly", "cost": "$40 to $130", "difficulty": "moderate", "note": "The usual part when the latch clicks but the lock never engages" },
-    { "name": "Door hinge", "cost": "$25 to $80", "difficulty": "moderate", "note": "Needed when the hinge is worn rather than just loose" },
-    { "name": "Door assembly with strike hook", "cost": "$90 to $220", "difficulty": "moderate", "note": "The hook is often not sold separately, which makes a worn one expensive" },
-    { "name": "Door boot seal", "cost": "$60 to $150", "difficulty": "hard", "note": "Only if the boot is torn or so deformed it holds the door proud" },
-    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Last resort. Prove the lock and the harness first" }
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$40 to $130",
+      "difficulty": "moderate",
+      "note": "The usual part when the latch clicks but the lock never engages"
+    },
+    {
+      "name": "Door hinge",
+      "cost": "$25 to $80",
+      "difficulty": "moderate",
+      "note": "Needed when the hinge is worn rather than just loose"
+    },
+    {
+      "name": "Door assembly with strike hook",
+      "cost": "$90 to $220",
+      "difficulty": "moderate",
+      "note": "The hook is often not sold separately, which makes a worn one expensive"
+    },
+    {
+      "name": "Door boot seal",
+      "cost": "$60 to $150",
+      "difficulty": "hard",
+      "note": "Only if the boot is torn or so deformed it holds the door proud"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Prove the lock and the harness first"
+    }
   ],
   "when_to_call": "Call a technician when the lock tests correctly on a meter, the connector is clean, and the machine still will not accept the door, because the next step is checking the lock circuit live with the machine plugged in. Call if the door has dropped badly enough that the hinge needs replacing and you are not comfortable supporting a heavy glass door while it comes off. Call immediately if the door is locked shut with water in the drum and the machine will not drain, because forcing it open floods the room. Never pay anyone who offers to bypass the lock to get the machine running; that is not a repair, it is removing a safety device.",
   "faqs": [
-    { "q": "Why does my Kenmore washer say dE when the door is clearly shut?", "a": "Because the control never got the signal that it is locked, not that it is closed. A sleeve caught in the seal holds the door a couple of millimetres proud, which looks shut and is not. Beyond that, a worn latch hook or a failed lock will leave a properly closed door reporting as open. Listen for the lock buzzing after you press Start." },
-    { "q": "Can I bypass the door lock to use the washer?", "a": "No. The interlock stops the door opening while the drum is spinning at speed with hot water in the tub, and defeating it puts a child's arm in reach of a drum doing hundreds of revolutions a minute. It also usually stops the machine working anyway, since the control watches the lock circuit throughout the cycle." },
-    { "q": "The door is locked shut with water inside. How do I open it?", "a": "Run a drain or spin cycle first, because the lock will not release while the tub holds water. If the machine will not run at all, unplug it and wait a few minutes; most of these locks release once power has been off for a while. As a last resort, drain the tub through the pump filter at the bottom front, then try again." },
-    { "q": "Is dE the same as dE1 or dE2?", "a": "They are the same family. Newer LG-built machines split the fault: dE1 means the lock did not engage when asked, and dE2 means the door was detected open during a running cycle. dE1 points at the lock, the hook or the hinge. dE2 more often points at a connector or a lock that drops out intermittently under vibration." },
-    { "q": "Why does my Kenmore show LG error codes?", "a": "Because LG built the machine. Kenmore is a Sears badge rather than a manufacturer, and model numbers beginning 796 are LG washers with Kenmore trim. The code set is LG's throughout, which is why you get dE, OE, IE, UE, LE and CL instead of the F-codes a Whirlpool-built Kenmore would show." },
-    { "q": "How much does a door lock replacement cost?", "a": "The assembly is typically $40 to $130 and takes under an hour once you have the boot clamp off, so it is a realistic DIY job. A technician doing the same work usually charges $130 to $300 including the part. Tighten the hinge screws and clean the connector first, though, because both are free and both fix a fair share of dE codes." },
-    { "q": "Why did dE start happening suddenly?", "a": "Usually one of two slow failures finally crossing a line. Hinge screws loosen gradually under the weight of a glass door until the hook stops lining up, or the lock's internal contacts wear until they stop making reliably. Both feel sudden because the machine works until the day it does not. A single trapped garment is the other common answer." }
+    {
+      "q": "Why does my Kenmore washer say dE when the door is clearly shut?",
+      "a": "Because the control never got the signal that it is locked, not that it is closed. A sleeve caught in the seal holds the door a couple of millimetres proud, which looks shut and is not. Beyond that, a worn latch hook or a failed lock will leave a properly closed door reporting as open. Listen for the lock buzzing after you press Start."
+    },
+    {
+      "q": "Can I bypass the door lock to use the washer?",
+      "a": "No. The interlock stops the door opening while the drum is spinning at speed with hot water in the tub, and defeating it puts a child's arm in reach of a drum doing hundreds of revolutions a minute. It also usually stops the machine working anyway, since the control watches the lock circuit throughout the cycle."
+    },
+    {
+      "q": "The door is locked shut with water inside. How do I open it?",
+      "a": "Run a drain or spin cycle first, because the lock will not release while the tub holds water. If the machine will not run at all, unplug it and wait a few minutes; most of these locks release once power has been off for a while. As a last resort, drain the tub through the pump filter at the bottom front, then try again."
+    },
+    {
+      "q": "Is dE the same as dE1 or dE2?",
+      "a": "They are the same family. Newer LG-built machines split the fault: dE1 means the lock did not engage when asked, and dE2 means the door was detected open during a running cycle. dE1 points at the lock, the hook or the hinge. dE2 more often points at a connector or a lock that drops out intermittently under vibration."
+    },
+    {
+      "q": "Why does my Kenmore show LG error codes?",
+      "a": "Because LG built the machine. Kenmore is a Sears badge rather than a manufacturer, and model numbers beginning 796 are LG washers with Kenmore trim. The code set is LG's throughout, which is why you get dE, OE, IE, UE, LE and CL instead of the F-codes a Whirlpool-built Kenmore would show."
+    },
+    {
+      "q": "How much does a door lock replacement cost?",
+      "a": "The assembly is typically $40 to $130 and takes under an hour once you have the boot clamp off, so it is a realistic DIY job. A technician doing the same work usually charges $130 to $300 including the part. Tighten the hinge screws and clean the connector first, though, because both are free and both fix a fair share of dE codes."
+    },
+    {
+      "q": "Why did dE start happening suddenly?",
+      "a": "Usually one of two slow failures finally crossing a line. Hinge screws loosen gradually under the weight of a glass door until the hook stops lining up, or the lock's internal contacts wear until they stop making reliably. Both feel sudden because the machine works until the day it does not. A single trapped garment is the other common answer."
+    }
   ],
   "diagram": {
     "kind": "washer-door-latch",
@@ -116,10 +165,33 @@
     }
   },
   "sources": [
-    { "title": "LG washing machine dE door error guidance", "publisher": "LG support documentation for the equivalent LG model", "url": null },
-    { "title": "Kenmore front load washer door will not lock repair article", "publisher": "Sears PartsDirect", "url": null },
-    { "title": "Tech sheet inside the machine, door lock terminal map and fault codes", "publisher": "LG service sheet supplied with the washer", "url": null },
-    { "title": "Field reports on dE causes, hinge sag and lock contact failure", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "LG washing machine dE door error guidance",
+      "publisher": "LG support documentation for the equivalent LG model",
+      "url": null
+    },
+    {
+      "title": "Kenmore front load washer door will not lock repair article",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Tech sheet inside the machine, door lock terminal map and fault codes",
+      "publisher": "LG service sheet supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on dE causes, hinge sag and lock contact failure",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["dE1", "dE2", "CL", "LE", "OE", "UE"]
+  "related_codes": [
+    "dE1",
+    "dE2",
+    "CL",
+    "LE",
+    "OE",
+    "UE"
+  ]
 }
