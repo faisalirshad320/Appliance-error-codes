@@ -1,0 +1,139 @@
+{
+  "title": "Samsung Dryer Error Codes: What They Mean and Fixes",
+  "meta_description": "Samsung dryer codes are two-letter information codes: dC for the door, HC and hE for heat, CL9 for a blocked vent. Here is how to read yours and fix it.",
+  "h1": "Samsung dryer error codes: how to read them and what to do next",
+  "answer": "Samsung dryers report faults as two-character information codes rather than numbers: dC for a door that is not registering as shut, HC for an exhaust that got too hot, hE for a fault in the heating circuit, CL9 for a vent the machine has measured as blocked. Samsung renamed most of its codes around 2017, swapping a trailing E for a C, so dE and dC mean the same thing on different generations. A handful of displays are not faults at all, including Child Lock and the filter reminder. Before chasing any part, clean the lint screen and the exhaust duct, because restricted airflow causes more Samsung dryer codes than every component failure combined.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify the code, then anything from a reset to a vent clean",
+  "cost_estimate": { "diy": "$0 to $80 depending on the fault", "technician": "$140 to $400" },
+  "safety_warning": "Unplug the dryer at the outlet or switch off its breaker before removing any panel or disconnecting any wire. On a gas dryer, the burner, igniter, gas valve and gas line are licensed work, not a home repair. Never bypass the door switch or any thermal cut-out to get a cycle to run; those devices are what keep a dryer from turning into a fire.",
+  "causes": [
+    {
+      "cause": "Heat faults: HC for too hot, hE for a heating circuit problem",
+      "frequency": "most cases",
+      "confirm": "These two get confused constantly, and the distinction decides what you do next. HC means the dryer measured an exhaust temperature above its safe limit and cut the heat, which is almost always restricted airflow. hE means the heating circuit itself is not behaving: usually a dryer that will not get hot, which on an electric model often traces to half the 240 volt supply being lost, a blown thermal fuse, or an open element. Samsung's own documentation files both under a single heating category, which is why some manuals describe them in the same breath, but one is too much heat and the other is not enough."
+    },
+    {
+      "cause": "Door faults: dC on newer machines, dE on older ones",
+      "frequency": "most cases",
+      "confirm": "The dryer will not start, or stops partway, and the code names the door. Close it firmly and watch the drum light: if the light stays on, the switch is not being pressed and the cause is mechanical, usually lint packed into the strike opening or a worn catch. If the light goes out and the code persists, the switch or its wiring has failed."
+    },
+    {
+      "cause": "Vent blockage test results: CL9, C90, C80, Clg and Ct",
+      "frequency": "common",
+      "confirm": "These only appear after the dryer's vent blockage test has been run, and they report a measurement rather than a breakdown. CL9 and C90 mean over ninety percent blocked, C80 means around eighty percent, Clg means blocked without a figure, and Ct means the dryer was too hot or too cold for the test to be valid. Empty the drum, let the machine cool for an hour, and test again before acting on a doubtful result."
+    },
+    {
+      "cause": "Temperature sensor faults, the t codes",
+      "frequency": "common",
+      "confirm": "Codes beginning with t, such as tC, report that a thermistor is reading outside its expected range. The first check is still airflow, because a restricted vent drives real temperatures somewhere the sensor was never meant to see. If the vent is clear and the code appears early in a cycle before the dryer could plausibly be hot, the sensor itself is the suspect."
+    },
+    {
+      "cause": "Drum, motor and drive faults",
+      "frequency": "occasional",
+      "confirm": "The drum will not turn, or turns with a loud rumble or squeal, or the machine hums and stops. A belt that has snapped lets the motor run with the drum stationary, which is easy to check by reaching in and turning the drum by hand: no resistance at all usually means the belt has gone."
+    },
+    {
+      "cause": "Control and communication faults",
+      "frequency": "occasional",
+      "confirm": "Buttons do nothing, the display behaves oddly, or several unrelated codes turn up across different cycles. Before assuming a board has failed, check the dryer's power supply and the connectors on the main board, because a damp laundry room and a loose connector produce the same symptoms for nothing."
+    },
+    {
+      "cause": "Indicators that are not faults at all",
+      "frequency": "common",
+      "confirm": "The machine is working and the panel is telling you something. A filter or check-filter reminder means clean the lint screen. A child lock indicator means the buttons are deliberately disabled and a button hold releases them. Neither needs a part, and neither stops the dryer doing its job once you have dealt with it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly, and watch for the upside-down F",
+      "detail": "Photograph the display before touching anything. Samsung codes are short and easy to misread on a small panel; a capital letter and a lower case one can mean different families, and Samsung itself has noted that what looks like an upside-down F in some codes is meant to be read as a t. Note whether the second character is a letter or a digit, because dC and dE are the same fault while C8 and C9 are different results.",
+      "minutes": 2,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Clean the lint screen and check the vent before anything else",
+      "detail": "Pull the screen, clear it, then hold it under a running tap. Water beading on the mesh rather than pouring through means fabric softener has laid down an invisible film that chokes airflow. Scrub it with hot water and dish soap. Then pull the dryer out, disconnect the duct and look inside it. Restricted airflow is behind more Samsung dryer codes than every failed part put together, and this costs nothing.",
+      "minutes": 25,
+      "tools": "Soft brush, dish soap, vacuum with crevice tool, nut driver",
+      "warning": "Unplug the dryer before reaching into the lint housing or moving it. On a gas model, do not stress the flexible gas connector."
+    },
+    {
+      "name": "Cut the power for two minutes",
+      "detail": "Press Power to turn the dryer off, then unplug it at the outlet or switch off its breaker and leave it a couple of minutes before restoring power. Samsung controls latch fault states and will keep displaying a code after the real problem has gone. Test with a short timed cycle rather than a full load so you find out quickly. A code that comes straight back is live and needs the real check doing.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door if the code names it",
+      "detail": "Open the door fully, sweep a hand around the opening for trapped laundry, then close it with a deliberate firm push and watch the drum light go out. Shine a flashlight into the strike recess and pick out the felted lint that collects in there over the years. That one job clears a large share of dC and dE codes without any parts at all.",
+      "minutes": 10,
+      "tools": "Flashlight, small flat screwdriver, vacuum with crevice tool",
+      "warning": null
+    },
+    {
+      "name": "Run the vent blockage test to get a real measurement",
+      "detail": "Samsung dryers can measure their own exhaust restriction, which turns a guess into a number. The button sequence differs between models, so get it from the manual for your model number. The drum must be empty and the dryer at roughly room temperature, or the test reports a load or temperature result instead of a blockage percentage. Run it before and after cleaning the duct so you can see whether you actually fixed it.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find your model number and the matching manual",
+      "detail": "The model sticker is inside the door opening on most Samsung dryers, sometimes on the back panel. Code meanings and test sequences genuinely differ across the range, and a generic list will not tell you which button combination your panel uses or whether your door switch is a plunger or a magnet. Thirty seconds with the model number saves an hour of guessing.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Decide whether this is a job for you or a technician",
+      "detail": "Vent cleaning, lint screens, door switches, catches and levelling are reasonable home jobs with a screwdriver, a nut driver and a multimeter. Heating elements, thermostats and anything requiring live voltage readings inside the cabinet are not, and on a gas dryer the burner and gas line are licensed work with no exceptions. If the code points at the control board, get a quote before agreeing to anything.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a code survives a power cut and a thorough vent clean, the next step depends on which family it belongs to. For heat codes, the fork is HC against hE and it is worth being precise. HC means the exhaust got too hot, so after the vent is genuinely clear the remaining suspects are the exhaust thermistor reading high, a thermostat stuck closed, a heating element sagged against its housing and arcing, or a heater relay welded shut on the control board. Those last three produce real heat the control never asked for and are a fire risk, so stop using the dryer if clothes come out scorched or the cabinet is hot to touch. hE is the opposite problem: the heating circuit is faulty and the dryer will not get properly hot. On an electric model the first thing to check is the supply, because a 240 volt dryer that loses one of its two legs will tumble perfectly happily and never heat, and that shows up as a half-tripped double breaker or a burnt outlet rather than anything inside the machine. After that come the thermal fuse, which blows as a consequence of an earlier overheat and tells you to clean the vent as well as replace the fuse, then the heating element and the thermostats. On a gas model, hE territory includes the igniter and the gas valve coils, and that is a licensed technician's work. For door codes, the drum light is your free diagnostic: a light that goes out means the switch is operating and the fault is past it in the wiring or the board, while a light that stays on means the problem is still mechanical. For vent test results, a code that returns within months of a proper clean means the installation is marginal rather than the maintenance being poor, and rerouting the duct is the only permanent fix. Across every family, two general checks are worth running before spending money. First, confirm the dryer has a solid power supply on its own circuit, because intermittent and unrelated codes across several cycles usually mean power rather than four broken parts. Second, look for moisture or corrosion on the control board connectors, which a garage or basement installation will produce in a few years and which creates codes that make no mechanical sense. If the diagnosis lands on the main control board, expect $140 to $280 for the part before labor, and weigh that honestly against the age of the dryer.",
+  "reset_procedure": "The general reset for any Samsung dryer code is to press Power to turn the machine off, unplug it at the outlet or switch off its breaker, wait at least two minutes, then restore power. That clears stored fault states that otherwise keep displaying after the actual problem is gone. Test with a short timed cycle rather than committing a load. A reset is a diagnostic, not a repair: a code that returns is reporting something real, and resetting a heat or vent code without clearing the airflow just reproduces the condition that caused it.",
+  "model_notes": "The single most useful thing to know about Samsung's codes is the naming change. Around 2017 Samsung moved most information codes from a trailing E to a trailing C, so dE became dC and the same pattern runs across the laundry range. Older and newer machines therefore show different codes for identical faults, and an older manual will not match a newer panel. Codes also repeat across appliances with different meanings: dC on a Samsung dryer means the door is not detected as closed, while dC on a Samsung washer means the door failed to lock, which involves a motorised latch rather than a simple switch. In a stacked pair, confirm which unit is actually displaying the code before taking anything apart. Samsung has also noted that a character that looks like an upside-down F on some displays is meant to be read as a t, which matters when you are deciphering a short code on a small panel.",
+  "parts": [
+    { "name": "Dryer vent brush kit", "cost": "$20 to $40", "difficulty": "easy", "note": "Fixes or prevents more Samsung dryer codes than any component" },
+    { "name": "Door switch", "cost": "$15 to $45", "difficulty": "easy", "note": "The usual part behind dC and dE once lint and the catch are ruled out" },
+    { "name": "Thermal fuse", "cost": "$10 to $30", "difficulty": "moderate", "note": "Always clean the vent too; a blown fuse is a symptom of poor airflow" },
+    { "name": "Exhaust thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "Only after airflow is genuinely ruled out on a heat or t code" },
+    { "name": "Main control board", "cost": "$140 to $280", "difficulty": "technician only", "note": "Last resort; check the power supply and connectors first" }
+  ],
+  "when_to_call": "Call a technician when the code points at the heating circuit, the motor or the control board and the free checks have not moved it, because the next steps mean live voltage readings inside the cabinet. Call immediately, and stop using the dryer, if clothes come out scorched or smelling burnt, if the cabinet is too hot to touch, or if the machine trips its breaker. For any gas dryer, the burner, igniter, gas valve and gas line go to a licensed technician with no exceptions. Call a vent cleaning service rather than an appliance technician if the duct runs through a roof or a wall cavity you cannot safely reach; $120 to $250 for that is money well spent and it solves the root cause of most Samsung dryer codes.",
+  "faqs": [
+    { "q": "What is the difference between HC and hE on a Samsung dryer?", "a": "HC means the exhaust got hotter than allowed and the dryer cut the heat to protect itself, nearly always because airflow is restricted. hE means the heating circuit itself is faulty, usually showing as a dryer that tumbles but does not get hot. Samsung's own documentation groups both as heating errors, but the repairs are completely different." },
+    { "q": "Why does my Samsung dryer tumble but not heat?", "a": "On an electric dryer, the most common cause is losing one leg of the 240 volt supply, which leaves the motor running happily with no heat. Check for a half-tripped double breaker or a burnt outlet before opening the machine. After that, suspect the thermal fuse, which blows because of restricted airflow, then the heating element and thermostats." },
+    { "q": "Why did Samsung change dE to dC?", "a": "Samsung renamed most of its information codes around 2017, swapping a trailing E for a trailing C across the laundry range. The faults did not change, only the labels. That is why dE and dC mean the same door problem, and why an older manual will not match the codes on a newer panel. Use your model number to find the right documentation." },
+    { "q": "How do I reset a Samsung dryer error code?", "a": "Press Power to turn it off, unplug it or switch off its breaker, wait two minutes, then restore power and run a short timed cycle. That clears a stored fault state. It does not fix anything: if the code returns, the condition is still there. Never reset a heat or vent code and carry on drying without clearing the airflow first." },
+    { "q": "Which Samsung dryer codes are not faults?", "a": "Several. Child lock and filter reminders are indicators rather than errors. The vent blockage test results, including CL9, C80 and Clg, are measurements the dryer gives you when you ask for them rather than breakdowns. Ct just means the machine was too hot or too cold for the test to be valid, so let it reach room temperature." },
+    { "q": "Does a blocked vent really cause most Samsung dryer codes?", "a": "It causes a large share of them. Restricted airflow drives the exhaust temperature up, which trips heat protection, blows thermal fuses, pushes thermistors out of range and makes cycles run long. Cleaning the lint screen properly and brushing the duct once a year prevents more codes than any part on a shelf, and it removes a fire risk at the same time." },
+    { "q": "Where do I find my Samsung dryer model number?", "a": "On a sticker inside the door opening on most models, sometimes on the back of the cabinet. You need it because code meanings, vent test button sequences and even door switch designs differ across the range. A generic list gets you to the right family of fault; the manual for your model gets you to the right procedure." },
+    { "q": "Can I keep using the dryer while a code is showing?", "a": "It depends on the code. A filter reminder or a child lock indicator is harmless. A door code stops the machine anyway. A heat or vent code should stop you: those report a condition that gets worse every load and is the mechanism behind most dryer fires. Stop at once if the cabinet is hot or clothes come out scorched." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "How a Samsung dryer code is built, and which system to check first.",
+    "labels": {
+      "display": "HC",
+      "c1": "Two letters name the system",
+      "c2": "Trailing E is the older label",
+      "c3": "Heat and vent codes come first",
+      "c4": "Model number on the door sticker"
+    }
+  },
+  "sources": [
+    { "title": "Samsung dryer displays an error code", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Common Samsung dryer error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Check the information codes of the dryer", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung dryer owner's manual, information codes and vent sensor test", "publisher": "Samsung owner's manual supplied with the dryer", "url": null },
+    { "title": "Field reports on Samsung dryer heat, door and vent faults", "publisher": "Samsung community forums and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["dC", "dE", "HC", "hE", "CL9", "tC"]
+}

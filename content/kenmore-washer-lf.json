@@ -1,0 +1,125 @@
+{
+  "title": "Kenmore Washer LF Code: Long Fill Causes and Fix",
+  "meta_description": "LF on a Kenmore washer means long fill: it took too long to reach the water level. A Whirlpool code. Usually a part-open tap or clogged inlet screens.",
+  "h1": "Kenmore washer LF error code: what it means and how to fix it",
+  "answer": "LF stands for long fill. The washer was filling, but the water came in too slowly to reach the level it wanted inside the time it allows, so it stopped. It is a Whirlpool code, so a Kenmore showing LF was built by Whirlpool and its model number starts with 110. The distinction matters: this is not a machine getting no water at all, it is a machine getting water too slowly, which points hard at a restriction rather than a dead valve. A part-open tap and clogged inlet mesh screens between them account for most of them.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": { "diy": "$0 to $85", "technician": "$130 to $280" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A tap is only part open",
+      "frequency": "most cases",
+      "confirm": "A tap cracked open a turn passes enough water to look like it is working and nowhere near enough to fill on time. Turn both anticlockwise until they stop. This is the classic LF cause precisely because the machine does fill, just slowly."
+    },
+    {
+      "cause": "The inlet mesh screens are partly clogged",
+      "frequency": "most cases",
+      "confirm": "Undo a hose at the machine end and look into the port. A screen that is furred or scaled rather than bright metal restricts flow without stopping it, which is exactly the symptom LF describes."
+    },
+    {
+      "cause": "A supply hose is kinked or crushed",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow both hoses. A flat spot where the cabinet has been pushed back against the hose still passes water, slowly. This is why LF so often appears a few days after someone moves the machine to clean behind it."
+    },
+    {
+      "cause": "Household water pressure is genuinely low",
+      "frequency": "common",
+      "confirm": "Bucket test both taps for five seconds. A hard jet is fine; a steady but unexciting flow is the problem. Also check whether other taps in the house have gone weak, which points at a stopcock or a pressure-reducing valve rather than the washer."
+    },
+    {
+      "cause": "A water inlet valve is partly blocked or weak",
+      "frequency": "occasional",
+      "confirm": "Strong flow into a bucket, clean screens, and the machine still fills at a trickle. Scale inside the valve body restricts it. This is the point where a part is genuinely needed."
+    },
+    {
+      "cause": "The pressure sensing circuit never registers the level",
+      "frequency": "occasional",
+      "confirm": "The drum fills to a normal level, or keeps filling past it, and LF appears anyway. The control is not seeing the level rise, which usually means a blocked or split hose between the tub and the sensor rather than a dead sensor."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps all the way, not part way",
+      "detail": "Reach behind and turn both the hot and cold taps anticlockwise until they will not move further. On a quarter-turn lever the handle must lie along the pipe rather than at an angle to it. A tap at half open is the single most common cause of LF, because the machine still fills and nobody suspects the supply. Count the turns so you know it was not already fully open.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear the code and run a test fill",
+      "detail": "Press Pause or Cancel twice, then unplug the washer for five minutes and plug it back in. Start a rinse cycle and watch the drum. You are timing how fast water comes in rather than whether it comes in at all: a healthy fill is a strong rush you can hear from the next room. A thin trickle confirms a restriction and tells you to keep working on the supply side.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean both inlet mesh screens",
+      "detail": "Close both taps. Lay a towel and a shallow tray down and unscrew each hose from the machine end; expect a cupful of water from each. Inside each inlet port sits a fine mesh screen. Pick it out with needle-nose pliers, rinse it under a tap, scrub it with an old toothbrush and push it back in flat and square. Do both sides even if only one looks dirty, since the machine draws from both on most cycles.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close both taps before undoing a hose or you get mains pressure in your face."
+    },
+    {
+      "name": "Bucket-test both taps",
+      "detail": "With a hose off the machine, put the loose end in a bucket and open the tap for five seconds. You want a hard jet, not a confident dribble. Do both hot and cold and compare them; one noticeably weaker than the other usually means a part-closed isolation valve or a scaled-up tap on that side. If both are weak, go and check another tap in the house before blaming the washer.",
+      "minutes": 8,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Walk the hose run and remove the kinks",
+      "detail": "Pull the machine right out and follow each hose from tap to inlet. Straighten any tight bend, and look especially at the section squashed between the cabinet and the wall, which is the one people never see. When you push the machine back, leave a hand's width of clearance behind it so the hoses curve rather than fold. A permanently kinked hose that will not straighten needs replacing.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the pressure hose if the machine fills normally",
+      "detail": "If water comes in at a good rate and LF still appears, the problem is the level reading rather than the fill. Unplug the washer, take the top panel off, and ease the thin clear hose off the pressure sensor or switch. Hold it up to a light: it should be clear the whole way through. Flush out any gray detergent sludge, check it is not split at the ends and make sure it runs without a low loop that can hold water.",
+      "minutes": 20,
+      "tools": "Phillips #2 or nut driver, flashlight",
+      "warning": "Unplug at the wall before removing the top panel. The control board sits directly underneath."
+    }
+  ],
+  "still_showing": "If both taps are wide open, the screens are clean and a bucket test gives a hard jet from each side, you have ruled out everything free and the diagnosis splits in two. Decide which half you are in by watching one fill. If water comes in at a trickle despite good pressure at the tap, the restriction is inside the machine, and the inlet valve is the suspect: scale builds up inside the valve body over years of hard water and chokes it without killing the solenoid, so the valve tests fine electrically and still will not pass water. A replacement valve assembly is typically $30 to $85 and about half an hour of work with the top panel off. If instead the drum fills at a normal rate and LF appears anyway, the fill side is fine and the control is not seeing the level rise. That moves you to the pressure sensing circuit: clear the thin hose between the tub and the sensor, check the tub spigot is not silted up with detergent residue, and make sure the hose has no dip in it holding a slug of water, because that acts exactly like a blockage. All three of those are free. Two more things are worth knowing before you spend anything. First, if your water heater is off, isolated or empty, the machine will throw LF on warm and hot cycles while running cold-only perfectly; a cold cycle is a two-minute test that rules out half the plumbing. Second, if the house has a water softener or a whole-house filter, check its bypass and its cartridge, because a filter that is overdue drops flow across the whole house and the washer is often the first appliance to complain. Only once the valve, the hose and the plumbing are all clear does the harness or the control board come into it, and that is where the cost jumps from tens of dollars into the hundreds.",
+  "reset_procedure": "Press Pause or Cancel twice to clear the stored code, then unplug the washer at the wall for five full minutes before plugging it back in. Test on a rinse cycle and listen to the fill rather than walking away: the thing you are judging is how fast the water comes in, and that is obvious within about thirty seconds. The control holds LF through a quick off-and-on, so a tap you have just opened will not clear it by itself.",
+  "model_notes": "LF is a Whirlpool code and belongs to Kenmore washers with model numbers starting 110, both Duet-platform front loaders and Oasis and Cabrio-platform top loaders. On later control generations the same long-fill fault is shown as F8 E1 instead, with identical causes and checks. On older Kenmore Elite HE3t and HE4t machines the related fault appears as FH, which means the control saw no water at all rather than water arriving too slowly. A Kenmore with a 796 model number is an LG and shows IE for its fill fault. On top loaders, check the fill hose connections at the back of the cabinet as well as at the taps, since the inlet screens sit in the same place but the hose run is usually tighter.",
+  "parts": [
+    { "name": "Water inlet valve assembly", "cost": "$30 to $85", "difficulty": "moderate", "note": "The fix when flow is strong at the tap and weak into the drum" },
+    { "name": "Inlet mesh screens", "cost": "$5 to $15 a pair", "difficulty": "easy", "note": "Only needed if a screen is torn. Most just need cleaning" },
+    { "name": "Braided stainless supply hoses", "cost": "$15 to $35 a pair", "difficulty": "easy", "note": "Replace any hose with a permanent kink, and any rubber hose over five years old" },
+    { "name": "Pressure sensor or switch hose", "cost": "$10 to $30", "difficulty": "easy", "note": "The real fix when the drum fills normally but LF still appears" },
+    { "name": "Pressure switch or level sensor", "cost": "$30 to $90", "difficulty": "moderate", "note": "Only after the hose and the tub spigot have been proven clear" }
+  ],
+  "when_to_call": "Call an appliance technician when flow at the tap is strong, the screens are clean and the machine still fills at a trickle, since the next step is swapping the valve or testing the control with the machine live. Call a plumber instead if the bucket test is weak on both sides or other taps in the house are also down, because that is a plumbing problem and an appliance engineer will charge you to say so. Call straight away if a hose is weeping at a connection while you work: close both taps and stop, because a supply leak at mains pressure does far more damage than a slow fill ever will.",
+  "faqs": [
+    { "q": "What does LF mean on a Kenmore washer?", "a": "Long fill. The machine was taking water but not fast enough to reach the level it wanted within the time it allows, so it stopped the cycle. That is a different complaint from no water at all, and it points at a restriction: a tap only part open, a clogged mesh screen, a kinked hose or low household pressure." },
+    { "q": "Why does my Kenmore washer show a Whirlpool code?", "a": "Because Whirlpool built it. Kenmore is a Sears badge rather than a manufacturer, and model numbers starting 110 are Whirlpool machines wearing Kenmore trim, both Duet front loaders and Oasis and Cabrio top loaders. The F-codes and two-letter codes like LF and Sd are Whirlpool's, not Sears's." },
+    { "q": "Is LF the same as F8 E1?", "a": "Yes, on different control generations. Later Kenmore and Whirlpool machines display the long-fill fault as F8 E1, where F8 is the water system and E1 the specific fault, while earlier ones show LF. The causes, the checks and the parts are the same, so follow whichever code your display gives you." },
+    { "q": "Can I still use the washer with an LF code?", "a": "Not for a full cycle, because the machine stops rather than washing with too little water. Nothing is at risk in leaving the code showing. If only your hot supply is restricted, a cold-only cycle will often run normally, which is a quick free way to narrow down whether the problem is one side of your plumbing." },
+    { "q": "Does LF mean the inlet valve has failed?", "a": "Usually not. A failed valve passes no water at all, and LF specifically means water was arriving too slowly. Check the taps, the screens and the hoses first. A valve is the right answer only when you have strong flow into a bucket at the tap and a trickle into the drum, which means the restriction is inside the valve body." },
+    { "q": "Why did LF start after I moved the washer?", "a": "Because the hoses got pinched when you pushed it back, which is the most common sequence there is. A hose folded against the wall still passes water slowly, which is precisely what LF reports. Pull the machine out, straighten both hoses and leave a hand's width of clearance behind the cabinet when you push it back." },
+    { "q": "The drum fills normally but LF still appears. Why?", "a": "The fill is fine and the level reading is not. The control decides the tub is full using a thin hose running from the tub to a pressure sensor, and when that hose is blocked with detergent sludge, split, or looped so it holds water, the level never registers. Clearing it costs nothing and fixes a good share of these." }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "Why a Kenmore fills too slowly and calls LF",
+    "labels": {
+      "display": "LF",
+      "c1": "Tap fully open, not part open",
+      "c2": "Inlet mesh screens clear",
+      "c3": "No kink behind the cabinet",
+      "c4": "Bucket test for real pressure"
+    }
+  },
+  "sources": [
+    { "title": "Whirlpool washer long fill fault code guidance", "publisher": "Whirlpool service literature for the equivalent Duet, Cabrio and Oasis models", "url": null },
+    { "title": "Kenmore washer fills slowly or will not fill repair article", "publisher": "Sears PartsDirect", "url": null },
+    { "title": "Tech sheet inside the machine, water system fault codes", "publisher": "Whirlpool service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on LF, part-open taps, scaled valves and pressure hose blockages", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F8 E1", "FH", "IE", "F21", "5D", "F35"]
+}

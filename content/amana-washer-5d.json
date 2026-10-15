@@ -30,7 +30,7 @@
     {
       "cause": "Old detergent residue in the dispenser and the outer tub",
       "frequency": "common",
-      "confirm": "Pull the dispenser apart and look for grey or blue sludge in the housing. That residue washes into every load on top of whatever you just poured, so a dose that was fine two years ago now foams. A musty smell from the drum points the same way."
+      "confirm": "Pull the dispenser apart and look for gray or blue sludge in the housing. That residue washes into every load on top of whatever you just poured, so a dose that was fine two years ago now foams. A musty smell from the drum points the same way."
     },
     {
       "cause": "Laundry that already has soap in it",
@@ -89,7 +89,7 @@
   ],
   "still_showing": "If two rinses and a measured tablespoon have not stopped 5D coming back, work down this list in order of cost. First, change detergent rather than just using less of it. Some budget HE liquids and almost all pods foam far beyond what their dose suggests, and the only honest test is to buy a different HE liquid and run a fortnight of washing on a measured tablespoon. Second, prove the washer is actually emptying. Foam made at a normal rate but never pumped out reads as excess suds, so check the drain hose for kinks, make sure it is not jammed deep into the standpipe, and listen for the pump running at the end of the cycle. If you have also seen nd or a no-drain condition on this machine, the drain is the real fault and the suds code is just the symptom shouting first. Third, look at your water. A softener installed since the washer was new halves the detergent it needs, and nobody ever adjusts the dose to match. Fourth, if none of that applies and 5D appears on a cycle run with no detergent at all in a machine you have just cleaned, the fault has moved from the laundry to the hardware. The washer judges water level and foam through a pressure sensor connected to the outer tub by a thin air hose, and soap scum in that hose, or a split in it, makes a clean machine report suds it does not have. On a top loader the hose runs from a port low on the outer tub up to the sensor near the control. Pulling it off, checking it for a blockage or a crack and blowing it clear is the last free thing you can do. Past that point a technician is worth the money, and this should be a $120 to $200 visit rather than a parts bill.",
   "reset_procedure": "On most Amana washers, press Start or Pause once to clear the displayed code, then press it again to restart the cycle. If the code comes straight back, stop pressing buttons and unplug the machine at the wall for five full minutes instead, which is what Amana's own service guidance calls for on control faults. Restart with a Rinse and Spin rather than a full wash, so you find out in ten minutes rather than an hour. Expect the code to reappear on the next load anyway if the cause is in the detergent rather than the control, because a reset clears the message, not the foam.",
-  "model_notes": "Amana washers are built on Whirlpool platforms, so this is the same suds condition that shows as Sd on Whirlpool panels and Sud on Maytag. On a seven-segment display the digit 5 and the letter S use the same shape, so 5D and Sd are usually the same code read two ways. The behaviour differs by machine type: Amana top loaders hold a lot more water than a front loader, so the washer's own suds routine can add an hour to a cycle before the code appears at all, while an Amana front loader will show it much sooner. Top loaders also have no user-accessible pump filter, so the filter-cleaning advice written for front loaders does not apply to most Amana machines.",
+  "model_notes": "Amana washers are built on Whirlpool platforms, so this is the same suds condition that shows as Sd on Whirlpool panels and Sud on Maytag. On a seven-segment display the digit 5 and the letter S use the same shape, so 5D and Sd are usually the same code read two ways. The behavior differs by machine type: Amana top loaders hold a lot more water than a front loader, so the washer's own suds routine can add an hour to a cycle before the code appears at all, while an Amana front loader will show it much sooner. Top loaders also have no user-accessible pump filter, so the filter-cleaning advice written for front loaders does not apply to most Amana machines.",
   "parts": [
     {
       "name": "HE liquid detergent, measured by the tablespoon",
@@ -174,7 +174,7 @@
       "url": null
     },
     {
-      "title": "Suds lock behaviour on shared Whirlpool, Maytag and Amana platforms",
+      "title": "Suds lock behavior on shared Whirlpool, Maytag and Amana platforms",
       "publisher": "Appliance technician forum threads",
       "url": null
     }

@@ -20,7 +20,7 @@
     {
       "cause": "The pressure hose between tub and sensor is blocked, kinked or split",
       "frequency": "common",
-      "confirm": "Pull the thin hose off at the sensor end and look inside it. Grey detergent sludge, a soft plug of gunk, a split where it stretches over the spigot, or a kink where it was pinched when the top panel went back on."
+      "confirm": "Pull the thin hose off at the sensor end and look inside it. Gray detergent sludge, a soft plug of gunk, a split where it stretches over the spigot, or a kink where it was pinched when the top panel went back on."
     },
     {
       "cause": "Genuine excess suds confusing the level reading",
@@ -67,7 +67,7 @@
     },
     {
       "name": "Pull the pressure hose and check it end to end",
-      "detail": "Ease the thin hose off the sensor spigot. Hold it up to a light and look through it: it should be clear all the way. Grey sludge, a soft plug of residue or a split at either end all cause F35. Flush it through with warm water, dry it, and check that it is not pinched anywhere along its run or trapped where the top panel sits down. Push it back on firmly so it seats fully over the spigot ridge.",
+      "detail": "Ease the thin hose off the sensor spigot. Hold it up to a light and look through it: it should be clear all the way. Gray sludge, a soft plug of residue or a split at either end all cause F35. Flush it through with warm water, dry it, and check that it is not pinched anywhere along its run or trapped where the top panel sits down. Push it back on firmly so it seats fully over the spigot ridge.",
       "minutes": 15,
       "tools": "Flashlight, warm water",
       "warning": "Machine unplugged throughout."
@@ -96,7 +96,7 @@
   ],
   "still_showing": "If the hose is clear, the connector is clean and a new pressure sensor has not fixed it, the problem is either upstream in the plumbing of the sensing circuit or in the control itself. Start at the tub end. The thin hose connects either directly to a spigot on the outer tub or to an air dome, and on a machine that has spent years on cold short cycles that spigot can silt up with detergent residue to the point where pressure changes in the tub never reach the sensor. You can only check this properly with the hose off: blow gently down it and feel whether it clears into the tub. If it does not, the fix is flushing the spigot from inside the tub, which usually means dropping the lower panel and getting at it with warm water and patience rather than buying anything. Next, check the hose routing again with fresh eyes. A low loop that holds a slug of water acts like a plug and gives exactly the same symptom as a blocked hose, and it is easy to create while refitting the top panel. The hose should run from the sensor down to the tub with no dip in it. After that, consider genuine suds once more, properly this time: a machine with a long history of too much detergent can hold foam in the outer tub that never shows through the glass, and three or four consecutive empty hot rinses with no detergent at all will shift it where one rinse will not. Only when all of that is clean does the main control board become the suspect, and that is where the cost jumps from well under a hundred dollars to a few hundred. There is no meaningful way to test the sensor itself with an ordinary ohmmeter, because it reports level as a varying signal rather than a resistance, so the practical test is the machine's own diagnostic mode, with the button sequence and expected readings taken from the tech sheet inside the cabinet. If that mode reports a level with the tub empty, you have your answer without guessing.",
   "reset_procedure": "Press Pause or Cancel twice to clear the stored code, then unplug the washer at the wall for five full minutes and plug it back in. Run a rinse and spin rather than a full cycle, and time how long F35 takes to return. An immediate return means the fault is live in the sensing circuit; a return only after a long wash points more towards suds or a partly blocked hose.",
-  "model_notes": "F35 belongs to Whirlpool-built Kenmore front loaders, model numbers starting 110, on the Duet platform sold as Kenmore Elite HE3, HE4 and HE5. It nearly always shows together with SUD, which is the single most misleading thing about it: the machine is not necessarily sudsing, it has lost a trustworthy level signal and is defaulting to the suds behaviour. On later control generations the same area of fault appears as an F8 code with a second part rather than as F35. A Kenmore with a 796 model number is an LG and has no F35 at all; the nearest LG equivalent is a fill or level fault showing as IE. The sensor's exact location and mounting vary across model years, so check the tech sheet in your machine before ordering.",
+  "model_notes": "F35 belongs to Whirlpool-built Kenmore front loaders, model numbers starting 110, on the Duet platform sold as Kenmore Elite HE3, HE4 and HE5. It nearly always shows together with SUD, which is the single most misleading thing about it: the machine is not necessarily sudsing, it has lost a trustworthy level signal and is defaulting to the suds behavior. On later control generations the same area of fault appears as an F8 code with a second part rather than as F35. A Kenmore with a 796 model number is an LG and has no F35 at all; the nearest LG equivalent is a fill or level fault showing as IE. The sensor's exact location and mounting vary across model years, so check the tech sheet in your machine before ordering.",
   "parts": [
     {
       "name": "Analog pressure sensor",
@@ -121,7 +121,7 @@
   "faqs": [
     {
       "q": "Does F35 mean my Kenmore washer has too many suds?",
-      "a": "Not necessarily, even though SUD usually shows with it. F35 means the control cannot trust the water-level signal, and when it cannot trust that signal it falls back on the suds behaviour. Run an empty rinse with no detergent and watch the glass: no foam, with F35 still appearing, means the sensing circuit is the fault."
+      "a": "Not necessarily, even though SUD usually shows with it. F35 means the control cannot trust the water-level signal, and when it cannot trust that signal it falls back on the suds behavior. Run an empty rinse with no detergent and watch the glass: no foam, with F35 still appearing, means the sensing circuit is the fault."
     },
     {
       "q": "Why does my Kenmore washer show a Whirlpool code?",

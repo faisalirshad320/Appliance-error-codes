@@ -15,7 +15,7 @@
     {
       "cause": "The filter and sump are clogged with food sludge, labels and grease",
       "frequency": "most cases",
-      "confirm": "Lift out the cylindrical filter in the tub floor and look at the coarse screen under it. Grey paste, a soaked paper label or a film of fat over the mesh means the pump is pulling against a blocked inlet. If the filter has never been cleaned since the machine was installed, this is your fault."
+      "confirm": "Lift out the cylindrical filter in the tub floor and look at the coarse screen under it. Gray paste, a soaked paper label or a film of fat over the mesh means the pump is pulling against a blocked inlet. If the filter has never been cleaned since the machine was installed, this is your fault."
     },
     {
       "cause": "A new garbage disposal still has its dishwasher knockout plug in place, or the disposal is full",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Bail out the standing water",
-      "detail": "Scoop the water out of the tub floor with a cup into a bucket, then soak up the last of it with towels until the sump is dry enough to work in. Do not skip this. Every job below is miserable with two inches of grey water in the way, and you cannot see what is in the sump until it is empty.",
+      "detail": "Scoop the water out of the tub floor with a cup into a bucket, then soak up the last of it with towels until the sump is dry enough to work in. Do not skip this. Every job below is miserable with two inches of gray water in the way, and you cannot see what is in the sump until it is empty.",
       "minutes": 10,
       "tools": "Cup, bucket, old towels",
       "warning": null

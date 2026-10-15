@@ -15,7 +15,7 @@
     {
       "cause": "The drain pump filter is clogged",
       "frequency": "most cases",
-      "confirm": "Unscrew the filter at the bottom front of the machine. If it comes out wrapped in grey felt, hair and coins rather than looking like a clean plastic screw, this is it. A filter that has never been cleaned in several years of use is normal and is exactly what causes OE."
+      "confirm": "Unscrew the filter at the bottom front of the machine. If it comes out wrapped in gray felt, hair and coins rather than looking like a clean plastic screw, this is it. A filter that has never been cleaned in several years of use is normal and is exactly what causes OE."
     },
     {
       "cause": "The drain hose is kinked, crushed or pushed too far into the standpipe",
@@ -25,7 +25,7 @@
     {
       "cause": "The standpipe, trap or sink drain is blocked",
       "frequency": "common",
-      "confirm": "Pull the drain hose out of the standpipe and put it in a bucket, then run a drain cycle. If the machine empties into the bucket happily, the washer is fine and your house drain is blocked. Lint and detergent sludge build a hard grey coating inside a laundry standpipe over years."
+      "confirm": "Pull the drain hose out of the standpipe and put it in a bucket, then run a drain cycle. If the machine empties into the bucket happily, the washer is fine and your house drain is blocked. Lint and detergent sludge build a hard gray coating inside a laundry standpipe over years."
     },
     {
       "cause": "Something is jammed in the pump impeller",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Remove and clean the pump filter",
-      "detail": "With the tub drained, turn the large round filter cap anticlockwise and pull it straight out. Expect another cupful of water. Pick out coins, hair, buttons and the grey felt of compacted lint, then rinse the filter under a tap and scrub the threads with an old toothbrush. Shine a torch into the empty housing and clear anything sitting in the bottom before you refit. Screw it back in clockwise until it is firm, with the handle vertical if your model marks a position.",
+      "detail": "With the tub drained, turn the large round filter cap anticlockwise and pull it straight out. Expect another cupful of water. Pick out coins, hair, buttons and the gray felt of compacted lint, then rinse the filter under a tap and scrub the threads with an old toothbrush. Shine a torch into the empty housing and clear anything sitting in the bottom before you refit. Screw it back in clockwise until it is firm, with the handle vertical if your model marks a position.",
       "minutes": 15,
       "tools": "Torch, old toothbrush",
       "warning": "A filter that is not fully screwed home will leak the entire wash onto your floor. Run the first cycle with a towel under the door."

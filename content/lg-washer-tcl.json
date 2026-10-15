@@ -30,7 +30,7 @@
     {
       "cause": "The machine genuinely needs it",
       "frequency": "common",
-      "confirm": "A musty smell from the door seal, grey or black specks on light-coloured washing, or a visible film inside the gasket fold. Short cold cycles with generous detergent and fabric softener leave a residue that feeds mould, and this is precisely the condition the reminder exists for."
+      "confirm": "A musty smell from the door seal, gray or black specks on light-coloured washing, or a visible film inside the gasket fold. Short cold cycles with generous detergent and fabric softener leave a residue that feeds mold, and this is precisely the condition the reminder exists for."
     },
     {
       "cause": "You are reading CL rather than tCL",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Leave the door ajar between washes",
-      "detail": "A front loader with the door shut stays damp inside and grows mould whatever cleaning cycle you run. Leave the door open an inch and pull the dispenser drawer out a little when you are not using the machine. This alone does more for the smell than any product, and it means the next tCL is just a reminder rather than a rescue.",
+      "detail": "A front loader with the door shut stays damp inside and grows mold whatever cleaning cycle you run. Leave the door open an inch and pull the dispenser drawer out a little when you are not using the machine. This alone does more for the smell than any product, and it means the next tCL is just a reminder rather than a rescue.",
       "minutes": 1,
       "tools": null,
       "warning": null
@@ -99,7 +99,7 @@
       "note": "Only if the seal is already mouldy beyond cleaning or torn"
     }
   ],
-  "when_to_call": "Nobody needs to be called for tCL. It is a maintenance reminder and the entire fix is a cleaning cycle you run yourself. The only circumstance worth a conversation with a technician is a door gasket so badly colonised with mould that scrubbing does nothing, which is a replacement rather than a clean and runs $50 to $120 in parts plus labour. If the machine also smells of drains rather than mould, that is a different problem: look at the drain pump filter and the standpipe, since standing water in either produces a smell that no amount of tub cleaning will touch.",
+  "when_to_call": "Nobody needs to be called for tCL. It is a maintenance reminder and the entire fix is a cleaning cycle you run yourself. The only circumstance worth a conversation with a technician is a door gasket so badly colonised with mold that scrubbing does nothing, which is a replacement rather than a clean and runs $50 to $120 in parts plus labour. If the machine also smells of drains rather than mold, that is a different problem: look at the drain pump filter and the standpipe, since standing water in either produces a smell that no amount of tub cleaning will touch.",
   "faqs": [
     {
       "q": "Is tCL an error code on an LG washer?",
@@ -119,7 +119,7 @@
     },
     {
       "q": "Can I still use my washer with tCL showing?",
-      "a": "Yes, completely normally. It is a reminder, not a lockout, and nothing about the machine's behaviour changes. That said, if you are also getting a musty smell from the door seal or grey specks on pale washing, the reminder is telling you something real and the cycle takes two hours of the machine's time and five minutes of yours."
+      "a": "Yes, completely normally. It is a reminder, not a lockout, and nothing about the machine's behavior changes. That said, if you are also getting a musty smell from the door seal or gray specks on pale washing, the reminder is telling you something real and the cycle takes two hours of the machine's time and five minutes of yours."
     },
     {
       "q": "How often should I run Tub Clean on an LG washer?",
@@ -153,7 +153,7 @@
       "url": null
     },
     {
-      "title": "Owner and technician experience on gasket mould and dispenser residue",
+      "title": "Owner and technician experience on gasket mold and dispenser residue",
       "publisher": "Appliance repair community threads",
       "url": null
     }

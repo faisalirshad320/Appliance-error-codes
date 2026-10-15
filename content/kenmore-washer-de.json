@@ -15,7 +15,7 @@
     {
       "cause": "Something is caught between the door and the seal",
       "frequency": "most cases",
-      "confirm": "Open the door fully and run a finger right around the rubber boot. A shirt sleeve, a sock corner or a drawstring holds the door a couple of millimetres proud, which is enough for the latch to miss."
+      "confirm": "Open the door fully and run a finger right around the rubber boot. A shirt sleeve, a sock corner or a drawstring holds the door a couple of millimeters proud, which is enough for the latch to miss."
     },
     {
       "cause": "The door was pushed to rather than closed firmly",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Check and tighten the door hinge",
-      "detail": "Open the door and look at where the hinge bolts to the cabinet. On these machines the glass door is heavy and the screws work loose over the years, which drops the door a few millimetres so the hook misses the slot. Tighten them with the correct driver, close the door and check the gap around it is even top and bottom. A door that needs lifting to close is a hinge problem, not a lock problem.",
+      "detail": "Open the door and look at where the hinge bolts to the cabinet. On these machines the glass door is heavy and the screws work loose over the years, which drops the door a few millimeters so the hook misses the slot. Tighten them with the correct driver, close the door and check the gap around it is even top and bottom. A door that needs lifting to close is a hinge problem, not a lock problem.",
       "minutes": 15,
       "tools": "Torx or Phillips driver",
       "warning": null
@@ -126,7 +126,7 @@
   "faqs": [
     {
       "q": "Why does my Kenmore washer say dE when the door is clearly shut?",
-      "a": "Because the control never got the signal that it is locked, not that it is closed. A sleeve caught in the seal holds the door a couple of millimetres proud, which looks shut and is not. Beyond that, a worn latch hook or a failed lock will leave a properly closed door reporting as open. Listen for the lock buzzing after you press Start."
+      "a": "Because the control never got the signal that it is locked, not that it is closed. A sleeve caught in the seal holds the door a couple of millimeters proud, which looks shut and is not. Beyond that, a worn latch hook or a failed lock will leave a properly closed door reporting as open. Listen for the lock buzzing after you press Start."
     },
     {
       "q": "Can I bypass the door lock to use the washer?",

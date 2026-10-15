@@ -22,6 +22,9 @@ jobs:
       - name: Normalize presentational field lengths
         run: python3 tools/normalize_content.py
 
+      - name: Lint prose against the writer brief
+        run: python3 tools/lint_prose.py
+
       - name: Validate every content file against the page schema
         run: python3 tools/validate_content.py
 

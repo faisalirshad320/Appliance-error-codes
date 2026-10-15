@@ -57,7 +57,7 @@
     },
     {
       "name": "Cut power for five minutes if the panel is unresponsive",
-      "detail": "Switch the dryer off at its breaker or unplug it, leave it five minutes, then restore power and try the hold again. This will not turn the lock off by itself, because the setting survives a power cut deliberately, but it does clear a frozen control that is simply not registering presses. If the hold now works, you had a hung panel rather than a hardware fault.",
+      "detail": "Switch the dryer off at its breaker or unplug it, leave it five minutes, then restore power and try the hold again. This will not turn the lock off by itself, because the setting survives a power cut deliberately, but it does clear a frozen control that has stopped registering presses. If the hold now works, you had a hung panel rather than a hardware fault.",
       "minutes": 7,
       "tools": null,
       "warning": null

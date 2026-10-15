@@ -27,7 +27,7 @@
     {
       "cause": "The coil is iced or the filter is choked, so the sensor reads nonsense",
       "frequency": "occasional",
-      "confirm": "Pull the filter and look at the coil behind it. A grey felt mat on the filter, or frost and ice on the fins, means airflow has collapsed and the sensor is sitting in air that is nothing like room air. Running a dehumidifier in a cold room is the usual way this happens."
+      "confirm": "Pull the filter and look at the coil behind it. A gray felt mat on the filter, or frost and ice on the fins, means airflow has collapsed and the sensor is sitting in air that is nothing like room air. Running a dehumidifier in a cold room is the usual way this happens."
     },
     {
       "cause": "The fan is not turning, or the board is not seeing it turn",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Pull and wash the air filter",
-      "detail": "Slide the filter out of the back or side grille. Rinse it under a warm tap until water runs clear through the mesh, shake it off and let it dry fully before it goes back. A filter that looks lightly dusty can still be half blocked with the fine grey felt that builds in a basement. Never run the unit with the filter out; the coil loads up with dust instead.",
+      "detail": "Slide the filter out of the back or side grille. Rinse it under a warm tap until water runs clear through the mesh, shake it off and let it dry fully before it goes back. A filter that looks lightly dusty can still be half blocked with the fine gray felt that builds in a basement. Never run the unit with the filter out; the coil loads up with dust instead.",
       "minutes": 10,
       "tools": null,
       "warning": null

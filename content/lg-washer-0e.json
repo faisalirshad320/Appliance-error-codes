@@ -12,7 +12,7 @@
     {
       "cause": "The drain pump filter is clogged",
       "frequency": "most cases",
-      "confirm": "Unscrew the round filter at the bottom front of the machine. If it comes out wearing a coat of grey felt, hair and coins rather than looking like clean plastic, that is the fault. A filter that has never been cleaned in several years is normal and is exactly what produces this code."
+      "confirm": "Unscrew the round filter at the bottom front of the machine. If it comes out wearing a coat of gray felt, hair and coins rather than looking like clean plastic, that is the fault. A filter that has never been cleaned in several years is normal and is exactly what produces this code."
     },
     {
       "cause": "The drain hose is kinked or pushed too far down the standpipe",
@@ -22,7 +22,7 @@
     {
       "cause": "The standpipe, trap or sink drain is blocked",
       "frequency": "common",
-      "confirm": "Take the drain hose out of the standpipe, put it in a bucket and run a drain cycle. If the washer empties happily into the bucket, the machine is fine and your house drain is blocked with the hard grey coating of lint and detergent that builds up in laundry standpipes."
+      "confirm": "Take the drain hose out of the standpipe, put it in a bucket and run a drain cycle. If the washer empties happily into the bucket, the machine is fine and your house drain is blocked with the hard gray coating of lint and detergent that builds up in laundry standpipes."
     },
     {
       "cause": "Something is jammed in the pump impeller",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Remove and clean the pump filter",
-      "detail": "Once the tub is empty, turn the large round filter anticlockwise and draw it straight out; expect another cupful of water. Pick out coins, hair, buttons and compacted grey lint, rinse it under a tap and scrub the threads. Shine a torch into the empty housing and clear anything sitting in the bottom. Screw it back clockwise until firm, and run the first wash with a towel under the door in case it weeps.",
+      "detail": "Once the tub is empty, turn the large round filter anticlockwise and draw it straight out; expect another cupful of water. Pick out coins, hair, buttons and compacted gray lint, rinse it under a tap and scrub the threads. Shine a torch into the empty housing and clear anything sitting in the bottom. Screw it back clockwise until firm, and run the first wash with a towel under the door in case it weeps.",
       "minutes": 15,
       "tools": "Torch, old toothbrush",
       "warning": "A filter that is not fully home empties the whole wash onto your floor."

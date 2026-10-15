@@ -1,0 +1,190 @@
+{
+  "title": "Frigidaire Refrigerator H1 Code: High Temperature Alarm",
+  "meta_description": "H1 on a Frigidaire refrigerator is a high temperature alarm, not a breakdown. It usually follows a door left ajar and clears as the cabinet cools.",
+  "h1": "Frigidaire refrigerator H1: a high temperature alarm, not a failure",
+  "answer": "H1 on a Frigidaire refrigerator is a high temperature alarm. It means a compartment went above the temperature the control is willing to accept, and in most cases the cause is a door left ajar or a power cut rather than anything broken. If the cabinet is cold now and getting colder, the alarm has done its job and will clear on its own once the temperature comes back down. The one thing it does tell you to do is check your food, because the alarm cannot say how long the compartment was warm.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes to check, up to 24 hours to recover",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$150 to $450 only if it is a real cooling fault"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A door was left open or did not latch",
+      "frequency": "most cases",
+      "confirm": "Look for the obvious: a drawer pushed out of its runner, a tall bottle or a pizza box holding the door off the seal, or a door that swings back open because the unit leans forward. Close everything, and if the cabinet is already cold, this was it."
+    },
+    {
+      "cause": "A power cut, and the alarm fired when power came back",
+      "frequency": "most cases",
+      "confirm": "Clocks elsewhere in the house are flashing, or the outage is recent enough that you remember it. The compartment warmed while the unit was dead and the control measured it the moment it woke up. The alarm is reporting history, not a current fault."
+    },
+    {
+      "cause": "Warm food loaded in bulk, or heavy door traffic",
+      "frequency": "common",
+      "confirm": "It happened after a grocery run, a party, or putting a large warm pot straight in. The compartment temperature climbs faster than the unit can pull it back, the threshold is crossed, and the alarm fires. The temperature falls steadily over the next few hours without you doing anything."
+    },
+    {
+      "cause": "Airflow is blocked inside the cabinet",
+      "frequency": "common",
+      "confirm": "Look at the vents in the back wall of the fresh food section and the freezer. A box pushed hard against a vent, or a freezer packed solid to the roof, starves one compartment of cold air. The giveaway is one compartment warm while the other is fine."
+    },
+    {
+      "cause": "Condenser coils are choked with dust or pet hair",
+      "frequency": "occasional",
+      "confirm": "Pull the unit out and look at the coils at the back, or behind the toe grille at the bottom on many models. A gray felt of dust means the unit cannot shed heat, so it runs constantly and still loses ground, especially in a warm kitchen or a garage in summer."
+    },
+    {
+      "cause": "A genuine cooling failure",
+      "frequency": "occasional",
+      "confirm": "This is the one that matters. The doors are shut, there was no outage, and hours later the cabinet is still warm or getting warmer. If the temperature is not falling, the alarm is not reporting history, it is reporting a fridge that has stopped cooling, and you move on to the cooling diagnosis."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check both doors and every drawer",
+      "detail": "Walk the whole perimeter of each door seal with your fingers and look for anything holding it open: a container turned sideways, a drawer off its runner, a bag of bread caught in the hinge side. Push the doors closed and watch whether they stay shut or ease back open, which tells you the unit is leaning forward and needs its front feet adjusted.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Read the actual temperature before deciding anything",
+      "detail": "Put a glass of water in the middle of the fresh food section with a kitchen thermometer in it, and leave it two hours rather than trusting the display or the feel of the air. This single reading separates an alarm reporting old news from a fridge that has genuinely stopped cooling, and everything else on this page depends on which one you have.",
+      "minutes": 10,
+      "tools": "Kitchen thermometer, glass of water",
+      "warning": null
+    },
+    {
+      "name": "Dismiss the alarm and let it recover",
+      "detail": "Press the alarm reset or alarm off pad on the dispenser or interior control, which silences the tone and clears the display on most models. Then leave the unit alone with the doors shut for a few hours. A compartment that was opened up or lost power takes several hours to pull back down, and opening the door every twenty minutes to check is the thing that stops it recovering.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Deal with the food honestly",
+      "detail": "The alarm cannot tell you how long the compartment was warm, so judge the food rather than the code. Frozen food still holding hard ice crystals is generally fine to refreeze. Anything in the fresh food section that has been above refrigeration temperature for more than a couple of hours, especially meat, fish, dairy and cooked leftovers, is a throw-away rather than a gamble.",
+      "minutes": 15,
+      "tools": "Kitchen thermometer",
+      "warning": null
+    },
+    {
+      "name": "Clear the vents inside the cabinet",
+      "detail": "Find the air vents in the back wall of the fresh food compartment and in the freezer, and pull anything that is pressed against them forward by a couple of inches. Do not pack the freezer solid to the roof; the cold air has to circulate to reach the fresh food side. One compartment warm and the other normal almost always comes down to this.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser coils",
+      "detail": "Unplug the refrigerator. On most models the coils are behind a toe grille at the bottom front, which unclips or comes off with two screws, or on the back panel. Vacuum the dust off with a brush attachment and work a condenser coil brush between the fins. Pet hair in particular mats into a blanket that stops the unit shedding heat, and this is the most common cause of a fridge that runs forever and still drifts warm.",
+      "minutes": 25,
+      "tools": "Vacuum with brush attachment, condenser coil brush, Phillips #2 screwdriver",
+      "warning": "Unplug the refrigerator before reaching behind the toe grille or the rear panel."
+    }
+  ],
+  "still_showing": "If the doors are shut, there was no power cut, and your thermometer in a glass of water says the fresh food section is still warm several hours later, stop treating this as an alarm and start treating it as a cooling failure. Work it in this order. First, listen and feel. Stand quietly by the unit: you should hear the compressor running as a low hum and the evaporator fan as a softer whirr from inside the freezer. Open the freezer door and press the door switch in with your thumb; on most models the fan should keep running while the switch is held. No fan with the compressor running is a strong lead. Second, open the freezer and look at the back panel. Frost building unevenly, or a solid sheet of ice across the panel, means a defrost problem, which starves the fresh food side of air while the freezer still seems cold. That is the single most common cause of a warm fridge with a cold freezer. Third, check whether the condenser fan near the compressor at the back is spinning when the compressor runs. A seized condenser fan makes the unit run constantly and lose ground gradually, exactly the pattern that triggers a high temperature alarm days after the fan actually failed. Fourth, feel the coils. If the compressor is running, the condenser coils should be warm. A compressor humming with coils that stay cold, or a compressor that buzzes briefly and shuts off every few minutes, points at the compressor or its start device. Fifth, know where the line is. Fans, defrost heaters, thermistors, door seals and coils are all ordinary repairs. Anything inside the sealed refrigerant circuit, meaning the compressor, the evaporator, the condenser itself or a refrigerant charge, is licensed technician work and not a DIY job under any circumstances. Finally, weigh it up before committing: a sealed system repair on a refrigerator over about ten years old often costs more than the unit is worth.",
+  "reset_procedure": "Press the alarm reset or alarm off pad on the control panel to silence the tone and clear the display. On models with no dedicated pad, holding the freezer temperature up and down pads together for a few seconds clears it on many ranges, but check your own control panel rather than guessing. If H1 returns straight away with the doors closed, the control is still measuring a high temperature and the alarm is correct; a reset will not fix a compartment that is genuinely warm.",
+  "model_notes": "Frigidaire's own support documentation describes this as a high temperature alarm shown as H, HI or High Temp rather than using the H1 label specifically, and says the usual cause is a door left open or not fully closed. H1 as a two-character code comes mainly from third-party repair sources, and those sources quote different temperature thresholds for when it trips, which do not agree with each other. Treat the trigger temperature as something the control decides for your model rather than a published figure, and do not read a specific number into the code. Some models show a separate HI code for the fresh food section with a different threshold again.",
+  "parts": [
+    {
+      "name": "Door gasket",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Only when a seal is torn or has taken a set and no longer touches the frame"
+    },
+    {
+      "name": "Condenser coil cleaning brush",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Not a repair part, but the cheapest thing you can buy for this problem"
+    },
+    {
+      "name": "Evaporator fan motor",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Only if the alarm turns out to be a real cooling failure"
+    },
+    {
+      "name": "Defrost heater or thermistor",
+      "cost": "$25 to $90",
+      "difficulty": "moderate",
+      "note": "Behind the freezer rear panel, and only when frost build-up is the cause"
+    }
+  ],
+  "when_to_call": "Call a technician if your thermometer says the cabinet is still warm several hours after the doors have been shut, because at that point the alarm has stopped being a notification and is reporting a fault. Call immediately, rather than troubleshooting, if the compressor is hot to the touch and buzzing in short bursts, or if you can smell anything burning. Any work inside the sealed refrigerant circuit, meaning the compressor, condenser, evaporator or the refrigerant charge, is licensed technician work by law in most places and is not something to attempt. Before approving a sealed system repair on a unit over about ten years old, get the price in writing and compare it against a replacement.",
+  "faqs": [
+    {
+      "q": "Is H1 on a Frigidaire refrigerator serious?",
+      "a": "Usually not. It is a high temperature alarm, and most of the time it is telling you a door was left open or the power went out, not that the refrigerator is broken. Check the temperature with a thermometer in a glass of water. If the cabinet is cold and getting colder, the alarm is reporting something that has already passed."
+    },
+    {
+      "q": "How do I clear the H1 code?",
+      "a": "Press the alarm reset or alarm off pad on the control panel, then close the doors and leave the unit alone for a few hours. If H1 comes straight back, the control is still reading a high temperature, which means the condition is current rather than historical. A reset cannot fix a compartment that is genuinely warm."
+    },
+    {
+      "q": "Is my food still safe after an H1 alarm?",
+      "a": "Judge the food, not the code, because the alarm cannot tell you how long things were warm. Frozen items still holding hard ice crystals are generally safe to refreeze. Refrigerated meat, fish, dairy and cooked leftovers that have been warm for more than about two hours should be thrown out rather than risked."
+    },
+    {
+      "q": "Why did H1 appear after a power outage?",
+      "a": "Because the compartment warmed up while the unit had no power, and the control measured that temperature the moment it came back on. The alarm is reporting what it found on waking, not a fault with the refrigerator. It should clear by itself once the cabinet pulls back down, which usually takes several hours."
+    },
+    {
+      "q": "How long should it take for the fridge to cool back down?",
+      "a": "Several hours for a door left ajar, and up to a day after a long outage or a big warm grocery load. Keep the doors shut while it recovers, because checking every twenty minutes is what stops it catching up. If the temperature has not fallen at all after four or five hours, treat it as a cooling fault."
+    },
+    {
+      "q": "What if H1 keeps coming back with the doors closed?",
+      "a": "Then it is a cooling problem rather than an alarm about a door. Check for frost covering the freezer back panel, listen for the evaporator fan inside the freezer, make sure the condenser fan near the compressor spins, and clean the condenser coils. If none of that explains it, it needs a technician."
+    },
+    {
+      "q": "Can dirty condenser coils cause an H1 alarm?",
+      "a": "Yes, and it is a common slow-burn cause. Coils matted with dust or pet hair stop the unit shedding heat, so it runs almost continuously and still drifts warm, especially in a hot kitchen or a garage in summer. Unplug the unit and vacuum the coils behind the toe grille or at the back twice a year."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "What a Frigidaire high temperature alarm is actually measuring",
+    "labels": {
+      "display": "H1",
+      "c1": "Door seals and drawer runners",
+      "c2": "Thermometer in a glass of water",
+      "c3": "Interior vents kept clear",
+      "c4": "Condenser coils under the grille"
+    }
+  },
+  "sources": [
+    {
+      "title": "What the alarms and error messages mean on French-Door and Four-Door refrigerators",
+      "publisher": "Frigidaire support documentation",
+      "url": null
+    },
+    {
+      "title": "High temperature alarm description in the Frigidaire refrigerator owner's manual",
+      "publisher": "Frigidaire owner documentation supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Third-party reports of the H1 label and differing trip thresholds",
+      "publisher": "Appliance repair guides, cited for the label only",
+      "url": null
+    },
+    {
+      "title": "Field reports on warm-cabinet diagnosis and defrost faults",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "HI",
+    "SY EF",
+    "SY CF",
+    "d1 SP",
+    "5Y CE"
+  ]
+}

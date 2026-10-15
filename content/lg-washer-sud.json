@@ -60,7 +60,7 @@
       "detail": "Unplug the washer. Open the small access door at the bottom front right with a coin, pull the short black tube out, hold it over a shallow tray and drain the tub in stages. Then unscrew the round filter anticlockwise, clear out lint, hair and coins, rinse it and screw it back in firmly. A restricted drain both causes foam and stops the machine clearing it, so this is the one mechanical check worth doing early.",
       "minutes": 20,
       "tools": "Shallow tray, towels, flat screwdriver",
-      "warning": "Unplug the machine before opening the filter, and expect a litre or more of water."
+      "warning": "Unplug the machine before opening the filter, and expect a liter or more of water."
     },
     {
       "name": "Measure the detergent properly next time",
@@ -100,7 +100,7 @@
     { "q": "Can a clogged drain filter cause a SUD code?", "a": "Yes, and it is the most common cause once detergent has been ruled out. A pump straining against a restriction churns and aerates the water, creating foam that was never in the wash, and then cannot clear it. Clean the filter behind the little door at the bottom front; if you have also seen OE, the drain is almost certainly the real fault." },
     { "q": "Can I still use my LG washer with SUD showing?", "a": "Yes. The machine is washing, just pausing to deal with foam, and your clothes are fine. The practical cost is time rather than damage. What you should not do is add more detergent to the next load to compensate for a wash that seemed under-soaped, because that is how a one-off SUD becomes a permanent one." },
     { "q": "Why does SUD appear even though I barely use any detergent?", "a": "Usually because the machine is still carrying residue from years of heavier dosing, which redissolves into every load. Run two or three Tub Clean cycles with an oxygen cleaner. Soft water is the other common answer: with no hardness minerals to absorb it, a dose that looks tiny still foams heavily." },
-    { "q": "Does SUD damage the washing machine?", "a": "No, as long as you let it run its course. The routine exists to protect the pump and the spin, and the machine handles it. The indirect risk is the habit behind it: long-term over-dosing leaves soap film in the outer tub, which feeds mould and gives the gasket that musty smell, and that is worth fixing even when the code never appears." }
+    { "q": "Does SUD damage the washing machine?", "a": "No, as long as you let it run its course. The routine exists to protect the pump and the spin, and the machine handles it. The indirect risk is the habit behind it: long-term over-dosing leaves soap film in the outer tub, which feeds mold and gives the gasket that musty smell, and that is worth fixing even when the code never appears." }
   ],
   "diagram": {
     "kind": "washer-drain-filter",

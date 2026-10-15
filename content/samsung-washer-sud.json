@@ -32,7 +32,7 @@
     {
       "cause": "Detergent residue built up inside the drum and dispenser",
       "frequency": "occasional",
-      "confirm": "Pull out the dispenser drawer. If the compartments are lined with grey-white sludge, there is months of undissolved detergent in the machine that gets released a bit at a time, so even a correct dose comes out as an overdose."
+      "confirm": "Pull out the dispenser drawer. If the compartments are lined with gray-white sludge, there is months of undissolved detergent in the machine that gets released a bit at a time, so even a correct dose comes out as an overdose."
     },
     {
       "cause": "The water level sensor or its pressure hose is misreading",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Clean the pump debris filter",
-      "detail": "Unplug the machine. Open the small access panel at the bottom front, put a shallow tray down, drain through the short hose beside the cap, then turn the filter cap anticlockwise and pull it out. Rinse off the felt and soap sludge under a hot tap. A filter half blocked with grey scum slows the drain enough to keep foam in the machine.",
+      "detail": "Unplug the machine. Open the small access panel at the bottom front, put a shallow tray down, drain through the short hose beside the cap, then turn the filter cap anticlockwise and pull it out. Rinse off the felt and soap sludge under a hot tap. A filter half blocked with gray scum slows the drain enough to keep foam in the machine.",
       "minutes": 20,
       "tools": "Phillips #2, shallow tray, towels",
       "warning": "Unplug at the wall before opening the filter housing."

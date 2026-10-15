@@ -1,0 +1,209 @@
+{
+  "title": "Kenmore Washer FH Code: No Water Detected, and the Fix",
+  "meta_description": "FH on a Kenmore Elite washer means the control saw no water coming in. It is a Whirlpool code. Check the taps and inlet screens first.",
+  "h1": "Kenmore washer FH error code: what it means and how to fix it",
+  "answer": "FH means the washer opened its fill valves and the control never saw water arrive, so it stopped. It is a Whirlpool code used on older Kenmore Elite HE3t, HE4t and HE5t front loaders, which are Duet machines underneath, with model numbers starting 110. Some panels show it as F/H, and plenty of people read it as HF. The supply side causes it far more often than the machine does: a closed tap, a clogged inlet screen or a kinked hose. After that, the suspects are the flow meter that counts the water in and the pressure switch that decides when the tub is full.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 minutes for the supply checks, up to 2 hours beyond that",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$140 to $320"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A tap is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Reach behind and turn both taps anticlockwise until they stop. A quarter-turn lever must lie along the pipe, not across it. Machines that have been moved, serviced or had a leak scare almost always have one turned down."
+    },
+    {
+      "cause": "The inlet mesh screens are clogged",
+      "frequency": "most cases",
+      "confirm": "Undo a hose at the machine end and look into the inlet port. Bright metal mesh is fine. Brown, scaled or furred mesh is your fault, and it builds up over years rather than overnight."
+    },
+    {
+      "cause": "A supply hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow both hoses. A flat spot behind the cabinet still drips but will not fill. In an unheated garage in winter, a hose that feels rigid and very cold is frozen solid."
+    },
+    {
+      "cause": "The flow meter is dirty or jammed",
+      "frequency": "occasional",
+      "confirm": "Taps open, screens clean, strong flow at the tap, and the machine takes water but still calls FH. The meter is a small turbine in the inlet path and it stops counting when scale or grit seizes the impeller."
+    },
+    {
+      "cause": "A water inlet valve solenoid has failed",
+      "frequency": "occasional",
+      "confirm": "Good pressure into a bucket, clean screens, and no water at all entering the drum when the cycle starts. Measured across its two terminals with a meter, a dead solenoid reads open circuit."
+    },
+    {
+      "cause": "The pressure switch or its hose is not reporting the level",
+      "frequency": "occasional",
+      "confirm": "The drum fills visibly, keeps filling or stops oddly, and FH still appears. The control saw water but never saw the level reach the switch, so it faults. Usually the thin hose is blocked rather than the switch being dead."
+    },
+    {
+      "cause": "Wiring or the central control unit",
+      "frequency": "rare",
+      "confirm": "Valves read correctly on a meter but never buzz when the cycle calls for water. Check the connector at the valve for corrosion or a pushed-back pin before anyone talks about a board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps fully and look at the obvious",
+      "detail": "Turn both hot and cold taps anticlockwise until they will not go further. On quarter-turn levers the handle must sit in line with the pipe. Then check nothing is resting on a hose and that the machine has not been pushed hard back against the wall. This clears FH more often than every mechanical cause put together, and it takes two minutes before you move anything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear the code and retest before you dismantle anything",
+      "detail": "Press Pause or Cancel twice, then unplug the machine at the wall for five full minutes and plug it back in. The control stores FH, so a washer with a tap you just opened will keep showing the code and look unfixed. Start a rinse cycle rather than a wash, stand there and listen: you should hear the valves click and water running within a few seconds.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean both inlet screens",
+      "detail": "Close both taps. Put a towel and a shallow tray down and unscrew each hose from the machine end, expecting a cupful of water from each. Inside each inlet port is a fine mesh screen. Lift it out with needle-nose pliers, rinse it, scrub it with an old toothbrush and push it back in squarely so it sits flat. Do the hot side as well as the cold even if only one looks bad, because the machine uses both on most cycles.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close both taps before undoing a hose or you get mains pressure in your face."
+    },
+    {
+      "name": "Bucket-test the flow at each tap",
+      "detail": "With a hose off the machine, put the loose end in a bucket and open the tap for five seconds. You want a hard jet that puts a real amount of water in the bucket, not a dribble that fades. Do it on both hot and cold. A weak flow means the restriction is upstream in your plumbing and the washer is reporting it correctly, which saves you from buying a valve you do not need.",
+      "minutes": 8,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Thaw a frozen hose if the machine lives somewhere cold",
+      "detail": "Close the taps, disconnect the hose and either move it somewhere warm or wrap it in towels soaked in hot tap water, swapping them as they cool. Give it twenty minutes and try again. Never use a heat gun, a blowtorch or boiling water on a rubber or braided hose, because it will split and you will find out at full mains pressure. Insulate the pipework before the next cold snap.",
+      "minutes": 25,
+      "tools": "Towels",
+      "warning": "No open flame and no boiling water on a supply hose."
+    },
+    {
+      "name": "Check the inlet valve and the flow meter",
+      "detail": "Unplug the washer at the wall and take the top panel off, usually two or three screws along the back edge and a slide rearward. The valve assembly sits where the hoses enter. Pull the connector from each solenoid and measure across its terminals with a multimeter; an open circuit means that half is dead. The flow meter sits in the pipe just downstream: release it, look through it and spin its small impeller with a fingertip. Scale and grit stop it turning, and a meter that does not turn cannot count water.",
+      "minutes": 40,
+      "tools": "Phillips #2 or nut driver, multimeter, flashlight",
+      "warning": "Unplug at the wall before the top panel comes off. The control board and mains wiring are directly underneath."
+    },
+    {
+      "name": "Check the pressure switch hose",
+      "detail": "While the top panel is off, find the thin clear hose running from the outer tub up to the pressure switch and ease it off at the switch end. Look through it against a light: it should be clear the whole way. Flush out any gray detergent sludge, check it is not split where it pushes over the spigot and make sure it runs down to the tub without a low loop that can hold water. Refit it firmly over the ridge on the spigot.",
+      "minutes": 15,
+      "tools": "Flashlight, warm water",
+      "warning": "Machine unplugged throughout."
+    }
+  ],
+  "still_showing": "If both taps are fully open, both screens are clean and a bucket test gives a hard jet from each, the supply side is ruled out and the fault is inside the machine. Work in this order. First, listen at the start of a cycle with the machine quiet. Valves that click and hiss mean water is being called for and the problem is further along; total silence from the valve area means they are not being energised at all, which points at the connector, the harness or the control rather than at the valve. Second, deal with the flow meter, because on this generation of machine it is the component people never think of and it is responsible for a meaningful share of FH codes. It is a small turbine sitting in the inlet path downstream of the valve, and when scale seizes its impeller the control opens the valves, water goes in, and it still sees nothing arrive. You can free most of them by removing the meter and flushing it with warm water and a little descaler until the impeller spins freely with a fingertip. Third, if the machine does take water but still faults, stop blaming the fill side and look at the pressure switch circuit, since the control also calls FH when a lot of water has gone through without the level ever being reached. Clear the thin hose, check the tub spigot is not silted up, and make sure the hose has no low loop holding a slug of water. Fourth, measure each valve solenoid with a meter; an open circuit confirms a dead coil, and the whole valve assembly is typically a $30 to $85 part held in with two screws and a clip. Replace the assembly rather than trying to change one solenoid. Only after all of that does the harness and the central control unit come into it, and that is where the cost jumps to a few hundred dollars. One last thing worth ruling out for free: if your water heater is off, isolated or drained, the machine will throw FH on any warm cycle while running cold-only perfectly. Try a cold cycle before you spend anything.",
+  "reset_procedure": "Press Pause or Cancel twice to clear the stored code, then unplug the washer at the wall for five full minutes and plug it back in. Test on a rinse cycle rather than a full wash, so you hear the valves within seconds rather than waiting. The control holds FH through a brief interruption, which is why people fix a closed tap and think nothing happened.",
+  "model_notes": "FH belongs to Whirlpool-built Kenmore front loaders, model numbers starting 110, specifically the earlier Elite HE3t, HE4t and HE5t machines on the Duet platform. Some displays render it as F/H, and it is frequently written down as HF by mistake, which sends people searching for a code that does not exist. Later Kenmore and Whirlpool control generations replaced it with LF for a long fill and with two-part F8 codes for the related water-supply faults, so if your machine shows those instead, the diagnosis is the same but the parts list differs. On the same older machines, F02 covers a blocked drain rather than a fill problem. A Kenmore with a 796 model number is an LG and shows IE for its fill fault instead.",
+  "parts": [
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$30 to $85",
+      "difficulty": "moderate",
+      "note": "Replace the whole assembly, not one solenoid"
+    },
+    {
+      "name": "Flow meter",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Try cleaning it first; a seized impeller often frees with warm water and descaler"
+    },
+    {
+      "name": "Pressure switch hose",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "Cheap and commonly the real fault when the machine does take water"
+    },
+    {
+      "name": "Inlet mesh screens",
+      "cost": "$5 to $15 a pair",
+      "difficulty": "easy",
+      "note": "Only needed if a screen is torn rather than dirty"
+    },
+    {
+      "name": "Pressure switch",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "After the hose and the tub spigot have been proven clear"
+    }
+  ],
+  "when_to_call": "Call an appliance technician when the bucket test gives strong flow, the screens are clean, the valves read correctly on a meter and FH still appears, because the next step is tracing the harness and reading the control with the machine live. Call a plumber instead if the bucket test is weak or the pressure fades after a second, because the fault is in your house and an appliance engineer will charge a call-out to tell you so. Call either way if anything is leaking while this is going on: close both taps first, since a supply-side leak at mains pressure does far more damage than a washer that will not fill. These machines are old enough now that a board quote deserves a comparison against a new washer.",
+  "faqs": [
+    {
+      "q": "What does FH mean on a Kenmore Elite washer?",
+      "a": "It means the control opened the fill valves and never saw water arrive, so it stopped the cycle. It is a water supply fault first and a machine fault second. Check both taps are fully open and clean the mesh screens where the hoses meet the machine before suspecting anything electrical, because those two things account for most FH codes."
+    },
+    {
+      "q": "Is the code FH or HF?",
+      "a": "FH, often displayed as F/H with a slash, which is why so many people write it down as HF and find nothing when they search. There is no HF code on these machines. If your display shows two characters with a divider between them, read it left to right as F then H and everything on this page applies."
+    },
+    {
+      "q": "Why does my Kenmore show a Whirlpool code?",
+      "a": "Because Whirlpool built it. Kenmore is a Sears badge rather than a factory, and model numbers beginning 110 are Whirlpool machines with Kenmore trim, in this case Duet front loaders sold as Kenmore Elite HE3t and similar. The code set is Whirlpool's, which is why you see FH, F02 and F21 rather than two-letter LG codes."
+    },
+    {
+      "q": "Can I still use the washer with an FH code?",
+      "a": "No, because the machine stops rather than running a cycle without enough water. There is no safety risk in leaving the code on the display. If only the hot supply has failed, a cold-only cycle will often run normally, which is a useful free test of whether the problem is one side of your plumbing rather than the washer."
+    },
+    {
+      "q": "What is a flow meter and why does it matter here?",
+      "a": "It is a small turbine in the water path that counts how much water has gone into the machine. The control uses it alongside the pressure switch, so a flow meter whose impeller has seized with scale means water can be entering the drum while the control still believes none has arrived. Cleaning one often fixes an FH that survives all the supply checks."
+    },
+    {
+      "q": "The washer fills but still shows FH. What does that mean?",
+      "a": "The control saw water going in but never saw the level reach the point it expects, so it faults on the level side rather than the fill side. That points at the thin pressure switch hose being blocked or split, at a silted-up tub spigot, or at the pressure switch itself. Start with the hose, which costs nothing to check."
+    },
+    {
+      "q": "Why did FH appear suddenly when nothing changed?",
+      "a": "Inlet screens and flow meters clog gradually and then cross a threshold, so months of build-up look like a sudden failure. The other common trigger is work elsewhere in the house: a plumber closing a stopcock, a meter swap, or a mains repair that stirs sediment into your screens within a week."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "The fill path an FH code is complaining about",
+    "labels": {
+      "display": "FH",
+      "c1": "Hot inlet valve and mesh screen",
+      "c2": "Cold inlet valve and mesh screen",
+      "c3": "Flow meter impeller must spin",
+      "c4": "Pressure switch hose clear"
+    }
+  },
+  "sources": [
+    {
+      "title": "Whirlpool Duet platform water inlet fault codes and checks",
+      "publisher": "Whirlpool service literature for the equivalent Duet model",
+      "url": null
+    },
+    {
+      "title": "Kenmore Elite HE3t FH error code discussion threads",
+      "publisher": "iFixit answers community",
+      "url": null
+    },
+    {
+      "title": "Tech sheet inside the machine, fill system fault codes and component checks",
+      "publisher": "Whirlpool service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on FH, clogged inlet screens and seized flow meters",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "LF",
+    "F02",
+    "F35",
+    "F21",
+    "IE",
+    "F8 E1"
+  ]
+}

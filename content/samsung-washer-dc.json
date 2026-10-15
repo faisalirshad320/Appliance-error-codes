@@ -2,7 +2,7 @@
   "title": "Samsung Washer DC Error Code: Causes and Fix",
   "meta_description": "DC on a Samsung washer means the door is not being sensed as shut and locked. Usually laundry caught in the seal or a worn latch. Here is how to fix it.",
   "h1": "Samsung washer DC error code: what it means and how to fix it",
-  "answer": "DC means the washer could not confirm that the door is closed and locked, so it stopped rather than start or continue a cycle. The commonest cause is the simplest one: a corner of a towel or a sleeve trapped in the seal, holding the door a couple of millimetres off the strike. After that it is a worn latch hook, a sagging door, or a failed door lock assembly. DC is the newer display for the fault older Samsung machines show as DE, and the two are the same thing.",
+  "answer": "DC means the washer could not confirm that the door is closed and locked, so it stopped rather than start or continue a cycle. The commonest cause is the simplest one: a corner of a towel or a sleeve trapped in the seal, holding the door a couple of millimeters off the strike. After that it is a worn latch hook, a sagging door, or a failed door lock assembly. DC is the newer display for the fault older Samsung machines show as DE, and the two are the same thing.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "10 to 60 minutes",
@@ -12,7 +12,7 @@
     {
       "cause": "Laundry is caught between the door and the seal",
       "frequency": "most cases",
-      "confirm": "Open the door and run a finger all the way around the rubber. A sock toe or a shirt cuff poking out anywhere on the circumference is enough to hold the door off the strike by the millimetre the switch needs. Check the bottom of the seal, which is where things hide."
+      "confirm": "Open the door and run a finger all the way around the rubber. A sock toe or a shirt cuff poking out anywhere on the circumference is enough to hold the door off the strike by the millimeter the switch needs. Check the bottom of the seal, which is where things hide."
     },
     {
       "cause": "The door was not pushed shut hard enough",

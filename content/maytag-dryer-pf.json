@@ -20,7 +20,7 @@
     {
       "cause": "A tripped or failing breaker, or one leg of the double breaker dropping out",
       "frequency": "common",
-      "confirm": "Look at the dryer breaker in the panel. A tripped double breaker often sits slightly off centre rather than fully down. If the drum turns but there is no heat, one leg has gone while the other is still live, which is the classic half-tripped breaker symptom and will also throw PF when it finally lets go."
+      "confirm": "Look at the dryer breaker in the panel. A tripped double breaker often sits slightly off center rather than fully down. If the drum turns but there is no heat, one leg has gone while the other is still live, which is the classic half-tripped breaker symptom and will also throw PF when it finally lets go."
     },
     {
       "cause": "A loose or burnt connection at the terminal block behind the dryer",
@@ -139,7 +139,7 @@
     },
     {
       "q": "Can a PF code damage my dryer or my clothes?",
-      "a": "No. The dryer simply stops and waits. Clothes left in a warm drum will wrinkle and, if left overnight while damp, can start to smell, but nothing is harmed. The risk sits elsewhere: whatever is interrupting the power repeatedly, particularly a loose or overheating connection, is worth finding before it gets worse."
+      "a": "No. The dryer stops and waits. Clothes left in a warm drum will wrinkle and, if left overnight while damp, can start to smell, but nothing is harmed. The risk sits elsewhere: whatever is interrupting the power repeatedly, particularly a loose or overheating connection, is worth finding before it gets worse."
     },
     {
       "q": "My dryer tumbles but will not heat, and shows PF. What is wrong?",

@@ -162,7 +162,7 @@
     },
     {
       "q": "My code is not on any list. What now?",
-      "a": "Check your own model's code list in the manual or on the service sheet inside the cabinet, since coverage varies across the range. Then go by behaviour instead of the display: does water come in, does it go out, does the drum turn, does the door lock. Those four answers place almost any fault regardless of what the panel says."
+      "a": "Check your own model's code list in the manual or on the service sheet inside the cabinet, since coverage varies across the range. Then go by behavior instead of the display: does water come in, does it go out, does the drum turn, does the door lock. Those four answers place almost any fault regardless of what the panel says."
     }
   ],
   "diagram": {

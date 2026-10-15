@@ -32,7 +32,7 @@
     {
       "cause": "Detergent residue built up in the drum, dispenser and outer tub",
       "frequency": "occasional",
-      "confirm": "Pull the dispenser drawer right out. Grey-blue sludge in the housing or on the softener siphon cap means old detergent is being flushed into every load on top of whatever you poured in today, so a correct dose arrives as an overdose."
+      "confirm": "Pull the dispenser drawer right out. Gray-blue sludge in the housing or on the softener siphon cap means old detergent is being flushed into every load on top of whatever you poured in today, so a correct dose arrives as an overdose."
     },
     {
       "cause": "A slow drain, so normal foam never leaves the sump",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Clean the drain pump filter on front load models",
-      "detail": "Unplug the machine. Behind the lower front access panel there is a round filter cap and, next to it, a short drain tube. Drain the water out through the tube into a shallow pan first, then turn the filter cap counterclockwise and pull it out; expect about a litre more. Soap scum and lint trapped here hold foam in the sump between cycles. Rinse it, check the impeller turns freely, and refit hand tight.",
+      "detail": "Unplug the machine. Behind the lower front access panel there is a round filter cap and, next to it, a short drain tube. Drain the water out through the tube into a shallow pan first, then turn the filter cap counterclockwise and pull it out; expect about a liter more. Soap scum and lint trapped here hold foam in the sump between cycles. Rinse it, check the impeller turns freely, and refit hand tight.",
       "minutes": 25,
       "tools": "Phillips #2 screwdriver, shallow pan, towels",
       "warning": "Unplug at the outlet before reaching into the pump housing. The impeller has sharp edges."
@@ -109,7 +109,7 @@
     { "q": "Can bleach cause the SD code?", "a": "Thickened bleach can. Splash-free, easy-pour and no-splash chlorine bleaches contain thickeners that foam heavily in a low-water machine, and Maytag names them as a cause. Plain liquid chlorine bleach does not do this. If SD only shows up on loads where you bleached something, that is your answer and the fix costs a few dollars." },
     { "q": "Can I still use my washer when it shows SD?", "a": "Yes. The cycle runs longer while the machine rinses the foam away, but one sudsy load does no harm. Repeated suds locking is worth stopping, because foam carries detergent into the sump and pump where water would normally flush it, and over time that slows the drain enough to produce a genuine drain fault." },
     { "q": "Do laundry pods cause suds codes?", "a": "Often. A pod is a fixed dose sized for an average load, so every small, lightly soiled or soft-water wash is an overdose you cannot adjust. If SD shows up regularly and you use pods, switch to a measured HE liquid for a few weeks. If the code disappears, you have found it without spending anything on parts." },
-    { "q": "Why did SD start after years of the same detergent?", "a": "Something changed in the water or inside the machine rather than in the bottle. A new water softener, a mains repair, or simply years of detergent film building up in the drum and dispenser will tip a dose that used to be fine into one that foams. Run the Clean Washer cycle and strip the dispenser before blaming the detergent." }
+    { "q": "Why did SD start after years of the same detergent?", "a": "Something changed in the water or inside the machine rather than in the bottle. A new water softener, a mains repair, or years of detergent film building up in the drum and dispenser will tip a dose that used to be fine into one that foams. Run the Clean Washer cycle and strip the dispenser before blaming the detergent." }
   ],
   "diagram": {
     "kind": "washer-drain-pump",

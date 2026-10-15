@@ -12,7 +12,7 @@
     {
       "cause": "The drain pump filter is clogged with lint, coins and hair",
       "frequency": "most cases",
-      "confirm": "Open the lower front access panel and unscrew the filter cap. If it has never been cleaned since the machine was installed, you will pull out a grey felt plug with hardware in it. A filter that looks like that was absolutely restricting the flow."
+      "confirm": "Open the lower front access panel and unscrew the filter cap. If it has never been cleaned since the machine was installed, you will pull out a gray felt plug with hardware in it. A filter that looks like that was absolutely restricting the flow."
     },
     {
       "cause": "The drain hose is kinked, crushed or pushed too far into the standpipe",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Clean the drain pump filter",
-      "detail": "Unplug the machine. Lay towels and a shallow tray in front of it, because the tub still holds water. Open the lower front access panel, usually two or three screws or a snap-off cover, and turn the filter cap anticlockwise slowly, letting water out in stages rather than all at once. Expect a couple of litres. Pull the filter, clear it out, rinse it and screw it back in firmly by hand.",
+      "detail": "Unplug the machine. Lay towels and a shallow tray in front of it, because the tub still holds water. Open the lower front access panel, usually two or three screws or a snap-off cover, and turn the filter cap anticlockwise slowly, letting water out in stages rather than all at once. Expect a couple of liters. Pull the filter, clear it out, rinse it and screw it back in firmly by hand.",
       "minutes": 25,
       "tools": "Phillips #2 screwdriver, shallow tray, towels",
       "warning": "Unplug at the wall first. Open the cap slowly or you will flood the floor in one go."

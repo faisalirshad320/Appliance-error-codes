@@ -12,12 +12,12 @@
     {
       "cause": "The pump debris filter is clogged",
       "frequency": "most cases",
-      "confirm": "Open the panel at the bottom front and unscrew the filter. Grey felt packed solid around the mesh, with coins, hair clips and a button or two, is what you expect to find on a machine old enough to be showing SE rather than SC."
+      "confirm": "Open the panel at the bottom front and unscrew the filter. Gray felt packed solid around the mesh, with coins, hair clips and a button or two, is what you expect to find on a machine old enough to be showing SE rather than SC."
     },
     {
       "cause": "The drain hose is kinked, crushed or sitting in water",
       "frequency": "most cases",
-      "confirm": "Pull the machine out and follow the grey hose. Look for a flat spot where the cabinet has been pushed back onto it, and check how far the end goes into the standpipe. If the end is submerged, the machine siphons and the level never reads as dropping."
+      "confirm": "Pull the machine out and follow the gray hose. Look for a flat spot where the cabinet has been pushed back onto it, and check how far the end goes into the standpipe. If the end is submerged, the machine siphons and the level never reads as dropping."
     },
     {
       "cause": "The drain pump has worn out",

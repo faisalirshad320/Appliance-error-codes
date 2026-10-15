@@ -15,7 +15,7 @@
     {
       "cause": "A clogged filter or blocked spray arms are starving the circulation",
       "frequency": "most cases",
-      "confirm": "Lift the filter assembly out and look at the mesh, then take the spray arms off and hold them up to the light. A grey grease film on the mesh, or jets blocked with seeds and grit, drops circulation flow enough for the control to decide something is wrong even though the tub has water in it."
+      "confirm": "Lift the filter assembly out and look at the mesh, then take the spray arms off and hold them up to the light. A gray grease film on the mesh, or jets blocked with seeds and grit, drops circulation flow enough for the control to decide something is wrong even though the tub has water in it."
     },
     {
       "cause": "The machine is not filling to the level it expects",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Take the spray arms off and clear the jets",
-      "detail": "The lower spray arm lifts straight off its spindle on most Miele models. The upper arm and the ceiling spray, if you have one, unscrew by hand at the centre nut. Hold each arm up to a light and look down every jet. Push a toothpick or a straightened paperclip into any that are blocked, then rinse the arm through under a tap until water comes out of all of them. Refit and spin each arm by hand to check it turns freely.",
+      "detail": "The lower spray arm lifts straight off its spindle on most Miele models. The upper arm and the ceiling spray, if you have one, unscrew by hand at the center nut. Hold each arm up to a light and look down every jet. Push a toothpick or a straightened paperclip into any that are blocked, then rinse the arm through under a tap until water comes out of all of them. Refit and spin each arm by hand to check it turns freely.",
       "minutes": 15,
       "tools": "Toothpick or paperclip",
       "warning": null

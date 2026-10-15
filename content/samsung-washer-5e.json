@@ -2,7 +2,7 @@
   "title": "Samsung Washer 5E Error Code: Drain Fault and Fix",
   "meta_description": "5E on a Samsung washer is a drain error: the water did not leave in time. Clean the debris filter behind the bottom panel, then check the drain hose.",
   "h1": "Samsung washer 5E error code: what it means and how to fix it",
-  "answer": "5E means your Samsung washer ran its pump and the water level did not drop far enough within the time the control allows. It is the drain code on machines made before roughly 2017; newer Samsung washers show exactly the same fault as 5C, and some panels display it as SE. The blockage is almost always the debris filter behind the small panel at the bottom front of the machine, or a kink in the grey drain hose behind it. Drain the tub through the emergency hose first, then clean the filter.",
+  "answer": "5E means your Samsung washer ran its pump and the water level did not drop far enough within the time the control allows. It is the drain code on machines made before roughly 2017; newer Samsung washers show exactly the same fault as 5C, and some panels display it as SE. The blockage is almost always the debris filter behind the small panel at the bottom front of the machine, or a kink in the gray drain hose behind it. Drain the tub through the emergency hose first, then clean the filter.",
   "severity": "moderate",
   "can_diy": "yes",
   "time_estimate": "30 to 60 minutes",
@@ -17,7 +17,7 @@
     {
       "cause": "The drain hose is kinked, crushed or blocked at the standpipe",
       "frequency": "most cases",
-      "confirm": "Pull the machine out and follow the grey hose from the back to wherever it discharges. Look for a tight bend, a flat spot where the washer has been pushed back against it, and a sagging loop holding water. Pull the end out of the standpipe and check the last few inches have not slimed shut."
+      "confirm": "Pull the machine out and follow the gray hose from the back to wherever it discharges. Look for a tight bend, a flat spot where the washer has been pushed back against it, and a sagging loop holding water. Pull the end out of the standpipe and check the last few inches have not slimed shut."
     },
     {
       "cause": "An object is jammed in the pump impeller",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Walk the drain hose and test the standpipe",
-      "detail": "Pull the machine out and follow the grey hose end to end. Straighten kinks, lift sagging loops, and check the hose goes into the standpipe only far enough to stay put rather than jammed deep, so air can escape around it. Then pour a bucket of water down the standpipe. If it does not drain briskly, the fault is in the house plumbing.",
+      "detail": "Pull the machine out and follow the gray hose end to end. Straighten kinks, lift sagging loops, and check the hose goes into the standpipe only far enough to stay put rather than jammed deep, so air can escape around it. Then pour a bucket of water down the standpipe. If it does not drain briskly, the fault is in the house plumbing.",
       "minutes": 15,
       "tools": "Bucket, flashlight",
       "warning": null

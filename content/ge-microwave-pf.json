@@ -1,0 +1,121 @@
+{
+  "title": "GE Microwave PF Code: What It Means and How to Clear It",
+  "meta_description": "PF on a GE microwave means Power Failure. The unit lost power and wants you to acknowledge it. Press Clear/Off, reset the clock, and check why it happened.",
+  "h1": "GE microwave PF code: power failure, and how to clear it",
+  "answer": "PF stands for Power Failure. Your GE microwave lost electrical power and got it back, and it is telling you so rather than reporting a fault with itself. Press Clear or Clear/Off, then set the clock, and it is done. The thing worth your attention is not the code but the cause: a PF that keeps coming back means the microwave's power supply is unreliable, and that is a loose outlet, a tripping breaker or a shared circuit rather than a broken appliance.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "2 minutes to clear, 15 minutes to find a recurring cause",
+  "cost_estimate": { "diy": "$0", "technician": "$130 to $300" },
+  "safety_warning": "Everything on this page is done from outside the microwave, and that is deliberate. The high-voltage capacitor inside a microwave holds a lethal charge after the unit is unplugged, and it does not bleed off reliably on its own. That is not a legal hedge, it is the reason microwave repair is a technician's job. Do not remove the outer cabinet, the back panel or the control panel of a microwave for any reason, including to look.",
+  "causes": [
+    {
+      "cause": "A genuine power interruption",
+      "frequency": "most cases",
+      "confirm": "Other clocks in the house are flashing too, or the lights flickered earlier. A brief brownout, a utility blip or a tripped breaker will do it, and once you clear PF and reset the clock it never comes back."
+    },
+    {
+      "cause": "A loose plug or a worn outlet",
+      "frequency": "common",
+      "confirm": "PF returns every few days with nothing else in the house affected. Push the plug firmly home and check whether it holds snugly or falls loose. On an over-the-range microwave the outlet is in the cabinet above, where a plug can work loose over the years from the vibration of the door slamming."
+    },
+    {
+      "cause": "The microwave is sharing a circuit that dips under load",
+      "frequency": "common",
+      "confirm": "PF appears at the same moment something else starts: a disposal, a kettle, a space heater, an air conditioner compressor. Microwaves are supposed to have a dedicated circuit, and a lot of kitchens do not have one. The timing pattern is the whole diagnosis here."
+    },
+    {
+      "cause": "A GFCI or AFCI breaker is nuisance tripping",
+      "frequency": "occasional",
+      "confirm": "You find the outlet dead rather than live, or a GFCI with its button popped out. Microwaves and arc-fault breakers do not always get along, and a breaker that trips and is reset by someone else in the house leaves you with a PF and no explanation."
+    },
+    {
+      "cause": "The control board has failed or its memory is corrupted",
+      "frequency": "occasional",
+      "confirm": "PF appears the instant power is applied, every single time, and pressing Clear/Off either does nothing or clears it for a second before it comes straight back. A board that cannot hold the clock through normal operation is reporting a power failure that is not happening."
+    },
+    {
+      "cause": "A loose connection at the power cord terminal inside the unit",
+      "frequency": "rare",
+      "confirm": "Intermittent PF with a known-good outlet, sometimes with the microwave cutting out mid-cook. This one is real but it is inside the cabinet, so it is a technician diagnosis and not something to open the unit to look for."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press Clear or Clear/Off and reset the clock",
+      "detail": "Touch the Clear/Off pad once. PF should disappear and leave you at a blank or dashed display. Then set the clock using the Clock or Settings pad and the number keys, since the outage almost certainly wiped it. If PF clears and the microwave works normally from here, that is the whole story and nothing is wrong with the appliance.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether anything else lost power",
+      "detail": "Walk round and look at the oven clock, the coffee maker, any bedside clock radio, and anything with a battery backup that logs outages. If they are all flashing, you had a household power interruption and the microwave is simply the one that tells you about it in words. That rules out the appliance in about sixty seconds and saves you chasing a fault that does not exist.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the breaker and any GFCI on the circuit",
+      "detail": "Open the panel and look for a breaker that is sitting between on and off, which is how a tripped one usually presents. Switch it fully off and then fully on rather than just nudging it. Check any GFCI outlet in the kitchen for a popped reset button, since a single GFCI often protects several outlets including the one behind or above the microwave.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the outlet and the plug",
+      "detail": "For a countertop model, unplug it and look at the plug and the socket. For an over-the-range model, open the cabinet above the microwave: the outlet is usually at the back of it, with the cord coming up through a hole. Push the plug fully home and see whether it grips. Plug a lamp into the same outlet and wiggle it gently to see whether the light flickers. A loose receptacle is the most common recurring cause.",
+      "minutes": 10,
+      "tools": "Step stool, table lamp",
+      "warning": "If the outlet or plug is warm, discoloured, scorched or smells of burning, stop and call an electrician. That is a fire risk independent of the microwave."
+    },
+    {
+      "name": "Unplug for five minutes to reset the control",
+      "detail": "Pull the plug out, or switch the breaker off if you cannot reach it, and leave it for five full minutes. The control holds residual charge and a quick off-on sometimes leaves the stored state behind. Plug it back in, clear the display and set the clock. This is the only reset a microwave has, and it is also the point at which a healthy unit should come up clean.",
+      "minutes": 7,
+      "tools": null,
+      "warning": "Reach the plug or the breaker only. Do not remove any panel from the microwave itself."
+    },
+    {
+      "name": "Log when it happens if it keeps coming back",
+      "detail": "Write down the time and what else was running each time PF appears. A pattern that lines up with the disposal, the kettle or the air conditioner starting points at a shared or undersized circuit, which is an electrician's job and a genuinely worthwhile one. A pattern with no trigger at all, appearing instantly on every power-up, points at the control board instead.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If PF will not clear with the Clear/Off pad, or it reappears the second the display settles, work through it in this order. First, do a proper five-minute unplug rather than a quick one. The control needs time to lose its residual charge, and a surprising number of stubborn PF displays clear on a full power-down when they would not clear on a quick one. Second, prove the outlet rather than assuming it. Plug a lamp into the same socket, switch it on and gently move the plug: any flicker means the receptacle has lost its grip, which costs an electrician very little to replace and will keep producing PF forever if you ignore it. On an over-the-range unit, remember the outlet is inside the cabinet above, so a plug there has been shaken by every door slam for however many years the microwave has been up there. Third, if the microwave is on a circuit with other kitchen loads, get it looked at. These units are specified for a dedicated circuit, and a voltage dip when the disposal or the kettle kicks in is enough to make the control see an outage. An electrician adding a dedicated circuit is a few hundred dollars, which is a genuine expense, but it is also the real fix and it protects the appliance. Fourth, and only once the supply is proved good, you are looking at the control board. The symptom that identifies it is PF appearing instantly and identically on every single power-up, with the clock never holding. A board is typically $120 to $300 for the part and $130 to $300 fitted on top, which on a microwave over about seven years old is usually more than the appliance is worth. That is the honest answer most people need, especially for a countertop unit. For a built-in or over-the-range model the math is different, because replacing it means matching the cabinet opening and the trim kit, and a board repair can be the cheaper path. One thing not to do at any point: do not open the microwave to check a connection yourself. The high-voltage capacitor inside holds a charge that can kill after the unit is unplugged, and no amount of care from outside the trade makes that a sensible risk.",
+  "reset_procedure": "Press Clear or Clear/Off once to dismiss the PF display, then set the clock. If that does not work, unplug the microwave at the wall, or switch off its breaker, and leave it for five full minutes before restoring power. That is the complete reset available on a microwave and there is no hidden service sequence that does more. If PF is back within seconds of every power-up and the clock will not hold, the reset has done all it can and the fault is in the supply or the control board.",
+  "model_notes": "PF means power failure across GE's microwave range and across GE ranges, ovens and dishwashers too, so a kitchen that has just come back from an outage can show it on several appliances at once. What varies is the pad you press to clear it, which is Clear, Clear/Off or Cancel depending on the model and the age of the unit. Some GE models show a flashing clock or a row of eights instead of the letters PF after an outage, which means exactly the same thing. Over-the-range units differ from countertop ones in one way that matters here: their outlet is hidden in the cabinet above, so people assume there is nothing to check.",
+  "parts": [
+    { "name": "Replacement wall receptacle", "cost": "$5 to $20 plus an electrician's time", "difficulty": "technician only", "note": "The actual fix for most recurring PF codes. An electrician's job, not an appliance technician's" },
+    { "name": "Microwave control board", "cost": "$120 to $300", "difficulty": "technician only", "note": "Only when PF appears instantly on every power-up with a proved-good supply" }
+  ],
+  "when_to_call": "Call an electrician, not an appliance technician, if PF keeps coming back and the outlet is loose, warm, discoloured, or shared with heavy kitchen loads. That is where the fault almost always is, and an appliance technician will charge a call-out to tell you the same thing. Call an electrician immediately, before using the microwave again, if the outlet or plug is scorched or smells hot. Call an appliance technician only once the supply has been proved good and PF still appears instantly on every power-up with a clock that will not hold, because at that point it is the control board. Never open the microwave to investigate: the high-voltage capacitor holds a lethal charge after unplugging, which is exactly why this is a trade job and not a weekend one.",
+  "faqs": [
+    { "q": "What does PF mean on a GE microwave?", "a": "Power Failure. The microwave lost electrical power and then got it back, and it displays PF so you know the clock and any running program were lost. It is a notification rather than a fault report. Press Clear or Clear/Off, reset the clock, and if it does not come back there is nothing wrong with the appliance." },
+    { "q": "Is a PF code dangerous?", "a": "The code is not, but a cause can be. A one-off after a storm or an outage is harmless. A PF that returns repeatedly means the power supply to the microwave is unreliable, and if the outlet or plug is warm, discoloured or smells of burning, that is a fire risk and an electrician should see it before you use the appliance again." },
+    { "q": "Why does PF keep coming back on my GE microwave?", "a": "Usually a loose outlet or a shared circuit. On over-the-range models the outlet sits in the cabinet above and loosens over years of door slamming. The other common pattern is a voltage dip when the disposal, kettle or air conditioner starts, which the control reads as an outage. Log when it happens to tell the two apart." },
+    { "q": "Can I still use the microwave with PF showing?", "a": "Yes, once you have cleared it. PF does not disable anything, it just blanks the clock and cancels whatever was running. Press Clear/Off, set the clock and carry on. If the microwave also cuts out mid-cook, stop using it and get the supply checked, because that is a different and more serious symptom than a stale PF display." },
+    { "q": "Why can I not open the microwave to check the connection myself?", "a": "Because the high-voltage capacitor inside holds a charge capable of killing you after the unit is unplugged, and it does not reliably discharge on its own. This is the single thing that separates microwaves from every other kitchen appliance. Everything useful on this page is done from outside the cabinet, and that is not caution for its own sake." },
+    { "q": "Is a control board worth replacing to fix PF?", "a": "Rarely on a countertop microwave. A board is $120 to $300 plus $130 to $300 fitted, which on a seven-year-old unit exceeds what it is worth. On a built-in or over-the-range model the math changes, because replacement means matching the cabinet opening and trim, so a board repair is often the cheaper route." },
+    { "q": "The clock will not hold after I set it. Is that the same fault?", "a": "It is the same family and a more useful symptom than the code. A clock that resets on its own means the microwave is genuinely losing power, briefly and repeatedly. Check the plug and the outlet first, then the breaker. If the supply tests good and the clock still drops, the control board is not holding and that is a technician call." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing PF, and finding out why it came back",
+    "labels": {
+      "display": "PF",
+      "c1": "Press Clear/Off, reset the clock",
+      "c2": "Check other clocks in the house",
+      "c3": "Breaker and GFCI reset",
+      "c4": "Outlet in the cabinet above"
+    }
+  },
+  "sources": [
+    { "title": "Microwave displays PF after a power interruption, owner guidance", "publisher": "GE Appliances owner support documentation", "url": null },
+    { "title": "Over-the-range microwave installation requirements, dedicated circuit and outlet location", "publisher": "GE Appliances installation instructions", "url": null },
+    { "title": "Field reports on recurring PF codes and their supply-side causes", "publisher": "Appliance repair technician forums and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["F3", "F1", "F2", "LOCK"]
+}

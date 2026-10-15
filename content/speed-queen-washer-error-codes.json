@@ -1,0 +1,144 @@
+{
+  "title": "Speed Queen Washer Error Codes: Meanings and Fixes",
+  "meta_description": "Speed Queen washer Er and Ed codes explained, from door lock faults to temperature sensors and drive board errors, with what you can fix yourself.",
+  "h1": "Speed Queen washer error codes: what the display is telling you",
+  "answer": "Speed Queen washers show faults in two forms. Codes beginning Er, followed by two characters such as Er DL or Er SH, name the system that failed. Codes beginning Ed, followed by a number, are deeper diagnostic faults that usually point at the drive or control electronics. The door lock family is by far the most common thing owners meet, and most of those are the door not quite latching or something caught in the strike rather than a failed lock. Before you go any further, check whether your machine is one of the classic mechanical models with a dial and no digital display, because those have no error codes at all and nothing here will apply.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "5 minutes to read the code, 20 minutes to 2 hours to act on it",
+  "cost_estimate": { "diy": "$0 to $120 for the door and drain side", "technician": "$150 to $400 for a typical service call" },
+  "safety_warning": "Unplug the washer at the wall before any panel comes off, and do not rely on the power button. Never force a locked door open while the drum holds water or is still turning, and never defeat the door interlock to get a cycle to run; that interlock is the only thing stopping a drum full of hot water being opened mid-spin. On a hard-wired or 240 volt commercial-style installation, isolate at the breaker instead.",
+  "causes": [
+    {
+      "cause": "Door lock faults, the Er D1, Er DL and Er DU family",
+      "frequency": "most cases",
+      "confirm": "Er D1 means the door did not lock when the cycle tried to start. Er DL means it unlocked while a cycle was running, which the control treats as a safety fault. Er DU means it did not unlock when the cycle finished. Push the door firmly until it clicks and look along the strike for a sock corner, a coin or built-up lint stopping it seating."
+    },
+    {
+      "cause": "Water temperature sensor faults, Er SH and Er OP",
+      "frequency": "common",
+      "confirm": "Er SH is a shorted temperature sensor circuit and Er OP is an open one, so between them they cover both ways a thermistor circuit can fail. The washer usually stops rather than heating blind. A code that appears from cold every time is a real sensor or wiring fault; one that only shows after the machine has run a while points at a connection."
+    },
+    {
+      "cause": "Leak detection, Er LE",
+      "frequency": "common",
+      "confirm": "The control saw the water level fall when it should have stayed put. Pull the machine out and look underneath with a flashlight and a dry sheet of paper towel. Check the drain hose connection, the pump housing and the door seal. A machine that passes this test but still reports a leak may be draining slowly through a siphoning drain hose instead."
+    },
+    {
+      "cause": "Drive board and motor control faults, Er NR and the Ed number codes",
+      "frequency": "common",
+      "confirm": "Er NR means the drive board did not report itself ready. Ed 44 relates to the motor drive current sensing circuit. The symptom is a machine that fills and then sits there, or a drum that will not turn while the panel looks perfectly normal. These do not clear with cleaning and they are the point where cost becomes a real question."
+    },
+    {
+      "cause": "Dispenser valve circuit faults, such as Ed 49",
+      "frequency": "occasional",
+      "confirm": "Ed 49 points at the circuit driving a detergent or softener dispensing valve, where the control cannot switch it or cannot see a normal response. Clothes coming out with undissolved detergent on them, or a dispenser compartment that stays full at the end of a cycle, is the symptom that goes with it."
+    },
+    {
+      "cause": "Water supply and drain restrictions reported as other faults",
+      "frequency": "occasional",
+      "confirm": "A washer that fills too slowly or drains too slowly often reports a timeout rather than naming the supply. Check both taps are fully open, clean the mesh inlet screens where the hoses meet the machine, and check the drain hose for a kink or a clog before you accept a code at face value."
+    },
+    {
+      "cause": "Main control board failure",
+      "frequency": "rare",
+      "confirm": "Codes that change between power cycles, a display showing nonsense, or a machine dead with power present. Check the harness connectors for a backed-out terminal or green corrosion before condemning a board, because an intermittent connection mimics a board fault convincingly and costs nothing to fix."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm your machine actually has error codes",
+      "detail": "Speed Queen still builds classic top loaders with a mechanical dial, no digital display and no fault codes whatsoever. If yours has a rotary timer knob and a row of simple selector dials rather than a screen, nothing on this page applies and your symptom has to be diagnosed by behavior instead. Models with a digital display and electronic controls are the ones that report Er and Ed codes.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Photograph the code exactly as shown",
+      "detail": "Note whether it starts Er or Ed, because they are different families and lead to different work. Note the two characters or the number that follow, and whether there is a space. On a seven-segment display D and zero, and the letter O and zero, look nearly identical, so take a photo rather than trusting a glance in a dim laundry room.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Deal with the door before anything else",
+      "detail": "Open the door and run a finger all the way round the strike and the latch recess. Pull out any fabric corner, coin, hair clip or packed lint. Shut it firmly until you hear it click, then start a short cycle. On a front loader, check the door has not dropped on its hinges so the catch no longer lines up; you can usually see a bright wear mark slightly off-center on the strike plate if it has.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": "If the door is locked with water inside, drain the machine before trying anything. Never force a locked door on a drum holding water."
+    },
+    {
+      "name": "Do a full five-minute power reset",
+      "detail": "Press Power to cancel, then unplug the washer at the wall or switch off its breaker and leave it for five full minutes. The control holds residual charge and stores the fault, so a machine you have already fixed will keep showing the code. Plug it back in and run a rinse and spin to test rather than a full wash, so you get your answer in a few minutes rather than an hour.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the water supply and clean the inlet screens",
+      "detail": "Turn both taps anticlockwise until they stop; a quarter-turn lever must sit in line with the pipe. Then close them, put a towel and a tray down and unscrew each hose at the machine end. Behind each inlet port is a fine mesh screen: pick it out with needle-nose pliers, rinse and scrub it with an old toothbrush, and push it back in squarely. Do both hot and cold even if only one looks dirty.",
+      "minutes": 20,
+      "tools": "Pliers, old toothbrush, towel, tray",
+      "warning": "Close both taps before undoing a hose or you will take mains pressure in the face."
+    },
+    {
+      "name": "Check the drain path and look for the leak",
+      "detail": "Pull the machine out. Follow the drain hose to the standpipe or sink trap, straighten any kink and check it is not pushed so far down that the machine siphons. For a leak code, lay dry paper towel under the washer, run a short cycle and look at where it wets first: the pump housing, the drain hose clamp and the lower door seal are the three usual places.",
+      "minutes": 25,
+      "tools": "Flashlight, paper towel",
+      "warning": null
+    },
+    {
+      "name": "Inspect the connectors before suspecting a board",
+      "detail": "Unplug the washer. Take the top or rear panel off, usually a few screws at the back, and work along the harness to the door lock, the temperature sensor and the drive board. Look for a terminal that has backed out of its housing, green or white corrosion on pins, and any wire chafed where it crosses sheet metal. This costs nothing and resolves a real share of faults that look electronic.",
+      "minutes": 30,
+      "tools": "Nut driver or Phillips screwdriver, flashlight",
+      "warning": "Unplug at the wall or switch off the breaker before any panel comes off."
+    },
+    {
+      "name": "Find your model number and the service literature",
+      "detail": "The rating plate is usually on the rear of the cabinet or inside the door opening on a front loader. Speed Queen publishes proper service manuals and many of its machines are built on a commercial platform, so the documentation is better than most brands once you have the right model number. Code meanings differ between the home and commercial lines and between generations.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the door is clean and latching, the screens are clear, the drain path is open and a five-minute reset has not helped, split the problem by family, because the Er and Ed codes go to very different places. If you are in the door lock family and the door now clicks firmly but the code persists, the next test is the lock assembly itself: unplug the machine, get at the lock behind the front panel or the boot, and check its connector and the plunger travel. A door lock assembly is typically $40 to $120 and is a realistic home repair on most models. Do not, under any circumstances, bridge the interlock to make the machine run; that device is what stops a drum of hot water being opened at speed. If you are in the temperature sensor family, Er SH and Er OP tell you the circuit reads shorted or open, so check the sensor's connector first, then the sensor. Resist buying a sensor on the strength of the code alone, because a chafed wire gives the identical reading for free. If you are in the drive and control family, Er NR and the Ed numbers, this is where it stops being a parts-swapping exercise. These point at the inverter or drive board and the motor control circuit, and diagnosing them properly needs the service manual for your model and measurements taken with the machine live. A drive board is a several-hundred-dollar part and fitting the wrong one is an expensive lesson. If you are in the leak family and cannot find water anywhere, consider the quieter version: a drain hose pushed too far into a standpipe can siphon the drum down slowly during a cycle, which the control reads as a leak even though your floor stays dry. Pull the hose up so its end sits above the maximum water level in the drum and retest. The one genuine advantage you have with this brand is documentation: Speed Queen machines are built on a commercial platform and real service manuals exist for them, so once you have the exact model number you can usually find the actual diagnostic procedure rather than guessing from a code chart.",
+  "reset_procedure": "Press Power to cancel the cycle, then unplug the washer at the wall socket or switch off its breaker, wait a full five minutes and restore power. The wait matters because the control holds residual charge and a quick off-and-on frequently leaves the stored fault in place, which is why people conclude a good repair failed. Test with a rinse and spin rather than a full wash so you find out in minutes. Some Speed Queen models also have a service or diagnostic entry sequence using the cycle selector, but the sequence differs between the home and commercial lines, so look it up for your exact model rather than trying combinations. A code that returns on the test cycle means the fault is still real.",
+  "model_notes": "Speed Queen covers a wider range of machine types than most brands and the code set does not apply uniformly. Classic mechanical top loaders with a rotary timer and no digital display have no electronic fault codes at all, so a problem on one of those is diagnosed by behavior and by the service manual, not by a code. Electronic home models show the Er and Ed codes described here. Speed Queen also builds the commercial laundry machines found in laundromats and apartment buildings, and those use an overlapping but not identical set, often with additional codes tied to the coin or card payment system and the network card, which have no equivalent on a home machine. Front load and top load electronic models share much of the list but differ on the door lock codes, since a top loader's lid lock behaves differently from a front loader's door interlock. Get your model number from the rating plate before matching any code list to your machine.",
+  "parts": [
+    { "name": "Door lock and interlock assembly", "cost": "$40 to $120", "difficulty": "moderate", "note": "For the door family, once lint and alignment are ruled out" },
+    { "name": "Water temperature sensor or thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "For Er SH and Er OP, after the connector and wiring are checked" },
+    { "name": "Inlet hose mesh filter screens", "cost": "$5 to $15 a pair", "difficulty": "easy", "note": "Usually just need cleaning rather than replacing" },
+    { "name": "Drain pump", "cost": "$60 to $150", "difficulty": "moderate", "note": "For slow drain and some leak codes, after the hose is ruled out" },
+    { "name": "Drive or inverter board", "cost": "$250 to $500 fitted", "difficulty": "technician only", "note": "For Er NR and Ed drive codes; needs the service manual, not guesswork" }
+  ],
+  "when_to_call": "Call a technician for anything in the drive and control family, meaning Er NR and the Ed number codes, because diagnosing the inverter and motor control circuit properly needs the service manual and live measurements, and a wrongly chosen drive board is a several-hundred-dollar mistake. Call sooner if the door will not unlock and there is water in the drum, since forcing it is how people get scalded and break the latch as well. Call if a leak code keeps appearing and you cannot find the water, because a leak you cannot see is usually inside the cabinet where it will reach the electronics. For a commercial or laundromat machine, go to the Speed Queen distributor network rather than a general appliance repairer, because those machines have their own parts channels and documentation. And if the washer trips the breaker when you restore power, leave it off and get it looked at; that is a fault to earth in a wet appliance.",
+  "faqs": [
+    { "q": "What is the difference between Er and Ed codes on a Speed Queen washer?", "a": "Er codes are followed by two characters and name the system that failed, such as the door lock or the temperature sensor, and several of those are things you can act on yourself. Ed codes are followed by a number and sit deeper in the diagnostics, generally in the drive and control electronics. As a rule of thumb, Er is worth investigating at home and Ed usually is not." },
+    { "q": "My Speed Queen washer has no display. Where are the error codes?", "a": "There are none. Speed Queen still builds classic mechanical top loaders with a rotary timer knob and no digital display, and those machines have no electronic fault codes at all. A problem on one of those is diagnosed by what it does and does not do, using the service manual for your model number, not by looking up a code." },
+    { "q": "What does Er DL mean on a Speed Queen washer?", "a": "It means the door unlocked while a cycle was running, which the control treats as a safety fault and stops for. Check the door latches firmly and that nothing is caught in the strike, and look for a door that has dropped on its hinges so the catch no longer lines up. If the door is sound, the lock assembly or its wiring is the next suspect." },
+    { "q": "Can I open the door when the washer shows a lock error?", "a": "Not by force, and not while there is water in the drum. Drain the machine first, using the drain hose into a low bucket if the pump will not run. Most models have a manual release behind the lower access panel for exactly this. Never bridge or defeat the interlock to make the machine run; it is a genuine safety device." },
+    { "q": "Does Er SH mean I need a new temperature sensor?", "a": "Not necessarily. Er SH says the temperature sensor circuit reads shorted and Er OP says it reads open, but a chafed wire or a corroded connector gives the identical reading at no cost. Unplug the machine, find the sensor connector and inspect it properly before ordering a part. Buy the sensor only once the wiring is confirmed good." },
+    { "q": "Why are Speed Queen codes harder to look up than other brands?", "a": "Partly because the brand spans home machines, classic mechanical models and commercial laundromat equipment with overlapping but different code sets, and partly because most online tables do not say which line they describe. The upside is that Speed Queen publishes genuine service manuals, so once you have your exact model number the documentation is better than most." },
+    { "q": "Is a Speed Queen washer worth repairing when it throws a drive code?", "a": "Often yes, which is not true of every brand. These machines are built heavier than most domestic washers and routinely outlast them, so a drive board at $250 to $500 fitted can still be good value on a machine that has years left in it. Get a diagnosis and a written quote, and ask how old the machine is thought to be." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "The door lock circuit, where most Speed Queen codes start.",
+    "labels": {
+      "display": "Er DL",
+      "c1": "Strike clear of lint and fabric",
+      "c2": "Door clicks firmly when shut",
+      "c3": "Hinges not dropped out of line",
+      "c4": "Lock connector clean and seated"
+    }
+  },
+  "sources": [
+    { "title": "Speed Queen washer service manuals and fault code tables for home and commercial lines", "publisher": "Speed Queen and Alliance Laundry Systems service literature", "url": null },
+    { "title": "Speed Queen washer owner's manuals, control panel and troubleshooting sections", "publisher": "Speed Queen owner's manual supplied with the machine", "url": null },
+    { "title": "Speed Queen Er and Ed code references and recommended checks", "publisher": "Independent appliance repair guides", "url": null },
+    { "title": "Field reports on Speed Queen door lock, sensor and drive board failures", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["Er D1", "Er DL", "Er DU", "Er LE", "Er SH", "Er NR"]
+}

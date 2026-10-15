@@ -1,0 +1,176 @@
+{
+  "title": "Samsung Microwave RH-1 Code: What It Means and First Fix",
+  "meta_description": "RH-1 is not in Samsung's published microwave code tables. Reports point at the humidity sensor. Unplug for five minutes and dry it out first.",
+  "h1": "Samsung microwave RH-1: a poorly documented sensor code",
+  "answer": "RH-1 is a code Samsung does not publish in its public microwave error code tables, so anyone who tells you exactly what it means is guessing. What the field evidence shows is consistent: it appears on Samsung over-the-range and slim built-in microwaves, the owners who report it describe a unit whose timer counts down but does not heat, and the fault most often named is the humidity sensor circuit that the sensor-cook programs rely on. The first thing to do is unplug the microwave for five minutes and, if steam is likely, leave it to dry out for a day. If RH-1 returns after that, it is a service call rather than a home repair.",
+  "severity": "moderate",
+  "can_diy": "no",
+  "time_estimate": "10 minutes to reset, a day to dry out, then a service visit",
+  "cost_estimate": {
+    "diy": "$0, there is no safe home repair beyond a reset",
+    "technician": "$150 to $350 depending on the part"
+  },
+  "safety_warning": "A microwave's high voltage capacitor can hold a lethal charge long after the unit is unplugged, and it does not need the oven to be running for that to be true. Nothing on this page asks you to open the cabinet, and you should not open it unless you are trained to discharge that capacitor. Everything here is done from outside the case. If the microwave runs its timer but produces no heat, that is also a sign the high voltage side is involved, which is another reason to leave the inside to a technician.",
+  "causes": [
+    {
+      "cause": "A fault in the humidity sensor circuit used by the sensor-cook programs",
+      "frequency": "most cases",
+      "confirm": "This is what the available field reports and Samsung's own community responses point at. The usual pattern is a unit that still lights, still runs the turntable and still counts down, but shows RH-1 and does not heat properly, especially on sensor or auto programs. Manual power-level cooking sometimes still works, which is a useful thing to test."
+    },
+    {
+      "cause": "Steam or condensation behind the control panel after heavy cooking",
+      "frequency": "common",
+      "confirm": "This is an over-the-range unit above a stovetop that gets used hard, and RH-1 appeared after a boil-over or a long steamy cooking session. The telling sign is that the code clears after the microwave has sat unplugged and dry for a day. If it stays away for a week, moisture was the cause and nothing is broken."
+    },
+    {
+      "cause": "You are reading a menu label rather than an error code",
+      "frequency": "occasional",
+      "confirm": "On some Samsung panels RH is printed as a reheat program rather than a fault, and a program number can display alongside it. If the microwave still heats normally and the display clears when you press Cancel or Stop, you have selected a program rather than hit a fault. A genuine fault will not clear with Cancel and will come back."
+    },
+    {
+      "cause": "A damaged sensor harness or a loose connector behind the panel",
+      "frequency": "occasional",
+      "confirm": "RH-1 comes and goes rather than appearing every time, or appears only once the unit has been running a while and warmed up. From outside the case this looks identical to a dead sensor, which is one reason this code needs a technician with the unit open rather than a parts guess from a web page."
+    },
+    {
+      "cause": "A model-specific meaning that differs from the field consensus",
+      "frequency": "rare",
+      "confirm": "Your owner's manual or the service label on the unit lists RH-1 as something else entirely. Because Samsung has not published this code, a model-specific definition beats every general explanation including this one. Check the manual for your exact model number before anyone orders a part on your behalf."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the microwave for five minutes",
+      "detail": "Pull the plug at the outlet, or switch off its breaker if it is built in over a range and you cannot reach behind it. Leave it a full five minutes rather than a few seconds, because the control board holds residual charge. Restore power and see whether the clock returns and the code has gone. This is the step Samsung's own support gives first, and it clears a share of these.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether it is a fault or a program",
+      "detail": "Press Cancel or Stop and watch the display. A selected program clears; a stored fault does not. Then try a plain one minute run at full power with a cup of water in the cavity. If the water is hot afterward, the microwave is heating and whatever you are seeing is not stopping it working, which changes the urgency considerably.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Leave it unplugged to dry out for a day",
+      "detail": "If the unit sits above a stovetop, leave it unplugged with the door open for a full twenty-four hours in a dry room. Condensation behind a control panel takes a long time to clear on its own and a few hours is rarely enough. If RH-1 is gone when you restore power and stays away for a week, moisture was the cause and no part is needed.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test whether it heats at all",
+      "detail": "Put a mug of cold water in the cavity and run one minute at full power, then carefully feel the mug. Water that is properly hot means the magnetron and the high voltage side are working and the fault is in the sensing or control circuit. Water that is still cold means the unit is not heating, which is a bigger and more expensive problem and needs a technician.",
+      "minutes": 5,
+      "tools": "A microwave-safe mug",
+      "warning": "Take the mug out carefully. Water heated in a microwave can superheat and boil over suddenly when disturbed."
+    },
+    {
+      "name": "Check the manual for your exact model number",
+      "detail": "The model sticker is usually inside the door frame or on the back of the unit. Because Samsung does not publish RH-1 in its general code tables, the owner's manual or service documentation for your specific model is the only source that could define it properly. If it is listed there, believe that over anything you read online, including this page.",
+      "minutes": 15,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Write down exactly what the unit does before you call",
+      "detail": "Note whether the clock runs, whether the interior light comes on, whether the turntable spins, whether the water test got hot, and whether RH-1 appears immediately on power-up or only part way into a cycle. That list is worth more to a technician than the code itself, given how thinly documented this one is, and it shortens the diagnostic time you pay for.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If RH-1 comes back after a reset and a day of drying out, the useful work is narrowing down what the technician will be looking at, because the code itself will not tell them much. Start with the water test, since it splits the problem cleanly. If a mug of water comes out properly hot after a minute at full power, the magnetron and the high voltage circuit are fine and the fault sits in the sensing or control side, which is the cheaper half. If the water is still cold, the unit is not heating at all and that is a different and more serious repair, usually in the range where replacing the microwave starts to look sensible. Next, work out whether the fault is tied to sensor programs. Try a manual timed cook at a set power level rather than a sensor or auto program. If manual cooking works and only the automatic programs fail, that supports the humidity sensor explanation and means a technician is looking at a relatively inexpensive sensor and its harness. Then consider the environment, because it is free to change: an over-the-range unit above a stovetop that gets heavy use lives in steam, and running the hood fan on high while you cook underneath genuinely reduces how often the control panel sees moisture. Be straight with yourself about the economics before you book anyone. A sensor and a visit will usually land between $150 and $350, and Samsung over-the-range microwaves commonly sell new for $250 to $500, so an older unit with a repair quote over about half the replacement price is not worth fixing. And be straight with the technician too: tell them the code is not in Samsung's published tables, give them the behavior list rather than the code alone, and ask them to confirm the fault with the unit open rather than ordering a part off the code. Do not open the cabinet yourself to have a look. The high voltage capacitor in there can hold a charge that kills long after the plug is out, and there is nothing on the inside of a microwave worth that risk.",
+  "reset_procedure": "Unplug the microwave at the outlet, or switch off its breaker if it is built in, and leave it a full five minutes before restoring power. The wait matters because the control board holds residual charge and a quick off-and-on often leaves the fault latched. If the microwave has been exposed to steam, extend that to a full day with the door open in a dry room, since condensation behind a panel clears slowly. Samsung's own first-line advice for an unrecognized code is the same power cycle.",
+  "model_notes": "Samsung has not published RH-1 in the microwave error code tables on its support site, which list codes such as SE, the C-d group and the E-number door errors but not this one. The reports that do exist come from owners of over-the-range and slim built-in models, and Samsung's own community moderators have answered them with a generic power-cycle-and-service response rather than a definition. Separately, RH appears on some Samsung panels as a reheat program label, so the same two characters can mean different things depending on the model and on whether a number follows. Treat the owner's manual or the service documentation for your exact model number as authoritative, and treat every general explanation, this one included, as the best available reading rather than a definitive answer.",
+  "parts": [
+    {
+      "name": "Humidity sensor, sometimes listed as a moisture or gas sensor",
+      "cost": "$40 to $120",
+      "difficulty": "technician only",
+      "note": "Fitting it means opening the cabinet, where the high voltage capacitor lives"
+    },
+    {
+      "name": "Sensor wiring harness",
+      "cost": "$20 to $60",
+      "difficulty": "technician only",
+      "note": "A loose or corroded connector produces the same symptom as a dead sensor"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$100 to $250",
+      "difficulty": "technician only",
+      "note": "Last resort, and on an older unit this is usually the point to replace the microwave"
+    }
+  ],
+  "when_to_call": "Call a technician if RH-1 survives a five minute power cut and a day of drying out, because every remaining diagnosis is inside a cabinet containing a capacitor that can hold a lethal charge. Call sooner if the microwave does not heat a mug of water in a minute at full power, since that points at the high voltage side rather than a sensor. Ask for a diagnostic fee and a parts quote before any work starts, and tell them plainly that the code is not in Samsung's published tables so they diagnose the fault rather than order a part off the code. If the quote lands above about half the price of a comparable new unit, replacing is the honest answer.",
+  "faqs": [
+    {
+      "q": "What does RH-1 mean on a Samsung microwave?",
+      "a": "Samsung does not list RH-1 in its published microwave error code tables, so there is no official definition to quote. The available field reports and Samsung's own community responses point at the humidity sensor circuit, with owners describing a unit whose timer runs but which does not heat properly. Treat that as the best available reading rather than a certainty."
+    },
+    {
+      "q": "How do I clear the RH-1 code?",
+      "a": "Unplug the microwave at the outlet, or switch off its breaker if it is built in, and leave it a full five minutes before restoring power. That is Samsung's own first-line advice for an unrecognized code. If steam is likely, extend it to a day with the door open. If the code returns after that, it needs a technician rather than another reset."
+    },
+    {
+      "q": "Can I still use my microwave with RH-1 showing?",
+      "a": "Test it first with a mug of water at full power for a minute. If the water is properly hot and the unit behaves normally, you can keep using it in the short term while you arrange a look. If it does not heat, or if it behaves unpredictably, unplug it and stop, because you do not know what the control is actually doing."
+    },
+    {
+      "q": "Is RH-1 the same as the SE error code?",
+      "a": "No. SE is Samsung's key short error, meaning the control reads a touchpad button as permanently pressed, and it is well documented. RH-1 is not in Samsung's published tables at all and the reports around it describe a heating or sensing problem rather than a keypad fault. They need different repairs, so do not treat advice for one as advice for the other."
+    },
+    {
+      "q": "Why can nobody tell me exactly what RH-1 means?",
+      "a": "Because Samsung has not published it. Code tables on support sites cover the codes a manufacturer chooses to document, and service-only or model-specific codes sometimes never make that list. Anyone giving you a confident single-sentence definition is repeating a guess. The manual or service documentation for your exact model number is the only reliable source."
+    },
+    {
+      "q": "Is it worth repairing a Samsung microwave showing RH-1?",
+      "a": "Do the arithmetic before booking. A sensor plus a visit typically runs $150 to $350, and Samsung over-the-range microwaves commonly sell new for $250 to $500. If the quote comes in above about half the replacement price, or if the unit is not heating at all, replacing usually makes more sense than repairing."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "RH-1 is undocumented; start with a power cut and a heating test before anyone opens the case.",
+    "labels": {
+      "display": "RH-1",
+      "c1": "Unplug for five full minutes",
+      "c2": "Dry it out for a day",
+      "c3": "Test heating with a mug of water",
+      "c4": "Check the manual for your model"
+    }
+  },
+  "sources": [
+    {
+      "title": "Understanding the meaning of error codes on your Samsung microwave",
+      "publisher": "Samsung support documentation, which does not list RH-1",
+      "url": null
+    },
+    {
+      "title": "Slimline microwave error code, owner report and moderator response on RH-1",
+      "publisher": "Samsung US community forum",
+      "url": null
+    },
+    {
+      "title": "Owner questions describing RH-1 as a humidity sensor fault",
+      "publisher": "Retailer product question and answer threads",
+      "url": null
+    },
+    {
+      "title": "High voltage capacitor hazards in microwave oven servicing",
+      "publisher": "Appliance service safety guidance and manufacturer service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "SE",
+    "5E",
+    "C-d0",
+    "C-d1",
+    "E-36",
+    "E-47"
+  ]
+}

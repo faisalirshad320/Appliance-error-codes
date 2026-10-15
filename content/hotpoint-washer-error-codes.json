@@ -71,7 +71,7 @@
     },
     {
       "name": "Check the drain path, which is where most of these faults live",
-      "detail": "Unplug the machine. On a UK Hotpoint, open the flap at the bottom front, put a tray and towels down, turn the filter cap anticlockwise slowly and expect roughly a litre of water. Clear the lint, coins and hair out of it and check the impeller behind it turns freely. On a US GE-built top loader there is no filter to open, so instead pull the machine out, check the drain hose for kinks and crushing, and lift it out of the standpipe to check that end is clear.",
+      "detail": "Unplug the machine. On a UK Hotpoint, open the flap at the bottom front, put a tray and towels down, turn the filter cap anticlockwise slowly and expect roughly a liter of water. Clear the lint, coins and hair out of it and check the impeller behind it turns freely. On a US GE-built top loader there is no filter to open, so instead pull the machine out, check the drain hose for kinks and crushing, and lift it out of the standpipe to check that end is clear.",
       "minutes": 30,
       "tools": "Towels, shallow tray, flat screwdriver or coin, bucket",
       "warning": "Unplug before opening any pump filter or panel. The pump can run on its own if the cycle resumes."

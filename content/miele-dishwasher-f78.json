@@ -1,6 +1,6 @@
 {
   "title": "Miele Dishwasher F78 Error Code: Causes and Fix",
-  "meta_description": "Miele F78 is a circulation pump fault, usually a jammed impeller or the pump's own frequency converter.",
+  "meta_description": "Miele F78 is a circulation pump fault, usually a jammed impeller or the pump's own frequency converter. Here is how to tell which.",
   "h1": "Miele dishwasher F78: circulation pump fault explained",
   "answer": "F78 means your Miele's control has lost proper drive or feedback from the circulation pump, the pump that throws water up through the spray arms during a wash. Two things cause most of them: something hard jamming the impeller, or a failure in the frequency converter that drives the pump. The first is free to fix if you are lucky and the debris is reachable from the sump. The second usually means the pump is replaced as an assembly, because on modern Miele machines the converter is built into the pump and is not sold separately.",
   "severity": "serious",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Check the spray arms turn freely and the jets are clear",
-      "detail": "Lift the lower spray arm off its spindle and unscrew the upper arm at its centre nut. Hold each one up to a light and check every jet, clearing blocked ones with a toothpick, then rinse them through under a tap. Spin each arm by hand after refitting: it should turn with almost no resistance. An arm fouled on a tall item is a common way to overload a circulation pump in the first place.",
+      "detail": "Lift the lower spray arm off its spindle and unscrew the upper arm at its center nut. Hold each one up to a light and check every jet, clearing blocked ones with a toothpick, then rinse them through under a tap. Spin each arm by hand after refitting: it should turn with almost no resistance. An arm fouled on a tall item is a common way to overload a circulation pump in the first place.",
       "minutes": 15,
       "tools": "Toothpick, washing-up brush",
       "warning": null

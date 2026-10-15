@@ -1,0 +1,203 @@
+{
+  "title": "Amana Washer ND Error Code: Causes and Fix",
+  "meta_description": "Amana ND means no drain: water is still in the tub after about 15 minutes of pumping. Usually the drain hose or the pump.",
+  "h1": "Amana washer ND error code: what it means and how to fix it",
+  "answer": "ND stands for no drain. Your Amana washer ran the pump for around fifteen minutes, checked the water level again, and found the tub had not emptied, so it stopped rather than trying to spin a drum full of water. The water is still in there now. In most cases the blockage is somewhere in the path out of the machine, which means the drain hose, the standpipe it empties into, or something hard jammed in the pump impeller. A pump that has genuinely failed is the next most likely cause after that.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "1 to 2 hours including bailing out the tub",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$150 to $350"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain hose is kinked, crushed or blocked",
+      "frequency": "most cases",
+      "confirm": "Pull the washer out and run the hose from the back of the machine to the standpipe with your hands. A flat spot where the machine has been shoved back against the wall, a tight bend behind the leg, or a slug of lint and hair you can feel through the hose wall all show up this way."
+    },
+    {
+      "cause": "Something hard is jammed in the drain pump",
+      "frequency": "most cases",
+      "confirm": "You hear the pump try to run but it buzzes, hums or makes a rattling noise rather than the steady whirr of water moving. Coins, buttons, hair clips and bra underwires are the usual offenders, and on an Amana top loader they reach the pump directly because there is no filter in the way to catch them."
+    },
+    {
+      "cause": "The house drain or standpipe is backing up",
+      "frequency": "common",
+      "confirm": "Pull the drain hose out of the standpipe and look down it with a flashlight, or pour a gallon of water in from a jug. It should disappear without hesitating. If it backs up or gurgles, the restriction is in your plumbing and the washer is reporting the problem correctly."
+    },
+    {
+      "cause": "The drain pump has failed electrically or mechanically",
+      "frequency": "common",
+      "confirm": "Total silence from the pump at the point in the cycle where it should run, with the hose clear and nothing jammed in the impeller. A pump that is dead makes no sound at all, which is a different symptom from one that is blocked and buzzing."
+    },
+    {
+      "cause": "The lid lock is not engaging, so the washer will not drain or spin",
+      "frequency": "occasional",
+      "confirm": "Listen for the lock to click within a few seconds of starting a cycle. If the lid light flashes or the lock is silent, the machine never gets permission to run the pump at speed. A broken lock striker or a hinge that has dropped so the catch misses is the usual reason."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is lying about the water level",
+      "frequency": "occasional",
+      "confirm": "The tub is visibly empty but ND still appears. The washer judges water level through a thin air hose running from the bottom of the outer tub to a sensor, and soap scum in that hose or a split in it leaves the control convinced there is still water in a machine that has drained perfectly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the washer and get the water out",
+      "detail": "Pull the plug at the wall before anything else. Then bail the tub out with a jug into a bucket until you can reach the bottom, and sponge the last inch out. An Amana top loader can hold several gallons at this point, and you cannot work on the hose or the pump with it full because the moment the hose comes off it all arrives on the floor.",
+      "minutes": 25,
+      "tools": "Jug, bucket, old towels, sponge",
+      "warning": "Unplug at the wall first. Water and a plugged-in washer do not mix."
+    },
+    {
+      "name": "Check the drum for the obvious culprit",
+      "detail": "Reach into the empty tub and feel around the bottom and under the impeller or agitator skirt. Socks are the classic one: a single sock gets past the basket and sits over the drain opening like a plug. Pull out anything you find, and while you are in there run your hand around the rim of the basket for a bra wire that has escaped.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Pull the machine out and inspect the drain hose",
+      "detail": "Walk the whole length of the hose from the back of the washer to the standpipe. Straighten any kink, check for a flat spot where the cabinet has been pushed back onto it, and squeeze along it feeling for a soft blockage. Disconnect it at the standpipe end over a bucket, because there will be water in it, and look into both ends with a flashlight.",
+      "minutes": 20,
+      "tools": "Bucket, towels, flashlight, pliers",
+      "warning": null
+    },
+    {
+      "name": "Test the standpipe on its own",
+      "detail": "With the hose out, pour a gallon of water down the standpipe from a jug. It should vanish immediately and quietly. If it gurgles, rises, or comes back at you, the fault is in the house plumbing rather than the washer, and no amount of work on the appliance will fix it. Soap scum and lint build up in laundry standpipes over years.",
+      "minutes": 10,
+      "tools": "Jug, bucket",
+      "warning": null
+    },
+    {
+      "name": "Check how the hose sits in the standpipe",
+      "detail": "The hose should go into the standpipe a few inches only, and must not be sealed airtight with tape or a tight rubber boot. Pushed in too far, or sealed, the washer siphons: water drains out as fast as it comes in, the level never behaves as the control expects, and you get drain and fill faults that have nothing wrong with the machine at all.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get to the drain pump",
+      "detail": "On most Amana top loaders the pump sits at the base of the cabinet and there is no filter cap to open from the front, so reaching it means tipping the machine back against a wall or taking the front or rear panel off, depending on the model. Check your manual for which. With the hoses clamped off, pull the pump inlet and look for a coin or a wire sitting across the impeller, then turn the impeller by hand to feel for grit.",
+      "minutes": 45,
+      "tools": "Nut driver, pliers, hose clamp pliers, towels, helper",
+      "warning": "Washer unplugged and water bailed out before you tip it. These machines are heavy and awkward; get someone to help rather than wrestling it alone."
+    },
+    {
+      "name": "Clear the code and test with a rinse and spin",
+      "detail": "Plug the washer back in, press Start or Pause once to clear the code, then run a Rinse and Spin with the drum empty. Stand and listen at the point it should drain: you want a steady whirring and the sound of water leaving. Testing on a short cycle rather than a full wash means you find out in ten minutes instead of an hour.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the hose is clear, the standpipe takes a gallon without complaint and nothing is jammed in the pump, work through the remaining possibilities in this order. First, settle whether the pump is being told to run. Start a Rinse and Spin and put your ear against the cabinet at the point in the cycle where the pump should fire. A buzzing or humming pump is getting power and is either blocked or seized, and you have already checked for a blockage, so it is seized. Total silence means either the pump is dead or it is never being switched on, and those lead in different directions. Second, check the lid lock, because on an Amana top loader the washer will not drain at full speed with the lid unlocked. Start a cycle and listen for the click within the first few seconds. If the lid light flashes instead, the lock is the fault and the drain is innocent, which is a $40 to $90 part rather than a pump. Third, if the pump is confirmed dead, that part is typically $40 to $90 and perhaps an hour of work if you are comfortable tipping the machine and dealing with hose clamps. That is the sensible DIY ceiling on this fault. Fourth, and this is the one people miss: if the tub is visibly empty and ND still appears, the washer is not failing to drain at all, it is failing to notice that it has drained. The water level is read through a thin air hose running from a port at the bottom of the outer tub up to a pressure sensor. Soap scum plugs that hose, and a split in it leaks the pressure away. Pull both ends off, check for a blockage, blow it clear and look along it for a crack. That is a free repair and it resolves a stubborn minority of these. Beyond that, the cost jumps to the control board, which is $150 to $300 fitted, and at that point on an older machine the arithmetic is worth doing against a new washer.",
+  "reset_procedure": "Press Start or Pause once to clear the displayed code and again to restart the cycle. If ND comes straight back, unplug the washer at the wall for a full five minutes rather than pressing buttons at it, which is what Amana's service guidance calls for on control faults, then restart. Bear in mind that a reset only clears the message. If the tub still has water in it, the washer will reach the same point in the next cycle, measure the same thing, and show you the same code about fifteen minutes later.",
+  "model_notes": "Amana washers run on Whirlpool platforms, so the same no-drain condition appears as nd, drn or an F9 series code depending on the panel and the generation, and Amana's own documentation lists drn separately as the washer not draining properly. The practical difference is between top loaders and front loaders. Amana top loaders have no user-accessible pump filter, so reaching the pump means tipping the machine or removing a panel, and anything hard that gets past the basket arrives at the impeller directly. Amana front load models do have a filter behind the lower access panel, which is a ten minute job rather than an hour. Check your owner's manual before you start looking for a cap that may not exist.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$40 to $90",
+      "difficulty": "moderate",
+      "note": "The usual part when the pump hums or is silent with a clear hose"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $30",
+      "difficulty": "easy",
+      "note": "Worth replacing rather than fighting a hose that has been crushed flat"
+    },
+    {
+      "name": "Lid lock and switch assembly",
+      "cost": "$40 to $90",
+      "difficulty": "moderate",
+      "note": "If the lock never clicks, the washer never drains at speed"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "Usually just needs clearing; check before buying"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, once the pump, lock and sensor hose are cleared"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if a gallon of water poured into the standpipe backs up, because the washer is reporting your plumbing accurately and an appliance engineer will charge a call-out to say exactly that. Call an appliance technician if the pump is silent when it should be running and the hose and impeller are clear, since the next step is testing the pump and its harness with a meter inside a wet machine. It is also fair to call simply because tipping a top loader onto its back in a narrow laundry room is an awkward, heavy job, and a damaged floor or a cracked outer tub costs more than the visit. If the washer is leaking while this is happening, turn the taps off and stop.",
+  "faqs": [
+    {
+      "q": "What does ND mean on an Amana washer?",
+      "a": "No drain. The washer ran its pump for around fifteen minutes, rechecked the water level, found the tub had not emptied and stopped the cycle rather than spinning a drum full of water. The blockage is usually in the drain hose, the standpipe, or the pump impeller, and the water is still sitting in the machine until you deal with it."
+    },
+    {
+      "q": "How do I get the water out of an Amana washer showing ND?",
+      "a": "Unplug the machine, then bail the tub out with a jug into a bucket and sponge the last of it. On a top loader this is the only practical way, because there is no front drain filter and no drain-down tube. Lowering the drain hose into a bucket on the floor will siphon some of it out if the hose itself is clear."
+    },
+    {
+      "q": "Can I still use my washer with an ND code?",
+      "a": "No. The tub is full of water and the washer will not spin, so a cycle cannot complete and the laundry will come out soaking. Leaving standing water in the machine for more than a day or two also leaves a smell in the drum that takes a Clean Washer cycle to shift. Deal with the drain before running anything else."
+    },
+    {
+      "q": "Why does my washer say ND when the tub looks empty?",
+      "a": "Because it measures the water level with a pressure sensor connected to the outer tub by a thin air hose, not by looking. Soap scum blocking that hose, or a split along it, leaves the control convinced there is still water in a machine that drained perfectly. Pull the hose off both ends, check it for a plug and blow it clear."
+    },
+    {
+      "q": "Is ND the same as the drn code?",
+      "a": "In substance, yes. Amana documents drn as the washer not draining properly, and nd as the no-drain condition the control raises when the tub has not emptied in the time allowed. Different panels and generations show one or the other. Both point at the same path out of the machine and both are diagnosed the same way."
+    },
+    {
+      "q": "How much does it cost to fix an Amana ND code?",
+      "a": "Often nothing, because a kinked hose or a sock over the drain opening is free to fix. A drain pump is $40 to $90 as a part and about an hour of work. With a technician, expect $150 to $350 all in depending on whether a pump is needed. A control board, which is rare, pushes it to $150 to $300 fitted for the part alone."
+    },
+    {
+      "q": "Why did ND appear suddenly with no warning?",
+      "a": "Drain faults build up quietly and then cross a line. Lint, hair and soap scum narrow the hose and the standpipe over months until the pump can no longer shift the water in the time the control allows, so the failure looks sudden even though it has been coming. A single coin reaching the impeller does produce a genuinely overnight failure."
+    },
+    {
+      "q": "Does my Amana washer have a drain filter I can clean?",
+      "a": "Most Amana top loaders do not, so if you are looking for a cap behind a lower front panel you will not find one. Reaching the pump means tipping the machine or removing a panel. Amana front load models do have a filter behind the lower access panel, which makes the same job a ten minute one. Check your owner's manual."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "The path water takes out of an Amana washer, and where ND comes from",
+    "labels": {
+      "display": "nd",
+      "c1": "Bail the tub out first",
+      "c2": "Kink or blockage in drain hose",
+      "c3": "Coin or wire in the pump",
+      "c4": "Pour a gallon down the standpipe"
+    }
+  },
+  "sources": [
+    {
+      "title": "Error codes in top load HE washers, no drain and drn conditions",
+      "publisher": "Amana product help documentation",
+      "url": null
+    },
+    {
+      "title": "Washer drain system troubleshooting and pump access",
+      "publisher": "Amana owner's manual supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on nd codes, pump obstructions and pressure hose faults",
+      "publisher": "AppliancePartsPros technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "drn",
+    "5D",
+    "Sud",
+    "LF",
+    "oL",
+    "F9E1"
+  ]
+}

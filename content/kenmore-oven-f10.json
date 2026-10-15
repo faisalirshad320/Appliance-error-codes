@@ -1,0 +1,132 @@
+{
+  "title": "Kenmore Oven F10 Error Code: Runaway Temperature Fix",
+  "meta_description": "F10 on a Kenmore oven means the control saw the temperature running away above the setpoint. Cut power at the breaker, then check the sensor and relays.",
+  "h1": "Kenmore oven F10 error code: what it means and how to fix it",
+  "answer": "F10 on a Kenmore oven means the control decided the cavity temperature was running away: climbing past the setpoint instead of leveling off. The control shuts the oven down and shows the code because the alternative is an oven that keeps heating. There are only two things that cause it. Either the oven temperature sensor is lying to the control, or a relay on the control board has welded shut and is feeding the element regardless of what the control wants. Switch the range off at the breaker and find out which before you use it again.",
+  "severity": "stop-using-it",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to make it safe, 1 to 2 hours to diagnose",
+  "cost_estimate": { "diy": "$25 to $90", "technician": "$180 to $400" },
+  "safety_warning": "Treat F10 as the oven telling you it could not control its own heat. Switch the range off at the circuit breaker rather than just pressing Cancel, because a welded relay keeps feeding the element whether the control wants it to or not, and the keypad has no say in it. Everything past that point is behind a panel carrying 240 volt mains, so the breaker stays off while you work. On a gas model, close the gas shutoff behind the range as well, and leave the burner, the safety valve and the igniter to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has drifted or shorted",
+      "frequency": "most cases",
+      "confirm": "With the breaker off, unplug the sensor at the rear of the oven and measure across its two pins. These sensors are resistance temperature detectors, so the reading should rise steadily as the sensor warms. Hold it in your hand or near a hairdryer on low and watch the number climb. A reading that never moves, or sits near zero, means a shorted sensor feeding the control a false low temperature so it keeps heating."
+    },
+    {
+      "cause": "A relay on the control board has welded closed",
+      "frequency": "most cases",
+      "confirm": "The giveaway is visible. With the oven off at the keypad but power still on, look at the bake element: if it glows, or the oven keeps climbing after you press Cancel, a relay is stuck closed and the control cannot switch the element off. Kill the breaker immediately. This one is not a maybe, it is a stop."
+    },
+    {
+      "cause": "Damaged or pinched sensor wiring",
+      "frequency": "common",
+      "confirm": "The sensor itself measures correctly on the bench but the fault returns in the range. Follow the two sensor wires from the cavity back to the control, looking for insulation melted against the oven liner, a pin backed out of its connector, or a wire chafed where the harness passes a sheet metal edge."
+    },
+    {
+      "cause": "The control board itself has failed",
+      "frequency": "occasional",
+      "confirm": "A sensor that measures correctly, clean wiring end to end, no welded relay you can see, and F10 on every attempt at a bake cycle. The board is then misreading a good signal, which is possible but should be the last conclusion rather than the first."
+    },
+    {
+      "cause": "The code is being read on the wrong Kenmore platform",
+      "frequency": "occasional",
+      "confirm": "Kenmore is a badge rather than a factory, and the same F10 can be assigned differently depending on who built your range. Check the first three digits of the model number before the decimal point, which identify the manufacturer, and look for a service sheet or manual matching that platform rather than a generic Kenmore code chart."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch the range off at the breaker, not the keypad",
+      "detail": "Go to the panel and switch off the double breaker feeding the range. Pressing Cancel is not enough here: if a relay has welded shut, the control has already lost the ability to stop the element and the keypad is just a suggestion. On a gas model, close the gas shutoff valve behind the range too. Leave it off until you know which fault you have.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Do not keep using the oven while it shows F10. A runaway temperature fault is the one oven code that justifies cutting power first and asking questions second."
+    },
+    {
+      "name": "Check whether the element was still heating",
+      "detail": "Before you cut power, if it is safe to look, note whether the bake element was glowing with the oven supposedly off, and whether the oven ran far hotter than the setting. An element glowing with the control off points straight at a welded relay. An oven that merely overshot and tripped the code points more at the sensor. That single observation saves an hour.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Let the oven cool fully and do a power reset",
+      "detail": "Leave the breaker off for at least ten minutes and let the cavity come down to room temperature. Then restore power without starting anything and see whether the code returns on its own. A one-off F10 after a long self-clean sometimes clears and never comes back. A code that reappears the moment power is restored is a hardware fault and you are going further.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find and unplug the temperature sensor",
+      "detail": "With the breaker off, locate the sensor: a thin metal probe a few inches long projecting into the top rear corner of the oven cavity, held by two screws. Its wires pass through the back wall to a plug behind the rear access panel. Remove the rear panel screws with a nut driver and find that connector. Unplug it rather than cutting anything.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips screwdriver",
+      "warning": "Breaker off before the rear panel comes off. The terminal block behind that panel carries 240 volts and is not insulated."
+    },
+    {
+      "name": "Test the sensor by watching it respond to heat",
+      "detail": "Put a multimeter on ohms across the sensor's two pins and note the reading at room temperature. Then warm the probe in your hand or with a hairdryer on low for thirty seconds and watch the display. An oven sensor is a resistance temperature detector, so the resistance must climb steadily as it warms and fall back as it cools. A reading that does not move, reads near zero, or reads open circuit condemns the sensor with no reference figure needed. The target value for your model is on the service sheet, usually tucked behind the storage drawer or the rear panel.",
+      "minutes": 15,
+      "tools": "Multimeter",
+      "warning": "Never take a resistance reading with the breaker on."
+    },
+    {
+      "name": "Inspect the sensor wiring back to the control",
+      "detail": "Follow both sensor wires from the cavity to the control connector. You are looking for insulation that has melted where the harness touches the oven liner, a terminal backed out of its housing, green corrosion, or a wire chafed through at a sheet metal edge. A broken wire inside good-looking insulation reads open on the meter and looks perfect to the eye, so test continuity along each wire rather than trusting a glance.",
+      "minutes": 20,
+      "tools": "Multimeter, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Replace the sensor if it failed the test",
+      "detail": "Order by your full model number from the sticker, usually on the frame behind the oven door or inside the storage drawer. The probe comes out with two screws from inside the cavity and the wire pulls through from the back. Fit the new one with the same routing so the wire does not rest against the liner, and refit the rear panel before restoring power.",
+      "minutes": 30,
+      "tools": "Nut driver, replacement oven temperature sensor",
+      "warning": null
+    },
+    {
+      "name": "Test with a low bake before trusting it",
+      "detail": "Restore power and run a bake at a low setting with an independent oven thermometer on the middle shelf. Stay with it for the first twenty minutes and watch that the oven levels off near the setpoint rather than climbing past it. Do not run a self-clean cycle as your first test, because that is the hottest thing the oven does and the worst time to discover the fault is still there.",
+      "minutes": 30,
+      "tools": "Independent oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sensor measures correctly, responds to heat and its wiring is sound, F10 is coming from the control board and the question is only how it fails. Work through it in this order. First, settle the welded relay question properly, because it is the one that matters for safety. With the breaker off, take the rear panel off and look at the relays on the board for a scorched or discolored patch on the circuit board underneath one of them, which is what a relay that has been arcing leaves behind. Visible browning around a relay is a board, not a sensor. Second, if nothing is visibly cooked, put the oven back together, restore power, and run a bake while watching an independent thermometer. An oven that tracks the setpoint reasonably and then throws F10 after twenty minutes is behaving differently from one that climbs straight past and never stops, and the first points at a marginal sensor or connection while the second points at the relay. Third, before you buy a board, check the sensor plug one more time with the oven hot, because a connection that is fine cold and opens up as the harness expands is a classic intermittent and it reads perfect on a cold bench. Wiggle-test it with the meter attached. Fourth, the control board is where the cost jumps: expect $120 to $280 for the part and $180 to $400 fitted, and on a range much past ten years old that is worth weighing against replacement. One caveat specific to this badge: Kenmore ranges were built by several different manufacturers, so before spending anything on a board, find the three-digit prefix of your model number and confirm you are reading a code chart for the right platform. An F10 interpreted off the wrong maker's list has sent people after parts they never needed.",
+  "reset_procedure": "Switch the range off at the circuit breaker rather than pressing Cancel, and leave it off for at least ten minutes with the oven door open so the cavity cools. Restore power and leave the oven idle for a few minutes before setting anything. If F10 returns with the oven cold and nothing running, it is a hardware fault and no amount of resetting will help. A reset is worth exactly one attempt here, and then you move on to the sensor.",
+  "model_notes": "Kenmore is a badge rather than a manufacturer, and ranges sold under it were built by several different companies. The three-digit prefix before the decimal point in the model number identifies which, and the code charts are not interchangeable between them. Look that prefix up and find the manual or service sheet for the actual builder before trusting any generic Kenmore code list, including this one. The runaway-temperature reading of F10 is consistent across the platforms that use it, but a few sources describe it instead as a thermal protector or control overheat condition, which is a related but not identical fault. Either way the diagnosis starts in the same two places: the sensor and the relays.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws inside the cavity and a plug behind the rear panel" },
+    { "name": "Sensor wiring harness or connector repair kit", "cost": "$15 to $40", "difficulty": "moderate", "note": "For melted insulation or a backed-out terminal, which is cheaper than any board" },
+    { "name": "Electronic oven control board", "cost": "$120 to $280", "difficulty": "technician only", "note": "The welded-relay case; do not fit one until the sensor is proven good" },
+    { "name": "Bake element", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only if the element itself is visibly blistered or grounded" }
+  ],
+  "when_to_call": "Call a technician straight away if you saw the element glowing with the oven switched off at the keypad, because that is a welded relay and it is not a part to guess at. Call if the sensor tests good and the wiring is sound, since the next step is board-level work on a live 240 volt appliance. Call a licensed gas technician, and nobody else, for anything involving the burner, the safety valve or the igniter on a gas range. And if the oven has ever run far hotter than its setting while unattended, have the whole control checked rather than only replacing the part that tested bad, because the failure mode here is one that does not announce itself twice.",
+  "faqs": [
+    { "q": "Is it safe to use my Kenmore oven with an F10 code?", "a": "No. F10 means the control saw the temperature climbing past where it should have stopped, and it shut the oven down for that reason. Until you know whether the sensor or a relay caused it, switch the range off at the breaker. A welded relay keeps feeding the element regardless of what the keypad says, which is the case that matters." },
+    { "q": "What does runaway temperature actually mean?", "a": "It means the oven kept getting hotter instead of leveling off at the setpoint. Either the sensor is reporting a temperature lower than reality so the control keeps calling for heat, or the element is being fed power the control is no longer able to switch off. Both end the same way, which is why the control stops everything." },
+    { "q": "Can I just replace the temperature sensor and hope?", "a": "Test it first, because it is a five-minute check. Measure the resistance across the sensor and watch it climb as you warm the probe in your hand. If the reading moves smoothly, the sensor is fine and a new one changes nothing. Fitting parts on spec is how an $80 repair becomes a $300 one." },
+    { "q": "Why did F10 appear after a self-clean cycle?", "a": "Self-clean is the hottest thing the oven ever does and it is where marginal parts fail. The heat cooks sensor wiring that was already chafed, and it works relays harder than any bake cycle. If F10 first appeared during or just after a clean cycle, start with the sensor wiring near the cavity, where the heat damage will be visible." },
+    { "q": "How do I know who actually made my Kenmore range?", "a": "The first three digits of the model number, before the decimal point, identify the manufacturer rather than Kenmore itself. Find the model sticker on the door frame or inside the storage drawer, then look up that prefix. It matters because error code charts are not interchangeable between the companies that built Kenmore appliances." },
+    { "q": "Is an F10 repair worth it on an older range?", "a": "A sensor at $25 to $60 is always worth doing. A control board at $180 to $400 fitted is the decision point, and on a range over about ten years old with other things going wrong, it is close. Get the diagnosis first so you know which of the two you are deciding about." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What tells the oven how hot it is, and what switches the heat off.",
+    "labels": {
+      "display": "F10",
+      "c1": "Sensor probe in the cavity",
+      "c2": "Sensor plug behind rear panel",
+      "c3": "Relay that feeds the element",
+      "c4": "Breaker, off before anything"
+    }
+  },
+  "sources": [
+    { "title": "Understanding Kenmore range error codes", "publisher": "Sears Home Services support material", "url": null },
+    { "title": "Kenmore range service sheet, oven sensor and control diagnostics", "publisher": "Service sheet supplied inside the range", "url": null },
+    { "title": "Kenmore oven error code references and repair guidance", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Field reports on welded control relays causing runaway oven temperature", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F11", "F30", "F31", "F2", "F3"]
+}

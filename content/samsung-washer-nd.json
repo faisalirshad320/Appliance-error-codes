@@ -12,7 +12,7 @@
     {
       "cause": "The drain hose is kinked, crushed or sitting in water",
       "frequency": "most cases",
-      "confirm": "Pull the machine out and follow the grey hose end to end. Look for a flat spot where the cabinet has been pushed back onto it, and check how far it goes into the standpipe. If the end is below the water line in the pipe, the machine siphons and the level never reads as falling."
+      "confirm": "Pull the machine out and follow the gray hose end to end. Look for a flat spot where the cabinet has been pushed back onto it, and check how far it goes into the standpipe. If the end is below the water line in the pipe, the machine siphons and the level never reads as falling."
     },
     {
       "cause": "Something is blocking the pump or the sump",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Walk the drain hose and check its height",
-      "detail": "Pull the machine out and follow the grey hose from the cabinet to the wall. Take out every kink, free it from behind a leveling foot, and make sure the end sits just inside the standpipe rather than pushed down into standing water. The standpipe height matters as well, so check the installation sheet for the range your model needs.",
+      "detail": "Pull the machine out and follow the gray hose from the cabinet to the wall. Take out every kink, free it from behind a leveling foot, and make sure the end sits just inside the standpipe rather than pushed down into standing water. The standpipe height matters as well, so check the installation sheet for the range your model needs.",
       "minutes": 12,
       "tools": null,
       "warning": null

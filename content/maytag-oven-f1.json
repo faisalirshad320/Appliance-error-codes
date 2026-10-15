@@ -1,0 +1,116 @@
+{
+  "title": "Maytag Oven F1 Error Code: Control Board or Sensor",
+  "meta_description": "Maytag F1 is the code the sources disagree on most. One meter test on the oven sensor tells you whether it is the probe or the control board.",
+  "h1": "Maytag oven F1 error code: what it means and how to fix it",
+  "answer": "F1 is the Maytag oven code with the least agreement behind it. Some references describe it as a control board or keypad failure, which is how older Maytag electronic range controls used it, and others describe it as a fault in the oven temperature sensor circuit. Both readings are in circulation and neither is wrong for every model. The useful news is that one fifteen-minute test on the temperature sensor separates them, because if the probe reads open or shorted you have your answer and if it reads healthy the control is what is left. Do that before anyone quotes you for a board.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to test, an hour or more to repair",
+  "cost_estimate": { "diy": "$25 to $60", "technician": "$150 to $350" },
+  "safety_warning": "Testing means working behind the oven alongside mains wiring, and on a gas range alongside the gas line. Switch the oven off at its breaker first. Gas connections are a licensed job and are not something to loosen to get better access.",
+  "causes": [
+    {
+      "cause": "The oven control board has failed",
+      "frequency": "most cases",
+      "confirm": "F1 appears the moment you power up, before the oven has tried to heat anything, and it comes back within seconds of every reset. A board fault typically does not wait for the oven to get hot. If the display also behaves oddly, flickers, or beeps on its own, that points the same way."
+    },
+    {
+      "cause": "A key on the touch panel is stuck or shorted",
+      "frequency": "common",
+      "confirm": "The control thinks a button is being held down continuously. Press each key in turn and watch for one that gives no beep, feels spongy, or stays lit. A panel that has had a spill run behind it, or an overlay lifting at a corner, is the usual story."
+    },
+    {
+      "cause": "The oven temperature sensor circuit is open or shorted",
+      "frequency": "common",
+      "confirm": "Unplug the sensor at the rear and read across its two pins with a meter. Open circuit means a broken probe or lead; almost zero means a short. Either result makes the sensor the fault regardless of which published reading of F1 applies to your model."
+    },
+    {
+      "cause": "A loose or heat-damaged connector at the control",
+      "frequency": "occasional",
+      "confirm": "With the power off and the back panel off, check each plug at the control board for a pin pushed back, green corrosion, or a shell browned by heat. Reseating a connector is free, and it is worth doing before condemning the thing it plugs into."
+    },
+    {
+      "cause": "A one-off glitch from a brownout or surge",
+      "frequency": "occasional",
+      "confirm": "F1 appeared after a storm, a power cut, or an outage in the street, and the oven had been working normally. Cut the breaker for five minutes, restore it, and see whether it stays clear. If it does, nothing is broken."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Photograph the display and note any suffix",
+      "detail": "Record exactly what shows: a bare F1, or something longer like F1-E1 or F1-L. The suffix is the one thing that narrows this code reliably, because the bare F1 is documented inconsistently while the suffixed variants are more specific. A technician will ask for it, and so will the parts desk.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Power cycle at the breaker",
+      "detail": "Switch the oven off at its circuit breaker for five minutes, then back on. This is the only free fix available for F1, and it genuinely clears the ones caused by a brownout or a stored glitch. Give it the full five minutes rather than flicking it off and on, because the control holds residual charge and a quick cycle often does not drop the stored fault.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check for a stuck key",
+      "detail": "Work along the touch panel pressing every key in turn and listen for the beep each one should give. A key that does not respond, one that feels soft compared with its neighbors, or an overlay lifting at a corner all suggest the control is reading a permanent press. Wipe the panel dry and look for evidence of a spill that has run behind the membrane.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut the power and get behind the oven",
+      "detail": "Switch off the breaker. On a freestanding range, pull it forward and take the rear access panel off, usually a dozen screws around the edge. On a wall oven, slide the unit out of its cabinet far enough to reach the back. Work out where the oven temperature sensor's two wires terminate, which is a small two-pin connector a few inches behind the cavity wall.",
+      "minutes": 20,
+      "tools": "Nut driver or Phillips screwdriver, flashlight",
+      "warning": "Breaker off before the back panel comes off. Oven terminals carry mains voltage and some stay live even with the oven switched off at its own controls."
+    },
+    {
+      "name": "Run the sensor test that separates the two readings",
+      "detail": "Unplug the two-pin sensor connector and put a multimeter on ohms across the sensor side alone. Open circuit, shown as OL, means a broken probe or lead. Near zero means a short. Either way the sensor is your fault and the board is not. A steady sensible reading that climbs when you warm the probe tip in your hand means the sensor is healthy, which points the finger back at the control. You do not need to know the correct resistance for your model to read this test.",
+      "minutes": 15,
+      "tools": "Multimeter",
+      "warning": "Test only with the oven dead at the breaker, and only across the sensor side of the unplugged connector."
+    },
+    {
+      "name": "Inspect every connector at the control board",
+      "detail": "While the back is open, look at each plug on the control. Push gently on the pins to find any that have backed out, and look for green corrosion or a shell browned by heat. Unplug and reseat each one firmly. This costs nothing, takes ten minutes, and occasionally fixes an F1 that was about to be quoted as a new board.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "Power off at the breaker. Do not probe the control board live."
+    }
+  ],
+  "still_showing": "If the sensor reads healthy, the connectors are sound and F1 survives a proper five-minute breaker reset, you are most likely looking at the control, and the question becomes whether it is worth replacing. Work through it in this order. First, settle the keypad question, because on many Maytag panels the touch membrane and the control board are separate parts at very different prices, and a stuck key produces an F1 that looks exactly like a dead board. If pressing a particular key does nothing while its neighbors beep, say so when you order, because you may need the panel rather than the board. Second, if the code only appears once the oven is hot and clears when it cools, that behavior points at a connector or a solder joint failing at temperature rather than a board that is dead outright, and a technician who knows to look for it can sometimes fix it at the connector. Third, note whether the oven does anything at all. An oven that heats normally and just throws F1 intermittently is a different problem from one that will not start, and the intermittent version is far more often a connection than a component. Fourth, this is where the cost jumps. A Maytag oven control board runs well into the low hundreds before anyone touches it, and with labor on top you are frequently at half the price of a new range. Get the quote in writing and ask specifically whether the panel or the board is being replaced. One last free check worth doing: if your display shows a suffix rather than a bare F1, look that full code up for your exact model number rather than relying on the general meaning, because the suffixed variants are documented far more specifically than the bare code and may point somewhere neither reading on this page would.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes, then back on. Cancelling at the panel often leaves the stored fault in place, and the control holds residual charge, so a quick off and on frequently achieves nothing. This reset is worth doing properly once, because it clears the F1 codes caused by a brownout or surge. If the code returns within seconds, the fault is live and repeating the reset will not change that.",
+  "model_notes": "F1 is the Maytag oven code where published sources diverge most. Older Maytag electronic range controls used F1 as a control board failure, and several current repair references still list it that way or as a keypad fault. Other references list it as a temperature sensor circuit problem. Both appear in reputable-looking sources and neither covers every model, so this page gives the test rather than picking a side. Newer Maytag ovens use a two-part code such as F1-E1 or F1-L, and the suffix is documented more specifically than the bare code, so a suffixed display is worth looking up against your exact model number. Maytag has been part of the Whirlpool group since 2006, so these codes behave like their Whirlpool and KitchenAid equivalents.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "easy", "note": "Cheap enough to rule in or out first" },
+    { "name": "Touch panel or membrane", "cost": "$80 to $220", "difficulty": "moderate", "note": "Separate from the board on many models; ask which one you need" },
+    { "name": "Oven control board", "cost": "$160 to $350", "difficulty": "technician only", "note": "Only after the sensor, keypad and connectors are ruled out" }
+  ],
+  "when_to_call": "Call a technician once the sensor tests good and the connectors are sound, because everything left means diagnosing a live control board and deciding between the panel and the board, which is exactly what you are paying for. Call sooner if the oven is gas, since getting behind it brings you alongside the supply line and gas work is licensed only. And get the quote in writing before approving anything: on a range over ten years old, a control board plus labor lands close enough to the price of a new appliance that it deserves a hard look rather than a reflex yes.",
+  "faqs": [
+    { "q": "Does F1 mean my Maytag control board is dead?", "a": "Not necessarily, and that is the whole problem with this code. Some references list F1 as a control or keypad failure and others as a temperature sensor fault, and both appear on real models. Test the oven sensor with a meter before accepting a board quote, because an open or shorted probe is a far cheaper answer and takes fifteen minutes to confirm." },
+    { "q": "Can I still use the oven with an F1 code?", "a": "No. Whichever reading applies, the control has lost confidence in either its own operation or its temperature reading, and an oven that heats without reliable regulation is a fire risk. Switch it off at the breaker and leave it off. If the code is intermittent, that is not a reason to keep cooking with it." },
+    { "q": "Why does F1 keep beeping and coming back after a reset?", "a": "Because the fault is still live rather than stored. A five-minute breaker reset clears codes left behind by a brownout or a one-off glitch, and those stay clear. A code that returns within seconds every time is telling you the control is detecting the problem again immediately, and resetting it repeatedly will not change that." },
+    { "q": "What is the difference between F1 and F1-E1 on a Maytag?", "a": "The suffix narrows it. A bare F1 is documented inconsistently across generations, while the two-part codes are more specific about which part of the circuit the control is unhappy with. If your display shows a suffix, look that full code up against your exact model number rather than relying on the general meaning of F1." },
+    { "q": "Why did F1 appear right after a power cut?", "a": "A brownout or surge can leave a stored fault in the control without anything actually being broken. That is the one version of F1 that costs nothing: cut the breaker for a full five minutes, restore it, and see whether the oven behaves. If it stays clear through a normal bake cycle, you are done." },
+    { "q": "Is an F1 repair worth it on an older Maytag?", "a": "If the sensor turns out to be the fault, yes, easily. If it comes down to the control board, think carefully. The board alone runs into the low hundreds and labor roughly doubles it, which on a range over ten years old is often half the cost of replacing the whole appliance with something under warranty." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What to rule out before replacing a Maytag oven control",
+    "labels": {
+      "display": "F1",
+      "c1": "Breaker off five full minutes",
+      "c2": "Press every key for a stuck one",
+      "c3": "Meter the sensor at its plug",
+      "c4": "Reseat connectors at the board"
+    }
+  },
+  "sources": [
+    { "title": "Maytag oven and range error code references", "publisher": "Maytag owner support documentation", "url": null },
+    { "title": "Maytag and Whirlpool range service literature, control and sensing circuits", "publisher": "Whirlpool group service documentation", "url": null },
+    { "title": "Conflicting published readings of the bare Maytag F1 code", "publisher": "Appliance repair trade references and technician forums", "url": null }
+  ],
+  "related_codes": ["F1-E1", "F3", "F5", "F4"]
+}

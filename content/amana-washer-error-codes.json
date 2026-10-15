@@ -1,0 +1,145 @@
+{
+  "title": "Amana Washer Error Codes and How to Reset the Washer",
+  "meta_description": "What Amana washer codes mean and how to reset one: Start/Pause twice, or unplug for five minutes. Full list of nd, 5D, LF, uL, LOC and the F#E# pairs.",
+  "h1": "Amana washer error codes: the list, and how to reset the machine",
+  "answer": "The reset that works on any Amana washer is to press Start or Pause once to clear the code and again to restart, and if that does not hold, unplug the machine at the wall for five full minutes. Amana is built by Whirlpool, so the codes follow Whirlpool conventions: short lowercase messages like nd, Sud, LF and uL describe a condition the washer can see, while the longer F number and E number pairs are real faults, where the F identifies which system failed and the E identifies how. A reset clears the message, not the cause, so if a code returns within a cycle or two, it is telling you something true.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to reset, 20 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $90 for the common codes", "technician": "$150 to $350 for a typical visit" },
+  "safety_warning": "Unplug the washer at the wall before any panel comes off or before you tip the machine to reach the pump, and bail the tub out first so you are not working above standing water. Never defeat the lid lock to get a cycle to run with the lid open: on a top loader the basket spins fast enough to do serious injury, and the lock is the only thing standing between you and it.",
+  "causes": [
+    {
+      "cause": "Drain faults, shown as nd, drn, Ld or an F9 pair",
+      "frequency": "most cases",
+      "confirm": "The tub still has water in it and the washer will not spin. The machine ran its pump, rechecked the level and found the water still there. Check the drain hose for kinks, pour a gallon into the standpipe to test the house drain, then look for a coin or a bra wire in the pump impeller."
+    },
+    {
+      "cause": "Suds, shown as 5D, Sd or Sud",
+      "frequency": "most cases",
+      "confirm": "Foam standing above the water line in the drum that does not collapse when the basket stops. The washer pauses and adds rinses on its own, which is why the cycle runs long. The cure is about a tablespoon of HE liquid measured with a spoon rather than the bottle cap."
+    },
+    {
+      "cause": "Fill and water supply faults, shown as LF, LF, or an F8 pair",
+      "frequency": "common",
+      "confirm": "The washer takes far longer to fill than usual or never reaches level. Check that both taps behind the machine are fully open, then undo the hoses at the machine end and look at the mesh screens in the inlet ports. A furred or scaled screen rather than bright metal is the usual answer."
+    },
+    {
+      "cause": "Load and balance messages, shown as uL, oL or int",
+      "frequency": "common",
+      "confirm": "These are not faults. uL means the load is unbalanced and the washer wants it redistributed, oL means you have overloaded it, and int means the cycle was paused or cancelled. Open the lid, spread the laundry evenly around the basket, close it and restart."
+    },
+    {
+      "cause": "Lid lock and control lock, shown as LOC, LC or a flashing lid light",
+      "frequency": "common",
+      "confirm": "LOC or LC is the control lock, a child safety feature, cleared by holding the button marked with a padlock for a few seconds. A flashing lid indicator is different: the washer cannot confirm the lid is locked, so it refuses to drain or spin. Listen for the click in the first seconds of a cycle."
+    },
+    {
+      "cause": "Motor, drive and basket faults, shown as F7 pairs",
+      "frequency": "occasional",
+      "confirm": "The basket will not turn, turns in one direction only, or the machine makes a loud grinding on spin. On a top loader this is frequently the drive system under the basket rather than the motor itself, and it is where a repair stops being cheap."
+    },
+    {
+      "cause": "Control and communication faults, shown as other F pairs",
+      "frequency": "rare",
+      "confirm": "A code that appears on a cold, idle machine, a panel that does not respond, or a washer that behaves differently every cycle. These are the ones where a proper five minute unplug is genuinely the right first move, and where a technician earns their fee."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as the panel shows it",
+      "detail": "Take a photo of the display. On a seven-segment panel the digit 5 and the letter S are drawn identically, which is why the suds code is read as both 5d and Sd, and a zero and a letter O are nearly indistinguishable. For an F number and E number pair, record both digits. Getting the code wrong sends you to a completely different repair.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether it is a fault or a message",
+      "detail": "Several Amana codes are not breakdowns. uL means redistribute the load, oL means you put too much in, int means the cycle was interrupted, LOC or LC means the control lock is on, and dET means the washer did not detect a detergent cartridge on models that take one. Deal with those directly before assuming anything is broken, because none of them needs a part.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do the quick reset first",
+      "detail": "Press Start or Pause once to clear the displayed code, then press it again to restart the cycle. This is the reset Amana's own guidance gives for system codes and it handles most one-off messages. If the code clears and the cycle runs to the end, you had a glitch. If it reappears at the same point in the cycle, it is real and you need the longer reset.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do the full five minute power reset",
+      "detail": "Unplug the washer at the wall socket, or switch off its breaker, and leave it for a full five minutes. Amana's service documentation calls for five minutes rather than a quick off and on, because the control holds residual charge and a short interruption leaves the stored fault in place. Plug it back in and run a Rinse and Spin to test, so you find out in ten minutes rather than an hour.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Rule out the laundry and the installation",
+      "detail": "Open the lid and look at the load: bunched towels on one side explain uL, a drum packed to the rim explains oL, and foam above the waterline explains 5D. Then pull the machine out and check that the drain hose is not kinked, not crushed against the wall, and not pushed more than a few inches into the standpipe. A siphoning drain produces fill and drain codes on a perfectly healthy washer.",
+      "minutes": 20,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the water in and the water out",
+      "detail": "For any fill code, close the taps, undo both hoses at the machine end over a towel and pick the mesh screens out of the inlet ports with needle-nose pliers; rinse and scrub them. For any drain code, unplug the washer, bail the tub out, then disconnect the drain hose over a bucket and pour a gallon into the standpipe to see whether your plumbing takes it.",
+      "minutes": 40,
+      "tools": "Pliers, old toothbrush, bucket, jug, towels",
+      "warning": "Close the taps before undoing a supply hose, and unplug the washer before touching the drain side."
+    },
+    {
+      "name": "Find your model number and the owner's manual",
+      "detail": "The model sticker is usually under the lid, on the rim of the opening, or on the back of the cabinet. Amana states plainly that its published code lists are not exhaustive and that the manual for your specific model is the authority. That matters because Amana sells both top and front loaders with different hardware and different code sets behind similar-looking panels.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide what is worth your time",
+      "detail": "Cleaning inlet screens, clearing a drain hose, redistributing a load and cutting the detergent dose are all straightforward with hand tools. Replacing a drain pump or a lid lock is a reasonable afternoon if you are comfortable tipping the machine. Drive system work under the basket and control board diagnosis are where a technician earns the call-out fee on a machine that is already several years old.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a code survives both resets, the useful question is not what the code means but which of three situations you are in, because they lead to very different places. The first is a code that comes back at the same point in every cycle, always the same code. That is a repeatable fault and the code is pointing at the right system, so follow the specific page for it: drain codes mean the hose, the standpipe and the pump, in that order; fill codes mean the taps and the inlet screens; suds means the detergent dose; lid codes mean the lock and its alignment. The second is a code that changes between cycles, or appears intermittently. That almost always means a connection rather than a component. With the washer unplugged, take the rear panel off and work along the harness looking for a terminal backed out of a connector, green corrosion in a damp laundry room, and a wire chafed through where it crosses a sheet metal edge. People replace two or three parts chasing intermittent codes and rarely fix anything that way. The third is a washer that shows a code and then stops responding to the panel entirely, which usually means the user interface or the main control rather than whatever the code named. Across all three, the point where the cost jumps is the same: a drain pump is $40 to $90, a lid lock $40 to $90, a water inlet valve $25 to $60, and all of those are sensible repairs. A main control board is $150 to $300 fitted, and drive system work under the basket on a top loader runs $250 to $450 with labor. On an Amana washer much over eight years old, either of those last two is worth comparing against the price of a new machine before you commit, particularly if the machine is also noisy on spin or leaking. One thing to check before spending anything: confirm you read the code correctly. Sd and 5d are the same code, and an F8 pair and an F9 pair mean opposite ends of the water path.",
+  "reset_procedure": "Two resets, in this order. The quick one: press Start or Pause once to clear the displayed code, then press it again to restart the cycle. The full one: unplug the washer at the wall, or switch off its breaker, and leave it for five full minutes before restoring power. Amana's service guidance specifies five minutes rather than a quick off and on, because the control board holds charge and a short interruption often leaves the stored fault in place. Test with a Rinse and Spin rather than a full wash. Two things neither reset will clear: the control lock, which is cleared by holding the button marked with a padlock, and any code whose underlying cause is still physically present, such as water still sitting in the tub.",
+  "model_notes": "Amana washers are made by Whirlpool Corporation and share platforms with Whirlpool and Maytag machines, which is why the same conditions appear as 5D here, Sd on a Whirlpool panel and Sud on a Maytag. The code set depends more on which platform your machine sits on than on the badge. The biggest practical split is top loader versus front loader: Amana top loaders have no user-accessible pump filter, so a drain code means tipping the machine or removing a panel, while Amana front load models have a filter behind the lower access panel that takes ten minutes. On the F number and E number codes, the F identifies the system and the E the specific failure within it, with the F8 group covering water supply and fill, the F9 group covering drain, and the F7 group covering motor and basket rotation on the shared top-load platform. Amana states that its published code lists are not complete, so the manual for your exact model number settles any disagreement with a generic chart.",
+  "parts": [
+    { "name": "Drain pump assembly", "cost": "$40 to $90", "difficulty": "moderate", "note": "The common part behind nd and the F9 group" },
+    { "name": "Lid lock and switch assembly", "cost": "$40 to $90", "difficulty": "moderate", "note": "If the lock never clicks, the washer will not drain or spin" },
+    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "For fill codes, after the taps and screens are ruled out" },
+    { "name": "Inlet hose mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Usually just need cleaning rather than replacing" },
+    { "name": "Main control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Last resort, after the harness and connectors are proved good" }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if a gallon of water poured into the standpipe backs up, because the washer is reporting your house drain accurately and an appliance engineer will charge a call-out to tell you so. Call an appliance technician when a code survives both resets and a visual check of the relevant hoses, screens and connectors, since the next step is testing components with a meter inside a wet machine. Call sooner rather than later for anything involving the drive system under the basket or a machine that trips its breaker, and stop using a washer that is leaking while showing any code at all. Do not pay anyone to tell you to use less detergent or to spread a load out more evenly.",
+  "faqs": [
+    { "q": "How do I reset an Amana washer?", "a": "Press Start or Pause once to clear the code and again to restart the cycle. If that does not hold, unplug the machine at the wall or switch off its breaker and wait a full five minutes before restoring power. The wait matters because the control holds residual charge, and Amana's own service guidance specifies five minutes rather than a quick off and on." },
+    { "q": "What is the most common Amana washer error code?", "a": "The drain and suds codes between them, nd and 5D or Sud. Both have cheap causes: a kinked drain hose or a coin in the pump for nd, and too much detergent for the suds code. Neither usually needs a part. The fill codes in the LF and F8 family come next, and a clogged inlet screen is the usual answer there." },
+    { "q": "What does the F and E number mean on an Amana washer?", "a": "The F number identifies which system failed and the E number identifies the specific failure within it, so an F8 code is about getting water in and an F9 code is about getting water out. Read and record both numbers, because the F alone is not enough to look up and two codes in the same group can mean quite different repairs." },
+    { "q": "Will resetting my Amana washer clear the error for good?", "a": "Only if the code came from a glitch. A reset clears the stored message, not the condition that produced it, so a washer with water still in the tub will reach the same point in the next cycle and raise the same code about fifteen minutes later. If a code returns within a cycle or two, treat it as a real fault and stop resetting." },
+    { "q": "Is LOC an error code on an Amana washer?", "a": "No, LOC or LC means the control lock is switched on, which disables the buttons so a child cannot start the machine. Hold the button marked with a small padlock for a few seconds to clear it. It is designed to survive a power cut, so unplugging the washer will not turn it off. Nothing is broken." },
+    { "q": "Why does my Amana washer show a code but keep running?", "a": "Because some codes are conditions rather than stop-everything faults. The suds code pauses the cycle and runs extra rinses but usually finishes. uL stops the spin and asks you to redistribute the load, then carries on. Drain and fill codes are different: those stop the cycle because the washer physically cannot continue until water moves." },
+    { "q": "Where do I find my Amana washer model number?", "a": "Under the lid, on the rim of the opening, or on a sticker on the back of the cabinet. You need it to order the right part and to pull up the manual for your machine. That matters more than usual on Amana, because the company states its published code lists are not exhaustive and the manual for your model is the authority." },
+    { "q": "Are Amana washer codes the same as Whirlpool and Maytag codes?", "a": "Largely, because Amana is built by Whirlpool Corporation on shared platforms. The same suds condition shows as 5D or Sud on an Amana, Sd on a Whirlpool and Sud on a Maytag, and the F and E pairs follow the same structure across all three. Where they differ it is the platform rather than the brand that decides." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The sequence that works on any Amana washer code, cheapest first",
+    "labels": {
+      "display": "nd",
+      "c1": "Photograph the code exactly",
+      "c2": "Start or Pause twice to clear",
+      "c3": "Unplug for five full minutes",
+      "c4": "Check the load, hoses and screens"
+    }
+  },
+  "sources": [
+    { "title": "Error codes in top load and front load washers, and how to reset a washer", "publisher": "Amana product help documentation", "url": null },
+    { "title": "Washer troubleshooting, code list and control lock operation", "publisher": "Amana owner's manual supplied with the washer", "url": null },
+    { "title": "Shared Whirlpool platform code structure across Amana and Maytag washers", "publisher": "Appliance technician forum threads", "url": null },
+    { "title": "Field reports on which Amana codes are faults and which are messages", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["nd", "5D", "Sud", "LF", "uL", "LOC"]
+}

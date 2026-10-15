@@ -17,7 +17,7 @@
     {
       "cause": "The drain hose is kinked, crushed or blocked",
       "frequency": "most cases",
-      "confirm": "Pull the machine out and follow the grey drain hose from the back of the washer to the standpipe or sink trap. Look for a tight bend behind the machine, a flat spot where the washer has been pushed against it, and a sagging loop holding a slug of water. Pull the end out of the standpipe and check it is not slimed shut."
+      "confirm": "Pull the machine out and follow the gray drain hose from the back of the washer to the standpipe or sink trap. Look for a tight bend behind the machine, a flat spot where the washer has been pushed against it, and a sagging loop holding a slug of water. Pull the end out of the standpipe and check it is not slimed shut."
     },
     {
       "cause": "Something hard is jammed in the pump impeller",
@@ -83,7 +83,7 @@
     },
     {
       "name": "Walk the drain hose and clear the standpipe",
-      "detail": "Pull the machine out and follow the grey drain hose from the back of the washer to where it discharges. Straighten any kink, lift any sagging loop, and pull the end out of the standpipe to check it has not slimed over. Then tip a bucket of water down the standpipe. If it does not drain away briskly, the blockage is in the house plumbing and nothing you do to the washer will help.",
+      "detail": "Pull the machine out and follow the gray drain hose from the back of the washer to where it discharges. Straighten any kink, lift any sagging loop, and pull the end out of the standpipe to check it has not slimed over. Then tip a bucket of water down the standpipe. If it does not drain away briskly, the blockage is in the house plumbing and nothing you do to the washer will help.",
       "minutes": 15,
       "tools": "Bucket, flashlight",
       "warning": null

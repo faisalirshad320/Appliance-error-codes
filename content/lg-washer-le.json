@@ -83,14 +83,14 @@
     },
     {
       "name": "Inspect the motor connections at the back",
-      "detail": "Unplug at the wall. Take the rear access panel off, usually six to ten Phillips screws around its edge. You are looking at the rotor, a large shallow metal dish, and the stator behind it. Check that the big centre bolt holding the rotor is tight, that both connectors on the stator and the small sensor plug are pushed fully home, and that no wire has rubbed through on the cabinet. Push each connector on until it clicks.",
+      "detail": "Unplug at the wall. Take the rear access panel off, usually six to ten Phillips screws around its edge. You are looking at the rotor, a large shallow metal dish, and the stator behind it. Check that the big center bolt holding the rotor is tight, that both connectors on the stator and the small sensor plug are pushed fully home, and that no wire has rubbed through on the cabinet. Push each connector on until it clicks.",
       "minutes": 25,
       "tools": "Phillips screwdriver, socket set",
       "warning": "Unplug at the wall before removing the rear panel and leave it unplugged while you work. Do not run the machine with the panel off."
     },
     {
       "name": "Replace the rotor position sensor",
-      "detail": "With the machine unplugged and the rear panel off, undo the centre rotor bolt and lift the rotor off the shaft; it is heavier than it looks and the magnets grab. The sensor is a small plastic block clipped to the stator with one connector. Unclip it, fit the new one, reseat the rotor squarely on the splines and torque the centre bolt to the figure on the service sheet inside the machine rather than guessing. Refit the panel before you plug the washer back in.",
+      "detail": "With the machine unplugged and the rear panel off, undo the center rotor bolt and lift the rotor off the shaft; it is heavier than it looks and the magnets grab. The sensor is a small plastic block clipped to the stator with one connector. Unclip it, fit the new one, reseat the rotor squarely on the splines and torque the center bolt to the figure on the service sheet inside the machine rather than guessing. Refit the panel before you plug the washer back in.",
       "minutes": 60,
       "tools": "Socket set, torque wrench, Phillips screwdriver",
       "warning": "Unplug at the wall. The rotor magnets are strong enough to trap fingers and will wipe cards and watches."

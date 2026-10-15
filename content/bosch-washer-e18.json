@@ -15,7 +15,7 @@
     {
       "cause": "The drain pump filter is packed with lint, coins, hair and grit",
       "frequency": "most cases",
-      "confirm": "Open the flap at the bottom front and turn the filter cap out. If what comes out is a grey felted plug of lint with hair pins, buttons, coins or a bra underwire in it, that is your fault. A filter that has never been cleaned since the machine was installed is the single most common cause of E18."
+      "confirm": "Open the flap at the bottom front and turn the filter cap out. If what comes out is a gray felted plug of lint with hair pins, buttons, coins or a bra underwire in it, that is your fault. A filter that has never been cleaned since the machine was installed is the single most common cause of E18."
     },
     {
       "cause": "Something is jammed in the pump impeller behind the filter",
@@ -25,7 +25,7 @@
     {
       "cause": "The drain hose is kinked, crushed or blocked at the far end",
       "frequency": "common",
-      "confirm": "Pull the machine out and follow the corrugated grey hose. Look for a flat spot where the machine has been pushed back onto it. If it runs into a sink spigot or a standpipe, disconnect it and check that end: the spigot on a kitchen waste trap is a classic blockage point, often still capped with the blanking plug from installation."
+      "confirm": "Pull the machine out and follow the corrugated gray hose. Look for a flat spot where the machine has been pushed back onto it. If it runs into a sink spigot or a standpipe, disconnect it and check that end: the spigot on a kitchen waste trap is a classic blockage point, often still capped with the blanking plug from installation."
     },
     {
       "cause": "The drain hose sits too low or too high",
@@ -46,7 +46,7 @@
   "steps": [
     {
       "name": "Cancel the cycle and unplug the machine",
-      "detail": "Turn the program dial to Off, then pull the plug out of the wall. Do not just press Start again. You are about to open the drain path on a machine holding ten or more litres of water, and you do not want it deciding to spin while your hand is in the pump.",
+      "detail": "Turn the program dial to Off, then pull the plug out of the wall. Do not just press Start again. You are about to open the drain path on a machine holding ten or more liters of water, and you do not want it deciding to spin while your hand is in the pump.",
       "minutes": 2,
       "tools": null,
       "warning": "Unplug at the wall before opening the service flap. The pump can start on its own if the cycle resumes."
@@ -67,7 +67,7 @@
     },
     {
       "name": "Unscrew the filter and clean it",
-      "detail": "The round filter cap sits behind the same flap, usually with a small handle or a cross moulded into it. Turn it anticlockwise, slowly at first to let the last of the water past. Expect roughly a litre even after draining the hose. Pull the whole filter out and rinse it under a tap. Clear the mesh and the spiral with your fingers and an old toothbrush, and check the rubber seal around the cap is clean and undamaged, because grit on that seal is what makes a machine drip from the flap afterward.",
+      "detail": "The round filter cap sits behind the same flap, usually with a small handle or a cross molded into it. Turn it anticlockwise, slowly at first to let the last of the water past. Expect roughly a liter even after draining the hose. Pull the whole filter out and rinse it under a tap. Clear the mesh and the spiral with your fingers and an old toothbrush, and check the rubber seal around the cap is clean and undamaged, because grit on that seal is what makes a machine drip from the flap afterward.",
       "minutes": 10,
       "tools": "Old toothbrush, towels",
       "warning": null
