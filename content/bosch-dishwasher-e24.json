@@ -1,12 +1,15 @@
 {
   "title": "Bosch Dishwasher E24 Error Code: Blocked Drain, Fixed",
-  "meta_description": "Bosch E24 means the water cannot get out. Usually a clogged filter, a kinked drain hose, or a garbage disposal knockout plug nobody removed. Here is the order to check.",
+  "meta_description": "Bosch E24 means the water cannot get out. Usually a clogged filter, a kinked drain hose, or a disposal knockout plug nobody removed.",
   "h1": "Bosch dishwasher E24 error code: what it means and how to fix it",
   "answer": "E24 means the dishwasher tried to drain and the water did not leave fast enough, so the control stopped the cycle. The blockage is in the path the water takes out of the machine: the filter well, the pump cover, the drain hose, the air gap, or the garbage disposal connection. You will usually open the door to standing water sitting over the filter. In the large majority of cases this is a clog you can clear yourself in under an hour with a bucket and a screwdriver, not a failed part.",
   "severity": "moderate",
   "can_diy": "yes",
   "time_estimate": "30 to 60 minutes",
-  "cost_estimate": { "diy": "$0 to $30", "technician": "$130 to $250" },
+  "cost_estimate": {
+    "diy": "$0 to $30",
+    "technician": "$130 to $250"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -100,20 +103,61 @@
   "reset_procedure": "Press and hold the Start button for about three seconds to cancel the running program, then let the machine drain whatever it can. If the code stays after you have cleared the blockage, cut power at the breaker for five minutes and restore it, which clears the stored fault from the control. Then run the shortest cycle rather than a full wash, so you find out in two minutes instead of ninety.",
   "model_notes": "Bosch groups its drain-side faults in the E22 to E25 range and the exact split shifts between model generations and between the US and European documentation. Broadly, E22 points at the filters, E23 at the pump itself, E24 at the path the water takes out, and E25 at the pump being blocked. In practice they overlap enough that the same clog can produce different codes on two different machines, so clear the whole drain path rather than treating the number as a precise diagnosis. On models with a hidden control panel the code only appears on the inner display, so with the door closed you just get a machine that stops mid-cycle.",
   "parts": [
-    { "name": "Filter assembly, cylinder and flat screen", "cost": "$20 to $45", "difficulty": "easy", "note": "Only if the mesh is torn; most just need a scrub" },
-    { "name": "Corrugated drain hose", "cost": "$15 to $35", "difficulty": "moderate", "note": "Worth replacing if it is crushed flat or split rather than just dirty" },
-    { "name": "Air gap body and cap", "cost": "$10 to $20", "difficulty": "easy", "note": "Usually just needs cleaning out" },
-    { "name": "Drain pump", "cost": "$50 to $120", "difficulty": "moderate", "note": "Only after you have confirmed a hum with no flow and a free impeller" }
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn; most just need a scrub"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $35",
+      "difficulty": "moderate",
+      "note": "Worth replacing if it is crushed flat or split rather than just dirty"
+    },
+    {
+      "name": "Air gap body and cap",
+      "cost": "$10 to $20",
+      "difficulty": "easy",
+      "note": "Usually just needs cleaning out"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "Only after you have confirmed a hum with no flow and a free impeller"
+    }
   ],
   "when_to_call": "Call an appliance technician if the drain path is demonstrably clear and the pump makes no sound at all during the drain phase, because the next step is testing the pump circuit with the machine live. Call a plumber rather than an appliance technician if the kitchen sink is also slow or gurgles when the dishwasher pumps out, since the fault is in your branch drain and an appliance engineer will charge a call-out to tell you exactly that. And stop and call if you find the drain hose is plumbed flat along the floor with no high loop, because that is an installation fault that will keep producing E24 no matter how many times you clean the filters.",
   "faqs": [
-    { "q": "Why is there standing water in the bottom of my Bosch dishwasher?", "a": "Because the drain cycle timed out and the water had nowhere to go, which is exactly what E24 reports. A small amount of water sitting in the sump well is normal and keeps the seals wet. Water standing above the filter and over the tub floor is not, and it means the path out is blocked somewhere between the filter and your sink drain." },
-    { "q": "What is the difference between E24 and E25 on a Bosch dishwasher?", "a": "Both are drain faults, and the split is one of emphasis. E24 points at the path the water takes out of the machine, so the filters, hose, air gap and disposal connection. E25 points at the pump itself being blocked or its cover sitting loose. The codes overlap between model generations, so clear the whole drain path either way." },
-    { "q": "Can I still use the dishwasher with an E24 code?", "a": "No, and running it again just refills the tub. The machine stops the cycle because the water from the previous stage is still sitting there, so another run gives you dirty dishes in standing water. There is no safety risk, but nothing will wash properly until the water can get out." },
-    { "q": "Why did E24 appear suddenly when nothing changed?", "a": "Filters and hoses clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other common trigger is something small and hard going down the sump: a fruit pit, a shard of glass or a bottle label can block the pump inlet in a single cycle after years of trouble-free running." },
-    { "q": "Do I need to remove the knockout plug on a new garbage disposal?", "a": "Yes, every time, and forgetting it is one of the most common causes of a dishwasher that has never drained since installation. Disposals ship with a solid plastic disc sealing the dishwasher inlet so the port does not leak if nothing is connected. It has to be knocked out with a screwdriver and the loose disc retrieved from inside the unit." },
-    { "q": "Will a dishwasher cleaner or vinegar clear E24?", "a": "Not usually. Cleaners dissolve grease films and limescale, which helps slightly with a greasy filter, but they do nothing about a kinked hose, a packed air gap or a fruit pit in the pump inlet. Clear the blockage mechanically first. A cleaner is maintenance after the repair, not the repair." },
-    { "q": "How often should I clean the filter to stop this happening again?", "a": "Pull and rinse the filter once a month if you run the machine most days, and every couple of months otherwise. It takes about three minutes. Scraping plates properly before loading matters more than the rinse cycle people use instead, since it is the soft debris that mats under the flat screen that eventually stops the drain." }
+    {
+      "q": "Why is there standing water in the bottom of my Bosch dishwasher?",
+      "a": "Because the drain cycle timed out and the water had nowhere to go, which is exactly what E24 reports. A small amount of water sitting in the sump well is normal and keeps the seals wet. Water standing above the filter and over the tub floor is not, and it means the path out is blocked somewhere between the filter and your sink drain."
+    },
+    {
+      "q": "What is the difference between E24 and E25 on a Bosch dishwasher?",
+      "a": "Both are drain faults, and the split is one of emphasis. E24 points at the path the water takes out of the machine, so the filters, hose, air gap and disposal connection. E25 points at the pump itself being blocked or its cover sitting loose. The codes overlap between model generations, so clear the whole drain path either way."
+    },
+    {
+      "q": "Can I still use the dishwasher with an E24 code?",
+      "a": "No, and running it again just refills the tub. The machine stops the cycle because the water from the previous stage is still sitting there, so another run gives you dirty dishes in standing water. There is no safety risk, but nothing will wash properly until the water can get out."
+    },
+    {
+      "q": "Why did E24 appear suddenly when nothing changed?",
+      "a": "Filters and hoses clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other common trigger is something small and hard going down the sump: a fruit pit, a shard of glass or a bottle label can block the pump inlet in a single cycle after years of trouble-free running."
+    },
+    {
+      "q": "Do I need to remove the knockout plug on a new garbage disposal?",
+      "a": "Yes, every time, and forgetting it is one of the most common causes of a dishwasher that has never drained since installation. Disposals ship with a solid plastic disc sealing the dishwasher inlet so the port does not leak if nothing is connected. It has to be knocked out with a screwdriver and the loose disc retrieved from inside the unit."
+    },
+    {
+      "q": "Will a dishwasher cleaner or vinegar clear E24?",
+      "a": "Not usually. Cleaners dissolve grease films and limescale, which helps slightly with a greasy filter, but they do nothing about a kinked hose, a packed air gap or a fruit pit in the pump inlet. Clear the blockage mechanically first. A cleaner is maintenance after the repair, not the repair."
+    },
+    {
+      "q": "How often should I clean the filter to stop this happening again?",
+      "a": "Pull and rinse the filter once a month if you run the machine most days, and every couple of months otherwise. It takes about three minutes. Scraping plates properly before loading matters more than the rinse cycle people use instead, since it is the soft debris that mats under the flat screen that eventually stops the drain."
+    }
   ],
   "diagram": {
     "kind": "dishwasher-drain",
@@ -127,9 +171,27 @@
     }
   },
   "sources": [
-    { "title": "Dishwasher error codes, owner support", "publisher": "Bosch Home Appliances", "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers" },
-    { "title": "Bosch dishwasher service literature, drain system and fault code range", "publisher": "Bosch service documentation", "url": null },
-    { "title": "Field reports on E22 to E25 drain faults and their real causes", "publisher": "Appliantology and r/appliancerepair technician threads", "url": null }
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature, drain system and fault code range",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on E22 to E25 drain faults and their real causes",
+      "publisher": "Appliantology and r/appliancerepair technician threads",
+      "url": null
+    }
   ],
-  "related_codes": ["E25", "E22", "E23", "E15", "E09"]
+  "related_codes": [
+    "E25",
+    "E22",
+    "E23",
+    "E15",
+    "E09"
+  ]
 }

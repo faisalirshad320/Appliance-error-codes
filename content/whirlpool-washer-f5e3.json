@@ -1,0 +1,132 @@
+{
+  "title": "Whirlpool Washer F5 E3 Error Code: Door Will Not Unlock",
+  "meta_description": "Whirlpool F5 E3 is a door lock fault, usually the door refusing to release. Drain the tub, power down five minutes, then use the manual release.",
+  "h1": "Whirlpool washer F5 E3 error code: what it means and how to fix it",
+  "answer": "F5 E3 is a fault in your Whirlpool washer's door lock system, and in practice most people meet it with a finished cycle and a door that will not open. The F5 half identifies the door lock and the E3 half identifies the specific failure, which in the service code set is the unlock side: the control told the lock to release and did not get back the state it expected. Before you assume the part has failed, check that the tub is empty, because a Whirlpool front loader keeps the door locked while there is water above the door line and that is a design feature, not a fault. If the drum is dry and the door still will not release, drain and power the machine down for five minutes, then use your model's manual release.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes to 1 hour",
+  "cost_estimate": { "diy": "$60 to $150", "technician": "$150 to $300" },
+  "safety_warning": "The door lock on a front load washer is a mains voltage component. Unplug the machine at the wall before you reach behind the panel or touch the lock harness, and never jumper, tape or otherwise defeat the interlock to run the machine with an unsecured door.",
+  "causes": [
+    {
+      "cause": "There is still water in the tub",
+      "frequency": "most cases",
+      "confirm": "Look through the glass at the bottom of the drum. Any standing water at or above the level of the door opening keeps the lock engaged deliberately. If the cycle ended on a drain or spin fault, this is almost certainly why the door is shut."
+    },
+    {
+      "cause": "The door lock assembly has failed in the locked position",
+      "frequency": "most cases",
+      "confirm": "An empty, visibly dry drum, a full five-minute power down, and the door still will not release. Press your ear to the door as you power up: a working lock cycles with an audible clunk. Silence through the whole power-up means the mechanism is stuck or dead."
+    },
+    {
+      "cause": "The control did not finish the unlock sequence after a power interruption",
+      "frequency": "common",
+      "confirm": "The machine lost power, was switched off at the wall mid-cycle, or the breaker tripped, and the code was there when it came back. A proper five-minute power down with the machine unplugged clears this one without any parts."
+    },
+    {
+      "cause": "The latch is bound because the door is under load",
+      "frequency": "occasional",
+      "confirm": "An overpacked drum, or wet bedding slumped against the door, pushes the door outward and loads the latch so the release cannot pull back. The giveaway is a door that gives slightly when you push it inward, and a lock that releases the moment you take that pressure off."
+    },
+    {
+      "cause": "The harness or connector at the lock has corroded",
+      "frequency": "occasional",
+      "confirm": "Intermittent behaviour: the door releases some days and not others, and the code comes and goes. Unplug the machine and inspect the connector at the lock for green corrosion or a terminal that has backed out of its housing."
+    },
+    {
+      "cause": "The main control board is not sending the unlock command",
+      "frequency": "rare",
+      "confirm": "A new lock, a clean connector and still no release at all. This is the diagnosis of exclusion and the most expensive answer on the list, so do not reach for it until everything above has been ruled out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check for water in the drum before anything else",
+      "detail": "Crouch and look through the glass at the bottom of the drum. If there is water sitting in there, the lock is doing its job and no amount of pressing buttons will open it. Select Drain and Spin and let it run. If that cycle fails too, you have a drain fault rather than a door fault, and the code to chase is F9 E1 or F21.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug the machine for five minutes",
+      "detail": "Pull the plug at the wall rather than switching off at the panel, and leave it out for a full five minutes so the control fully powers down and drops its stored lock state. Plug it back in. On a good number of machines the lock cycles and clicks open as the control initialises, which is the cheapest possible outcome and costs you nothing but the wait.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take the load off the door",
+      "detail": "Push the door firmly inward with the flat of your hand, hold it there, and try the handle. Wet bedding or an overpacked drum leans on the inside of the door and binds the latch so the release cannot pull back against it. Holding the door in takes that load off the hook. If it pops open, redistribute the load before you run the next cycle.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Drain the machine through the pump filter",
+      "detail": "With the washer unplugged, open the lower front access panel, which pops off with a thumb in the slot or comes away after two Phillips screws. Hold the short black drain tube beside the filter cap over a shallow tray, pull its plug and empty the tub, refilling the tray as many times as it takes. Getting the level below the door opening is often all that is standing between you and an open door.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug at the wall before opening the lower panel."
+    },
+    {
+      "name": "Use the manual door release if your model has one",
+      "detail": "With the machine unplugged and the tub drained, look up into the opening behind the lower access panel toward the back of the door lock. Many Whirlpool front loaders have a release tab or a small cord loop there which, pulled downward, retracts the latch by hand. Check your use and care guide for the exact location on your model. This is the manufacturer's own release, which is a different thing from defeating the interlock, and it only works safely on a drained, unplugged machine.",
+      "minutes": 15,
+      "tools": "Torch, Phillips #2 screwdriver",
+      "warning": "Only with the washer unplugged and the tub empty. Do not force the door with a tool; you will break the latch and the door hook."
+    },
+    {
+      "name": "Inspect the lock connector before buying a part",
+      "detail": "Still unplugged. Pry the spring clamp off the front lip of the rubber door boot with a small flat screwdriver, working round from the bottom, and fold the boot edge back far enough to see the lock body. Pull the connector off and check for corrosion, a browned terminal or a pin pushed back into the shell. Reseat it firmly and retest. Damp laundry rooms kill connectors more often than they kill locks.",
+      "minutes": 25,
+      "tools": "Small flat screwdriver, torch",
+      "warning": "Unplug at the wall. The lock terminals carry mains voltage while a cycle is running."
+    },
+    {
+      "name": "Replace the door lock assembly",
+      "detail": "With the boot clamp off and the boot folded back, undo the screws holding the lock through the front panel, commonly Torx and accessible from inside the door opening. Support the lock as the last screw comes out, unplug its harness and fit the new one the same way round. Work the boot lip fully back into its groove all the way round before springing the clamp on, because a section left out leaks on the first spin.",
+      "minutes": 45,
+      "tools": "Torx driver set, small flat screwdriver, torch",
+      "warning": "Unplug at the wall. Never jumper the lock to make the machine run."
+    }
+  ],
+  "still_showing": "The question to settle is whether the door is held shut by water, by the mechanism or by the control, and the order below separates them without spending anything. Start with water, because it is both the most common answer and the one people skip: a Whirlpool front loader will not release the door while the level is above the door opening, so if the cycle ended on a failed drain the lock is behaving correctly and your real fault is F9 E1 or F21. Drain the tub through the filter tube and try again. Next, do a full five-minute unplug rather than a quick off and on, since the control holds lock state through a brief interruption and a surprising number of these release on their own as the board reinitialises. Then take the physical load off the door by pushing it inward while you try the handle, which deals with the bound-latch case. If the drum is dry, the machine has been down for five minutes, and you still hear nothing from the lock on power-up, the mechanism has failed shut. Use the manual release behind the lower access panel to get your laundry out, then fit a new door lock assembly, which is a $60 to $150 part and under an hour's work. Two things are worth knowing before you order. First, check the connector at the lock while you are in there; a corroded terminal produces exactly these symptoms and costs nothing to fix. Second, if a new lock still gives F5 E3 on the first cycle, the fault is upstream in the harness or the main control board, and that is a $150 to $300 technician visit rather than another part bought on a guess. Whatever you do, do not lever the door open with a screwdriver. You will break the hook, the latch and often the door, and turn a one-part repair into three.",
+  "reset_procedure": "Unplug the washer at the wall and leave it for a full five minutes before plugging it back in. A quick off and on is not enough on door lock faults because the control keeps the lock state through a short interruption. Some models also respond to pressing Pause or Cancel twice and then Power once, but on an F5 code the full power down is the one that works. Test with Rinse and Spin so the lock cycles within the first few seconds.",
+  "model_notes": "F5 is the door lock group in Whirlpool's two-part code set. Across the service literature, F5 E1 is a door switch fault, F5 E2 is a failure to lock and F5 E3 is a failure to unlock. Worth knowing: Whirlpool's own consumer-facing help page for F5 E3 describes it in the same general terms as F5 E2, as the door not locking properly, so you will find the two codes conflated in places online. The practical difference is the symptom in front of you. If the cycle will not start, you are dealing with the lock side. If the cycle finished and the door will not open, you are dealing with the unlock side. The same part usually fixes both. Older Duet-era front loaders report door lock faults as F26 or dL instead, and the same F5 E3 code appears on Maytag and Amana machines built on the Whirlpool platform.",
+  "parts": [
+    { "name": "Door lock and switch assembly", "cost": "$60 to $150", "difficulty": "moderate", "note": "The part that fixes most genuine F5 E3 faults; allow an hour" },
+    { "name": "Door boot seal spring clamp", "cost": "$10 to $25", "difficulty": "easy", "note": "Replace if the original is stretched or rusted after being pried off" },
+    { "name": "Door strike or latch hook", "cost": "$15 to $45", "difficulty": "easy", "note": "Needed if the hook has been bent or snapped by forcing the door" },
+    { "name": "Door lock wiring harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "For a connector that is corroded or heat damaged beyond reseating" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Only after the lock and its wiring have been cleared" }
+  ],
+  "when_to_call": "Call a technician if the drum is dry, the machine has been unplugged for five minutes, and your model has no manual release you can find, because getting a stuck door open without breaking the hook takes knowing where that particular latch gives. Call as well if a new lock has not fixed it, since testing the harness and the board means working on a powered machine with the front open. If there is water in the drum and the drain cycle fails too, the door is a symptom and you should treat the drain fault first. One thing to be firm about: do not run the washer with the interlock bypassed while you wait for a part, and do not pry the door open with a tool. A door forced off a front loader usually costs more than the lock that caused it.",
+  "faqs": [
+    { "q": "What does F5 E3 mean on a Whirlpool washer?", "a": "It is a fault in the door lock system. F5 identifies the lock and E3 identifies the specific failure, which in Whirlpool's service code set is the unlock side: the board commanded the door to release and did not get the state it expected back. In practice you meet it as a finished cycle with a door that will not open." },
+    { "q": "How do I open a Whirlpool washer door stuck with F5 E3?", "a": "In this order: check for water in the drum and drain it if there is any, unplug the machine for five minutes, push the door inward while trying the handle, and then use the manual release behind the lower access panel if your model has one. Never lever the door with a screwdriver, which breaks the hook and the latch." },
+    { "q": "Why will the door not open when the wash has finished?", "a": "Most often because there is still water above the level of the door opening. A front loader holds the door locked until the level drops, which is deliberate and stops several gallons landing on your floor. A cycle that ended on a failed drain will always leave the door shut, so the real fault is in the drain." },
+    { "q": "Is F5 E3 different from F5 E2?", "a": "They are the two ends of the same system. F5 E2 is the door failing to lock, so the cycle will not start. F5 E3 is the door failing to unlock, so the cycle has finished and you cannot get in. Whirlpool's consumer pages describe both loosely as a door lock problem, and both usually end at the same replacement part." },
+    { "q": "Can I still use the washer with F5 E3 showing?", "a": "No, and you should not try. Even if the machine will start, a lock that is not reporting its state correctly is the one component you do not want behaving unpredictably on a drum spinning at speed. Get the door open, get the laundry out and fit the part before running another cycle." },
+    { "q": "How much does it cost to fix F5 E3?", "a": "Nothing if it clears with a drain and a five-minute power down, which it often does. A door lock assembly is $60 to $150 as a part and takes most people under an hour. A technician doing the job charges $150 to $300 with the part included. A control board fault is the only answer beyond that, and it is rare." },
+    { "q": "Will unplugging the washer release the door?", "a": "Often, yes, but it has to be a full five minutes with the plug out, not a quick switch off. The control holds the lock state through a short interruption. When power comes back the lock cycles as the board initialises, and on many machines that is the click that lets you in. It will not help if the tub still has water in it." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "Why a Whirlpool door stays shut, and the four ways to get it open",
+    "labels": {
+      "display": "F5 E3",
+      "c1": "Water above the door line",
+      "c2": "Five-minute power down",
+      "c3": "Manual release behind panel",
+      "c4": "Lock assembly and connector"
+    }
+  },
+  "sources": [
+    { "title": "F5 E3 error code on a front load washer", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool front load washer technical sheet, F5 door lock code group", "publisher": "Service sheet supplied inside the machine", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on stuck doors and manual release locations", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F5 E2", "F5 E1", "dL", "F9 E1", "F21", "LOC"]
+}
