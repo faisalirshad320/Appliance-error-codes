@@ -89,6 +89,21 @@ a page a technician would respect and one that just sounds confident.
    lowercase b and a 6 are nearly the same glyph, and S and 5 are the same glyph. Where two
    codes on a brand collide that way, say it plainly.
 
+## How to read a briefing note
+
+A batch note marks where its claims come from, so you know which need checking before you
+can use them:
+
+- **(documented)** — taken from the manufacturer's own support material. Still worth a look
+  if something seems off, but it is grounded.
+- **(circulating)** — from code lists, repair sites or field reports. Treat as a hypothesis.
+  Verify before asserting it, and if it does not hold up, see the next section.
+- **(context)** — not a claim about what a code means: platform relationships, which page is
+  high-volume, what readers get confused by. Use freely.
+
+An unmarked claim about a code's meaning is **(circulating)** by default. The orchestrator is
+not a source.
+
 ## If a briefing note is wrong, say so and do not write it
 
 Batch notes from the orchestrator are a starting point, not an instruction to assert

@@ -1,0 +1,118 @@
+{
+  "title": "Bosch Refrigerator E2 Error Code: Temperature Sensor",
+  "meta_description": "Bosch E2 points at a compartment temperature sensor the control can no longer read. Check which compartment is actually off before ordering any part.",
+  "h1": "Bosch refrigerator E2 error code: what it means and how to fix it",
+  "answer": "E2 means the control has lost a usable reading from one of the cabinet's temperature sensors, most commonly the one in the freezer compartment. Without a reading, the control cannot decide when to run the compressor or the defrost cycle, so it flags the fault and falls back on a default behavior that usually leaves one compartment at the wrong temperature. The sensor itself is a small probe on a two-wire lead, and it fails far more often than the board it reports to. Before buying anything, work out which compartment is actually running wrong, because that tells you more than the code number does.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to diagnose, 1 to 2 hours to replace a sensor",
+  "cost_estimate": { "diy": "$30 to $90", "technician": "$180 to $400" },
+  "safety_warning": "Unplug the refrigerator before removing any interior panel. Never cut, splice or open any pipework inside the cabinet: the sealed refrigerant circuit is a licensed technician's job, and the sensor work on this page does not require going anywhere near it.",
+  "causes": [
+    {
+      "cause": "The compartment temperature sensor has failed",
+      "frequency": "most cases",
+      "confirm": "Unplug the fridge, find the sensor's two-pin connector and read across the sensor side with a meter on ohms. Open circuit means a broken probe or lead, near zero means a short, and either answer is conclusive. A sensible reading that changes as the probe warms in your hand means the sensor is alive."
+    },
+    {
+      "cause": "The sensor connector or wiring is damaged",
+      "frequency": "common",
+      "confirm": "Look at the plug for a pin backed out of the housing, green corrosion, or moisture sitting in it. Sensors inside a cold, damp cabinet corrode at the connector, and the lead can be pinched where it passes through the liner. A reading that flickers when you wiggle the loom confirms it."
+    },
+    {
+      "cause": "Ice buildup around the sensor or the evaporator",
+      "frequency": "common",
+      "confirm": "Take the rear panel off the freezer compartment and look at the evaporator coil. A coil encased in frost rather than lightly dusted means the defrost system is not keeping up, and a sensor buried in ice reads the ice rather than the air. This points at a defrost fault as the underlying problem."
+    },
+    {
+      "cause": "A one-off glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code appeared after a storm or an outage and the cabinet is actually holding temperature normally. Unplug for five minutes, restore power, and see whether it stays clear over the next day."
+    },
+    {
+      "cause": "The control board cannot read a healthy sensor",
+      "frequency": "rare",
+      "confirm": "The probe gives a sensible reading that responds to temperature, the connector is clean and dry, the wiring is intact, and E2 persists. At that point the sensing circuit on the board is what remains, and that is a technician's diagnosis."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work out which compartment is actually wrong",
+      "detail": "Put a thermometer in the fresh food compartment and another in the freezer, leave them a couple of hours with the doors shut, and write down both readings. This matters more than the code number, because published sources do not agree on which compartment E2 maps to on every model, and the compartment that is genuinely off temperature tells you which sensor to look at.",
+      "minutes": 15,
+      "tools": "Two fridge or freezer thermometers",
+      "warning": null
+    },
+    {
+      "name": "Power cycle the refrigerator",
+      "detail": "Unplug the refrigerator at the wall, or switch off its breaker, and leave it for five minutes before restoring power. This clears a stored fault left by a brownout or a power cut. Give it a few hours afterward before judging, since the cabinet needs time to settle. A code that returns within seconds of power coming back is live rather than stored.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door seals and airflow before anything else",
+      "detail": "Run a finger around both door gaskets feeling for a flattened or torn section, and close a sheet of paper in the door: it should drag when you pull it out. Then check nothing is blocking the vents between compartments inside the cabinet, since a bag of frozen peas against an air outlet produces strange temperatures that look like a sensor fault. Both checks are free and both get skipped.",
+      "minutes": 15,
+      "tools": "Sheet of paper",
+      "warning": null
+    },
+    {
+      "name": "Look for ice on the evaporator",
+      "detail": "Unplug the refrigerator. Empty the freezer compartment and remove the rear interior panel, usually a handful of screws plus a few clips. The evaporator is the finned coil behind it. A light frost is normal; a solid block of ice around the coil and the sensor is not, and it means the defrost system is failing and the sensor is reading ice rather than air. Note what you see before going further.",
+      "minutes": 30,
+      "tools": "Phillips or Torx screwdriver, towels",
+      "warning": "Unplug the refrigerator first. Never use a knife, screwdriver or pick to chip ice off an evaporator; puncturing a coil turns a sensor repair into a sealed-system replacement."
+    },
+    {
+      "name": "Test the sensor at its connector",
+      "detail": "With the refrigerator still unplugged, find the sensor's small two-pin connector near the evaporator or where the loom enters the liner. Separate it and put a multimeter on ohms across the sensor side only. Open circuit means a broken probe, near zero means a short, and both are conclusive. If you get a steady sensible reading, warm the probe between your fingers and watch the number move, which confirms it responds to temperature. You do not need to know the correct value for your model.",
+      "minutes": 20,
+      "tools": "Multimeter",
+      "warning": "Refrigerator unplugged, and measure only across the sensor side of the separated connector."
+    },
+    {
+      "name": "Replace the sensor if it tested open or shorted",
+      "detail": "The probe usually clips into a holder on or beside the evaporator, with its lead routed back to the connector. Note the exact position before removing it, because a sensor refitted in the wrong place reads the wrong air and gives you bad temperatures with no fault code at all. Clip the new one into the same holder, route the lead the same way, reconnect, refit the panel and restore power. Allow 24 hours before judging the result.",
+      "minutes": 60,
+      "tools": "Phillips or Torx screwdriver, replacement temperature sensor",
+      "warning": "Keep the new sensor's lead clear of the evaporator fan blade and do not pinch it under the panel when refitting."
+    }
+  ],
+  "still_showing": "If the sensor tests healthy and E2 keeps returning, work through this before anyone talks about a control board. First, test at the other end. Separate the connector, put the meter across the harness side and have someone flex the loom where it passes through the liner: a reading that jumps between a value and open circuit means a conductor broken inside intact insulation, which is invisible and is a common failure where a lead passes a cabinet hinge or a foamed-in section. Second, go back to the ice question, because it is the one that gets misdiagnosed most. If the evaporator was frosted solid, the sensor was probably fine and the real fault is the defrost system, so fitting a new sensor fixes nothing and the ice comes back within a fortnight. A defrost heater, a defrost thermostat or a control timing fault all present this way, and sorting the defrost is the actual repair. Third, check which compartment the fault really belongs to. The published sources describe E1 and E2 as the fridge and freezer sensors but do not agree model for model on which is which, so if your freezer is fine and the fresh food side is warm, say that to the parts desk rather than ordering on the code alone. Fourth, if the sensing all checks out, the board is what remains and that is where the cost jumps. Before approving one, get the compartment temperatures written down and ask the technician to confirm the sensor circuit has been tested rather than inferred. And one boundary worth stating plainly: if a compartment is warm, the sensors test good and the defrost system is healthy, the next suspect is the sealed refrigerant system, meaning the compressor, the refrigerant charge or a blocked capillary. That is licensed work, it is not a DIY repair at any skill level, and on an older cabinet it is usually the point at which replacing the appliance makes more sense than repairing it.",
+  "reset_procedure": "Unplug the refrigerator or switch off its breaker, wait five minutes, and restore power. The five minutes matters because the control holds residual charge and a quick off and on often leaves the stored code in place. After a reset, give the cabinet several hours before deciding whether it worked, since temperatures take a long time to settle. A code that reappears within seconds is reporting a live fault and resetting again will not change it.",
+  "model_notes": "Published sources agree that Bosch uses E1 and E2 for refrigerator temperature sensor faults, and most describe E2 as the freezer compartment sensor and E1 as the fresh food compartment. They do not agree consistently model for model on which compartment maps to which number, and beyond E1 and E2 the lists diverge sharply, with the same code described as an ice maker sensor by one source and a defrost fault by another. Treat the number as telling you there is a sensing problem rather than telling you precisely which probe. Let the thermometer readings decide which compartment to work on. Some Bosch models also have a service diagnostic mode, but the button combination is not consistently documented and varies by model, so do not go hunting for it based on an instruction written for a different cabinet.",
+  "parts": [
+    { "name": "Compartment temperature sensor probe", "cost": "$30 to $90", "difficulty": "moderate", "note": "The most likely part; note its exact position before removing the old one" },
+    { "name": "Sensor connector or wiring pigtail", "cost": "$15 to $40", "difficulty": "moderate", "note": "For corrosion at the plug rather than a failed probe" },
+    { "name": "Defrost heater or defrost thermostat", "cost": "$40 to $120", "difficulty": "hard", "note": "The real repair when the evaporator was frosted solid" },
+    { "name": "Main control board", "cost": "$200 to $450", "difficulty": "technician only", "note": "Last resort, and only once the sensor and its wiring are proven good" }
+  ],
+  "when_to_call": "Call a technician if the sensor and its wiring test good and E2 persists, since the next step is diagnosing a live control board. Call as well if you found the evaporator encased in ice, because the underlying defrost fault needs proper diagnosis and refitting a sensor into a block of ice achieves nothing. Call without hesitation, and do not attempt anything yourself, if a compartment is warm with healthy sensors and a working defrost, because the next suspect is the sealed refrigerant system: the compressor, the charge or a restriction. Sealed-system work is licensed only, it requires recovery equipment, and on an older cabinet the quote is usually high enough that replacing the refrigerator is the better decision.",
+  "faqs": [
+    { "q": "What does E2 mean on a Bosch refrigerator?", "a": "The control has lost a usable reading from one of the cabinet's temperature sensors, most often the freezer compartment probe. It cannot then decide when to cool or defrost, so one compartment usually ends up at the wrong temperature. The sensor is a small probe on a two-wire lead and it fails far more often than the control board does." },
+    { "q": "Can I still use the refrigerator with an E2 code?", "a": "Cautiously and not for long. The control falls back on default behavior, which often leaves one compartment too warm or too cold, so food safety is the real issue rather than any danger from the appliance. Put a thermometer in each compartment, move anything perishable to the side that is holding temperature, and get it fixed." },
+    { "q": "How do I test the sensor without knowing the right resistance?", "a": "You do not need the reference value. Unplug the refrigerator, separate the sensor connector and read across the sensor side: open circuit means a broken probe, near zero means a short, and both are conclusive. If you get a steady reading, warm the probe between your fingers and watch the number move to confirm it responds." },
+    { "q": "The freezer is full of ice. Is that related?", "a": "Very likely, and it changes the repair. A sensor buried in ice reads the ice rather than the air, so the code is a symptom and the defrost system is the fault. Fitting a new sensor into a frosted evaporator fixes nothing and the ice returns within a couple of weeks. Sort the defrost first." },
+    { "q": "Is E2 the fridge sensor or the freezer sensor?", "a": "Most sources say the freezer, with E1 for the fresh food compartment, but they do not agree model for model and the lists diverge beyond those two. Rather than trusting the number, put a thermometer in each compartment for a couple of hours. Whichever side is genuinely off temperature is the sensor worth looking at." },
+    { "q": "Could this be the compressor instead?", "a": "It can be, and that is the line where DIY stops. If the sensors test healthy, the defrost system works, and a compartment is still warm, the next suspects are the sealed refrigerant system and the compressor. That work is licensed only, needs recovery equipment, and is never a home repair regardless of how confident you are." },
+    { "q": "Is an E2 repair worth it?", "a": "If it is the sensor, clearly yes: a modest part and an hour or two on an appliance worth far more. If it turns out to be the defrost system, usually still yes. If the diagnosis lands on the sealed system or the compressor, think hard, because on a cabinet more than eight or ten years old that quote generally approaches replacement cost." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Finding and testing a Bosch compartment temperature probe",
+    "labels": {
+      "display": "E2",
+      "c1": "Thermometer in each compartment",
+      "c2": "Rear panel off the freezer",
+      "c3": "Evaporator checked for solid ice",
+      "c4": "Meter across the sensor plug"
+    }
+  },
+  "sources": [
+    { "title": "Bosch refrigerator E1 and E2 temperature sensor fault explanations", "publisher": "Appliance repair trade references", "url": null },
+    { "title": "Bosch refrigerator service literature, compartment sensing and defrost control", "publisher": "Bosch service documentation", "url": null },
+    { "title": "Field notes on sensor faults misdiagnosed where the evaporator is iced", "publisher": "Appliance technician forums", "url": null }
+  ],
+  "related_codes": ["E1"]
+}
