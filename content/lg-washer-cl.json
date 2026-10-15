@@ -1,0 +1,108 @@
+{
+  "title": "LG Washer CL Code: Child Lock On, Not an Error",
+  "meta_description": "CL on an LG washer is not a fault. It means Child Lock is switched on. Hold the Child Lock button for three seconds to clear it and get the buttons back.",
+  "h1": "LG washer CL code: what it means and how to turn it off",
+  "answer": "CL is not an error code. It is the Child Lock indicator, and it means someone has locked the control panel so the buttons do nothing. Hold the button marked Child Lock, or the pair of buttons with the small padlock printed under them, for about three seconds until the washer beeps and CL disappears. The lock survives being unplugged on most LG models, so pulling the plug will not clear it.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 5 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Child Lock was switched on, deliberately or not",
+      "frequency": "most cases",
+      "confirm": "Press any button other than Power. If the washer beeps and nothing happens, the panel is locked. That is the whole story on the great majority of machines showing CL."
+    },
+    {
+      "cause": "Something pressed and held the button",
+      "frequency": "common",
+      "confirm": "A cat on the lid, a child at eye level with the panel, or a cloth dragged across the controls while wiping the top. Child Lock needs a press of a few seconds, which is exactly what a resting paw or a leaning elbow provides."
+    },
+    {
+      "cause": "You are pressing the wrong button to clear it",
+      "frequency": "common",
+      "confirm": "The lock will not release no matter how long you hold what you think is the right button. On many LG models Child Lock is not a button of its own; it is a secondary function printed in small type below two adjacent buttons, which must be held together."
+    },
+    {
+      "cause": "The lock was left on from a previous cycle",
+      "frequency": "occasional",
+      "confirm": "CL is showing on a machine nobody has touched since the last wash. On most LG models Child Lock is remembered through a power cut and through being unplugged, so it carries over from whoever used the machine last."
+    },
+    {
+      "cause": "A stuck or failed membrane button",
+      "frequency": "rare",
+      "confirm": "CL comes back within seconds of clearing it, or the panel registers presses you did not make. A button that stays electrically closed reads as a continuous press, which the control treats as a Child Lock command."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the Child Lock control",
+      "detail": "Look along the button row for a small padlock symbol or the words Child Lock. On many LG washers it is printed in small type under a single button; on others it sits between two adjacent buttons, which means both are held together. On ThinQ models with a touch panel the lock symbol appears on the display itself rather than on a physical key.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Press and hold for three seconds",
+      "detail": "Hold the button, or both buttons, steadily for about three seconds. Do not tap them. The washer beeps and CL clears from the display, after which the rest of the panel responds normally again. If three seconds does nothing, hold for five; some models are slower to acknowledge than their own manual claims.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wake the machine first if the panel is asleep",
+      "detail": "A washer that has been idle drops into standby and the first press only wakes it up. Press Power once, wait for the display to light, then do the Child Lock hold. People often conclude the lock is stuck when all that happened is that the first press was spent waking the control.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the specific combination for your model",
+      "detail": "The pairing differs across the range, and guessing wastes more time than looking it up. The model number is on a sticker inside the door opening on a front loader, or under the lid on a top loader. Put that number into LG's support site and look at the control panel section, which shows the exact buttons for your machine.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look for a button that is physically stuck",
+      "detail": "Run a finger along the panel and press each key in turn. They should all have the same light click and spring back level with the panel. One that feels mushy, sits low, or is sticky with detergent residue may be holding itself down. Wipe the panel with a barely damp cloth, dry it, and try again before assuming anything has failed.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the correct buttons have been held for five seconds and CL will not clear, the problem has stopped being Child Lock and become the control panel. Work through it in this order. First, make sure you have the right combination for your exact model rather than one from a similar looking LG, because the pairing changed several times across the range and holding the wrong pair for a minute achieves nothing. Second, unplug the washer for a full minute and try once more. The lock itself is remembered through a power cut on most models, so this will not clear a genuine Child Lock, but it does reset a control that has latched up, which is a different problem showing the same symptom. Third, check whether the panel responds to anything at all: if Power works and nothing else does, the lock is active; if nothing works including Power, the fault is the control panel or its ribbon connection rather than the lock. Fourth, look for a key that is held down. Detergent and fabric softener dry to a glue that holds a membrane button closed, and the control reads that as somebody pressing it permanently. Clean the panel with a barely damp cloth, dry it thoroughly, and give it a few minutes. If CL survives all of that, the touch panel or its connection to the main board needs replacing, which is a technician job in the region of $120 to $250 and is the only part of this page that costs money.",
+  "reset_procedure": "Child Lock is not a fault, so there is no fault to reset, and unplugging the washer does not switch it off on most LG models. The only thing that clears CL is holding the correct button or pair of buttons for about three seconds until the machine beeps. If you want to confirm the control itself is healthy, unplug for a minute first, plug back in, then do the hold.",
+  "model_notes": "Where the Child Lock lives varies more across the LG range than almost any other control. On many front loaders it is a secondary function printed under two adjacent buttons that must be held together; on others it is a dedicated key with a padlock symbol; on ThinQ touch-panel models it can also be toggled from the LG ThinQ app, which catches people out when the phone that locked it is in another room. The display is the same two letters in every case. Do not confuse CL with CE, which is a genuine fault code on LG washers relating to the motor circuit drawing too much current, or with tCL, which is the tub clean reminder.",
+  "parts": [
+    { "name": "Control panel touch pad assembly", "cost": "$80 to $200", "difficulty": "technician only", "note": "Only needed if a key is electrically stuck and cleaning does not fix it" }
+  ],
+  "when_to_call": "There is nothing to call anyone about unless CL refuses to clear after you have confirmed the correct button combination for your model number and ruled out a sticky key. At that point the fault is in the control panel or its connection to the main board, which means opening the top of the machine and working with the control live, and that is worth paying for rather than guessing at. Before you book anyone, check the machine's warranty: control panels are one of the parts most often still covered, and a panel replacement on an out-of-warranty machine will run you $120 to $250 fitted.",
+  "faqs": [
+    { "q": "Is CL an error code on an LG washer?", "a": "No. CL is the Child Lock indicator and means the control panel has been locked so that buttons do nothing. The washer is working normally. Hold the Child Lock button, or the pair of buttons with the padlock printed between them, for about three seconds and the display clears. Nothing is broken and nothing needs replacing." },
+    { "q": "How do I turn off Child Lock on an LG washer?", "a": "Hold the button marked with a padlock or labelled Child Lock for three seconds until the machine beeps. On models where it is a secondary function, two adjacent buttons must be held together. If the panel is asleep, press Power first to wake it, because the first press otherwise only turns the display on." },
+    { "q": "Will unplugging the washer turn off Child Lock?", "a": "No, on most LG models. The lock setting is remembered through a power cut and through being unplugged, which is the point of it: a toddler flipping the breaker should not unlock the machine. Pulling the plug is still worth one try, because it clears a latched-up control, which can look identical from the outside." },
+    { "q": "Can I still run a wash with CL showing?", "a": "A cycle that was already running carries on to the end with the lock on. What you cannot do is start a new cycle or change settings, because the panel ignores everything except Power. Clear the lock first, then set your wash as normal. Nothing about the lock affects how the machine washes." },
+    { "q": "Why does CL keep coming back on my LG washer?", "a": "Either something is pressing the button, or a key is stuck. A cat sitting on the lid, a child at panel height, or a cloth dragged across the controls while cleaning will all hold a button long enough to re-lock it. A key held down by dried detergent does the same thing permanently, so wipe the panel and dry it properly." },
+    { "q": "What is the difference between CL and CE on an LG washer?", "a": "CL is Child Lock and is not a fault. CE is a genuine error code about the motor circuit drawing more current than it should, which usually points at an overloaded drum or a motor problem and needs actual diagnosis. The two letters look similar in a dark laundry room, so check the panel in good light before you start worrying." },
+    { "q": "Can the LG ThinQ app turn Child Lock on or off?", "a": "On connected models, yes, and that is worth knowing because it explains locks that appear from nowhere. Someone with the app on their phone can toggle it from anywhere in the house. Check the app before taking the panel apart, particularly if the lock came on while nobody was standing at the machine." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing Child Lock on an LG washer control panel",
+    "labels": {
+      "display": "CL",
+      "c1": "Press Power to wake the panel",
+      "c2": "Find the small padlock symbol",
+      "c3": "Hold three seconds until it beeps",
+      "c4": "Check for a key stuck with detergent"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine child lock, turning the feature on and off", "publisher": "LG support documentation", "url": null },
+    { "title": "LG washer owner's manual, control panel and Child Lock section", "publisher": "LG owner's manual supplied with the machine", "url": null },
+    { "title": "Owner reports on model-specific Child Lock button combinations", "publisher": "Appliance repair community threads", "url": null }
+  ],
+  "related_codes": ["CE", "tCL", "PF", "dE", "UE", "OE"]
+}

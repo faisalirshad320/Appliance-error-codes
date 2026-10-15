@@ -1,0 +1,132 @@
+{
+  "title": "Whirlpool Washer F5 E2 Error Code: Door Will Not Lock",
+  "meta_description": "Whirlpool F5 E2 means the washer could not lock its door. Usually laundry in the seal or a worn door lock assembly. Here is how to tell which.",
+  "h1": "Whirlpool washer F5 E2 error code: what it means and how to fix it",
+  "answer": "F5 E2 means your Whirlpool washer tried to lock the door and did not get confirmation that the lock engaged. The F5 half identifies the door lock system and the E2 half identifies the lock-side failure, so the machine will not start a cycle until it clears. The first thing to check is the door itself: a sleeve or a corner of a duvet trapped in the rubber boot holds the door a few millimetres proud, which is enough to stop the latch catching while still looking shut. If the door is genuinely clean and closes with a solid click and the code persists, the door lock assembly is the part that usually needs replacing.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to 1 hour",
+  "cost_estimate": { "diy": "$60 to $150", "technician": "$150 to $300" },
+  "safety_warning": "The door lock assembly on a front load washer is a mains voltage component. Unplug the machine at the wall before removing the boot clamp or disconnecting the lock harness, and never bypass or jumper the lock to make the machine run with the door open.",
+  "causes": [
+    {
+      "cause": "Laundry trapped between the door and the rubber boot",
+      "frequency": "most cases",
+      "confirm": "Open the door and run a hand all the way round the inside of the seal. A sock toe, a sleeve or the corner of a towel sitting in the boot holds the door open by a hair. It looks and sounds closed and the latch never reaches the striker."
+    },
+    {
+      "cause": "The door lock assembly has worn out or failed",
+      "frequency": "most cases",
+      "confirm": "An empty, clean door opening, a door that shuts with a firm click, and F5 E2 anyway. Listen as you press Start: a healthy lock gives an audible clunk within a second or two. Silence, or a clicking that repeats and gives up, means the lock."
+    },
+    {
+      "cause": "Something lodged in the latch cavity",
+      "frequency": "common",
+      "confirm": "Shine a torch into the slot on the cabinet that the door striker enters. Lint packed in solid, a coin, a hair clip or a crust of dried detergent will all physically block the latch from closing round the striker."
+    },
+    {
+      "cause": "The striker on the door is bent, loose or out of line",
+      "frequency": "common",
+      "confirm": "Close the door slowly and watch where the metal hook on the door meets the slot. It should go in centred. If it rubs the bottom of the slot or enters at an angle, the hinge has sagged or the striker has been bent, usually by someone leaning on an open door."
+    },
+    {
+      "cause": "The harness or connector at the door lock has failed",
+      "frequency": "occasional",
+      "confirm": "A new lock fitted and the same code on the first cycle. Unplug the machine, pull the connector off the lock and look for green corrosion, a melted shell or a terminal that has backed out of the housing. Damp laundry rooms do this."
+    },
+    {
+      "cause": "The main control board is not driving the lock",
+      "frequency": "rare",
+      "confirm": "The lock is new, the wiring is clean and tight, and the lock never tries to engage at all. This is the diagnosis of exclusion and should not be your first guess, because the board is the most expensive thing on the list by a wide margin."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the door and close it firmly",
+      "detail": "Swing it fully open, then push it shut with the flat of your hand near the latch rather than swinging it. You want a single solid click, not a soft thud. A surprising share of F5 E2 codes are a door that was nudged shut rather than closed. Press Start and see whether the lock clunks within a couple of seconds.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the whole rubber boot for trapped laundry",
+      "detail": "Run a hand right round the inside of the grey rubber seal, including the underside at the six o'clock position where things settle. Pull out anything you find. Then take out roughly a third of the load and redistribute the rest: an overpacked drum pushes clothing into the door opening as soon as you shut it, even when the seal looked clear.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean out the latch cavity",
+      "detail": "With the door open, find the slot in the cabinet that the door hook goes into. Shine a torch in. Pick out lint, coins, hair clips and hardened detergent with a pair of tweezers or a wooden skewer, then wipe the mouth of the slot with a damp cloth and dry it. Do not spray lubricant in there; it collects lint and makes the problem permanent.",
+      "minutes": 8,
+      "tools": "Torch, tweezers, cloth",
+      "warning": null
+    },
+    {
+      "name": "Power the machine down properly",
+      "detail": "Unplug the washer at the wall for five minutes. The control latches the fault and will keep showing F5 E2 after you have fixed the cause if you do not clear it. Plug it back in and start a Rinse and Spin to test, which tells you in the first thirty seconds whether the door locks, instead of committing you to a full cycle.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check how the striker meets the latch",
+      "detail": "Close the door slowly and watch the metal hook on the door go into the slot. It should enter centred, without scraping. If it sits low, lift the door by its handle while closing: if that makes the lock engage, the hinge has sagged and the hinge screws through the front panel need tightening or the hinge needs replacing. A visibly bent striker means a new door hook or door assembly.",
+      "minutes": 10,
+      "tools": "Torx driver set",
+      "warning": null
+    },
+    {
+      "name": "Inspect the lock connector",
+      "detail": "Unplug the washer at the wall. Peel the outer spring clamp off the front lip of the rubber boot with a small flat screwdriver, working round from the bottom, and fold the boot edge back far enough to see the lock body behind the front panel. Pull the connector off and look for corrosion, a browned terminal or a pin pushed back in the shell. Reseat it firmly and retest before buying anything.",
+      "minutes": 25,
+      "tools": "Small flat screwdriver, torch",
+      "warning": "Unplug at the wall first. The lock terminals carry mains voltage during a cycle."
+    },
+    {
+      "name": "Replace the door lock assembly",
+      "detail": "With the machine still unplugged and the boot clamp off, remove the screws holding the lock through the front panel, commonly Torx and reachable from inside the door opening. Support the lock as the last screw comes out so it does not drop into the cabinet, unplug the harness, and fit the new one in the same orientation. Refit the boot lip into its groove all the way round before springing the clamp back on, or the machine will leak.",
+      "minutes": 45,
+      "tools": "Torx driver set, small flat screwdriver, torch",
+      "warning": "Unplug at the wall. Never jumper or defeat the lock to get the machine running."
+    }
+  ],
+  "still_showing": "If the seal is clear, the latch cavity is clean and a five-minute power down has not helped, the question is whether the lock is failing to engage or failing to report that it engaged, and you can hear the difference. Stand with your ear near the door and press Start. A good lock gives a firm clunk about a second in. If you hear that clunk and still get F5 E2, the mechanism is working and the switch inside it that tells the board the door is secured has failed, which is still a lock replacement but confirms the diagnosis. If you hear nothing at all, either the lock has gone open circuit or it is not being given power. Unplug the machine, get the boot clamp off and check the connector at the lock for corrosion and backed-out pins before you spend money, because a damp laundry room ruins more connectors than it does locks. A door lock assembly runs $60 to $150 and takes most people under an hour with a Torx driver. Before you order one, do two cheap checks. Lift the door slightly by the handle as you close it and press Start; if it locks that way, your hinge has sagged and tightening the hinge screws through the front panel is a free fix. And look closely at the striker hook itself, because a bent hook from someone leaning on an open door presents at exactly the same angle every time and no new lock will cure it. If a new lock, a clean connector and a straight striker still give you F5 E2, the fault is in the harness run or the main control board, and that is a technician visit at $150 to $300 rather than a part you should buy on spec.",
+  "reset_procedure": "Unplug the washer at the wall for five minutes, then plug it back in. On most Whirlpool models you can also clear the displayed code by pressing Pause or Cancel twice and Power once, but the full power down is more reliable on door lock faults because the control holds the lock state. Test with Rinse and Spin rather than a full cycle, so the lock attempt happens in the first few seconds.",
+  "model_notes": "F5 E2 belongs to Whirlpool's two-part code set on front loaders. The F5 group covers the whole door lock system: on most models F5 E1 is a door switch fault, F5 E2 is the door failing to lock, and F5 E3 is the door failing to unlock. Older Duet-era front loaders report door lock problems as F26 or dL instead, and top loaders with a locking lid use Ld or dL. The same F5 E2 code and the same lock assembly appear on Maytag and Amana machines built on the Whirlpool platform.",
+  "parts": [
+    { "name": "Door lock and switch assembly", "cost": "$60 to $150", "difficulty": "moderate", "note": "The part that fixes most genuine F5 E2 codes; allow an hour" },
+    { "name": "Door strike or latch hook", "cost": "$15 to $45", "difficulty": "easy", "note": "Only if the hook is visibly bent or loose on the door" },
+    { "name": "Door hinge assembly", "cost": "$40 to $110", "difficulty": "moderate", "note": "For a sagged door where tightening the existing screws does not hold" },
+    { "name": "Door boot seal spring clamp", "cost": "$10 to $25", "difficulty": "easy", "note": "Cheap insurance if the original clamp is stretched or rusted" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Only after lock, wiring and striker have been cleared" }
+  ],
+  "when_to_call": "Call a technician if you have fitted a new door lock and F5 E2 came back on the first cycle, because the next step is testing the harness and the board with the machine powered up and the front open, which is live mains work in a wet room. Call as well if peeling the boot clamp off is more than you want to take on, since getting the boot lip reseated correctly matters: a boot that is not fully home in its groove leaks on the first spin and turns a $90 repair into a floor replacement. Never run the machine with the lock bypassed while you wait for a part. A front loader at full spin with an unsecured door is the one fault on this page that can actually hurt someone.",
+  "faqs": [
+    { "q": "What does F5 E2 mean on a Whirlpool washer?", "a": "The washer tried to lock the door and did not get confirmation that the lock engaged. F5 identifies the door lock system and E2 identifies the lock-side failure. The machine will not start a cycle until it sees a locked door, which is a safety design rather than a glitch, so there is no way to run it until the cause is fixed." },
+    { "q": "Why does my door look closed but still give F5 E2?", "a": "Because closed and latched are different things. A sock toe or a sleeve in the rubber boot holds the door a couple of millimetres proud, which is enough for the hook to miss the latch while the door still looks and sounds shut. Run a hand right round the seal, including underneath at the bottom, before anything else." },
+    { "q": "Can I still use the washer with F5 E2 showing?", "a": "No. The control will not run a cycle without a confirmed door lock, and that is deliberate. Do not try to jumper or tape the lock closed to get a wash done, because the interlock is what stops a door opening onto a drum spinning at speed. Wash elsewhere for a day and fit the part properly." },
+    { "q": "How much does it cost to fix F5 E2?", "a": "Often nothing, if it is laundry in the seal or lint in the latch cavity. A door lock assembly is $60 to $150 as a part and takes under an hour with a Torx driver. A technician doing the same job charges $150 to $300 including the part. Only a control board fault takes it beyond that, and that is rare." },
+    { "q": "What is the difference between F5 E2 and F5 E3?", "a": "They are opposite ends of the same system. F5 E2 is the door failing to lock, so the cycle never starts. F5 E3 is the door failing to unlock, so you are usually standing there with a finished wash and a door that will not open. Both commonly end at the same part, the door lock assembly." },
+    { "q": "Why did F5 E2 start suddenly?", "a": "Door locks fail by wear rather than by event: the plastic catch and the switch inside do the same movement thousands of times and eventually stop making contact, which looks sudden from outside. The other common trigger is a door that has been leaned on or hung from, which bends the striker enough to miss the latch from that day onward." },
+    { "q": "Can I replace a Whirlpool door lock myself?", "a": "Most people can. It means unplugging the machine, prying the spring clamp off the front of the rubber boot, folding the boot back, undoing a few Torx screws from inside the door opening and swapping the part. The fiddly bit is reseating the boot lip all the way round before the clamp goes back, because a missed section leaks on the first spin." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "The four things that stop a Whirlpool door latch confirming it is locked",
+    "labels": {
+      "display": "F5 E2",
+      "c1": "Laundry trapped in the boot",
+      "c2": "Lint in the latch cavity",
+      "c3": "Striker hook alignment",
+      "c4": "Lock assembly and connector"
+    }
+  },
+  "sources": [
+    { "title": "F5 E2 error code on a front load washer", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool front load washer technical sheet, door lock system codes", "publisher": "Service sheet supplied inside the machine", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on door lock assembly replacement", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F5 E3", "F5 E1", "dL", "F7 E1", "F9 E1", "LOC"]
+}

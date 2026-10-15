@@ -38,8 +38,8 @@
     ]
   },
   {
-    "slug": "lg-refrigerator-ff",
-    "url": "/lg/refrigerator/ff-error-code/",
+    "slug": "lg-refrigerator-ffe",
+    "url": "/lg/refrigerator/ffe-error-code/",
     "brand": "lg",
     "appliance": "refrigerator",
     "code": "FF",
@@ -52,8 +52,8 @@
     ]
   },
   {
-    "slug": "lg-refrigerator-cl",
-    "url": "/lg/refrigerator/cl-error-code/",
+    "slug": "lg-refrigerator-cle",
+    "url": "/lg/refrigerator/cle-error-code/",
     "brand": "lg",
     "appliance": "refrigerator",
     "code": "CL",
@@ -65,8 +65,8 @@
     ]
   },
   {
-    "slug": "lg-refrigerator-ch",
-    "url": "/lg/refrigerator/ch-error-code/",
+    "slug": "lg-refrigerator-che",
+    "url": "/lg/refrigerator/che-error-code/",
     "brand": "lg",
     "appliance": "refrigerator",
     "code": "CH",
@@ -76,8 +76,8 @@
     "also_rank_for": []
   },
   {
-    "slug": "lg-refrigerator-cf",
-    "url": "/lg/refrigerator/cf-error-code/",
+    "slug": "lg-refrigerator-cfe",
+    "url": "/lg/refrigerator/cfe-error-code/",
     "brand": "lg",
     "appliance": "refrigerator",
     "code": "CF",
@@ -87,8 +87,8 @@
     "also_rank_for": []
   },
   {
-    "slug": "lg-refrigerator-if",
-    "url": "/lg/refrigerator/if-error-code/",
+    "slug": "lg-refrigerator-ife",
+    "url": "/lg/refrigerator/ife-error-code/",
     "brand": "lg",
     "appliance": "refrigerator",
     "code": "IF",

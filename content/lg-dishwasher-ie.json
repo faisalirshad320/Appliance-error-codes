@@ -1,0 +1,136 @@
+{
+  "title": "LG Dishwasher IE Error Code: Not Filling, and How to Fix",
+  "meta_description": "IE on an LG dishwasher means the water level never rose enough during fill. Usually a closed supply valve or a clogged inlet screen. Here is how to find which.",
+  "h1": "LG dishwasher IE error code: it is not getting water, and why",
+  "answer": "IE means your LG dishwasher called for water and the level inside never rose high enough before the control gave up. LG's documentation puts that window at around ten minutes on many models. It is a water supply problem far more often than a machine problem: a supply valve turned off, a kinked fill hose, or a clogged mesh screen where the hose meets the inlet valve accounts for most of them. Check the small shut-off valve under the sink first, because it is the single most common cause and it costs nothing to rule out.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$130 to $300" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The supply shut-off valve is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Look under the sink for the small valve on the hot line feeding the dishwasher, usually a quarter-turn lever or a round handle on the pipe before the braided hose. A lever across the pipe rather than in line with it is closed. If anyone has worked under that sink recently, this is almost certainly it."
+    },
+    {
+      "cause": "The inlet mesh screen is clogged with grit or scale",
+      "frequency": "most cases",
+      "confirm": "Shut the water off, undo the supply line at the inlet valve on the machine, and look into the port. There is a fine mesh screen set in there. Brown, furred or scaled rather than bright metal means this is your fault, and it is common in hard water areas and after any mains work in the street."
+    },
+    {
+      "cause": "The fill hose is kinked or crushed",
+      "frequency": "common",
+      "confirm": "Pull the machine forward a few inches and follow the braided hose from the valve under the sink to the back of the dishwasher. A tight bend behind the machine, or a hose pinched where the machine was pushed back against it, passes a trickle but not a fill."
+    },
+    {
+      "cause": "The water inlet valve on the machine has failed",
+      "frequency": "common",
+      "confirm": "Valve under the sink fully open, screen clean, strong flow when you run the hose into a bucket, and still IE. The solenoid is open circuit or the valve is mechanically stuck shut. Measure across the solenoid terminals with a multimeter; an open circuit confirms it."
+    },
+    {
+      "cause": "House water pressure is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "Disconnect the supply hose into a bucket and open the valve for five seconds. You want a strong flow, not a dribble. A weak flow means the restriction is upstream in the plumbing and the dishwasher is reporting the problem correctly."
+    },
+    {
+      "cause": "The water level sensor or flow meter is misreading",
+      "frequency": "occasional",
+      "confirm": "You can hear water going in and see it in the tub when you open the door mid-fill, but the machine still throws IE. The water is arriving and the control is not seeing it, which points at the level sensor on the sump rather than anything on the supply side."
+    },
+    {
+      "cause": "Wiring to the inlet valve, or the control board",
+      "frequency": "rare",
+      "confirm": "The valve tests fine on a meter but never clicks or energizes when the cycle calls for water. Check the connector at the valve for corrosion or a backed-out pin before you condemn the board, because the inlet valve sits in a damp corner of the machine."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the supply valve fully",
+      "detail": "Open the cabinet under the sink and find the valve on the line that feeds the dishwasher. A quarter-turn lever must sit in line with the pipe, not across it. A round handle turns anticlockwise until it stops, then back a quarter turn. Most dishwashers run off the hot supply, so if you have two valves under there, the one you want is on the hot side.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel and power cycle the dishwasher",
+      "detail": "Press Power to cancel the cycle, then switch the machine off at the breaker for five minutes. The control stores the fault, so a dishwasher that now has water will keep showing IE until it is reset. Restore power and start a rinse-only cycle to test rather than a full wash.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the fill hose for kinks",
+      "detail": "Pull the dishwasher forward as far as the hoses allow, which usually means loosening the two screws holding it to the underside of the countertop or the cabinet sides first. Follow the braided supply hose the whole way and straighten any tight bend. Leave a gentle loop of slack behind the machine when you push it back so the hose is not crushed against the wall.",
+      "minutes": 12,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet mesh screen",
+      "detail": "Close the supply valve. Put towels and a shallow tray down, then undo the compression fitting where the supply line meets the inlet valve at the front left of the machine, under the toe kick, with an adjustable wrench. Expect a cupful of water. Pick the fine mesh screen out of the port with needle-nose pliers, rinse it, scrub it with an old toothbrush, and push it back in squarely before reconnecting.",
+      "minutes": 15,
+      "tools": "Adjustable wrench, needle-nose pliers, old toothbrush, towels, tray",
+      "warning": "Close the supply valve first or you will get mains pressure in your face under the cabinet."
+    },
+    {
+      "name": "Test the flow into a bucket",
+      "detail": "With the line still off the machine, hold the loose end in a bucket and open the supply valve for five seconds. You should get a strong, fast flow that puts a decent amount in the bucket. A weak dribble means the problem is upstream of the dishwasher, in the shut-off valve itself or the house plumbing, and no amount of appliance work will fix it.",
+      "minutes": 6,
+      "tools": "Bucket, towels",
+      "warning": null
+    },
+    {
+      "name": "Listen for the inlet valve at the start of a cycle",
+      "detail": "Start a cycle and put your ear near the bottom front left of the machine in the first thirty seconds. A healthy inlet valve makes a soft click as the solenoid pulls in, followed by the hiss of water. A click with no water means the valve is stuck or the screen is still blocked. No click at all means no power to the valve or a dead solenoid.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the inlet valve electrically",
+      "detail": "Switch off at the breaker. Remove the toe kick with a Phillips #2 and find the inlet valve where the water line enters at the front left. Pull the connector off the solenoid and measure across the two terminals with a multimeter on ohms. A healthy solenoid reads a few hundred ohms; an open circuit reads infinite and means the valve is dead. Check the service sheet tucked inside the machine for the exact figure for your model.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, multimeter",
+      "warning": "Switch off at the breaker before removing the toe kick or touching any connector. The panel's Power button does not isolate the machine."
+    }
+  ],
+  "still_showing": "If the valve under the sink is fully open, the screen is clean, the hose is straight and a bucket test gives you strong flow, the supply side is ruled out and the fault is in the machine. Work in this order. First, check the connector at the inlet valve itself: switch off at the breaker, pull the plug off the valve and look for green corrosion or a terminal that has backed out of its housing. This sits in the wettest corner of a dishwasher and it costs nothing to fix. Second, measure the solenoid across its terminals. An open circuit confirms a failed valve, which is a $25 to $70 part and about an hour of work with one compression fitting, two screws and a connector. Third, if the solenoid reads correctly but never clicks when the cycle calls for water, the fault is the harness or the control board, and that is where the cost jumps toward a few hundred dollars fitted. Before you get there, rule out one thing that catches people out: if you can hear water going in and see it in the tub but the machine still throws IE, the water is arriving and the control is not measuring it. That points at the water level sensor on the sump, a different and cheaper part than the valve, and buying an inlet valve will not help. The test is simple: start a cycle, wait a minute, and open the door. Water in the bottom of the tub with an IE code means a sensing fault, not a supply fault. Finally, if your machine was recently installed and has never filled correctly, go back to the installation: a supply line connected to a valve that was never opened, or teed off a line that was capped, is a surprisingly common finish to a kitchen remodel.",
+  "reset_procedure": "Press Power to cancel, then switch the dishwasher off at the breaker for five minutes and back on. The board holds the stored fault, so a machine with a perfectly good supply can still display IE if you skip this. Test with a rinse-only cycle so you find out in a few minutes rather than at the end of a two-hour wash.",
+  "model_notes": "IE is the water supply and fill-level fault across LG's dishwasher range and does not change meaning between generations. Do not confuse it with AE, which is a leak in the base tray, or FE, which is an overfill and the opposite problem. Some LG panels render the code as 1E depending on the font, and it means the same thing. On models fitted with a flow meter as well as a level sensor, the control can throw IE when water is clearly entering, because it is comparing two readings that disagree.",
+  "parts": [
+    { "name": "Water inlet valve", "cost": "$25 to $70", "difficulty": "moderate", "note": "One compression fitting, two screws, a connector; about an hour" },
+    { "name": "Inlet mesh filter screen", "cost": "$5 to $15", "difficulty": "easy", "note": "Most just need cleaning; replace only a torn screen" },
+    { "name": "Braided supply line", "cost": "$15 to $35", "difficulty": "easy", "note": "Worth replacing a rubber line over five years old anyway" },
+    { "name": "Water level sensor", "cost": "$25 to $70", "difficulty": "hard", "note": "Only when water is clearly entering the tub and IE still shows" },
+    { "name": "Main control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Last resort; check the harness and connectors first" }
+  ],
+  "when_to_call": "Call an appliance technician if the bucket test gives strong flow, the screen is clean and the inlet valve solenoid reads correctly, because the next step is tracing the harness and testing the board with the machine live. Call a plumber rather than an appliance technician if the bucket test gives a weak dribble, since the fault is in your house plumbing or a failing shut-off valve, and an appliance engineer will charge a call-out to tell you the same thing. If the shut-off valve under the sink will not turn, or weeps when you move it, get that replaced before anything else; a seized valve is the thing you will want working the next time something leaks.",
+  "faqs": [
+    { "q": "Can I still use my LG dishwasher with an IE code?", "a": "No, because the machine stops the cycle rather than washing without enough water. There is no safety risk in leaving it showing the code. If the fault is only intermittent, the dishwasher may fill normally on some cycles and not others, which usually points at a partly blocked screen or marginal water pressure rather than a dead valve." },
+    { "q": "What is the difference between IE and AE on an LG dishwasher?", "a": "They are opposites. IE means not enough water got in, and the fault is on the supply side. AE means water has reached the base tray under the tub and the leak float has tripped, which means stopping and finding a leak. If you are seeing both, deal with AE first; a leak matters more than a fill fault." },
+    { "q": "Why did IE appear suddenly when nothing changed?", "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden after months of build-up. The other common trigger is work elsewhere: a plumber turning a shut-off valve down, a water meter swap, or a mains repair in the street that stirs up sediment and lands it in your screen within a week." },
+    { "q": "Does IE mean the inlet valve needs replacing?", "a": "Usually not. In most cases the valve is fine and the restriction is a closed shut-off valve, a clogged screen or a kinked hose. Only replace it after a bucket test shows strong flow and the solenoid reads open circuit on a meter, because a new valve on a restricted supply will throw the same code on its first cycle." },
+    { "q": "The dishwasher is filling with water but still shows IE. Why?", "a": "The water is arriving and the control is not measuring it, or it is filling too slowly to reach the level in time. Open the door a minute into a cycle: water in the tub with an IE code points at the water level sensor on the sump. A dry tub points at a partly blocked screen or a valve that is barely opening." },
+    { "q": "Does my LG dishwasher run on hot or cold water?", "a": "Most are plumbed to the hot supply, which is why a water heater that is off, isolated or empty can produce an IE on a machine that has never had a problem. If the hot tap at the kitchen sink runs cold, fix that first. Some installations run off cold instead, so check which line the braided hose is teed into." },
+    { "q": "How much does it cost to fix an IE error?", "a": "Nothing if it is a closed valve, a kinked hose or a screen that needs rinsing, which covers most of them. A replacement inlet valve is roughly $25 to $70 for the part and about an hour of your time. A technician visit to diagnose and fit one typically runs $130 to $300 depending on your area." }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "How an LG dishwasher fills, and the four things that stop it",
+    "labels": {
+      "display": "IE",
+      "c1": "Shut-off valve under the sink",
+      "c2": "Mesh screen at the inlet valve",
+      "c3": "Fill hose run, no kinks",
+      "c4": "Inlet valve solenoid clicks"
+    }
+  },
+  "sources": [
+    { "title": "Dishwasher error codes and what they indicate, including the fill window for IE", "publisher": "LG support help library", "url": null },
+    { "title": "LG dishwasher water supply and fill system service notes", "publisher": "LG service literature supplied with the appliance", "url": null },
+    { "title": "Field reports on IE inlet faults and water level sensing", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["OE", "AE", "FE", "HE", "LE", "bE"]
+}

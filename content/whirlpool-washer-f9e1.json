@@ -1,0 +1,132 @@
+{
+  "title": "Whirlpool Washer F9 E1 Error Code: Causes and Fix",
+  "meta_description": "Whirlpool F9 E1 is a long drain error: the washer could not empty in time. Usually the drain pump filter or a blocked hose. Here is how to clear it.",
+  "h1": "Whirlpool washer F9 E1 error code: what it means and how to fix it",
+  "answer": "F9 E1 is Whirlpool's long-drain error. The F9 half tells you the fault is in the drain system and the E1 half tells you the specific problem is that the water did not leave the tub inside the time the control allows. It is a restriction, not usually a dead pump: the drain pump filter, the drain hose or the standpipe is holding the water back. Start at the filter behind the lower front panel, because that is where it is nine times out of ten, and expect the tub to still be full when you open it.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$150 to $320" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain pump filter is packed with lint and debris",
+      "frequency": "most cases",
+      "confirm": "Unscrew the filter behind the lower panel. A grey felted plug of lint with hair, coins or a bra wire through it is the answer. If you have owned the machine over a year and never opened this, assume it is the cause until proven otherwise."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or inserted too deep into the standpipe",
+      "frequency": "most cases",
+      "confirm": "Pull the machine forward. A hose pinched flat between the cabinet and the wall, or one pushed more than a few inches into the standpipe so it seals and siphons, both produce F9 E1 with a spotless filter."
+    },
+    {
+      "cause": "Excess suds choking the pump",
+      "frequency": "common",
+      "confirm": "Foam standing above the water line at the end of the cycle, or a 5D or Sd code earlier in the same wash. A pump moving foam shifts a fraction of the water it should, and the control times out before the tub is empty."
+    },
+    {
+      "cause": "The house standpipe or trap is blocked",
+      "frequency": "common",
+      "confirm": "Lift the drain hose out of the standpipe into a bucket and run a drain. If the machine empties into the bucket without complaint, the washer is innocent and the blockage is in your plumbing."
+    },
+    {
+      "cause": "The drain pump has failed or its impeller is jammed",
+      "frequency": "occasional",
+      "confirm": "Silence at the bottom of the machine when the drain should be running, or a loud grinding whine that moves almost nothing. With the filter out, reach in and turn the impeller by hand; it should spin with a light magnetic notch, not grate or lock."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is reporting water that is not there",
+      "frequency": "rare",
+      "confirm": "You can see through the glass that the tub is empty and the code still appears. The thin clear hose from the bottom of the outer tub to the sensor is split, kinked or plugged with soap scum."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and unplug the machine",
+      "detail": "Press Pause or Cancel, then pull the plug at the wall. Do not rely on the power button: the control can energise the drain pump on its own when it resumes, and you are about to put your hand where the impeller is. If you cannot reach the plug behind the machine, switch off the laundry circuit at the breaker before you go any further.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Unplug at the wall, not at the control panel."
+    },
+    {
+      "name": "Get the floor ready before you open anything",
+      "detail": "There is a full tub of water sitting above the filter. Lay towels along the front of the machine and have a shallow roasting tray or baking pan ready, plus a bucket to tip it into. A washing-up bowl is too tall to fit under the panel on most models, which is how people end up with a wet laundry room floor.",
+      "minutes": 5,
+      "tools": "Towels, shallow tray, bucket",
+      "warning": null
+    },
+    {
+      "name": "Open the lower panel and empty the machine through the drain tube",
+      "detail": "The access panel runs across the bottom front. Pop it with a thumb in the slot, or undo two Phillips screws along the bottom edge on models that use them. Most Whirlpool front loaders have a short black tube clipped beside the round filter cap with a plug in the end. Hold it over the tray, pull the plug, and refill the tray as many times as it takes. Draining this way takes ten minutes and saves you mopping.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": null
+    },
+    {
+      "name": "Remove and clean the filter, then check the impeller",
+      "detail": "Turn the filter cap anticlockwise. It is tight the first time and may need both hands. Pull the filter clear, strip the lint off it, and rinse it under a hot tap with an old toothbrush. Then put a finger into the empty housing and rotate the impeller. Free with a slight magnetic click is correct. Grinding, locked solid, or a blade missing all mean the pump needs replacing rather than cleaning.",
+      "minutes": 12,
+      "tools": "Old toothbrush, towels",
+      "warning": null
+    },
+    {
+      "name": "Refit the cap and run a drain test",
+      "detail": "Wipe the sealing surface, check the O-ring sits flat in its groove, and screw the cap clockwise until it is firmly hand tight. Plug the machine in and run Rinse and Spin so you get an answer in three minutes rather than fifty. Watch the floor under the panel for the whole first minute, because a cap that is a quarter turn short seals at rest and weeps under pump pressure.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Walk the drain hose and check the standpipe",
+      "detail": "Pull the machine out and follow the hose end to end. Straighten kinks, free it from behind the cabinet, and make sure it enters the standpipe only a few inches. The hose needs an air gap at the top or the machine will siphon. Pour a jug of water down the standpipe: if it backs up or gurgles its way down, the blockage is in your plumbing and the washer is reporting it correctly.",
+      "minutes": 10,
+      "tools": "Jug or bucket",
+      "warning": null
+    },
+    {
+      "name": "Rule out suds before you buy anything",
+      "detail": "If the glass showed foam rather than water, run Rinse and Spin twice with no detergent and nothing in the drum. Then drop your dose to roughly a tablespoon of HE liquid for a normal load. Pods and non-HE detergent are the usual culprits in a house with soft water, and a machine that suds-locks every wash will keep throwing F9 E1 no matter how clean the filter is.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the hose is straight and the code is back on the next cycle, the fastest way forward is to stop guessing and split the problem in two. Take the drain hose out of the standpipe, put it in a bucket on the floor and start a drain. Water into the bucket proves the washer pumps fine and the fault is in your standpipe or house drain, which is a plumber's call and nothing you can fix inside the machine. No water and no noise points at the pump losing power or having failed outright; a Whirlpool drain pump runs $35 to $90 and comes out with two hose clamps and a few screws once the machine is tipped back onto a blanket. Noise but no flow means the impeller is damaged or the volute is silted up, and the same part fixes it. Two cases need different thinking. On a stacked laundry center, check the hose height before anything else: these units are often installed in a closet with the hose looped high, and lifting water further than the pump was designed for produces F9 E1 on a machine with no fault at all. And if the tub visibly empties but the code appears anyway, the control is being told there is water left. Find the thin clear air hose running from a port low on the outer tub up to the pressure sensor, pull it off both ends, and check it for a split, a kink or a plug of grey soap scum. Clean that and you have fixed a $15 problem. Everything after that is the main control board, where the bill jumps to a few hundred dollars.",
+  "reset_procedure": "On most Whirlpool models the displayed code clears with Pause or Cancel pressed twice and then Power once. If it will not clear, or comes back immediately, unplug the machine at the wall for five minutes and let the control fully power down. Test with Rinse and Spin rather than a full cycle so the drain runs within the first couple of minutes.",
+  "model_notes": "F9 E1 belongs to Whirlpool's two-part code system, used on front loaders and stacked laundry centers from roughly the 2012 generation onward. On older Duet-era front loaders the same long-drain fault shows as F21 or F02, and top-load Cabrio models report it as Ld. Not every current model has a user-serviceable filter cap behind the access panel; where there is no cap, the pump is reached by removing the whole lower front panel, which is a longer job and a reasonable point to call someone. The code also appears on Maytag and Amana machines built on the same platform, with the same meaning.",
+  "parts": [
+    { "name": "Drain pump assembly", "cost": "$35 to $90", "difficulty": "moderate", "note": "Allow an hour with the machine tipped onto its back" },
+    { "name": "Filter cap and O-ring", "cost": "$12 to $30", "difficulty": "easy", "note": "Only if the cap is cracked or the seal has gone hard" },
+    { "name": "Corrugated drain hose", "cost": "$20 to $40", "difficulty": "easy", "note": "Replace rather than straighten a hose that is split or permanently flattened" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "Usually just needs cleaning out" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Only after pump, hose and sensor have been cleared" }
+  ],
+  "when_to_call": "Get a technician in if your model has no filter cap behind the access panel and the pump has to come out through the front, or if a new pump threw F9 E1 on its first cycle, which points at wiring or the control board and needs testing with the machine live. Call a plumber rather than an appliance engineer when the bucket test shows the washer drains perfectly onto the floor, because the fault is in the standpipe. And stop using the machine entirely if water appears around the filter cap or under the cabinet after you reassemble it; a seal that will not seat turns a drain fault into a slow flood.",
+  "faqs": [
+    { "q": "What does F9 E1 mean on a Whirlpool washer?", "a": "It is the long drain error. F9 identifies the drain system and E1 identifies the specific fault, which is that the tub did not empty within the time the control allows. The two halves alternate on the display, so you may see F9 flash and then E1 and assume they are two separate codes. They are one." },
+    { "q": "Is F9 E1 the same as F21?", "a": "Yes, in everything that matters. They are the same long-drain fault on two generations of Whirlpool control. Older front loaders used a single two-digit code like F21 or F02; newer models split codes into a function number and a fault number, so the same condition reads F9 E1. The checks and the parts are identical." },
+    { "q": "Can I open the door and get my laundry out?", "a": "Not while the tub is full. The door stays locked above a certain water level, which is a safety design rather than a fault. Drain the machine through the small tube beside the filter first, and the lock will usually release once the level drops. Unplugging the washer for a few minutes after draining helps if it stays shut." },
+    { "q": "Why does F9 E1 keep coming back after I cleaned the filter?", "a": "Because the filter was not the restriction. The usual second answer is the drain hose, either kinked behind the machine or pushed too far into the standpipe, and the third is the house drain itself. Run the bucket test: drain into a bucket on the floor and see whether the washer or the plumbing is at fault." },
+    { "q": "Can too much detergent cause F9 E1?", "a": "Yes. Drain pumps move water well and foam badly, so a sudsed-up tub drains at a fraction of the normal rate and the control gives up. Whirlpool front loaders need roughly a tablespoon of HE liquid for a normal load. If you also see 5D or Sd, treat the suds first and the drain code usually goes with it." },
+    { "q": "How much does it cost to fix F9 E1?", "a": "Nothing at all if it is the filter, which is the most common outcome. A drain pump is $35 to $90 as a part and $150 to $320 fitted by a technician. A blocked standpipe is a plumber's charge instead. The only expensive answer is the main control board, and that is rare enough that you should not assume it." },
+    { "q": "Can I still use the washer with F9 E1 showing?", "a": "No. The cycle stops with water in the drum, and starting again just repeats the failed drain and leaves dirty water standing. There is no shock or fire risk in leaving it overnight, but it will smell by the second day, so empty it through the filter drain tube even if the repair has to wait." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "What F9 E1 is telling you, and the four places the water is stuck",
+    "labels": {
+      "display": "F9 E1",
+      "c1": "Filter cap, turn anticlockwise",
+      "c2": "Drain tube, empty tub first",
+      "c3": "Impeller must turn freely",
+      "c4": "Hose kinks and standpipe depth"
+    }
+  },
+  "sources": [
+    { "title": "F9 E1 error code on washers and laundry centers", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool front load washer technical sheet, F-code and E-code tables", "publisher": "Service sheet supplied inside the machine", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on F9 E1 drain diagnosis", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F21", "5D", "SD", "F8 E1", "F5 E2", "F7 E1"]
+}

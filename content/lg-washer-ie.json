@@ -1,0 +1,136 @@
+{
+  "title": "LG Washer IE Error Code: Water Fill Fault and Fix",
+  "meta_description": "IE on an LG washer means it did not fill with water in time. Usually a closed tap or a clogged inlet screen. Find which one and fix it in about 20 minutes.",
+  "h1": "LG washer IE error code: what it means and how to fix it",
+  "answer": "IE stands for inlet error. Your LG washer called for water, did not reach the level it wanted inside the time it allows, and stopped. Four times out of five the problem is on the supply side rather than in the machine: a tap that is closed or only part open, or the fine mesh screens in the inlet ports clogged with grit. Check both taps first, then undo the hoses at the machine end and look at the screens. If you are reading the code as 1E, it is the same thing: LG's display makes a capital I look like a 1.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "15 to 40 minutes",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$130 to $280" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A supply tap is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Reach behind the machine and turn each tap anticlockwise until it stops. A quarter-turn lever must sit in line with the pipe, not across it. If the washer was moved, plumbed in, or anyone had a leak scare recently, someone turned a tap down and forgot."
+    },
+    {
+      "cause": "The inlet mesh screens are clogged",
+      "frequency": "most cases",
+      "confirm": "Undo the hose at the machine end. Set into the inlet port is a fine mesh screen. Bright metal is fine; brown, furred or scaled means this is your fault. It happens to one side before the other, so check both even if the first looks clean."
+    },
+    {
+      "cause": "A supply hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Follow both hoses from tap to machine. A hose flattened against the wall behind the washer passes enough to drip but not enough to fill. In winter, a run through a garage or along an outside wall can freeze solid and the hose will feel rigid and very cold."
+    },
+    {
+      "cause": "Only one of the two supplies has failed",
+      "frequency": "common",
+      "confirm": "The machine fills fine on one program and throws IE on another. If a cold cycle works and a warm one does not, the hot supply is the problem, which usually means a closed hot tap or a water heater that is off or isolated rather than anything wrong with the washer."
+    },
+    {
+      "cause": "Mains pressure at the tap is genuinely low",
+      "frequency": "occasional",
+      "confirm": "Disconnect the hose, put the loose end in a bucket and open the tap for five seconds. You want a hard jet, not a dribble. A weak flow means the restriction is upstream in the house plumbing and the washer is reporting it correctly."
+    },
+    {
+      "cause": "The water inlet valve has failed",
+      "frequency": "occasional",
+      "confirm": "Taps open, screens clean, strong flow at the hose, and still IE. The solenoid is open circuit or the valve is mechanically stuck shut. On LG machines with steam there is a separate steam valve, so a machine that fills on a plain cycle but not a steam one points at that one."
+    },
+    {
+      "cause": "Water level sensor hose blocked, or a wiring fault",
+      "frequency": "rare",
+      "confirm": "You can hear water going in and see the drum filling, and the machine still calls IE. The level sensor is being fed through a thin clear hose from the bottom of the tub; if that hose is blocked with detergent sludge the control never sees the level rise."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps fully",
+      "detail": "Turn each supply tap anticlockwise until it will not go further, or set a lever valve in line with the pipe. Do this before you move anything, because it clears IE more often than every other cause put together and takes two minutes. If the machine has only one inlet, there is only one tap to check, and it is still worth checking.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset the washer and try again",
+      "detail": "Press Power to cancel, unplug the machine at the wall for a full minute, then plug it back in and start a Rinse and Spin. The control holds the fault, so a washer that now has water will keep showing IE until it is reset. Use a short program to test so you find out in two minutes rather than an hour.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the machine out and walk both hoses",
+      "detail": "Check the full run of each hose for a tight bend, a flat spot where the cabinet has been pushed back against it, or a section that is cold and stiff in winter. Straighten any kink and leave a hand's width of clearance behind the machine when you push it back. Hoses that have been bent in the same place for years take a set and need replacing rather than straightening.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet mesh screens",
+      "detail": "Close both taps first. Put a towel and a shallow tray under the connections, then unscrew each hose from the machine end by hand or with pliers; expect a cupful of water. Inside the inlet port sits a fine mesh screen. Hook it out with needle-nose pliers, rinse it under a tap, scrub it with an old toothbrush, and press it back in squarely. Do both inlets even if one looks clean, then hand-tighten the hoses and check for weeps.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close the taps before undoing a hose or you get full mains pressure in your face."
+    },
+    {
+      "name": "Bucket test the flow at the tap",
+      "detail": "With a hose off the machine, put the loose end in a bucket and open the tap for five seconds. A healthy supply fills a good part of a bucket in that time. A weak dribble means the problem is in your plumbing, not the washer, and the usual culprits are a part-closed isolation valve under the floor or a service valve that has silted up.",
+      "minutes": 5,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Thaw a frozen hose if the machine is in an unheated space",
+      "detail": "Close the taps, disconnect the hose, and bring it somewhere warm or wrap it in towels soaked in hot tap water, swapping them as they cool. Give it twenty minutes. Never use a heat gun, a blowtorch or boiling water on a rubber or braided hose; it will split and you will discover that at mains pressure.",
+      "minutes": 25,
+      "tools": "Towels",
+      "warning": "No open flame and no boiling water on a supply hose."
+    },
+    {
+      "name": "Check the inlet valve electrically",
+      "detail": "Unplug the machine at the wall. Take the top panel off, usually two or three screws along the back edge, and slide it rearward. The inlet valve sits directly behind where the hoses enter. Pull the connector off one solenoid and measure across its terminals with a multimeter on ohms. An open circuit means that solenoid is dead. Check the service sheet folded inside the machine for the reading your model should give, rather than working from a number off the internet.",
+      "minutes": 25,
+      "tools": "Phillips screwdriver, multimeter",
+      "warning": "Unplug at the wall before removing any panel. The power button does not isolate the board."
+    }
+  ],
+  "still_showing": "If both taps are fully open, both screens are clean, the hoses are straight and the bucket test gives a hard jet, the supply side is ruled out and the fault is inside the machine. Go in this order. First, try a cold-only program. If the machine fills perfectly on cold and only fails on warm or hot, the washer is fine and your hot supply is not: check the hot tap, and check whether the water heater is switched on, as this catches people after a vacation shutdown. Second, unplug the machine, take the top panel off and look at the connectors on the inlet valve for green corrosion or a pin that has backed out of its housing; laundry rooms are damp and this costs nothing to fix. Third, measure each solenoid with a multimeter. An open circuit confirms a failed valve, and the part is a $25 to $60 item that takes about half an hour with two screws and a connector. Fourth, if the solenoids read correctly but you can hear water entering and the code still appears, the machine is filling but cannot tell. Find the thin clear hose running from the bottom of the outer tub to the water level sensor, pull it off and blow through it. Sludge in that hose is common on machines run on cold cycles with heavy detergent dosing, and it produces a fault that looks exactly like a supply problem. Only once the valve, the harness and the level sensor all check out does the main control board become the reasonable suspect, and that is the point where the bill jumps into the hundreds and the age of the machine starts to matter.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full minute, then plug it back in. The board stores the fault, so a machine with a perfectly good supply will keep showing IE until it is cleared. Start a Rinse and Spin to test instead of a full wash, so you know within two minutes whether water is going in.",
+  "model_notes": "IE and 1E are the same code. LG's seven-segment display draws a capital I as a single vertical bar, which is indistinguishable from a 1, so the same fault gets reported both ways. Beyond that, how many inlets you have matters: cold-fill-only LG models have a single valve and a single screen, while hot-and-cold models have two, and machines with a steam function have an additional valve that can fail on its own, giving a washer that fills normally on a standard cycle and throws IE as soon as you pick a steam program. On some LG models this fault is recorded as E01 in the service log.",
+  "parts": [
+    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws and a connector, about 30 minutes" },
+    { "name": "Inlet mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Only needed if a screen is torn; most just need cleaning" },
+    { "name": "Braided stainless supply hoses", "cost": "$15 to $30 a pair", "difficulty": "easy", "note": "Replace rubber hoses over five years old while you are back there" },
+    { "name": "Water level pressure sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Clear its hose before buying one; sludge is the usual problem" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Only after the valve and harness check out" }
+  ],
+  "when_to_call": "Call an appliance technician when the bucket test gives a strong jet, both screens are clean, and the machine still will not fill, because the next step is working on a live machine to see whether the valve is being energised. Call a plumber instead if the bucket test gives a weak dribble, since the fault is in your house plumbing and an appliance engineer will charge a call-out to tell you exactly that. Turn the taps off and stop immediately if you find water weeping from a hose connection or a split in a hose while you are investigating; a supply-side leak at mains pressure causes far more damage than a washer that will not start.",
+  "faqs": [
+    { "q": "Is 1E the same as IE on an LG washer?", "a": "Yes. The code is IE for inlet error, but LG's display draws a capital I as a plain vertical bar, which looks exactly like a 1. There is no separate 1E fault on LG washers. Whichever way you read it off the panel, the machine is telling you it could not fill with water in the time it allows." },
+    { "q": "Can I still use my LG washer with an IE code?", "a": "Not for a full wash, because the machine stops rather than running without enough water. There is no safety risk in leaving it. If only the hot supply has failed, a cold-only cycle will often run perfectly, which is both a workaround and a useful way to prove where the problem is while you wait for a repair." },
+    { "q": "Why does my LG washer show IE when water is clearly going in?", "a": "It is filling too slowly, or the machine cannot tell that it is filling. A partly blocked screen passes water but not fast enough, so the control times out. Less often the thin hose feeding the water level sensor is blocked with detergent sludge, so the board never sees the level rise even though the drum is filling normally." },
+    { "q": "Does an IE code mean the water inlet valve is broken?", "a": "Usually not. In most cases the valve is fine and the restriction is a closed tap, a clogged mesh screen or a kinked hose. Only replace the valve once you have confirmed a strong flow at the hose into a bucket and an open circuit across the solenoid, because a new valve fitted to a blocked supply throws the same code on its first cycle." },
+    { "q": "Why did IE appear suddenly when nothing changed?", "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden after months of building up. The other common trigger is work elsewhere: a plumber turning a stopcock down, a water meter swap, or a mains repair that stirs up sediment and lands it in your screens within a week." },
+    { "q": "Can a frozen hose cause an IE code?", "a": "Yes, and it is the standard winter cause for machines in garages, outbuildings and anywhere plumbed along an outside wall. The giveaway is a hose that feels rigid and very cold. Thaw it with warm towels rather than any kind of flame or boiling water, and lag the pipework before the next cold snap." },
+    { "q": "What is the difference between IE and FE on an LG washer?", "a": "They are opposites. IE means the washer could not get enough water in. FE means it got too much, usually because the inlet valve is stuck open or the water level sensor is misreading. If you see both at different times on the same machine, suspect the level sensor or its hose rather than the supply." }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Where an LG washer takes water in, and the four things that stop it",
+    "labels": {
+      "display": "IE",
+      "c1": "Both taps fully open",
+      "c2": "Mesh screens in the inlet ports",
+      "c3": "Hose run free of kinks and ice",
+      "c4": "Inlet valve solenoids energised"
+    }
+  },
+  "sources": [
+    { "title": "IE error code, washing machine not filling with water", "publisher": "LG support documentation", "url": null },
+    { "title": "LG front load washer error code list", "publisher": "LG support documentation", "url": null },
+    { "title": "Field guidance on IE causes and inlet screen cleaning", "publisher": "Appliance parts retailers' repair guides and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["1E", "FE", "PE", "OE", "CL", "dE"]
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Whirlpool Dryer PF Code: What It Means and How to Clear",
+  "meta_description": "PF on a Whirlpool dryer means the power was interrupted mid-cycle. Hold START to resume. Here is what to do when PF keeps coming back on its own.",
+  "h1": "Whirlpool dryer PF code: power failure, and what to do about it",
+  "answer": "PF stands for power failure. Your dryer lost electrical power part way through a cycle and is telling you the cycle did not finish. It is not a fault in the machine. Hold the START button for a second or two and the dryer picks the cycle up where it left off, or press POWER to clear the display and start fresh. The only version of PF worth worrying about is the one that keeps coming back when the lights in the house never flickered, because that points at a loose connection carrying 240 volts.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 minute to resume, 30 minutes if it keeps happening",
+  "cost_estimate": { "diy": "$0", "technician": "$130 to $280 for an appliance tech, $150 to $400 for an electrician" },
+  "safety_warning": "If PF appears repeatedly with no power cuts in the house, stop and take it seriously. A recurring PF often means a loose connection in the dryer outlet, the cord or the terminal block, and a loose 240 volt connection heats up, scorches and starts fires. Scorch marks, a burning or fishy plastic smell, a warm outlet plate or a discolored cord all mean you stop using the dryer and get an electrician in. Never work inside the outlet or the terminal block without switching off the breaker first.",
+  "causes": [
+    {
+      "cause": "The household power actually went out or dipped",
+      "frequency": "most cases",
+      "confirm": "Microwave and oven clocks flashing, a router that has rebooted, or anyone else in the house mentioning the lights blinked. A brief brownout during a storm or when a big appliance kicks in is enough. Press START and the cycle carries on."
+    },
+    {
+      "cause": "Someone opened the breaker, unplugged it, or a child hit the power button",
+      "frequency": "common",
+      "confirm": "No other clocks are flashing, but the dryer alone lost power. Check whether the laundry breaker is sitting halfway, whether the plug has worked loose behind the machine, or whether anyone was cleaning behind the dryer."
+    },
+    {
+      "cause": "Noise on the incoming line that the control reads as a bad voltage",
+      "frequency": "common",
+      "confirm": "PF shows up now and then with no pattern and the cycle always resumes fine. Whirlpool notes the control will flag PF if it sees an incorrect voltage even briefly, and pressing buttons during the ten second power-up delay can trigger it too."
+    },
+    {
+      "cause": "A loose or burned connection at the outlet, plug or terminal block",
+      "frequency": "occasional",
+      "confirm": "PF several times a week with no power cuts, often alongside a dryer that heats weakly or quits mid-load. Switch off the breaker and look at the plug face and the outlet slots for browning, pitting or melted plastic. This one is a fire risk, not an inconvenience."
+    },
+    {
+      "cause": "The breaker is weak, loose in the panel or tripping on load",
+      "frequency": "occasional",
+      "confirm": "The dryer runs for a while and then dies, and you find one half of the double-pole breaker has moved. A breaker that trips under the heater's load, or feels hot to the back of your hand through the panel cover, is failing."
+    },
+    {
+      "cause": "The main control board is misreading the supply",
+      "frequency": "rare",
+      "confirm": "You have had an electrician confirm the outlet, the cord and the breaker are all sound, and PF still appears on most cycles. This is the last suspect, not the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Hold START to resume the cycle",
+      "detail": "Press and hold the START button for a couple of seconds rather than tapping it. On most Whirlpool dryers that picks up the interrupted cycle where it stopped, with the time remaining it had before. If you would rather start over, press POWER once to clear PF off the display, then select a cycle as normal. That is the whole fix for the overwhelming majority of PF codes.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether the house actually lost power",
+      "detail": "Look at the microwave and oven clocks. If they are flashing, you have your answer and nothing else needs doing. If they are not, the dryer lost power on its own, which is the version worth chasing. Note the time and whether anything else big was running, like an air conditioner or a well pump, because a heavy load elsewhere can sag the line enough to trigger it.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the plug and the outlet",
+      "detail": "Switch off the laundry breaker first. Pull the dryer forward and unplug it. Look at the face of the plug and into the outlet slots: bright metal is fine, brown or black staining, pitting, or a blade that wobbles in its slot is not. Feel the cord near the plug for stiffness or a flat spot. Push the plug firmly back in; it should take real effort and hold without sagging under its own weight.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": "Switch off the breaker before touching the plug or outlet. A dryer outlet carries 240 volts and will not give you a second chance."
+    },
+    {
+      "name": "Look at the breaker",
+      "detail": "A dryer runs on a double-pole breaker, two switches joined by a bar. Check it is firmly on rather than sitting in the middle, and push the panel cover back on properly. If the breaker feels warm through the cover, or you can hear buzzing from the panel, leave it alone and call an electrician. Do not remove the panel cover yourself.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Do not open the electrical panel. Buzzing or a warm breaker is an electrician's job."
+    },
+    {
+      "name": "Reset the control with a full power-down",
+      "detail": "Switch the laundry breaker off for a full minute, then switch it back on. This clears the stored fault and gives the control a clean start, which is worth doing once before you decide PF is recurring. Wait ten seconds after power comes back before pressing anything; pressing keys during the power-up delay can itself bring PF back.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a test load and keep count",
+      "detail": "Run a normal heated cycle with a few damp towels and note whether PF appears, at what point in the cycle, and whether anything else in the house was running at the time. One PF after a thunderstorm is nothing. Three PFs in a week with no power cuts is a pattern, and the pattern is what an electrician needs to hear.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If PF comes back on cycle after cycle and your clocks never flash, the dryer is losing power on its own and you need to find where. Work from cheapest to most expensive. First, rule out the obvious: the plug not fully seated, an extension cord or power strip in the chain, which a dryer must never run on, and a breaker sitting half-tripped. Second, switch the breaker off and look hard at the outlet and plug. Browning around a blade, a plug that has gone soft or a blade that waggles in the slot all mean a worn outlet, and a dryer receptacle is a cheap part fitted by an electrician in under an hour. Third, if the outlet and cord look clean, the next place a connection loosens is the terminal block behind the small cover plate at the lower back of the dryer, where the cord lands on three or four screws. Those screws back off with years of vibration and heat. An appliance technician will check and retorque them in minutes; if you do it yourself, the breaker goes off first, every time, and you verify it is off before you take the cover plate off. Fourth, if the connections are all sound, the problem is upstream in the circuit, and that is an electrician's call: a loose neutral, an aging breaker, or a shared circuit sagging under load. Only when a professional has signed off on the supply is it reasonable to suspect the dryer's main control board misreading the voltage, and that is a few hundred dollars against a repair that may not be worth it on an older machine. One more thing: if PF only ever shows after a storm or a known outage, there is nothing to fix. Press START and get on with your day.",
+  "reset_procedure": "Press and hold START to resume the interrupted cycle, or press POWER once to clear the code and start over. If PF will not clear from the display, switch the dryer's breaker off for one minute and back on, then wait ten seconds before touching any buttons. Pressing keys during the control's power-up delay can set PF again by itself.",
+  "model_notes": "PF means the same thing across Whirlpool's dryer range, including Duet, Cabrio, HybridCare and the current vented models, and across Maytag, Amana and KitchenAid dryers built on the same controls. On older models with a simpler display it may show as a flashing PF with no beep; on newer ones it sits in the time display until you clear it. A related code to know is L2, which means low or no line voltage reaching the heater rather than a complete interruption, and points at a supply problem in the same family. Commercial-grade residential dryers use the same PF code with the same resume-with-START behavior.",
+  "parts": [
+    { "name": "Dryer outlet receptacle, 3 or 4 wire", "cost": "$10 to $25", "difficulty": "technician only", "note": "Cheap part, but it is a 240 volt circuit; have an electrician fit it" },
+    { "name": "Dryer power cord", "cost": "$20 to $40", "difficulty": "moderate", "note": "Replace if the plug face is browned or the cord is stiff near the plug" },
+    { "name": "Terminal block", "cost": "$20 to $50", "difficulty": "hard", "note": "Only if the block itself is cracked or scorched, not just loose" },
+    { "name": "Main control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Last resort, and only after the supply has been checked by an electrician" }
+  ],
+  "when_to_call": "Call an electrician, not an appliance technician, if you see browning or melting at the plug or outlet, smell hot plastic near the dryer, or find the breaker warm to the touch. That is the supply side and it is a fire risk worth same-week attention. Call an appliance technician if the house supply has been checked and declared sound but PF still appears most cycles, since the next steps are the terminal block and the control board with the machine live. For a single PF after a storm, call nobody; hold START.",
+  "faqs": [
+    { "q": "What does PF mean on a Whirlpool dryer?", "a": "Power failure. The dryer lost electrical power during a cycle and stopped, and PF is how it tells you the load did not finish drying. It is a status message rather than a breakdown. Hold START to resume the cycle from where it stopped, or press POWER to clear the display and begin again." },
+    { "q": "How do I clear the PF code?", "a": "Press and hold START for a second or two to resume, or press POWER once to clear it. If the code is stuck on the display, switch the dryer's breaker off for a minute and back on. Wait ten seconds after power returns before pressing any buttons, because key presses during the power-up delay can set PF again." },
+    { "q": "Is a PF code dangerous?", "a": "A single PF after a power cut is harmless. A PF that repeats when the house power never failed is worth taking seriously, because the usual cause is a loose connection at the outlet, the cord or the terminal block. Loose 240 volt connections heat up and scorch. Browning, a burning smell or a warm outlet means stop and call an electrician." },
+    { "q": "Why does my dryer keep showing PF when the power never went out?", "a": "Because the dryer is losing power even though the rest of the house is not. Common reasons are a worn outlet that no longer grips the plug, a loose screw on the terminal block behind the dryer, a half-tripped double-pole breaker, or line noise the control reads as a bad voltage. Check the plug and outlet with the breaker off first." },
+    { "q": "Can I still use the dryer with a PF code?", "a": "Yes, in the ordinary case. Hold START and the cycle resumes. If PF is appearing several times a week with no power cuts, stop using it until you have checked the plug and outlet, since the likeliest cause is an electrical connection getting hot rather than anything inside the machine." },
+    { "q": "Does PF mean my control board is bad?", "a": "Almost never. The board is reporting a real interruption in the supply, not failing. Check the outlet, the cord, the terminal block and the breaker before anyone suggests a board. A control board is a few hundred dollars and replacing it will not help if the problem is a worn receptacle costing twenty." },
+    { "q": "Will my laundry be ruined if PF stopped the cycle overnight?", "a": "No, though damp laundry left sitting in a warm drum overnight will smell musty by morning. Run a short rinse in the washer if it has gone sour, otherwise just restart the dry cycle. Nothing about PF harms clothes; the dryer simply stopped heating and tumbling when the power went." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "PF is a power interruption, and these are the four places power is lost",
+    "labels": {
+      "display": "PF",
+      "c1": "Hold START to resume the cycle",
+      "c2": "Plug and outlet, check for browning",
+      "c3": "Double-pole breaker fully on",
+      "c4": "Terminal block screws behind cover"
+    }
+  },
+  "sources": [
+    { "title": "PF error code on dryers, resume with START and clear with POWER", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Dryer error code listing, PF and L2 supply-related codes", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Dryer installation instructions, cord, terminal block and circuit requirements", "publisher": "Whirlpool installation sheet supplied with the dryer", "url": null },
+    { "title": "Field reports on recurring PF traced to worn receptacles and loose terminal blocks", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["L2", "F01", "F70", "AF", "F1"]
+}

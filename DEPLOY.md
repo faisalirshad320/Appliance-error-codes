@@ -38,6 +38,22 @@ The `deploy` branch only exists after the first push to `main` runs the workflow
 want it immediately, run the workflow manually from the **Actions** tab
 (`Build and validate site` → **Run workflow**).
 
+## Option C: deploy branch already exists
+
+`dist/` is build output and is not tracked on this branch. A ready-to-serve `deploy` branch
+is published directly, so you can connect Cloudways to it immediately without waiting for a
+GitHub Actions run. Its root is the document root. Option A's connect steps apply unchanged;
+Actions simply keeps it up to date afterwards.
+
+To refresh it by hand at any time:
+
+```bash
+python3 site/build.py
+cd dist
+git init -q && git add -A && git commit -qm "build"
+git push -f git@github.com:faisalirshad320/Appliance-error-codes.git HEAD:deploy
+```
+
 ## Option B: rsync over SSH
 
 Faster for a one-off and does not need the deploy branch.

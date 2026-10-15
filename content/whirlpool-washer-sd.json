@@ -1,0 +1,124 @@
+{
+  "title": "Whirlpool Washer SD Code: What It Means and How to Fix",
+  "meta_description": "SD on a Whirlpool washer is the suds code, and on most panels it is really Sd or 5D. Here is how to tell, how to clear a suds lock, and how to stop it.",
+  "h1": "Whirlpool washer SD code: what it means and how to clear it",
+  "answer": "SD on a Whirlpool washer means the machine has detected excess suds and has paused the cycle to rinse the foam away. Before anything else, know that what you are reading as SD is almost certainly the code Sd, and on the seven-segment displays Whirlpool uses, the letter S and the digit 5 are drawn with exactly the same shape, so the same code is read as 5D by half the people who see it. All three readings point to the same thing: too much foam for the machine to rinse or pump. The fix is two rinse cycles now, and a much smaller detergent dose from here on.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "45 minutes to 2 hours, mostly waiting",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $200" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Standard non-HE detergent used in an HE machine",
+      "frequency": "most cases",
+      "confirm": "Find the HE symbol on the bottle. If it is not there, you have your answer. Regular detergent is built to foam in a machine that uses several times the water, and a front loader cannot rinse it out no matter how many extra rinses it runs."
+    },
+    {
+      "cause": "The right detergent, far too much of it",
+      "frequency": "most cases",
+      "confirm": "You pour to a line on the cap or fill the dispenser compartment. Both deliver several times what a Whirlpool front loader needs. A measured tablespoon of HE liquid per normal load is the benchmark; anything beyond that is making foam, not cleaning."
+    },
+    {
+      "cause": "The drain is slow, so normal foam never leaves the machine",
+      "frequency": "common",
+      "confirm": "Sd arriving alongside or just before F21 or F9 E1. If the sump never empties properly, foam sits between cycles and even a sensible dose reads as excess. The drain fault is the real problem and the suds code is downstream of it."
+    },
+    {
+      "cause": "Loads that carry their own soap in",
+      "frequency": "common",
+      "confirm": "The code only shows on towels, bedding, sportswear or anything hand-washed or spot-treated beforehand. Fabric holds detergent from previous washes and releases it, so the machine gets a dose you never measured."
+    },
+    {
+      "cause": "Soft water making every dose go further",
+      "frequency": "occasional",
+      "confirm": "Suds trouble that began after a softener was installed or after moving. Soft water needs roughly half the detergent to do the same work, and the unused half becomes foam."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is misreading the tub",
+      "frequency": "rare",
+      "confirm": "Sd on a cycle run with an empty drum and no detergent. At that point there is no foam to detect, so the control is reading the tub wrongly, usually through a soap-scummed or split sensor air hose."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work out which code you are actually looking at",
+      "detail": "Stand square to the panel and look at the first character. On a seven-segment display, S and 5 are identical, so Sd and 5d cannot be told apart visually. If your display draws real letters, Sud is the Maytag and Amana wording for the same condition. Whichever it is, the machine is telling you there is too much foam, so the response is the same and you do not need to resolve the ambiguity to fix it.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Leave it alone for half an hour",
+      "detail": "A Whirlpool washer that detects suds stops tumbling, adds water and runs its own foam-reduction routine. This is the machine working, not failing. Give it thirty minutes before touching anything. A fair number of these clear themselves and the cycle completes late. Cancelling and restarting pushes more soapy water through the pump and sets you back.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Break the suds lock with two empty rinses",
+      "detail": "If the code is still up, cancel the cycle, leave the laundry where it is and select Rinse and Spin with no detergent. Run it twice, back to back. Look through the glass during the second run: you want water with a thin collar of bubbles, not a head of white foam. If it still looks like a bubble bath, run a third.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Drain and clean the pump filter to clear the sump",
+      "detail": "Unplug the machine at the wall. Open the lower front access panel, which pops off with a thumb in the slot or comes away after two Phillips screws. Empty the machine through the short drain tube beside the filter into a shallow tray, then turn the filter cap anticlockwise and pull the filter out. Rinse the soap film off it and check the impeller turns freely. Refit the cap hand tight and check for drips on the first spin.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug at the wall before putting a hand into the pump housing."
+    },
+    {
+      "name": "Fix the dose before the next wash",
+      "detail": "Switch to an HE liquid if you are not already on one, and measure it with a tablespoon rather than the cap. One level tablespoon for a normal load, half that for a small one or if your water is soft. This feels wrong the first few times and the clothes come out clean anyway. If you use pods, stop for a fortnight and see whether the code disappears, because a pod cannot be cut back for a small load.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Strip the residue out with an empty Clean Washer cycle",
+      "detail": "With nothing in the drum and nothing in the dispenser, run Clean Washer with a washing machine cleaner tablet. This removes the detergent film coating the drum, the outer tub and the sump, which is the hidden reservoir that keeps sudsing up otherwise innocent loads. Pull the dispenser drawer out and scrub it and its siphon cap while that runs.",
+      "minutes": 90,
+      "tools": "Washing machine cleaner tablet, old toothbrush",
+      "warning": null
+    }
+  ],
+  "still_showing": "Sd that keeps coming back after two rinses and a measured dose is telling you one of three things, and they are easy to separate. The first and most likely is that the detergent itself is the problem rather than the amount. Some budget HE liquids, and almost all pods, foam well beyond what their dosing implies. Buy a different HE liquid, run a week of washing on one level tablespoon, and see what happens; this costs twelve dollars and resolves more of these than any repair. The second is that the machine is not clearing foam because it is not clearing water. Clean the drain pump filter, straighten the drain hose, and make sure it enters the standpipe only a couple of inches rather than being jammed down it. If F21 or F9 E1 has appeared on this machine in the last month, the drain is your actual fault and the suds code will keep following it around until you fix it. The third case is the one that needs a technician: Sd appearing on an empty drum with no detergent anywhere in the machine. There is no foam to detect in that situation, so the control is misreading the tub, and the usual culprit is the thin clear air hose that runs from a port low on the outer tub up to the pressure sensor. Soap scum inside it, a kink, or a split at either end all produce false readings. Pulling that hose off and clearing it is a twenty-minute job for someone who has the machine apart anyway, and a $120 to $200 call-out otherwise. Past that point you are looking at the sensor itself or the main control board.",
+  "reset_procedure": "Pause or Cancel pressed twice, then Power once, clears the displayed code on most Whirlpool models. If it will not go, unplug the machine for five minutes. Bear in mind that resetting does nothing about the foam still sitting in the tub and the sump, so run Rinse and Spin afterwards rather than starting a new wash, or the code will simply return a few minutes in.",
+  "model_notes": "Whirlpool uses Sd across front loaders and top loaders, Maytag and Amana machines on the same platforms show Sud, and some displays will show the word SUDS in full. Because Whirlpool's seven-segment displays draw S and 5 identically, the code is widely written as 5D online, and our 5D page covers the detergent side of the same fault in more depth. Top-load Cabrio and Vertical Modular washers hold much more water, so their suds routine can add the best part of an hour to a cycle before the code ever appears on the panel.",
+  "parts": [
+    { "name": "HE liquid detergent", "cost": "$10 to $20", "difficulty": "easy", "note": "A different brand, measured by the spoon, is the usual fix" },
+    { "name": "Washing machine cleaner tablets", "cost": "$10 to $18", "difficulty": "easy", "note": "Monthly empty Clean Washer cycle keeps residue from rebuilding" },
+    { "name": "Drain pump filter and cap seal", "cost": "$12 to $30", "difficulty": "easy", "note": "Only if the cap is cracked or the O-ring has gone hard" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "Needed only in the rare case where the machine reports suds with no detergent in it" }
+  ],
+  "when_to_call": "The only version of this code worth paying for is the one that appears on an empty machine with no detergent in it, because that is a sensor fault rather than a laundry habit, and reaching the pressure sensor air hose means getting the top or front off the machine. Expect $120 to $200 for that diagnosis. It is also worth a call if Sd shows up every single cycle alongside a drain code you have already tried to clear, since the pump may be moving water too slowly to flush normal foam and a technician can measure that in minutes. Do not pay anyone to tell you to use less detergent. Run a fortnight on a measured tablespoon of a different HE liquid first.",
+  "faqs": [
+    { "q": "Is SD on a Whirlpool washer the same as 5D?", "a": "In almost every case, yes. Whirlpool panels use seven-segment digits where the letter S and the number 5 are the same shape, so one code gets read two ways. Both mean excess suds. Unless your washer has a display that can draw proper letters and your manual lists them separately, treat SD, Sd and 5D as one code." },
+    { "q": "How do I clear the SD code right now?", "a": "Cancel the cycle, leave the laundry in, and run Rinse and Spin twice with no detergent. That flushes the foam out of the drum, sump and pump. Then press Pause or Cancel twice and Power once to clear the display, or unplug for five minutes if it sticks. Starting a new wash before rinsing just brings the code straight back." },
+    { "q": "Can I still use my washer with the SD code showing?", "a": "Yes. The machine is pausing rather than failing, and it will usually finish the cycle once it has rinsed the foam down, just much later than the timer said. The reason to deal with it is cumulative: foam leaves detergent residue in the sump and drain hose, which slowly turns a suds nuisance into a genuine drain fault." },
+    { "q": "Why does the cycle take so much longer when SD appears?", "a": "Because the washer is adding rinse steps that were not in the original cycle. When it detects suds it stops tumbling, fills with more water, soaks and re-rinses to collapse the foam, and only then carries on. Each of those passes adds time, which is why a 50-minute cycle can run well past 90." },
+    { "q": "Does the SD code mean something is broken?", "a": "Usually not. It is the machine reporting a condition in the water rather than a fault in a part. The exception worth knowing is a washer that shows SD with an empty drum and no detergent, which means the control is misreading the tub and genuinely does need looking at, most often at the pressure sensor air hose." },
+    { "q": "What detergent stops the SD code coming back?", "a": "Any HE liquid, used at about one level tablespoon for a normal load and measured with a spoon rather than the cap. Pods are the common repeat offender because the dose is fixed and cannot be reduced for small or lightly soiled loads. If your water is soft, halve even the tablespoon." },
+    { "q": "I keep getting SD and a drain code together. Which do I fix first?", "a": "The drain. Suds and slow draining feed each other, but a restricted pump or hose is the fault that will not go away on its own. Clean the drain pump filter, check the drain hose for kinks and standpipe depth, and once water is leaving the machine properly the suds code usually stops with it." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Reading the suds code, and the four steps that clear it",
+    "labels": {
+      "display": "Sd",
+      "c1": "S and 5 look identical here",
+      "c2": "Two rinse and spin cycles",
+      "c3": "Clean filter to clear the sump",
+      "c4": "One tablespoon of HE liquid"
+    }
+  },
+  "sources": [
+    { "title": "Sud or Sd message on a washer display", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Detergent type and dosing for HE washers", "publisher": "Whirlpool use and care guide", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on reading Sd versus 5d on seven-segment panels", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["5D", "F21", "F9 E1", "Sud", "rL", "F8 E1"]
+}
