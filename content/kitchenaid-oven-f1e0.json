@@ -1,6 +1,6 @@
 {
   "title": "KitchenAid Oven F1E0 Error Code: Control Memory Fault",
-  "meta_description": "F1E0 on a KitchenAid oven points at the control electronics, usually a stored memory or communication fault.",
+  "meta_description": "F1E0 on a KitchenAid oven points at the control electronics, usually a stored memory or communication fault. Start with a breaker reset.",
   "h1": "KitchenAid oven F1E0: a fault inside the control electronics",
   "answer": "F1E0 on a KitchenAid oven is a control electronics fault rather than a fault in anything that heats, turns or latches. The F1 group covers the control boards, and E0 is most often described as a stored memory or communication error, meaning a board could not read its own settings or could not talk to the board it partners with. A five-minute power cut at the breaker clears a genuine one-off, and it is always the first thing to try. If the code returns on a cold oven with nothing running, the next suspects are the harness connectors between the boards and the door switch circuit, in that order, before any board gets replaced.",
   "severity": "moderate",
