@@ -1,0 +1,132 @@
+{
+  "title": "Whirlpool Washer F21 Error Code: Causes and Fix",
+  "meta_description": "Whirlpool F21 means the water did not drain in time. Usually a clogged drain pump filter or too much suds. Here is how to find which and clear it.",
+  "h1": "Whirlpool washer F21 error code: what it means and how to fix it",
+  "answer": "F21 means your Whirlpool washer ran the drain pump for its full allowed window and the tub still was not empty. It is a long-drain fault, and the restriction is in the drain pump filter at the bottom front of the machine far more often than anywhere else, because that is where coins, hair pins and bra wires end up. Excess suds is the other big cause, since foam does not pump the way water does, so if you have also seen 5D or Sd on this machine, deal with the suds first. The drum will still be full of water when you open the filter, so get a tray and towels down before you start.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$150 to $320" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain pump filter is clogged",
+      "frequency": "most cases",
+      "confirm": "Open the filter behind the lower access panel. If you pull out a wad of lint, a coin, a hair pin or a bra wire, that was your fault. A filter that has never been cleaned on a machine more than two years old is a clog whether it looks like one or not."
+    },
+    {
+      "cause": "Too much detergent, so the machine is pumping foam",
+      "frequency": "most cases",
+      "confirm": "Look through the glass at the end of the cycle. If the water line is topped with a thick white head that does not collapse, or you have also seen 5D or Sd, the pump is cavitating in foam rather than moving water."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or pushed too far into the standpipe",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow the hose. A flat spot where the machine has been shoved back against the wall, or a hose jammed a foot down the standpipe so it siphons and binds, both show up as F21 with a clean filter."
+    },
+    {
+      "cause": "The house drain or standpipe is partly blocked",
+      "frequency": "common",
+      "confirm": "Pull the drain hose out of the standpipe, put it in a bucket and start a drain cycle. If the machine empties happily into the bucket, the washer is fine and your plumbing is not."
+    },
+    {
+      "cause": "The drain pump itself is failing",
+      "frequency": "occasional",
+      "confirm": "Stand next to the machine during the drain portion. A healthy pump makes a steady whirring note. A dead pump is silent, and a pump with a worn bearing or a jammed impeller makes a grinding or buzzing noise and moves almost nothing."
+    },
+    {
+      "cause": "The pressure switch or its air hose is reading the tub as full",
+      "frequency": "rare",
+      "confirm": "The machine drains fully, you can see an empty tub, and it still throws F21. The control is being told there is water left when there is not, usually by a clogged or split air hose running to the pressure sensor."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Put the machine on pause and get ready for water",
+      "detail": "Press Pause or Cancel and leave the door shut. There is a tub full of water in there and the lock will not release while the level is high. Lay an old towel along the floor at the front and have a shallow baking tray or roasting pan ready, because you are about to let out a gallon or two with nowhere good for it to go.",
+      "minutes": 5,
+      "tools": "Towels, shallow tray",
+      "warning": null
+    },
+    {
+      "name": "Unplug the washer",
+      "detail": "Pull the plug at the wall rather than switching the machine off at the panel. Everything from here on involves reaching into the bottom of the machine, and a pump that decides to start while your fingers are on the impeller is a bad afternoon. If the plug is behind the machine and you cannot reach it, switch off the breaker for the laundry circuit.",
+      "minutes": 2,
+      "tools": null,
+      "warning": "Unplug at the wall. The drain pump can run on its own when the control resumes."
+    },
+    {
+      "name": "Open the lower access panel and drain it down",
+      "detail": "The panel is the narrow strip across the bottom front. Most Whirlpool front loaders have a thumb slot or a coin slot at one end so it pops off; some are held by two Phillips screws along the bottom edge. Behind it you will find the filter cap and, on most models, a short black drain tube clipped beside it with a plug in the end. Hold the tube over the tray, pull the plug and let it run. The tray will fill several times, so take it steadily rather than emptying the lot in one go.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": null
+    },
+    {
+      "name": "Unscrew the filter and clean it out",
+      "detail": "Turn the round filter cap anticlockwise. It will be stiff the first time. Expect another cupful of water as it comes free even after you have drained the tube. Pull the filter out, clear the lint and whatever hardware is wrapped around it, and rinse it under a tap. Then reach into the empty housing with a finger and turn the impeller: it should spin freely with a slight magnetic notchiness. If it is jammed by a sock or a shard of plastic, work that out too.",
+      "minutes": 12,
+      "tools": "Towels",
+      "warning": null
+    },
+    {
+      "name": "Refit the cap properly and test for leaks",
+      "detail": "Wipe the sealing face clean, check the O-ring on the cap is seated and not twisted, and screw the cap back clockwise until it is firm. It should be hand tight and no more. Plug the machine back in, run a rinse and spin, and watch the floor under the panel for the first minute. A cap that is a quarter turn short will not leak at rest but will leak the moment the pump pressurises it.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the drain hose run and the standpipe",
+      "detail": "Pull the machine out far enough to see the whole hose. Straighten any kink, and make sure the hose is not crushed between the machine and the wall. The hose end should sit a few inches inside the standpipe and no further; pushed deep, it seals against the pipe and the machine siphons or stalls. Check the standpipe itself by pouring a jug of water down it, which should disappear without backing up.",
+      "minutes": 10,
+      "tools": "Bucket or jug",
+      "warning": null
+    },
+    {
+      "name": "If suds are the problem, run a rinse-only cycle twice",
+      "detail": "Nothing you do to the pump will fix a tub full of foam. Take the laundry out if you can, select Rinse and Spin with no detergent, and run it twice back to back. Then cut your detergent to about a tablespoon of HE liquid for a normal load and see whether F21 comes back. Our 5D page covers why Whirlpool machines are so sensitive to overdosing.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "A clean filter and a straight hose and still F21 means the water is not moving for one of three reasons, and you can separate them in about fifteen minutes. First, prove whether the machine or the plumbing is at fault: pull the drain hose out of the standpipe, drop it into a bucket on the floor, and start a drain cycle. Water into the bucket means the washer pumps fine and your standpipe or house drain is blocked, which is a plumber's job and not an appliance repair. Second, if nothing comes out and you hear nothing at all from the bottom of the machine, the pump is dead or has lost power. A Whirlpool drain pump is a $35 to $90 part and a genuinely approachable job: unplug, lay the machine on its back on a blanket, undo the hose clamps and the mounting screws, swap it and reassemble. Third, if the pump runs loudly but moves little, the impeller is damaged or the pump housing is silted up, and the same replacement applies. The awkward case is the one where the tub visibly empties and the code appears anyway. That is the pressure sensor being told there is still water: find the thin clear air hose that runs from a port near the bottom of the outer tub up to the sensor, pull both ends off, check it for a split or a plug of soap scum, and blow it through. If all of that is clean and F21 persists, you are into the main control board, which is where the cost jumps from parts money to a few hundred dollars and the point at which most people stop.",
+  "reset_procedure": "Press Pause or Cancel twice and then Power once to clear a displayed code on most Whirlpool front loaders. If the code comes straight back or the display will not clear, unplug the machine at the wall for five minutes instead. Start a Rinse and Spin to test rather than a full cycle, so you find out in three minutes whether the drain is working.",
+  "model_notes": "F21 appears on the older Whirlpool front loaders, broadly the Duet generation, which use a single two-digit F code. Whirlpool's own guidance treats F21 and F02 as the same long-drain fault. Newer machines using the two-part code system show F9 E1 instead, which means exactly the same thing and is fixed the same way. Top-load Cabrio models show Ld for a long drain rather than F21, and their pump is reached from underneath or through the back rather than through a front access panel.",
+  "parts": [
+    { "name": "Drain pump assembly", "cost": "$35 to $90", "difficulty": "moderate", "note": "An hour on the floor with the machine tipped back" },
+    { "name": "Drain pump filter cap and O-ring", "cost": "$12 to $30", "difficulty": "easy", "note": "Only if the cap is cracked or the seal is flattened and weeping" },
+    { "name": "Corrugated drain hose", "cost": "$20 to $40", "difficulty": "easy", "note": "Worth replacing if it is crushed flat or split at the clamp" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "Cheap, but often just needs cleaning rather than replacing" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Last resort, and only after the pump and sensor check out" }
+  ],
+  "when_to_call": "Call an appliance technician if the pump is silent with the filter clean and you are not comfortable tipping the machine onto its back to reach it, or if the pump has been replaced and F21 came back on the first cycle, because that points at the control rather than the pump and needs live testing. Call a plumber instead of a technician if the bucket test shows the washer drains perfectly onto the floor, since the fault is in your standpipe and an appliance engineer will charge a call-out to tell you so. Stop and call someone either way if water is coming out around the filter cap after you have refitted it, since a cap that will not seal is a slow flood rather than an inconvenience.",
+  "faqs": [
+    { "q": "Can I still use my washer with an F21 code?", "a": "No, and you should not try. The machine stops mid-cycle with a tub of dirty water in it, and restarting without clearing the blockage just repeats the same failed drain. There is no fire or shock risk in leaving it, but the water will start to smell within a day or two, so drain it through the filter even if you cannot fix the cause today." },
+    { "q": "What is the difference between F21 and F9 E1 on a Whirlpool washer?", "a": "Nothing mechanical. They are the same long-drain fault reported by two generations of control. Older front loaders show a single code like F21 or F02, while newer ones split codes into a function and a fault, so the same problem reads F9 E1. Every fix on this page applies to both." },
+    { "q": "Why did F21 appear suddenly when the washer was fine yesterday?", "a": "Drain filters clog gradually and then cross a threshold, so the failure feels sudden after months of building up. The other common trigger is a single object: one coin or one bra wire reaching the pump at the wrong moment will take a machine from perfect to blocked in one cycle. Check the filter before assuming anything has broken." },
+    { "q": "How much water comes out when I open the drain filter?", "a": "On a stalled cycle, expect a gallon or two, which is far more than one towel absorbs. Use the small drain tube beside the filter if your model has one, emptying into a shallow tray repeatedly rather than unscrewing the filter and hoping. Opening the filter first on a full tub soaks the floor and whatever is on it." },
+    { "q": "Does F21 mean my drain pump is broken?", "a": "Usually not. Most F21 codes clear with a filter clean, a straightened hose or a suds rinse, and the pump turns out to be fine. Only replace the pump after you have confirmed the filter is clear, the hose is open, and either you hear nothing during the drain or the pump runs loudly while moving almost no water." },
+    { "q": "Can too much detergent really cause F21?", "a": "Yes, and it is one of the two most common causes. A drain pump moves water well and foam badly, so a tub full of suds drains at a fraction of the normal rate and the control times out. Whirlpool front loaders need about a tablespoon of HE liquid for a normal load, which looks like far too little to most people." },
+    { "q": "Is an F21 repair worth paying for on an older machine?", "a": "A pump replacement at $150 to $320 fitted is usually worth it on a machine under about eight years old, since the rest of the washer is untouched by this fault. If the diagnosis comes back as the main control board on a machine that age, the economics get thin fast and you are often better putting that money toward a replacement." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "The drain path on a Whirlpool front loader and the four places F21 starts",
+    "labels": {
+      "display": "F21",
+      "c1": "Lower access panel and filter cap",
+      "c2": "Small drain tube, empty first",
+      "c3": "Pump impeller, must spin freely",
+      "c4": "Drain hose and standpipe height"
+    }
+  },
+  "sources": [
+    { "title": "What is an F21 or F02 error code on a front load washer", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool front load washer technical sheet, drain system fault codes", "publisher": "Service sheet supplied behind the machine's lower panel", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on F21 causes and drain pump replacement", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F9 E1", "5D", "SD", "F2", "LF", "F5 E2"]
+}

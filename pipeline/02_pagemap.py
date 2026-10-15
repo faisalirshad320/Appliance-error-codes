@@ -12,19 +12,38 @@ import argparse, csv, json, re, collections, pathlib
 
 BRANDS = ["samsung","lg","whirlpool","maytag","bosch","ge","kenmore","frigidaire",
           "kitchenaid","kitchen aid","electrolux","amana","miele","asko","hisense",
-          "hotpoint","speed queen","beko"]
+          "hotpoint","speed queen","beko","jenn air","jennair","thermador","panasonic",
+          "euhomy","u line","uline","hamilton beach"]
+BRAND_ALIAS = {"kitchen aid":"kitchenaid","jennair":"jenn air","uline":"u line"}
 APPLIANCES = {
     "washing machine":"washer","washer":"washer","dryer":"dryer","dishwasher":"dishwasher",
     "refrigerator":"refrigerator","fridge":"refrigerator","freezer":"freezer","oven":"oven",
     "range":"range","stove":"range","microwave":"microwave","dehumidifier":"dehumidifier",
     "air conditioner":"air conditioner","coffee machine":"coffee machine"}
-# A code is a short alphanumeric token, optionally a paired form like "f5 e3" / "f8e4".
-CODE = re.compile(r"\b((?:[a-z]{1,3}\d{1,3}|\d{1,2}[a-z]{1,2}|[a-z]{2}\d?)"
-                  r"(?:\s?e\s?\d{1,2})?|h2o|sud|loc|po|dr|ftd|nd|nf|cl|ue|oe|ie|le|de|fe|se|sc|ur|ub|dc|hc|af|pf|lf|sd|be|ae|oc|tcl)\b")
+# Codes come in several shapes. Longest and most specific patterns are tried first so
+# "f9e0" is not clipped to "f9", and "sy cf" is not read as the single token "sy".
+CODE_PATTERNS = [
+    r"\b([a-z]\d{1,2}\s?e\s?\d{1,2})\b",        # f5 e3, f9e0, f3 e0
+    r"\b(sy\s?[ce]f)\b",                           # sy cf, sy ef
+    r"\b(d1\s?sp)\b",                              # d1 sp
+    r"\b(er\s?1f)\b",                              # er 1f
+    r"\b(rh-?1)\b",                                 # rh-1
+    r"\b([a-z]{2}\s+e)\b",                         # ff e, cl e, cf e, ch e, if e
+    r"\b(1f\s+e)\b",                               # 1f e
+    r"\b(\d{2}\s+e)\b",                            # 33 e, 40 e, 39 e
+    r"\b(h2o|psh|sud|loc|ftd|tcl)\b",               # word-like codes
+    r"\b([a-z]\d{2,3})\b",                          # d80, f050, h97, e011, f31
+    r"\b([a-z]{1,2}\d{1,2})\b",                     # f9, e15, u6, 5e, 4c
+    r"\b(\d{1,2}[a-z]{1,2})\b",                     # 5d, 4e
+    r"\b(po|pf|lf|sd|dr|nd|nf|cl|ue|oe|ie|le|de|fe|se|sc|ur|ub|dc|hc|af|be|ae|oc|ff|of|ap|h1)\b",
+    r"\b([a-z]{2})\b",                               # lc, ub, tcl-like two-letter codes
+]
+CODE_RX = [re.compile(p) for p in CODE_PATTERNS]
 STOP = {"code","codes","error","errors","fault","list","pdf","chart","on","a","the","my",
         "what","does","mean","how","to","fix","reset","download","top","front","load",
         "loader","washing","machine","elite","series","diagnostic","binary","combo","in",
-        "is","why","for","and","no","not","of","it","still"}
+        "is","why","for","and","no","not","it","still","inverter","side","test",
+        "unlock","bespoke","profile","cafe","gallery","thinq","gold","gas"}
 # Tokens that look like codes but are really words in these queries.
 NOT_A_CODE = {"he","xl","4t","e9"} - {"e9"}
 
@@ -39,9 +58,14 @@ def parse(kw):
     if brand: rest = re.sub(rf"\b{re.escape(brand)}\b", " ", rest)
     for phrase in APPLIANCES: rest = re.sub(rf"\b{re.escape(phrase)}\b", " ", rest)
     rest = " ".join(w for w in rest.split() if w not in STOP)
-    m = CODE.search(rest)
-    code = re.sub(r"\s+", "", m.group(1)).upper() if m else None
+    code = None
+    for rx in CODE_RX:
+        m = rx.search(rest)
+        if m:
+            code = re.sub(r"[\s-]+", "", m.group(1)).upper()
+            break
     if code and code.lower() in NOT_A_CODE: code = None
+    if brand in BRAND_ALIAS: brand = BRAND_ALIAS[brand]
     return brand, appliance, code
 
 def slug(*parts):

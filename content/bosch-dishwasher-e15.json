@@ -1,0 +1,138 @@
+{
+  "title": "Bosch Dishwasher E15 Error: Drain the Base, Find the Leak",
+  "meta_description": "Bosch E15 means water in the base tray has tripped the anti-flood float. Tip the machine back 45 degrees to drain it, then find the leak that put it there.",
+  "h1": "Bosch dishwasher E15 error code: what it means and how to fix it",
+  "answer": "E15 means water has collected in the base tray underneath the tub, lifted a polystyrene float, and tripped the anti-flood switch, so the machine locks itself out. You will usually hear the drain pump running continuously and the dishwasher will refuse to start a cycle. Tipping the machine back about 45 degrees for a minute empties the tray and clears the code, which is the fix most people find online. That is only half the job: water got into the tray from a leak somewhere above it, and if you do not find the leak the code comes back within a few days.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to drain it, 1 to 3 hours to find the leak",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$150 to $400" },
+  "safety_warning": "There is standing water in the base of the machine, within inches of mains wiring and the heating circuit. Unplug the dishwasher or switch off its breaker before you tip it, open any panel, or put your hands underneath.",
+  "causes": [
+    {
+      "cause": "A slow leak from the sump, the tub base seal or the water softener housing",
+      "frequency": "most cases",
+      "confirm": "Tip the machine back and watch where the water runs from as it empties. A stream from the middle of the underside, directly below the filter well, points here rather than at a hose. Afterward, dry the base pan completely, run a short hot cycle with the kickplate off, and look for a fresh bead forming at the same spot."
+    },
+    {
+      "cause": "Suds overflowed the tub and ran down into the base",
+      "frequency": "common",
+      "confirm": "Open the door and look for foam residue on the inner door panel above the normal water line, or a soapy film on the base tray water. Almost always follows someone using hand dish soap, a rinse-aid spill, or washing an item that still had soap on it."
+    },
+    {
+      "cause": "A hose or clamp inside the cabinet is weeping",
+      "frequency": "common",
+      "confirm": "Pull the kickplate and run a cycle with a flashlight on the hose runs. The circulation hose to the upper spray arm and the drain hose where it clamps to the pump are the two usual spots. Look for a drip forming rather than an existing puddle, which only tells you where water pools."
+    },
+    {
+      "cause": "The door seal is letting water run down the front of the tub",
+      "frequency": "occasional",
+      "confirm": "Run a cycle and watch the bottom edge of the door from floor level. Water tracking down the outer face of the door and disappearing under the kickplate means the seal is flattened, torn or has popped out of its channel at a corner."
+    },
+    {
+      "cause": "The anti-flood float or its microswitch is stuck with the tray dry",
+      "frequency": "occasional",
+      "confirm": "You have tipped the machine, nothing came out, the base pan is bone dry, and E15 returns the moment you power up. The float is a white foam block in the base tray that can jam on a wire or a bent bracket, or the switch under it can fail closed."
+    },
+    {
+      "cause": "A one-off splash from moving or servicing the machine",
+      "frequency": "rare",
+      "confirm": "The code appeared immediately after the dishwasher was pulled out, tilted, or had plumbing worked on, and there is no sign of a fresh leak. Drain it, dry the tray, and it does not come back."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Kill the power before you touch anything",
+      "detail": "Unplug the dishwasher if the cord is reachable from the cabinet next door, or switch off the breaker that feeds it. There is water sitting in the base of a machine full of mains wiring, and you are about to tip it onto its back. Do not skip this because the display is dark; a dishwasher showing a fault is still live.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Confirm the power is actually off before tipping. A dishwasher that is only switched off at the panel is still energized."
+    },
+    {
+      "name": "Pull the machine out and lay down towels",
+      "detail": "Open the door, take out the lower rack, and ease the machine forward out of its cabinet opening. Most built-in Bosch units are held by two screws into the underside of the countertop or two brackets at the sides. Spread two or three old bath towels on the floor behind and under it, because what comes out of the tray will not come out tidily.",
+      "minutes": 10,
+      "tools": "Torx T20 or Phillips screwdriver, old towels",
+      "warning": null
+    },
+    {
+      "name": "Tip the machine back about 45 degrees to drain the tray",
+      "detail": "With the door shut, tilt the dishwasher backward until it rests against the wall or a helper's knee, roughly 45 degrees off vertical. Hold it there for a full minute. Water runs out of the base tray and onto your towels from the rear underside, and you will hear it go. Expect anywhere from a cupful to about two quarts. Tip it back upright, then do it once more to catch what settled. Do not tip it forward: that sends the tray water across the floor and into the door seal.",
+      "minutes": 10,
+      "tools": "A second pair of hands, towels",
+      "warning": null
+    },
+    {
+      "name": "Restore power and see whether the code clears",
+      "detail": "Push the machine back level, plug it in or re-close the breaker, and switch it on. With the float dropped, E15 should be gone and the drain pump should stop its constant running. If the code is still there with a dry tray, go straight to the float and switch check further down rather than hunting for a leak you do not have.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Rule out suds before you chase a leak",
+      "detail": "Look at the inner door and the tub walls for dried foam above the normal water line, and ask whether anyone has put hand dish soap, laundry detergent or a soapy pan into the machine. Suds climb the tub and pour over the lip into the base, which produces a textbook E15 with nothing actually broken. If that is the story, run two rinse-only cycles with no detergent and a quarter cup of white vinegar in the tub to knock the foam down.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a cycle with the kickplate off and watch",
+      "detail": "Remove the lower kickplate, normally two or four Torx screws along the bottom edge, and set it aside. Dry the base pan with a cloth so any new water is obviously new. Start a short hot cycle and lie on the floor with a flashlight. Watch the drain pump housing, the hose clamps, the underside of the sump and the bottom of the door in turn. You want to catch a drip forming, not find a puddle.",
+      "minutes": 25,
+      "tools": "Torx T20 screwdriver, flashlight, dry cloth",
+      "warning": "Keep your hands clear of the heating circuit and the pump wiring while the machine is running. Look, do not touch."
+    },
+    {
+      "name": "Check the door seal and the fill hose connection",
+      "detail": "Run a finger around the door gasket looking for a flat section, a split, or a corner that has pulled out of its groove. Then check where the fill hose meets the machine at the rear: on Bosch models with an Aquastop hose, the valve body sits right at the inlet, and a weep at that joint drips straight into the base tray. A fitting that is damp when everything around it is dry is your answer.",
+      "minutes": 15,
+      "tools": "Flashlight, paper towel",
+      "warning": null
+    },
+    {
+      "name": "Check the float and its switch if the tray was dry",
+      "detail": "With the power off and the kickplate off, look into the base tray from the front. The anti-flood float is a block of white foam sitting in a plastic guide, with a microswitch above it. Press it down and let it go: it should drop freely and sit flat. A float jammed up on a cable, a bent guide, or a switch that has corroded closed will hold E15 with no water anywhere. Free the float and retest before ordering anything.",
+      "minutes": 20,
+      "tools": "Torx T20 screwdriver, flashlight",
+      "warning": "Power off at the breaker. The switch sits in the same compartment as the machine's low-level wiring."
+    }
+  ],
+  "still_showing": "If you drained the tray, the code cleared, and then E15 came back a few days later, that is not a failed repair. That is the machine telling you the leak is still there and the tray has filled again. The draining is the symptom; the leak is the fault. Work through it in cost order. First, rule out suds for free, because an E15 caused by hand dish soap looks identical to one caused by a cracked sump and costs nothing but two rinse cycles to confirm. Second, dry the base pan completely, lay a strip of paper towel across it, run one full hot cycle with the kickplate off, and see which part of the towel goes wet first. Front edge wet means the door seal; center wet means the sump or the softener housing above it; rear wet means a hose, a clamp, or the fill valve connection. That one test saves you an hour of staring. Third, if the trail leads to a hose or a clamp, you are looking at a $15 part and half an hour, and a loose clamp often just needs tightening. Fourth, if it leads to the sump gasket, the tub base, or the plastic water softener housing, the cost jumps: the softener housing in particular sits under the tub and means stripping most of the machine, which is a three to four hour job and the point where a $200 repair bill on a ten-year-old dishwasher stops making sense. One more possibility worth checking before you spend anything: if the tray was bone dry when you tipped it and the code returned instantly, you do not have a leak at all. You have a jammed float or a failed anti-flood switch, which is a cheap part and a twenty-minute job once you have the kickplate off.",
+  "reset_procedure": "There is no button combination that clears E15 while there is water in the base tray; the machine reads the float directly and will re-post the code the moment it powers up. The reset is physical: cut the power, tip the machine back about 45 degrees for a minute so the tray empties, set it level, and restore power. If your model also offers a factory reset, hold the Start button for several seconds after the tray is empty, but drain it first or you are just watching the code come straight back.",
+  "model_notes": "E15 appears across the Ascenta, 100, 300, 500 and 800 series in the US and the SMS, SMV and SMU series in Europe, and it means the same thing on all of them. On models with a hidden control panel the code only shows on the inner display, so with the door shut you see nothing but a machine that hums and will not start. Older Bosch units show the fault as a flashing tap or water symbol with no number at all, and the diagnosis is identical. European models have a salt-fed water softener housing under the tub that is a known E15 leak source; most US models do not have one, so if yours was sold in North America, look harder at the sump seal and the hose clamps.",
+  "parts": [
+    { "name": "Drain or circulation hose clamp", "cost": "$3 to $10", "difficulty": "easy", "note": "A loose clamp often just needs tightening rather than replacing" },
+    { "name": "Door gasket or seal", "cost": "$20 to $50", "difficulty": "easy", "note": "Presses into a channel; no tools needed on most models" },
+    { "name": "Anti-flood float switch", "cost": "$20 to $45", "difficulty": "moderate", "note": "Only if the tray was dry and the code persisted" },
+    { "name": "Sump gasket or sump assembly", "cost": "$40 to $120", "difficulty": "hard", "note": "Means laying the machine down and stripping the bottom end" },
+    { "name": "Water softener housing", "cost": "$90 to $200", "difficulty": "technician only", "note": "European models; a long strip-down and rarely worth it on an old machine" }
+  ],
+  "when_to_call": "Call someone if the leak traces to the sump, the tub base or the water softener housing, because all three mean laying the machine on its back and stripping the bottom end, and a gasket refitted slightly off gives you the same code in a month. Call immediately, and shut off the water at the supply valve first, if water is still arriving in the tray with the machine switched off, since that means the fill valve is passing water and the leak will continue whether you use the dishwasher or not. And weigh the repair against the machine: if the quote lands near $300 on a unit over eight years old, you are paying most of the price of a new one to fix a part that sits under everything else.",
+  "faqs": [
+    { "q": "Why does my Bosch dishwasher keep pumping with an E15 showing?", "a": "The anti-flood system assumes any water in the base is a flood, so it runs the drain pump continuously to keep the tub empty while it waits for help. The pump is trying to do its job, not failing. It will keep going until you cut the power, and leaving it running for days will eventually wear the pump out." },
+    { "q": "Does tipping the dishwasher back actually fix E15?", "a": "It clears the code but it does not fix the fault. Tipping empties the base tray so the float drops and the switch releases, which lets the machine run again. The water came from a leak, so the tray refills and the code returns, usually within a few days. Treat the tipping as buying yourself time to find the leak." },
+    { "q": "Can I still use the dishwasher with an E15 code?", "a": "You can run it after draining the tray, but you are running a machine that is leaking into its own base. There is no shock risk while it is assembled, but the leak gets worse rather than better, and water sitting under the tub rusts the frame and can reach the floor. Use it if you must, and fix the leak soon." },
+    { "q": "Why did E15 appear suddenly when nothing changed?", "a": "Most E15 leaks are slow. A seal weeps a teaspoon per cycle for months, the tray fills unnoticed, and then one day the water finally reaches the float. The failure looks instant from the outside but has been building all along. The other sudden trigger is detergent: one wash with hand dish soap can foam over into the base in a single cycle." },
+    { "q": "Is E15 worth repairing?", "a": "It depends entirely on where the leak is. A loose hose clamp or a door seal is a cheap evening's work and clearly worth doing. A cracked sump or a leaking water softener housing on a machine over eight years old usually is not, because the labor to reach those parts costs more than the parts and approaches the price of a replacement." },
+    { "q": "I tipped it back and no water came out. What now?", "a": "Then you do not have a leak, and the problem is in the detection rather than the plumbing. Pull the kickplate and check the white foam float in the base tray: if it is jammed up against a wire or a bent guide it holds the switch closed permanently. If the float moves freely and the code stays, the anti-flood switch itself has failed." },
+    { "q": "Will running vinegar or a cleaning tablet clear E15?", "a": "No. Cleaners address limescale and grease, and E15 is a mechanical float tripped by water in the base. The one exception is a suds overflow, where rinse cycles with a little white vinegar help knock the foam down. Beyond that, a cleaning tablet with an E15 showing just adds another cycle of leaking." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "Where the base tray sits, and why the float locks the machine out",
+    "labels": {
+      "display": "E15",
+      "c1": "Base tray holding leaked water",
+      "c2": "Foam float lifted by the water",
+      "c3": "Anti-flood switch that locks out",
+      "c4": "Sump and hose clamps above it"
+    }
+  },
+  "sources": [
+    { "title": "Dishwasher error codes, owner support", "publisher": "Bosch Home Appliances", "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers" },
+    { "title": "Bosch dishwasher technical service literature, anti-flood and base tray operation", "publisher": "Bosch service documentation", "url": null },
+    { "title": "Field reports on E15 leak sources and the tip-back drain", "publisher": "Appliantology and r/appliancerepair technician threads", "url": null }
+  ],
+  "related_codes": ["E24", "E25", "E22", "E23", "E09"]
+}

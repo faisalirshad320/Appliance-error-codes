@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "bosch-dryer-dr",
+    "url": "/bosch/dryer/dr-error-code/",
+    "brand": "bosch",
+    "appliance": "dryer",
+    "code": "DR",
+    "page_type": "code",
+    "primary_keyword": "bosch dryer dr error",
+    "monthly_searches": 350,
+    "also_rank_for": [
+      "bosch 300 series dryer dr error"
+    ]
+  },
+  {
+    "slug": "bosch-dryer-error-codes",
+    "url": "/bosch/dryer/error-codes/",
+    "brand": "bosch",
+    "appliance": "dryer",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "bosch dryer error codes",
+    "monthly_searches": 90,
+    "also_rank_for": []
+  },
+  {
+    "slug": "samsung-refrigerator-error-codes",
+    "url": "/samsung/refrigerator/error-codes/",
+    "brand": "samsung",
+    "appliance": "refrigerator",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "samsung refrigerator error codes",
+    "monthly_searches": 400,
+    "also_rank_for": []
+  },
+  {
+    "slug": "hisense-dehumidifier-e9",
+    "url": "/hisense/dehumidifier/e9-error-code/",
+    "brand": "hisense",
+    "appliance": "dehumidifier",
+    "code": "E9",
+    "page_type": "code",
+    "primary_keyword": "hisense dehumidifier error code e9",
+    "monthly_searches": 360,
+    "also_rank_for": [
+      "e9 error on hisense dehumidifier"
+    ]
+  },
+  {
+    "slug": "hisense-dehumidifier-error-codes",
+    "url": "/hisense/dehumidifier/error-codes/",
+    "brand": "hisense",
+    "appliance": "dehumidifier",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "hisense dehumidifier error codes",
+    "monthly_searches": 30,
+    "also_rank_for": []
+  },
+  {
+    "slug": "kitchen-aid-dishwasher-error-codes",
+    "url": "/kitchen-aid/dishwasher/error-codes/",
+    "brand": "kitchen aid",
+    "appliance": "dishwasher",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "kitchen aid dishwasher error codes",
+    "monthly_searches": 300,
+    "also_rank_for": []
+  },
+  {
+    "slug": "maytag-dishwasher-error-codes",
+    "url": "/maytag/dishwasher/error-codes/",
+    "brand": "maytag",
+    "appliance": "dishwasher",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "maytag dishwasher error codes",
+    "monthly_searches": 300,
+    "also_rank_for": []
+  },
+  {
+    "slug": "speed-queen-washer-error-codes",
+    "url": "/speed-queen/washer/error-codes/",
+    "brand": "speed queen",
+    "appliance": "washer",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "speed queen washer error codes",
+    "monthly_searches": 250,
+    "also_rank_for": []
+  },
+  {
+    "slug": "ge-refrigerator-error-codes",
+    "url": "/ge/refrigerator/error-codes/",
+    "brand": "ge",
+    "appliance": "refrigerator",
+    "code": null,
+    "page_type": "list",
+    "primary_keyword": "ge refrigerator error codes",
+    "monthly_searches": 250,
+    "also_rank_for": []
+  }
+]
