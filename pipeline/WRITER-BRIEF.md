@@ -76,9 +76,17 @@ a page a technician would respect and one that just sounds confident.
    claiming "D80 means 80 percent blocked" is quoting another blog. Write it as what the
    sensor estimates, not what it measured.
 4. **Replace an unsourceable reference value with a test that works without one.** Do not
-   print a thermistor resistance you cannot source. Tell the reader to measure cold, warm the
-   sensor, and confirm the resistance falls. That diagnoses the part with no reference value
-   at all, and it cannot be wrong for their model.
+   print a sensor resistance you cannot source. Tell the reader to measure cold, warm the
+   sensor, and confirm the reading moves. That diagnoses the part with no reference value at
+   all, and it cannot be wrong for their model.
+
+   **Get the direction right, because the two sensor types go opposite ways.** A dryer
+   thermistor is an NTC and its resistance **falls** as it warms. An oven temperature sensor
+   is an RTD and its resistance **rises** as it warms. Writing the wrong direction tells the
+   reader a healthy sensor is dead, so name the part type and the direction together, and
+   never copy the phrasing from a page about the other kind of appliance. If you are not sure
+   which type you are looking at, say only that the reading must move steadily in one
+   direction and not jump around, which is true of both.
 5. **Do not name a control the manufacturer assigns inconsistently.** Whirlpool and Maytag put
    the control lock on different buttons across ranges, so the page says to find the padlock
    icon rather than naming a button that is wrong on half the panels.

@@ -15,7 +15,7 @@
     {
       "cause": "The keypad lock is switched on",
       "frequency": "most cases",
-      "confirm": "LOC on the display, or a small padlock symbol, and every key except possibly Stop does nothing. The clock usually still runs and the light still works, which is the tell: a locked oven looks alive and simply refuses instructions."
+      "confirm": "LOC on the display, or a small padlock symbol, and every key except possibly Stop does nothing. The clock usually still runs and the light still works, which is the tell: a locked oven looks alive and just refuses instructions."
     },
     {
       "cause": "A key was held down long enough to switch the lock on",
