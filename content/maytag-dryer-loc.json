@@ -1,6 +1,6 @@
 {
   "title": "Maytag Dryer LOC Code: Control Lock On, Not a Fault",
-  "meta_description": "LOC on a Maytag dryer means the control lock is on and the buttons are disabled.",
+  "meta_description": "LOC on a Maytag dryer is the control lock, not a fault. Hold the button with the padlock icon for about three seconds to clear it.",
   "h1": "Maytag dryer LOC: it means control lock, not a breakdown",
   "answer": "LOC on a Maytag dryer is not an error code. It means Control Lock is switched on, which disables the buttons so a cycle cannot be started or changed. Hold the button carrying the small padlock icon for about three seconds and LOC clears. On most Maytag dryers that button is marked Control Lock or shares a key with Wrinkle Control or Drum Light, so look along the panel for the padlock symbol rather than guessing.",
   "severity": "minor",

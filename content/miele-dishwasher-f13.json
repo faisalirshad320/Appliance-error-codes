@@ -1,0 +1,196 @@
+{
+  "title": "Miele Dishwasher F13 Error Code: Causes and Fix",
+  "meta_description": "Miele F13 means the machine asked for water and did not get enough. Usually a part-closed valve or a clogged inlet filter at the tap end.",
+  "h1": "Miele dishwasher F13: water intake fault and how to fix it",
+  "answer": "F13 means your Miele asked for water and the flow meter did not register enough of it within the time the control allows, so the program stopped. It is a water supply fault far more often than a machine fault. Start with the supply valve and the small filter screen in the inlet hose connector at the tap end, because between them those two account for most F13 codes. The program will usually have run the drain pump before stopping, which is why the tub is empty rather than half full.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$200 to $500"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The supply valve is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Open the valve under the sink fully. A quarter-turn lever has to sit in line with the pipe, not across it. If anyone has worked on the kitchen plumbing, had a leak scare, or shut the water off for any reason in the last few months, this is almost certainly it."
+    },
+    {
+      "cause": "The inlet filter screen is clogged with grit or scale",
+      "frequency": "most cases",
+      "confirm": "Unscrew the hose at the tap end and look into the connector. There is a fine mesh filter set in it. Brown, furred or scaled rather than bright and open means this is your fault, and it is free to fix."
+    },
+    {
+      "cause": "The inlet hose is kinked, crushed or trapped",
+      "frequency": "common",
+      "confirm": "Pull the machine forward and follow the hose. A hose flattened against the wall behind the machine passes enough water to drip but not enough to fill. Built-in machines pushed hard into a tight housing are the usual victims."
+    },
+    {
+      "cause": "Supply pressure at the valve is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "Disconnect the hose at the tap end into a bucket and open the valve for five seconds. You want a strong jet that puts a useful amount in the bucket. A weak dribble means the restriction is upstream in your plumbing and the dishwasher is reporting the truth."
+    },
+    {
+      "cause": "The inlet valve or the flow meter has failed",
+      "frequency": "occasional",
+      "confirm": "Valve fully open, filter clean, strong flow into a bucket, and still F13. Either the valve is not opening or the flow meter is not counting water that is actually going in. Listen at the back during the fill: no click and no hiss points at the valve."
+    },
+    {
+      "cause": "The Waterproof hose safety valve has tripped",
+      "frequency": "rare",
+      "confirm": "No water reaches the machine at all, and the indicator in the hose connector at the tap end has changed to show it has operated. A tripped Waterproof hose cannot be reset. The whole hose assembly is replaced, and it is not a cheap part."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the supply valve fully and look at it",
+      "detail": "Find the shut-off valve feeding the dishwasher, usually under the sink next to the disposal connection, and open it as far as it will go. A lever valve must be in line with the pipe. A round handle turns anticlockwise until it stops. This clears F13 more often than every other cause combined, so do it before you move the machine or undo anything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel the program and power cycle the machine",
+      "detail": "Switch the machine off at the on/off button, then turn it off at its breaker for five minutes and back on. The control holds the stored fault, so a dishwasher that now has a perfectly good water supply will keep showing F13 until the power has been cycled properly. Restart on the shortest program so you learn the outcome in minutes rather than two hours.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet filter at the tap end",
+      "detail": "Close the supply valve. Put a towel and a shallow tray under the connection, then unscrew the hose from the valve; expect a cupful of water. Inside the hose connector is a fine mesh filter. Pick it out carefully with needle-nose pliers, rinse it under a running tap, scrub it with an old toothbrush and press it back in squarely the way it came out. Hand tighten the connector, then a quarter turn more.",
+      "minutes": 15,
+      "tools": "Towel, shallow tray, needle-nose pliers, old toothbrush",
+      "warning": "Close the supply valve first. Undoing a live connection gives you full mains pressure in the face and a flooded cabinet."
+    },
+    {
+      "name": "Run a bucket test on the supply",
+      "detail": "With the hose off at the tap end, hold the loose end in a bucket and open the valve for five seconds. You want a strong jet, not a trickle. A weak flow means the problem is in your house plumbing, a partly shut isolation valve or a scaled supply pipe, and an appliance technician will charge you a call-out to tell you exactly that. This single test decides who you need to call.",
+      "minutes": 6,
+      "tools": "Bucket",
+      "warning": "Hold the hose end down inside the bucket before you open the valve, or you will soak the kitchen."
+    },
+    {
+      "name": "Check the hose run behind the machine",
+      "detail": "Pull the dishwasher forward out of its housing as far as the hoses allow, and follow the inlet hose from the valve to the machine. Look for a tight bend, a flat crushed section, or a point where the hose is pinched between the machine and the cabinet frame. Leave the hose a gentle curve when you push the machine back, and check it is not sitting under a foot.",
+      "minutes": 15,
+      "tools": "Flashlight, towels",
+      "warning": null
+    },
+    {
+      "name": "Listen for the inlet valve during a fill",
+      "detail": "With everything reconnected and the supply on, start the shortest program and put your ear near the back lower corner of the machine. You should hear a soft click as the valve opens and then a steady hiss of water for the length of the fill. Silence means the valve is not being energised or has failed. A hiss that stops almost immediately points at a restriction you have not found yet.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the valve is wide open, the filter is clean, the hose is straight and the bucket test gives a strong jet, the supply side is ruled out and the fault is inside the machine. Work through it in this order, because the cheap possibilities really are the likely ones. First, check that the filter you cleaned went back in squarely and did not fold over. A mesh pushed in at an angle restricts flow more than the dirt you removed, and it is the commonest reason F13 survives a filter clean. Second, look at the hose connector at the tap end for the Waterproof trip indicator. A tripped safety valve blocks flow completely, cannot be reset, and the entire hose assembly has to be replaced at $80 to $190, which is several times what a plain braided hose costs and has no generic substitute. Third, if water is clearly reaching the machine and it still will not count it, you are down to the inlet valve or the flow meter. Both live at the back lower corner behind panels, both involve working around mains wiring with the water live, and on a built-in machine both mean pulling the dishwasher out of a tight housing with the counter above it. That is where most people should stop. Expect $200 to $500 for either job done properly. Be straight with yourself about Miele pricing before you book: parts cost materially more than the Bosch or Whirlpool equivalents, authorized call-outs commonly run $150 to $250 before anything is touched, and fewer independents keep Miele stock so you may wait for an order. Owners are regularly shocked by that, because twenty-year build quality is not the same thing as cheap ownership. The offsetting truth is that a $350 repair on a machine with another decade in it is still good value, which is not usually the case on a mass-market dishwasher.",
+  "reset_procedure": "Switch the machine off at the on/off button, then cut the power at its breaker for five minutes and restore it. The stored fault survives a quick off-on, so a dishwasher with the supply problem already fixed can still show F13 until the control has been properly reset. Start the shortest program as your test and stand with the machine through the first fill, listening for the valve click and the hiss of water. If F13 returns at the same point, the restriction is still there.",
+  "model_notes": "F13 has signalled a water intake fault across Miele dishwasher generations, but the fill hardware around it changed. Older machines fill through a plain inlet valve, while newer ones use the Waterproof hose with the valve body and the filter screen at the tap end, which is where you clean the filter rather than at the machine. Some Miele literature splits intake faults across F12, F13 and F14, and third-party code lists do not agree on exactly which is which, so if you have a Miele and an intake-shaped symptom, treat the whole F12 to F14 group as one family and check the service sheet for your own model number.",
+  "parts": [
+    {
+      "name": "Inlet filter screen",
+      "cost": "$0 to $15",
+      "difficulty": "easy",
+      "note": "Almost always just needs cleaning. Replace only if the mesh is torn"
+    },
+    {
+      "name": "Waterproof inlet hose with safety valve",
+      "cost": "$80 to $190",
+      "difficulty": "moderate",
+      "note": "Replaced as a complete assembly once tripped. No generic equivalent, and several times the price of a braided hose"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$70 to $160",
+      "difficulty": "hard",
+      "note": "Behind the lower rear panel. The machine normally has to come out of its housing"
+    },
+    {
+      "name": "Flow meter",
+      "cost": "$60 to $150",
+      "difficulty": "hard",
+      "note": "Same access as the inlet valve, so they are often done together"
+    },
+    {
+      "name": "Electronic unit",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "Rarely the cause of an intake fault. Prove the valve and the flow meter first"
+    }
+  ],
+  "when_to_call": "Call an appliance technician when the bucket test gives a strong jet, the filter is clean and the machine still will not fill, because the next step is testing the inlet valve and flow meter with the machine out of its housing, power on and water connected. Call a plumber instead if the bucket test gives a weak dribble, since the fault is then in your house plumbing and a Miele engineer will charge a full call-out to say so. On Miele, ask on the phone for the call-out fee, the hourly rate, and whether the call-out is credited against the repair, and expect the numbers to be higher than you would be quoted for a Bosch or a GE. Get anything over $400 in writing before you agree to it.",
+  "faqs": [
+    {
+      "q": "Can I still use the dishwasher with an F13 code?",
+      "a": "No, because the machine stops the program rather than washing without enough water, which is the right call. There is no safety issue in leaving it showing the code. If the cause turns out to be low pressure at certain times of day, you may find it runs overnight and fails at peak times, which is a useful clue in itself."
+    },
+    {
+      "q": "Why did F13 appear suddenly when nothing changed?",
+      "a": "Inlet filters clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other common trigger is work elsewhere: a plumber turning a stopcock down, a water meter swap, or a mains repair that stirs sediment into your pipes and lands it in the filter screen within a week or two."
+    },
+    {
+      "q": "Where is the water filter on a Miele dishwasher inlet hose?",
+      "a": "In the connector at the tap end of the hose, not at the machine. Close the supply valve, unscrew the connector and look inside: there is a fine mesh screen you can lift out with needle-nose pliers. This catches people out, because on most other brands the screen is at the machine end instead."
+    },
+    {
+      "q": "What is the Waterproof hose and why does it matter for F13?",
+      "a": "It is Miele's protected inlet hose, with a safety valve at the tap end that shuts the water off if the hose leaks. Once it has tripped, no water reaches the machine and it cannot be reset. The whole assembly has to be replaced at $80 to $190, which surprises people expecting a $20 hose."
+    },
+    {
+      "q": "Is F13 the same as F12 or F14 on a Miele?",
+      "a": "They sit in the same family and the published lists disagree on exactly how they split. All three are reported as intake or water-level faults on various Miele models and generations. Treat the group as one and work the supply checks first, then get the service sheet for your model number before anyone orders a part."
+    },
+    {
+      "q": "Does F13 mean my inlet valve is broken?",
+      "a": "Usually not. In most cases the valve is fine and the restriction is a part-closed supply, a clogged filter screen or a kinked hose. Only replace a valve after a strong bucket test and a clean filter, because fitting a new valve to a restricted supply gets you the same code on the very first cycle."
+    },
+    {
+      "q": "Why is a Miele dishwasher repair so much more expensive than other brands?",
+      "a": "Parts cost more and labor costs more. A Miele inlet valve runs well above the Bosch or Whirlpool equivalent, the inlet hose has no generic substitute, and authorized call-outs are commonly $150 to $250 before work starts. The build quality that makes these machines last twenty years is the same thing that makes year-twelve repairs expensive."
+    }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "The Miele fill path, and the four things that stop it",
+    "labels": {
+      "display": "F13",
+      "c1": "Supply valve, fully open",
+      "c2": "Inlet filter in the tap-end connector",
+      "c3": "Hose run, no kinks or crushing",
+      "c4": "Inlet valve and flow meter at the rear"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher operating instructions, cleaning the water inlet filter",
+      "publisher": "Miele owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher fault code tables, intake fault group",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher fault codes and their field causes",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Field notes on Miele flow meter and Waterproof hose failures",
+      "publisher": "Appliantology and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F12",
+    "F14",
+    "F11",
+    "F70",
+    "F24"
+  ]
+}

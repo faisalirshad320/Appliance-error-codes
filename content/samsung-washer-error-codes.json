@@ -6,7 +6,10 @@
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "10 minutes to identify, 15 minutes to 3 hours to fix",
-  "cost_estimate": { "diy": "$0 to $160", "technician": "$120 to $400" },
+  "cost_estimate": {
+    "diy": "$0 to $160",
+    "technician": "$120 to $400"
+  },
   "safety_warning": "Several of these faults sit on mains-voltage circuits, including the door interlock, the heater and the main control board. Unplug the washer at the wall before removing any panel, and never bypass a door interlock or a thermal cut-out to make a machine run.",
   "causes": [
     {
@@ -96,25 +99,71 @@
       "warning": null
     }
   ],
-  "still_showing": "If the code is not in any list you can find, or it comes back within a cycle or two of every fix you try, work through this. First, confirm you are reading it correctly, because the 5 and S confusion alone sends a lot of people to the wrong page: a drain code read as a fill code wastes an afternoon on taps and inlet screens while the pump filter sits packed with felt. Second, check whether the code is reproducible or random. A code that appears at the same point in every cycle is a real fault in a specific subsystem and can be chased. A code that appears at a different point each time, or that changes between codes, is more often a power supply, a loose connector or a control problem, and chasing individual subsystems will drive you mad. Third, look at what the machine does rather than what it says. Does water come in? Does it go out? Does the drum turn? Does the door lock with a clunk? Four observations place almost any fault whatever the display claims, and they are worth more than any code list when the code itself is ambiguous. Fourth, if you have a code with a trailing digit such as 4C2, dC1 or nF1, understand that the digit usually narrows the fault within the same subsystem rather than meaning something unrelated, so the base code's checks still apply. Finally, a technician can read the machine's stored fault history, which records what the control actually logged rather than what reached the display. On an ambiguous or intermittent code that single piece of information is often worth the call-out fee on its own, and it is the one thing you cannot get at from the outside. Before you book, get the model number ready and be able to say when in the cycle the fault happens, because that is the first thing you will be asked.",
+  "still_showing": "If the code is not in any list you can find, or it comes back within a cycle or two of every fix you try, work through this. First, confirm you are reading it correctly, because the 5 and S confusion alone sends a lot of people to the wrong page: a drain code read as a fill code wastes an afternoon on taps and inlet screens while the pump filter sits packed with felt. Second, check whether the code is reproducible or random. A code that appears at the same point in every cycle is a real fault in a specific subsystem and can be chased. A code that appears at a different point each time, or that changes between codes, is more often a power supply, a loose connector or a control problem, and chasing individual subsystems will drive you mad. Third, look at what the machine does rather than what it says. Does water come in? Does it go out? Does the drum turn? Does the door lock with a clunk? Four observations place almost any fault whatever the display claims, and they are worth more than any code list when the code itself is ambiguous. Fourth, if you have a code with a trailing digit such as 4C2, dC1 or nF1, look it up as the full code rather than only the first two characters. The digit usually narrows the fault within the same subsystem, so the base code's checks are a sensible place to start, but that is not a universal rule and some suffixed codes describe a genuinely different problem. Finally, a technician can read the machine's stored fault history, which records what the control actually logged rather than what reached the display. On an ambiguous or intermittent code that single piece of information is often worth the call-out fee on its own, and it is the one thing you cannot get at from the outside. Before you book, get the model number ready and be able to say when in the cycle the fault happens, because that is the first thing you will be asked.",
   "reset_procedure": "The same reset works for every code on the range. Press Power to cancel the cycle, unplug the washer at the wall for a full five minutes, then plug it back in. The five minutes matters because the control holds residual charge and a quick off and on frequently leaves the stored fault in place. Test with Rinse and Spin rather than a full cycle so you find out within a couple of minutes instead of an hour.",
   "model_notes": "The big change is the 2017 renaming, when Samsung moved from codes ending in E to codes ending in C across most of the range. The faults did not change, only the labels, so 4E and 4C, 5E and 5C, dE and dC all describe identical conditions. UE became UB rather than UC, which breaks the pattern. Older top loaders also use a few word-like codes of their own, chiefly nd for no drain and nF for no fill, that have no direct C-generation equivalent. Two model-specific quirks are worth knowing: a minority of models show dC for an unbalanced load rather than a door fault, and U6 does not appear in Samsung's general code list at all and is often a misread Ub.",
   "parts": [
-    { "name": "Drain pump assembly", "cost": "$40 to $120", "difficulty": "moderate", "note": "The usual outcome on persistent 5C, SC, 5E, SE and nd codes" },
-    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "For 4C, 4E and nF once the taps, screens and hoses are ruled out" },
-    { "name": "Door lock and interlock assembly", "cost": "$40 to $110", "difficulty": "moderate", "note": "For dC and dE where the lock gives no clunk on start" },
-    { "name": "Shock absorbers or suspension rods", "cost": "$30 to $160", "difficulty": "hard", "note": "For UB and UE that survive an empty spin; always fit as a complete set" },
-    { "name": "Main control board", "cost": "$180 to $320", "difficulty": "technician only", "note": "Last resort on any code, and rarely worth it on a machine near ten years old" }
+    {
+      "name": "Drain pump assembly",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "The usual outcome on persistent 5C, SC, 5E, SE and nd codes"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "For 4C, 4E and nF once the taps, screens and hoses are ruled out"
+    },
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$40 to $110",
+      "difficulty": "moderate",
+      "note": "For dC and dE where the lock gives no clunk on start"
+    },
+    {
+      "name": "Shock absorbers or suspension rods",
+      "cost": "$30 to $160",
+      "difficulty": "hard",
+      "note": "For UB and UE that survive an empty spin; always fit as a complete set"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $320",
+      "difficulty": "technician only",
+      "note": "Last resort on any code, and rarely worth it on a machine near ten years old"
+    }
   ],
   "when_to_call": "Call a technician for any code in the heating, motor, leak or control groups, because those sit on mains-voltage circuits or need the machine substantially apart, and for any code that survives the fill, drain, balance and door checks. Call a plumber rather than an appliance technician when the problem turns out to be the house supply or the standpipe, which the bucket test will tell you in fifteen minutes. Stop using the machine and call if you see a leak code or water on the floor, because water in the base of a machine with a live heater and pump is the one failure here worth treating as urgent. For everything else there is no rush, and a methodical hour of your own time clears most Samsung washer codes without anybody being paid.",
   "faqs": [
-    { "q": "Why did Samsung change all its washer error codes?", "a": "Samsung moved from codes ending in E to codes ending in C on machines made from roughly 2017 onward, to line the washers up with the rest of its appliance range. The faults themselves did not change. 4E became 4C, 5E became 5C and dE became dC, so guidance written for either generation applies to both with no modification." },
-    { "q": "Why does my code look like SC or SE instead of 5C or 5E?", "a": "Because the stylized 5 on a seven-segment display is the same shape as a capital S. There is no separate SC or SE code. If you are reading SC, your machine means 5C, the drain fault, and the same applies to SE and 5E. The same quirk makes Ub look like U6 on a lot of panels." },
-    { "q": "Where is the error code shown on a Samsung washer?", "a": "In the main display, where the remaining cycle time normally appears. On models with no numeric display, the fault is signalled by a pattern of flashing cycle lights instead, and the pattern has to be matched against the chart in your user manual. On a few machines the code only appears once the cycle has been cancelled." },
-    { "q": "Can one reset clear any Samsung washer code?", "a": "The reset is the same for all of them: cancel, unplug for five minutes, plug back in. It clears the stored fault, which matters because the control keeps displaying a code after the problem has gone. What it does not do is fix anything. If the code returns on the next cycle, the fault is live and needs the actual repair." },
-    { "q": "Which Samsung washer codes can I fix myself?", "a": "Most of them. The fill, drain, balance and door groups cover the large majority of codes and come down to opening taps, cleaning filters and screens, levelling the machine and occasionally fitting a straightforward part. The heating, motor, leak and control board groups are the ones worth handing over, because they involve mains voltage or substantial dismantling." },
-    { "q": "What does a trailing digit mean, like 4C2 or dC1?", "a": "It narrows the fault within the same subsystem rather than pointing somewhere unrelated. 4C2 is still a water supply issue, specifically the incoming water being too hot, which usually means crossed hoses. dC1 is still in the door and lid circuit. Start with the base code's checks and treat the digit as extra detail." },
-    { "q": "My code is not on any list. What now?", "a": "Check your own model's code list in the manual or on the service sheet inside the cabinet, since coverage varies across the range. Then go by behaviour instead of the display: does water come in, does it go out, does the drum turn, does the door lock. Those four answers place almost any fault regardless of what the panel says." }
+    {
+      "q": "Why did Samsung change all its washer error codes?",
+      "a": "Samsung moved from codes ending in E to codes ending in C on machines made from roughly 2017 onward, to line the washers up with the rest of its appliance range. The faults themselves did not change. 4E became 4C, 5E became 5C and dE became dC, so guidance written for either generation applies to both with no modification."
+    },
+    {
+      "q": "Why does my code look like SC or SE instead of 5C or 5E?",
+      "a": "Because the stylized 5 on a seven-segment display is the same shape as a capital S. There is no separate SC or SE code. If you are reading SC, your machine means 5C, the drain fault, and the same applies to SE and 5E. The same quirk makes Ub look like U6 on a lot of panels."
+    },
+    {
+      "q": "Where is the error code shown on a Samsung washer?",
+      "a": "In the main display, where the remaining cycle time normally appears. On models with no numeric display, the fault is signalled by a pattern of flashing cycle lights instead, and the pattern has to be matched against the chart in your user manual. On a few machines the code only appears once the cycle has been cancelled."
+    },
+    {
+      "q": "Can one reset clear any Samsung washer code?",
+      "a": "The reset is the same for all of them: cancel, unplug for five minutes, plug back in. It clears the stored fault, which matters because the control keeps displaying a code after the problem has gone. What it does not do is fix anything. If the code returns on the next cycle, the fault is live and needs the actual repair."
+    },
+    {
+      "q": "Which Samsung washer codes can I fix myself?",
+      "a": "Most of them. The fill, drain, balance and door groups cover the large majority of codes and come down to opening taps, cleaning filters and screens, levelling the machine and occasionally fitting a straightforward part. The heating, motor, leak and control board groups are the ones worth handing over, because they involve mains voltage or substantial dismantling."
+    },
+    {
+      "q": "What does a trailing digit mean, like 4C2 or dC1?",
+      "a": "Usually it narrows the fault within the same subsystem. 4C2 is still a water supply matter, specifically water arriving too hot, which normally means crossed hoses, and dC1 stays in the door and lid circuit. It is not a universal rule, though, and some suffixed codes describe a genuinely different fault, so look up the full code as written rather than only the first two characters."
+    },
+    {
+      "q": "My code is not on any list. What now?",
+      "a": "Check your own model's code list in the manual or on the service sheet inside the cabinet, since coverage varies across the range. Then go by behaviour instead of the display: does water come in, does it go out, does the drum turn, does the door lock. Those four answers place almost any fault regardless of what the panel says."
+    }
   ],
   "diagram": {
     "kind": "generic-reset",
@@ -127,10 +176,33 @@
     }
   },
   "sources": [
-    { "title": "Samsung washing machine information and error codes", "publisher": "Samsung support documentation", "url": null },
-    { "title": "Samsung washer service literature and model code lists", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
-    { "title": "Samsung washer error code references for WF and WA series machines", "publisher": "Independent appliance repair field guides", "url": null },
-    { "title": "Field reports on Samsung code renaming and display character confusion", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Samsung washing machine information and error codes",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung washer service literature and model code lists",
+      "publisher": "Samsung service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Samsung washer error code references for WF and WA series machines",
+      "publisher": "Independent appliance repair field guides",
+      "url": null
+    },
+    {
+      "title": "Field reports on Samsung code renaming and display character confusion",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["SC", "SUD", "UR", "4C", "UB", "dC"]
+  "related_codes": [
+    "SC",
+    "SUD",
+    "UR",
+    "4C",
+    "UB",
+    "dC"
+  ]
 }
