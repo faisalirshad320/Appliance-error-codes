@@ -1,0 +1,124 @@
+{
+  "title": "Maytag Washer 5D Code: It Is Sd, and It Means Suds",
+  "meta_description": "5D on a Maytag washer is the suds code Sd read off a seven-segment display. The machine found too much foam and extended the rinse. Here is how to stop it.",
+  "h1": "Maytag washer 5D error code: it is the suds code, and here is the fix",
+  "answer": "5D on a Maytag washer is not a five and a D. It is Sd, the excess suds code, drawn on a seven-segment display where the letter S and the figure 5 use exactly the same shape. The machine has found more foam in the drum than it can rinse or spin through, so it is adding water and extending the rinse to break it down. That is why the cycle is running far longer than the timer said. Nothing is broken; the dose or the type of detergent is the thing to change.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "45 to 90 minutes, most of it waiting",
+  "cost_estimate": { "diy": "$0 to $20", "technician": "$130 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "An overdose of detergent, usually poured from the bottle cap",
+      "frequency": "most cases",
+      "confirm": "Stop the cycle mid-wash and look at the water. Clear water with a ring of bubbles around the edge is right. A white head that sits above the water and does not collapse when the drum stops is too much soap. On a top loader you can see this from above without stopping anything."
+    },
+    {
+      "cause": "Detergent that is not high-efficiency, or a concentrate dosed as if it were not",
+      "frequency": "most cases",
+      "confirm": "Turn the bottle round and look for the HE symbol. Standard detergent is formulated to foam in a machine using three times the water a high-efficiency Maytag uses. A 2x or 3x concentrate needs a smaller pour, and the habit of filling the cap survives any change of brand."
+    },
+    {
+      "cause": "A slow or partly blocked drain, so foam never leaves the machine",
+      "frequency": "common",
+      "confirm": "The code keeps returning on a sensible dose and the drum is slow to empty between rinses, or you have also seen F9 E1. Soapy water that sits in the sump gets whipped straight back into foam by the next agitation, so a normal dose reads as excessive."
+    },
+    {
+      "cause": "Thickened splash-free bleach",
+      "frequency": "common",
+      "confirm": "The code shows up on loads you bleached and on nothing else. The thickeners in no-splash and easy-pour chlorine bleach foam in a low-water machine; Maytag names this directly. Plain liquid chlorine bleach does not do it."
+    },
+    {
+      "cause": "Soft water, or a very lightly soiled load",
+      "frequency": "occasional",
+      "confirm": "A dose that handles muddy work clothes perfectly well foams badly on a half load of shirts, or suds problems started after a water softener went in. If 5D shows on light loads and never on heavy ones, this is what you are looking at."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is misreading the water level",
+      "frequency": "rare",
+      "confirm": "5D on a cycle run with no detergent at all in a freshly cleaned drum. The control partly infers suds from how the water level settles, so a plugged or split air hose between the outer tub and the sensor makes a clean machine report foam. Only worth suspecting after everything above is ruled out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm you are reading Sd rather than something else",
+      "detail": "Look at the character before the D with the panel at eye level. On a seven-segment display an S and a 5 are identical, so 5d and Sd are the same thing. If your panel is an LCD or dot-matrix type that can draw real letters and it genuinely shows a numeral five, check the code list for your model number, because a numeric code would be a different fault entirely.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Leave it alone for half an hour",
+      "detail": "The machine is already dealing with it. When a Maytag detects suds it stops agitating, adds rinse water and extends the rinse to collapse the foam. Give it thirty minutes before intervening. A fair share of the time the code clears by itself and the load finishes late but fine. Cancelling and restarting adds fresh soapy water to the problem.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run Rinse and Spin twice with nothing added",
+      "detail": "If the code is still there, cancel, leave the laundry in the drum and run Rinse and Spin with no detergent at all. Run it a second time straight after. Two clean rinses clear foam out of the drum, the sump and the pump on nearly every machine. On the second one the water should look like water.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the drain before you blame the detergent again",
+      "detail": "A machine that empties slowly cannot clear normal foam. On a front loader, unplug it, open the lower access panel and drain the sump through the small tube before unscrewing the filter cap counterclockwise; expect about a litre of water. On a top loader, pull the drain hose out of the standpipe, straighten any kink, and make sure it is not pushed more than about 4.5 inches into the pipe.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, shallow pan, towels",
+      "warning": "Unplug at the outlet before opening the access panel or reaching into the pump housing."
+    },
+    {
+      "name": "Halve the dose and measure it with a spoon",
+      "detail": "A tablespoon or so of HE liquid is the right order of magnitude for a normal load in a high-efficiency Maytag, and less for a small load or soft water. Use an actual measuring spoon. The bottle cap is sized for machines that use three times the water and will put you straight back where you started on the next wash.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Run the Clean Washer cycle empty",
+      "detail": "With nothing in the drum and no detergent anywhere, run the Clean Washer cycle with an affresh tablet or equivalent cleaner. This strips the layer of old detergent off the drum and the outer tub, which is the hidden reservoir that keeps feeding foam into otherwise reasonable loads. Done monthly it keeps the suds code away for good.",
+      "minutes": 120,
+      "tools": "Washing machine cleaner tablet",
+      "warning": null
+    }
+  ],
+  "still_showing": "If two rinses and a measured dose have not stopped 5D coming back, go at it in this order. First, change the detergent entirely rather than just using less of it. Several budget HE liquids and almost all pods foam well beyond what their dose implies, and a pod is a fixed amount with no way to reduce it for a small or lightly soiled load. Buy a different HE liquid, run a week on a measured tablespoon, and see what happens before spending anything. Second, treat the drain as a suspect in its own right. The control does not measure foam directly; it infers it from how the water behaves, so water that leaves the machine slowly looks like suds whether or not there is much foam. Clean the pump filter, check the drain hose for a kink, check how far it goes into the standpipe, and look at whether the machine is also showing or has recently shown a drain code. If it has, fix the drain first and the suds code will go with it. Third, consider the water itself. A softener installed since the machine was new halves the detergent you actually need, and nobody adjusts the dose to match. Fourth, if 5D shows up on a cycle run with no detergent at all in a drum you have just cleaned, the fault has moved out of the laundry and into the hardware. The small clear air hose running from a port low on the outer tub up to the pressure sensor collects soap scum and splits at the ends, and either of those makes the control misread the level. Pull it off at the tub port, check it, blow it clear and refit it. That is where a technician starts to be worth the money, and it should be a $130 to $250 diagnosis rather than a big parts bill. What is not worth doing at any point is replacing the pump or the control board on a suds code alone.",
+  "reset_procedure": "Press Power to cancel, then unplug the washer or switch off its breaker for five minutes. The code normally clears by itself once the foam has gone, so one that survives a power cut on a clean, empty drum is reporting a water level problem rather than real suds. Test with Rinse and Spin, not a full cycle. Be aware the code tends to reappear on the following wash rather than immediately, because the cause is the detergent rather than the control.",
+  "model_notes": "The same condition appears as Sud on Maytag panels with room for three characters and as Sd on those without, and 5D is simply how Sd looks on a seven-segment display. Maytag and Whirlpool share these washer platforms, so Whirlpool, Amana and Crosley machines of the same vintage show the identical code for the identical reason. The behavior differs between formats: high-efficiency top loaders hold more water and can spend an extra hour quietly running suds routines before the code ever appears, while a front loader tends to show it quickly and refuse to spin until the foam is gone.",
+  "parts": [
+    { "name": "HE liquid detergent, measured with a spoon", "cost": "$10 to $20", "difficulty": "easy", "note": "A change of brand fixes more suds codes than any part here" },
+    { "name": "Washing machine cleaner tablets", "cost": "$8 to $18", "difficulty": "easy", "note": "Monthly cleaning cycle stops residue rebuilding in the outer tub" },
+    { "name": "Drain pump filter cap and seal", "cost": "$12 to $35", "difficulty": "easy", "note": "Only if the cap seal is perished and weeping after cleaning" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $30", "difficulty": "moderate", "note": "Usually only needs clearing; replace if split at the ends" }
+  ],
+  "when_to_call": "There is no reason to call anyone for a first 5D. Call a technician if the code appears on a detergent-free cycle in a clean machine, because the control is then misreading the water level and chasing the pressure sensor and its air hose means partly stripping the machine. Also call if 5D keeps arriving alongside a drain code after you have cleaned the filter and checked the hose, since the pump may be too weak to clear ordinary foam. What you should not pay for is advice to use less detergent; run a fortnight on a measured tablespoon first, because in most houses that is the whole repair.",
+  "faqs": [
+    { "q": "Is 5D on a Maytag washer the same as Sd?", "a": "Yes. On a seven-segment display the letter S and the number 5 are drawn with identical segments, so the suds code Sd reads as 5d to almost everyone. There is no separate numeric 5D fault on these machines. If your panel is an LCD type that can draw proper letters, check your model's code list to be sure." },
+    { "q": "What does the suds code actually do to my cycle?", "a": "It pauses the wash, adds rinse water and extends the rinse until the foam collapses. That is why the cycle runs well past the time shown. On a front loader the machine will also refuse to spin at speed until the suds have gone, because foam in the drum stops the load distributing evenly." },
+    { "q": "How much detergent should I use to stop 5D?", "a": "Around a tablespoon of HE liquid for a normal load, measured with a spoon rather than the bottle cap, and about half that for a small load or if your water is soft. Clothes come out just as clean. The surplus you were adding never did any washing; it turned into the foam the machine is now complaining about." },
+    { "q": "Can a blocked drain cause the 5D code?", "a": "Yes, and it is the cause people miss. The washer infers suds from how the water level behaves, so water leaving slowly looks the same as foam. If 5D keeps returning on a measured dose, clean the pump filter, check the drain hose for kinks, and look for a drain code in the history before changing detergent again." },
+    { "q": "Can I still use the washer while 5D is showing?", "a": "Yes, though the cycle will take noticeably longer while the machine rinses the foam away. One sudsy load harms nothing. Repeated suds locking is worth fixing, because foam carries detergent into the sump and pump where plain water would flush it out, and the residue slowly turns into a real drain problem." },
+    { "q": "Why did 5D start happening out of nowhere?", "a": "Usually something changed outside the bottle. A water softener fitted, a move to a softer supply, a switch to pods, or years of detergent film building inside the outer tub will all push a dose that used to be fine over the line. Run the Clean Washer cycle and clean the dispenser before assuming the machine is faulty." },
+    { "q": "Will 5D damage my washing machine?", "a": "Not directly. The harm is indirect and slow: foam carries detergent into the pump, sump and drain hose, leaving residue that water would have flushed away. Over months that restricts the drain and produces genuine drain faults. Cutting the dose and running a monthly cleaning cycle protects the machine better than any part you could buy." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Foam stalls the drain, the drain makes more foam. Break the loop here.",
+    "labels": {
+      "display": "5d",
+      "c1": "Read it as Sd, meaning suds",
+      "c2": "Two rinses with no detergent",
+      "c3": "Clean the drain pump filter",
+      "c4": "One tablespoon of HE liquid"
+    }
+  },
+  "sources": [
+    { "title": "What does the SUD or SD error code mean", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "What it means when 5D is flashing on a Maytag washing machine", "publisher": "Hunker appliance reference", "url": null },
+    { "title": "Maytag washer use and care guide, detergent dosing and Clean Washer cycle", "publisher": "Maytag owner's manual supplied with the machine", "url": null },
+    { "title": "Field reports on suds codes, slow drains and pressure hose blockages", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["Sd", "Sud", "F9 E1", "F8 E1", "LF", "rL"]
+}

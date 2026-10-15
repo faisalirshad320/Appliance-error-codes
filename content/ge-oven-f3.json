@@ -1,0 +1,188 @@
+{
+  "title": "GE Oven F3 Error Code: Causes and Fix",
+  "meta_description": "GE oven F3 means the oven temperature sensor circuit reads open, so the oven will not heat. Usually a failed sensor or a broken wire.",
+  "h1": "GE oven F3 error code: what it means and how to fix it",
+  "answer": "F3 means the control has lost its temperature reading: the oven sensor circuit reads open, so the board has no idea how hot the cavity is and refuses to heat. It is the mirror image of an overheat fault, and it is one of the more DIY-friendly oven codes. The usual cause is the oven temperature sensor itself, a thin probe mounted through the back wall of the cavity, with a broken wire or a corroded connector behind the rear panel a close second.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to test, about an hour to replace the sensor",
+  "cost_estimate": {
+    "diy": "$20 to $50",
+    "technician": "$180 to $320"
+  },
+  "safety_warning": "The rear of an electric oven carries 240 volts at the terminal block whether or not the oven is switched on at the panel. Switch off the double breaker before any panel comes off, and check that the oven is dead before you put your hands in. On a gas range, the sensor itself is fair game, but the burner, gas valve and igniter circuit are licensed trade work.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has gone open circuit",
+      "frequency": "most cases",
+      "confirm": "Unplug the two-pin sensor connector behind the rear panel and put a meter across the sensor side on ohms. An open or infinite reading, often shown as OL, means the fine resistance wire inside the probe has fractured. That is the whole fault and the probe is a cheap part."
+    },
+    {
+      "cause": "A broken wire between the sensor and the control board",
+      "frequency": "common",
+      "confirm": "The sensor itself measures in spec against the service sheet, but the code persists. Hold the meter on the pins and flex the harness, especially where it crosses the cavity flange. A reading that flicks to open as you bend it is a conductor broken inside sound-looking insulation."
+    },
+    {
+      "cause": "A loose, corroded or heat-damaged connector",
+      "frequency": "common",
+      "confirm": "Separate the plug behind the rear panel and look into both halves. A terminal pushed back out of the housing, a green or white crust, or plastic that has gone brittle and brown breaks the circuit without anything looking broken from the front."
+    },
+    {
+      "cause": "Fallout from a self-clean cycle",
+      "frequency": "common",
+      "confirm": "The oven worked, you ran self-clean, and now it will not heat and shows F3. Self-clean runs the cavity far above any cooking temperature for hours and is where most oven sensors finally give up. If the timing matches, this is why, even though the sensor is still the part you replace."
+    },
+    {
+      "cause": "The control board is not reading the circuit correctly",
+      "frequency": "occasional",
+      "confirm": "A new sensor measures correctly at the board end of the harness and F3 still appears. At that point the circuit is intact all the way to the control and the control is the thing misreading it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch off at the breaker and wait five minutes",
+      "detail": "Find the double breaker for the range or wall oven and turn it off. This both makes the job safe and resets the control, which holds the stored fault until it loses power properly. A quick flick of the breaker is not enough; give it five full minutes before switching back on.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "The oven's own power button does not isolate the appliance. Use the breaker."
+    },
+    {
+      "name": "Restore power and try a bake",
+      "detail": "Set a moderate bake and watch the display for a couple of minutes. If F3 comes straight back, the circuit is genuinely open and you are going behind the oven. If the oven preheats normally, you had a one-off and the only thing left to do is note whether it happens again, since an intermittent break will come back within a few cycles.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the oven out and open the rear panel",
+      "detail": "Slide the range forward or lift the wall oven out of its cabinet, which usually needs two people and the trim screws out of the face frame. Undo the rear access panel with a quarter-inch nut driver. The sensor's two-wire plug sits a few inches in from where the probe passes through the cavity wall, often clipped to a bracket.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off and confirmed dead before the rear panel comes off."
+    },
+    {
+      "name": "Measure the sensor with a multimeter",
+      "detail": "Separate the connector and put a probe on each pin of the sensor side with the meter on ohms. A healthy probe reads close to the room-temperature figure given in the service sheet inside your machine; an open circuit reads OL or infinity and condemns the sensor outright. Use your own model's sheet for the number rather than a generic one, because it varies between GE platforms.",
+      "minutes": 10,
+      "tools": "Multimeter, service sheet for your model",
+      "warning": null
+    },
+    {
+      "name": "Check the wiring before you blame the probe",
+      "detail": "If the sensor reads correctly, move the meter to the board end of the same two wires and measure again. You should see the same figure. If you see an open circuit there but a good one at the probe, the break is in the harness. Flex the wire along its run while watching the meter, paying attention to where it passes the cavity flange and any sheet metal edge.",
+      "minutes": 12,
+      "tools": "Multimeter",
+      "warning": null
+    },
+    {
+      "name": "Replace the oven temperature sensor",
+      "detail": "Two screws inside the cavity hold the probe to the back wall. Undo them, pull the old lead out through the hole, then feed the new one through from inside so the connector does not vanish into the insulation. Tighten the screws, mate the plug firmly, refit the rear panel and push the oven back with enough slack that nothing is pinched behind it.",
+      "minutes": 40,
+      "tools": "Nut driver, replacement oven temperature sensor",
+      "warning": "Breaker stays off until the rear panel is screwed back on."
+    },
+    {
+      "name": "Check the oven actually holds temperature",
+      "detail": "Put an oven thermometer on the center rack and run a bake at a moderate setting for twenty minutes. The thermometer should settle near the set point and cycle a little either side. If it reads well off, the new sensor is fine but the oven may need its temperature offset adjusted, which is a menu setting on most GE controls rather than another part.",
+      "minutes": 25,
+      "tools": "Oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If a new sensor has not fixed it, the break is somewhere else in the same circuit and you can find it with the meter rather than by buying parts. Work from the probe toward the control. With the breaker off, measure at the sensor connector, then at the control board end of those two wires. Equal readings mean the harness is intact and the board is the suspect. An open reading at the board end with a good one at the probe puts the break in between, and the places it happens are predictable: where the harness crosses the cavity flange, where it passes a sheet metal edge, and inside the connector itself, where a pin backs out of the housing and makes contact only sometimes. Unplug and remate that connector several times to scrape the terminals clean before condemning anything, because that alone fixes a fair share of intermittent F3 codes. If the harness tests good and the board end reads correctly, you are down to the control, and that is the cost jump: $200 to $400 for the part on a GE wall oven or slide-in range before labor. On an oven over ten years old, get a quote for the board fitted and compare it against a replacement appliance before you commit, especially if this oven has been self-cleaned regularly, because the same heat that killed the sensor has been working on the latch motor and the door seal too. One pattern worth knowing: if the oven shows F3 some days and bakes normally on others, stop replacing parts and chase the connection. Intermittent faults are nearly always mechanical connections, not components.",
+  "reset_procedure": "Switch the oven off at the breaker, wait five full minutes, then restore power. The wait is the part people skip, and it matters because the control holds charge and keeps the stored fault through a quick cycle. On a plug-in gas range, pull the cord at the wall instead. Test with a short bake rather than a full recipe, so you find out in three minutes instead of forty. If F3 returns on the first preheat, the circuit is open and no amount of resetting will change that.",
+  "model_notes": "Across GE ranges and wall ovens, F3 is the open sensor circuit and F4 is the same sensor read as shorted; some controls report both from a single intermittently broken wire, alternating between them. A few older GE fault code lists use F3 for a key panel or membrane switch problem instead, so on an older range where the oven heats perfectly but the touch panel misbehaves, check the code list on the service sheet inside your own machine before ordering a sensor. On double ovens each cavity has its own probe and the code may be reported per cavity.",
+  "parts": [
+    {
+      "name": "Oven temperature sensor, the RTD probe",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "The usual fix; two screws inside the cavity and one plug"
+    },
+    {
+      "name": "Sensor harness or pigtail",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "For a wire that fails the flex test; sometimes supplied with the probe"
+    },
+    {
+      "name": "Oven thermometer",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Confirms the repair worked before you trust it with dinner"
+    },
+    {
+      "name": "Oven control board",
+      "cost": "$200 to $400",
+      "difficulty": "technician only",
+      "note": "Last resort, once the sensor and harness measure good at the board"
+    }
+  ],
+  "when_to_call": "Call a technician if the sensor and harness both measure correctly and F3 is still there, because the next step is board-level work on a live 240 volt appliance, and on a wall oven that means pulling the unit out of its cabinet. Call a licensed gas technician for anything on a gas range other than the sensor itself. It is also reasonable to call simply because the oven is a built-in wall oven and lifting it out single-handed is how people end up with a damaged cabinet. An F3 is not dangerous to leave sitting, since the oven refuses to heat rather than overheating, so there is no urgency beyond wanting your oven back.",
+  "faqs": [
+    {
+      "q": "What does F3 mean on a GE oven?",
+      "a": "The oven temperature sensor circuit reads open, so the control has no temperature reading and will not turn on the heat. It is almost always the sensor probe itself or a broken wire between the probe and the control board. The oven is safe in this state; it just refuses to work until the circuit is restored."
+    },
+    {
+      "q": "Can I still use my GE oven with an F3 code?",
+      "a": "The oven will not heat, so no. Unlike an over-temperature code, F3 is not dangerous: the control shuts the heat off because it cannot measure the cavity, which is the correct cautious response. On a range the cooktop burners are unaffected and can be used normally while you sort the oven out."
+    },
+    {
+      "q": "How do I test a GE oven temperature sensor?",
+      "a": "Switch off the breaker, remove the rear access panel, unplug the sensor's two-pin connector and measure across the sensor side with a multimeter on ohms. An open or OL reading means the probe is dead. A reading close to the room-temperature figure on the service sheet inside your machine means the probe is fine and the wiring is next."
+    },
+    {
+      "q": "What is the difference between F3 and F4 on a GE oven?",
+      "a": "F3 is the sensor circuit reading open and F4 is the same circuit reading shorted. Both are sensor faults and both are diagnosed the same way with a multimeter. An oven that alternates between the two usually has one wire broken intermittently rather than two separate problems, so chase the harness rather than buying two parts."
+    },
+    {
+      "q": "Why does F3 happen after self-cleaning?",
+      "a": "Self-clean holds the cavity hundreds of degrees above any cooking temperature for hours, and that heat is what finally cracks the fine resistance wire inside an aging sensor. A large share of F3 codes appear during or on the first bake after a clean cycle. Cleaning by hand with baking soda paste avoids putting the oven through it."
+    },
+    {
+      "q": "How much does it cost to fix a GE oven F3?",
+      "a": "The sensor is a $20 to $50 part and the job takes about an hour, so DIY is cheap. A technician typically charges $180 to $320 all in, most of which is the call-out and labor rather than the part. If it turns out to be the control board instead, expect $350 to $600 fitted, which is a different conversation on an older oven."
+    },
+    {
+      "q": "Will a new sensor fix my oven running at the wrong temperature?",
+      "a": "Often, yes, if the old one had drifted before it failed. Check with an oven thermometer on the center rack after fitting. If the oven is still consistently off by a predictable amount, most GE controls have a temperature adjustment setting in the menu that trims the calibration without needing another part."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The open sensor circuit behind an F3, from probe to control board",
+    "labels": {
+      "display": "F3",
+      "c1": "Breaker off before any panel",
+      "c2": "Sensor probe in the cavity wall",
+      "c3": "Two-pin plug behind rear panel",
+      "c4": "Measure again at the board end"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE range and wall oven fault codes and sensor circuit tests",
+      "publisher": "GE Appliances service mini-manual supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "Oven temperature sensor testing and replacement guidance",
+      "publisher": "iFixit community repair wiki",
+      "url": null
+    },
+    {
+      "title": "Field reports on F3 and F4 sensor codes and intermittent harness breaks",
+      "publisher": "AppliancePartsPros technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F4",
+    "F2",
+    "F20",
+    "F76",
+    "F96",
+    "F97"
+  ]
+}

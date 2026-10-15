@@ -32,7 +32,7 @@
     {
       "cause": "The harness or connector at the lock has corroded",
       "frequency": "occasional",
-      "confirm": "Intermittent behaviour: the door releases some days and not others, and the code comes and goes. Unplug the machine and inspect the connector at the lock for green corrosion or a terminal that has backed out of its housing."
+      "confirm": "Intermittent behavior: the door releases some days and not others, and the code comes and goes. Unplug the machine and inspect the connector at the lock for green corrosion or a terminal that has backed out of its housing."
     },
     {
       "cause": "The main control board is not sending the unlock command",

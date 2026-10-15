@@ -38,7 +38,7 @@
   "steps": [
     {
       "name": "Find the padlock icon on the panel",
-      "detail": "Look along the row of option buttons for a small padlock symbol printed above, below or beside one of them. Whirlpool rarely labels this with a word, so you are hunting for the picture rather than the text. Take a photo with your phone's flash on if the panel is dark and the printing is low contrast, which it usually is on the grey and black panels.",
+      "detail": "Look along the row of option buttons for a small padlock symbol printed above, below or beside one of them. Whirlpool rarely labels this with a word, so you are hunting for the picture rather than the text. Take a photo with your phone's flash on if the panel is dark and the printing is low contrast, which it usually is on the gray and black panels.",
       "minutes": 2,
       "tools": null,
       "warning": null

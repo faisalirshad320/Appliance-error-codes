@@ -2,7 +2,7 @@
   "title": "Whirlpool Washer F5 E2 Error Code: Door Will Not Lock",
   "meta_description": "Whirlpool F5 E2 means the washer could not lock its door. Usually laundry in the seal or a worn door lock assembly. Here is how to tell which.",
   "h1": "Whirlpool washer F5 E2 error code: what it means and how to fix it",
-  "answer": "F5 E2 means your Whirlpool washer tried to lock the door and did not get confirmation that the lock engaged. The F5 half identifies the door lock system and the E2 half identifies the lock-side failure, so the machine will not start a cycle until it clears. The first thing to check is the door itself: a sleeve or a corner of a duvet trapped in the rubber boot holds the door a few millimetres proud, which is enough to stop the latch catching while still looking shut. If the door is genuinely clean and closes with a solid click and the code persists, the door lock assembly is the part that usually needs replacing.",
+  "answer": "F5 E2 means your Whirlpool washer tried to lock the door and did not get confirmation that the lock engaged. The F5 half identifies the door lock system and the E2 half identifies the lock-side failure, so the machine will not start a cycle until it clears. The first thing to check is the door itself: a sleeve or a corner of a duvet trapped in the rubber boot holds the door a few millimeters proud, which is enough to stop the latch catching while still looking shut. If the door is genuinely clean and closes with a solid click and the code persists, the door lock assembly is the part that usually needs replacing.",
   "severity": "moderate",
   "can_diy": "usually",
   "time_estimate": "10 minutes to 1 hour",
@@ -27,7 +27,7 @@
     {
       "cause": "The striker on the door is bent, loose or out of line",
       "frequency": "common",
-      "confirm": "Close the door slowly and watch where the metal hook on the door meets the slot. It should go in centred. If it rubs the bottom of the slot or enters at an angle, the hinge has sagged or the striker has been bent, usually by someone leaning on an open door."
+      "confirm": "Close the door slowly and watch where the metal hook on the door meets the slot. It should go in centered. If it rubs the bottom of the slot or enters at an angle, the hinge has sagged or the striker has been bent, usually by someone leaning on an open door."
     },
     {
       "cause": "The harness or connector at the door lock has failed",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Check the whole rubber boot for trapped laundry",
-      "detail": "Run a hand right round the inside of the grey rubber seal, including the underside at the six o'clock position where things settle. Pull out anything you find. Then take out roughly a third of the load and redistribute the rest: an overpacked drum pushes clothing into the door opening as soon as you shut it, even when the seal looked clear.",
+      "detail": "Run a hand right round the inside of the gray rubber seal, including the underside at the six o'clock position where things settle. Pull out anything you find. Then take out roughly a third of the load and redistribute the rest: an overpacked drum pushes clothing into the door opening as soon as you shut it, even when the seal looked clear.",
       "minutes": 5,
       "tools": null,
       "warning": null
@@ -71,7 +71,7 @@
     },
     {
       "name": "Check how the striker meets the latch",
-      "detail": "Close the door slowly and watch the metal hook on the door go into the slot. It should enter centred, without scraping. If it sits low, lift the door by its handle while closing: if that makes the lock engage, the hinge has sagged and the hinge screws through the front panel need tightening or the hinge needs replacing. A visibly bent striker means a new door hook or door assembly.",
+      "detail": "Close the door slowly and watch the metal hook on the door go into the slot. It should enter centered, without scraping. If it sits low, lift the door by its handle while closing: if that makes the lock engage, the hinge has sagged and the hinge screws through the front panel need tightening or the hinge needs replacing. A visibly bent striker means a new door hook or door assembly.",
       "minutes": 10,
       "tools": "Torx driver set",
       "warning": null
@@ -104,7 +104,7 @@
   "when_to_call": "Call a technician if you have fitted a new door lock and F5 E2 came back on the first cycle, because the next step is testing the harness and the board with the machine powered up and the front open, which is live mains work in a wet room. Call as well if peeling the boot clamp off is more than you want to take on, since getting the boot lip reseated correctly matters: a boot that is not fully home in its groove leaks on the first spin and turns a $90 repair into a floor replacement. Never run the machine with the lock bypassed while you wait for a part. A front loader at full spin with an unsecured door is the one fault on this page that can actually hurt someone.",
   "faqs": [
     { "q": "What does F5 E2 mean on a Whirlpool washer?", "a": "The washer tried to lock the door and did not get confirmation that the lock engaged. F5 identifies the door lock system and E2 identifies the lock-side failure. The machine will not start a cycle until it sees a locked door, which is a safety design rather than a glitch, so there is no way to run it until the cause is fixed." },
-    { "q": "Why does my door look closed but still give F5 E2?", "a": "Because closed and latched are different things. A sock toe or a sleeve in the rubber boot holds the door a couple of millimetres proud, which is enough for the hook to miss the latch while the door still looks and sounds shut. Run a hand right round the seal, including underneath at the bottom, before anything else." },
+    { "q": "Why does my door look closed but still give F5 E2?", "a": "Because closed and latched are different things. A sock toe or a sleeve in the rubber boot holds the door a couple of millimeters proud, which is enough for the hook to miss the latch while the door still looks and sounds shut. Run a hand right round the seal, including underneath at the bottom, before anything else." },
     { "q": "Can I still use the washer with F5 E2 showing?", "a": "No. The control will not run a cycle without a confirmed door lock, and that is deliberate. Do not try to jumper or tape the lock closed to get a wash done, because the interlock is what stops a door opening onto a drum spinning at speed. Wash elsewhere for a day and fit the part properly." },
     { "q": "How much does it cost to fix F5 E2?", "a": "Often nothing, if it is laundry in the seal or lint in the latch cavity. A door lock assembly is $60 to $150 as a part and takes under an hour with a Torx driver. A technician doing the same job charges $150 to $300 including the part. Only a control board fault takes it beyond that, and that is rare." },
     { "q": "What is the difference between F5 E2 and F5 E3?", "a": "They are opposite ends of the same system. F5 E2 is the door failing to lock, so the cycle never starts. F5 E3 is the door failing to unlock, so you are usually standing there with a finished wash and a door that will not open. Both commonly end at the same part, the door lock assembly." },
