@@ -1,0 +1,133 @@
+{
+  "title": "KitchenAid Oven Error Codes: What F and E Numbers Mean",
+  "meta_description": "KitchenAid oven codes read as two parts: F for the system that failed, E for the condition within it. Here is how to read yours and where to start.",
+  "h1": "KitchenAid oven error codes: how to read them and where to start",
+  "answer": "KitchenAid ovens are built on the Whirlpool platform, so their codes come in two parts: an F number identifying which system reported the fault, and an E number identifying the specific condition within it. F1 is the control electronics, F2 the user interface and keypad, F3 the temperature sensing circuit, and F8 covers fan and latch conditions on most ranges. The two parts matter because the F number tells you which half of the oven to look at before you look anything up. Whatever the code, start the same way: switch off at the breaker for five full minutes, then watch what happens on a cold start.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to identify, 30 minutes to 3 hours to fix",
+  "cost_estimate": { "diy": "$0 to $220", "technician": "$170 to $450" },
+  "safety_warning": "An oven is a 240V appliance and the control boards, element circuits, latch motor and fan all share the same compartments. Switch the oven off at the breaker, never just the control panel, before removing trim or touching a connector. Never bypass a door lock switch or a thermal cut-out. On gas models the gas valve and its safety circuits are licensed technician work with no DIY path.",
+  "causes": [
+    {
+      "cause": "Control electronics faults, the F1 group",
+      "frequency": "most cases",
+      "confirm": "Codes like F1E0 and F1E1, usually appearing on a cold idle oven with nothing running. Described as stored memory or communication faults between the boards. A five-minute breaker reset clears a genuine one-off, and connectors and the door switch account for most of the rest."
+    },
+    {
+      "cause": "User interface and keypad faults, the F2 group",
+      "frequency": "most cases",
+      "confirm": "F2E1 is the common one: the control believes a key is being held down. Usually grease or steam behind the membrane rather than anything broken. The tell is a code that appears with nothing touching the panel, or a key that is dead, spongy or triggers the wrong function."
+    },
+    {
+      "cause": "Temperature sensing faults, the F3 group",
+      "frequency": "common",
+      "confirm": "Food cooking unevenly or burning, an oven that reads hotter or colder than a thermometer on the shelf, or a code naming the sensor circuit. The RTD probe at the upper rear of the cavity and its connector are the hardware involved."
+    },
+    {
+      "cause": "Door latch and fan faults, the F8 group",
+      "frequency": "common",
+      "confirm": "F8E0 is the one people meet. It is read two ways depending on source: a self-clean latch that did not confirm unlock, or a cooling fan running below its commanded speed. When it appeared separates them, after a self-clean or during an ordinary bake."
+    },
+    {
+      "cause": "Door lock faults on self-clean models",
+      "frequency": "occasional",
+      "confirm": "The door is latched shut after a self-clean and will not release. Before assuming a failure, let the oven cool completely, because the control deliberately holds the lock until the cavity drops below its release temperature and resetting a hot oven re-triggers the code."
+    },
+    {
+      "cause": "Codes that are really a power event",
+      "frequency": "common",
+      "confirm": "The code appeared right after an outage, a storm or someone switching breakers, and the oven had been working perfectly. A five-minute power cut at the breaker clears these and they do not come back. Always worth ruling out before anything else, because it costs five minutes."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly, both parts",
+      "detail": "Photograph the display. Both halves matter: F8E0 and F8E2 are different faults in the same group, and people routinely report one when they saw the other. Note also whether the code appeared on a cold idle oven, during a bake, or at the end of a self-clean, because that timing narrows the cause more than the code does on several of these.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Switch off at the breaker for five full minutes",
+      "detail": "Turn the oven off at its breaker, a double-pole 240V breaker on an electric range, and leave it five full minutes rather than flicking it back. The boards hold residual charge and a quick cycle leaves the stored fault in place. This single step clears a genuine power-event glitch on any code in the list, and it costs nothing.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The Cancel button does not isolate the control."
+    },
+    {
+      "name": "Watch the cold start before touching anything",
+      "detail": "With power restored and the oven cold, watch the display for several minutes without starting a cycle or pressing a key. Note whether the code returns immediately, after a delay, only on a key press, or only once a bake is running. A fault that only appears under heat is usually a connector expanding rather than a board failing, which is the most useful distinction on this platform.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the obvious physical things",
+      "detail": "Make sure nothing is leaning against the control panel, which is a real cause of F2 codes on slide-in ranges. Open and close the door several times and watch the oven light respond cleanly, since the door switch is named as an early check on several F1 codes. Look into the latch slot at the top of the door opening for self-clean ash. All three cost nothing.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the control panel properly",
+      "detail": "With the breaker off, wipe the panel with a cloth dampened in warm water and a little dish soap, then work round every key seam with a cotton swab. Dry thoroughly. Never spray cleaner at the panel; spray the cloth instead, because liquid driven into a seam is what causes keypad faults in the first place. Leave it a day to dry if anything was ever spilled on it.",
+      "minutes": 15,
+      "tools": "Soft cloths, cotton swabs, mild dish soap",
+      "warning": "Breaker off. Do not spray liquid directly at the control panel."
+    },
+    {
+      "name": "Get the model number before buying anything",
+      "detail": "The model number is on a plate on the oven door frame, visible with the door open, or along the edge of the door on some models. Write it down. This platform uses different boards, keypads and control panel assemblies across ranges and wall ovens while showing identical codes, and the price gap between a membrane and a full control assembly is large, so ordering against a code rather than a model is an expensive mistake.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide whether this one is yours to do",
+      "detail": "Cleaning a panel, clearing a latch slot, checking a door switch and reseating a connector are all reasonable with the breaker off. Testing a live 240V control circuit, replacing a latch assembly or fitting a control board is where most people should stop. If you smell burning, see scorching at a connector, or find brittle browned insulation, switch off at the breaker and leave it off.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Any sign of scorching or cooked insulation means stop and call someone."
+    }
+  ],
+  "still_showing": "If the code survived a five-minute breaker reset and the free checks, this is the order that holds across the whole KitchenAid range. First, trust the timing over the code. A fault that appears only on a cold idle oven points at the boards or their link; one that appears only after twenty minutes of baking points at a connector or harness expanding with heat; one that appears only at the end of a self-clean points at the latch. That single observation is worth more than any code chart, because the published meanings for several of these codes disagree between sources. Second, check connectors before parts, every time. The control compartment on an oven runs hot, and corroded pins, backed-out terminals and creased ribbon cables all produce codes that read as dead boards. Reseating costs nothing and resolves a genuine share of F1 and F8 codes. Third, know which codes have contested meanings so you are not misled by a confident guide. F8E0 is described as a latch fault by KitchenAid references and as a cooling fan fault by Whirlpool references on the same platform, and F1E0 and F1E1 are placed on different boards by different sources. None of these are manufacturer documents. Where the sources split, this site routes on the symptom rather than picking a side. Fourth, resist a control board as a first answer. It is the most expensive part in the oven and the one most often replaced unnecessarily, and a quote that names it without naming a measurement deserves a second opinion. Fifth, if you can get the service sheet for your exact model number, it beats every general listing including this one, and on many ovens a copy is tucked inside the storage drawer or behind the bottom trim. Finally, do the arithmetic honestly: a control board or a full control panel assembly plus labor on a range over about twelve years old frequently comes within reach of a replacement with a fresh warranty.",
+  "reset_procedure": "The reset is the same for every code on this platform. Press Cancel or Clear Off, then switch the oven off at its breaker for five full minutes and restore power. Five minutes matters because the boards hold residual charge and a quick off-and-on leaves the stored fault in place. Watch the cold start without pressing anything. One exception: if the code followed a self-clean and the door is locked, let the oven cool completely first, because the control will not release the latch while the cavity is hot and resetting it repeatedly just re-triggers the code.",
+  "model_notes": "The two-part F and E structure is consistent across KitchenAid's Whirlpool-platform ovens and ranges, but the specific meanings are not as settled as most code charts imply. Several widely republished listings disagree with each other, and almost none are manufacturer documentation, which is why pages on this site say so rather than presenting one reading as fact. Codes can also differ between a range, a wall oven and a double wall oven of the same era, and between a self-clean model and one without, since a model with no self-clean has no door lock to report on. Older KitchenAid ovens predating this platform use a single F code with no E part and should not be read against this structure.",
+  "parts": [
+    { "name": "Oven door switch", "cost": "$15 to $45", "difficulty": "moderate", "note": "Cheap and named as an early check on several F1 codes" },
+    { "name": "Keypad membrane or touch panel overlay", "cost": "$70 to $200", "difficulty": "moderate", "note": "The F2 group part; much cheaper than a full control assembly" },
+    { "name": "RTD oven temperature sensor", "cost": "$30 to $70", "difficulty": "easy", "note": "The F3 group part; two screws at the rear cavity wall" },
+    { "name": "Door lock assembly", "cost": "$60 to $170", "difficulty": "hard", "note": "Self-clean latch faults. Buy as an assembly; it is a safety device" },
+    { "name": "Electronic oven control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort on any code here. Ask what was measured first" }
+  ],
+  "when_to_call": "Call a technician when the next step means testing a live 240V circuit, when a code survives a reset and every free check, or when you cannot tell which of two similarly priced boards is at fault. Call immediately, and leave the breaker off, if you smell burning, see scorching at a connector, find brittle browned insulation, or the oven is heating when it should not be. On a gas range, anything involving the gas valve or its safety circuits is licensed work with no DIY path. Never bypass a door lock switch or a thermal cut-out to get an oven working, whatever a forum suggests. Before approving a control board on an older range, get the fitted price in writing and compare it to a replacement.",
+  "faqs": [
+    { "q": "How do I read a KitchenAid oven error code?", "a": "In two parts. The F number says which system reported the fault and the E number says what condition it found. F1 is the control electronics, F2 the user interface and keypad, F3 the temperature sensing circuit, and F8 covers fan and latch conditions. Knowing the F number tells you which half of the oven to investigate before looking anything up." },
+    { "q": "How do I reset a KitchenAid oven?", "a": "Press Cancel or Clear Off, then switch the oven off at its breaker for a full five minutes before restoring power. The boards hold residual charge, so a quick flick off and on usually leaves the stored code in place. If the code clears and stays away through a week of normal cooking, it was most likely a power-event glitch." },
+    { "q": "Which KitchenAid oven codes mean I should stop using it?", "a": "Any code where the oven is heating when it should not be, plus anything accompanied by a burning smell or visible scorching. Switch off at the breaker, not the panel, because a welded relay ignores the controls. Latch and keypad codes are inconvenient rather than dangerous, and control codes usually stop the oven running at all." },
+    { "q": "Why do different websites give different meanings for the same code?", "a": "Because very little of this is published by the manufacturer, so repair sites quote each other and the errors propagate. F8E0 is a good example: KitchenAid references call it a latch fault and Whirlpool references call it a cooling fan fault on the same platform. The service sheet for your exact model beats any general listing." },
+    { "q": "Where do I find my model number?", "a": "On a plate on the oven door frame, visible when the door is open, or along the edge of the door itself on some models. Write it down before ordering any part. This platform uses different boards and keypads across ranges and wall ovens while displaying identical codes, so a part chosen by code alone is often the wrong one." },
+    { "q": "Does a code always mean a part has failed?", "a": "No. A good share are power-event glitches that clear with a five-minute breaker reset, and many of the rest are connectors, a sticking door switch, grease behind the keypad or ash in the latch slot. Work through the free checks before buying anything, because the most expensive part is also the least likely cause." },
+    { "q": "Is it worth repairing an older KitchenAid oven?", "a": "For sensors, door switches, keypads and latch parts, usually yes, since those run from $15 to around $200. A control board or a full control panel assembly plus labor on a range over about twelve years old often comes within reach of a replacement, so get the fitted price in writing before deciding." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The diagnostic order that works for any KitchenAid oven code",
+    "labels": {
+      "display": "F_E_",
+      "c1": "Photograph both code parts",
+      "c2": "Breaker off five full minutes",
+      "c3": "Cold start, note the timing",
+      "c4": "Panel, door switch, latch slot"
+    }
+  },
+  "sources": [
+    { "title": "Whirlpool platform oven fault code structure, F and E groups", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "KitchenAid oven error code reference guides", "publisher": "Appliance parts retailer service documentation", "url": null },
+    { "title": "Conflicting published meanings for F8 and F1 group codes", "publisher": "Appliance repair guides, cited for the disagreement", "url": null },
+    { "title": "Oven diagnostic mode and model number guidance for KitchenAid ranges", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "Field reports on which KitchenAid oven codes turn out to be what", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F1E0", "F1E1", "F2E1", "F8E0", "F3E0"]
+}

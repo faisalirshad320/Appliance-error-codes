@@ -38,12 +38,25 @@ The `deploy` branch only exists after the first push to `main` runs the workflow
 want it immediately, run the workflow manually from the **Actions** tab
 (`Build and validate site` → **Run workflow**).
 
-## Option C: deploy branch already exists
+## The deploy branch is live now
 
-`dist/` is build output and is not tracked on this branch. A ready-to-serve `deploy` branch
-is published directly, so you can connect Cloudways to it immediately without waiting for a
-GitHub Actions run. Its root is the document root. Option A's connect steps apply unchanged;
-Actions simply keeps it up to date afterwards.
+`dist/` is build output and is not tracked on the source branch. A ready-to-serve `deploy`
+branch is already published, so you can connect Cloudways to it immediately without waiting
+for a GitHub Actions run. Option A's connect steps apply unchanged; Actions keeps it current
+afterwards.
+
+What is on it right now:
+
+| | |
+|---|---|
+| Branch | `deploy` |
+| Files | 331 |
+| HTML pages | 326 |
+| Total size | 8.5 MB uncompressed, far less over the wire with the compression `.htaccess` turns on |
+| Document root | the branch root itself, with `index.html` directly in it |
+
+Set the Cloudways **Deployment Path** to empty. If you set it to `dist`, every page will
+404, because there is no `dist` directory on this branch; the files are at the top level.
 
 To refresh it by hand at any time:
 

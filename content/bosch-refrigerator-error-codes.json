@@ -1,0 +1,132 @@
+{
+  "title": "Bosch Refrigerator Error Codes: What E Codes Mean",
+  "meta_description": "Bosch fridge codes beyond E1 and E2 are poorly documented and the public lists disagree. Here is what is established and how to triage any of them.",
+  "h1": "Bosch refrigerator error codes: what they mean and where to start",
+  "answer": "Bosch refrigerators show faults as the letter E followed by a digit, and on some models an F followed by two digits, on the temperature display panel. Only the first two are well established: E1 and E2 are temperature sensor faults, generally the fresh food and freezer compartment probes. Past those, the published lists come from repair companies rather than Bosch, and they contradict each other, with the same code described as an ice maker sensor by one and a defrost fault by another. This page covers what is genuinely supported and the triage order that works on any Bosch cabinet, and it deliberately does not print meanings it cannot stand behind.",
+  "severity": "serious",
+  "can_diy": "no",
+  "time_estimate": "30 minutes to triage, 1 to 3 hours for the DIY-range repairs",
+  "cost_estimate": { "diy": "$0 to $120", "technician": "$180 to $600" },
+  "safety_warning": "Refrigerator faults divide into two groups and the boundary matters. Sensors, door seals, airflow and condenser cleaning are approachable with the cabinet unplugged. Anything involving the compressor or the sealed refrigerant circuit is licensed-technician work: it needs recovery equipment, it is illegal to vent refrigerant, and no part of it is a home repair. Never cut, open or braze any pipework inside a refrigerator, and never chip ice off an evaporator with anything sharp, because puncturing a coil turns a small job into a sealed-system replacement.",
+  "causes": [
+    {
+      "cause": "Temperature sensor faults, the E1 and E2 codes",
+      "frequency": "most cases",
+      "confirm": "One compartment is at the wrong temperature while the other is fine. Put a thermometer in each for two hours with the doors shut. The compartment that is genuinely off is the sensor worth looking at, which is more reliable than the code number on these models."
+    },
+    {
+      "cause": "Defrost system failure showing as a sensor or cooling fault",
+      "frequency": "most cases",
+      "confirm": "Unplug the cabinet, empty the freezer and take off the rear interior panel. A light frost on the evaporator coil is normal; a solid block of ice around it is not. A sensor buried in ice reads the ice, so the code is a symptom and the defrost system is the fault."
+    },
+    {
+      "cause": "Airflow blocked, door seals failing, or condenser coils clogged",
+      "frequency": "common",
+      "confirm": "Close a sheet of paper in each door and pull: it should drag. Check nothing inside is pressed against a vent between compartments. Pull the cabinet out and look at the condenser coils underneath or at the back for a mat of dust and pet hair. All three produce odd temperatures that look like component failures."
+    },
+    {
+      "cause": "Wiring, connector corrosion or a control board fault",
+      "frequency": "occasional",
+      "confirm": "A sensor that tests healthy with a code that persists, or a reading that flickers when you flex the loom. Connectors inside a cold damp cabinet corrode, and a conductor can break inside intact insulation where a lead passes a hinge or a foamed-in section."
+    },
+    {
+      "cause": "Sealed refrigerant system or compressor failure",
+      "frequency": "occasional",
+      "confirm": "A compartment stays warm while the sensors test good and the defrost system works. The compressor may run constantly without cooling, or not run at all. This is where DIY stops entirely: diagnosis and repair both require a licensed technician with recovery equipment."
+    },
+    {
+      "cause": "A one-off glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code appeared after a storm or outage and both compartments are actually holding temperature. Unplug for five minutes, restore, and give it a day. If it stays clear and the temperatures are right, nothing is broken."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Measure both compartments before trusting the code",
+      "detail": "Put a thermometer in the fresh food compartment and another in the freezer, shut the doors, and leave them two hours. Write both readings down. This single step is worth more than the code number on a Bosch, because the published code lists disagree about which compartment maps to which number and the thermometer does not.",
+      "minutes": 15,
+      "tools": "Two fridge or freezer thermometers",
+      "warning": null
+    },
+    {
+      "name": "Photograph the code and find the model number",
+      "detail": "Record exactly what the display shows and whether it is an E followed by one digit or an F followed by two. The rating plate is usually on the inside wall of the fresh food compartment, on the left near the bottom or behind the crisper drawers. You will need the full model number for parts and for any support call, because meanings vary across cabinet generations.",
+      "minutes": 10,
+      "tools": "Phone camera, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Power cycle properly",
+      "detail": "Unplug the refrigerator or switch off its breaker, leave it a full five minutes, and restore power. The control holds residual charge, so a quick off and on frequently leaves the stored code showing. Then wait several hours before judging, because a cabinet takes a long time to settle and an immediate reading tells you nothing.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do the three free checks that fix a real share of faults",
+      "detail": "One: close a sheet of paper in each door and pull, feeling for the drag a good seal gives, and run a finger round both gaskets for flattened or split sections. Two: look inside for anything pressed against the vents between compartments, which is usually a bag of frozen food against an air outlet. Three: pull the cabinet out and vacuum the condenser coils underneath or at the back, which on a fridge in a house with pets can be matted solid.",
+      "minutes": 30,
+      "tools": "Sheet of paper, vacuum with a brush attachment, flashlight",
+      "warning": "Unplug the refrigerator before vacuuming the coils or reaching behind the cabinet."
+    },
+    {
+      "name": "Check the evaporator for ice",
+      "detail": "Unplug the cabinet, empty the freezer compartment and remove the rear interior panel, usually a handful of screws and a few clips. Look at the finned evaporator coil behind it. A light even frost is normal. A solid block of ice encasing the coil means the defrost system has stopped keeping up, and that is the fault to chase rather than whatever the code says.",
+      "minutes": 30,
+      "tools": "Phillips or Torx screwdriver, towels",
+      "warning": "Never chip or pry ice off an evaporator with a knife, screwdriver or pick. Puncturing a coil releases the refrigerant charge and turns a repairable fault into a sealed-system job or a scrapped appliance."
+    },
+    {
+      "name": "Test the suspect sensor at its connector",
+      "detail": "With the refrigerator unplugged, separate the sensor's two-pin connector and put a meter on ohms across the sensor side alone. Open circuit means a broken probe or lead, near zero means a short, and both are conclusive. A steady reading that moves as you warm the probe between your fingers means it is alive. This works without knowing the correct value for your model, which matters because Bosch does not publish one.",
+      "minutes": 25,
+      "tools": "Multimeter",
+      "warning": "Refrigerator unplugged, and measure only across the sensor side of the separated connector."
+    },
+    {
+      "name": "Know where to stop",
+      "detail": "If the sensors test healthy, the defrost works, the seals and coils are good, and a compartment is still warm, the remaining suspects are the sealed refrigerant circuit and the compressor. Stop there and book a licensed technician. Write down your thermometer readings, the code, the model number and what you have already ruled out, because that makes the visit shorter and the diagnosis harder to fudge.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Sealed-system work requires a licensed technician and refrigerant recovery equipment. Do not open, cut or braze any pipework, and do not add refrigerant from a can."
+    }
+  ],
+  "still_showing": "The honest position on Bosch refrigerator codes is that only E1 and E2 are well supported, so after the triage above you should be reasoning from symptoms rather than from the number. Work it like this. First, trust the thermometers over the code. If both compartments hold correct temperatures and the cabinet is quiet, you have a sensing or reporting fault rather than a cooling fault, and the stakes are low. If a compartment is genuinely warm, that is the real problem and the code is a label for it. Second, settle the defrost question, because it is the most commonly misdiagnosed thing in this whole category. An evaporator frosted solid means the defrost heater, the defrost thermostat or the control timing has failed, and a sensor fitted into that ice will read wrong no matter how new it is. People replace sensors twice before someone takes the back panel off. Third, exhaust the free checks properly: door seals, internal vents and condenser coils between them account for a surprising share of cabinets that are not holding temperature, and none of them cost anything. Fourth, understand the cost ladder. A sensor is modest. A defrost heater or thermostat is moderate. A control board is a few hundred. The sealed system and the compressor are the top, and on a cabinet over eight or ten years old that quote usually approaches the price of a replacement, which is the point to stop and think rather than keep spending. On the question people arrive with most often, a Bosch code 14: there is no well-documented plain 14 on these cabinets. One third-party reference describes F14 as a short circuit in the freezer evaporator sensor, which fits the sensor family and is at least consistent with how E1 and E2 behave, but it rests on a single source. Check whether your display is actually showing F14 or E14, note the model number, and treat it as a sensor-family fault to be confirmed by measurement rather than accepted on the strength of one list. Measuring the probe settles it in twenty minutes and costs nothing, which beats buying a part on the authority of a page that cannot cite Bosch.",
+  "reset_procedure": "Unplug the refrigerator or switch off its breaker for a full five minutes, then restore power. A quick off and on is often not enough, because the control holds residual charge and keeps the stored code. Afterward, leave the cabinet several hours before judging whether the reset worked, since temperatures take a long time to settle. Some Bosch models have a service diagnostic mode, but the button combination varies by model and is not consistently documented, so do not follow a sequence written for a different cabinet.",
+  "model_notes": "Bosch does not publish a consumer-facing refrigerator fault code table of the kind the mass-market brands provide, so most lists in circulation were assembled by repair firms and appliance parts sites from their own records. Those sources agree on E1 and E2 as temperature sensor faults, generally fresh food and freezer respectively, though not consistently model for model. Past E2 they diverge sharply: the same code is described as an ice maker sensor failure by one source and a defrost heater or sensor fault by another, and some lists include codes that others do not mention at all. This page therefore names only what it can support. For the frequently searched code 14, the only reference found describes F14 as a freezer evaporator sensor short circuit, from a single third-party site. Your model number and a meter reading are better evidence than any of these lists.",
+  "parts": [
+    { "name": "Compartment temperature sensor probe", "cost": "$30 to $90", "difficulty": "moderate", "note": "The most common part, and the test needs no reference value" },
+    { "name": "Door gasket or seal", "cost": "$60 to $180", "difficulty": "moderate", "note": "Worth doing if the paper test slips out easily anywhere along the door" },
+    { "name": "Defrost heater or defrost thermostat", "cost": "$40 to $120", "difficulty": "hard", "note": "The real repair when the evaporator is frosted solid" },
+    { "name": "Main control board", "cost": "$200 to $450", "difficulty": "technician only", "note": "Only once the sensors and wiring are proven good" },
+    { "name": "Compressor or sealed system repair", "cost": "$400 to $1,200", "difficulty": "technician only", "note": "Licensed work only; on an older cabinet this is usually replacement territory" }
+  ],
+  "when_to_call": "Call a licensed technician immediately, without attempting anything, if a compartment is warm while the sensors test good and the defrost system works, because the next suspects are the compressor and the sealed refrigerant circuit. That work needs recovery equipment and certification, venting refrigerant is illegal, and there is no version of it that is a home repair. Call as well for a persistent code with healthy sensors, since the next step is a live control board diagnosis. Call sooner rather than later if food is at risk: move perishables to a cooler or a neighbor's fridge while you work out what is wrong. And before approving a sealed-system or compressor quote on a cabinet over eight or ten years old, compare it honestly against the price of replacing the appliance.",
+  "faqs": [
+    { "q": "What does error code 14 mean on a Bosch refrigerator?", "a": "There is no well-documented plain 14 on these cabinets. One third-party reference describes F14 as a short circuit in the freezer evaporator sensor, which fits the sensor family but rests on a single source. Check whether your display shows F14 or E14, note your model number, and confirm by measuring the probe rather than buying a part on one list." },
+    { "q": "Why is Bosch refrigerator code documentation so inconsistent?", "a": "Because Bosch does not publish a consumer fault code table for refrigerators, so the lists online were compiled by repair firms and parts sites from their own job records. Different cabinet generations genuinely behave differently, so the lists diverge. E1 and E2 are agreed on; past those, treat any published meaning as a hypothesis to confirm with a meter." },
+    { "q": "Can I fix a Bosch refrigerator code myself?", "a": "Some of them. Door seals, blocked vents, dirty condenser coils and temperature sensors are all approachable with the cabinet unplugged. Anything involving the compressor or the sealed refrigerant circuit is not, at any skill level: it requires a licensed technician and recovery equipment, and venting refrigerant is illegal as well as dangerous." },
+    { "q": "How do I reset a Bosch refrigerator?", "a": "Unplug it or switch off its breaker for a full five minutes, then restore power. A quick off and on often leaves the stored code in place because the control holds charge. Wait several hours afterward before judging, since a cabinet takes a long time to settle and an immediate temperature reading will not tell you anything useful." },
+    { "q": "The freezer is packed with ice. Which code is that?", "a": "It may show as a sensor code, which is why it gets misdiagnosed. A sensor buried in ice reads the ice rather than the air, so the control reports a sensing problem when the real fault is the defrost system. Take the rear freezer panel off and look: a solid block around the coil means defrost, not sensor." },
+    { "q": "My Bosch fridge is not cooling but shows no code. What now?", "a": "Codes only cover what the control can detect, and several cooling failures produce no code at all. Work the same order: thermometers in both compartments, door seals, internal vents, condenser coils, then the evaporator for ice. If all of that is good and it still will not cool, the sealed system is the suspect and that is a licensed call." },
+    { "q": "Is a Bosch refrigerator worth repairing?", "a": "For sensors, seals, defrost parts and airflow problems, generally yes, since the parts are modest against the value of the cabinet. For a compressor or sealed-system repair on a refrigerator over eight or ten years old, usually not: those quotes run high enough that you are paying a large fraction of a replacement to fix the most failure-prone part." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Triaging a Bosch refrigerator fault, and where DIY stops",
+    "labels": {
+      "display": "E--",
+      "c1": "Thermometer in each compartment",
+      "c2": "Seals, vents and condenser coils",
+      "c3": "Rear panel off, check for ice",
+      "c4": "Sealed system means licensed only"
+    }
+  },
+  "sources": [
+    { "title": "Bosch refrigerator E1 and E2 temperature sensor fault explanations", "publisher": "Appliance Parts Pros technical articles", "url": null },
+    { "title": "Compiled Bosch refrigerator fault code lists and their disagreements", "publisher": "Third-party appliance repair code references", "url": null },
+    { "title": "Bosch refrigerator service literature, sensing and defrost control", "publisher": "Bosch service documentation", "url": null },
+    { "title": "Field notes on iced evaporators misdiagnosed as sensor faults", "publisher": "Appliance technician forums", "url": null }
+  ],
+  "related_codes": ["E1", "E2", "F14"]
+}
