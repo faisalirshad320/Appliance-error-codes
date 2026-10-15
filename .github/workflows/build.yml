@@ -39,6 +39,9 @@ jobs:
       - name: Reconcile page map, batch assignments and content
         run: python3 tools/coverage.py
 
+      - name: Check for near-duplicate prose between related pages
+        run: python3 tools/dupe_check.py
+
       - name: Upload the built site
         uses: actions/upload-artifact@v4
         with:

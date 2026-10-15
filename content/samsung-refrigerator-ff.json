@@ -1,0 +1,131 @@
+{
+  "title": "Samsung Refrigerator FF Code: What It Means and Fix",
+  "meta_description": "FF on a Samsung refrigerator has three readings: a freezer fan fault, a service test mode, or a misread O FF demo mode. One test tells them apart.",
+  "h1": "Samsung refrigerator FF code: what it means and how to fix it",
+  "answer": "FF on a Samsung refrigerator has three competing explanations and no published Samsung description, so the honest answer is that it depends on your model and what the fridge is actually doing. Most repair references read it as a freezer fan fault, usually a fan iced up or failed. Some describe it as a forced defrost or service test mode that a technician or an accidental button press has put the appliance into. And a fair share of FF searches turn out to be O FF, which is Cooling Off demo mode shown on a panel with a gap in it. One question separates all three in under a minute: is the freezer actually cold?",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to identify, 2 to 8 hours to fix",
+  "cost_estimate": { "diy": "$0 to $140", "technician": "$190 to $450" },
+  "safety_warning": "Unplug the refrigerator at the wall before any panel comes off. The evaporator fan and its harness carry mains-derived power behind the liner, and a compartment wet with melting frost and live wiring are a bad combination. The sealed refrigerant circuit, meaning the compressor, the coils and every pipe between them, is licensed-technician work: venting refrigerant is illegal and recharging needs certification and equipment you will not have at home.",
+  "causes": [
+    {
+      "cause": "Frost has built up around the freezer fan and stalled it",
+      "frequency": "most cases",
+      "confirm": "The freezer is colder at the top than the bottom, or the fridge section is warm while the freezer is still frozen, and you hear no fan when you hold the freezer door switch in. Take the rear freezer panel off and you will find the blade packed in white frost."
+    },
+    {
+      "cause": "The display actually reads O FF, which is Cooling Off demo mode",
+      "frequency": "most cases",
+      "confirm": "Nothing anywhere in the appliance is cold, but the lights and display work perfectly. Photograph the panel and zoom in: a gap between the O and the FF, or the same characters repeated across two zones as OF OF, settles it. If nothing is cooling at all, you want the Cooling Off page rather than this one."
+    },
+    {
+      "cause": "The freezer evaporator fan motor has failed",
+      "frequency": "common",
+      "confirm": "The freezer compartment is thawed out, the blade turns freely by hand, and the fan still does nothing with the door switch held in. A motor that buzzes without turning or runs slow and noisy says the same thing."
+    },
+    {
+      "cause": "The fridge is in a forced defrost or service test mode",
+      "frequency": "occasional",
+      "confirm": "A technician has visited recently, or somebody held buttons on the panel for a long time. These modes run a fixed routine and then leave on their own or on a power cycle. If unplugging for five minutes clears FF and it never returns, this was it."
+    },
+    {
+      "cause": "A door seal is letting warm moist air in",
+      "frequency": "occasional",
+      "confirm": "Frost keeps coming back weeks after you defrost it. Close a sheet of paper in each door and pull: anywhere it slides out freely is a gap, and that gap is where the moisture that became the frost got in."
+    },
+    {
+      "cause": "The main control board",
+      "frequency": "rare",
+      "confirm": "A new fan behaves exactly like the old one and the harness is sound end to end. The board drives the fan and reads its speed back, so it is the last suspect and the most expensive. Confirm the fan twice before anyone goes near this."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Answer the one question that sorts this out",
+      "detail": "Open both doors and feel. If nothing anywhere is cold but the lights and display work, you are almost certainly looking at O FF, which is Cooling Off demo mode and not a fault. If the freezer is cold and the fridge section is warm, or the freezer is uneven, you have an airflow problem and the fan reading is the right one.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Photograph the display and zoom in",
+      "detail": "Take a close photo of the panel and enlarge it. You are checking for a gap between characters or the same pair repeated across two zones. O FF and OF OF are Cooling Off mode. A single tight FF with the fridge still cooling is the fan or mode reading. This costs nothing and stops you chasing the wrong fault for an afternoon.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug for five minutes and watch what happens",
+      "detail": "Pull the plug at the wall, wait a full five minutes and plug it back in. If FF disappears and stays away over the following days, the fridge was in a test or forced defrost mode and there was never a fault. If FF returns within hours, the fault is live and the fan is where to look next.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Listen for the freezer fan with the door switch held in",
+      "detail": "Open the freezer, find the door switch in the frame and hold it in with a finger or tape so the appliance thinks the door is shut. Within a minute you should hear the evaporator fan behind the rear panel. Silence, or a buzz with no airflow, means the fan is stalled or dead and that is your fault confirmed.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "Keep fingers clear of the rear panel vents while the fan can start."
+    },
+    {
+      "name": "Take the rear freezer panel off and look",
+      "detail": "Unplug the fridge, empty the freezer and take out the shelves, then remove the screws holding the rear panel inside the freezer. Behind it sit the evaporator coil and the fan. White frost packed around the blade, or a coil buried in a solid block of ice rather than light even frost, tells you the story immediately.",
+      "minutes": 30,
+      "tools": "Phillips screwdriver, nut driver, flashlight, towels",
+      "warning": "Fridge unplugged at the wall. The fan and heater wiring behind this panel are live in normal use."
+    },
+    {
+      "name": "Defrost it properly rather than quickly",
+      "detail": "Move the food to a cooler, leave the fridge unplugged with the doors open and towels down, and give it six to eight hours. A hairdryer on low held well back and kept moving speeds it up. Never chip at frost with anything metal: the evaporator tubing is thin-walled and puncturing it writes the fridge off on the spot.",
+      "minutes": 420,
+      "tools": "Towels, hairdryer, cooler, bowl",
+      "warning": "No sharp tools on the coil. A punctured refrigerant line is not repairable at home and ends the appliance."
+    },
+    {
+      "name": "Spin the blade, then check the seals while you wait",
+      "detail": "With everything thawed, turn the fan blade by hand: it should spin freely and coast. While the fridge is off, close a sheet of paper in each door in turn and pull. Anywhere it slides out without dragging is a gap in the seal, and that gap is why the frost was there. Clean the gaskets with warm soapy water, which restores real grip.",
+      "minutes": 25,
+      "tools": "Sheet of paper, cloth",
+      "warning": null
+    }
+  ],
+  "still_showing": "Once you know which of the three readings applies, the rest is straightforward, and the mistake to avoid is treating a non-cooling fridge as a fan fault. If nothing anywhere is cold, go to the Cooling Off page and stop taking panels off. If the freezer is cold and the airflow is wrong, work the fan in order of cost. First, defrost fully and spin the blade: a fan freed by defrosting and running quietly afterwards means the fault was frost, and the money goes into door seals rather than parts. Second, with the compartment thawed, hold the freezer door switch in and listen. A fan that spins up means the motor and the board are both fine. Silence from a blade you know turns freely means the motor is dead or is not being energized, and checking the connector behind the fan housing for corrosion separates those two for nothing. An evaporator fan is a modest part on most models. Third, ask why the frost was there, because a new fan in a compartment that frosts again buys you months. A gasket that has lost its grip is the commonest answer and the paper test finds it. If frost returns quickly with sound seals, the defrost circuit itself is suspect, which is a wider diagnosis than this code and worth handing to a technician. One boundary worth being firm about: if the compressor is running constantly and nothing gets cold with a fan you have confirmed is working, that points at the sealed refrigerant system, and that is where your involvement ends. Venting refrigerant is illegal and recharging needs certification and gear you will not have. Nobody should be opening a sealed system in a kitchen, and a quote for that work on an older fridge is usually the point to price a replacement instead.",
+  "reset_procedure": "Unplug the refrigerator at the wall for five minutes, then plug it back in. This is also a diagnostic rather than only a fix: an FF that clears and stays away was a service test or forced defrost mode, while an FF that comes back within hours is a live fault. After any fan or defrost work, give it two days of normal use before deciding the repair has held.",
+  "model_notes": "FF has no published Samsung description and the secondary sources disagree, which is unusual enough to say plainly. Most repair references treat it as a freezer fan fault. Others describe it as a forced defrost or manual test mode in which the compressor runs at a fixed speed so a technician can watch the appliance perform. A third group of FF searches are really O FF or OF OF, which is Cooling Off demo mode and a different thing entirely. Samsung's own documented refrigerator codes are a number followed by E on older models or C on newer ones, so a two-letter code like FF sitting outside that pattern is part of why its documentation is thin. Check your own model's code list before buying anything.",
+  "parts": [
+    { "name": "Freezer evaporator fan motor and blade", "cost": "$35 to $130", "difficulty": "moderate", "note": "Defrost fully and fix the seals first, or the new fan ices up too" },
+    { "name": "Door gasket", "cost": "$40 to $140", "difficulty": "moderate", "note": "Treats the cause where frost keeps returning after a defrost" },
+    { "name": "Defrost heater or defrost sensor", "cost": "$30 to $110", "difficulty": "hard", "note": "Where the coil re-ices quickly with sound seals and a working fan" },
+    { "name": "Fan wiring harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "Check and dry the connector first; corrosion is common and free to fix" }
+  ],
+  "when_to_call": "Call someone if the freezer compartment is thawed, the blade turns freely and the fan still will not run with the door switch held in, or if frost returns within weeks despite sound door seals, because that second one points at the defrost circuit as a whole rather than one part. Call urgently if the compressor runs constantly and nothing cools with a fan you have confirmed works, because that points at the sealed refrigerant system and that is licensed work, not a DIY job at any level of confidence. If the fridge is not cooling at all, check for Cooling Off mode before you call anyone, because that costs nothing and accounts for a surprising share of these.",
+  "faqs": [
+    { "q": "What does FF mean on a Samsung refrigerator?", "a": "There is no published Samsung description, and three explanations circulate: a freezer fan fault, a forced defrost or service test mode, and a misread O FF which is Cooling Off demo mode. The question that separates them is whether the freezer is actually cold. If nothing anywhere is cooling, you are looking at demo mode rather than a fan." },
+    { "q": "Is FF the same as the OF code?", "a": "Often it is the same thing being read differently. Cooling Off mode displays as OF OF or O FF depending on the panel, and the gap is easy to miss, so people search for FF. The difference matters: Cooling Off means nothing is cooling at all, while a genuine FF usually leaves the freezer cold and the airflow wrong." },
+    { "q": "Is my food safe with an FF code?", "a": "Check the temperatures rather than assume. If this turns out to be Cooling Off mode, the fridge has been at room temperature for as long as the mode has been on and perishables should go. If it is a freezer fan fault, the freezer often stays cold while the fridge section warms up, so the fridge contents are the ones at risk." },
+    { "q": "Will unplugging the fridge fix FF?", "a": "It fixes one of the three causes and diagnoses the others. If the appliance was in a forced defrost or test mode, a five-minute power cycle drops it out and the code never returns. If FF comes back within hours, the fault is live and you are looking at the fan. Either way the information is worth the five minutes." },
+    { "q": "Why does frost keep building up around the fan?", "a": "Because humid air is getting into the compartment, and the usual route is a door gasket that has lost its grip or a door that does not close fully. Close a sheet of paper in each door and pull; anywhere it slides out freely is a gap. If the seals are sound and frost still returns, the defrost circuit needs looking at." },
+    { "q": "Can I fix the evaporator fan myself?", "a": "Usually, if you are comfortable emptying the freezer and taking the rear panel off with the fridge unplugged. The fan is a modest part and sits directly behind that panel. The slow part is defrosting properly first, which takes most of a day. What you must not do is chip at frost with anything metal near the coil." },
+    { "q": "When does FF mean I should stop and call someone?", "a": "When the compressor runs constantly and nothing cools even though you have confirmed the fan works. That points at the sealed refrigerant system, which is licensed work: venting refrigerant is illegal and recharging needs certification and equipment. On an older fridge, a sealed-system quote is usually the moment to price a replacement instead." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "The freezer fan circuit behind an FF, and the frost that stalls it",
+    "labels": {
+      "display": "FF",
+      "c1": "Check both compartments are cold",
+      "c2": "Fridge warm, freezer cold means airflow",
+      "c3": "Evaporator fan, hold the door switch",
+      "c4": "Frost on the coil behind the panel"
+    }
+  },
+  "sources": [
+    { "title": "Samsung refrigerator error codes, published code list", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Cooling Off mode, also called demo mode, on your Samsung refrigerator", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Conflicting third-party readings of FF as a freezer fan fault or a service test mode", "publisher": "Independent appliance repair field guides", "url": null },
+    { "title": "Technician question and answer threads on FF on Samsung refrigerators", "publisher": "JustAnswer appliance technician threads", "url": null }
+  ],
+  "related_codes": ["OF OF", "O FF", "40E", "5E", "33E"]
+}

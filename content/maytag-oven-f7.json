@@ -1,0 +1,132 @@
+{
+  "title": "Maytag Oven F7 Error Code: Stuck Key Fault and Fixes",
+  "meta_description": "F7 on a Maytag oven usually means a function key is stuck or shorted on the touchpad. Clean around the keys first, then split the panel from the board.",
+  "h1": "Maytag oven F7 error code: what it means and how to fix it",
+  "answer": "F7 on a Maytag oven means the control has seen a key on the touchpad held down or shorted rather than pressed and released normally. The control watches each key for a normal press, and one that stays active past its threshold raises the code, which often also stops it recognizing the Cancel key, so the oven feels completely unresponsive. The usual cause is prosaic: grease or moisture that has worked under the membrane around a well-used key. Clean around every key with the power off before you look at anything expensive, because that fixes a good share of these for nothing.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes for the free checks, 1 to 2 hours beyond",
+  "cost_estimate": { "diy": "$0 to $40", "technician": "$170 to $400" },
+  "safety_warning": "The touchpad connector and the control board sit inside the console of a 240 volt appliance, and on a wall oven that console is directly above a hot cavity. Switch the oven off at the circuit breaker before any cover comes off, and do not trust the Cancel key to make it safe, because on this code the control may not be reading the keypad at all. On a gas model, close the gas shutoff behind the range before moving it, and leave the burner, safety valve and igniter to a licensed technician.",
+  "causes": [
+    {
+      "cause": "Grease or residue under the keypad membrane",
+      "frequency": "most cases",
+      "confirm": "Look for a sticky, shiny or discolored patch around a frequently used key such as Bake or Start. Press each key with the power off and compare: the affected one tends to feel soft, stay slightly depressed, or not give the same click as its neighbors. Cooking residue creeping under the membrane is the ordinary explanation for this code."
+    },
+    {
+      "cause": "Moisture under the panel after cleaning or a boil-over",
+      "frequency": "common",
+      "confirm": "The code followed a spill, a steam clean, or someone wiping the console with a wet cloth. A telling sign is behavior that changes with temperature: the panel works when cold and throws F7 once the console warms during a bake, as the trapped moisture expands and bridges the contacts."
+    },
+    {
+      "cause": "A physically failed keypad membrane",
+      "frequency": "common",
+      "confirm": "Cleaning and drying changed nothing, the code returns on every power-up, and often several keys are dead rather than one. On a panel that has spent years with oven heat rising past it, the printed traces inside degrade and there is nothing visible on the surface to find."
+    },
+    {
+      "cause": "The control board is misreading a good keypad",
+      "frequency": "occasional",
+      "confirm": "Disconnect the keypad ribbon from the control board with the power off, refit the cover and restore power. If F7 is still showing with nothing connected to the keypad input, the panel cannot be the cause and the board is. This single test is what separates the two expensive outcomes."
+    },
+    {
+      "cause": "A heat-damaged console on a wall oven",
+      "frequency": "occasional",
+      "confirm": "The code appears only after the oven has been hot for a while and clears once it cools, and you cannot hear a cooling fan running during a bake. The console is being cooked from below, which is a fan or a venting problem rather than a keypad problem, and replacing the panel will not fix it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker and let it cool",
+      "detail": "Switch off the breaker feeding the oven rather than using Cancel, which on this code may not register at all. Let the console and cavity come down to room temperature before testing anything, because a fault that only appears when hot will mislead you if you test warm. On a gas model, close the gas shutoff behind the range before moving it.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Breaker off, not Cancel. An oven reporting a stuck key cannot be trusted to read its own keypad."
+    },
+    {
+      "name": "Note which keys work and when the code appears",
+      "detail": "Restore power briefly and try each key in turn, writing down which respond and which do not. Note whether F7 is there immediately on power-up, only after a particular press, or only once the oven has been baking for a while. One dead key points at the membrane, all keys dead points at the ribbon or the board, and hot-only points at the console cooling.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean around every key properly",
+      "detail": "With the breaker off, wipe the whole console with a barely damp cloth and a little dish soap, working carefully around the edge of each key rather than flooding the panel, then dry it thoroughly with a clean cloth. Pay particular attention to the keys you use most, since that is where residue accumulates. This is the fix that resolves the largest share of F7 codes and it costs nothing.",
+      "minutes": 20,
+      "tools": "Soft cloth, dish soap",
+      "warning": "Never spray cleaner directly at the panel. Liquid getting behind the membrane causes exactly the fault you are trying to clear."
+    },
+    {
+      "name": "Leave it off overnight if moisture is suspected",
+      "detail": "If a boil-over, a steam clean or a wet cloth came before the code, give the console a full night with the breaker off in a dry kitchen. Moisture that has wicked under a membrane takes far longer to leave than the surface suggests, and people replace panels that would have dried out on their own. Test in the morning before taking anything apart.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try holding a key to clear a latched code",
+      "detail": "Some Maytag controls will drop a latched F7 if a key is held down for around a minute, which forces the control to re-evaluate the keypad. It costs a minute and occasionally saves the whole job. If the code clears this way but returns within a cycle or two, you have confirmed the fault is real and intermittent rather than a one-off glitch.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the console and reseat the keypad ribbon",
+      "detail": "With the breaker off, take the console cover off, which on a Maytag range is the rear console cover and on a wall oven a row of screws along the top edge or behind the door frame. Find the flat ribbon cable running from the touchpad to the control board, release its latch, withdraw the ribbon, check the contacts for dirt or a crease, then push it fully home and close the latch.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off while the console is open. Refit the cover before restoring power to test."
+    },
+    {
+      "name": "Disconnect the ribbon to split keypad from board",
+      "detail": "This is the test that tells you which part to buy. With the breaker off, unplug the keypad ribbon entirely, refit the cover and restore power briefly. If F7 disappears with nothing connected to the keypad input, the touchpad is at fault. If the code is unchanged, the keypad is innocent and the control board is the problem. Switch the breaker off again before reopening anything.",
+      "minutes": 20,
+      "tools": "Nut driver",
+      "warning": "Restore power only with the cover refitted and hands clear, then cut it again before touching anything."
+    },
+    {
+      "name": "Test the oven in stages before trusting it",
+      "detail": "With everything reconnected, restore power and work up gradually: idle for five minutes, then a few keypresses, then a low bake with an independent thermometer on the middle shelf. That order shows whether the fault has genuinely gone or has only moved past the first thing you tested. Do not use a self-clean cycle as a test.",
+      "minutes": 30,
+      "tools": "Independent oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If cleaning and drying have not cleared F7, use the ribbon-disconnect test before buying anything, because it is the only cheap way to tell a touchpad fault from a control board fault and the two parts differ in price and in whether you can fit them. Code gone with the ribbon out means the touchpad, typically $70 to $200 and often sold only as part of a console assembly, which matters because those are frequently non-returnable once fitted. Code unchanged with the ribbon out means the control board, typically $120 to $280. If you get the ambiguous result where the display changes but the code does not fully clear, treat that as the board rather than the panel. Two more things worth checking before committing. First, if the code only appears once the oven has been hot for a while, stop and check whether the console cooling fan runs during a bake, because a wall oven console being slowly cooked from below will destroy a new touchpad the same way it destroyed the old one, and a fan at $40 to $110 is the real repair. Second, note that published definitions of F7 are not unanimous across this family: most sources describe a stuck or shorted function key, but at least one chart assigns F7 on Maytag ranges to a missing AC line detection signal, which is an entirely different fault in the power sensing circuit rather than the keypad. If your symptom is not a keypad symptom, if keys respond normally and the code appears anyway, check the service sheet inside your own appliance before assuming the stuck-key reading applies. Fitted, a Maytag oven touchpad or board repair usually lands between $250 and $450, and on a wall oven over about ten years old that is the point to weigh it against replacement.",
+  "reset_procedure": "Switch the oven off at the circuit breaker and leave it for a full five minutes before restoring power. The wait matters because the board holds residual charge and a quick cycle often leaves the stored code in place. Do not rely on Cancel as your reset, since a stuck-key fault frequently stops the control recognizing that key. Some Maytag controls will also drop a latched F7 if a key is held down for about a minute, which is worth one attempt. A code that returns within a cycle or two is a hardware fault.",
+  "model_notes": "Maytag shares its control platform with the rest of the Whirlpool family, so F7 behaves the same way on comparable Whirlpool, KitchenAid and Jenn-Air ovens and parts are often interchangeable. Newer models in this family moved to a two-part code format with a failure group and a specific error shown together, as in F5E1, so a bare F7 generally indicates an older control. The published definitions are not unanimous: most describe a stuck or shorted function key, while at least one reference assigns F7 on Maytag ranges to a missing AC line detection signal, which is a power sensing fault with nothing to do with the keypad. The service sheet inside your own appliance, usually behind the storage drawer on a range, settles it for your model.",
+  "parts": [
+    { "name": "Touchpad or keypad membrane", "cost": "$70 to $200", "difficulty": "hard", "note": "Often sold only with the console assembly; check returns before ordering" },
+    { "name": "Electronic oven control board", "cost": "$120 to $280", "difficulty": "technician only", "note": "Fit only if the code survives with the keypad ribbon disconnected" },
+    { "name": "Console cooling fan", "cost": "$40 to $110", "difficulty": "moderate", "note": "The real fix where the code only appears once the oven is hot" },
+    { "name": "Keypad ribbon cable", "cost": "$20 to $50", "difficulty": "moderate", "note": "Worth replacing only if the existing ribbon is creased or damaged" }
+  ],
+  "when_to_call": "Call a technician if the ribbon test points at the control board, because the remaining work is on a live 240 volt console. Call before buying a touchpad or console assembly yourself, since these are expensive, frequently non-returnable, and easy to order wrongly across a family where several platforms look identical from the front. Call a licensed gas technician for anything involving the burner, safety valve or igniter on a gas range. And if the code only appears when the oven is hot, say so when you book, because the cooling fan needs checking alongside whatever it has damaged.",
+  "faqs": [
+    { "q": "What does F7 mean on a Maytag oven?", "a": "The control has detected a key on the touchpad held down or shorted rather than pressed and released normally. Because the same fault often stops it recognizing Cancel, the oven can feel completely unresponsive. The usual cause is grease or moisture under the membrane around a frequently used key, which costs nothing to clean." },
+    { "q": "Can I still use my Maytag oven with F7 showing?", "a": "Usually not, because the control stops responding to the panel and you cannot set a cycle. There is no safety risk in leaving it displaying the code, but nothing will cook. Switch the oven off at the breaker rather than leaving it sitting there, and start with cleaning around every key, which is free." },
+    { "q": "Will cleaning the touchpad really fix F7?", "a": "It fixes a good share of them. Cooking residue creeping under the membrane around a well-used key reads to the control as a key held down, and so does moisture from a spill or a wet cloth. Wipe around each key with a barely damp cloth, dry thoroughly, and leave the breaker off overnight before concluding it needs a part." },
+    { "q": "How do I tell whether it is the keypad or the control board?", "a": "Unplug the keypad ribbon from the control board with the breaker off, refit the cover and restore power briefly. If F7 disappears with nothing connected, the touchpad is at fault. If the code is unchanged, the board is. It takes twenty minutes, costs nothing, and tells you which of two expensive parts to buy." },
+    { "q": "Why does F7 only appear when the oven is hot?", "a": "Because something is temperature dependent. Either trapped moisture under the membrane expands and bridges contacts as the console warms, or the console cooling fan has failed and the control is being cooked from below. Check whether you can hear a fan during a bake, since a failed fan will ruin a new touchpad just as it ruined the old one." },
+    { "q": "Is an F7 repair worth doing on an older Maytag oven?", "a": "The cleaning and drying always are, since they are free. Beyond that, a touchpad at $70 to $200 or a fitted repair at $250 to $450 is a genuine decision on an oven over about ten years old. Run the ribbon test first so you know which part you are deciding about rather than guessing." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "A stuck key, and the test that says whether to blame the pad or the board.",
+    "labels": {
+      "display": "F7",
+      "c1": "Keys, and residue under them",
+      "c2": "Ribbon cable at the board",
+      "c3": "Control board keypad input",
+      "c4": "Console cooling fan above"
+    }
+  },
+  "sources": [
+    { "title": "Maytag range and oven fault code references for F7", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Maytag range service sheet and wiring diagram", "publisher": "Service sheet supplied inside the range", "url": null },
+    { "title": "Technician discussion of keypad versus control board diagnosis on F7", "publisher": "AppliancePartsPros repair forum threads", "url": null },
+    { "title": "Field reports on grease and moisture under oven membrane keypads", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F3", "F1", "F5E1", "F2E1"]
+}

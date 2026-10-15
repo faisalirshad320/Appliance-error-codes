@@ -15,7 +15,7 @@
     {
       "cause": "The self-clean door latch did not confirm it unlocked",
       "frequency": "most cases",
-      "confirm": "The code appeared at or after the end of a self-clean cycle and the door is still locked. This is the latch reading, and the first thing to rule out is simply heat: the control holds the lock until the cavity cools below its release temperature."
+      "confirm": "The code appeared at or after the end of a self-clean cycle and the door is still locked. This is the latch reading, and the first thing to rule out is heat: the control holds the lock until the cavity cools below its release temperature."
     },
     {
       "cause": "The oven cooling fan is running slow or not at all",

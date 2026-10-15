@@ -1,6 +1,6 @@
 {
   "title": "LG Oven Error Codes: What They Mean and How to Fix",
-  "meta_description": "LG oven error codes explained, led by F9, which means the oven never reached temperature. What each code means and what to check first.",
+  "meta_description": "LG oven codes explained, led by F9, which means the oven never reached temperature. The cause splits by fuel: igniter on gas, relay board on electric.",
   "h1": "LG oven error codes: what the display means and where to start",
   "answer": "LG ovens show faults as an F followed by a digit in the main display, and one code accounts for most of what owners actually see: F9, which means the oven failed to reach temperature within the time the control allows during early preheat. What F9 does not tell you is why, and the likely answer splits cleanly by fuel. On a gas oven it is usually the igniter, which weakens with age until it glows without drawing enough current to open the gas safety valve. On an electric oven it is usually the relay board, the element or the temperature sensor. Work out which fuel you have before reading any further advice, because the two repairs have nothing in common.",
   "severity": "moderate",

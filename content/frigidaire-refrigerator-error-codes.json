@@ -1,0 +1,133 @@
+{
+  "title": "Frigidaire Refrigerator Error Codes: What Each One Means",
+  "meta_description": "Frigidaire refrigerator codes explained: H1 high temperature, SY EF evaporator fan, SY CF board communication, D1 defrost sensor. Where to start on each.",
+  "h1": "Frigidaire refrigerator error codes: reading them and where to start",
+  "answer": "Frigidaire refrigerator codes fall into three rough families. Letter codes like H1 are alarms about a condition, usually temperature, and often clear themselves once the condition passes. Codes starting SY are system faults, where SY CF is a communication failure between the main board and the display and SY EF is the evaporator fan not running. Single letter-and-number codes like D1 point at a specific sensor circuit. Before chasing any of them, check two things that cost nothing: whether the doors are properly shut, and whether the cabinet is actually cold, measured with a thermometer in a glass of water rather than by hand.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to identify, 30 minutes to 3 hours to fix",
+  "cost_estimate": { "diy": "$0 to $180", "technician": "$150 to $450" },
+  "safety_warning": "Unplug the refrigerator before removing any interior panel or touching a connector. The sealed refrigerant circuit, meaning the compressor, condenser, evaporator and the refrigerant charge itself, is licensed technician work in most places and must not be opened or tampered with at home. Never chip ice off an evaporator coil with a sharp tool: puncturing the tubing releases the charge and ends the appliance.",
+  "causes": [
+    {
+      "cause": "Temperature alarms, shown as H1, HI or High Temp",
+      "frequency": "most cases",
+      "confirm": "A compartment went above the control's threshold. Usually a door left ajar or a power cut rather than a breakdown, and it clears once the cabinet comes back down. The test is a thermometer in a glass of water: cold and falling means the alarm is history, still warm means a real cooling fault."
+    },
+    {
+      "cause": "Airflow and fan faults, shown as SY EF",
+      "frequency": "most cases",
+      "confirm": "The classic pattern is a freezer that stays cold while the fresh food section drifts warm, because cold is being made but not moved. Hold the freezer door switch in and listen for the evaporator fan behind the rear panel. Silence with the compressor running confirms it."
+    },
+    {
+      "cause": "Board communication faults, shown as SY CF",
+      "frequency": "common",
+      "confirm": "The main control board and the display board have stopped exchanging data. Cooling often continues normally while the display misbehaves or ignores you. A five-minute power cycle clears a genuine one-off; a harness flexing in the door hinge causes a good share of the rest."
+    },
+    {
+      "cause": "Sensor circuit faults, shown as D1 and similar",
+      "frequency": "common",
+      "confirm": "The board reads a sensor circuit as open or shorted. D1 is the defrost sensor at the evaporator. The physical sign is frost: a coil buried in solid ice behind the freezer rear panel rather than lightly furred means defrost is not running."
+    },
+    {
+      "cause": "Dispenser and icemaker codes, such as SP",
+      "frequency": "occasional",
+      "confirm": "SP is the chute flapper not confirming closed, usually because ice has bridged it. Reach into the ice chute, push the flap and let go: it should snap flat against its seal. These often display alongside an unrelated code, which is why D1 SP confuses people."
+    },
+    {
+      "cause": "A real cooling failure behind any of the above",
+      "frequency": "occasional",
+      "confirm": "Neither compartment is getting cold, rather than one being warm and one cold. That pattern points past fans and sensors to the sealed system, and it is the one category with no DIY path at all."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as shown",
+      "detail": "Photograph the display and zoom in. Frigidaire displays alternate between codes on some models, so what looks like one long code is often two short ones taking turns, which is exactly what D1 SP is. Note whether the characters change every few seconds, because that tells you whether you are chasing one fault or two unrelated ones.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Measure the temperature properly",
+      "detail": "Put a glass of water with a kitchen thermometer in it in the middle of the fresh food section and leave it two hours. Do the same in the freezer with a second thermometer if you have one. This beats the display and beats the feel of the air, and it is the observation that separates an alarm about something that already happened from a refrigerator that has genuinely stopped cooling.",
+      "minutes": 10,
+      "tools": "Kitchen thermometer, glass of water",
+      "warning": null
+    },
+    {
+      "name": "Check the doors and the seals",
+      "detail": "Walk the whole perimeter of each door seal with your fingers, looking for a section that has hardened or torn. Check that no container, drawer or bag is holding a door off its frame, and watch whether a closed door stays closed or eases back open, which means the unit is leaning forward and needs its front feet adjusted. Door problems cause more codes on this brand than any component.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle for five full minutes",
+      "detail": "Unplug the refrigerator at the wall or switch off its breaker, and leave it five full minutes rather than switching straight back. The boards hold residual charge and a quick cycle usually leaves the stored code in place. This clears a genuine power-event glitch on any code in the list and tells you something useful either way.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Listen to what the unit is actually doing",
+      "detail": "Stand quietly beside it. You should hear the compressor as a low hum, the condenser fan near the compressor at the back, and the evaporator fan from inside the freezer. Hold the freezer door switch in with a thumb to keep the evaporator fan running with the door open. Which of those three you cannot hear narrows the fault faster than any code.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look behind the freezer rear panel if frost is suspected",
+      "detail": "Unplug the refrigerator. Empty the freezer, remove shelves and the icemaker if it blocks access, then take out the four to six Phillips screws around the rear interior panel and ease it forward; it is often frozen to the edges and cracks if forced. Light even frost on the coil is normal, a solid white block is not, and that one look settles most sensor and fan codes.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, flashlight, towels, cooler",
+      "warning": "Unplug first. The defrost heater sits immediately behind this panel."
+    },
+    {
+      "name": "Clean the condenser coils while you are there",
+      "detail": "Unplug the unit, unclip the toe grille at the bottom front or reach the coils at the back, and vacuum them with a brush attachment, working a coil brush between the fins. Dust and pet hair mat into a blanket that stops the unit shedding heat, which produces temperature alarms with nothing actually broken. Doing this twice a year prevents a decent share of the codes on this page.",
+      "minutes": 25,
+      "tools": "Vacuum with brush attachment, condenser coil brush, Phillips #2 screwdriver",
+      "warning": "Unplug the refrigerator before reaching behind the toe grille or the rear panel."
+    }
+  ],
+  "still_showing": "If the code survived a power cycle and the free checks, this order holds across the brand. First, settle the cooling question before anything else, because it decides how urgent the rest is. A unit that is still holding temperature with a misbehaving display is something you can take a week over. A unit that is warming is a food-safety problem now, and the code is secondary to getting the contents somewhere cold. Second, use the two-compartment pattern as your best diagnostic. A cold freezer with a warm fresh food section means cold is being made but not moved, which points at the evaporator fan, the damper or frost blocking the duct. Both compartments warm means cold is not being made at all, which points past all of that to the sealed system. That distinction costs nothing and redirects the whole job. Third, check connectors before parts. The sensor and fan connectors in a freezer live in the coldest, dampest part of the appliance and corrode, and a pushed-back pin reads exactly like a failed component on a meter. Fourth, test sensors by watching them change rather than matching a number. Measure cold, warm the sensor in your closed hand for two minutes, measure again: a healthy sensor moves clearly and smoothly, and a dead one does not. That works without a reference value, which matters because published figures differ by model and are frequently wrong. Fifth, treat ice as a symptom rather than a cause. A healthy refrigerator does not grow enough frost to jam its own fan, so clearing the ice restores cooling for a few weeks and tells you nothing about why it formed. Check the defrost heater and sensor while the panel is already off. Sixth, know where the line is: fans, heaters, sensors, seals, boards and coils are ordinary repairs, while the compressor, condenser, evaporator and refrigerant charge are licensed technician work with no DIY path. Finally, on a unit over about ten years old, a sealed system repair or a main control board plus labor often exceeds what the refrigerator is worth, so get the fitted price in writing first.",
+  "reset_procedure": "The reset is the same for every code on this brand. Unplug the refrigerator at the wall, or switch off its breaker, and leave it a full five minutes before restoring power. Five minutes matters because the boards hold residual charge and a quick off-and-on leaves the stored code in place. For temperature alarms there is usually also an alarm reset or alarm off pad on the control panel that silences the tone. A code that returns within seconds of power-up is reporting a condition that is still present rather than a stored memory.",
+  "model_notes": "Frigidaire's published code documentation is thinner than most brands, and you should know that before cross-checking anything here. The company's own support pages describe the high temperature alarm in general terms as H, HI or High Temp without using the H1 label that appears on displays and in every third-party guide. SY codes and sensor codes like D1 are documented almost entirely by repair references rather than by Frigidaire, and those references contradict each other on several codes, including whether SY CF is a communication fault or a condenser fan fault and whether SY EF is the evaporator fan or a temperature sensor. Where sources split, the pages on this site give the cheap observation that separates the readings rather than picking one. Codes also vary between side-by-side, French-door and four-door models of the same era.",
+  "parts": [
+    { "name": "Evaporator fan motor", "cost": "$40 to $120", "difficulty": "moderate", "note": "Behind the freezer rear panel; the usual answer to SY EF once ice is ruled out" },
+    { "name": "Defrost sensor or thermistor", "cost": "$15 to $50", "difficulty": "moderate", "note": "The D1 part; clipped to the evaporator tubing" },
+    { "name": "Defrost heater", "cost": "$40 to $110", "difficulty": "hard", "note": "The other half of the frost question, same access" },
+    { "name": "User interface or display board", "cost": "$60 to $180", "difficulty": "moderate", "note": "The usual answer to SY CF once the harness is cleared" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort on any code here. Ask what was measured first" }
+  ],
+  "when_to_call": "Call a technician when the cabinet is genuinely not holding temperature and the free checks have not explained it, when a code survives a power cycle and a connector inspection, or when you are not comfortable removing the freezer rear panel with a defrost heater behind it. Call immediately if neither compartment is getting cold, if the compressor is hot and buzzing in short bursts, or if you smell burning. Anything inside the sealed refrigerant circuit is licensed work by law in most places and is not a DIY job under any circumstances. On a unit over about ten years old, get a sealed system or control board quote in writing and weigh it against a replacement before agreeing.",
+  "faqs": [
+    { "q": "How do I reset a Frigidaire refrigerator?", "a": "Unplug it at the wall, or switch off its breaker, and leave it a full five minutes before restoring power. The boards hold residual charge, so a quick off-and-on usually leaves the stored code in place. For temperature alarms there is also an alarm reset pad on most control panels that silences the tone without cutting power." },
+    { "q": "Which Frigidaire refrigerator codes mean my food is at risk?", "a": "Any temperature alarm, and SY EF in particular. H1 tells you a compartment went above its threshold but not for how long, so judge the food rather than the code. SY EF means cold air is not being moved into the fresh food section, so that compartment drifts into unsafe territory within hours even while the freezer still feels cold." },
+    { "q": "Why is my freezer cold but the fridge warm?", "a": "That pattern means cold is being made but not moved, which points at the evaporator fan, a frost-blocked air duct or a stuck damper rather than the sealed system. It is the single most useful observation on this brand, because the opposite pattern, both compartments warm, points at the compressor side instead." },
+    { "q": "What does the SY prefix mean on Frigidaire codes?", "a": "SY marks a system-level fault rather than one specific component, with the following letters naming the system. SY CF is read by most references as a communication failure between the main control board and the display board, and SY EF as the evaporator fan not being detected. These come from repair references rather than Frigidaire documentation." },
+    { "q": "Can I keep using the refrigerator while a code is showing?", "a": "It depends entirely on whether it is still cold, which you should measure with a thermometer in a glass of water rather than guess. A display or communication fault on a unit holding temperature can wait. Anything where the cabinet is warming needs the food moved now and the fault dealt with the same day." },
+    { "q": "Why do repair sites disagree about Frigidaire codes?", "a": "Because Frigidaire publishes very little of this, so repair sites quote each other and errors spread. SY CF is called a communication fault by most and a condenser fan fault by one widely copied table. Where sources split, use the cheap physical observation that separates them rather than trusting whichever page you landed on." },
+    { "q": "How often should I clean the condenser coils?", "a": "Twice a year, and more often with pets in the house. Unplug the unit, unclip the toe grille at the bottom front or reach the coils at the back, and vacuum them with a brush attachment. Coils matted with dust stop the unit shedding heat, so it runs constantly and still drifts warm, which triggers temperature alarms with nothing actually broken." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The diagnostic order that works for any Frigidaire refrigerator code",
+    "labels": {
+      "display": "SY",
+      "c1": "Photograph the alternating code",
+      "c2": "Thermometer in a glass of water",
+      "c3": "Listen for all three motors",
+      "c4": "Coils and door seals clear"
+    }
+  },
+  "sources": [
+    { "title": "What the alarms and error messages mean on French-Door and Four-Door refrigerators", "publisher": "Frigidaire support documentation", "url": null },
+    { "title": "Frigidaire refrigerator owner's manual troubleshooting section", "publisher": "Frigidaire owner documentation supplied with the appliance", "url": null },
+    { "title": "Frigidaire refrigerator fault code reference listings", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "Conflicting published meanings for SY CF and SY EF", "publisher": "Appliance repair guides, cited for the disagreement", "url": null },
+    { "title": "Field reports on warm-cabinet diagnosis, defrost faults and fan failures", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["H1", "SY EF", "SY CF", "d1 SP", "SP", "SY CE"]
+}

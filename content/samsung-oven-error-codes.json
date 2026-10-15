@@ -1,0 +1,131 @@
+{
+  "title": "Samsung Oven Error Codes: What They Mean and Tests",
+  "meta_description": "Several Samsung oven displays are not faults at all. Here is which ones are information, which are real, and the tests that tell them apart.",
+  "h1": "Samsung oven error codes: what they mean and how to test",
+  "answer": "The first thing to know about Samsung oven displays is that several of them are not faults. Samsung calls them information codes, and the list includes things like Pr E, which means the oven is still preheating, and S-01, a safety shutoff that triggers when the oven has been left running at temperature for a long stretch. Samsung says plainly that S-01 is not a system failure. Codes beginning with d, such as dC and dE, are divider checks on Dual Cook models and relate to the partition being in or out, not to a broken part. Real faults do exist, mostly around temperature sensing, the door switch and the control. This page separates the two groups and gives the tests that place any code without guessing.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to triage, 30 minutes to 2 hours to repair",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$150 to $400" },
+  "safety_warning": "Any work behind the panels of an oven means mains wiring, and on a gas model the supply line. Switch off at the breaker before removing a panel, never bypass a door interlock or a thermal cut-out to make the oven run, and leave gas connections to a licensed technician.",
+  "causes": [
+    {
+      "cause": "Information codes that are not faults at all",
+      "frequency": "most cases",
+      "confirm": "The oven is behaving sensibly and the code describes what it is doing. Pr E means it is still preheating and disappears at temperature. S-01 means a safety shutoff after a long run. dC and dE are divider checks on Dual Cook models. Nothing needs replacing for any of them."
+    },
+    {
+      "cause": "The door is not closed, or the door switch is not reporting it",
+      "frequency": "common",
+      "confirm": "The oven reports an open door when it looks shut. Press the door firmly closed and see whether the message clears. If it does not, look for the small round plunger switch in the door frame and check it moves freely and is not clogged with grease or stuck in."
+    },
+    {
+      "cause": "Temperature sensing faults",
+      "frequency": "common",
+      "confirm": "The oven will not heat, heats to the wrong temperature, or stops partway through a bake. Switch off at the breaker, unplug the oven temperature sensor at the rear and read across its two pins: open circuit or near zero is conclusive without needing a reference value for your model."
+    },
+    {
+      "cause": "Connectivity and Wi-Fi indications on SmartThings models",
+      "frequency": "occasional",
+      "confirm": "The display shows something unfamiliar but the oven cooks perfectly, and the display turned up after a SmartThings attempt, a router change or a power cut. A ten-minute bake that preheats normally tells you the cooking side is fine."
+    },
+    {
+      "cause": "Control board or touch panel faults",
+      "frequency": "occasional",
+      "confirm": "The code appears at power-up before the oven tries to do anything, keys do not respond or respond at random, or the display behaves oddly. Nothing changes when you check the door, the divider or the sensor."
+    },
+    {
+      "cause": "A one-off glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code arrived after a storm, outage or brownout and the oven had been working normally. A full five-minute breaker reset clears this version and it stays clear through a normal bake."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work out whether you have a fault at all",
+      "detail": "Set the oven to bake at a moderate temperature and give it ten to fifteen minutes. An oven that preheats normally and holds temperature is working, whatever the display says, and that moves you straight out of the repair category and into the information-code category. This single test saves more wasted service calls on Samsung ovens than anything else on this page.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Photograph the code exactly and get the model number",
+      "detail": "Take a clear picture of the display. Note hyphens, leading dashes and spacing, because Samsung uses formats like Pr E, S-01 and dC that are easy to transcribe wrongly, and a segment display can blur similar characters. The model number is on the door frame or the edge of the opening with the door open, and Samsung's own code lists vary by region and model year.",
+      "minutes": 8,
+      "tools": "Phone camera, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Rule out the information codes first",
+      "detail": "Check the harmless explanations before anything else. Is the oven still coming up to temperature, which is what Pr E describes? Has it been running at temperature for a long stretch, which triggers the S-01 safety shutoff? On a Dual Cook model, is the divider in when it should be out, or out when it should be in, which is what dC and dE are asking about? Each of these is resolved by changing what you are doing rather than by fixing anything.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door and its switch",
+      "detail": "Push the door firmly shut and see whether a door message clears. If it does not, open the door and find the small round plunger switch set into the frame, usually near the top. Press it in and let it go a few times: it should move freely and spring back. Clean around it with a cloth if it is gummed with baked-on grease, and check nothing is holding the door fractionally open, such as a rack pushed too far forward.",
+      "minutes": 15,
+      "tools": "Flashlight, cloth",
+      "warning": null
+    },
+    {
+      "name": "Power cycle at the breaker, properly",
+      "detail": "Switch the oven off at its circuit breaker for a full five minutes, then back on. A quick flick is often not enough because the control holds residual charge and keeps the stored code. This clears codes left behind by a brownout or an outage, and it drops a connected oven out of any pairing state it has wandered into.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test the oven temperature sensor if it will not heat",
+      "detail": "Switch off at the breaker. Pull a range forward and remove the rear panel, or slide a wall oven out far enough to reach the back. Find the sensor's two-pin connector, separate it, and read across the sensor side with a meter on ohms. Open circuit means a broken probe or lead, near zero means a short, and either is conclusive. A sensible steady reading that climbs as you warm the probe tip means the sensor is healthy and the fault is elsewhere.",
+      "minutes": 30,
+      "tools": "Multimeter, nut driver or Phillips screwdriver",
+      "warning": "Breaker off before the back panel comes off, and measure only across the sensor side of the separated connector. Oven terminals carry mains voltage."
+    },
+    {
+      "name": "Use the self-check on a connected model",
+      "detail": "If your oven is on SmartThings, the app has a self-diagnosis or support function that reads what the appliance is reporting and describes it in plain language. On an oven that is connected and working, this is the closest thing to an official answer for a code you cannot place, and it is free. It will not help on an oven that was never set up on Wi-Fi.",
+      "minutes": 10,
+      "tools": "Phone with the SmartThings app",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the oven heats properly and a display will not clear, you are almost certainly looking at an information code or a connectivity indicator rather than a fault, and the right response is to stop treating it as a repair. Work through it in this order. First, re-run the ten-minute bake test and be honest about the result, because an oven that preheats and holds temperature is a working oven and no part will improve it. Second, go back to Samsung's information code group with the photograph in front of you, since Pr E, S-01 and the divider codes all look like faults to someone who has not seen them before and all resolve by changing what you are doing rather than by fixing anything. Third, if the oven genuinely will not heat, work the order that costs nothing before the order that costs money: door closed and switch free, then a proper five-minute breaker reset, then the sensor test at the plug. Those three place the great majority of real Samsung oven faults, and the sensor test in particular is conclusive without needing a resistance value Samsung does not publish. Fourth, the cost jumps at the control board and the touch panel, and that is the point to get a written quote with the specific part named. Finally, a caution about looking codes up. Samsung's published information for ovens varies by region and by model year, and plenty of codes that owners report are not in any public Samsung table at all. If you cannot place yours, the better move is to photograph the display, get the model number off the door frame, and either check the manual for that exact model or ask Samsung support directly. A code that is absent from the published lists is not evidence that the oven is badly broken, and it is not a reason to accept a diagnosis from a site that cannot cite anything either.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes, then restore power. Cancelling at the panel often leaves the stored code in place, and the control holds residual charge, so a quick off and on frequently achieves nothing. This clears codes left by a power event and drops a connected oven out of a pairing state. It will not help with an information code that describes what the oven is currently doing, such as a preheat indication, since that clears on its own when the condition passes.",
+  "model_notes": "Samsung splits its oven displays into information codes and error codes, and the published lists differ between regions and model years, so a code absent from one Samsung page may appear on another. The well-supported entries include Pr E for preheating, S-01 as a safety shutoff after a long run at temperature which Samsung states is not a system failure, and dC or dE as a divider check on Dual Cook models where the partition is in or out when the chosen mode expects the opposite. Samsung's US troubleshooting material also covers a door message pointing at the plunger switch in the frame. Beyond these, this page does not assert meanings for codes it cannot support, because an authoritative-looking wrong entry sends people to buy parts they do not need. Connected models can report through the SmartThings app, which is the most reliable way to identify an unfamiliar display on a working oven.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$30 to $80", "difficulty": "easy", "note": "Two screws and a plug, and the test needs no reference value" },
+    { "name": "Door plunger switch", "cost": "$20 to $50", "difficulty": "moderate", "note": "For a door message that persists with the door firmly shut" },
+    { "name": "Touch panel or membrane", "cost": "$90 to $250", "difficulty": "moderate", "note": "Separate from the board on many models; ask which you need" },
+    { "name": "Oven control board", "cost": "$170 to $380", "difficulty": "technician only", "note": "Last resort, once the door, sensor and panel are ruled out" }
+  ],
+  "when_to_call": "Call a technician when the oven genuinely will not heat and the sensor, the door switch and a proper breaker reset have all been checked, because what remains means diagnosing live circuits. Do not call for a display on an oven that preheats and cooks normally, since the visit will cost you a fee to be told it is an information code. On a gas model, anything near the supply line is licensed work. And if you cannot identify the code at all, contact Samsung support with a photograph of the display and the model number before booking a repair, because they can tell you what your specific model is reporting and that may turn out to cost nothing.",
+  "faqs": [
+    { "q": "Is every code on a Samsung oven a fault?", "a": "No, and this trips up a lot of owners. Samsung uses information codes alongside error codes, so Pr E just means the oven is still preheating, S-01 is a safety shutoff Samsung states is not a system failure, and dC and dE are divider checks on Dual Cook models. A ten-minute bake that works normally tells you which group you are in." },
+    { "q": "What does S-01 mean on a Samsung oven?", "a": "It is a safety shutoff, triggered when the oven has been running at a set temperature for an extended period. The time limits depend on the temperature. Samsung is explicit that it is not a system failure. Turn the oven off, take the food out, and start again normally; there is nothing to repair and no part involved." },
+    { "q": "What is the dC or dE code on a Samsung Dual Cook oven?", "a": "A divider check. The oven uses a removable partition to split the cavity, and these codes appear when the divider is removed during a Dual Cook program or inserted during a Single Cook program. Push the partition fully home or take it out, depending on the mode you chose, and the message clears." },
+    { "q": "How do I test a Samsung oven that will not heat?", "a": "Switch off at the breaker, reach the oven temperature sensor's two-pin connector behind the oven, and read across the sensor side with a meter on ohms. Open circuit means a broken probe, near zero means a short, and both are conclusive. A steady reading that rises as you warm the probe tip means the sensor is fine." },
+    { "q": "The door message stays on with the door shut. What now?", "a": "Look for the small round plunger switch set into the door frame, usually near the top. Press it in and release it a few times to check it moves freely and springs back, and clean baked-on grease from around it. Also check nothing holds the door fractionally open, such as a rack pushed too far forward." },
+    { "q": "My Samsung oven code is not in any list. What do I do?", "a": "Photograph the display exactly, noting hyphens and spacing, and get the model number from the door frame. Samsung's published lists vary by region and model year, so a missing code is common and not a sign of a serious fault. Check the manual for that exact model, or ask Samsung support with the photo and model number." },
+    { "q": "How do I reset a Samsung oven?", "a": "Switch it off at the circuit breaker for a full five minutes, then restore power. Cancelling at the panel usually leaves the stored code in place because the control holds charge. This will not clear an information code that describes what the oven is doing right now, such as a preheat indication, since that clears on its own." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Telling a Samsung information code from a real oven fault",
+    "labels": {
+      "display": "S-01",
+      "c1": "Ten-minute bake, does it heat",
+      "c2": "Photograph hyphens and spacing",
+      "c3": "Door shut, plunger switch free",
+      "c4": "Meter the sensor at its plug"
+    }
+  },
+  "sources": [
+    { "title": "Check the information codes on my oven", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung range or wall oven error codes", "publisher": "Samsung US support troubleshooting documentation", "url": null },
+    { "title": "Samsung oven service literature, temperature sensing and door switch", "publisher": "Samsung service documentation", "url": null },
+    { "title": "Self-diagnosis for connected ovens", "publisher": "Samsung SmartThings support documentation", "url": null }
+  ],
+  "related_codes": ["Pr E", "S-01", "dC", "dE", "AP"]
+}
