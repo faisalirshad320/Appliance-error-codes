@@ -1,0 +1,212 @@
+{
+  "title": "GE Dishwasher Error Codes: What They Mean and How to Fix",
+  "meta_description": "GE dishwashers show faults as words like FTD and H2O, as C-series codes, or as blinking lights you count.",
+  "h1": "GE dishwasher error codes: how to read them and what to do",
+  "answer": "GE dishwashers report faults three ways depending on the model. Machines with an alphanumeric display spell out short word codes such as FTD for a failure to drain, H2O for a failure to fill and PF for a power failure. Machines with a numeric display use C-series and F-series codes instead. Machines with status lights and no display blink the Start pad a set number of times, with a pause between repeats, and you count the blinks. Whichever your machine uses, the code names a symptom rather than a part, and nearly all of them fall into four families: water that will not leave, water that will not arrive, heat or sensing faults, and door or control faults.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to read the code, 30 to 90 minutes for most fixes",
+  "cost_estimate": {
+    "diy": "$0 to $110",
+    "technician": "$140 to $330"
+  },
+  "safety_warning": "Switch the dishwasher off at its breaker before pulling it out, removing the lower access panel or touching the pump, the heater or the inlet valve. The junction box under a dishwasher is often live even with the door open, and you will be working with water present at the same time.",
+  "causes": [
+    {
+      "cause": "Drain faults: water in the tub that will not leave",
+      "frequency": "most cases",
+      "confirm": "Standing water above the filter at the end of a cycle, or dishes that come out with grit redeposited on them. This family covers FTD and F56 on word-code machines and the drain-time codes on numeric ones. Start at the filter, not the pump."
+    },
+    {
+      "cause": "Fill faults: the tub level never rose when water was called for",
+      "frequency": "most cases",
+      "confirm": "A cycle that starts, runs briefly and quits with a dry or barely wet tub floor. This is H2O on word-code machines. Check the shut-off valve under the sink first; it is the single most common answer and it takes thirty seconds."
+    },
+    {
+      "cause": "Door and latch faults",
+      "frequency": "common",
+      "confirm": "Nothing at all happens when you press Start, no valve click and no pump, or the cycle stops the moment the door is nudged. Close the door slowly and listen for a definite click from the latch, then pull gently on the handle to check it holds."
+    },
+    {
+      "cause": "Control panel and stuck-button faults",
+      "frequency": "common",
+      "confirm": "The machine behaves as though a pad is being held down, beeps on its own, or cycles through settings with nobody touching it. A membrane panel that has taken steam or a spill behind it is the usual cause, and this often shows up as a C-series code."
+    },
+    {
+      "cause": "Heating and sensing faults",
+      "frequency": "occasional",
+      "confirm": "Cycles that run far longer than normal, dishes that come out cool and wet, or a cycle that quits partway. The control is waiting for a water temperature it never reaches, or a turbidity or level sensor is reading nonsense through a film of scale."
+    },
+    {
+      "cause": "Leak detection",
+      "frequency": "occasional",
+      "confirm": "The machine pumps out and refuses to refill, often with the pump running on its own. Pull the lower panel and feel the base pan with a dry tissue. Anti-flood systems trip from a genuine small leak far more often than they fail on their own, so look before resetting."
+    },
+    {
+      "cause": "Power interruption",
+      "frequency": "common",
+      "confirm": "PF, which just means the power was cut mid-cycle and the machine wants to know whether to resume or start over. It is informational. If it appears repeatedly without any power cut, suspect the breaker, the outlet or the junction box connections."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code properly before anything else",
+      "detail": "On a word display, note the exact characters: FTD is not FID, and H2O is the letter O rather than a zero, which trips up most searches. On a light-only model, close the door, watch the Start pad and count the blinks between pauses, repeating until you get the same number twice. Take a photo of the panel, because the code often clears the moment you open the door.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Find the model number and the tech sheet",
+      "detail": "The model number is on a label on the edge of the door, visible with the door open, usually on the right-hand side. GE folds a service tech sheet into most machines, generally behind the lower access panel or tucked up inside the door panel. That sheet carries the code table for your exact model, and the C-series meanings in particular differ enough between model series that a generic list online will send you to the wrong part.",
+      "minutes": 10,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Switch off the breaker before removing the lower access panel to look for the tech sheet."
+    },
+    {
+      "name": "Sort the code into a family from the symptom",
+      "detail": "Ignore the code number for a moment and look at the machine. Water in the tub that did not leave is a drain fault. A dry tub after a cycle started is a fill fault. Nothing happening at all is a door or control fault. A cycle that runs forever and leaves cool dishes is a heat or sensing fault. The symptom is more reliable than any code table you did not get from your own machine.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the filter and sump, whatever the code says",
+      "detail": "Bail out any standing water with a cup and a towel, then twist the cylindrical filter in the tub floor anticlockwise a quarter turn and lift it out, along with the flat coarse screen beneath it. Wash both in hot soapy water with an old toothbrush until the mesh is open to the light, and fish anything solid out of the sump by hand. This is free, it takes ten minutes, and it clears a surprising share of codes.",
+      "minutes": 15,
+      "tools": "Cup, bucket, towels, old toothbrush",
+      "warning": null
+    },
+    {
+      "name": "Check the three plumbing points under the sink",
+      "detail": "Open the sink cabinet. Confirm the dishwasher's shut-off valve is fully open, with any lever lying in line with the pipe rather than across it. Confirm the drain hose rises to the underside of the counter and is strapped there before dropping to the disposal or standpipe. If a disposal was fitted recently, check its dishwasher inlet knockout plug was actually removed.",
+      "minutes": 15,
+      "tools": "Flashlight, nut driver",
+      "warning": "Switch the disposal off at the wall before working at its inlet, and never reach into the grinding chamber."
+    },
+    {
+      "name": "Reset the control at the breaker",
+      "detail": "Hold the Start or Start/Reset pad for about three seconds to cancel, then switch the dishwasher off at its breaker for five full minutes and back on. Five minutes matters: the control holds residual charge and a quick cycle often leaves the fault latched. A machine you have already fixed will keep showing its code until it is reset.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a rinse-only cycle and watch it",
+      "detail": "Start a rinse-only cycle and stay with it. Note whether you hear the inlet valve click and hiss in the first minute, whether water appears on the tub floor, whether the wash motor runs, and whether the tub empties to a damp film at the end. Those four observations tell a technician more than the code does and usually save the first half of a diagnostic visit.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code is still there after a filter clean, a plumbing check and a proper reset, go by family rather than by code number. For a drain fault, the escalation is hose, air gap, disposal plug, pump impeller, pump. The test that splits it in two is the bucket test: pull the drain hose off the disposal, hold it into a bucket below the machine and run a drain. Strong flow means the dishwasher is fine and your waste plumbing is blocked, which is a plumber's job. For a fill fault, the equivalent test is to shut the breaker and the supply valve, disconnect the water line at the inlet valve, hold it into a bucket and crack the valve for three seconds. A strong jet rules out the supply and points at the inlet valve or the control; a dribble means the restriction is upstream of the machine. For a door or control fault, check the latch engages with a definite click and that the door is not sagging on its hinges before anyone sells you a control board, because a marginal latch switch is a fraction of the price. For a heat or sensing fault, descale the machine with a dishwasher cleaner run on the hottest cycle, because mineral film over a turbidity or temperature sensor is a genuine cause and costs almost nothing to rule out. The cost jumps in two places. One is the main control board, typically $150 to $350 before labor, and it is over-diagnosed on this appliance: insist on seeing that the pump or valve is being commanded before authorizing one. The other is the sump and circulation pump assembly, where parts and labor on a machine over eight years old start to approach the price of a new dishwasher. One last free check that catches people: if the same code appears at the same point in every cycle, the fault is real and repeatable. If it moves around, suspect a connector rather than a component, and go over the plugs at the control and the pump for corrosion or a pin backed out of its housing.",
+  "reset_procedure": "Hold the Start or Start/Reset pad for about three seconds to cancel the running cycle and pump out. If the code remains, switch the dishwasher off at its breaker for five full minutes and back on. Test with a rinse-only cycle rather than a full wash so you learn the result in ten minutes. PF is a special case: it simply reports that power was interrupted mid-cycle, and pressing Start/Reset clears it.",
+  "model_notes": "The three display generations matter more than the codes themselves. Models with an alphanumeric display use readable word codes like FTD, H2O, LEAK and PF. Models with a numeric or letter-number display use C-series and F-series codes, and the meanings of several C-series codes genuinely differ between model series, so the tech sheet for your exact machine is the only table worth trusting. Models with status lights and no display blink the Start pad a set number of times. There is also a split in the sump: higher-end GE models have a removable cylindrical filter you clean by hand, while models with a hard food disposer in the sump have no removable filter, and on those the first place to look for a drain fault is the chopper area and the pump rather than a filter.",
+  "parts": [
+    {
+      "name": "Drain pump",
+      "cost": "$45 to $110",
+      "difficulty": "moderate",
+      "note": "Clear the impeller before buying one; many are replaced for a jammed olive pit"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Behind the lower access panel, about an hour with the machine pulled out"
+    },
+    {
+      "name": "Door latch and switch assembly",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Check this before any control board on a no-start fault"
+    },
+    {
+      "name": "Filter and coarse screen set",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn or deformed; most just need washing"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Over-diagnosed on this appliance; prove the part is not being commanded first"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician when the bucket test shows the dishwasher pumping strongly into a bucket while the sink side backs up, or when the supply line gives a weak flow, because both faults are in your house plumbing. Call an appliance technician when the mechanical path is proven clear and the machine still reports the same code, since the next step is checking whether the control is commanding the pump or valve at all, with the machine live under a counter and water present. Call immediately, without troubleshooting, if you find water on the cabinet floor, if the breaker trips when you start a cycle, or if there is any smell of burning from the panel.",
+  "faqs": [
+    {
+      "q": "Is there a full list of GE dishwasher error codes?",
+      "a": "There is, but not one list that covers every model. GE folds a tech sheet into each machine with the code table for that model, usually behind the lower access panel. That is the one to use. Generic lists online mix codes from several model series, and the C-series codes in particular do not mean the same thing across the range."
+    },
+    {
+      "q": "What is the difference between FTD and H2O?",
+      "a": "They are opposite faults. FTD means failure to drain: the pump ran and water stayed in the tub. H2O means the opposite, that the machine asked for water and the tub level never rose. FTD sends you to the filter, hose and disposal; H2O sends you to the shut-off valve under the sink and the inlet valve."
+    },
+    {
+      "q": "My dishwasher has no display, just lights. How do I read the code?",
+      "a": "Close the door and watch the Start pad. It blinks a set number of times, pauses, then repeats the same count. Count it twice to be sure, then match the number against the tech sheet inside your machine. Take a photo or video, because the pattern often stops as soon as you open the door."
+    },
+    {
+      "q": "What does PF mean on a GE dishwasher?",
+      "a": "The power was interrupted during a cycle. It is informational rather than a fault: the machine is asking whether to resume or start over. Press Start/Reset to clear it. If PF keeps appearing with no power cuts in the house, have the breaker, the outlet and the junction box connections under the machine checked."
+    },
+    {
+      "q": "Can I keep using the dishwasher while a code is showing?",
+      "a": "It depends on the family. A power-failure code is harmless. A drain code is not: running cycle after cycle against a blockage heats the pump and leaves foul water in the tub. Stop for anything involving water that will not leave, any leak detection, and any code that trips the breaker."
+    },
+    {
+      "q": "Why did a code appear suddenly when nothing changed?",
+      "a": "Most of these build slowly. Filters clog over months, inlet screens silt up, latch strikes shift a fraction at a time. The genuinely sudden ones usually trace to work elsewhere: a new disposal with the knockout plug still in, a plumber closing the shut-off valve under the sink, or a power cut that left PF behind."
+    },
+    {
+      "q": "Does a code mean the control board has failed?",
+      "a": "Rarely. The control board is the most over-diagnosed part on this appliance, and in the large majority of cases the code is reporting a real mechanical problem it has correctly detected. Before paying for a board, ask to see that the pump or valve genuinely is not being commanded, and have every connector checked for corrosion."
+    },
+    {
+      "q": "Is a GE dishwasher with a fault code worth repairing?",
+      "a": "Usually yes if it comes down to a pump, an inlet valve, a latch or a filter, since those are modest parts and straightforward jobs. The calculation turns at the control board or a cracked sump, where parts and labor on a machine over eight years old start to approach the price of a new one."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "How a GE dishwasher reports a fault, and where to read it",
+    "labels": {
+      "display": "FTD",
+      "c1": "Word code, C-code or blink count",
+      "c2": "Tech sheet behind the lower panel",
+      "c3": "Sort the code into a fault family",
+      "c4": "Reset five minutes at the breaker"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE dishwasher fault code descriptions and diagnostic procedures",
+      "publisher": "GE Appliances technical service literature",
+      "url": null
+    },
+    {
+      "title": "Dishwasher fault code table for this model series",
+      "publisher": "GE service tech sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "GE dishwasher troubleshooting and error code references",
+      "publisher": "GE Appliances support documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on GE dishwasher code families and model-to-model differences",
+      "publisher": "Appliance repair technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "FTD",
+    "H2O",
+    "F56",
+    "PF",
+    "LEAK"
+  ]
+}

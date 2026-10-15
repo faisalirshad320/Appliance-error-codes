@@ -1,0 +1,198 @@
+{
+  "title": "Maytag Dryer F3 E2 Code: Drying Sensor Fault Explained",
+  "meta_description": "F3 E2 on a Maytag dryer is a sensing-circuit fault, usually the moisture sensor bars in the drum. Often just residue, not a failed part.",
+  "h1": "Maytag dryer F3 E2 code: a sensing fault, and how to pin it down",
+  "answer": "F3 E2 on a Maytag dryer means the control did not get usable data from the circuit it relies on to judge a load, so it stopped trusting the sensor cycles. On most machines in this family that circuit is the pair of moisture sensor bars inside the drum, and the usual cause is a film of fabric softener on them or a loose wire behind them. Clean the bars with rubbing alcohol and run a timed dry to confirm the dryer is otherwise healthy. Be aware that the exact meaning of F3 E2 shifts between Maytag model generations, so check the tech sheet inside your own machine before you buy a part.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to clean the sensor, 1 to 2 hours to test the circuit",
+  "cost_estimate": {
+    "diy": "$0 to $50",
+    "technician": "$170 to $340"
+  },
+  "safety_warning": "Anything past cleaning the sensor bars means opening a cabinet carrying 240 volts on an electric dryer. Unplug at the wall or switch off both halves of the breaker before a panel comes off, and verify with a non-contact tester that it is dead. On a gas dryer, close the shutoff valve behind the machine and leave the burner, the gas valve and the gas line to a licensed technician. Never bypass a thermal cut-out to force a cycle to run.",
+  "causes": [
+    {
+      "cause": "Fabric softener film insulating the moisture sensor bars in the drum",
+      "frequency": "most cases",
+      "confirm": "Look inside the drum for two thin metal strips, usually just inside the lint screen opening or on the front bulkhead. If they are dull, filmed or faintly sticky rather than bright metal, they cannot read wet clothes. Dryer sheets and liquid softener build this up over months and it is invisible until you wipe one strip clean and compare."
+    },
+    {
+      "cause": "Running sensor cycles on loads the sensor cannot read",
+      "frequency": "common",
+      "confirm": "The code appears after a run of bulky items, a single small item, or anything rubber backed, and the dryer is otherwise fine on timed dry. Clothes have to touch the bars for the dryer to sense them. A duvet or one towel tumbling in a big drum may never make contact, and after several such loads the control flags the sensing circuit."
+    },
+    {
+      "cause": "A loose or corroded connector on the sensor bars",
+      "frequency": "common",
+      "confirm": "The bars are clean and bright and the code still comes back. With the dryer unplugged, get behind the front bulkhead and check the two spade terminals on the back of the strips. A terminal that pulls off with no resistance, or shows green corrosion, is your fault and costs nothing but time."
+    },
+    {
+      "cause": "A broken or shorted wire between the sensor and the control board",
+      "frequency": "occasional",
+      "confirm": "With the dryer unplugged and the sensor disconnected, measure between each sensor wire at the board and the strip it feeds. You want continuity on each wire and no continuity between the two of them. A short between them reads to the control as permanently wet clothes, which is the other half of this fault."
+    },
+    {
+      "cause": "A temperature sensing fault on model series that use F3 E2 for the exhaust thermistor",
+      "frequency": "occasional",
+      "confirm": "Your tech sheet lists F3 E2 as a thermistor rather than a moisture sensor code, and the dryer runs very hot or will not heat at all. Measure the exhaust thermistor across its terminals with a multimeter. This is why the sheet inside your own machine matters more than any chart you find online."
+    },
+    {
+      "cause": "The main control board is misreading a good circuit",
+      "frequency": "rare",
+      "confirm": "The bars are clean, the terminals are sound, the wires check out for continuity and isolation, and F3 E2 still appears after several sensor cycles. Only at that point is the board the suspect, and that is where the cost jumps from free to a few hundred dollars."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clean the moisture sensor bars",
+      "detail": "Open the door and find the two thin metal strips, usually set into the front bulkhead near the lint screen opening. Wipe them with a cloth or cotton pad soaked in rubbing alcohol until they are bright, and give them a gentle scrub with a fine scouring pad if the film resists. Do not use steel wool or anything that gouges. This clears a large share of these codes for nothing.",
+      "minutes": 10,
+      "tools": "Rubbing alcohol, cloth or cotton pads",
+      "warning": null
+    },
+    {
+      "name": "Do a full five minute power reset",
+      "detail": "Unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes rather than a quick off and on. The board holds residual charge and a short interruption often leaves the fault latched. Restore power afterward; the stored code should be gone from the display before you run your test load.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a timed dry to prove the rest of the dryer is healthy",
+      "detail": "Load a few damp towels and run a timed heated cycle rather than a sensor cycle. Timed dry does not use the moisture sensor at all, so if the dryer heats, tumbles and dries normally on timed and only misbehaves on sensor cycles, you have confirmed the fault is in the sensing circuit and not in the heater, the motor or the vent.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the lint screen and check the vent",
+      "detail": "Wash the lint screen mesh in warm soapy water to remove the softener film, vacuum the housing below it, then pull the dryer out and check the transition duct and the outside wall cap. A restricted vent makes every drying fault worse and skews what the sensors see, so rule it out whichever way this code goes on your model.",
+      "minutes": 30,
+      "tools": "Vacuum with crevice tool, vent brush, soft brush",
+      "warning": null
+    },
+    {
+      "name": "Find the tech sheet and confirm what F3 E2 means on your model",
+      "detail": "Maytag folds a service tech sheet inside the console or tapes it behind the lower front panel on most dryers. Published charts disagree about whether F3 E2 is the moisture sensor or a thermistor, and the sheet inside your own machine is the only reference guaranteed to match it. Photograph both sides before you put it back.",
+      "minutes": 15,
+      "tools": "Phillips #2, nut driver, phone camera",
+      "warning": "Unplug at the wall before removing any panel."
+    },
+    {
+      "name": "Check the sensor terminals and wiring",
+      "detail": "With the dryer unplugged and confirmed dead, get access behind the front bulkhead as the tech sheet directs. Check the spade terminals on the back of the sensor strips for corrosion and for a loose push fit. Then measure continuity from each sensor wire back to its pin at the control board, and confirm the two wires are not shorted to each other.",
+      "minutes": 40,
+      "tools": "Multimeter, Phillips #2, nut driver, non-contact voltage tester",
+      "warning": "240 volts inside the cabinet on an electric dryer. Unplug and verify dead before reaching in."
+    },
+    {
+      "name": "Run three sensor cycles before calling it fixed",
+      "detail": "This code is often set after several loads rather than one, so a single good cycle proves nothing. Run three normal sensor-dry loads of mixed laundry, the sort that actually tumbles against the bars, and only then decide it is resolved. If it returns on the third load, you still have a circuit fault rather than a dirty sensor.",
+      "minutes": 60,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F3 E2 comes back after cleaning the bars and a reset, the useful first question is whether the dryer dries normally on timed dry. If it does, the heater, motor, airflow and thermostats are all fine and the problem really is in the sensing circuit, which keeps the repair cheap and keeps you out of the expensive parts. Work in this order. First, measure the sensor circuit itself. With the dryer unplugged, touch a multimeter probe to each sensor strip: you should read an open circuit with nothing bridging them, and continuity when you lay a damp cloth across both. A circuit that reads shorted with the drum empty means a wire has chafed through to the cabinet or the two sensor wires are touching, and that reads to the control as permanently wet laundry. Second, check the terminals on the back of the strips rather than just the strips themselves, because a spade connector that has worked loose on a vibrating bulkhead produces exactly this fault and reseating it is free. Third, measure continuity from each sensor wire to its pin at the control board, wiggling the loom as you go, since an intermittent break only shows under movement. Fourth, and this is the step people skip, confirm what F3 E2 actually means on your model. Published code charts genuinely disagree here: some assign it to the moisture sensor and some to a shorted exhaust thermistor, and a few Maytag models in this family use it for a pressure sensing circuit. The tech sheet inside your own dryer settles it, and reading it before buying a part is worth an hour. The point where the cost jumps is the control board, at roughly $150 to $300 for the part and $250 to $450 fitted, and that is only justified once the sensor, its terminals and its wiring have all been proven good. Until then, you can keep using the dryer on timed cycles without harm, which buys you time to do this properly rather than throwing parts at it.",
+  "reset_procedure": "Unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes. The wait matters because the board holds residual charge and a quick off-and-on often leaves the stored fault in place. Restore power and run a sensor cycle with a normal mixed load rather than a single bulky item, since this code is set from what the sensor sees over several loads and a bad test load can set it again immediately.",
+  "model_notes": "F3 E2 is one of the few codes in the Maytag and Whirlpool dryer family where the published references genuinely disagree. Most Maytag sources describe it as a moisture sensing fault, meaning the control went several loads without usable data from the sensor bars. Other charts assign it to a shorted exhaust thermistor, and Whirlpool's own documentation for at least one laundry tower model lists a pressure sensor switch instead. The platform is shared across Maytag, Whirlpool, Amana and KitchenAid, and the assignment moved between generations. Use the tech sheet folded inside your own console rather than a generic chart, and if the two disagree, believe the sheet.",
+  "parts": [
+    {
+      "name": "Moisture sensor bar assembly",
+      "cost": "$25 to $60",
+      "difficulty": "hard",
+      "note": "Only after cleaning and a continuity check; cleaning fixes most of these"
+    },
+    {
+      "name": "Sensor wiring harness or connector kit",
+      "cost": "$15 to $40",
+      "difficulty": "moderate",
+      "note": "For a chafed wire or a loose spade terminal, which is the cheaper find"
+    },
+    {
+      "name": "Exhaust thermistor, sold as a temperature sensor",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Only if your tech sheet assigns F3 E2 to the thermistor"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, after the sensor circuit is proven good end to end"
+    }
+  ],
+  "when_to_call": "Call an appliance technician if F3 E2 survives a clean, a reset and three normal sensor loads, because the next step is measuring the sensor circuit inside the cabinet and interpreting a tech sheet, and a technician will do that in half an hour. Call one sooner if you are not comfortable working inside a dryer fed by 240 volts. Call a licensed gas technician for anything involving the burner or gas supply on a gas model. Get a quote before agreeing to a control board, since the fitted cost often lands near half the price of a new dryer on an older machine, and in the meantime timed dry cycles will keep your laundry going.",
+  "faqs": [
+    {
+      "q": "What does F3 E2 mean on a Maytag dryer?",
+      "a": "It is a sensing-circuit fault. On most Maytag dryers it means the control went several loads without usable readings from the moisture sensor bars in the drum, so it flagged the sensing circuit. Some model series in the same family use the code for a shorted exhaust thermistor instead, which is why the tech sheet inside your machine matters."
+    },
+    {
+      "q": "Can I still use my dryer with F3 E2 showing?",
+      "a": "Yes, on timed cycles. The fault is in how the dryer judges when clothes are dry, not in its ability to heat and tumble. Set a timed dry and watch the first couple of loads so you are not over-drying. Sensor cycles will keep misbehaving until the circuit is fixed, so avoid them in the meantime."
+    },
+    {
+      "q": "How do I clean the moisture sensor bars?",
+      "a": "Find the two thin metal strips inside the drum, usually set into the front bulkhead near the lint screen opening. Wipe them with rubbing alcohol on a cloth until they are bright metal, using a fine scouring pad for stubborn film. Avoid steel wool, which scratches. Fabric softener leaves an invisible insulating layer, and this clears most F3 E2 codes."
+    },
+    {
+      "q": "Why did F3 E2 appear after I dried a comforter?",
+      "a": "Because bulky items often never touch the sensor bars. The dryer needs wet laundry to bridge the two strips to read moisture, and a single duvet tumbling in a big drum can go a whole cycle without making contact. Several such loads in a row will flag the sensing circuit. Use timed dry for bulky items."
+    },
+    {
+      "q": "Does F3 E2 mean I need a new control board?",
+      "a": "Almost never as a first answer. Most of these codes come from a filmed sensor, a loose spade terminal behind the bars, or a chafed wire, all of which are cheap or free. The board is only the suspect once the sensor measures correctly, its terminals are sound, and the wiring checks out for continuity and isolation."
+    },
+    {
+      "q": "Why do different websites give different meanings for F3 E2?",
+      "a": "Because Maytag and Whirlpool reused the code across a shared dryer platform and the assignment moved between generations. Most references say moisture sensor, some say shorted exhaust thermistor, and at least one manufacturer page lists a pressure sensor. The service tech sheet folded inside your own console is the only reference guaranteed to match your machine."
+    },
+    {
+      "q": "Where is the tech sheet on a Maytag dryer?",
+      "a": "Usually folded inside the console behind the control panel, or taped to the inside of the lower front panel. It lists the fault codes for your exact model along with sensor locations and expected readings. Photograph both sides while you have it out, because you will want it again and they tear easily."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "F3 E2 reports a sensing circuit; clean the bars first, then check the wiring behind them.",
+    "labels": {
+      "display": "F3 E2",
+      "c1": "Moisture sensor bars in the drum",
+      "c2": "Clean them with rubbing alcohol",
+      "c3": "Spade terminals behind the bulkhead",
+      "c4": "Continuity back to the control board"
+    }
+  },
+  "sources": [
+    {
+      "title": "F3E2 troubleshooting on Maytag dryers, moisture sensor guidance",
+      "publisher": "AppliancePartsPros repair guides",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer technical sheet, fault code table and sensor locations",
+      "publisher": "Service tech sheet supplied inside the dryer console",
+      "url": null
+    },
+    {
+      "title": "F3E2 error code entry for the shared Whirlpool laundry platform",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on conflicting F3E2 definitions and what actually fixes it",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F3E3",
+    "F2E1",
+    "AF",
+    "F01",
+    "PF",
+    "LOC"
+  ]
+}

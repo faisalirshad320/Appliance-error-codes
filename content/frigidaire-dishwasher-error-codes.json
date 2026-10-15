@@ -1,0 +1,220 @@
+{
+  "title": "Frigidaire Dishwasher Error Codes: What Each One Means",
+  "meta_description": "Frigidaire dishwasher codes start with a lowercase i for water faults, plus UO, HO, PF, CL and ER. Here is what each group means.",
+  "h1": "Frigidaire dishwasher error codes: what they mean and where to start",
+  "answer": "Frigidaire dishwashers report most faults as a lowercase i followed by two characters, and that family is almost entirely about water: whether enough came in, whether it all went out, and whether any of it ended up in the base pan. Everything outside the i family is a different kind of message. UO is a vent fault, HO means the machine is waiting for the water to heat, PF records a power interruption, CL means the door is not latched, and ER means a touchpad key is stuck. The two most common by a long way are the drain codes, and most of those clear with a filter clean rather than a part.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify, 20 minutes to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$130 to $350"
+  },
+  "safety_warning": "Several of these codes mean water is sitting where the pump motor and its wiring live. Switch the dishwasher off at its breaker, not just at the control panel, before removing the kickplate, reaching into the sump or tipping the machine.",
+  "causes": [
+    {
+      "cause": "Drain restriction, the i20, i40 and iF0 group",
+      "frequency": "most cases",
+      "confirm": "Standing water over the filter when you open the door at the end of a cycle. Lift the filter: a grey grease mat on the mesh, or food packed into the sump well, confirms it. The machine often also hums during the drain phase without moving any water."
+    },
+    {
+      "cause": "Water in the base pan, usually shown as i30",
+      "frequency": "common",
+      "confirm": "The machine refuses to run, and the drain pump may run continuously even with the cycle cancelled. Lay towels behind it, pull it forward and tip it back about 45 degrees with the door shut: water running out of the underside is the answer, and there is a leak above the pan feeding it."
+    },
+    {
+      "cause": "Low or slow fill, usually shown as i10",
+      "frequency": "common",
+      "confirm": "The cycle starts, runs briefly and stops with the tub dry or barely wet. Close the supply valve, undo the fill line into a bucket and open the valve for five seconds: a strong jet means the restriction is in the machine, a dribble means it is in your plumbing."
+    },
+    {
+      "cause": "A door or latch fault, shown as CL",
+      "frequency": "occasional",
+      "confirm": "The cycle will not start at all and nothing happens when you press Start. Push the door firmly until you hear the latch click. A door that has dropped slightly on its hinge, or a rack corner or large plate holding it a few millimeters open, gives exactly this."
+    },
+    {
+      "cause": "A stuck touchpad key, shown as ER",
+      "frequency": "occasional",
+      "confirm": "The panel is unresponsive or acts as though a button is held down. Press every key in turn and feel for one that does not spring back, or one that feels soft. A spill that dried under the membrane is the usual cause and it often appears a day or two after the spill."
+    },
+    {
+      "cause": "Vent assembly fault, shown as UO",
+      "frequency": "occasional",
+      "confirm": "The code appears with no water symptoms at all. The control believes the vent flap that opens to release steam is stuck in the open position. Nothing about the fault changes when you clean filters or check hoses, which is what separates it from the i family."
+    },
+    {
+      "cause": "Power interruption or supply voltage problems, shown as PF",
+      "frequency": "rare",
+      "confirm": "The code appears after a storm, an outage or a breaker trip, and the machine otherwise behaves normally. If PF keeps appearing with no outages, suspect a loose connection at the junction box under the machine or a shared circuit sagging under load."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code exactly, including whether it is an i or a letter",
+      "detail": "Write down precisely what the panel shows. An i followed by two characters is a water fault and the machine has stopped. HO is not a fault at all, it means the dishwasher is waiting for the water to reach temperature and the cycle will continue on its own. PF is a record of a power interruption rather than a breakdown. Mixing these up sends people into the sump when all they needed to do was wait.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Cancel the cycle and power cycle the machine",
+      "detail": "Press Cancel, or Start-Cancel on models that combine them, and let the machine run its drain out. Then switch it off at the breaker for three to five minutes and back on. The control stores the fault and a quick off-on often leaves the code displayed even after the problem is gone. Restart on the shortest cycle you have rather than a full wash so you get an answer in minutes.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the filter assembly and the sump",
+      "detail": "Pull the lower rack out. Twist the cylindrical filter counterclockwise and lift it out, then lift out the flat screen underneath. Scrub both under a hot tap with a dish brush, concentrating on the underside of the flat screen where the grease and lint mat builds. Clear solid debris out of the sump well with needle-nose pliers and a gloved hand, after looking in with a flashlight. Refit the flat screen seated properly and twist the cylinder clockwise until it locks.",
+      "minutes": 20,
+      "tools": "Dish brush, needle-nose pliers, work glove, flashlight",
+      "warning": "Look into the sump with a light before reaching in. Broken glass settles there."
+    },
+    {
+      "name": "Walk the drain path from the machine to the sink",
+      "detail": "Pull the dishwasher forward and follow the drain hose. Straighten kinks, free it from behind a leveling leg, and confirm it rises to just under the countertop before dropping to its connection. If it drains into a garbage disposal, check the knockout plug was removed at installation, which is the classic cause on a machine that has never drained properly since day one. Lift the chrome cap off any countertop air gap and clear the sludge out of both ports.",
+      "minutes": 25,
+      "tools": "Nut driver, bottle brush, bucket, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the water supply with a bucket test",
+      "detail": "Close the supply valve under the sink and confirm it is the lever or knob feeding the dishwasher rather than the faucet. Undo the fill line, hold the end in a bucket and open the valve for five seconds. A strong jet rules out the house plumbing in half a minute. While it is apart, check the inlet screen at the connection for grit and rinse it. Reconnect snugly and watch the joint for weeping before pushing the machine back.",
+      "minutes": 15,
+      "tools": "Adjustable wrench, bucket, towel",
+      "warning": "Close the supply valve before undoing the fill line or you take line pressure in the face."
+    },
+    {
+      "name": "Check the base pan for water",
+      "detail": "Switch off at the breaker, lay old towels behind the machine, pull it out on its feet and tip it back about 45 degrees for a minute with the door shut. Water running out of the underside means the float in the base pan has lifted and locked the machine out, and that water came from a leak you still need to find. A dry pan rules out the whole leak-detection family in two minutes.",
+      "minutes": 15,
+      "tools": "Old towels, a second pair of hands",
+      "warning": "Breaker off before tipping. There is water sitting next to mains wiring."
+    },
+    {
+      "name": "Find the model number and the tech sheet",
+      "detail": "The rating plate is on the edge of the door, visible when the door is open, or along the side of the tub. Note the full model number including any suffix. Most Frigidaire dishwashers also carry a folded tech sheet tucked behind the kickplate, and that sheet beats any code list on the internet because it is written for your exact platform, including the button sequence that puts the machine into diagnostic mode.",
+      "minutes": 10,
+      "tools": "Torx screwdriver, flashlight, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Decide repair or replace before ordering parts",
+      "detail": "Filters, hoses, door seals, floats and drain pumps are modest parts and short jobs, worth doing at almost any age. Control boards, vent assemblies and sump assemblies are not, because reaching them is most of the labor. Frigidaire dishwashers sit at the affordable end of the market, which cuts both ways: parts are cheap and widely available, but a $300 repair quote on a six-year-old machine is a large share of a new one.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the drain path is clear, the supply tests strong and the base pan is dry, stop chasing the exact characters on the display and work the group instead, because published Frigidaire code tables disagree with each other on the middle of the i range and the groups are more dependable than the numbers. Drain group first, since it is the most common and the cheapest to settle. With the filters out, remove the small pump cover in the sump floor and turn the impeller with a gloved finger: jammed means a free fix, free-spinning with a hum during the drain phase means a pump at $50 to $130, and complete silence during the drain phase means the pump is not being driven at all, which is a wiring or control problem. Leak group second. A base pan that refills within a day of being emptied has a live leak above it, and the usual suspects in order are the door gasket, the fill line connection at the inlet valve, and the pump seal. Keep running the machine and you will warp a cabinet floor, so this one is worth stopping for. Fill group third, where the bucket test has already told you whether to call a plumber or a technician; if the flow is strong and the machine still will not fill, the inlet valve is the part and it is cheap. Electronics last: a stuck key, a vent fault or a board. A stuck key is worth a real attempt before you buy anything, because pressing each button firmly in turn and cleaning a dried spill out from under the membrane sometimes frees it. If you cannot place the code at all, the fallback is better than guessing: get the full model number off the door edge, find the tech sheet behind the kickplate, and call Frigidaire support with both in hand. They are reading documentation written for your exact machine, and the i-code meanings genuinely do shift a little between platforms.",
+  "reset_procedure": "Press Cancel, or Start-Cancel on models that combine them, and let the machine complete its drain. If the code is still showing, switch the dishwasher off at its breaker for three to five minutes, or unplug it if it is cord-connected under the sink, then restore power. The control stores the fault and a quick off-on routinely leaves the code on the display even after the cause is fixed. For PF specifically, opening and closing the door is often enough to acknowledge it. None of this helps while the fault is still live: a blocked filter or a wet base pan re-posts within a minute of the next cycle.",
+  "model_notes": "Frigidaire dishwasher codes have been broadly stable across the Gallery and Professional lines and the plain Frigidaire range, but two things vary. First, published meanings for the middle of the i range differ between sources and between platforms; the drain and leak readings used here are the ones that match Frigidaire's own support material and what technicians actually find, but if nothing on this page matches your machine's behavior, trust the tech sheet behind your kickplate over any list. Second, display capability differs: models with a full digital readout show the code plainly, while models with only indicator lights report the same faults by flashing patterns, and on those the tech sheet is the only way to read them. Frigidaire shares its parent company with Electrolux, so some components and diagnostic logic carry across between the two brands' dishwashers of the same era.",
+  "parts": [
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "The most common item on the list, and usually it just needs scrubbing"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $130",
+      "difficulty": "moderate",
+      "note": "Covers most of the drain group once blockages are ruled out"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$30 to $75",
+      "difficulty": "moderate",
+      "note": "Behind the kickplate. The part behind a genuine fill fault"
+    },
+    {
+      "name": "Door gasket or tub seal",
+      "cost": "$20 to $55",
+      "difficulty": "easy",
+      "note": "A frequent leak source behind base pan codes, and a press-fit job"
+    },
+    {
+      "name": "Main control board or touchpad assembly",
+      "cost": "$120 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort. Rule out a stuck key and a dried spill first"
+    }
+  ],
+  "when_to_call": "Call a technician when the free checks are done and the next step means live testing: a silent drain pump with a clean connector, a vent fault, a board, or a base pan that refills and you cannot find the leak. Frigidaire is the easy case among the brands on this site. Parts are widely stocked, almost every independent appliance technician works on them, and you are not tied to a thin authorized network, so quotes are competitive and you can usually get someone out within a few days. That cuts the other way on the economics: because these machines are affordable to buy, a repair quote over about $300 on a machine past six years old is a large fraction of a replacement, and it is worth getting the quote in writing and pricing a new one before you agree. Call a plumber instead if a bucket test at the fill line gives a weak dribble, or if the kitchen sink gurgles and drains slowly when the dishwasher pumps out, because both of those are house plumbing and an appliance technician will charge a call-out to say exactly that.",
+  "faqs": [
+    {
+      "q": "What do the i codes mean on a Frigidaire dishwasher?",
+      "a": "They are the water fault family. Broadly, the low numbers cover water not entering fast enough, the middle of the range covers water not draining out properly or a clogged filter and sump, and one of them covers water detected in the base pan under the tub. Published meanings differ slightly between platforms, so confirm against your machine's own tech sheet."
+    },
+    {
+      "q": "What does HO mean on a Frigidaire dishwasher?",
+      "a": "It means heat delay. The machine is holding the cycle while it waits for the water to reach temperature, and it will carry on by itself once it gets there. It is not a fault. If it happens every wash, run the kitchen hot tap until it is genuinely hot before starting the dishwasher, which gives it a warm start."
+    },
+    {
+      "q": "How do I reset a Frigidaire dishwasher?",
+      "a": "Press Cancel, or Start-Cancel on models that combine them, and let it drain. If the code persists, switch the machine off at its breaker for three to five minutes and back on. The board stores the fault, so a quick off-on often leaves the code showing even after the problem is fixed. Retest on the shortest cycle."
+    },
+    {
+      "q": "Why does my Frigidaire dishwasher show PF?",
+      "a": "PF records a power interruption. It appears after an outage, a breaker trip or a voltage sag, and it is a note rather than a breakdown. Opening and closing the door usually acknowledges it. If PF keeps appearing with no outages, check the junction box connections under the machine and whether it shares a circuit with something heavy."
+    },
+    {
+      "q": "Which Frigidaire dishwasher error code is most common?",
+      "a": "The drain group, by a wide margin. Standing water over the filter at the end of a cycle is the symptom, and in most cases the cause is the filter itself, debris in the sump, or a kinked drain hose rather than a failed pump. A filter clean and a walk along the drain hose resolves the majority of them for nothing."
+    },
+    {
+      "q": "Can I use the dishwasher while a code is showing?",
+      "a": "It depends which. A heat delay message is not a fault and the cycle continues on its own. A drain code leaves dirty standing water in the tub, so another cycle just rewashes dishes in it. A base pan code locks the machine out entirely, and that one you should leave off, because the water came from a leak that gets worse."
+    },
+    {
+      "q": "What does UO mean on a Frigidaire dishwasher?",
+      "a": "The control has decided the vent assembly, the flap that opens to let steam out during drying, is stuck open. It appears without any of the water symptoms that come with the i codes, which is the giveaway. Nothing you can clean changes it, so it generally means a technician and a vent assembly or a wiring repair."
+    },
+    {
+      "q": "Is a Frigidaire dishwasher worth repairing?",
+      "a": "For filters, hoses, seals, floats and drain pumps, yes at almost any age, because the parts are cheap, widely stocked and quick to fit. For control boards, vent assemblies and sump work on a machine past about six years, usually not: these dishwashers are affordable to replace, so labor-heavy repairs land uncomfortably close to the price of a new one."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The order to work through any Frigidaire dishwasher code",
+    "labels": {
+      "display": "i--",
+      "c1": "Read the code and rule out HO and PF",
+      "c2": "Cancel, then breaker off five minutes",
+      "c3": "Clean the filter and clear the drain",
+      "c4": "Tip back to check the base pan"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes and alarms guide",
+      "publisher": "Frigidaire owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Frigidaire dishwasher tech sheet supplied behind the kickplate",
+      "publisher": "Frigidaire service documentation",
+      "url": null
+    },
+    {
+      "title": "Frigidaire dishwasher error code troubleshooting guides and drain fault field notes",
+      "publisher": "Appliance parts retailer repair resources",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of i-code variation between Frigidaire platforms",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "i20",
+    "i30",
+    "i40",
+    "UO",
+    "HO",
+    "PF"
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "LG Washer LE Error Code: Locked Motor Causes and Fix",
   "meta_description": "LE on an LG washer means the motor could not turn the drum. Usually an overloaded drum or a failed rotor position sensor. Here is how to tell which it is.",
   "h1": "LG washer LE error code: what it means and how to fix it",
-  "answer": "LE means the control told the motor to turn the drum and the drum did not move the way it was supposed to, so the washer shut the motor down to protect it. The cheapest and most common reason is simply too much in the drum, especially a load of towels or bedding that has soaked up its own weight in water. Take half of it out, unplug the machine for ten minutes to let the motor's thermal protection reset, and run a spin. If LE comes straight back on a half-empty or empty drum, the usual culprit is the rotor position sensor on the back of the motor.",
+  "answer": "LE means the control told the motor to turn the drum and the drum did not move the way it was supposed to, so the washer shut the motor down to protect it. The cheapest and most common reason is too much in the drum, especially a load of towels or bedding that has soaked up its own weight in water. Take half of it out, unplug the machine for ten minutes to let the motor's thermal protection reset, and run a spin. If LE comes straight back on a half-empty or empty drum, the usual culprit is the rotor position sensor on the back of the motor.",
   "severity": "serious",
   "can_diy": "sometimes",
   "time_estimate": "20 minutes to 2 hours",

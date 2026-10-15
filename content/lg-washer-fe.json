@@ -30,7 +30,7 @@
     {
       "cause": "A head of suds is fooling the level reading",
       "frequency": "occasional",
-      "confirm": "Foam filling the door glass, usually after using regular detergent in an HE machine or simply too much of it. Foam does not transmit pressure the way water does, so the sensor under-reads and the machine keeps adding water on top of it."
+      "confirm": "Foam filling the door glass, usually after using regular detergent in an HE machine, or too much of it. Foam does not transmit pressure the way water does, so the sensor under-reads and the machine keeps adding water on top of it."
     },
     {
       "cause": "The control board is driving the valve continuously",

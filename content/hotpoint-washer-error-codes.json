@@ -1,0 +1,139 @@
+{
+  "title": "Hotpoint Washer Error Codes: Meanings and How to Fix",
+  "meta_description": "Hotpoint washer error codes, and the thing nobody tells you: in the US Hotpoint is a GE Appliances brand, so US and UK machines use different code systems.",
+  "h1": "Hotpoint washer error codes: what they mean and where to look them up",
+  "answer": "Before you look up a Hotpoint washer code, work out which Hotpoint you own, because there are two unrelated ones. In the United States, Hotpoint is a GE Appliances brand: the machines are GE-built top loaders, parts and service come through GE Appliances, and most of them have no numeric display at all, so faults show as flashing lights or only in a service mode. In the UK and Europe, Hotpoint is a different company lineage entirely and uses F-prefixed codes on a digital display, with F05 and its neighbours covering drainage. Using the wrong brand's code chart is the single most common reason people replace the wrong part on these machines.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify, 30 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $80 for the common faults", "technician": "$140 to $350 for a typical service call" },
+  "safety_warning": "Unplug the washer at the wall before removing any panel or touching a switch, a pump connector or the wiring harness. Never defeat, bypass or jam a lid lock or door interlock; it is what stops the drum spinning with the lid open, and on a top loader it spins fast enough to break a wrist.",
+  "causes": [
+    {
+      "cause": "Drainage faults: pump blocked, hose kinked, standpipe clogged",
+      "frequency": "most cases",
+      "confirm": "The cycle stops with water in the drum and the clothes come out soaked. On a UK Hotpoint this is the F05 region of the code list and the machine has a user-accessible pump filter behind a flap at the bottom front. On a US GE-built Hotpoint top loader there is no user filter, so the check is the drain hose, the standpipe and the pump itself."
+    },
+    {
+      "cause": "Fill and water supply faults",
+      "frequency": "common",
+      "confirm": "The machine sits with the lid locked and nothing happening, or fills far more slowly than it used to. Check both taps are fully open, then undo a hose at the machine end and look at the mesh inlet screen set into the port. A screen furred brown with scale rather than bright metal is the fault, and it is the most common fill problem on any brand."
+    },
+    {
+      "cause": "Lid lock or door interlock faults",
+      "frequency": "common",
+      "confirm": "On a US top loader the lid lock light flashes or stays on and the machine refuses to spin. Press the lid down firmly and listen for the lock to click. A striker bent by someone leaning on the lid, or a lock whose plastic tab has snapped, gives exactly this. On a front loader the door will not release at the end of the cycle."
+    },
+    {
+      "cause": "Unbalanced load, motor and drive faults",
+      "frequency": "common",
+      "confirm": "The machine fills and washes but stops before or during the spin, often after thumping loudly. Open the lid and look: a single heavy item like a bath mat or a duvet wrapped to one side is the usual answer. If the load is evenly spread and it still will not spin, the problem has moved to the drive system rather than the laundry."
+    },
+    {
+      "cause": "Control board, wiring and sensor faults",
+      "frequency": "occasional",
+      "confirm": "The fault moves around, the display or lights behave oddly, or the machine fails at a different point each cycle. Before anyone blames the board, look at connectors in damp areas, especially around the pump and the lower harness, for green corrosion or a pin backed out of its housing. Those cost nothing and fail far more often than boards do."
+    },
+    {
+      "cause": "Not a fault at all: child lock, a cycle indicator or a paused cycle",
+      "frequency": "occasional",
+      "confirm": "The panel is unresponsive or a light is on that you have not seen before, but the machine is otherwise fine. Child lock, a soak or hold phase, and the lid lock indicator during a normal spin all get mistaken for faults. Check the manual's key for the exact light pattern before you start pulling the machine out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find out which Hotpoint you have",
+      "detail": "Look at the rating plate: on a top loader it is usually under the lid rim or on the back panel, on a front loader around the door opening. A US machine will reference GE Appliances and carry a GE-style model number. A UK or European machine will not. This single check decides which code list applies to you, and the two lists have nothing to do with each other.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Record exactly what the machine is showing",
+      "detail": "If there is a digital display, photograph the code. If there is not, which is normal on US Hotpoint top loaders, photograph or write down which lights are on, which are flashing, and how many flashes come between pauses. The flash count is the code on those machines, and counting it wrong sends you down the wrong path entirely. Note what point in the cycle it stops at too.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Rule out the things that are not faults",
+      "detail": "Check whether child lock is on, whether the machine is in a soak or hold phase, and whether the lid lock light is simply doing its job during a spin. Then make sure the lid or door is genuinely latched by pressing it down until it clicks. A good proportion of calls on these machines are a lid that looks shut, a control locked by a button held three seconds by a child, or a cycle that has not finished.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the washer properly",
+      "detail": "Unplug it at the wall socket and leave it for five full minutes before plugging it back in. The control stores the fault state, so a machine whose problem you have already fixed will keep reporting it until the board is reset. Then test with a rinse and spin on an empty drum rather than a full cycle, so you find out in three minutes instead of an hour.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the drain path, which is where most of these faults live",
+      "detail": "Unplug the machine. On a UK Hotpoint, open the flap at the bottom front, put a tray and towels down, turn the filter cap anticlockwise slowly and expect roughly a litre of water. Clear the lint, coins and hair out of it and check the impeller behind it turns freely. On a US GE-built top loader there is no filter to open, so instead pull the machine out, check the drain hose for kinks and crushing, and lift it out of the standpipe to check that end is clear.",
+      "minutes": 30,
+      "tools": "Towels, shallow tray, flat screwdriver or coin, bucket",
+      "warning": "Unplug before opening any pump filter or panel. The pump can run on its own if the cycle resumes."
+    },
+    {
+      "name": "Check the water supply side",
+      "detail": "Close both taps, undo the hoses at the machine end over a towel and look at the mesh screens set into the inlet ports. Pick each out with needle-nose pliers, rinse and scrub it with an old toothbrush, and push it back in squarely. Then put a hose end into a bucket and open its tap for five seconds: you want a strong jet. A weak dribble means the restriction is in your plumbing, not the washer.",
+      "minutes": 20,
+      "tools": "Pliers, old toothbrush, bucket, towels",
+      "warning": "Close the taps before undoing a hose or you take mains pressure in the face."
+    },
+    {
+      "name": "Redistribute the load before suspecting the drive",
+      "detail": "If the machine stops at the spin, open it up and spread the laundry evenly around the drum. A single bath mat, a duvet or a pair of jeans knotted into a ball defeats the balance sensing on any washer, and the machine is behaving correctly by refusing to spin. Add a couple of towels to a small heavy load to help it balance, close up and run a rinse and spin to test.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look up the code against literature for your exact model",
+      "detail": "For a US machine, use GE Appliances owner support with the full model number, and look for the tech sheet tucked inside the machine, usually behind the lower panel or under the console. For a UK machine, use the Hotpoint support site for that model. Where a generic online chart and the model literature disagree, believe the literature: published Hotpoint charts contradict one another on several codes.",
+      "minutes": 15,
+      "tools": "Phone or laptop",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the reset did not hold and the obvious things are ruled out, the order below runs from free to expensive. First, pin the fault to a point in the cycle. A machine that will not fill, one that fills and will not drain, and one that drains and will not spin are three separate repairs, and watching one cycle through with the lid open where you safely can tells you more than any code chart. Second, if it will not drain, and you have a US top loader with no accessible filter, the blockage is usually either in the drain hose where it leaves the cabinet or a sock that has gone over the top of the tub and lodged in the pump inlet. Tip the machine back and check the pump: debris sitting in the pump housing is common and free to clear. Third, if it will not spin with a balanced load, check the lid lock before anything in the drive system. The control will not permit a spin until the lock confirms itself, so a failed lock presents as a drive fault. A lid lock assembly is typically $30 to $80 and on most GE-built top loaders it is a couple of screws under the console lip. Fourth, if the lock is good and the drum still will not spin, listen during the attempt: a hum with no movement points at the drive, while complete silence points at the control or the lock circuit. Fifth, before anyone sells you a control board, have every connector in the lower harness inspected for corrosion, especially around the pump, because damp laundry rooms kill connectors far more often than they kill boards and a board is the one genuinely expensive part on these machines. One last point that saves people real money: if you own a US Hotpoint and have been working from a UK F-code chart, or the reverse, start again. The two brands share a name and nothing else, and a chart for the wrong one will confidently tell you to replace a part your machine does not have.",
+  "reset_procedure": "Unplug the washer at the wall for five full minutes, then restore power and run a rinse and spin on an empty drum. A quick switch off and on usually does not clear a stored fault, because the control holds residual charge. On machines with a dial, turning it to Off first and then unplugging is cleaner, since it cancels the cycle rather than pausing it. If the code returns during the test cycle rather than at power-up, the fault is live and the reset has told you so.",
+  "model_notes": "The important difference is not between model years but between two unrelated companies that share the name. In the United States, Hotpoint is a GE Appliances brand, and GE Appliances is owned by Haier; the washers are GE-designed top loaders, the parts counter looks them up through GE systems, and support goes through GE Appliances rather than any separate Hotpoint organization. That is worth knowing because owners routinely conclude there is no support for their machine. Most of these US machines are mechanical or simple electronic top loaders with no numeric display, so faults are signalled by lights and flash counts rather than codes, and some have a service mode that must be entered from the console to read a stored fault. In the UK and Europe, Hotpoint is part of the Indesit lineage, now within Whirlpool's European business, and those machines are mostly front loaders with a digital display showing F-prefixed codes and a user-accessible drain pump filter behind a flap. Published UK F-code tables disagree with each other on several codes, including the door and motor codes, so match any chart against the model-specific literature.",
+  "parts": [
+    { "name": "Lid lock or door interlock assembly", "cost": "$30 to $80", "difficulty": "moderate", "note": "Common on US top loaders that wash but refuse to spin" },
+    { "name": "Drain pump", "cost": "$30 to $90", "difficulty": "moderate", "note": "Check for a blockage in the housing before replacing" },
+    { "name": "Water inlet valve", "cost": "$25 to $70", "difficulty": "moderate", "note": "Clean the inlet mesh screens first; they fail far more often" },
+    { "name": "Drain hose", "cost": "$12 to $30", "difficulty": "easy", "note": "Replace if crushed flat behind the machine or split at a bend" },
+    { "name": "Main control board", "cost": "$120 to $300", "difficulty": "technician only", "note": "Last resort, and only after the harness connectors have been inspected" }
+  ],
+  "when_to_call": "Call for service if the machine will not spin with a balanced load and a confirmed good lid lock, because the next step is diagnosing the drive and motor circuit on a live machine. Call if you smell burning, see scorched plastic at a connector, or the washer trips the breaker, and leave it unplugged until someone has looked at it. Call a plumber rather than an appliance technician if a bucket test shows weak flow at the tap or the standpipe backs up when any other appliance drains, since those faults are in your house rather than your washer and an appliance engineer will charge a call-out to tell you so. For US machines, book through GE Appliances service rather than searching for a Hotpoint-specific repairer, because that is where the parts and the service literature actually live.",
+  "faqs": [
+    { "q": "Is Hotpoint the same as GE?", "a": "In the United States, yes in the ways that matter. Hotpoint is a GE Appliances brand, GE Appliances is owned by Haier, and Hotpoint laundry is built on GE platforms. Parts, manuals and service all go through GE Appliances. This is why searching for Hotpoint support turns up so little: you should be searching GE Appliances with your model number instead." },
+    { "q": "Why does my Hotpoint washer not show an error code?", "a": "Because most US Hotpoint top loaders have no numeric display. They report faults through the indicator lights, usually as a flashing pattern, and some store codes that can only be read by entering a service mode from the console. Count the flashes between pauses and note which lights are involved, then match that against the literature for your model number." },
+    { "q": "What does F05 mean on a Hotpoint washing machine?", "a": "On UK and European Hotpoint machines, the F05 region of the code list covers drainage: the machine could not empty in the time allowed. Start with the pump filter behind the flap at the bottom front, then the drain hose and the standpipe. US Hotpoint machines do not use F codes at all, so if you have one, this code is not from your washer." },
+    { "q": "Can I still use the washer with a fault showing?", "a": "It depends on which fault. A drainage fault leaves water in the drum and nothing will wash until it is cleared. An unbalanced load fault just needs the laundry spread out. A lid lock fault means the machine will not spin, so clothes come out soaked, and you should not try to work around it: the lock is the only thing stopping a spinning drum with the lid open." },
+    { "q": "Why do online Hotpoint code lists contradict each other?", "a": "Partly because two unrelated Hotpoint businesses exist, and partly because even within the UK range the published tables disagree on several codes, notably door and motor faults. There is no reliable universal chart. The code list in the manual for your exact model number, or the tech sheet inside the machine, is the only one worth trusting." },
+    { "q": "Where is the drain filter on a Hotpoint washer?", "a": "On UK and European front loaders it is behind a small flap at the bottom front, and the cap turns anticlockwise with a tray and towels underneath. On US GE-built Hotpoint top loaders there is no user-accessible filter at all; the pump is reached from underneath or behind the cabinet. If you have been looking for a flap and cannot find one, that is probably why." },
+    { "q": "Is an older Hotpoint washer worth repairing?", "a": "Often yes, because the common faults are cheap and these are simple machines. A lid lock is $30 to $80, a pump $30 to $90, a hose under $30. The point where it stops making sense is a main control board or a drive and bearing repair on a machine already past about ten years, where the bill approaches the price of a basic new washer." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Identify which Hotpoint you own first, then work the cycle in order.",
+    "labels": {
+      "display": "F05",
+      "c1": "Rating plate names the brand",
+      "c2": "Count the flashing lights",
+      "c3": "Five minute power reset",
+      "c4": "Drain path before parts"
+    }
+  },
+  "sources": [
+    { "title": "Hotpoint laundry owner manuals and troubleshooting, accessed by model number", "publisher": "GE Appliances owner support, United States", "url": null },
+    { "title": "Washer tech sheet supplied inside the machine, fault indication and service mode", "publisher": "GE Appliances service literature", "url": null },
+    { "title": "Hotpoint washing machine fault code listings for UK and European models", "publisher": "Hotpoint UK customer support", "url": null },
+    { "title": "Comparison of published Hotpoint F-code tables, which disagree on several codes", "publisher": "UK appliance repair reference sites", "url": null }
+  ],
+  "related_codes": ["F05", "F06", "F08", "F11"]
+}

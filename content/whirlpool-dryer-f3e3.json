@@ -1,0 +1,132 @@
+{
+  "title": "Whirlpool Dryer F3 E3 Code: Inlet Thermistor Fault",
+  "meta_description": "F3 E3 on a Whirlpool dryer points at the inlet thermistor, the sensor reading incoming air temperature. Check the vent first, then the sensor wiring.",
+  "h1": "Whirlpool dryer F3 E3 error code: the inlet temperature sensor",
+  "answer": "F3 E3 points at the inlet thermistor, the small temperature sensor that tells the control how hot the air entering the drum is. In Whirlpool's two-part system F3 is the sensing function and the E number says which sensor, so E3 is the inlet side rather than the exhaust. The control has read a value outside what is possible, which means the sensor is open, shorted, disconnected, or genuinely seeing a temperature it should never see. Check the vent before you touch the sensor, because a blocked duct makes the inlet air hot enough to trip this code with a perfectly good thermistor.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$170 to $330" },
+  "safety_warning": "The thermistor sits in the heater and blower area on a machine fed by a 240 volt circuit, next to components that run hot. Unplug the dryer or switch off its breaker before removing any panel, and let the dryer cool for half an hour before putting your hands near the heater housing. On a gas model, close the gas shutoff valve before moving the machine, and do not disturb the burner, the gas valve or their wiring; that is licensed work.",
+  "causes": [
+    {
+      "cause": "A restricted vent making the incoming air far too hot",
+      "frequency": "most cases",
+      "confirm": "The dryer has been taking longer and longer to dry, the drum and the clothes come out very hot, or you have seen an AF or F4 E3 code recently. Pull the duct off the back of the dryer and look inside. A felted lining or a plug at the first bend means the sensor is reporting a real condition, not a fault in itself."
+    },
+    {
+      "cause": "A loose or corroded connector at the thermistor",
+      "frequency": "common",
+      "confirm": "With the dryer unplugged and the panel off, pull the two-wire connector off the thermistor and push it back on. A plug that lifts away with no resistance, shows green corrosion, or has a pin backed out of the housing produces exactly this code and costs nothing to fix."
+    },
+    {
+      "cause": "The inlet thermistor has failed open or shorted",
+      "frequency": "common",
+      "confirm": "Measure across the thermistor's two terminals with a multimeter on ohms with the dryer unplugged. Infinite resistance means it is open, near zero means it is shorted, and both mean the part is dead. The correct resistance for your model at room temperature is on the technical sheet inside the machine; do not work from a figure found online."
+    },
+    {
+      "cause": "A chafed or broken wire in the sensor harness",
+      "frequency": "occasional",
+      "confirm": "The thermistor measures correctly at its own terminals but the code persists. Follow the two wires back from the sensor, looking at every point where they pass over sheet metal or near the heater. A flat spot, a nick in the insulation, or melted sheathing is the fault."
+    },
+    {
+      "cause": "The heater or its relay is running when it should not",
+      "frequency": "occasional",
+      "confirm": "The dryer gets alarmingly hot, trips a thermal cut-out, or the drum is too hot to touch after a short run. A heater relay stuck closed drives the inlet temperature past anything the thermistor should see. Stop using the dryer and get a technician; this is not a sensor problem."
+    },
+    {
+      "cause": "The main control board is misreading the sensor circuit",
+      "frequency": "rare",
+      "confirm": "Vent clear, thermistor measures within the figure on the technical sheet, harness sound, connectors reseated, and F3 E3 still appears. This is the last suspect and needs a technician with a meter rather than a parts order."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clear the lint screen and check the vent run first",
+      "detail": "Pull the lint screen, clean it, wash the mesh with warm water and dish soap to strip the softener film, and vacuum the housing below it. Then unplug the dryer, pull it out, take the duct off the back and look inside. Clear the transition duct, the wall run and the outside cap. A blocked vent makes the inlet air hot enough to trigger this code on a perfectly healthy sensor, so this comes before anything electrical.",
+      "minutes": 45,
+      "tools": "Vacuum with crevice tool, vent brush, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Let the dryer cool, then reset the control",
+      "detail": "Give the machine half an hour to cool down with the door open before you do anything else. Then switch the breaker off for five minutes, restore power, and wait ten seconds before pressing anything. A thermistor code set during an overheat sometimes stays latched after the condition has gone, so a reset after clearing the vent tells you whether the vent was the whole story.",
+      "minutes": 35,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug and open up to reach the thermistor",
+      "detail": "Breaker off and plug out. On most Whirlpool dryers the inlet thermistor is in the heater or blower housing, reached by removing the lower front panel or the rear panel depending on model. Photograph the layout before you disconnect anything. The technical sheet folded inside the console or behind the lower panel shows where the sensor sits on your exact machine.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, nut driver set, phone camera",
+      "warning": "Unplug at the wall before any panel comes off, and let the heater housing cool. On a gas model, close the gas shutoff valve first and leave the burner and gas valve alone."
+    },
+    {
+      "name": "Reseat the connector and inspect the wiring",
+      "detail": "Pull the two-wire plug off the thermistor and push it back until it seats, checking the housing for green corrosion or a terminal that has backed out. Then run the two wires through your fingers back toward the control, looking for a flat spot, a nick, or melted insulation where they pass a metal edge or run near the heater. A broken wire looks identical to a failed sensor from the control's point of view.",
+      "minutes": 20,
+      "tools": "Flashlight, small flat screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Measure the thermistor",
+      "detail": "With the dryer still unplugged, pull the connector and measure across the thermistor's two terminals with a multimeter set to ohms. You are looking for a sensible reading that changes as the sensor warms in your hand, not infinity and not zero. Infinite means open, near zero means shorted, and both mean replace it. The correct resistance at room temperature for your model is printed on the technical sheet inside the machine; use that figure and nothing else.",
+      "minutes": 15,
+      "tools": "Multimeter",
+      "warning": "Measure only with the dryer unplugged. Never probe a live heater circuit."
+    },
+    {
+      "name": "Replace the thermistor if it reads wrong",
+      "detail": "The sensor is usually held by a single screw or a clip and unplugs from a two-wire connector. Fit the new one in the same orientation with the same fastener, press the connector until it clicks, and make sure the wires are routed clear of the blower wheel and any sharp edge. Refit the panel before restoring power. Allow about half an hour including getting the panel back on.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, nut driver set",
+      "warning": null
+    },
+    {
+      "name": "Test with a real load and watch the temperature",
+      "detail": "Run a normal heated cycle with damp towels. The drum should get warm rather than fiercely hot, and the exhaust at the outside cap should feel like a steady push of warm, humid air. If the dryer now runs cool, or if it gets hotter than it used to, stop and get a technician, because a heat problem on a dryer is not something to live with.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F3 E3 survives a vent clean and a reset, work the electrical side in order of cost. First, reseat the thermistor connector and check the two wires for chafe, because a broken wire and a dead sensor look identical to the control and one of them is free to fix. Pay particular attention anywhere the harness crosses a sheet metal edge or runs within a few inches of the heater, which is where insulation hardens and cracks over the years. Second, measure the thermistor with the machine unplugged, and compare it against the figure on the technical sheet folded inside your own dryer rather than any number from the internet. Thermistor values differ between models and a wrong reference figure sends people to buy parts they did not need. Open circuit or dead short both condemn the sensor; a reading that moves as you warm the sensor in your hand means it is alive. Third, if the sensor reads correctly and the harness is sound, think about what else could be driving the inlet air out of range. A heater relay stuck closed keeps the element on when the control has asked for heat off, and that pushes the inlet temperature past anything the sensor should ever see. The symptom is a dryer that gets frighteningly hot or keeps tripping its thermal cut-out, and that is a stop-using-it situation rather than a weekend project. Fourth, the expensive end is the main control board misreading the sensing circuit, which runs $150 to $320 as a part and is where a technician visit lands you at $170 to $330 or more. Nobody should buy a board for F3 E3 until the vent, the connectors, the harness and the thermistor itself have all been cleared, because three of those four are cheap and one of them is usually the answer. One practical note: if your dryer still heats and dries normally and the code appears only occasionally, the most likely explanation is still an airflow restriction you have not fully cleared, so walk the whole duct run to the outside again before you conclude the machine is at fault.",
+  "reset_procedure": "Let the dryer cool for half an hour with the door open, then switch its breaker off for five full minutes or leave it unplugged. Restore power and wait ten seconds before selecting a cycle. Test with a normal heated cycle on damp towels rather than an air-fluff cycle, since an unheated cycle will not exercise the sensor and will run fine whether the fault is fixed or not.",
+  "model_notes": "F3 E3 belongs to Whirlpool's two-part code system used from roughly the 2012 dryer generation onward and shared with Maytag, Amana and KitchenAid machines on the same platform. The whole F3 family is sensing: F3 E1 is the exhaust thermistor, F3 E2 the moisture sensor in the drum, F3 E3 the inlet thermistor. Whirlpool publishes these headings with very little explanatory text, and third-party code lists disagree in places about which E number maps to which sensor, so for your exact machine the technical sheet folded inside the console or behind the lower access panel is the authority. What does not vary is the approach: clear the vent, check the connector and harness, measure the sensor against your own model's figure, and leave the control board for last.",
+  "parts": [
+    { "name": "Inlet thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "Usually one screw or clip and a two-wire plug; order by exact model number" },
+    { "name": "Thermistor wiring harness", "cost": "$15 to $45", "difficulty": "moderate", "note": "For a chafed or melted wire; cheaper than replacing a sensor that is actually fine" },
+    { "name": "Thermal cut-out and high limit thermostat kit", "cost": "$20 to $50", "difficulty": "moderate", "note": "Worth fitting if the dryer has been overheating against a blocked vent" },
+    { "name": "Semi-rigid aluminum transition duct", "cost": "$12 to $25", "difficulty": "easy", "note": "If the restriction causing the overheat was the duct behind the machine" },
+    { "name": "Main electronic control board", "cost": "$150 to $320", "difficulty": "technician only", "note": "Last resort, after vent, connector, harness and sensor have all been cleared" }
+  ],
+  "when_to_call": "Call a technician if the thermistor measures correctly against your model's own figure, the harness and connectors are sound, the vent is genuinely clear, and the code still appears, because the next step is testing the sensing circuit at the board with the machine live. Call one straight away, and stop using the dryer in the meantime, if the drum or the clothes come out dangerously hot or the dryer keeps tripping its thermal cut-out, since a stuck heater relay is a fire risk rather than an inconvenience. Anything involving the burner, the gas valve or their wiring on a gas model goes to a licensed gas technician, full stop.",
+  "faqs": [
+    { "q": "What does F3 E3 mean on a Whirlpool dryer?", "a": "It points at the inlet thermistor, the sensor that reads the temperature of air entering the drum. F3 is the sensing function and E3 identifies the inlet side. The control has seen a reading outside the possible range, which means the sensor is open, shorted, disconnected, or genuinely reading air that is far too hot." },
+    { "q": "Why should I check the vent for a sensor code?", "a": "Because a blocked vent makes the incoming air hot enough to drive the thermistor outside its expected range, so the sensor reports a real condition rather than a fault in itself. Clearing the duct fixes a meaningful share of F3 E3 codes at no cost, and if you replace the sensor without clearing the duct the code comes back." },
+    { "q": "Can I still use the dryer with F3 E3?", "a": "Not sensibly. The control uses the inlet temperature to decide when to run the heater, so with the sensor unreadable the dryer either will not heat or will not manage its heat properly. If the drum or the laundry is coming out unusually hot, stop using it entirely until it is diagnosed, because that is the version of this fault that matters." },
+    { "q": "How do I test the inlet thermistor?", "a": "Unplug the dryer, reach the sensor behind the lower front or rear panel, pull its two-wire plug and measure across the terminals with a multimeter on ohms. Infinite resistance means open, near zero means shorted, and either condemns the part. The correct room-temperature figure for your model is on the technical sheet inside the machine." },
+    { "q": "How much does it cost to fix F3 E3?", "a": "Nothing at all if the cause was a blocked vent or a loose connector, which covers a lot of cases. A new inlet thermistor is $20 to $60 as a part and about half an hour of work. A technician visit lands around $170 to $330. The main control board, at $150 to $320, is the only expensive answer and it is rare." },
+    { "q": "What is the difference between F3 E1 and F3 E3?", "a": "Different sensors in the same family. F3 E1 is the exhaust thermistor, reading air leaving the drum, and F3 E3 is the inlet thermistor, reading air going in. F3 E2 is the moisture sensor in the drum opening. Code lists from third-party sites sometimes disagree about the mapping, so trust your machine's own technical sheet." },
+    { "q": "Why did F3 E3 appear suddenly?", "a": "Usually because a vent restriction finally crossed a threshold after months of gradual lint build-up, which makes a slow problem look like an overnight failure. The other common trigger is a connector that has worked loose with vibration, or a wire that has chafed through where it passes a metal edge near the heater." }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "The inlet sensor and the four things that make it read wrong",
+    "labels": {
+      "display": "F3 E3",
+      "c1": "Clear the vent run first",
+      "c2": "Inlet thermistor at heater housing",
+      "c3": "Reseat the two-wire connector",
+      "c4": "Measure against your tech sheet"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing, F3 sensing code family", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool dryer technical sheet, thermistor resistance values and fault codes", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "Whirlpool and Maytag dryer F and E code guide, thermistor codes", "publisher": "HomeServe appliance troubleshooting guide", "url": null },
+    { "title": "Field reports on F3 E3 traced to vent restriction and chafed sensor wiring", "publisher": "Appliance technician Q and A sites and r/appliancerepair threads", "url": null }
+  ],
+  "related_codes": ["F3 E1", "F3 E2", "AF", "F4 E3", "F1 E1"]
+}

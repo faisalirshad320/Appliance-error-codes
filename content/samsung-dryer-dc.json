@@ -1,0 +1,202 @@
+{
+  "title": "Samsung Dryer dC Code: Door Not Closed, and the Fix",
+  "meta_description": "dC on a Samsung dryer means the control cannot see the door as shut, so it will not run. Usually a worn catch or a lint-packed strike.",
+  "h1": "Samsung dryer dC error code: what it means and how to fix it",
+  "answer": "dC on a Samsung dryer means the machine does not believe the door is closed, so it refuses to start or stops partway through a cycle. Either the door genuinely is not latching, or the switch that tells the control it has latched is not making contact. Shut the door with a firm push and watch for the drum light going out, then clear lint out of the strike opening and check the catch for wear. Samsung displays the same fault as dE on older dryers. It is not the same code as dC on a Samsung washer, which is about the door failing to lock.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to check, 45 minutes to change a door switch",
+  "cost_estimate": {
+    "diy": "$15 to $60",
+    "technician": "$150 to $280"
+  },
+  "safety_warning": "Unplug the dryer at the outlet or switch off its breaker before removing the control panel, the front panel or any connector. On a gas dryer, leave the gas line alone entirely; any work on the gas connection goes to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The door is not actually latching",
+      "frequency": "most cases",
+      "confirm": "Push the door shut and watch the drum light. If it stays on, or if the door springs back a few millimetres when you let go, it is not latched. A sleeve, a duvet corner or a towel edge trapped in the opening is enough. So is a dryer that is not level, which lets the door hang away from the strike."
+    },
+    {
+      "cause": "Lint packed into the strike opening or the catch",
+      "frequency": "most cases",
+      "confirm": "Shine a light into the hole the door catch goes into. Felted lint builds up in there over years and stops the catch travelling far enough to press the switch. The door will feel like it shuts but will have a slightly soft, cushioned feel at the end of its travel rather than a clean click."
+    },
+    {
+      "cause": "The door catch or strike is worn, loose or cracked",
+      "frequency": "common",
+      "confirm": "Look at the plastic catch on the door edge and the strike it enters. Rounded corners, a visible crack, or a catch that wobbles when you push it sideways all mean it is no longer pressing the switch reliably. This is the usual wear-out path on a dryer that has done several thousand cycles."
+    },
+    {
+      "cause": "The door switch itself has failed",
+      "frequency": "common",
+      "confirm": "The door closes with a proper click, the strike is clear, and dC still appears. With the dryer unplugged, put a multimeter on continuity across the switch terminals and operate its plunger or magnet by hand. A switch that never changes state is dead, and it is an inexpensive part."
+    },
+    {
+      "cause": "Hinges have sagged or the door is out of line",
+      "frequency": "occasional",
+      "confirm": "Hold the door at the handle edge and lift. More than a little movement means the hinge screws have worked loose or the hinge has worn, so the catch meets the strike at an angle. Common on dryers where the door gets used as a shelf for folding."
+    },
+    {
+      "cause": "Damaged wiring or a loose connector at the door switch",
+      "frequency": "occasional",
+      "confirm": "With the power off, unplug the connector at the switch and look for a pushed-back pin, green corrosion, or chafed insulation where the loom passes a sheet metal edge. A switch that tests fine on the bench but never reports closed in the machine is a wiring fault, not a switch fault."
+    },
+    {
+      "cause": "The control board is not reading the door input",
+      "frequency": "rare",
+      "confirm": "A new switch, a clean strike, a good harness and the code is still there. Before blaming the board, check its connector for corrosion, because dryers in garages and basements get damp. This is the point where the repair stops being cheap."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Close the door properly and check the drum light",
+      "detail": "Open the door fully, run a hand around the whole opening and pull out anything caught in it, then push it shut with a deliberate firm press rather than a nudge. The drum light should go out as it latches and you should hear a clean click. If the light stays on, the switch is not being pressed and you have confirmed the fault is mechanical rather than electronic.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear the strike opening and the catch",
+      "detail": "Shine a flashlight into the recess the door catch enters. Pick the felted lint out of it with a thin screwdriver or a vacuum crevice tool, and wipe the catch on the door edge with a damp cloth. Years of lint in that hole is one of the two most common causes of dC and it costs nothing to fix. Shut the door afterwards and feel for a crisper click than before.",
+      "minutes": 10,
+      "tools": "Flashlight, vacuum with crevice tool, small flat screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Cut power for two minutes",
+      "detail": "Press Power to turn the dryer off, then unplug it at the outlet or switch off its breaker and leave it for at least two minutes before restoring power. The control stores the door fault and will keep showing dC after the door is latching correctly again. Start a short timed cycle to test rather than a full load, so you know within a minute whether it took.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door alignment and the hinge screws",
+      "detail": "Hold the door open at ninety degrees and lift gently at the handle edge. If it moves more than a little, tighten the hinge screws where the hinge meets the dryer front. Then check the dryer itself is level front to back and side to side; an unlevel cabinet twists slightly and pulls the door away from the strike. Adjust the feet until it sits solid with no rock.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Test the door switch for continuity",
+      "detail": "Unplug the dryer. The door switch sits in the front panel at the strike, reached either through the top panel or by removing the front panel screws, depending on the model. Disconnect its wires, put a multimeter on continuity across the terminals, and press and release the plunger. It should make and break cleanly every time. A switch that reads the same in both positions has failed and needs replacing.",
+      "minutes": 25,
+      "tools": "Multimeter, Phillips #2 screwdriver, nut driver",
+      "warning": "Unplug at the outlet first. Never test a door switch with the dryer powered."
+    },
+    {
+      "name": "Fit the replacement switch or catch",
+      "detail": "Order parts by the full model number from the sticker inside the door opening, not by appearance, because Samsung uses several door switch designs across its dryer range. The switch usually clips into the front panel and takes two spade connectors; the catch is normally a single screw on the door edge. Refit everything, close the door, and confirm the drum light goes out before you run a cycle.",
+      "minutes": 40,
+      "tools": "Phillips #2 screwdriver, nut driver, needle-nose pliers",
+      "warning": "Unplug the dryer throughout. Do not tape, jam or bypass the door switch to run a load."
+    }
+  ],
+  "still_showing": "If the door latches with a clean click, the strike is clear and a power cut has not helped, go through this in order. Start with the cheapest test there is: watch the drum light as you close the door. If it goes out, the switch is being operated and the fault is electrical past that point. If it stays on, the switch is not being pressed and the problem is still mechanical, so look again at the catch for wear and at whether the whole door sits flush against the cabinet all the way round. Next, with the dryer unplugged, get to the switch and test it for continuity while working the plunger by hand. A switch that never changes state is a part costing roughly $15 to $45 and it is one of the easier jobs on a dryer. If the switch tests good, move to its wiring: pull the connector, check for a pin that has backed out of the housing, green corrosion from a damp laundry room, or insulation chafed through where the loom passes a sheet metal edge. A broken conductor inside intact insulation is common on dryers that have been pulled out and pushed back many times, and it shows up as an intermittent dC that comes and goes with vibration. Wiggle the harness with the machine running a test cycle and see whether you can provoke it. If switch, catch and harness are all sound, the remaining suspect is the main control board input, and that is where the bill jumps from under $50 to somewhere between $150 and $280 with labor. Before agreeing to a board, ask the technician to confirm the switch signal is actually reaching the board, because a board replaced for a harness fault fixes nothing. One thing worth ruling out along the way: if your dryer is stacked on a washer or sits on a pedestal, check that the whole assembly is not rocking. Movement during a cycle can lift the door off the strike just enough to drop the switch mid-cycle, which looks exactly like an intermittent electrical fault and is cured by levelling the pair.",
+  "reset_procedure": "Press Power to turn the dryer off, then unplug it at the outlet or switch off its breaker for at least two minutes before restoring power. The control latches the door fault, so dC can sit on the display even after the door starts latching correctly. Test with a short timed cycle rather than a full load. If dC comes back the instant you press Start with the door clearly shut and the drum light out, the switch circuit is open and the fault is real rather than stored.",
+  "model_notes": "Samsung renamed many of its fault codes around 2017, swapping a trailing E for a C, so older Samsung dryers show dE for exactly this door fault and newer ones show dC. They mean the same thing and the fixes are identical. The code is also easy to confuse across appliances: dC on a Samsung washer means the door would not lock, which is a different mechanism with a motorised latch rather than a simple switch, so check which machine in a stacked pair is actually displaying it. Door switch design varies across the dryer range, with some models using a plunger pressed by the catch and others using a magnet and reed switch, which changes how you test it.",
+  "parts": [
+    {
+      "name": "Door switch",
+      "cost": "$15 to $45",
+      "difficulty": "easy",
+      "note": "Order by full model number; Samsung uses several designs"
+    },
+    {
+      "name": "Door catch or strike",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "Usually a single screw on the door edge"
+    },
+    {
+      "name": "Door hinge assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Only if the door visibly drops when lifted at the handle edge"
+    },
+    {
+      "name": "Door switch wiring harness",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "For chafed or corroded wiring rather than a failed switch"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$140 to $280",
+      "difficulty": "technician only",
+      "note": "Last resort, after confirming the switch signal does not reach it"
+    }
+  ],
+  "when_to_call": "Call a technician when the switch tests good, the harness looks sound and dC is still there, because the next step is tracing the door circuit back to the board on a powered machine. Call sooner if the dryer is gas and you are not comfortable moving it to get at the front panel, since the flexible gas connector should not be stressed and anything involving the gas line is licensed work. Expect $150 to $280 for a door circuit fault diagnosed and repaired, which is worth weighing against the age of the dryer if the quote comes back pointing at the control board. What is not worth paying for is a technician to pick lint out of a strike opening, so do that yourself first.",
+  "faqs": [
+    {
+      "q": "What does dC mean on a Samsung dryer?",
+      "a": "The dryer cannot confirm the door is closed, so it will not start or it stops mid-cycle. Either the door is not latching or the switch that reports the latch has failed. Close the door firmly and watch the drum light: if the light stays on, the switch is not being pressed and the problem is mechanical."
+    },
+    {
+      "q": "Is the dryer dC code the same as the washer dC code?",
+      "a": "No, and the confusion is constant in stacked laundry pairs. On a Samsung dryer dC means the door is not detected as closed, which is a simple switch. On a Samsung washer dC means the door failed to lock, which involves a motorised latch that physically bolts the door shut. Check which unit is actually displaying the code."
+    },
+    {
+      "q": "What is the difference between dC and dE on a Samsung dryer?",
+      "a": "Nothing. Samsung renamed many codes around 2017, changing a trailing E to a C, so older dryers show dE and newer ones show dC for the same door fault. Every check on this page applies to both. If you have an older machine, expect a physical plunger switch rather than a magnetic one."
+    },
+    {
+      "q": "Can I still use my dryer with a dC code?",
+      "a": "No, because the dryer will not run a cycle without the door confirmed shut, and that is deliberate. Do not tape or jam the switch to force it; the door circuit is what stops the drum turning and the heater firing with the door open. Clear the strike opening and reset the power first, as that fixes most cases."
+    },
+    {
+      "q": "Why does dC appear partway through a cycle?",
+      "a": "The switch is dropping out under vibration. Usually that means a worn catch, a sagging hinge, or a dryer or pedestal that rocks enough during the cycle to lift the door off the strike for a moment. Level the machine, tighten the hinge screws, and check the catch for rounded corners before buying any electrical parts."
+    },
+    {
+      "q": "How much does it cost to fix dC on a Samsung dryer?",
+      "a": "Often nothing, because clearing lint from the strike opening and resetting the power is the fix in a large share of cases. A door switch is roughly $15 to $45 and is a straightforward home job. A technician diagnosing and repairing the door circuit typically lands between $150 and $280 including labor."
+    },
+    {
+      "q": "Where is the door switch on a Samsung dryer?",
+      "a": "In the front panel, right at the strike opening the door catch goes into. Getting to it means removing either the top panel or the front panel depending on the model. Some Samsung dryers use a plunger pressed by the catch and others use a magnet and a reed switch, so check your model before ordering a part."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "What the dryer checks before it will start, and the four places dC comes from.",
+    "labels": {
+      "display": "dC",
+      "c1": "Door latched, drum light out",
+      "c2": "Lint packed in the strike",
+      "c3": "Worn catch on the door edge",
+      "c4": "Door switch and its wiring"
+    }
+  },
+  "sources": [
+    {
+      "title": "Samsung dryer displays an error code, door error guidance",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Common Samsung dryer error codes and their meaning",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung dryer owner's manual, information codes section",
+      "publisher": "Samsung owner's manual supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Field reports on door switch, catch wear and intermittent door faults",
+      "publisher": "Samsung community forums and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "dE",
+    "dO",
+    "HC",
+    "hE",
+    "CL9",
+    "tC"
+  ]
+}
