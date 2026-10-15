@@ -57,7 +57,7 @@
     },
     {
       "name": "Rule out the things that are not faults",
-      "detail": "Check whether child lock is on, whether the machine is in a soak or hold phase, and whether the lid lock light is simply doing its job during a spin. Then make sure the lid or door is genuinely latched by pressing it down until it clicks. A good proportion of calls on these machines are a lid that looks shut, a control locked by a button held three seconds by a child, or a cycle that has not finished.",
+      "detail": "Check whether child lock is on, whether the machine is in a soak or hold phase, and whether the lid lock light is doing its job during a normal spin. Then make sure the lid or door is genuinely latched by pressing it down until it clicks. A good proportion of calls on these machines are a lid that looks shut, a control locked by a button held three seconds by a child, or a cycle that has not finished.",
       "minutes": 10,
       "tools": null,
       "warning": null

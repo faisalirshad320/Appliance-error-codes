@@ -1,0 +1,215 @@
+{
+  "title": "KitchenAid Dishwasher Error Codes: Meanings and Fixes",
+  "meta_description": "KitchenAid dishwasher codes are Whirlpool's F-and-E pairs: F names the system, E the fault. Here is how to read yours.",
+  "h1": "KitchenAid dishwasher error codes: reading the blinks and fixing the fault",
+  "answer": "KitchenAid dishwashers report faults as a two-part code in the form F followed by a number, then E followed by a number, such as F9E1. On models with a display you read it directly. On models without one, the Clean light blinks it at you: count the first group of flashes for the F number, wait through the pause, then count the second group for the E number, and the whole sequence repeats after a gap of about five seconds. The F number names the subsystem that failed and the E number narrows it down. The drain and water groups are where most real faults land, and the first thing to do for almost any of them is pull the filter out of the sump and wash it.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to read the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $80 for the common codes",
+    "technician": "$150 to $350 for a typical service call"
+  },
+  "safety_warning": "Switch the dishwasher off at the breaker before removing the lower access panel or the toe kick, because the junction box, the heating element terminals and the motor connections all sit behind it at mains voltage. Dishwashers are usually hard wired rather than plugged in, so turning off the breaker is the only way to isolate it. Never bypass the door latch switch to run a cycle with the door open, and let the water cool before you reach into the sump after a hot cycle.",
+  "causes": [
+    {
+      "cause": "Drain faults, the F9 group, typically shown as F9E1",
+      "frequency": "most cases",
+      "confirm": "Standing water in the bottom of the tub at the end of a cycle. F9E1 is a long drain, meaning the dishwasher could not empty within the time it allows. Lift the lower rack and the filter out: if the mesh is packed with grease and food, or you find glass, a cherry pit or a bit of label in the sump, that is your fault."
+    },
+    {
+      "cause": "Water supply and fill faults, the F6 group",
+      "frequency": "common",
+      "confirm": "The cycle starts, you hear no water entering, and it quits early. Check the supply valve under the sink is fully open, then look for a kinked fill line where the dishwasher was pushed back into its cabinet. These codes also cover the float and overfill detection on several models, so they appear with both too little water and too much."
+    },
+    {
+      "cause": "Water detected in the drip tray, shown as F8E4",
+      "frequency": "common",
+      "confirm": "The machine has sensed water in the tray in the base, which means it is leaking somewhere. Pull the toe kick off and look: a wet or damp tray confirms it. Check the hose clamps, the sump gasket and the door seal before anything else. The machine stops because a leak that keeps running ruins a floor."
+    },
+    {
+      "cause": "User interface and stuck button faults, the F2 group",
+      "frequency": "common",
+      "confirm": "The panel will not respond, starts a cycle on its own, or shows a code the moment you power it up. A stuck key is the usual cause: run a finger along the touch panel and feel for a button that stays depressed or a swollen spot. Water getting behind the panel membrane does this on older machines."
+    },
+    {
+      "cause": "Heating and water temperature faults, the F8 group other than E4",
+      "frequency": "occasional",
+      "confirm": "Dishes come out wet and cool, the cycle runs far longer than normal, or it quits part way. The control is not seeing the water reach the temperature it wants within the time allowed. Check the household water heater is actually supplying hot water to the kitchen before you suspect the element."
+    },
+    {
+      "cause": "Motor and wash pump faults, the F7 group",
+      "frequency": "occasional",
+      "confirm": "The dishwasher fills but you cannot hear the spray arms running, or there is a hum without water movement. Open the door mid-cycle and feel the upper arm: it should be wet and spin freely by hand. Something jamming the chopper or the impeller is more common than a dead motor."
+    },
+    {
+      "cause": "Control board and communication faults, the F1 group",
+      "frequency": "rare",
+      "confirm": "The panel behaves erratically, codes change between power cycles, or the machine is dead with the breaker on. These do not clear with cleaning, and they are the point at which the repair cost starts to compete with the price of the machine."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code properly from the Clean light",
+      "detail": "If your model has no display, watch the Clean light through one full sequence and write down two numbers. Count the first set of flashes, then a pause, then count the second set, then a longer gap of roughly five seconds before it repeats. Seven flashes, pause, one flash means F7E1. Watch it twice before acting, because miscounting by one sends you to a completely different repair.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel the cycle and drain the tub",
+      "detail": "Press Cancel or Cancel/Drain and close the door. The machine runs a two-minute drain and resets the cycle. If there is still water sitting in the tub afterwards, you have confirmed a drain fault regardless of what the code said. Bail the remaining water out with a cup and a sponge before you go any further, because you cannot work on the sump with it full.",
+      "minutes": 10,
+      "tools": "Cup, sponge, towels",
+      "warning": null
+    },
+    {
+      "name": "Remove and wash the filter assembly",
+      "detail": "Pull the lower rack out. In the floor of the tub is a cylindrical filter that twists anticlockwise about a quarter turn to release, and under it a flat mesh screen that lifts out. Take both to the sink, rinse under hot running water and scrub the mesh with a soft brush and a little dish soap to cut the grease film. Do this before investigating anything else, whatever your code is.",
+      "minutes": 15,
+      "tools": "Soft brush",
+      "warning": "Let the water cool if the machine has just run a hot cycle."
+    },
+    {
+      "name": "Clear the sump and check the drain path",
+      "detail": "With the filter out, reach into the sump recess and feel all round it. Glass fragments, fruit pits, bits of label and screws from nowhere all end up here. Then check where the drain hose joins the sink waste or disposer: if a disposer was recently fitted, the knockout plug inside its drain spigot may never have been removed, which blocks the dishwasher completely and throws drain codes forever.",
+      "minutes": 20,
+      "tools": "Rubber gloves, flashlight, pliers",
+      "warning": "Wear gloves. Broken glass in the sump is the usual reason people cut themselves on this job."
+    },
+    {
+      "name": "Do a full power reset at the breaker",
+      "detail": "Switch the dishwasher off at its breaker in the panel, not just at the door, and leave it off for five full minutes before switching it back on. Dishwashers are generally hard wired, so the breaker is your only isolation point. The control holds the stored fault, so a machine you have already fixed will keep showing the code until you do this. Then run a short or rinse cycle to test rather than a full wash.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the water supply if the code points at filling",
+      "detail": "Look under the sink for the dishwasher supply valve, usually a small shutoff on the hot line, and confirm it is fully open rather than cracked a turn. Follow the braided supply line to the machine and straighten any kink where the dishwasher was pushed back into its cabinet. If the kitchen tap runs hot slowly, the dishwasher is waiting on the same water you are.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Pull the toe kick and look for a leak if you have F8E4",
+      "detail": "Turn the breaker off. Remove the two or four screws holding the toe kick panel at the bottom front and lift it away. Look at the shallow tray in the base: water or damp staining confirms a leak. Trace it upward to the likely sources, which are the hose clamps at the drain and circulation pumps, the sump gasket and the lower corners of the door seal. Dry the tray fully before testing again.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Switch off at the breaker before the toe kick comes off. Mains terminals and the junction box are directly behind it."
+    },
+    {
+      "name": "Find your tech sheet before buying any part",
+      "detail": "There is a folded service data sheet inside the machine, usually tucked behind the toe kick panel or taped inside the door frame along the right side. It lists the codes for your exact model, which matters because the published code tables online openly disagree with each other on several F and E combinations. Your tech sheet beats any chart, including this page, where the two differ.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the sump is clear and a five-minute breaker reset has not shifted it, work through this in order of cost. First, confirm you read the code correctly, because miscounting the Clean light by a single flash is the most common wasted afternoon on these machines. Watch the sequence three more times and write it down each time. Second, if the code is in the drain family and there is still standing water, check the one thing people miss: where the drain hose connects to the sink waste or the garbage disposer. A newly installed disposer ships with a solid knockout plug inside its dishwasher spigot, and if the installer did not punch it out, your dishwasher has never had anywhere to drain. Look into the spigot with a flashlight before you touch the pump. Also check that the drain hose rises into a high loop under the counter or connects to an air gap, because a hose lying flat lets the sink drain back into the machine. Third, if the hose run is right and the sump is clear, the drain pump itself is the suspect: with the breaker off and the toe kick removed you can usually see it at the base of the sump, and a pump that hums without moving water has something wrapped around the impeller. A replacement is roughly a $50 to $120 part. Fourth, for codes in the water fill or float family that survive all this, the most likely remaining causes are the inlet valve and the float switch, both modest parts, and the overfill float sticking up on a film of detergent scum is a free fix worth checking. The point where the cost jumps is the control board at $200 to $400 fitted, which on a dishwasher much over eight years old deserves a hard look at replacement instead, particularly if the racks and the door seal are also tired. Before you spend anything, find the tech sheet behind the toe kick, because the public code tables for these machines contradict each other and the sheet inside your dishwasher does not.",
+  "reset_procedure": "Press Cancel or Cancel/Drain and close the door to let the machine run its two-minute drain and reset the cycle, which handles most minor hiccups. For a stored fault code, you need a full power reset: switch the dishwasher off at its breaker in the electrical panel, leave it off for five full minutes, and switch it back on. Dishwashers are usually hard wired rather than plugged in, so the breaker is the only real isolation point, and the control holds residual charge so a quick off-and-on often leaves the code in place. Test with a short or rinse cycle rather than a full wash, so you find out in ten minutes instead of two hours. A code that returns on the next cycle means the underlying fault is still there.",
+  "model_notes": "The F and E two-part code scheme is shared across the Whirlpool family of brands, so KitchenAid, Whirlpool, Maytag and JennAir dishwashers of the same generation use the same structure and largely the same meanings. That is genuinely useful when researching, because a confirmed meaning from a sibling brand's official documentation usually transfers. What does not transfer reliably is the detail: published tables disagree on several specific F and E combinations, and KitchenAid's own public material explains how to read the blink sequence without defining every code. Older KitchenAid dishwashers predating this scheme instead blink a single repeating count on the Clean light, where the number of flashes maps to a fault on a different list entirely, so a seven-flash pattern on an older machine is not F7. Models with a hidden top-edge control panel put the status lights where you have to open the door to see them. The service data sheet folded behind your toe kick is the authority for your specific model.",
+  "parts": [
+    {
+      "name": "Filter assembly, cylinder and flat mesh screen",
+      "cost": "$20 to $50",
+      "difficulty": "easy",
+      "note": "Only if cracked or torn; almost all just need washing"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "After the sump, hose and disposer knockout are all ruled out"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$35 to $90",
+      "difficulty": "moderate",
+      "note": "For fill codes, once the supply valve and line are confirmed good"
+    },
+    {
+      "name": "Float switch and overfill float",
+      "cost": "$15 to $45",
+      "difficulty": "easy",
+      "note": "Often just needs cleaning; detergent scum makes the float stick up"
+    },
+    {
+      "name": "Control board or user interface panel",
+      "cost": "$200 to $400 fitted",
+      "difficulty": "technician only",
+      "note": "Last resort, after the harness and the obvious mechanical causes"
+    }
+  ],
+  "when_to_call": "Call an appliance technician once the filter is clean, the sump is clear, the drain hose and disposer connection are confirmed open and a proper breaker reset has not helped, because the next step is testing the pump, the valve and the harness with the machine live and partly dismantled under a counter. Call sooner if the code is F8E4 and you can see water in the base tray, since a leak under a cabinet damages the floor and the units around it long before it damages the dishwasher, and it is worth stopping use entirely until someone has found the source. Call rather than continue if you find scorching, melted insulation or a burning smell around the junction box behind the toe kick. And if the machine trips the breaker when you switch it back on, leave it off and get an electrician or a technician out, because that is a fault to the earth somewhere in a wet appliance.",
+  "faqs": [
+    {
+      "q": "How do I read a KitchenAid dishwasher error code without a display?",
+      "a": "Watch the Clean light. Count the first group of flashes for the F number, wait through the short pause, then count the second group for the E number. A gap of about five seconds separates each full sequence before it repeats. Seven flashes, pause, one flash is F7E1. Watch it at least twice, because miscounting by one points at a different repair."
+    },
+    {
+      "q": "What does F9E1 mean on a KitchenAid dishwasher?",
+      "a": "It means a long drain: the machine could not empty the tub within the time it allows. Start by removing and washing the filter in the floor of the tub, then feel round the sump for glass or food debris. After that, check the drain hose and whether a newly fitted garbage disposer still has its knockout plug in place, which blocks drainage completely."
+    },
+    {
+      "q": "What does F8E4 mean and should I keep using the dishwasher?",
+      "a": "It means water has been detected in the drip tray in the base, so the machine is leaking and has stopped itself. Do not keep using it. Switch it off at the breaker, pull the toe kick and look for the source, checking hose clamps, the sump gasket and the lower door seal. A slow leak under a cabinet does expensive damage quietly."
+    },
+    {
+      "q": "Why does my KitchenAid dishwasher show a code as soon as I switch it on?",
+      "a": "Usually a stuck button on the touch panel, which falls in the F2 group. Run a finger across each key and feel for one that stays depressed or a swollen, spongy spot where water has got behind the membrane. Try a five-minute breaker reset first. If the same code returns immediately every time, the panel rather than the dishwasher is the fault."
+    },
+    {
+      "q": "Do KitchenAid and Whirlpool dishwasher codes mean the same thing?",
+      "a": "Largely yes, because KitchenAid, Whirlpool, Maytag and JennAir dishwashers of the same generation share a platform and the same F and E code structure. That makes a sibling brand's official documentation genuinely useful. The caveat is that published tables disagree on specific combinations, so the service data sheet folded behind your toe kick is the authority."
+    },
+    {
+      "q": "Where is the tech sheet on a KitchenAid dishwasher?",
+      "a": "A folded service data sheet is normally tucked behind the toe kick panel at the bottom front, and on some models taped inside the door frame along the right edge. Switch the breaker off before removing the toe kick. It lists the codes for your exact model, which beats any online chart, and it is worth photographing while you have it out."
+    },
+    {
+      "q": "Is a KitchenAid dishwasher error code worth repairing?",
+      "a": "Most of them, yes. The common faults are filters, drain blockages, a float, an inlet valve or a drain pump, which run from nothing to about $120 in parts. The exception is the control board at $200 to $400 fitted, which on a machine over about eight years old competes with the price of replacing it. Get a diagnosis first."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "Where KitchenAid drain codes come from, in the order worth checking.",
+    "labels": {
+      "display": "F9E1",
+      "c1": "Count the Clean light blinks",
+      "c2": "Filter and sump, washed and clear",
+      "c3": "Drain hose high loop or air gap",
+      "c4": "Disposer knockout plug removed"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes and how to read the Clean light flash sequence",
+      "publisher": "KitchenAid product help documentation",
+      "url": null
+    },
+    {
+      "title": "Dishwasher error code list for the shared Whirlpool brand platform",
+      "publisher": "Whirlpool and Maytag product help documentation",
+      "url": null
+    },
+    {
+      "title": "Service data sheet listing fault codes for the specific model",
+      "publisher": "Tech sheet supplied inside the dishwasher behind the toe kick",
+      "url": null
+    },
+    {
+      "title": "Field reports on drain codes, disposer knockout plugs and stuck touch panels",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F9E1",
+    "F8E4",
+    "F6E4",
+    "F7E1",
+    "F2E1"
+  ]
+}

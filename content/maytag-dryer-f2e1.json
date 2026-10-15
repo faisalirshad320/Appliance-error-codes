@@ -1,6 +1,6 @@
 {
   "title": "Maytag Dryer F2 E1 Code: Stuck Button on the Console",
-  "meta_description": "F2 E1 on a Maytag dryer means the control reads a button as permanently pressed.",
+  "meta_description": "F2 E1 on a Maytag dryer is a stuck or shorted keypad: the control reads a button as permanently pressed. Here is how to confirm it.",
   "h1": "Maytag dryer F2 E1 code: a stuck button, and how to free it",
   "answer": "F2 E1 on a Maytag dryer means the control sees one of the console buttons as held down. If a key stays pressed for a sustained stretch the board treats it as stuck, stops accepting input and puts F2 E1 on the display. Most of the time a key really is sticking, from lint, spilled detergent or a swollen membrane overlay, and pressing every button firmly in turn frees it. If no key is physically stuck, the fault is the membrane switch or the user interface board behind the panel.",
   "severity": "moderate",

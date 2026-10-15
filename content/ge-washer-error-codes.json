@@ -25,7 +25,7 @@
     {
       "cause": "Lid lock or door lock faults",
       "frequency": "common",
-      "confirm": "You can hear the lock buzz or click repeatedly at the start of a cycle, or the machine never locks at all and stops before filling. On top loaders the lid strike is often simply bent or the lock plunger is gummed up."
+      "confirm": "You can hear the lock buzz or click repeatedly at the start of a cycle, or the machine never locks at all and stops before filling. On top loaders the lid strike is often just bent or the lock plunger is gummed up."
     },
     {
       "cause": "Fill and water-level faults",
@@ -168,7 +168,7 @@
     "kind": "control-board",
     "caption": "How a GE washer tells you what is wrong, and where to read it",
     "labels": {
-      "display": "GE",
+      "display": "26",
       "c1": "Note the lit lights or blink count",
       "c2": "Tech sheet inside the console",
       "c3": "Add the lit light values",

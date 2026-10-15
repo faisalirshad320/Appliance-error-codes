@@ -320,5 +320,5 @@ def render(kind, labels, appliance="washer", title=None):
      aria-label="{_esc(caption)}">
   <title>{_esc(caption)}</title>{body}
 </svg>
-<figcaption>{_esc(caption)}. Original diagram, not to scale.</figcaption>
+<figcaption>{_esc(caption.rstrip(". "))}. Original diagram, not to scale.</figcaption>
 </figure>'''

@@ -1,0 +1,213 @@
+{
+  "title": "Maytag Dryer Error Codes: What Each One Means and Fixes",
+  "meta_description": "What Maytag dryer codes mean, grouped by the system that failed: airflow, power, sensors, console and control.",
+  "h1": "Maytag dryer error codes: what the display is telling you",
+  "answer": "Maytag dryers are built on the Whirlpool control platform, so they use two code styles side by side: short plain-language codes like AF, PF and LOC, and an F-number plus E-number pair like F3 E3 that names a system and then a specific fault within it. The F number is the system, so F2 is the console, F3 is the sensing group and F4 is heating and airflow. AF is the one most people land here for, and it means restricted airflow, which on a Bravos or Bravos XL is nearly always lint somewhere between the lint screen and the outside wall cap. Two things on the list are not faults at all: LOC is the control lock and PF just records that power was interrupted.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to identify the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $60 for the common codes",
+    "technician": "$150 to $380 for a typical service call"
+  },
+  "safety_warning": "Two things on this list are genuinely dangerous rather than merely annoying. A restricted exhaust duct, which is what AF reports, is a real fire risk: lint is excellent fuel and failure to clean dryer venting is the leading cause of dryer fires in US homes. And anything involving a gas burner, a gas valve or the gas supply goes to a licensed technician, full stop. Unplug the dryer at the wall or switch off both halves of its breaker before any panel comes off, and never bypass a thermal cut-out or a door switch to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "Airflow and venting, shown as AF or F4E3",
+      "frequency": "most cases",
+      "confirm": "The dryer has decided air is not leaving the drum fast enough. Loads take two or three cycles and the cabinet runs hot. Pull the lint screen and hold it under a tap: if water pools on the mesh there is a softener film on it. Then check the transition duct behind the machine and watch the outside wall cap flap while the dryer runs."
+    },
+    {
+      "cause": "Power supply events, shown as PF",
+      "frequency": "common",
+      "confirm": "PF records that the dryer lost power mid-cycle. Press Start to resume. If clocks elsewhere in the house are flashing, that was a genuine outage and nothing is wrong. A PF that returns several times a week with no outage means something local is intermittent: the breaker, the outlet, the cord or the terminal block behind the machine."
+    },
+    {
+      "cause": "Temperature and moisture sensing, the F3 group",
+      "frequency": "common",
+      "confirm": "F3 E3 is the inlet thermistor reading open or shorted. F3 E2 is a sensing fault that most Maytag references tie to the moisture sensor bars in the drum. The giveaway for a moisture sensing fault is a dryer that works perfectly on timed dry and only misbehaves on sensor cycles. Clean the sensor bars with rubbing alcohol before suspecting anything else."
+    },
+    {
+      "cause": "Console and keypad faults, the F2 group",
+      "frequency": "common",
+      "confirm": "F2 E1 means the control reads a button as permanently held. Press every key on the console in turn and compare the feel; the stuck one sits lower or does not spring back. Dried detergent around a key edge and a swollen or lifted overlay are the usual physical causes, and both are visible under a flashlight held flat against the panel."
+    },
+    {
+      "cause": "Control board faults, shown as F01 or F1E1",
+      "frequency": "occasional",
+      "confirm": "The main control has failed its own self-check and stopped the machine. A full five minute power cut clears a share of these because not every one is dead hardware. If it returns, open the console with the dryer unplugged and look for a connector that has backed out of its housing or a pin with green corrosion before condemning the board."
+    },
+    {
+      "cause": "Feature indicators that look like faults, mainly LOC",
+      "frequency": "occasional",
+      "confirm": "LOC means the control lock is on and the buttons are disabled. The dryer refuses to start and the panel seems dead, which reads exactly like a breakdown. Look along the console for a small padlock icon and hold that key for three seconds. Nothing is broken and no part is needed."
+    },
+    {
+      "cause": "Motor, drive and model-specific codes",
+      "frequency": "rare",
+      "confirm": "A drum that will not turn, a motor that hums without starting, or a code that is not in any of the groups above. Maytag uses a handful of codes that vary between top load, front load and ventless models, so if yours is not listed here, read it off the tech sheet folded inside your own console rather than a generic chart."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as the panel shows it",
+      "detail": "Characters matter more than you would expect on a seven segment display. A zero and a letter O are nearly identical, F3 E2 and F3 E3 differ by one segment, and AF scrolling past is easy to misread. Take a photo of the display before you clear it. Getting the code wrong sends you to a completely different repair and sometimes to a completely different part.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether it is a fault or a setting",
+      "detail": "LOC is the control lock and PF is a record of a power cut, and neither is a breakdown. If the panel is unresponsive and LOC is showing, find the small padlock icon on the console and hold that key for three seconds. If PF is showing, press Start to resume the interrupted cycle. Do this before anything else, because the rest of the sequence assumes the controls work.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a proper five minute power reset",
+      "detail": "Unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes. A quick off and on usually leaves the fault latched because the board holds residual charge, which is why so many people believe a reset did not work when they never completed one. Restore power and run a short timed cycle with damp towels to test.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the lint screen and check the whole duct run",
+      "detail": "Do this whatever the code says. Wash the screen mesh in warm soapy water to lift the invisible softener film, vacuum the housing below it, then pull the dryer out, take the transition duct off at both ends and brush the run through to the outside. Restricted airflow causes AF directly and makes every heat and sensor code more likely, so it is the cheapest thing to rule out on any Maytag dryer fault.",
+      "minutes": 40,
+      "tools": "Vacuum with crevice tool, rotary vent brush kit, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Check the electrical basics",
+      "detail": "Confirm both halves of the double breaker are firmly on, since one dropped leg gives you a drum that turns with no heat. Check that the plug is seated and that the outlet is not loose, warm or discolored. On a gas model, confirm the shutoff valve behind the dryer sits in line with the pipe. These three checks cover most of what sits behind a PF and a fair share of odd control behavior.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "A warm or scorched outlet is an electrician's job. Do not open, adjust or test any gas component yourself."
+    },
+    {
+      "name": "Find the tech sheet and your model number",
+      "detail": "Maytag folds a service tech sheet inside the console or tapes it behind the lower front panel on most dryers, and the model sticker is on the rim inside the door opening. The sheet lists the codes for your exact machine, which matters because published charts genuinely disagree on some of the F3 codes. Photograph both sides before you put it back.",
+      "minutes": 12,
+      "tools": "Phillips #2, nut driver, phone camera",
+      "warning": "Unplug at the wall before removing any panel."
+    },
+    {
+      "name": "Decide whether this one is yours to fix",
+      "detail": "Vent cleaning, control lock, sensor bar cleaning and freeing a stuck key are all straightforward with hand tools and no risk. Thermistor testing and a console swap need a multimeter and panels off a machine fed by 240 volts, which is reasonable if you are careful and it is unplugged. Gas components and control board diagnosis are technician work and are not worth attempting to dodge a call-out fee.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code survives a reset and a vent clean, work out which of three situations you are in, because they lead to very different places. The first is a code that comes back on every cycle and is always the same one. That is a real repeatable fault and the code is pointing at the right system, so follow the specific page: AF means the duct run itself needs rethinking rather than another clean, F3 E3 means measuring the inlet thermistor and its harness, F3 E2 means cleaning the moisture sensor bars and then checking their wiring, F2 E1 means the console. The second is a code that comes and goes, or changes between cycles. That almost always points at a connection rather than a component, so with the dryer unplugged, take the console and the rear panel off and work along the harness looking for a terminal backed out of a connector, green corrosion in a damp laundry room, or a wire chafed through where it crosses sheet metal. Intermittent faults chased by swapping parts cost a fortune and rarely resolve. The third is a dryer that shows a code and then will not respond to the panel at all, which usually means the user interface board rather than whatever the code said. Across all three, the point where the cost jumps is the main control board: expect $250 to $450 fitted, which on a dryer much over eight years old is worth weighing against replacement, particularly if it was already drying slowly. Two final things worth doing before you spend anything. Confirm you are reading the code correctly from a photo rather than from memory, because F3 E2 and F3 E3 lead to different parts. And check the tech sheet inside your own console rather than a code chart online, because Maytag reused several of these codes across the shared Whirlpool platform and the assignments moved between generations.",
+  "reset_procedure": "The reset that works on every Maytag dryer is the same: press Power to cancel, then unplug the machine at the wall or switch off both halves of its breaker, wait a full five minutes, and restore power. The wait matters because the control board holds residual charge. Test with a short timed cycle and a few damp towels rather than a full load. Two things this will not clear: the control lock, which is stored deliberately so a power cut cannot defeat it, and AF on a duct that is still blocked, because airflow is recalculated on every cycle.",
+  "model_notes": "Maytag, Whirlpool, Amana and KitchenAid dryers share a control platform, so a Maytag code almost always means the same thing on the equivalent Whirlpool. Within Maytag the display style varies: Bravos and Bravos XL top loaders show short codes like AF in the main display, while front load Maxima models often scroll a longer message. The same fault can appear as AF on one series and F4E3 on another, or as F01 on one and F1E1 on another. The F3 sensing codes are the ones where published charts disagree most, so use the service tech sheet inside your own console as the reference and believe it over any generic table, including this one.",
+  "parts": [
+    {
+      "name": "Semi-rigid aluminum transition duct and a rotary vent brush kit",
+      "cost": "$30 to $60",
+      "difficulty": "easy",
+      "note": "The fix for most AF codes, and worth owning anyway"
+    },
+    {
+      "name": "Inlet or exhaust thermistor, sold as a temperature sensor",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "For F3 codes, after measuring rather than on spec"
+    },
+    {
+      "name": "Console membrane switch or user interface board",
+      "cost": "$90 to $200",
+      "difficulty": "moderate",
+      "note": "For F2 E1 once a stuck key has been ruled out"
+    },
+    {
+      "name": "Dryer power cord or terminal block",
+      "cost": "$20 to $45",
+      "difficulty": "moderate",
+      "note": "For a repeating PF with a burnt or loose connection"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort on any code, after the harness is proven good"
+    }
+  ],
+  "when_to_call": "Call a licensed gas technician for anything involving a gas dryer that tumbles but will not light, and do not investigate the burner, valve or igniter yourself. Call an electrician rather than an appliance technician if the outlet is warm or loose, if the breaker trips, or if lights dim when the dryer heats, because that is a supply fault and an appliance engineer will charge you to say so. Call a vent cleaning company for a persistent AF on a long or roof-terminated duct, since the problem is the ductwork rather than the dryer. Call an appliance technician when a code survives a correct reset, a clean vent and a visual check of the relevant connectors, because the next step is board level diagnosis with the machine live.",
+  "faqs": [
+    {
+      "q": "What does AF mean on a Maytag Bravos XL dryer?",
+      "a": "Restricted airflow. The dryer has worked out that air is not leaving the drum fast enough and is warning you. On a Bravos XL it is nearly always lint, either in the screen, in the flexible duct behind the machine, or at the flap on the outside wall cap. Clean the whole run rather than just the screen, and the code clears."
+    },
+    {
+      "q": "How do I reset a Maytag dryer?",
+      "a": "Press Power to cancel, then unplug it at the wall or switch off both halves of its breaker and wait a full five minutes before restoring power. The wait matters because the board holds residual charge and a quick off-and-on often leaves the fault latched. Test with a short timed cycle and damp towels rather than a full load."
+    },
+    {
+      "q": "Is LOC an error code on a Maytag dryer?",
+      "a": "No. LOC means the control lock is switched on, which disables the console buttons so the cycle cannot be changed. Nothing is broken and no part is needed. Look along the panel for a small padlock icon, often under Wrinkle Control or Drum Light, and hold that key for about three seconds to release it."
+    },
+    {
+      "q": "What does the F and E numbering mean on Maytag dryer codes?",
+      "a": "The F number names the system and the E number names the specific fault inside it. F2 is the console and keypad, F3 is the sensing group covering thermistors and moisture sensors, and F4 covers heating and airflow. So F3 E3 is the third fault in the sensing group, which is the inlet thermistor reading open or shorted."
+    },
+    {
+      "q": "Are Maytag and Whirlpool dryer codes the same?",
+      "a": "Largely yes, because they share a control platform along with Amana and KitchenAid. A Maytag F3 E3 means the same thing as a Whirlpool F3 E3 of the same generation. Where they differ is display style and a few code assignments that moved between model years, which is why the tech sheet in your own machine beats a generic chart."
+    },
+    {
+      "q": "Why does my Maytag dryer show a code but still run?",
+      "a": "Because some codes are warnings rather than stop-the-cycle faults. AF is the main example: the dryer usually keeps tumbling, just slowly, while telling you the exhaust is restricted. Treat it as a job for this week rather than ignoring it, because a blocked vent is a fire risk and not just an inconvenience."
+    },
+    {
+      "q": "Where is the tech sheet on a Maytag dryer?",
+      "a": "Usually folded inside the console behind the control panel, or taped to the inside of the lower front panel. It lists the fault codes for your exact model along with sensor locations and expected readings. Photograph both sides while you have it out, because the paper tears easily and you will want it on the next repair."
+    },
+    {
+      "q": "Can I still use my Maytag dryer with an error code showing?",
+      "a": "It depends which one. PF and LOC are harmless and clear with a button press. AF will let the dryer run but should not be ignored for months. Any F3 temperature code means a sensor the control relies on for heat regulation is unreliable, so stop using it until that is fixed rather than running loads unattended."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The sequence that works on any Maytag dryer code, in the order that costs least.",
+    "labels": {
+      "display": "AF",
+      "c1": "Photograph the code exactly",
+      "c2": "Rule out LOC and PF first",
+      "c3": "Five minute power reset",
+      "c4": "Clean lint screen and full duct"
+    }
+  },
+  "sources": [
+    {
+      "title": "Error codes in dryers, meanings and recommended actions",
+      "publisher": "Maytag product help documentation",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer use and care guides and service tech sheets",
+      "publisher": "Maytag owner's manual and tech sheet supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Dryer error code entries for the shared Whirlpool laundry platform",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on which Maytag codes are real faults and which are settings",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "AF",
+    "PF",
+    "F01",
+    "F2E1",
+    "F3E2",
+    "F3E3"
+  ]
+}

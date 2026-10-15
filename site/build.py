@@ -26,6 +26,19 @@ BRAND_LABEL = {"lg":"LG","ge":"GE","kitchenaid":"KitchenAid","kitchen aid":"Kitc
 label_brand = lambda b: BRAND_LABEL.get(b, b.title())
 label_appl = lambda a: a.title() if a != "air conditioner" else "Air Conditioner"
 
+# Letters whose spoken name begins with a vowel sound, so "an LG" but "a GE" (jee).
+_VOWEL_SOUND_LETTERS = set("AEFHILMNORSX")
+
+def article(name):
+    """'a' or 'an' for a brand name, judged on how the name is said aloud."""
+    if not name:
+        return "a"
+    first = name[0].upper()
+    # An all-caps initialism is spelled out letter by letter: LG is "el-gee".
+    if len(name) <= 3 and name.isupper():
+        return "an" if first in _VOWEL_SOUND_LETTERS else "a"
+    return "an" if first in "AEIO" else "a"
+
 
 # ----------------------------------------------------------------- layout
 
@@ -239,7 +252,7 @@ def render_code_page(page, d, index):
 {facts}
 {safety}
 {diagram}
-<h2 id="causes">Why a {E(brand)} {E(appl.lower())} shows {E(page["code"] or "this code")}</h2>
+<h2 id="causes">Why {article(brand)} {E(brand)} {E(appl.lower())} shows {E(page["code"] or "this code")}</h2>
 <p>These are the causes in the order you are most likely to hit them. Work down the list,
 do not skip to the expensive one.</p>
 <ol class="causes">{causes}</ol>

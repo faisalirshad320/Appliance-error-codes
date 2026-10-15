@@ -6,7 +6,10 @@
   "severity": "minor",
   "can_diy": "yes",
   "time_estimate": "10 to 30 minutes",
-  "cost_estimate": { "diy": "$0", "technician": "$90 to $250 if it is not the tank" },
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$90 to $250 if it is not the tank"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -88,19 +91,55 @@
   "reset_procedure": "Unplug the unit at the wall, wait ten minutes, then plug it back in and start it on cooling. Pressing the power button alone often will not clear a latched E5, because the control holds the fault until power is removed. If the code returns within seconds of restarting, the float is still reading water, so go back and drain the second pan rather than resetting again.",
   "model_notes": "E5 does not mean the same thing across the whole Hisense air conditioning range. On portable units it is a water level fault and the drain is the fix. On window units and on wall-mounted mini-split indoor units, Hisense has used E5 for protection and sensor faults instead, and the code tables published by repair sites contradict one another on which. There is no internal tank on those machines, so if yours is a window or split unit, ignore the drainage advice and work from the code list in the manual for your model number. Hisense also builds air conditioners sold under other brand names, which is why a code list found online for a similar-looking unit may not apply to yours.",
   "parts": [
-    { "name": "Drain plug and gasket", "cost": "$5 to $15", "difficulty": "easy", "note": "Only needed if the original is lost or perished; a lost plug causes a wet floor, not E5" },
-    { "name": "Continuous drain hose kit", "cost": "$10 to $25", "difficulty": "easy", "note": "Not a repair, but it stops the tank ever filling if you have a floor drain nearby" },
-    { "name": "Water level float switch", "cost": "$20 to $60", "difficulty": "technician only", "note": "Inside the cabinet near the mains wiring; not a sensible DIY part on a sealed unit" }
+    {
+      "name": "Drain plug and gasket",
+      "cost": "$5 to $15",
+      "difficulty": "easy",
+      "note": "Only needed if the original is lost or perished; a lost plug causes a wet floor, not E5"
+    },
+    {
+      "name": "Continuous drain hose kit",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Not a repair, but it stops the tank ever filling if you have a floor drain nearby"
+    },
+    {
+      "name": "Water level float switch",
+      "cost": "$20 to $60",
+      "difficulty": "technician only",
+      "note": "Inside the cabinet near the mains wiring; not a sensible DIY part on a sealed unit"
+    }
   ],
   "when_to_call": "Call for service if the pan is dry, the drain is clear, the float moves freely and E5 still appears on every start, because the remaining possibilities are inside the cabinet alongside the mains wiring and the sealed refrigerant circuit. Call straight away, without opening anything, if the unit is a window model or a mini-split rather than a portable, since E5 on those is not a drainage fault and the indoor unit of a split system is not something to open at home. Never cut, loosen or vent any refrigerant pipework yourself under any circumstances; that is licensed work. And if your portable is more than a few years old and the quote comes back near the price of a new unit, which it often does, replacing is the honest answer.",
   "faqs": [
-    { "q": "What does E5 mean on a Hisense portable air conditioner?", "a": "It means the internal condensate tank is full and the float switch has shut the unit down to prevent an overflow. It is a maintenance prompt rather than a breakdown. Unplug the unit, pull the drain plug at the bottom of the back panel, let the water out into a shallow tray, refit the plug and power back up. The code clears as soon as the float drops." },
-    { "q": "How often should I drain my portable air conditioner?", "a": "It depends entirely on humidity. In a dry climate a self-evaporating unit may go a whole season without needing it; in a humid room running day and night, every day or two is normal. If you are emptying it constantly, fit a continuous drain hose to the lower spigot and run it to a floor drain, which removes the chore completely." },
-    { "q": "Can I keep using the air conditioner with E5 showing?", "a": "Not until it is drained, because the unit will not cool while the float is up. There is no danger in leaving it, but the standing water in the pan will start to smell within a few days in a warm room. Draining it also gives you a chance to flush the pan, which is the fix for the musty smell people blame on the filter." },
-    { "q": "Why does E5 keep coming back a day after I drain it?", "a": "Either the room is very humid and the unit genuinely fills that fast, or the exhaust hose is kinked or sagging so hot air is leaking back in and the unit is running flat out. Check the hose first: short, straight and with no low loops. If the room is simply humid, a continuous drain line is the practical answer." },
-    { "q": "Does E5 mean the same thing on a Hisense window unit?", "a": "No. Window units and mini-splits have no internal tank to fill, and Hisense uses E5 for other faults on those lines, with different published tables disagreeing about which. Do not work a drainage fix on a window unit or a split system. Find the code list in your own manual, or call Hisense support with the model number from the rating label." },
-    { "q": "Why is my portable AC icing up and then showing E5?", "a": "A portable air conditioner iced up is a portable air conditioner making meltwater, and that fills the pan much faster than ordinary condensation. Icing happens when the room is already cool, the filter is dirty, or airflow across the coil is restricted. Switch to fan only for an hour to melt the ice, wash the filter, and do not run cooling in a room that is already cold." },
-    { "q": "Is a float switch repair worth paying for?", "a": "Weigh it against the price of the unit. A technician visit for a portable air conditioner typically runs $90 to $250, and many portables cost not much more than that new. Get the quote before agreeing to the work, and make sure the pan has genuinely been ruled out first, because a stuck float freed with a cable tie costs nothing." }
+    {
+      "q": "What does E5 mean on a Hisense portable air conditioner?",
+      "a": "It means the internal condensate tank is full and the float switch has shut the unit down to prevent an overflow. It is a maintenance prompt rather than a breakdown. Unplug the unit, pull the drain plug at the bottom of the back panel, let the water out into a shallow tray, refit the plug and power back up. The code clears as soon as the float drops."
+    },
+    {
+      "q": "How often should I drain my portable air conditioner?",
+      "a": "It depends entirely on humidity. In a dry climate a self-evaporating unit may go a whole season without needing it; in a humid room running day and night, every day or two is normal. If you are emptying it constantly, fit a continuous drain hose to the lower spigot and run it to a floor drain, which removes the chore completely."
+    },
+    {
+      "q": "Can I keep using the air conditioner with E5 showing?",
+      "a": "Not until it is drained, because the unit will not cool while the float is up. There is no danger in leaving it, but the standing water in the pan will start to smell within a few days in a warm room. Draining it also gives you a chance to flush the pan, which is the fix for the musty smell people blame on the filter."
+    },
+    {
+      "q": "Why does E5 keep coming back a day after I drain it?",
+      "a": "Either the room is very humid and the unit genuinely fills that fast, or the exhaust hose is kinked or sagging so hot air is leaking back in and the unit is running flat out. Check the hose first: short, straight and with no low loops. If the room is just humid, a continuous drain line is the practical answer."
+    },
+    {
+      "q": "Does E5 mean the same thing on a Hisense window unit?",
+      "a": "No. Window units and mini-splits have no internal tank to fill, and Hisense uses E5 for other faults on those lines, with different published tables disagreeing about which. Do not work a drainage fix on a window unit or a split system. Find the code list in your own manual, or call Hisense support with the model number from the rating label."
+    },
+    {
+      "q": "Why is my portable AC icing up and then showing E5?",
+      "a": "A portable air conditioner iced up is a portable air conditioner making meltwater, and that fills the pan much faster than ordinary condensation. Icing happens when the room is already cool, the filter is dirty, or airflow across the coil is restricted. Switch to fan only for an hour to melt the ice, wash the filter, and do not run cooling in a room that is already cold."
+    },
+    {
+      "q": "Is a float switch repair worth paying for?",
+      "a": "Weigh it against the price of the unit. A technician visit for a portable air conditioner typically runs $90 to $250, and many portables cost not much more than that new. Get the quote before agreeing to the work, and make sure the pan has genuinely been ruled out first, because a stuck float freed with a cable tie costs nothing."
+    }
   ],
   "diagram": {
     "kind": "generic-reset",
@@ -114,10 +153,30 @@
     }
   },
   "sources": [
-    { "title": "Hisense portable air conditioner use and care guide, draining the water tank", "publisher": "Hisense owner documentation supplied with the unit", "url": null },
-    { "title": "Hisense air conditioner error code listings", "publisher": "Hisense customer support pages", "url": null },
-    { "title": "Conflicting published definitions of E5 across Hisense portable, window and split lines", "publisher": "HVAC and appliance repair reference sites", "url": null },
-    { "title": "Field reports on full tank shutdowns and blocked condensate drains", "publisher": "Appliance and HVAC repair community forums", "url": null }
+    {
+      "title": "Hisense portable air conditioner use and care guide, draining the water tank",
+      "publisher": "Hisense owner documentation supplied with the unit",
+      "url": null
+    },
+    {
+      "title": "Hisense air conditioner error code listings",
+      "publisher": "Hisense customer support pages",
+      "url": null
+    },
+    {
+      "title": "Conflicting published definitions of E5 across Hisense portable, window and split lines",
+      "publisher": "HVAC and appliance repair reference sites",
+      "url": null
+    },
+    {
+      "title": "Field reports on full tank shutdowns and blocked condensate drains",
+      "publisher": "Appliance and HVAC repair community forums",
+      "url": null
+    }
   ],
-  "related_codes": ["E1", "E2", "E4", "E9", "P1"]
+  "related_codes": [
+    "E1",
+    "E2",
+    "E4"
+  ]
 }
