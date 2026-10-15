@@ -7,6 +7,18 @@ Current scope: **251 pages** across 20 brands, covering roughly **200,000 US sea
 month**. See `NICHE-VALIDATION-REPORT.md` for the research this was built on and
 `COST-AND-PIPELINE.md` for what generating it costs.
 
+## Publishing
+
+Pages are not all live. They are released in 11 waves over ~3.5 months by a daily GitHub
+Actions workflow, so a brand-new domain does not publish 252 pages in one afternoon.
+See `RELEASE.md`; check status with `python3 tools/release_status.py`.
+
+Build the whole site locally regardless of the schedule:
+
+```bash
+PUBLISH_ALL=1 python3 site/build.py
+```
+
 ## Why it is shaped this way
 
 Error-code pages are usually bad in three specific ways, and each one is a design decision

@@ -1,11 +1,11 @@
 {
-  "site_name": "Appliance Error Codes",
-  "site_url": "https://applianceerrorcodes.example",
+  "site_name": "Appliance Codex",
+  "site_url": "https://appliancecodex.com",
   "tagline": "What the code means, and how to clear it",
-  "publisher": "Appliance Error Codes",
+  "publisher": "Appliance Codex",
   "locale": "en-US",
   "theme_color": "#1b4fd8",
   "lead_cta_url": "/find-a-technician/",
   "parts_cta_url": "/parts/",
-  "build_note": "Change site_url here before the production build; it drives canonicals, Open Graph and the sitemap."
+  "build_note": "site_url drives canonicals, Open Graph and the sitemap. Release pacing lives in pipeline/release-schedule.json, not here."
 }

@@ -1,0 +1,70 @@
+name: Release due pages
+
+# The only thing that writes to the deploy branch.
+#
+# Runs on GitHub's servers, so it does not care whether anyone's machine is on. The
+# gate is "this wave's date has arrived", not "a job fired at the right moment", so a
+# skipped or delayed run costs nothing: the next one publishes everything that is due.
+# That also means it can never publish a wave early by catching up.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # daily, 06:17 UTC (11:17 Pakistan)
+  push:
+    branches: [main]
+  workflow_dispatch:           # "Run workflow" in the Actions tab, any time
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-branch         # never let two runs race for the deploy branch
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Show where the drip has got to
+        run: python3 tools/release_status.py
+
+      - name: Build only the pages whose wave is due
+        run: python3 site/build.py
+
+      - name: Check the partial site for broken links and bad structured data
+        run: python3 tools/qa.py
+
+      - name: Sync the build into a working copy of the deploy branch
+        run: |
+          git clone --depth 1 --branch deploy \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" \
+            deploy-wc 2>/dev/null || {
+              echo "no deploy branch yet; creating one"
+              git clone --depth 1 \
+                "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" \
+                deploy-wc
+              cd deploy-wc && git checkout --orphan deploy && git rm -rqf . && cd ..
+            }
+          rsync -a --delete --exclude='.git' dist/ deploy-wc/
+
+      - name: Commit and push, but only when the output actually changed
+        working-directory: deploy-wc
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No change in the built site. Nothing to publish today."
+            exit 0
+          fi
+          PAGES=$(find . -name index.html -not -path './.git/*' | wc -l)
+          git commit -q -m "Release $(date -u +%Y-%m-%d): ${PAGES} pages live" \
+                        -m "Built from ${GITHUB_SHA::8}."
+          git push origin deploy
+          echo "Published ${PAGES} pages."
