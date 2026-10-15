@@ -4,9 +4,12 @@
   "h1": "GE refrigerator error codes: what the display is telling you",
   "answer": "GE refrigerators show faults as a short two-letter code in the temperature display, and the letter pair tells you which system is complaining. PF means the power was interrupted, FF warns that the freezer has warmed up, CC means the cabinet is not holding the temperature you set, CI points at the ice maker, and dF or dE mean the defrost system has not run when it should have. PF is the one most people see and it clears with a button press. The ones that do not clear lead toward the defrost system or the sealed refrigerant circuit, and the sealed system is licensed-technician work with no DIY path at all.",
   "severity": "serious",
-  "can_diy": "no",
+  "can_diy": "sometimes",
   "time_estimate": "5 minutes to read the code, 30 minutes to rule out the easy ones",
-  "cost_estimate": { "diy": "$0, limited to resets, cleaning and door checks", "technician": "$150 to $350 for diagnosis and common repairs, $600 to $1,500 for sealed system work" },
+  "cost_estimate": {
+    "diy": "$0, limited to resets, cleaning and door checks",
+    "technician": "$150 to $350 for diagnosis and common repairs, $600 to $1,500 for sealed system work"
+  },
   "safety_warning": "A refrigerator's sealed refrigerant circuit, meaning the compressor, the condenser and evaporator coils and every pipe between them, is a licensed-technician job in the United States and is not something to attempt whatever a video shows you. Opening it vents refrigerant, which is both illegal to release and a real injury risk, and recharging it requires certification and equipment you do not have. Unplug the refrigerator at the wall before removing any panel, and never bypass a thermal cut-out or a door switch.",
   "causes": [
     {
@@ -100,21 +103,67 @@
   "reset_procedure": "Unplug the refrigerator at the wall socket or switch off its breaker, wait a full five minutes, then restore power and leave the doors closed. The wait matters because the control board holds charge and a quick off-and-on frequently leaves the stored code in place. Give it several hours before you judge the result, since the cabinet has to pull back down to temperature from wherever the interruption left it. A PF notice is different and usually clears with a button press on the panel rather than needing an unplug. Be aware that pulling the power also erases stored fault history, which a technician may have wanted, so photograph the code first.",
   "model_notes": "GE has used more than one code scheme across its refrigerator range and the overlap is imperfect. The two-letter codes described here, PF, FF, CC, CI, dF and dE, are the family most owners meet on side-by-side and French-door models with a temperature display. GE Profile, Cafe and Monogram models carry additional codes and a more detailed service diagnostic mode, and Monogram in particular uses a different set again. Several published button sequences for entering diagnostic mode, often described as holding the two temperature buttons together for several seconds, differ between series, and using the wrong one does nothing. Code tables that show numeric codes such as 3E or 4E are generally written for a different manufacturer's scheme and do not apply to GE. Use the owner's manual or the service data sheet for your exact model number, and when a generic chart disagrees with it, believe the manual.",
   "parts": [
-    { "name": "Fridge or freezer thermistor temperature sensor", "cost": "$15 to $50", "difficulty": "moderate", "note": "Only after a technician has confirmed which sensor is reading wrong" },
-    { "name": "Defrost heater and defrost thermostat", "cost": "$40 to $110", "difficulty": "hard", "note": "Means emptying the freezer and removing the rear evaporator panel" },
-    { "name": "Evaporator or condenser fan motor", "cost": "$40 to $120", "difficulty": "hard", "note": "Check for ice jamming the blade before condemning the motor" },
-    { "name": "Ice maker assembly", "cost": "$90 to $220", "difficulty": "moderate", "note": "For CI, after the fill tube and water supply are ruled out" },
-    { "name": "Main control board", "cost": "$180 to $400", "difficulty": "technician only", "note": "Last resort, after the harness and sensors are proven good" }
+    {
+      "name": "Fridge or freezer thermistor temperature sensor",
+      "cost": "$15 to $50",
+      "difficulty": "moderate",
+      "note": "Only after a technician has confirmed which sensor is reading wrong"
+    },
+    {
+      "name": "Defrost heater and defrost thermostat",
+      "cost": "$40 to $110",
+      "difficulty": "hard",
+      "note": "Means emptying the freezer and removing the rear evaporator panel"
+    },
+    {
+      "name": "Evaporator or condenser fan motor",
+      "cost": "$40 to $120",
+      "difficulty": "hard",
+      "note": "Check for ice jamming the blade before condemning the motor"
+    },
+    {
+      "name": "Ice maker assembly",
+      "cost": "$90 to $220",
+      "difficulty": "moderate",
+      "note": "For CI, after the fill tube and water supply are ruled out"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $400",
+      "difficulty": "technician only",
+      "note": "Last resort, after the harness and sensors are proven good"
+    }
   ],
   "when_to_call": "Call a licensed technician for anything that touches the compressor, the refrigerant lines or recharging the sealed system, with no exceptions and regardless of what you find online. That work needs certification both for safety and because venting refrigerant is illegal, and there is no partial version of it you can do yourself. Beyond that, call once you have confirmed with a thermometer that the cabinet genuinely is not holding temperature, the condenser coils are clean, the door seals are sound and a five-minute reset has not helped, because the remaining causes all require the machine stripped and tested live. Call immediately rather than waiting if the compressor is clicking on and off every few minutes, if you can smell anything burning, or if there is oily residue on the pipework or the floor beneath the fridge, which means refrigerant has escaped. Move the food somewhere cold first; that is more urgent than the booking.",
   "faqs": [
-    { "q": "What does PF mean on a GE refrigerator?", "a": "PF means the power to the refrigerator was interrupted, by an outage, a tripped breaker or someone unplugging it. It is a notice rather than a fault, and it exists so you can judge whether the freezer contents warmed while you were out. On most models it clears by pressing a temperature adjustment button on the panel. Nothing needs repairing." },
-    { "q": "What is the difference between dF and dE on a GE fridge?", "a": "Both point at the defrost system, which is the circuit that periodically melts frost off the evaporator coil. The published sources differ on the exact timing window each one represents, but the practical meaning is the same: the control has not seen defrost run when it should have. Either one is a real repair involving the heater, thermostat or sensor, not something a reset fixes." },
-    { "q": "Can I fix a GE refrigerator sealed system myself?", "a": "No. The sealed system covers the compressor, the coils and every refrigerant line between them, and working on it requires certification in the United States. Venting refrigerant is illegal and genuinely hazardous, and recharging needs equipment you will not have. If a diagnosis points there, the only question left is whether to repair or replace the appliance." },
-    { "q": "My GE fridge shows a code but everything is still cold. Is that urgent?", "a": "Less urgent than it looks, but do not ignore it. Confirm it with thermometers in both compartments over four hours rather than trusting the display. If both are at temperature, you probably have a sensor or board fault, your food is safe, and you can book a visit at your convenience. If either is warm, treat it as urgent and move the food." },
-    { "q": "How do I get into GE refrigerator diagnostic mode?", "a": "There is no single sequence that works across the range. Published instructions usually involve holding two temperature buttons together for several seconds, but the exact combination differs between GE, Profile, Cafe and Monogram series, and the wrong one does nothing. Look it up for your specific model number, and photograph any code first because unplugging the fridge erases stored faults." },
-    { "q": "Why did my GE fridge start showing a code suddenly?", "a": "The most common trigger is a power event, which is exactly what PF reports. The other common one is gradual: condenser coils matting with dust over a couple of years until the machine can no longer hold temperature on a warm day, at which point a temperature code appears and looks sudden. Vacuuming the coils twice a year prevents a surprising number of these." },
-    { "q": "Is it worth repairing a GE refrigerator that throws a cooling code?", "a": "It depends which repair. A sensor or a fan is modest and worth doing on almost any machine. A defrost system repair at $250 to $450 is usually worth it under ten years old. Sealed system work at $600 to $1,500 rarely is on an older fridge. Get a written diagnosis and quote before authorizing anything." }
+    {
+      "q": "What does PF mean on a GE refrigerator?",
+      "a": "PF means the power to the refrigerator was interrupted, by an outage, a tripped breaker or someone unplugging it. It is a notice rather than a fault, and it exists so you can judge whether the freezer contents warmed while you were out. On most models it clears by pressing a temperature adjustment button on the panel. Nothing needs repairing."
+    },
+    {
+      "q": "What is the difference between dF and dE on a GE fridge?",
+      "a": "Both point at the defrost system, which is the circuit that periodically melts frost off the evaporator coil. The published sources differ on the exact timing window each one represents, but the practical meaning is the same: the control has not seen defrost run when it should have. Either one is a real repair involving the heater, thermostat or sensor, not something a reset fixes."
+    },
+    {
+      "q": "Can I fix a GE refrigerator sealed system myself?",
+      "a": "No. The sealed system covers the compressor, the coils and every refrigerant line between them, and working on it requires certification in the United States. Venting refrigerant is illegal and genuinely hazardous, and recharging needs equipment you will not have. If a diagnosis points there, the only question left is whether to repair or replace the appliance."
+    },
+    {
+      "q": "My GE fridge shows a code but everything is still cold. Is that urgent?",
+      "a": "Less urgent than it looks, but do not ignore it. Confirm it with thermometers in both compartments over four hours rather than trusting the display. If both are at temperature, you probably have a sensor or board fault, your food is safe, and you can book a visit at your convenience. If either is warm, treat it as urgent and move the food."
+    },
+    {
+      "q": "How do I get into GE refrigerator diagnostic mode?",
+      "a": "There is no single sequence that works across the range. Published instructions usually involve holding two temperature buttons together for several seconds, but the exact combination differs between GE, Profile, Cafe and Monogram series, and the wrong one does nothing. Look it up for your specific model number, and photograph any code first because unplugging the fridge erases stored faults."
+    },
+    {
+      "q": "Why did my GE fridge start showing a code suddenly?",
+      "a": "The most common trigger is a power event, which is exactly what PF reports. The other common one is gradual: condenser coils matting with dust over a couple of years until the machine can no longer hold temperature on a warm day, at which point a temperature code appears and looks sudden. Vacuuming the coils twice a year prevents a surprising number of these."
+    },
+    {
+      "q": "Is it worth repairing a GE refrigerator that throws a cooling code?",
+      "a": "It depends which repair. A sensor or a fan is modest and worth doing on almost any machine. A defrost system repair at $250 to $450 is usually worth it under ten years old. Sealed system work at $600 to $1,500 rarely is on an older fridge. Get a written diagnosis and quote before authorizing anything."
+    }
   ],
   "diagram": {
     "kind": "refrigerator-sensor",
@@ -128,10 +177,33 @@
     }
   },
   "sources": [
-    { "title": "GE refrigerator fault and function code descriptions", "publisher": "GE Appliances owner support and product help documentation", "url": null },
-    { "title": "GE refrigerator owner's manuals, temperature control and troubleshooting sections", "publisher": "GE owner's manual supplied with the refrigerator", "url": null },
-    { "title": "GE refrigerator fault code reference and diagnostic mode guidance", "publisher": "Independent appliance repair guides and technician references", "url": null },
-    { "title": "Field reports on GE defrost, fan and sealed system failures", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+    {
+      "title": "GE refrigerator fault and function code descriptions",
+      "publisher": "GE Appliances owner support and product help documentation",
+      "url": null
+    },
+    {
+      "title": "GE refrigerator owner's manuals, temperature control and troubleshooting sections",
+      "publisher": "GE owner's manual supplied with the refrigerator",
+      "url": null
+    },
+    {
+      "title": "GE refrigerator fault code reference and diagnostic mode guidance",
+      "publisher": "Independent appliance repair guides and technician references",
+      "url": null
+    },
+    {
+      "title": "Field reports on GE defrost, fan and sealed system failures",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
   ],
-  "related_codes": ["PF", "FF", "CC", "CI", "dF", "dE"]
+  "related_codes": [
+    "PF",
+    "FF",
+    "CC",
+    "CI",
+    "dF",
+    "dE"
+  ]
 }

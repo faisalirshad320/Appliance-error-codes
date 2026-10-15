@@ -1,0 +1,185 @@
+{
+  "title": "Frigidaire Oven F90 Error Code: Door Will Not Unlock",
+  "meta_description": "F90 on a Frigidaire oven means the door lock motor did not retract when told to. It usually turns up right after a self-clean cycle.",
+  "h1": "Frigidaire oven F90: the door lock did not release",
+  "answer": "F90 on a Frigidaire oven means the control told the door lock to unlock and never got confirmation that it did. It turns up most often right after a self-clean cycle, with the door still latched and the oven refusing to open. Before assuming anything has broken, let the oven cool completely, because the control will not release the latch while the cavity is still above its safe-to-open temperature and an impatient reset part way through produces exactly this code. If it is cold and still locked, the lock motor, the cam it drives or the switch that reports its position is the problem.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "2 hours of cooling, then 1 to 2 hours of work",
+  "cost_estimate": {
+    "diy": "$40 to $140",
+    "technician": "$180 to $400"
+  },
+  "safety_warning": "An oven is a 240V appliance and the lock motor and its switches are wired into the same compartment as the element circuits. Switch the oven off at the breaker before removing the control panel or the top trim. Never force a latch open, bend a lock cam, or bypass a door lock switch: that switch is what stops the door opening during a self-clean at several hundred degrees.",
+  "causes": [
+    {
+      "cause": "The oven is still too hot to unlock",
+      "frequency": "most cases",
+      "confirm": "The code appeared within an hour or two of a self-clean finishing and the cavity is still warm. The control holds the lock until the cavity drops below its release temperature. Wait until the oven is fully cold to the touch, then power cycle, and a good share of these clear on their own."
+    },
+    {
+      "cause": "The lock motor has failed or the cam is binding",
+      "frequency": "most cases",
+      "confirm": "The oven is stone cold, you have power cycled it, and you can hear either nothing at all or a brief buzz from the lock motor behind the control panel when it tries. A motor that hums without moving the cam is binding; silence usually means the motor winding or its supply is dead."
+    },
+    {
+      "cause": "The door lock switch is not reporting the latch position",
+      "frequency": "common",
+      "confirm": "You can hear the lock motor run and the latch actually move, but the code still appears. The mechanism is working and the switch that tells the board it worked is not. This is a cheap part and it is why listening before ordering is worth the two minutes."
+    },
+    {
+      "cause": "Wiring between the control and the lock assembly",
+      "frequency": "common",
+      "confirm": "With the breaker off and the panel open, look at the plug on the lock assembly. A connector that has backed out, a wire chafed where it crosses sheet metal, or insulation gone brittle with heat gives the board the same silence a dead motor does."
+    },
+    {
+      "cause": "Debris or warping is jamming the latch mechanism",
+      "frequency": "occasional",
+      "confirm": "Look along the latch slot at the top of the door opening. Baked-on spill residue, a fragment of self-clean ash, or a door that has shifted on its hinges stops the cam completing its travel. The motor runs and the mechanism moves part way and stops."
+    },
+    {
+      "cause": "The oven relay board or control board is at fault",
+      "frequency": "rare",
+      "confirm": "The motor, the switch and the wiring all check out and the lock still never runs. This is the diagnosis of exclusion and the most expensive answer, so it comes last rather than first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Let the oven cool completely",
+      "detail": "If this followed a self-clean, do nothing for two to three hours and let the cavity come down to room temperature. The control deliberately holds the door locked above its release temperature, and most F90 codes that appear right after a clean cycle are the oven doing its job while someone tries to hurry it. Touch the door glass and the top trim: both should be properly cold, not just warm.",
+      "minutes": 150,
+      "tools": null,
+      "warning": "Do not try to lever or force the door while the oven is hot. Self-clean temperatures are high enough to cause serious burns."
+    },
+    {
+      "name": "Cancel, then power cycle at the breaker",
+      "detail": "Press Cancel or Clear Off. If the code stays, switch the oven off at its breaker for five full minutes, then back on. The board stores the fault and holds the lock state, so a cold oven can stay locked purely because the control has not been given a chance to start the unlock sequence again. Watch and listen for the lock motor running in the first few seconds after power returns.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Listen to what the lock motor actually does",
+      "detail": "Put your ear near the top of the control panel and trigger a lock or unlock cycle, by starting and immediately cancelling a self-clean on models that allow it, or by power cycling. Three outcomes, three different repairs: a motor that runs and moves the latch means the switch is at fault, a motor that buzzes without moving means a binding cam, and total silence means the motor, its wiring or the board.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the latch slot for debris",
+      "detail": "With the oven cold, shine a flashlight into the slot at the top of the door opening where the latch hook travels. Look for baked-on spill residue, ash left from a self-clean, or a bent strike plate. Clean what you can reach with a stiff brush and a damp cloth. Do not push anything into the mechanism or try to move the hook with a screwdriver.",
+      "minutes": 10,
+      "tools": "Flashlight, stiff brush, cloth",
+      "warning": "Never force the latch hook by hand or with a tool. You will bend the cam and turn a cheap repair into a lock assembly replacement."
+    },
+    {
+      "name": "Open up the control panel area",
+      "detail": "Switch the oven off at the breaker. On a freestanding range the lock assembly sits behind the top trim or the control panel, reached by removing the screws along the back of the panel and tilting it forward. On a wall oven it is usually behind the top trim strip. Work out which fasteners you are removing before you pull, and support the panel as it comes free so it does not hang on its wiring.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, nut driver",
+      "warning": "Breaker off and verified off. This is a 240V appliance and the element circuits run through the same compartment."
+    },
+    {
+      "name": "Inspect the lock assembly and its connector",
+      "detail": "With the breaker still off, look at the lock motor, the cam it drives and the small switches riding on that cam. Check that the cam turns through its travel without catching, that no linkage is bent, and that the switch actuators actually touch the cam. Then unplug the connector and check the pins for corrosion, heat discoloration or a pin pushed back into its housing, and push it firmly home.",
+      "minutes": 20,
+      "tools": "Flashlight, multimeter, Phillips #2 screwdriver",
+      "warning": "Breaker off. Do not bypass, tape down or jumper a door lock switch for any reason."
+    }
+  ],
+  "still_showing": "If the oven is cold, you have power cycled it and the door is still locked, the three-way listening test is what saves you money, so do that before ordering anything. A motor that runs and visibly moves the latch while the code persists points at the lock switch, which is the cheapest part in this group and often sold as part of a small switch kit. A motor that buzzes but does not move the cam points at a mechanical bind: look for ash packed into the mechanism after a self-clean, a cam that has picked up a burr, or a door that has dropped on its hinges and is loading the latch sideways. Silence points at the motor itself, its wiring, or the board driving it, in that order of likelihood. On the motor, one caution worth more than any figure: various repair guides print a specific resistance that a good lock motor should read, and that number is model-specific and frequently quoted wrongly. Rather than chasing it, check for continuity at all, confirm the connector is sound, and use the service sheet that came with your appliance if you want a real target value. If the mechanism is damaged, buy the lock assembly as a unit rather than trying to straighten a bent cam; a cam that has been forced never seats reliably again, and this is a safety device. Two more things. First, if you need the oven open before the repair, do not pry the door, lever the hinge or take a screwdriver to the latch. On most Frigidaire ovens the lock cam can be rotated manually from inside the control panel compartment with the power off, which a technician will do in a couple of minutes, and that is the safe route. Second, if your oven also threw a temperature code such as F10 around the same time, deal with that first: an oven that genuinely overheated during self-clean has a different and more serious problem than a latch that is being stubborn.",
+  "reset_procedure": "Press Cancel or Clear Off, then switch the oven off at its breaker for five full minutes and restore power. A quick off-and-on often leaves the stored fault and the locked state in place. Listen in the first few seconds after power returns: on many models the control runs the lock motor through a self-check, and hearing it move is the most useful few seconds of the whole diagnosis. Do not reset repeatedly while the oven is still hot, since the control is correctly refusing to unlock and you are only re-triggering the code.",
+  "model_notes": "Frigidaire F-codes use the number to identify the circuit, and the F9x group covers the door lock. F90 is the unlock side specifically: the control commanded unlock and the latch did not confirm. Neighbouring codes in the same group cover related lock conditions, so a reader seeing F91 through F94 is in the same hardware and most of this page applies. The code turns up most often after self-clean because that is the only cycle that uses the lock in normal service, which is why owners who never run self-clean can go years without meeting it. Published resistance values for the lock motor differ between sources and by model, so this page tests for continuity and behavior rather than quoting one.",
+  "parts": [
+    {
+      "name": "Door lock assembly, motor and cam",
+      "cost": "$60 to $160",
+      "difficulty": "hard",
+      "note": "Buy as an assembly rather than straightening a bent cam; it is a safety device"
+    },
+    {
+      "name": "Door lock switch",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "The cheap answer when the motor runs but the code persists"
+    },
+    {
+      "name": "Lock motor wiring harness",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Only when insulation is heat-damaged or a wire is chafed through"
+    },
+    {
+      "name": "Electronic oven control board",
+      "cost": "$120 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, after motor, switch and wiring are cleared"
+    }
+  ],
+  "when_to_call": "Call a technician if the oven is cold, power cycled, and the door is still locked with the lock motor silent, because the next step is testing a 240V circuit with the control panel open. Call as well if you need the door open urgently: there is a safe way to release the cam manually from inside the panel with the power off, and there is an unsafe way involving a screwdriver and the latch, and the difference matters because this is the device that keeps the door shut during a self-clean. Do not attempt to bypass or disable the lock switch under any circumstances. On a gas range, leave anything beyond the latch slot inspection to a licensed technician.",
+  "faqs": [
+    {
+      "q": "How do I unlock my Frigidaire oven door with an F90 code?",
+      "a": "Let it cool completely first, which takes two to three hours after a self-clean, then press Cancel and power cycle at the breaker for five minutes. That clears most of them, because the control refuses to unlock while the cavity is still hot. If it is cold and still locked, the lock motor or its switch has failed and it needs opening up."
+    },
+    {
+      "q": "Can I still use my oven with an F90 code?",
+      "a": "No, and in most cases you physically cannot, because the door is latched shut. There is no fire risk in leaving it locked, so there is no emergency, but the oven is out of action until the latch releases. Do not try to force the door: bending the cam turns a cheap switch repair into a full lock assembly replacement."
+    },
+    {
+      "q": "Why does F90 happen after self-clean?",
+      "a": "Because self-clean is the only cycle in normal use that locks the door, so it is the only time the unlock sequence gets tested. The oven also holds the lock until the cavity cools below its release temperature, and people understandably try to hurry that along with resets, which is exactly what produces the code."
+    },
+    {
+      "q": "Is F90 the lock motor or the lock switch?",
+      "a": "Listen and you will know. A motor that runs and visibly moves the latch while the code stays means the switch is not reporting the position, and that is the cheap part at $15 to $45. A buzz without movement means something is binding. Silence points at the motor, its wiring or the board."
+    },
+    {
+      "q": "Can I pry the oven door open?",
+      "a": "No. The latch is a safety device that holds the door shut at self-clean temperatures, and forcing it bends the cam so it never seats properly again. A technician can rotate the lock cam by hand from inside the control panel compartment with the power off, which takes a couple of minutes and damages nothing."
+    },
+    {
+      "q": "Should I stop using self-clean after this?",
+      "a": "A lot of technicians would say yes, and the reasoning is reasonable. Self-clean runs the cavity far hotter than any cooking cycle, and that heat is hard on the lock mechanism, the door seal and the control board. Wiping the oven out by hand with a damp cloth and a scraper avoids the stress entirely."
+    },
+    {
+      "q": "Is a Frigidaire oven with F90 worth repairing?",
+      "a": "Usually yes. A lock switch is $15 to $45 and a full lock assembly $60 to $160, both well under the price of a range. It becomes marginal if the diagnosis lands on the control board at $120 to $300 plus labor on an older range, in which case get the fitted quote in writing first."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The door lock motor, its cam and the switch that reports position",
+    "labels": {
+      "display": "F90",
+      "c1": "Cool fully before anything",
+      "c2": "Breaker off five minutes",
+      "c3": "Listen: runs, buzzes or silent",
+      "c4": "Latch slot clear of ash"
+    }
+  },
+  "sources": [
+    {
+      "title": "Frigidaire range door lock fault codes F90 through F94",
+      "publisher": "Appliance parts retailer service documentation",
+      "url": null
+    },
+    {
+      "title": "Frigidaire range and wall oven F-code descriptions",
+      "publisher": "Frigidaire service literature summaries",
+      "url": null
+    },
+    {
+      "title": "Field reports on lock cam binding and self-clean lock failures",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F91",
+    "F92",
+    "F93",
+    "F94",
+    "F10"
+  ]
+}

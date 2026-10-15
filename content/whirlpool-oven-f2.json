@@ -1,0 +1,126 @@
+{
+  "title": "Whirlpool Oven F2 Error Code: Oven Ran Too Hot",
+  "meta_description": "Whirlpool oven F2 means the oven exceeded its temperature limit. Often a welded bake relay or a drifting sensor. Switch it off at the breaker first.",
+  "h1": "Whirlpool oven F2 error code: what it means and how to fix it",
+  "answer": "F2 on a Whirlpool oven means the control saw the cavity go above the temperature it allows and shut things down. Treat it as the serious one on the list, because the usual cause is a bake relay on the control board that has welded closed, and a welded relay keeps feeding the element even after the control tells it to stop. Switch the oven off at its breaker and leave it off until you know which fault you have. The cheap thing that separates the two main causes: if the oven genuinely cooked hot, smelled hot, or burnt the food, suspect the relay or the temperature sensor, and if F2 appeared on a cold oven that was sitting idle, suspect the touchpad or the control instead.",
+  "severity": "stop-using-it",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to diagnose, longer to repair",
+  "cost_estimate": { "diy": "$20 to $60 for a sensor", "technician": "$250 to $600" },
+  "safety_warning": "This code reports an oven that got hotter than it should. A welded bake relay can keep the element powered with the control switched off, so turning the oven off at its own buttons is not enough: switch it off at the circuit breaker and leave it off until the fault is found. An oven sits on a 240 volt circuit and a built-in is often hardwired with no plug. On a gas range, leave the gas valve, the igniter and the safety valve to a licensed technician.",
+  "causes": [
+    {
+      "cause": "A bake relay on the control board has welded closed",
+      "frequency": "most cases",
+      "confirm": "The oven really did overheat: food burnt, the kitchen smelled hot, or the oven kept climbing past the set temperature before the code appeared. A relay welded shut cannot stop feeding the element, which is exactly the condition F2 exists to catch."
+    },
+    {
+      "cause": "The oven temperature sensor has drifted or failed low",
+      "frequency": "most cases",
+      "confirm": "The oven has been running hot for a while, overbrowning everything, and then threw F2. A sensor reading lower than the true cavity temperature makes the control keep heating to reach a number it never sees arrive, until the overheat limit trips."
+    },
+    {
+      "cause": "The touchpad or control has shorted and is reporting a command nobody gave",
+      "frequency": "common",
+      "confirm": "F2 on an oven that was cold and idle, with nothing burnt and nothing hot. If the cavity never actually got warm, the overheat was never real and the fault is in what the control is reading, not in what the oven did."
+    },
+    {
+      "cause": "The sensor wiring has shorted against the cavity",
+      "frequency": "common",
+      "confirm": "Visible chafing or heat-stiffened insulation where the sensor leads run through the back of the oven liner. A sensor circuit shorted part way along reads as a low temperature just like a failed sensor does, but the part itself is fine."
+    },
+    {
+      "cause": "A control board fault other than the relay",
+      "frequency": "occasional",
+      "confirm": "Sensor tests good, wiring is sound, no relay is stuck, and F2 persists. This is the diagnosis of exclusion and it ends at the same part as a welded relay does, so the distinction matters less than the price."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch the oven off at the breaker and leave it off",
+      "detail": "Do this before anything else and before you read the rest of this page. A welded bake relay can keep the element live with the oven apparently switched off, so the control panel is not a safe way to stop it. Go to the panel, switch the oven's breaker fully off, and leave it off while you work out which fault you have. On a double-pole breaker make sure both halves move together.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": "Do not rely on the oven's own power or cancel button. If the oven is hot and the element is still glowing with the controls off, the breaker is the only thing that will stop it."
+    },
+    {
+      "name": "Work out whether the oven actually got too hot",
+      "detail": "This is the free observation that splits the diagnosis. Did food burn, did the kitchen smell of hot metal, was the outside of the door hotter than normal, did the oven keep climbing past the set temperature? Any of those means a real overheat, so the relay or the sensor is your suspect. F2 on a cold oven that was sitting idle means the overheat was never real and the fault is in the control or the touchpad.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note when the oven last ran self-clean",
+      "detail": "Self-clean drives the cavity far hotter than any cooking does and holds it there for hours, and both the control board and the temperature sensor sit in that heat. It is the single biggest cause of welded relays, cooked boards and drifting sensors on domestic ovens. A code that first appeared during or within a week of a self-clean cycle has very likely been caused by it.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Let the oven cool fully, then find the temperature sensor",
+      "detail": "With the breaker still off and the oven cold, look inside the cavity, usually at the upper left or upper rear. The sensor is a slim metal probe a few inches long on a bracket with two screws. Those screws come out and the probe pulls forward, bringing a short lead with a connector that sits just behind the liner. Pull the connector apart so you can test the sensor on its own.",
+      "minutes": 20,
+      "tools": "Nut driver set, Phillips #2 screwdriver, torch",
+      "warning": "Breaker off and verified dead. Let the cavity cool completely; an oven that has just overheated stays hot for hours."
+    },
+    {
+      "name": "Test the sensor without needing a reference value",
+      "detail": "Put a multimeter on ohms across the two sensor terminals and note the reading at room temperature. Then warm the probe with a hair dryer for a minute and watch the number. An oven sensor is the type whose resistance rises as it heats, so the reading should climb steadily and settle back as it cools. A reading that does not move, one that falls as the probe warms, or an open circuit all condemn the sensor. The exact resistance figure for your model is on the service sheet supplied with the appliance; this test needs no figure at all.",
+      "minutes": 15,
+      "tools": "Multimeter, hair dryer",
+      "warning": "Breaker off. Test the sensor disconnected from the oven, never with power on."
+    },
+    {
+      "name": "Inspect the sensor leads where they pass through the liner",
+      "detail": "With the sensor out, look at the two leads running back through the rear of the cavity. You want supple insulation and clean terminals. Insulation that has gone stiff, browned or cracked, or a lead rubbing bare against the metal of the liner, shorts the circuit and reads exactly like a failed sensor while the probe itself is fine. Replace a chafed lead rather than the sensor.",
+      "minutes": 15,
+      "tools": "Torch",
+      "warning": "Breaker off. Do not reuse a lead whose insulation crumbles when you flex it."
+    },
+    {
+      "name": "Hand the relay and board over",
+      "detail": "If the sensor tests good, the wiring is sound, and the oven genuinely overheated, the remaining answer is the control board and its bake relay. Checking a relay properly means powering the board up and watching it switch, which is live 240 volt work behind an open console. Leave the breaker off, leave the oven unused, and call a technician. Tell them the oven overheated and when it last ran self-clean, which will save them time.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Leave the oven off at the breaker until this is resolved. A welded relay is a fire risk, not an inconvenience."
+    }
+  ],
+  "still_showing": "If the sensor tests good and the code is still there, the order from here is short because F2 does not have many honest answers. Start by settling whether the oven ever actually got hot, since that one observation decides everything. A real overheat with a good sensor points squarely at the bake relay on the control board, which is the classic cause and is not something to test by running the oven to see what happens. A code on a cold idle oven points the other way, at the touchpad or the control reading something that was never commanded, and that shares a diagnosis with F1: with the breaker off, unplug the touchpad ribbon from the board, restore power, and see whether the code returns with the pad disconnected. No code means the touchpad, code still present means the board. Before either, do the two free checks that catch the cheap version of this fault. Look at the sensor leads where they pass through the back of the liner, because a lead chafed bare against the metal reads exactly like a failed sensor and costs a few dollars rather than a few hundred. And ask when the oven last ran self-clean, because that cycle welds relays, cooks boards and drifts sensors more reliably than anything else an oven does, and a fault dated to within a week of one usually traces straight back to it. The part that matters most here is not the diagnosis but the discipline: leave the oven off at the breaker while you work through it. A bake relay welded closed will heat the oven with the controls off and the display dark, and that is the one failure on this page worth being genuinely careful about. A control board runs $120 to $400 as a part and $250 to $600 fitted, and on an oven past about ten years old that is the point to price a replacement.",
+  "reset_procedure": "Switch the oven off at its circuit breaker, leave it for five minutes, and switch it back on. This clears the stored code, but understand what you are doing: if the cause was a real overheat, resetting only lets the oven try again, so do not reset and carry on cooking. Reset to confirm whether the fault returns, then leave the breaker off until it is repaired. The oven's own cancel button does not reset the control and does not isolate a welded relay.",
+  "model_notes": "F2 belongs to the older single-code system Whirlpool used before two-part F and E codes. On newer ovens the equivalent overheat warning appears in the F3 group as F3 E2, so if your display shows a second half you are on a different code and our F3 E2 page is the one you want. The published sources are not fully consistent on F2: most describe it as an over-temperature condition with a welded bake relay as the usual cause, while some older references list it as a shorted keypad fault. Both do occur, which is why this page routes on whether the oven actually got hot rather than asserting one. The same code and the same hardware appear on KitchenAid, Maytag and Amana ovens on the Whirlpool platform.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$20 to $60", "difficulty": "easy", "note": "Two screws inside the cavity and a connector behind the liner" },
+    { "name": "Sensor lead and connector", "cost": "$15 to $45", "difficulty": "moderate", "note": "For chafed or heat-stiffened leads where the probe itself tests good" },
+    { "name": "Electronic oven control board", "cost": "$120 to $400", "difficulty": "technician only", "note": "Where the bake relay has welded; the usual answer after a real overheat" },
+    { "name": "Oven touchpad or control panel assembly", "cost": "$80 to $250", "difficulty": "moderate", "note": "Only where F2 appeared on a cold idle oven" }
+  ],
+  "when_to_call": "Call a technician for anything beyond the sensor, and leave the oven off at the breaker until they arrive. Checking a bake relay means watching the board switch under power with the console open, and an oven that has already demonstrated it can overheat is not the appliance to experiment on. Call immediately, rather than when convenient, if the element glows with the oven switched off at its controls, if there is any smell of burning from the console, or if the oven kept heating past the set temperature before the code appeared. On a gas range, leave the gas valve, the safety valve and the igniter to a licensed technician without exception. Before authorizing a control board on an oven over about ten years old, get the total cost in writing and weigh it against a new appliance.",
+  "faqs": [
+    { "q": "What does F2 mean on a Whirlpool oven?", "a": "The control detected the cavity going above its allowed temperature and shut the oven down. The usual cause is a bake relay on the control board that has welded closed and cannot stop feeding the element, with a drifting temperature sensor the other common answer. It is the code on the Whirlpool oven list that deserves the most respect." },
+    { "q": "Is F2 dangerous?", "a": "It can be, which is why this page says switch off at the breaker first. A welded bake relay keeps the element powered even with the oven apparently turned off, so the oven's own controls are not a reliable way to stop it. Leave the circuit off until someone has established whether the relay is the cause." },
+    { "q": "Can I still use the oven with F2 showing?", "a": "No. The fault being reported is the oven getting hotter than it is allowed to, and the usual mechanism cannot be switched off from the front panel. Resetting at the breaker only lets the oven try again. Cook elsewhere until the sensor has been tested and the relay has been checked by someone who can do it safely." },
+    { "q": "How do I test the oven temperature sensor?", "a": "With the breaker off and the oven cold, unscrew the probe from inside the cavity and unplug it, then read across its terminals with a multimeter on ohms. Warm it with a hair dryer and watch the number climb, because this sensor type rises in resistance with heat. A flat, falling or open reading means it is dead." },
+    { "q": "Did self-clean cause the F2 code?", "a": "Very possibly. Self-clean holds the cavity far hotter than cooking does for hours at a time, and the relay, board and sensor all sit in that heat. It is the leading cause of welded relays and drifted sensors on domestic ovens, so a code dated to during or just after a clean cycle usually traces back to it." },
+    { "q": "Why would F2 appear when the oven was not even on?", "a": "Because in that case the overheat was never real. A shorted touchpad or a faulty control can report a condition the oven never reached, and the giveaway is a cold cavity with nothing burnt. That version shares its diagnosis with F1: disconnect the touchpad ribbon from the board and see whether the code returns without it." },
+    { "q": "Is F2 worth repairing?", "a": "A temperature sensor at $20 to $60 is worth doing on any oven. A control board at $120 to $400 as a part, or $250 to $600 fitted, is reasonable on an oven under about ten years old and marginal beyond that. Given the relay is a safety-relevant part, this is not a repair to defer or botch to save money." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What F2 is reporting, and the order to check it in",
+    "labels": {
+      "display": "F2",
+      "c1": "Bake relay welded closed",
+      "c2": "Switch off at the breaker first",
+      "c3": "Sensor reads low, oven overshoots",
+      "c4": "Sensor leads chafed on liner"
+    }
+  },
+  "sources": [
+    { "title": "Oven over-temperature and control fault codes", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool range and wall oven technical sheet, temperature limit codes", "publisher": "Service sheet supplied with the appliance", "url": null },
+    { "title": "Published readings of F2 as over-temperature and as a shorted keypad", "publisher": "Appliance repair trade reference sites", "url": null },
+    { "title": "Field reports on welded bake relays following self-clean cycles", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F3", "F3 E2", "F1", "F9", "E2", "PF"]
+}
