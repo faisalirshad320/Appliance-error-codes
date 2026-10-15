@@ -1,0 +1,197 @@
+{
+  "title": "GE Washer UE Code: Unbalanced Load, and How to Clear It",
+  "meta_description": "UE on a GE washer means the load went out of balance and the machine gave up trying to spin. Redistribute the load and level the machine.",
+  "h1": "GE washer UE code: why the spin stops and how to clear it",
+  "answer": "UE means the washer detected an out-of-balance load during the spin, tried several times to rebalance it by refilling and resloshing, and gave up. It is a protective stop, not a breakdown: spinning a lopsided drum at full speed is how machines walk across floors and wreck their own bearings. Nine times out of ten the fix is to open the lid, spread the load out by hand and run a spin-only cycle. If it happens on every load regardless of what is in the drum, the machine is not sitting level or its suspension is worn.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes for the load, 30 to 60 minutes if the machine needs leveling",
+  "cost_estimate": {
+    "diy": "$0 to $130",
+    "technician": "$130 to $300"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The load bunched up or one heavy item soaked up all the water",
+      "frequency": "most cases",
+      "confirm": "Open the lid. Everything is wadded on one side, or there is a single bath mat, duvet, hoodie or pair of jeans sitting as a dense lump. A twisted sheet wrapped around everything else is the classic version."
+    },
+    {
+      "cause": "The machine is not level, or its feet are not locked down",
+      "frequency": "most cases",
+      "confirm": "Push down on each top corner in turn. Any rock at all means it is not sitting on all four feet. Lay a spirit level across the top, front to back and side to side. A washer on an uneven laundry room floor will throw UE on loads that are perfectly well distributed."
+    },
+    {
+      "cause": "The load is too small for the drum",
+      "frequency": "common",
+      "confirm": "You are washing one or two items on their own. A single towel on one side of a large drum is the hardest thing in the world for a washer to balance. Add two or three similar items and the same cycle runs through without complaint."
+    },
+    {
+      "cause": "Suspension rods, springs or dampers are worn out",
+      "frequency": "common",
+      "confirm": "The drum bounces and keeps bouncing when you push it down by hand instead of settling in one movement, and the machine has started banging on spin with ordinary loads. On a machine over five years old that has always been reliable, this is usually the answer."
+    },
+    {
+      "cause": "Mixed fabric weights in one load",
+      "frequency": "common",
+      "confirm": "Towels washed with lightweight shirts, or jeans with t-shirts. The heavy items hold water and the light ones do not, so the drum ends up badly weighted no matter how you arrange it. Sort by weight and the problem disappears."
+    },
+    {
+      "cause": "Shipping bolts were never removed, or the machine sits on soft flooring",
+      "frequency": "occasional",
+      "confirm": "On a recently delivered front loader, look at the back panel for the bolts that hold the drum rigid in transit; they must come out. On any machine, a soft vinyl or springy wooden floor lets the whole washer rock, which reads to the control exactly like an unbalanced drum."
+    },
+    {
+      "cause": "A drum bearing or the balance ring is failing",
+      "frequency": "rare",
+      "confirm": "A loud rumbling or grinding during the spin that gets worse as speed rises, and a drum that can be rocked noticeably in and out by hand with the machine empty. This one is a repair decision rather than a load problem."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the lid and redistribute the load by hand",
+      "detail": "Pull everything apart, unwrap anything that has twisted around itself, and lay it back in evenly around the drum rather than piled in the middle or on one side. If there is one heavy item alone, add two or three similar items to give it something to balance against. Close the lid and run a spin-only cycle.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a drain-and-spin on its own",
+      "detail": "Do not restart the whole wash. Select a drain-and-spin or spin-only cycle so you find out in three minutes whether the rebalance worked, instead of sitting through another forty-minute wash to reach the same point. If it spins up and finishes, the load was the whole problem.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the machine for rock",
+      "detail": "Push down firmly on each of the four top corners in turn. If the machine moves at all on any corner, it is standing on three feet. Then lay a spirit level across the top from side to side and again from front to back. A phone level app is close enough for this if you do not have a level.",
+      "minutes": 6,
+      "tools": "Spirit level or phone level app",
+      "warning": null
+    },
+    {
+      "name": "Level the machine and lock the feet",
+      "detail": "Tip the washer slightly or lift a corner and turn the threaded foot to raise or lower it until all four take weight and the bubble sits centered both ways. Most feet have a lock nut that has to be run up tight against the cabinet once the height is right; a foot set correctly but not locked will unwind itself within a few weeks and the problem comes back.",
+      "minutes": 25,
+      "tools": "Adjustable wrench, spirit level, helper for lifting",
+      "warning": "Get help rather than lifting a loaded washer alone. Drain it first if it still holds water."
+    },
+    {
+      "name": "Check the floor under the machine",
+      "detail": "A level machine on a springy floor still rocks. Press the floor beside each foot and look for flex, especially on a raised wooden floor or over a soft vinyl layer. A sheet of plywood under the machine, or a proper washer pedestal, stiffens it up. Anti-vibration pads under the feet help on tile but will not fix a bouncing subfloor.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Test the suspension by hand",
+      "detail": "With the machine empty, push the drum down firmly and let go. It should drop and settle in roughly one movement. If it bounces two or three times before it stops, the suspension rods, springs or dampers have lost their damping and the drum can no longer absorb an ordinary imbalance. That is the point at which parts are needed.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Change how you load it",
+      "detail": "Sort by weight: towels with towels, jeans with jeans, light things together. Wash a single duvet or bath mat on a lower spin speed on purpose. Fill the drum to roughly three quarters rather than cramming it or running one item alone. This is not a workaround, it is how the machine is designed to be loaded, and it clears most repeat UE complaints on its own.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the load is evenly spread, the machine does not rock and it is level both ways, work through the rest in this order. First, run an empty spin with nothing at all in the drum. A machine that spins up smoothly to full speed empty has healthy mechanics, which means the fault is in how it is being loaded or in what it is standing on, not in the washer. Second, if the empty spin is rough, noisy or still throws UE, push the drum down by hand and watch how it settles: more than one bounce means worn suspension rods or dampers, which is a $50 to $130 set and a job most people can do in an afternoon with the top and front panels off. Third, check the floor itself, because a perfectly level washer on a flexing wooden floor behaves exactly like an unbalanced one; a sheet of plywood under it costs little and settles the question. Fourth, if the drum rumbles or grinds as the speed rises and you can rock it in and out by hand with the machine empty, the drum bearing is going, and that is the point where the cost jumps hard: a bearing job on most modern washers means splitting the outer tub or replacing it as an assembly, and on a machine over eight years old it is usually more than it is worth. Fifth, if the mechanics all check out and UE appears even on an empty spin, the fault is the sensor side rather than the mechanical side, and a technician needs to look at the balance sensing and the motor control. One thing to rule out for free on any recently delivered machine: on front loaders the shipping bolts at the back panel hold the drum rigid for transport and must be removed. A machine still running with them in will throw balance codes and bang alarmingly from the very first load.",
+  "reset_procedure": "Open the lid, redistribute the load, close the lid and select a drain-and-spin. That clears UE on its own in most cases without touching the power. If the code sticks, cancel the cycle, unplug the washer or switch off its breaker for five minutes, then plug it back in and run a spin-only cycle to test. Note that a power cycle clears the display but does not clear a stored fault history, which has to be cleared from service mode.",
+  "model_notes": "On some GE machines a lower-case uE appears first as a warning that the washer is actively trying to rebalance, filling with a little water to let the load redistribute and then draining and retrying. Only after several failed attempts does it become UE, which means the machine has given up and needs you to intervene. Related codes on the same family of fault are Ub, logged when the unbalance switch trips during the spin, and the numeric code 26 on 27-inch top loaders, which is recorded when an out-of-balance condition ended the final spin. If your machine has no display, this fault shows as a pattern of lit status lights instead, decoded from the tech sheet inside the machine.",
+  "parts": [
+    {
+      "name": "Suspension rods or dampers",
+      "cost": "$50 to $130 a set",
+      "difficulty": "moderate",
+      "note": "Always replace as a full set; one new rod against three worn ones makes it worse"
+    },
+    {
+      "name": "Leveling feet and lock nuts",
+      "cost": "$15 to $40",
+      "difficulty": "easy",
+      "note": "Only if a foot is seized, bent or has lost its rubber pad"
+    },
+    {
+      "name": "Anti-vibration pads",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Helps on hard floors, does nothing for a flexing subfloor"
+    },
+    {
+      "name": "Drum bearing or outer tub assembly",
+      "cost": "$150 to $400",
+      "difficulty": "technician only",
+      "note": "Weigh against a new machine on anything over about eight years old"
+    }
+  ],
+  "when_to_call": "Call someone if the machine throws UE on an empty spin with nothing in the drum, because at that point the load is ruled out and the fault is in the suspension, the balance sensing or the motor control. Call if the drum rumbles or grinds as the speed rises, or if you can rock it noticeably in and out by hand, since a failing bearing left to run will eventually take the outer tub and the seal with it. Otherwise this is a code to fix yourself: redistribute, level, load better. Ask for the parts price before authorizing a bearing job, because on an older machine it often exceeds what the washer is worth.",
+  "faqs": [
+    {
+      "q": "What does UE mean on a GE washer?",
+      "a": "The washer found the load out of balance during the spin, made several attempts to redistribute it by adding water and resloshing, and could not get it even enough to spin safely. It stops rather than risk spinning a lopsided drum at full speed. Open the lid, spread the load out and run a spin-only cycle."
+    },
+    {
+      "q": "Can I still use the washer with a UE code?",
+      "a": "Yes. UE is a protective stop, not damage, and the machine will run normally on the next load if that load is better balanced. Your clothes will come out wetter than usual because the final spin did not complete, so run a drain-and-spin before you hang them. If it happens on every load, fix the leveling."
+    },
+    {
+      "q": "Why does UE happen with just one item in the drum?",
+      "a": "Because a single heavy item is the hardest thing for a washer to balance. One soaked bath mat or pair of jeans sits as a dense lump on one side of an otherwise empty drum, and there is nothing to counterweight it. Add two or three similar items, or use a lower spin speed for single bulky things."
+    },
+    {
+      "q": "Why did UE start suddenly when I have not changed anything?",
+      "a": "Two usual reasons. Someone cleaned behind the machine and it went back down on an uneven spot, or a foot has unwound because its lock nut was never tightened. The slower one is suspension wear: rods and dampers lose their damping gradually over about five years until one ordinary load finally trips it."
+    },
+    {
+      "q": "What is the difference between uE and UE?",
+      "a": "Lower-case uE means the washer is still working on it, filling with a little water and resloshing to let the load even out before trying the spin again. Upper-case UE means it has run out of attempts and needs you. If you catch it at uE, opening the lid and spreading the load out saves it from getting to UE."
+    },
+    {
+      "q": "Will leveling the washer really fix this?",
+      "a": "Often, yes, and it is the most under-rated fix on the list. A machine standing on three of its four feet rocks under spin, and that rocking reads to the control exactly like an unbalanced drum. Level it both ways with a spirit level, then tighten the lock nut on each foot so the setting holds."
+    },
+    {
+      "q": "Is a GE washer throwing UE on every load worth repairing?",
+      "a": "If it comes down to suspension rods, yes, easily: the set is modest and it is an afternoon's work. If it is a drum bearing on a machine over about eight years old, usually not, because the job often means replacing the outer tub assembly and the cost approaches the price of a new washer."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why a GE washer stops the spin and shows UE",
+    "labels": {
+      "display": "UE",
+      "c1": "Spread the load evenly in the drum",
+      "c2": "All four feet taking weight",
+      "c3": "Level both ways, lock nuts tight",
+      "c4": "Suspension should settle in one bounce"
+    }
+  },
+  "sources": [
+    {
+      "title": "Washer out-of-balance detection and spin fault descriptions",
+      "publisher": "GE Appliances support documentation",
+      "url": null
+    },
+    {
+      "title": "Washer fault code table and leveling specification for this model series",
+      "publisher": "GE service tech sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on repeat unbalance codes, leveling and suspension wear",
+      "publisher": "Appliance repair technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "Ub",
+    "26",
+    "E2",
+    "LE",
+    "dL"
+  ]
+}

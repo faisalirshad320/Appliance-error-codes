@@ -1,0 +1,182 @@
+{
+  "title": "Hisense Air Conditioner E5 Error: Causes and Fix",
+  "meta_description": "On a Hisense portable AC, E5 almost always means the internal condensate tank is full and the float switch has tripped. Drain it and the unit restarts.",
+  "h1": "Hisense air conditioner E5 error: what it means and how to clear it",
+  "answer": "On a Hisense portable air conditioner, E5 is usually not a breakdown. It means the internal condensate tank has filled and the float switch has shut the unit down to stop it overflowing, and the fix is to pull the drain plug at the bottom of the back panel and let the water out. Unplug the unit, drain it into a shallow tray, refit the plug and power back up, and the code clears. On Hisense window units and mini-splits, E5 is used for a different family of faults depending on the model line, so if yours is not a portable, check the code table in the manual that came with it before you start pulling plugs.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "10 to 30 minutes",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$90 to $250 if it is not the tank"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The internal condensate tank is full and the float switch has tripped",
+      "frequency": "most cases",
+      "confirm": "This is a portable unit, the room is humid, and the unit has been running hard for days. Tip the cabinet gently a couple of inches and you will hear water slosh in the base. Pull the lower drain plug into a tray and if more than a cupful comes out, that was the fault."
+    },
+    {
+      "cause": "The drain plug, drain hose or the pan under the coil is blocked with sludge",
+      "frequency": "common",
+      "confirm": "You pull the plug and get a dribble, or nothing, when the unit clearly feels heavy with water. Slime and dust build into a soft plug in the drain spigot over a season. Poke a soft wire or a pipe cleaner into the spigot and the water usually releases all at once, so have the tray ready."
+    },
+    {
+      "cause": "The unit is standing out of level or on carpet",
+      "frequency": "occasional",
+      "confirm": "Put a level across the top of the cabinet, or just look at the gap under the casters front and back. A unit tilted back pools water at the float end of the pan and trips E5 while the tank is only part full. Thick carpet and rugs do the same thing by letting the casters sink unevenly."
+    },
+    {
+      "cause": "Running in a room that is already cold, so the coil ices and then melts into the pan",
+      "frequency": "occasional",
+      "confirm": "The air coming out is barely cold, the unit sounds like it is working harder than usual, and frost or a sheet of ice is visible on the intake side fins. Below about room-sweater temperature, a portable AC ices up, and the meltwater fills the pan far faster than normal condensation would. Turn it off for an hour and look for a puddle under it."
+    },
+    {
+      "cause": "The float switch itself is stuck or has failed",
+      "frequency": "rare",
+      "confirm": "The pan is genuinely dry, the drain runs clear and E5 still comes straight back on power-up. On most units the float is a small foam or plastic bob in the base that should rise and fall freely. If it is crusted in place with scale or trapped against the housing, it is telling the control there is water when there is not."
+    },
+    {
+      "cause": "On window and mini-split models, a protection trip or a sensor fault rather than water at all",
+      "frequency": "occasional",
+      "confirm": "There is no internal tank to drain, and the code appears on power-up or a few minutes into a cycle rather than after days of running. Hisense assigns E5 differently across its window and split lines, and the published tables do not agree with each other, so the only reliable mapping is the one printed in the manual or on the label inside the unit."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the unit and put a tray under the back",
+      "detail": "Pull the plug rather than just switching it off at the panel. Portable air conditioners hold more water than people expect and the base is low to the floor, so use a shallow roasting tray or a baking sheet with a lip rather than a bucket, and lay a towel underneath it. If you have a short length of garden hose and the unit has a threaded drain spigot, that is easier than the tray.",
+      "minutes": 5,
+      "tools": "Shallow tray, towels",
+      "warning": "Unplug before draining. Water and a powered appliance on the same floor is not a combination to get casual about."
+    },
+    {
+      "name": "Pull the lower drain plug and empty the tank",
+      "detail": "Look at the bottom of the back panel for a small rubber or screw-in plug, usually in a recess near one corner. Some units have two: a lower one for the main pan and an upper one for the dehumidification pan. Take the lower one out first and let it run. Tilt the cabinet gently back toward the drain as the flow slows to get the last of it. Refit the plug firmly, because a loose plug leaks onto the floor all season.",
+      "minutes": 10,
+      "tools": "Shallow tray, towels",
+      "warning": null
+    },
+    {
+      "name": "Clear the drain spigot if little or no water comes out",
+      "detail": "If the unit feels heavy and nothing runs, the spigot is blocked with slime. Push a pipe cleaner, a cable tie or a length of soft wire into the opening and work it around, standing clear with the tray in place. It usually releases suddenly. Afterward, flush a cup of warm water with a splash of dish soap through the same opening and let it drain to clear the rest.",
+      "minutes": 10,
+      "tools": "Pipe cleaner or soft wire, tray",
+      "warning": null
+    },
+    {
+      "name": "Level the unit and check what it is standing on",
+      "detail": "Set the cabinet on a hard, flat floor with all four casters touching. A unit on carpet, a rug or a sloping balcony tilts back and pools water at the float while the tank is half empty. If the only spot available is carpeted, put a thin board or a tile under it. Leave a hand's width of clearance behind and to the sides so the exhaust air can get away.",
+      "minutes": 5,
+      "tools": "Spirit level or a phone level app",
+      "warning": null
+    },
+    {
+      "name": "Check the exhaust hose and the room temperature",
+      "detail": "The hose should be as short and straight as it will go, with no sags that trap condensate and no loops behind the unit. A kinked or sagging hose pushes hot air back inside, which makes the unit run constantly and produce far more condensate than it can evaporate. If the room is already cool and the intake fins have frost on them, turn the unit off for an hour to let the ice melt and run it on fan only before trying cooling again.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power back up and confirm the code has cleared",
+      "detail": "Plug the unit back in, wait for the panel to wake, and start it on cooling. E5 should be gone immediately. If it is, note roughly how many days of running it took to fill, so you know when to drain it next; in a humid room that can be every day or two. Many portables also accept a continuous drain hose on the lower spigot run to a floor drain, which removes the problem entirely.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have drained the tank and E5 is still on the panel, work through this in order. First, make sure the unit really is empty. Most portables have two drain points, a lower one for the main base pan and an upper one for the dehumidifying pan, and emptying only one leaves the float sitting in water. Tip the cabinet gently from side to side, listen for sloshing, and drain both. Second, check that the drain spigot is genuinely flowing rather than seeping, by pouring a cup of water in through the top grille and watching it come out below within a minute or so. Third, look at the float itself. On most units you can see it through the base opening with a flashlight: a small bob that should move freely when you poke it with a cable tie. Scale and slime glue it in the up position, and freeing it costs nothing. Fourth, leave the unit unplugged for ten minutes before you retest. Some controls latch the fault until power is fully removed, so a tank you drained correctly can still read E5 if you only pressed the power button. Fifth, if the pan is dry, the float moves freely and the code still returns on every start, the float switch or its wiring has failed, and that is the point where it becomes a service job rather than maintenance. Expect $90 to $250 for a technician, which on a cheap portable unit is a significant fraction of what it cost new, so get the quote before agreeing to the work. One important caveat for anyone whose unit is not a portable: a Hisense window unit or mini-split has no internal tank to empty, and E5 on those machines points somewhere else entirely. Published tables disagree about what, so do not work through a drainage fix on a split system. Find the code list in your own manual, and if it is not there, call Hisense support with the model number from the rating label rather than guessing.",
+  "reset_procedure": "Unplug the unit at the wall, wait ten minutes, then plug it back in and start it on cooling. Pressing the power button alone often will not clear a latched E5, because the control holds the fault until power is removed. If the code returns within seconds of restarting, the float is still reading water, so go back and drain the second pan rather than resetting again.",
+  "model_notes": "E5 does not mean the same thing across the whole Hisense air conditioning range. On portable units it is a water level fault and the drain is the fix. On window units and on wall-mounted mini-split indoor units, Hisense has used E5 for protection and sensor faults instead, and the code tables published by repair sites contradict one another on which. There is no internal tank on those machines, so if yours is a window or split unit, ignore the drainage advice and work from the code list in the manual for your model number. Hisense also builds air conditioners sold under other brand names, which is why a code list found online for a similar-looking unit may not apply to yours.",
+  "parts": [
+    {
+      "name": "Drain plug and gasket",
+      "cost": "$5 to $15",
+      "difficulty": "easy",
+      "note": "Only needed if the original is lost or perished; a lost plug causes a wet floor, not E5"
+    },
+    {
+      "name": "Continuous drain hose kit",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Not a repair, but it stops the tank ever filling if you have a floor drain nearby"
+    },
+    {
+      "name": "Water level float switch",
+      "cost": "$20 to $60",
+      "difficulty": "technician only",
+      "note": "Inside the cabinet near the mains wiring; not a sensible DIY part on a sealed unit"
+    }
+  ],
+  "when_to_call": "Call for service if the pan is dry, the drain is clear, the float moves freely and E5 still appears on every start, because the remaining possibilities are inside the cabinet alongside the mains wiring and the sealed refrigerant circuit. Call straight away, without opening anything, if the unit is a window model or a mini-split rather than a portable, since E5 on those is not a drainage fault and the indoor unit of a split system is not something to open at home. Never cut, loosen or vent any refrigerant pipework yourself under any circumstances; that is licensed work. And if your portable is more than a few years old and the quote comes back near the price of a new unit, which it often does, replacing is the honest answer.",
+  "faqs": [
+    {
+      "q": "What does E5 mean on a Hisense portable air conditioner?",
+      "a": "It means the internal condensate tank is full and the float switch has shut the unit down to prevent an overflow. It is a maintenance prompt rather than a breakdown. Unplug the unit, pull the drain plug at the bottom of the back panel, let the water out into a shallow tray, refit the plug and power back up. The code clears as soon as the float drops."
+    },
+    {
+      "q": "How often should I drain my portable air conditioner?",
+      "a": "It depends entirely on humidity. In a dry climate a self-evaporating unit may go a whole season without needing it; in a humid room running day and night, every day or two is normal. If you are emptying it constantly, fit a continuous drain hose to the lower spigot and run it to a floor drain, which removes the chore completely."
+    },
+    {
+      "q": "Can I keep using the air conditioner with E5 showing?",
+      "a": "Not until it is drained, because the unit will not cool while the float is up. There is no danger in leaving it, but the standing water in the pan will start to smell within a few days in a warm room. Draining it also gives you a chance to flush the pan, which is the fix for the musty smell people blame on the filter."
+    },
+    {
+      "q": "Why does E5 keep coming back a day after I drain it?",
+      "a": "Either the room is very humid and the unit genuinely fills that fast, or the exhaust hose is kinked or sagging so hot air is leaking back in and the unit is running flat out. Check the hose first: short, straight and with no low loops. If the room is just humid, a continuous drain line is the practical answer."
+    },
+    {
+      "q": "Does E5 mean the same thing on a Hisense window unit?",
+      "a": "No. Window units and mini-splits have no internal tank to fill, and Hisense uses E5 for other faults on those lines, with different published tables disagreeing about which. Do not work a drainage fix on a window unit or a split system. Find the code list in your own manual, or call Hisense support with the model number from the rating label."
+    },
+    {
+      "q": "Why is my portable AC icing up and then showing E5?",
+      "a": "A portable air conditioner iced up is a portable air conditioner making meltwater, and that fills the pan much faster than ordinary condensation. Icing happens when the room is already cool, the filter is dirty, or airflow across the coil is restricted. Switch to fan only for an hour to melt the ice, wash the filter, and do not run cooling in a room that is already cold."
+    },
+    {
+      "q": "Is a float switch repair worth paying for?",
+      "a": "Weigh it against the price of the unit. A technician visit for a portable air conditioner typically runs $90 to $250, and many portables cost not much more than that new. Get the quote before agreeing to the work, and make sure the pan has genuinely been ruled out first, because a stuck float freed with a cable tie costs nothing."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing E5 on a Hisense portable: drain, level, restart.",
+    "labels": {
+      "display": "E5",
+      "c1": "Lower drain plug at the back",
+      "c2": "Upper plug for the second pan",
+      "c3": "Float must move freely",
+      "c4": "Unplug ten minutes to clear"
+    }
+  },
+  "sources": [
+    {
+      "title": "Hisense portable air conditioner use and care guide, draining the water tank",
+      "publisher": "Hisense owner documentation supplied with the unit",
+      "url": null
+    },
+    {
+      "title": "Hisense air conditioner error code listings",
+      "publisher": "Hisense customer support pages",
+      "url": null
+    },
+    {
+      "title": "Conflicting published definitions of E5 across Hisense portable, window and split lines",
+      "publisher": "HVAC and appliance repair reference sites",
+      "url": null
+    },
+    {
+      "title": "Field reports on full tank shutdowns and blocked condensate drains",
+      "publisher": "Appliance and HVAC repair community forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E1",
+    "E2",
+    "E4"
+  ]
+}

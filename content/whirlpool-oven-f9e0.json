@@ -1,0 +1,121 @@
+{
+  "title": "Whirlpool Oven F9 E0 Error Code: Causes and Fix",
+  "meta_description": "Whirlpool F9 E0 points at the electrical supply feeding the oven, not the oven itself. It is a different code from a plain F9. Here is how to tell.",
+  "h1": "Whirlpool oven F9 E0 error code: what it means and how to fix it",
+  "answer": "F9 E0 means your Whirlpool oven has flagged a problem with the electrical supply reaching it, rather than a part inside the appliance. The manufacturer's guidance for this code on the Whirlpool platform is that the oven is connected incorrectly at the house wiring, most often with L2 and neutral swapped at the terminal block. Read the code carefully before you go further, because a plain F9 on an older Whirlpool oven is a door latch fault and a completely different problem, and the two halves of F9 E0 alternate on the display so it is easy to write down only the F9. If your oven was installed, moved or rewired shortly before the code appeared, the supply is where to look.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to test, longer if an electrician is needed",
+  "cost_estimate": { "diy": "$0 if a reset holds", "technician": "$120 to $400" },
+  "safety_warning": "An oven sits on a 240 volt circuit, and a built-in wall oven is often hardwired with no plug, so the breaker is the only way to isolate it. Switching the oven off at its own controls does not make it safe to work on. Leave the terminal block and junction box to a licensed electrician unless you can identify L1, L2, neutral and ground with the power off and verified dead.",
+  "causes": [
+    {
+      "cause": "The oven is miswired at the house connection, typically L2 and neutral swapped",
+      "frequency": "most cases",
+      "confirm": "The code appeared on the first or second use after the oven was installed or reconnected. This is the cause the manufacturer names for F9 E0 across the Whirlpool platform, and the install history is what confirms it."
+    },
+    {
+      "cause": "A three-wire circuit feeding an oven set up for four, or the wrong bonding strap position",
+      "frequency": "most cases",
+      "confirm": "A new oven fitted into an older kitchen without the circuit being updated. The strap that bonds neutral and ground at the block has either been left in when it should have come out, or removed when it should have stayed."
+    },
+    {
+      "cause": "A loose conductor at the terminal block, junction box or breaker",
+      "frequency": "common",
+      "confirm": "The oven worked for a while and then began showing F9 E0 on and off, sometimes with the clock resetting itself. Years of heat cycling back a lug out, and a neutral barely making contact behaves exactly like one wired to the wrong terminal."
+    },
+    {
+      "cause": "One leg of the 240 volt supply has been lost",
+      "frequency": "common",
+      "confirm": "Half a double-pole breaker has tripped or a lug has burnt. The telltale is a control panel and clock that still light up, on the surviving leg, while nothing in the oven will actually heat."
+    },
+    {
+      "cause": "The door lock motor or latch switch has failed",
+      "frequency": "occasional",
+      "confirm": "An oven that has been in the same place for years with no electrical work, especially one that recently ran a self-clean. Start a self-clean and listen: the lock motor should drive the latch across audibly within a minute. Silence points here instead of at the supply."
+    },
+    {
+      "cause": "The electronic oven control board has failed",
+      "frequency": "rare",
+      "confirm": "Supply verified correct, no recent install, lock motor running normally, code still there. The expensive answer and the one to reach last, not first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the whole code off the display",
+      "detail": "Watch the display through two full cycles of the message. Whirlpool alternates the two halves about once a second, so you want to be sure you have F9 and then E0, rather than a plain F9. It matters: F9 on its own, on an older single-code Whirlpool oven, is a door latch fault with a different diagnosis and a different part. Film the display on your phone and pause it if it cycles too fast to be sure.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker for a full minute",
+      "detail": "Switch the oven's breaker off, wait a full minute and switch it back on. This clears codes left behind by a brownout or a brief supply interruption and costs nothing to try. On a double-pole breaker make sure both halves go fully off together before you restore power, because one that has tripped on a single leg can look closed while feeding half the circuit.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Use the breaker. The oven's own power button does not isolate it, and a built-in wall oven may have no plug at all."
+    },
+    {
+      "name": "Settle the question of whether this is a new installation",
+      "detail": "Everything else follows from this. Fitted, swapped, moved or any electrical work done in the weeks before the code showed up means treat it as a supply fault. Sitting in the same opening cooking normally for years with nobody near the panel means go and check the door lock instead. Decide this before spending money, because the two paths lead to different trades and different parts.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look at the breaker for a half trip",
+      "detail": "At the panel, find the oven's double-pole breaker. One that has tripped on a single leg often sits slightly proud in the middle rather than moving to a clean off. Push it firmly all the way off and then all the way on. If it trips again straight away, leave it off and call an electrician instead of resetting it a third time, because repeated tripping is the breaker reporting a real fault downstream.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": "A breaker that trips repeatedly is doing its job. Do not keep resetting it to get dinner cooked."
+    },
+    {
+      "name": "Get the supply connection checked properly",
+      "detail": "With the breaker off and verified dead, the connection where the oven meets the house wiring needs checking for L2 and neutral swapped, for a loose or discolored lug, and for the three-wire or four-wire arrangement matching the oven with the bonding strap set correctly. If you cannot name each conductor at that block with confidence, this is where you stop and call a licensed electrician. It is usually an hour of their time and it is the actual fix for most F9 E0 codes.",
+      "minutes": 45,
+      "tools": "Licensed electrician, voltage tester",
+      "warning": "Breaker off and proven dead before any cover comes off. Never probe supply conductors live."
+    },
+    {
+      "name": "Test the door lock motor on a settled oven",
+      "detail": "If the oven is not newly installed, start a self-clean cycle and stand next to the door. A healthy lock motor runs for several seconds and you hear the latch travel across and stop. Silence, a buzz that goes nowhere, or a latch that moves partway and stalls all point at the lock assembly rather than the wiring. Cancel the clean cycle as soon as you have your answer; there is no need to let it run for hours.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "A reset that did not hold leaves you with two paths, and the install history picks which one you are on. If the oven is new, recently moved, or was touched by any electrical work in the weeks before the code appeared, treat this as a supply wiring fault and have an electrician check the terminal block specifically for L2 and neutral being swapped, for the bonding strap matching a three-wire or four-wire circuit, and for a lug that has backed out or overheated. That is the fault the manufacturer names for this code, it is an hour of an electrician's time at roughly $120 to $300, and it is worth calling the right trade first: an appliance technician will usually take the call-out fee and then tell you to ring an electrician anyway. If the oven has instead been in place for years with nobody near the panel, go down the other path. Run a self-clean and listen for the lock motor driving the latch across. Silence or a stalled latch means the door lock assembly, $60 to $180 as a part, sitting above the cavity behind the top trim or the control panel on most Whirlpool built-ins. Ask when the oven last ran a self-clean while you are at it, because the heat that cycle puts through the top of the oven is the biggest single cause of failed lock motors and cooked control boards, and a code that first appeared within a week of one has usually been caused by it. Only when the supply has been verified good and the lock motor runs properly does the control board become the honest answer, and at $150 to $400 plus labor on a built-in that is a diagnosis to have confirmed rather than guessed.",
+  "reset_procedure": "Switch the oven off at its circuit breaker, leave it off a full minute, then switch it back on. The oven's own power and cancel buttons do not reset the control and do not isolate the appliance, and a built-in wall oven frequently has no plug to pull. On a double-pole breaker, confirm both halves are fully off before restoring power. If the code clears and stays gone, it was a supply interruption; if it returns, the underlying fault is still there.",
+  "model_notes": "F9 E0 belongs to Whirlpool's two-part code system, where the F half names the system and the E half names the fault within it. Do not confuse it with a plain F9 on an older single-code Whirlpool oven, which is a door latch fault and a genuinely different problem; the codes look almost identical written down and the display alternates the halves, which is how people end up on the wrong page. Whirlpool, KitchenAid, Maytag and Amana ovens share this platform, so the code means the same thing across all of them, and our KitchenAid F9 E0 page covers the same fault from that side with the manufacturer's own wording. Be aware the documentation is split: the manufacturer describes F9 E0 as a supply wiring fault while several repair sites describe it as a door lock motor fault, so you will find both readings when you cross-check and neither is obviously wrong.",
+  "parts": [
+    { "name": "Oven door lock motor and latch assembly", "cost": "$60 to $180", "difficulty": "hard", "note": "Only on a settled oven with a silent lock motor" },
+    { "name": "Oven terminal block", "cost": "$20 to $60", "difficulty": "technician only", "note": "Needed where a lug has overheated or burnt at the connection" },
+    { "name": "Electronic oven control board", "cost": "$150 to $400", "difficulty": "technician only", "note": "Last resort, after supply and lock have both been cleared" }
+  ],
+  "when_to_call": "Call a licensed electrician rather than an appliance technician when the oven is newly installed or recently reconnected, because the fault is in the house wiring and that is their trade. Call one straight away, and leave the oven off at the breaker, if the breaker trips again after a single reset, if there is a smell of hot plastic near the junction box, or if any lug looks darkened. Call an appliance technician instead for a long-settled oven where the supply has been confirmed good and the door lock motor is silent, since the lock on a built-in sits behind the control panel and is an awkward first repair. Do not open the terminal block yourself unless you can identify every conductor with the breaker off and proven dead.",
+  "faqs": [
+    { "q": "What does F9 E0 mean on a Whirlpool oven?", "a": "The oven has flagged a problem with the electrical supply reaching it, rather than a broken part inside. The manufacturer's guidance for this code points at incorrect wiring at the house connection, most often L2 and neutral swapped at the terminal block. It shows up far more on newly installed or reconnected ovens than on long-settled ones." },
+    { "q": "Is F9 E0 the same as F9 on a Whirlpool oven?", "a": "No, and this one catches people. A plain F9 on an older single-code Whirlpool oven is a door latch fault. F9 E0 belongs to the newer two-part system and points at the electrical supply. Because the display alternates the halves, it is easy to note down F9 and end up diagnosing the wrong thing entirely." },
+    { "q": "Why did F9 E0 appear right after installation?", "a": "Because that is the classic trigger. The oven is reporting that the power reaching it is not arranged the way it expects, usually L2 and neutral swapped at the block, or a three-wire circuit feeding an oven configured for four. Get the installer or an electrician back to recheck the connection before you look at the appliance itself." },
+    { "q": "Can I keep using the oven with F9 E0?", "a": "No. If the cause is a miswired 240 volt supply, that is not something to cook around while you wait. Switch the oven off at the breaker and leave it off until an electrician has checked the connection. The risk sits in the house wiring rather than in the oven, which is exactly why it deserves to be taken seriously." },
+    { "q": "Could self-clean have caused F9 E0?", "a": "On the door lock branch of this code, yes. Self-clean runs the cavity far hotter than cooking does, for hours at a time, and that heat is the single biggest killer of oven lock motors and control boards. A code that first showed up within a week of a self-clean cycle has usually been caused by it." },
+    { "q": "How much does F9 E0 cost to fix?", "a": "Nothing if a breaker reset holds. An electrician correcting the supply connection runs roughly $120 to $300 for an hour's work. A door lock assembly is $60 to $180 as a part plus labor on a built-in. A control board is $150 to $400 fitted, and it should only ever be the last answer on the list." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where F9 E0 is pointing, and the order to rule things out",
+    "labels": {
+      "display": "F9 E0",
+      "c1": "Read both halves of the code",
+      "c2": "Supply block, L2 and neutral",
+      "c3": "Breaker off a full minute",
+      "c4": "Door lock motor, listen for it"
+    }
+  },
+  "sources": [
+    { "title": "F9 and F9 E0 error codes on wall ovens and ranges", "publisher": "Whirlpool and KitchenAid product help documentation", "url": null },
+    { "title": "Whirlpool oven technical sheet, supply and door latch fault codes", "publisher": "Service sheet supplied with the appliance", "url": null },
+    { "title": "Conflicting field readings of F9 E0 as a door lock motor fault", "publisher": "Appliance repair trade sites and community threads", "url": null }
+  ],
+  "related_codes": ["F9", "F1", "F2", "F3 E0", "F3 E2", "PF"]
+}

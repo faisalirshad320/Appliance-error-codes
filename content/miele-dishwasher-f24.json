@@ -1,0 +1,174 @@
+{
+  "title": "Miele Dishwasher F24 Error Code: Causes and Fix",
+  "meta_description": "Miele F24 is a heating relay fault on the control electronics. The water never gets hot and the program stops.",
+  "h1": "Miele dishwasher F24: heating relay fault explained",
+  "answer": "F24 means the relay that switches your Miele's heating has failed a self-check, so the control stops rather than running a cycle it cannot heat. The relay sits on the power electronics inside the machine, which makes this one of the few Miele codes with no honest home fix. Dishes come out cold and often still dirty, because a dishwasher that cannot heat cannot dissolve detergent properly. Budget for a technician and a board-level repair, and read the cost section before you decide whether to spend it.",
+  "severity": "serious",
+  "can_diy": "no",
+  "time_estimate": "10 minutes to confirm, then a technician visit",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$400 to $800"
+  },
+  "safety_warning": "The heating relay is mounted on a board carrying mains voltage and switching a high-current heating circuit. Do not open the machine to look at it. Relay contacts fail by welding shut or burning, both of which leave scorched, live hardware behind a panel, and there is nothing on that board a homeowner can test or repair safely. Everything on this page is done with the door open or the breaker off.",
+  "causes": [
+    {
+      "cause": "The heating relay contacts have welded or burned on the power electronics",
+      "frequency": "most cases",
+      "confirm": "The code appears at the same point every cycle, right as the machine should start heating, and the tub and the dishes stay cold throughout. A relay that has welded shut can also show as a machine that heats when it should not, or overheats a cold program."
+    },
+    {
+      "cause": "The flow-through heater has failed and taken the relay with it",
+      "frequency": "common",
+      "confirm": "The machine has been washing badly for weeks before the code appeared, with greasy film on glassware and detergent residue left in the dispenser. A heater failing short draws the wrong current and is a known way to destroy the relay that switches it."
+    },
+    {
+      "cause": "Moisture or corrosion on the electronics",
+      "frequency": "occasional",
+      "confirm": "The machine lives somewhere damp, has had a leak in the past, or there is an unexplained F70 in its history. Water reaching the board area corrodes relay contacts and the tracks around them, and the fault often comes and goes before it settles permanently."
+    },
+    {
+      "cause": "A connector or harness fault at the heater",
+      "frequency": "occasional",
+      "confirm": "Intermittent rather than constant, and sometimes the machine heats perfectly for one cycle and fails the next. A loose or heat-damaged spade terminal at the heater makes a poor connection, arcs, and the control reads the result as a relay problem."
+    },
+    {
+      "cause": "Supply voltage problems or a surge event",
+      "frequency": "rare",
+      "confirm": "The fault started the same day as a storm, a power cut, or work on the house wiring, and other appliances also behaved oddly. Surges damage relays and driver circuits, and this is the one cause that may be worth mentioning to your insurer."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm it is really a heating failure",
+      "detail": "Run the shortest program you have and open the door at the end. The tub walls, the dishes and the door should be hot to the touch and there should be steam. If everything is cold and wet and the detergent tablet is sitting half dissolved in the dispenser, the machine is not heating and F24 is telling the truth. That observation is worth more to the technician than the code itself.",
+      "minutes": 20,
+      "tools": null,
+      "warning": "Open the door carefully at the end of any program. If the machine is heating after all, the steam will scald."
+    },
+    {
+      "name": "Power cycle at the breaker",
+      "detail": "Switch the machine off at the on/off button, then turn its breaker off for five minutes and back on. This clears a stored fault that was triggered by a one-off event such as a power cut or a surge, and it occasionally is exactly that. Run the shortest program again. If F24 returns at the same point in the cycle, the relay has genuinely failed and no further resetting will help.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the circuit the dishwasher is on",
+      "detail": "Look at the breaker serving the dishwasher and at anything else on that circuit. A heating circuit pulls hard, and a dishwasher sharing a loaded circuit, running off an extension lead, or fed through a worn outlet can see voltage dips that upset the heating control. If the machine is plugged in rather than hard wired, check the plug and outlet for heat discoloration and have an electrician replace anything scorched.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": "A discoloured or warm outlet is an electrical hazard in its own right. Stop using it and get an electrician in."
+    },
+    {
+      "name": "Note exactly where in the cycle it stops",
+      "detail": "Start the shortest program and write down how many minutes in the code appears and what the machine was doing. Fails immediately on starting, fails a few minutes in as heating should begin, or fails later in the hot rinse are three different stories, and they point at the relay, the heater and the sensing respectively. A technician charging by the hour will do less of it on your clock if you hand this over.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Read the model and serial number off the door edge",
+      "detail": "Open the door and find the rating plate on the door edge or around the tub rim. Photograph the full model and serial number. Every quote, every parts order and every call to Miele support needs it, and the electronic unit for a given model is a specific part rather than a generic board. Having it to hand on the phone is the difference between a firm quote and a guess.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get two quotes before you authorize anything",
+      "detail": "Call Miele's own service line and one good independent appliance technician, and give both the model number, the code and what you observed. Ask each for the call-out fee, the hourly rate, whether the call-out is credited against the work, and a ballpark for a heating relay or electronic unit job on that model. Expect $400 to $800. Getting two numbers takes twenty minutes and routinely saves a few hundred dollars.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "There is no home fix for F24, so the useful question is not how to clear it but whether to pay to clear it, and that deserves a straight answer. The repair is almost always the electronic unit, because the heating relay is soldered to it and Miele supplies the board as an assembly rather than the relay as a part. Fitted, that typically runs $400 to $800 depending on the model and who does it, and the part alone is commonly $300 to $600. Be ready for that number to land badly. Miele owners generally expect their machines to be cheap to keep, and the truth is the opposite: parts cost materially more than the Bosch, Whirlpool or GE equivalents, authorized call-outs run $150 to $250 before anyone touches anything, and fewer independents keep Miele stock so you may wait a week for the part. Nobody tells you that when you buy the machine. Now the other side, which is equally true. A Miele dishwasher is built for something like twenty years of normal use, and the rest of the machine does not wear out on the same schedule as the electronics. A $600 board on a ten-year-old Miele that goes on to run another eight or nine years is better value than a $600 replacement dishwasher that will be in landfill in seven. The math turns at roughly three points. If the machine is under about twelve years old and otherwise sound, repair it. If it is over fifteen, or the heater has failed as well and you are looking at two major parts, think hard. If a technician wants to replace the electronic unit without having first checked the heater and the connectors at it, get a second opinion, because fitting a new board to a heater that is failing short destroys the new board too. Ask that question explicitly: how do you know the heater did not cause this. A good technician will have an answer ready.",
+  "reset_procedure": "Switch the machine off at the on/off button and cut power at the breaker for five minutes. A single F24 caused by a surge or a power cut can clear and never return, which is the only scenario where resetting fixes anything. Restart on the shortest program and let it run to the end. If the code comes back at the same point, the relay has failed and repeated resetting achieves nothing except wearing your patience. Do not keep running the machine in the hope it settles.",
+  "model_notes": "F24 is reported as a heating relay fault across Miele dishwasher generations, but what Miele actually supplies to fix it varies. On most models the relay is part of the main power and control electronics and is sold only as a complete electronic unit, which is why the quote is for a board rather than a component. Some older machines separate the power electronics from the control electronics, which changes the part and the price. Independents who do board-level work can sometimes replace the relay itself far more cheaply, but that is a specialist service and not something every technician offers.",
+  "parts": [
+    {
+      "name": "Electronic unit with the heating relay",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "The usual repair. Miele supplies the board, not the relay, on most models"
+    },
+    {
+      "name": "Flow-through heater",
+      "cost": "$200 to $450",
+      "difficulty": "technician only",
+      "note": "Check this before fitting a board. A heater failing short destroys the new relay too"
+    },
+    {
+      "name": "Heater wiring harness or connectors",
+      "cost": "$30 to $90",
+      "difficulty": "technician only",
+      "note": "The cheap outcome. Worth asking a technician to inspect before ordering electronics"
+    }
+  ],
+  "when_to_call": "Call straight away, because this one is not a homeowner job at any stage. The relay sits on a mains-voltage board switching a high-current heating circuit, and there is nothing useful or safe to test from outside. What you can do first is the twenty minutes of preparation above: confirm the tub stays cold, note where in the cycle it stops, photograph the model and serial number, and get two quotes rather than one. When you call, ask whether the technician will check the heating element and its connectors before condemning the board, since a heater failing short is a known cause of a destroyed relay and fitting a new board to it burns the new one as well. Ask for the quote in writing and ask whether the call-out charge is credited against the repair.",
+  "faqs": [
+    {
+      "q": "Can I still use the dishwasher with an F24 code?",
+      "a": "No, and you should not want to. The control stops the program rather than running without heat, and a cold wash leaves detergent undissolved, grease on everything and no sanitizing at the end. If the code ever appears alongside a machine that is getting hot when it should not be, switch it off at the breaker and leave it off until a technician has seen it."
+    },
+    {
+      "q": "Is F24 worth repairing, or should I buy a new dishwasher?",
+      "a": "Repair it if the machine is under about twelve years old and otherwise sound. A Miele is built for roughly twenty years, so a $500 board on a ten-year-old machine often buys another eight or nine years, which a new mid-range dishwasher will not match. Over fifteen years, or with the heater failing too, replacement starts making sense."
+    },
+    {
+      "q": "Why is the quote for a whole board when only a relay failed?",
+      "a": "Because Miele supplies the heating relay as part of the electronic unit on most models rather than as a separate component. That is normal for modern appliances and it is why the price jumps. Some independent specialists do board-level repair and will replace the relay itself for a fraction of the cost, which is worth asking about."
+    },
+    {
+      "q": "Why are Miele dishwasher repairs so expensive?",
+      "a": "Parts and labor both run materially higher than mass-market brands. A Miele electronic unit costs well above the Bosch or Whirlpool equivalent, authorized call-outs are commonly $150 to $250 before work starts, and fewer independents stock the parts. The build quality that makes these machines last is the same quality that makes year-twelve repairs cost real money."
+    },
+    {
+      "q": "Could a power cut have caused this?",
+      "a": "A surge can, and it is worth asking when the fault started. If F24 appeared the same day as a storm, an outage or electrical work in the house, surge damage to the relay or its driver is plausible and may be claimable on home insurance. Power cycle once at the breaker to rule out a stored fault from the event itself."
+    },
+    {
+      "q": "The dishes come out cold but the machine runs. Is that the same fault?",
+      "a": "It is the same family and worth taking seriously before a code appears. A dishwasher that runs a full cycle but leaves everything cold, with the detergent tablet half dissolved, is already failing to heat. Getting a technician in at that stage sometimes catches a heater or connector problem before it takes the relay with it."
+    },
+    {
+      "q": "Can I bypass the heating and keep using cold cycles?",
+      "a": "No. The control will not run a program it cannot heat, and there is no setting that disables the heating check. Anyone offering to defeat it is proposing to disable a safety and control function on a mains-powered appliance, which is not a trade a reputable technician makes."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where the heating relay sits and why F24 is a technician job",
+    "labels": {
+      "display": "F24",
+      "c1": "Heating relay on the electronics",
+      "c2": "Flow-through heater circuit",
+      "c3": "Heater connectors, check before board",
+      "c4": "Breaker off, do not open the machine"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher fault code tables, heating circuit group",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher common fault codes including F24 heating relay",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Owner and technician reports on Miele G-series F24 diagnosis and cost",
+      "publisher": "Automaticwasher.org and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F14",
+    "F78",
+    "F11",
+    "F70",
+    "F13"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Thermador Oven F7 Error Code: Stuck Key on the Panel",
+  "meta_description": "Thermador F7 means the control is reading a touch key as permanently pressed. Usually a stuck key or a failed touch panel.",
+  "h1": "Thermador oven F7 error code: what it means and how to fix it",
+  "answer": "F7 means the control is seeing one of the touch keys as held down continuously, so it stops rather than act on a command nobody is giving. The sources agree on this one, which is unusual for Thermador. The cause is often something harmless: a spill that has run behind the membrane, condensation from a steamy kitchen, grease on the panel face, or an overlay lifting at a corner. Clean and dry the panel, cut the power at the breaker for five minutes, and see whether it clears. If it comes straight back, the fault is in the touch panel, its ribbon cable, or the display board behind it.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to try the free fixes, 1 to 2 hours to replace the panel",
+  "cost_estimate": {
+    "diy": "$0 to $250",
+    "technician": "$220 to $550"
+  },
+  "safety_warning": "The touch panel sits directly in front of the oven's mains wiring and control electronics. Switch the oven off at its breaker before removing the trim or any part of the control fascia, and never spray liquid at the panel or into the vent slot.",
+  "causes": [
+    {
+      "cause": "A spill, grease film or moisture behind the panel",
+      "frequency": "most cases",
+      "confirm": "The code appeared after cooking something that boiled over, after cleaning the front, or in a kitchen that steams up. Look along the bottom edge of the touch panel for a tide mark or a lifting corner in the overlay, which shows where liquid got in."
+    },
+    {
+      "cause": "A key that has physically failed or is held by a warped overlay",
+      "frequency": "common",
+      "confirm": "Press each key in turn with the oven powered and listen for the beep every one should give. A key that gives nothing, feels spongy compared with its neighbors, or sits proud of the panel face is the one the control is reading as pressed."
+    },
+    {
+      "cause": "The ribbon cable between the panel and the board is loose or damaged",
+      "frequency": "common",
+      "confirm": "The panel face is clean and dry, no single key stands out as faulty, and the code persists through resets. A ribbon that has worked loose in its socket, or been creased during a previous repair, produces exactly this with nothing visibly wrong at the front."
+    },
+    {
+      "cause": "Heat damage to the panel or display board",
+      "frequency": "occasional",
+      "confirm": "F7 appears once the oven has been running a while and clears when it cools, or it started showing up after a self-clean cycle. Components behind the fascia get hot, and a marginal connection opens up at temperature and closes again cold."
+    },
+    {
+      "cause": "A one-off glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code arrived after a storm, outage or brownout with nothing spilled and no key misbehaving. A five-minute breaker reset clears this version and it stays clear. If it does, nothing is broken."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press every key and find the one that is wrong",
+      "detail": "With the oven powered, work along the panel pressing each key in turn and listening for the acknowledgment beep. Note any that give no beep, feel softer than the rest, or sit slightly proud. Finding the specific key is worth the two minutes: it confirms the diagnosis and it tells a parts desk whether you need the touch panel or the board behind it, which are different prices.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean and dry the panel face properly",
+      "detail": "Switch the oven off at the breaker. Wipe the whole fascia with a cloth dampened with warm water and a little dish soap, wrung out hard so nothing runs, then go over it with a dry cloth. Pay attention to the seam along the bottom edge of the panel and around each key, where grease collects. Never spray cleaner directly at the panel or into any vent slot, because that pushes liquid behind the membrane and makes the problem worse.",
+      "minutes": 15,
+      "tools": "Soft cloths, mild dish soap",
+      "warning": "Breaker off before cleaning, and no liquid sprayed at the panel. Damp and mains electronics are what caused this in the first place."
+    },
+    {
+      "name": "Let it dry out, then power cycle at the breaker",
+      "detail": "If moisture is the suspect, leave the oven off at the breaker for several hours with the kitchen ventilated, or overnight if something was spilled into the panel. Then restore power. A damp membrane can read as a held key long after the surface looks dry, so giving it proper drying time is what separates a free fix from a panel replacement.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check for a lifting or warped overlay",
+      "detail": "Look across the panel face at a shallow angle under good light. The printed overlay should sit flat and even. A corner that has lifted, a bubble, or a section that has shrunk away from the edge can hold a key in its pressed position permanently. Press gently around any lifted area and see whether the code behavior changes, which confirms it.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check whether the fault follows temperature",
+      "detail": "If the panel is clean and dry and F7 still appears, note when. Run the oven and watch whether the code arrives only once it has been hot for a while, and whether it clears after the oven cools. A fault that follows temperature points at a connection opening up with heat, usually the ribbon cable or a joint on the display board, rather than at the keys themselves. Write down what you observe for the technician.",
+      "minutes": 40,
+      "tools": "Phone camera",
+      "warning": "Do not leave an oven running unattended to reproduce a fault. Stay in the kitchen while you test."
+    },
+    {
+      "name": "Reseat the ribbon cable if you can reach it safely",
+      "detail": "Switch off at the breaker. On many Thermador models the control fascia comes forward after the trim screws in the front frame are removed, exposing a flat ribbon running from the touch panel to the board behind. Release its retaining clip, pull the ribbon out squarely, check the contacts for creasing or discoloration, and push it back fully home before closing the clip. Do not fold or crease the ribbon.",
+      "minutes": 45,
+      "tools": "Torx and Phillips screwdrivers, flashlight",
+      "warning": "Breaker off for the whole job. Behind the fascia is mains wiring, and some terminals remain live with the oven switched off at its own controls."
+    }
+  ],
+  "still_showing": "If the panel is clean, dry and flat and F7 keeps returning, you are choosing between the touch panel, the ribbon, and the display board, and on a Thermador those are very different amounts of money. Work it in this order. First, give drying more time than feels reasonable. A membrane that had coffee or a pan boil over into it can read as a held key for a day or more after the surface is dry, and a few hours with the breaker off costs nothing while a panel does not. Second, use the specific-key information. If one named key is dead or spongy while the rest beep normally, that is the touch panel, and on most models it is a separate part from the board behind it at a meaningfully lower price. Say which key when you order, because being able to name it stops a parts desk defaulting you to the expensive assembly. Third, use the temperature behavior. A code that only appears once the oven is hot and clears when it cools is almost never a key, because keys do not care about temperature; that pattern points at the ribbon cable or a joint on the board, and a technician who knows to look for it can sometimes resolve it at the connector. Fourth, the cost jumps at the display board, which on Thermador runs into several hundred dollars before labor. Get the quote in writing and ask explicitly whether the touch panel, the ribbon or the board is being replaced, because all three get described loosely as the control and the price difference is large. One practical note: Thermador publishes little fault code detail publicly, so insist the technician works from the tech sheet inside your unit rather than a general list. F7 is one of the better-agreed Thermador codes, but the repair path still depends on your specific model's construction.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes, then restore it. Thermador controls hold residual charge and a quick flick of the breaker often leaves the stored code showing. If moisture is the likely cause, extend that to several hours or overnight with the breaker off, because the panel needs time to dry out rather than just a power interruption. A code that returns within seconds of power coming back means the fault is live.",
+  "model_notes": "F7 is one of the more consistently documented Thermador codes, with independent sources agreeing that the control is reading a key as permanently pressed. They differ slightly on scope: one describes it narrowly as a stuck or shorted touch button, another as a broader fault across the touch control panel, display head and ribbon cable. Those are the same fault seen from different ends, and the repair path is the same. Thermador publishes less code detail publicly than most brands, so the tech sheet supplied inside your unit is the authority for your model. On double ovens, check which cavity's panel is reporting before ordering, since the two have separate control assemblies on many models.",
+  "parts": [
+    {
+      "name": "Touch panel or membrane overlay",
+      "cost": "$120 to $300",
+      "difficulty": "moderate",
+      "note": "Separate from the board on many models; name the dead key when ordering"
+    },
+    {
+      "name": "Ribbon cable between panel and board",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Worth checking before anything larger is ordered"
+    },
+    {
+      "name": "Display or control board",
+      "cost": "$250 to $600",
+      "difficulty": "technician only",
+      "note": "The expensive end; get the quote in writing first"
+    }
+  ],
+  "when_to_call": "Call a Thermador-authorized technician once the panel is clean, dry and flat and F7 still returns, and tell them two things when you book: which key misbehaves, if any, and whether the code follows the oven getting hot. Both observations are free for you to gather and they meaningfully shorten the diagnosis. Ask them to confirm whether the touch panel, the ribbon or the board is being replaced before you approve the work, because those are loosely all called the control and the prices are not close. On a gas model, leave anything near the supply line to the licensed technician.",
+  "faqs": [
+    {
+      "q": "What does F7 mean on a Thermador oven?",
+      "a": "The control is reading one of the touch keys as permanently pressed, so it refuses to act on a command nobody is giving. This is one of the better-agreed Thermador codes. The cause is often harmless, such as a spill behind the membrane or condensation, and cleaning and drying the panel clears a good share of them."
+    },
+    {
+      "q": "Can I still use the oven with an F7 code?",
+      "a": "Generally not, because the control treats the stuck key as an active input and locks out normal operation. Even where some functions still respond, an oven taking phantom commands is not something to cook with. Switch it off at the breaker, work through the cleaning and drying, and keep it off until the panel behaves."
+    },
+    {
+      "q": "Why did F7 appear after I cleaned the oven front?",
+      "a": "Because cleaner got behind the membrane. Spraying directly at a touch panel, or using a cloth wet enough to run, pushes liquid into the seam along the panel edge and under the overlay, where it reads as a held key. Leave the breaker off for several hours to let it dry, and clean with a cloth wrung out hard in future."
+    },
+    {
+      "q": "Can I just replace one stuck key?",
+      "a": "No. The keys are part of a sealed membrane rather than individual switches, so the repair is the whole touch panel. The useful part of identifying the specific key is that it confirms the panel rather than the board behind it is at fault, and those are separate parts at quite different prices on most models."
+    },
+    {
+      "q": "Why does F7 only appear when the oven is hot?",
+      "a": "That pattern points away from the keys. Membrane keys do not care about temperature, so a code that arrives once the oven has been hot and clears as it cools usually means a connection opening up with heat, typically the ribbon cable or a joint on the display board. Tell the technician, because it changes where they look."
+    },
+    {
+      "q": "Is an F7 repair worth it?",
+      "a": "On a Thermador, generally yes, since these are expensive ovens worth keeping. The free end costs nothing: clean the panel, dry it properly, reset at the breaker. A touch panel is a moderate part. Only a display board replacement is large enough to pause over, and that is the one to get in writing before approving."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What makes a Thermador touch key read as permanently pressed",
+    "labels": {
+      "display": "F7",
+      "c1": "Press each key, listen for a beep",
+      "c2": "Spill track along the panel seam",
+      "c3": "Overlay lifting at a corner",
+      "c4": "Ribbon cable to the display board"
+    }
+  },
+  "sources": [
+    {
+      "title": "Thermador oven and range F7 fault code references",
+      "publisher": "Appliance repair trade code references",
+      "url": null
+    },
+    {
+      "title": "Thermador touch control panel and display head fault descriptions",
+      "publisher": "Appliance repair code guide",
+      "url": null
+    },
+    {
+      "title": "Thermador service documentation and the tech sheet supplied inside the unit",
+      "publisher": "Thermador service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F34"
+  ]
+}

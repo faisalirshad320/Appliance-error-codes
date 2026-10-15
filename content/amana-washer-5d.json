@@ -1,0 +1,190 @@
+{
+  "title": "Amana Washer 5D Error Code: Causes and Fix",
+  "meta_description": "Amana 5D means too much suds. The washer has paused to rinse the foam away. Cut the detergent to about a tablespoon and run two rinses.",
+  "h1": "Amana washer 5D error code: what it means and how to fix it",
+  "answer": "5D is the suds code: your Amana washer has sensed more foam than it can rinse or pump away and has paused the cycle to deal with it. Nothing is broken. The washer adds water and runs extra rinses on its own, which is why a load showing 5D can take an hour longer than the timer said before it either finishes or stops and waits for you. The fix is almost always less detergent, roughly a tablespoon of HE liquid for a normal load, because modern Amana washers use a fraction of the water the dose on the bottle assumes.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 2 hours, most of it waiting",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$120 to $200"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "More detergent than the load needs",
+      "frequency": "most cases",
+      "confirm": "Watch the drum during the wash. Foam standing above the water line that does not fall back when the drum stops moving is an overdose, full stop. The cap on a detergent bottle holds several times what an HE washer actually uses, and almost nobody measures."
+    },
+    {
+      "cause": "Regular detergent or pods in an HE machine",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard detergent is built to foam in a machine using three times the water, so in an Amana HE washer it lathers like shampoo. Pods are a frequent culprit because the dose is fixed, which makes every small or lightly soiled load an automatic overdose."
+    },
+    {
+      "cause": "Soft water, so every dose goes twice as far",
+      "frequency": "common",
+      "confirm": "The suds problem started after a water softener went in, or after moving to a soft water area, with no change of detergent. Soft water needs around half the detergent to clean the same load, and the half you do not need turns into foam instead."
+    },
+    {
+      "cause": "Old detergent residue in the dispenser and the outer tub",
+      "frequency": "common",
+      "confirm": "Pull the dispenser apart and look for gray or blue sludge in the housing. That residue washes into every load on top of whatever you just poured, so a dose that was fine two years ago now foams. A musty smell from the drum points the same way."
+    },
+    {
+      "cause": "Laundry that already has soap in it",
+      "frequency": "occasional",
+      "confirm": "5D only shows up on towels, bedding or anything hand-washed or pre-treated, and never on ordinary loads. Fabric holds detergent from previous washes and releases it in the next one, which is why a bulky towel load foams when a mixed load does not."
+    },
+    {
+      "cause": "A slow drain, so ordinary foam never leaves the machine",
+      "frequency": "occasional",
+      "confirm": "5D appearing together with, or just before, a no-drain code such as nd. A washer that empties slowly leaves foam standing in the sump between cycles, so a normal detergent dose reads as excessive. Fix the drain first and the suds code usually goes with it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Leave it alone for half an hour",
+      "detail": "When an Amana washer sees suds it stops agitating, adds water and runs its own extra rinses to knock the foam down. Give it thirty minutes before touching anything. A good share of the time the code clears by itself and the load finishes, just late. Cancelling and restarting pushes more detergent-loaded water through the machine and makes the problem worse.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run two rinse and spin cycles with nothing added",
+      "detail": "If the code is still showing, cancel, leave the laundry where it is and select Rinse and Spin with no detergent whatsoever. Run it, then run it again. Two clean rinses clear the foam out of the tub and the pump on nearly every machine. Watch the second one: by the end the water should look like water rather than a bubble bath.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Start measuring the detergent",
+      "detail": "Use about a tablespoon of HE liquid for a normal load, measured with an actual spoon rather than the bottle cap. Halve it again for a small load or if your water is soft. Clothes come out just as clean: the extra you were pouring was never doing any washing, it was making foam that the machine then has to spend half an hour removing.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Strip and clean the dispenser",
+      "detail": "On an Amana top loader, lift out the fabric softener and bleach cups from the dispenser in the lid or around the impeller, depending on your model. Soak them in hot water, scrub the sludge out with an old toothbrush, and wipe inside the empty housing with a cloth, reaching up into the roof of the cavity where the worst of the residue sits. Dry everything before refitting.",
+      "minutes": 20,
+      "tools": "Old toothbrush, cloth",
+      "warning": null
+    },
+    {
+      "name": "Run the Clean Washer cycle empty",
+      "detail": "With the drum empty and no detergent anywhere, run Clean Washer with a washing machine cleaner tablet, or follow the cleaner your owner's manual names. This strips the film of old detergent off the drum and the outer tub, which is the reservoir quietly feeding foam into otherwise normal loads. Doing it monthly is what keeps 5D from coming back.",
+      "minutes": 90,
+      "tools": "Washing machine cleaner tablet",
+      "warning": null
+    },
+    {
+      "name": "Check the drain hose while you are behind the machine",
+      "detail": "Pull the washer out and follow the drain hose to the standpipe. It should have a gentle rise with no kinks, should not be pushed more than a few inches into the standpipe, and should not be taped airtight into it. A restricted or siphoning drain leaves foam sitting in the machine between cycles, which turns a normal dose into a suds code.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    }
+  ],
+  "still_showing": "If two rinses and a measured tablespoon have not stopped 5D coming back, work down this list in order of cost. First, change detergent rather than just using less of it. Some budget HE liquids and almost all pods foam far beyond what their dose suggests, and the only honest test is to buy a different HE liquid and run a fortnight of washing on a measured tablespoon. Second, prove the washer is actually emptying. Foam made at a normal rate but never pumped out reads as excess suds, so check the drain hose for kinks, make sure it is not jammed deep into the standpipe, and listen for the pump running at the end of the cycle. If you have also seen nd or a no-drain condition on this machine, the drain is the real fault and the suds code is just the symptom shouting first. Third, look at your water. A softener installed since the washer was new halves the detergent it needs, and nobody ever adjusts the dose to match. Fourth, if none of that applies and 5D appears on a cycle run with no detergent at all in a machine you have just cleaned, the fault has moved from the laundry to the hardware. The washer judges water level and foam through a pressure sensor connected to the outer tub by a thin air hose, and soap scum in that hose, or a split in it, makes a clean machine report suds it does not have. On a top loader the hose runs from a port low on the outer tub up to the sensor near the control. Pulling it off, checking it for a blockage or a crack and blowing it clear is the last free thing you can do. Past that point a technician is worth the money, and this should be a $120 to $200 visit rather than a parts bill.",
+  "reset_procedure": "On most Amana washers, press Start or Pause once to clear the displayed code, then press it again to restart the cycle. If the code comes straight back, stop pressing buttons and unplug the machine at the wall for five full minutes instead, which is what Amana's own service guidance calls for on control faults. Restart with a Rinse and Spin rather than a full wash, so you find out in ten minutes rather than an hour. Expect the code to reappear on the next load anyway if the cause is in the detergent rather than the control, because a reset clears the message, not the foam.",
+  "model_notes": "Amana washers are built on Whirlpool platforms, so this is the same suds condition that shows as Sd on Whirlpool panels and Sud on Maytag. On a seven-segment display the digit 5 and the letter S use the same shape, so 5D and Sd are usually the same code read two ways. The behavior differs by machine type: Amana top loaders hold a lot more water than a front loader, so the washer's own suds routine can add an hour to a cycle before the code appears at all, while an Amana front loader will show it much sooner. Top loaders also have no user-accessible pump filter, so the filter-cleaning advice written for front loaders does not apply to most Amana machines.",
+  "parts": [
+    {
+      "name": "HE liquid detergent, measured by the tablespoon",
+      "cost": "$10 to $20",
+      "difficulty": "easy",
+      "note": "Changing brand fixes more 5D codes than any part on this list"
+    },
+    {
+      "name": "Washing machine cleaner tablets",
+      "cost": "$10 to $18",
+      "difficulty": "easy",
+      "note": "One Clean Washer cycle a month stops residue rebuilding"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "Usually just needs clearing rather than replacing"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Last resort, and only after the hose is proved clear"
+    }
+  ],
+  "when_to_call": "Call a technician if 5D appears on a cycle you ran with no detergent at all in a machine you have just cleaned out, because at that point the washer is misreading the water and foam level rather than responding to real suds, and tracing the pressure sensor and its air hose means getting into the cabinet. Call as well if 5D arrives alongside a drain fault on every load after you have checked the hose and the standpipe, since a pump moving water too slowly cannot clear normal foam. What is not worth paying for is being told to use less detergent, so run a fortnight on a measured tablespoon first. That is the answer in most houses and it costs nothing to try.",
+  "faqs": [
+    {
+      "q": "What does 5D mean on an Amana washer?",
+      "a": "Excess suds. The washer has detected more foam than it can rinse away or pump out, so it pauses and runs extra rinses to break it down. It is a detergent dosing message rather than a breakdown. The cycle will usually finish on its own eventually, just much later than the display originally promised."
+    },
+    {
+      "q": "Is 5D the same as Sd or Sud on an Amana washer?",
+      "a": "Yes. They are the same suds condition shown differently across panels and platforms. On a seven-segment display the number 5 and the letter S are drawn with identical segments, so most people reading 5d are actually looking at Sd. Whirlpool and Maytag machines, which share the same platforms, show Sd and Sud for the same thing."
+    },
+    {
+      "q": "How much detergent should I use in an Amana washer?",
+      "a": "About a tablespoon of HE liquid for a normal load, and less for a small load or soft water. Measure it with a spoon, not the bottle cap, which is sized for machines that use three times the water. The amount that looks correct is usually around four times what the machine needs, which is why this code is so common."
+    },
+    {
+      "q": "Can I still use my washer when it shows 5D?",
+      "a": "Yes. There is no risk to the machine from one sudsy load and the cycle will generally complete, just slowly. Repeated suds-locking is worth stopping though, because foam carries detergent into the sump and the pump where plain water would have flushed it out, and that residue eventually slows the drain into a real fault."
+    },
+    {
+      "q": "Why did 5D start when I have used the same detergent for years?",
+      "a": "Something other than the bottle changed. A water softener going in, years of detergent film building up inside the tub and dispenser, or a switch to pods will all tip a dose that used to be fine into one that foams. Run Clean Washer and clean out the dispenser before you blame the detergent itself."
+    },
+    {
+      "q": "Do laundry pods cause 5D on Amana washers?",
+      "a": "Often. A pod is a fixed dose sized for an average load, so every small, lightly soiled or soft-water wash is an overdose you cannot scale back. If you get 5D regularly and use pods, switch to a measured HE liquid for a few weeks and see whether the code stops appearing."
+    },
+    {
+      "q": "Will 5D damage my Amana washer?",
+      "a": "Not directly. The damage is slow and indirect: foam carries detergent into the pump, the sump and the drain hose, leaving residue that plain water would have rinsed away. Over a few years that slows the drain enough to produce genuine drain faults. Cutting the dose protects the machine more effectively than any part you could fit."
+    },
+    {
+      "q": "Does my Amana washer have a filter I should clean?",
+      "a": "Most Amana top loaders do not have a user-accessible pump filter, so advice about turning a filter cap anticlockwise behind a lower panel is written for front loaders and will leave you searching for something that is not there. Amana front load models do have one behind the lower access panel. Check your owner's manual for which you have."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "How foam stalls an Amana washer, and the four things that clear it",
+    "labels": {
+      "display": "5D",
+      "c1": "Foam stalls the drain pump",
+      "c2": "Two rinse and spin cycles",
+      "c3": "One tablespoon of HE liquid",
+      "c4": "Clean dispenser, run Clean Washer"
+    }
+  },
+  "sources": [
+    {
+      "title": "Error codes in top load HE washers, including the suds condition",
+      "publisher": "Amana product help documentation",
+      "url": null
+    },
+    {
+      "title": "HE detergent dosing guidance for Amana washers",
+      "publisher": "Amana use and care guide supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Suds lock behavior on shared Whirlpool, Maytag and Amana platforms",
+      "publisher": "Appliance technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "Sd",
+    "Sud",
+    "nd",
+    "LF",
+    "oL",
+    "F7E1"
+  ]
+}

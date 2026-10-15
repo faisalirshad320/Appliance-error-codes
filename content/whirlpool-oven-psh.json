@@ -1,0 +1,158 @@
+{
+  "title": "Whirlpool Oven PSH Code: It Means Push to Start",
+  "meta_description": "PSH on a Whirlpool oven is a push to start prompt, not a fault. You chose a function and did not press Start. Press Start and the oven runs.",
+  "h1": "Whirlpool oven PSH code: it is a prompt to press Start",
+  "answer": "PSH is not a fault code. It is the oven shortening the word push, prompting you to press Start after you have chosen a function. Select Bake and set a temperature but do not press Start within a few seconds, and the display shows PSH, sometimes with the Start indicator flashing alongside it. Press Start and the oven gets on with it. If pressing Start does nothing at all, that is a different problem and points at the Start pad rather than at the message.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "Under 2 minutes",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$150 to $350 only if the touchpad has failed"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A function was selected and Start was never pressed",
+      "frequency": "most cases",
+      "confirm": "You set Bake, Broil or a temperature and then got distracted. The prompt appears a few seconds after the function pad and sits there until Start is pressed or the selection times out. Press Start and it goes."
+    },
+    {
+      "cause": "A pad was brushed by accident",
+      "frequency": "most cases",
+      "confirm": "Nobody was cooking. Wiping the panel down, setting something on the console, a child reaching up, or a cat on the counter will all press a function pad hard enough to put the oven into a selection it then waits to be told to start."
+    },
+    {
+      "cause": "The Start pad is not registering",
+      "frequency": "common",
+      "confirm": "You press Start and nothing changes: no beep, no indicator, and the prompt stays. Try pressing slightly off-center and at different pressures. A membrane that has worn or delaminated under one pad develops a dead spot while every other key still works."
+    },
+    {
+      "cause": "You are reading a different message on the display",
+      "frequency": "common",
+      "confirm": "A seven-segment display cannot draw most letters well, and S and 5 are the same glyph on it. Look closely at the middle character and at whether any other digit on the panel renders oddly, which would suggest a failed segment rather than a message."
+    },
+    {
+      "cause": "The touchpad has failed",
+      "frequency": "occasional",
+      "confirm": "Several pads are unresponsive or need repeated hard presses, not just Start. At that point the console is no longer reading your input reliably and the prompt is a symptom rather than the problem."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press Start",
+      "detail": "That is the whole intended fix. The oven has a function selected and is waiting to be told to begin. Press the Start pad firmly and squarely in the middle, and the prompt clears and the cycle begins. On models where the Start indicator is flashing beside the message, that flashing light is pointing at the pad it wants you to press.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel and start the selection again",
+      "detail": "If the prompt will not clear, press Cancel or Off to drop the pending selection entirely and let the display settle back to the clock. Then choose your function again and press Start within a couple of seconds rather than leaving a gap. A selection that has sat waiting for a long time will sometimes need restarting rather than finishing.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Work out whether the Start pad registers at all",
+      "detail": "Press Start several times, varying where on the pad you press and how hard, and listen for the beep or watch for any indicator change. Then press two or three other pads and see whether those respond normally. A Start pad that is dead while everything else works tells you the membrane has a worn spot, which is a different and more expensive conversation than a prompt you can clear.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker",
+      "detail": "Switch the oven off at its circuit breaker, leave it a full minute and switch it back on. This clears a control that has hung mid-selection and is showing a prompt it will not act on. The oven's own buttons cannot reset a control that is not reading them, and a built-in wall oven has no plug to pull, so the breaker is the only route.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Use the breaker rather than the oven's own power button, which does not isolate the appliance."
+    },
+    {
+      "name": "Check the manual if your panel is unfamiliar",
+      "detail": "Whirlpool labels this prompt differently across ranges, showing PSH on some panels, the full word push on others, and on some only a flashing Start indicator with no text. Find your model number on the sticker inside the door or on the frame, and check the use and care guide if what you are seeing does not match. Two minutes with the guide beats guessing at an unfamiliar console.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": null
+    }
+  ],
+  "still_showing": "If pressing Start does nothing and a breaker reset has not helped, the prompt has stopped being the story and the touchpad has become it. Test this properly before spending anything: press Start repeatedly, varying the spot and the pressure, and then press several other pads in turn. If Start alone is dead while the rest of the console responds normally, the membrane has a worn or delaminated patch under that one key, which happens because Start is pressed more than any other pad on the oven. If several pads are unresponsive or need hard, repeated presses, the whole touchpad is failing. Either way the part is the touchpad or, on many models, a control panel assembly with the pad already fitted, which runs from around $80 to $250 depending on what your model sells separately. One thing worth knowing before you order: on some ovens the touchpad is only available bonded to the panel, which changes both the price and whether it is worth doing yourself. Be aware too that the documentation for this prompt is thin. No authoritative manufacturer page surfaced for PSH specifically, and the repair sites that discuss it disagree, with several offering inventive expansions of the letters that contradict each other. The push-to-start reading is the one that matches how the ovens actually behave and the one several independent descriptions agree on, but if your use and care guide says otherwise for your model, believe the guide over this page.",
+  "reset_procedure": "Press Cancel or Off to drop the pending selection, which clears the prompt on a healthy oven. If the display will not respond, switch the oven off at its circuit breaker for a full minute and back on to force the control to reinitialise. There is no stored fault behind this message and no diagnostic sequence to run, because the oven is waiting for an instruction rather than reporting a failure.",
+  "model_notes": "Whirlpool shows this prompt inconsistently across ranges: PSH on some panels, the full word push on others, and on some models only a flashing Start indicator with no text at all, so what you see depends on the console rather than on anything being different inside. Worth saying plainly, because you will find contradictions if you look: the public documentation for PSH is poor. No manufacturer page covering it surfaced, and the repair sites that mention it offer several competing expansions of the three letters that disagree with one another. The push-to-start reading is the one consistent with how the ovens behave, but the use and care guide for your specific model outranks it. Note also that a seven-segment display draws S and 5 identically, so read the middle character carefully.",
+  "parts": [
+    {
+      "name": "Oven touchpad or membrane keypad",
+      "cost": "$80 to $250",
+      "difficulty": "moderate",
+      "note": "Only where the Start pad genuinely does not register; check whether your model sells it separately"
+    },
+    {
+      "name": "Control panel assembly with touchpad fitted",
+      "cost": "$180 to $450",
+      "difficulty": "moderate",
+      "note": "What many models supply instead of a bare keypad"
+    }
+  ],
+  "when_to_call": "Nobody needs to be called for a prompt that clears when you press Start, which is the great majority of these. The call is worth making when the Start pad is genuinely dead, or when several pads need hard repeated presses, because the touchpad is then failing and on a built-in wall oven it usually means drawing the appliance out of its cabinet to reach the console. Before you book anyone, confirm it is really the pad by testing other keys, and check whether your model sells the touchpad on its own, since the difference between a bare pad and a complete control panel assembly changes the cost substantially.",
+  "faqs": [
+    {
+      "q": "What does PSH mean on a Whirlpool oven?",
+      "a": "It is short for push, prompting you to press Start. You chose a function such as Bake and set a temperature, and the oven is waiting to be told to begin. Press Start and the prompt clears and the cycle runs. It is a prompt rather than a fault, so nothing is broken and no part needs replacing."
+    },
+    {
+      "q": "How do I clear PSH on my oven?",
+      "a": "Press Start. If you did not mean to set anything, press Cancel or Off instead and the pending selection drops and the display returns to the clock. If neither button does anything at all, switch the oven off at its circuit breaker for a minute and back on, then try again."
+    },
+    {
+      "q": "Why does PSH appear when I am not using the oven?",
+      "a": "Because a function pad has been pressed without anyone meaning to. Wiping the panel down, putting something on the console, a child reaching up or a pet on the counter will all select a function, and the oven then sits waiting to be told to start. Press Cancel and it goes away."
+    },
+    {
+      "q": "Is PSH an error code?",
+      "a": "No. It carries no F number and no E number because it is not part of the fault code table at all, unlike codes such as F3 E0 or F9 E0. It is the oven asking for an instruction. The only time it indicates a real problem is when pressing Start has no effect, which points at the touchpad."
+    },
+    {
+      "q": "Pressing Start does nothing. What now?",
+      "a": "Test whether it is the pad or the whole console. Press Start several times at different spots and pressures, then press a few other pads and see whether those respond. A dead Start pad with everything else working means a worn patch on the membrane. Several dead pads means the touchpad as a whole is failing."
+    },
+    {
+      "q": "Why do different sites say PSH means different things?",
+      "a": "Because the documentation is genuinely thin. No manufacturer page covering PSH surfaced, and several repair sites offer competing expansions of the letters that contradict each other. The push-to-start reading matches how the ovens actually behave, but your model's use and care guide is the authority if it says otherwise."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "What the PSH prompt wants, and what to do if Start does nothing",
+    "labels": {
+      "display": "PSH",
+      "c1": "Press Start to begin",
+      "c2": "Cancel drops the selection",
+      "c3": "Test whether Start registers",
+      "c4": "Breaker reset if nothing responds"
+    }
+  },
+  "sources": [
+    {
+      "title": "Whirlpool oven use and care guide, selecting a function and pressing Start",
+      "publisher": "Owner documentation supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Published descriptions of the push to start prompt on Whirlpool ranges",
+      "publisher": "Appliance repair trade reference sites",
+      "url": null
+    },
+    {
+      "title": "Field reports of PSH on Whirlpool gas and electric ranges",
+      "publisher": "Appliance question and answer forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "PF",
+    "F1",
+    "E1",
+    "F3",
+    "F9",
+    "F2"
+  ]
+}

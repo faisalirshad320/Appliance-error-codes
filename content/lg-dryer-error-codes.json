@@ -1,0 +1,137 @@
+{
+  "title": "LG Dryer Error Codes: What Each One Means and Fixes",
+  "meta_description": "What LG dryer error codes mean, grouped by the system that failed: duct blockage, thermistor, power, door and sensors, with the first fix for each.",
+  "h1": "LG dryer error codes: what the display is telling you",
+  "answer": "LG dryers show faults as a short letter-and-number code in the time display, and the letters tell you which system is complaining. A code starting with d is about the exhaust duct and airflow, tE is the temperature sensor, dE is the door, and nP, PS or PF are the power supply. CL is not a fault at all: it means child lock is on. The single most common LG dryer code by a wide margin is d80, and the single most common fix is clearing lint out of the exhaust duct, so start there if your code begins with d.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to identify the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $60 for the common codes", "technician": "$150 to $350 for a typical service call" },
+  "safety_warning": "Two things on this list are genuinely dangerous rather than just inconvenient. A blocked exhaust duct, which is what the d codes report, is the leading cause of dryer fires in US homes, so do not leave a d80 or d90 running for months. And anything involving a gas burner, a gas valve or the gas supply goes to a licensed technician. Unplug the dryer at the wall before any panel comes off, and never bypass a thermal cut-out or a door switch to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "Airflow and venting, shown as d75, d80, d90 or d95",
+      "frequency": "most cases",
+      "confirm": "The number is LG's Flow Sense estimate of how restricted the exhaust duct is, rising from about 75 to about 95 percent. Pull the duct off the back of the dryer and look inside, then go outside and check that the wall cap flap swings open while the dryer runs. On gas models LG notes a d80 display can also point at inadequate gas supply."
+    },
+    {
+      "cause": "Temperature sensing, shown as tE1, tE2 or tE3",
+      "frequency": "common",
+      "confirm": "The control is reading a temperature from the thermistor that it does not believe, typically an open or shorted sensor or a broken wire. The dryer usually stops the cycle rather than heating blind. A reset clears some of these; if it comes back, the sensor and its connector need measuring with a multimeter."
+    },
+    {
+      "cause": "Power supply, shown as nP, PS or PF",
+      "frequency": "common",
+      "confirm": "These mean the dryer is not seeing the electrical supply it expects. nP means it cannot detect current, PS means the voltage or cord wiring is wrong, PF records a power failure mid-cycle. On an electric dryer, check that both halves of the double breaker are on, because one tripped leg leaves the drum turning with no heat."
+    },
+    {
+      "cause": "Feature indicators that look like faults, mainly CL",
+      "frequency": "common",
+      "confirm": "CL is the child lock indicator, not an error. The buttons stop responding and the dryer refuses to start, which reads exactly like a fault. Hold the button with the small padlock icon for three seconds and it clears. Nothing is broken and no part is needed."
+    },
+    {
+      "cause": "Door circuit, shown as dE",
+      "frequency": "occasional",
+      "confirm": "The control does not see the door as closed. Push the door firmly and listen for the click of the switch, then look for lint packed around the strike, a hinge that has dropped so the catch no longer lines up, or a switch plunger that stays in when the door opens."
+    },
+    {
+      "cause": "Moisture sensing, shown as HS",
+      "frequency": "occasional",
+      "confirm": "A problem with the humidity sensor, the pair of metal strips inside the drum near the lint screen opening that read how wet the clothes are. Fabric softener builds an insulating film on them, so wipe them with rubbing alcohol before assuming the sensor has failed. Loads that stop while still damp are the usual symptom."
+    },
+    {
+      "cause": "Drive and motor faults, and model-specific codes",
+      "frequency": "rare",
+      "confirm": "A drum that will not turn, a loud grinding or a motor that hums without starting. LG also uses a handful of codes that vary between series and between vented, condensing and heat pump models, so if your code is not in the list above, look it up in the owner's manual for your exact model number rather than a generic chart."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as the panel shows it",
+      "detail": "Case and characters matter more than you would expect. A lower case d is a duct code while tE is a thermistor code, and on a seven segment display a zero and a letter O look nearly identical. Take a photo of the display. Getting d90 and dE confused sends you to a completely different repair.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether it is a fault or a setting",
+      "detail": "CL is child lock and is the most common thing mistaken for a breakdown on LG laundry. If the panel is unresponsive and CL is showing, hold the button carrying the small padlock icon, usually Timed Dry, for three seconds. Do this before anything else, because the rest of the diagnostic sequence assumes the controls actually work.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a proper five minute power reset",
+      "detail": "Press Power to turn the dryer off, then unplug it at the wall or switch off its breaker and leave it for a full five minutes. A quick off-and-on often leaves the stored fault in place because the board holds residual charge. Restore power and run a short heated cycle with damp towels. This clears a real share of one-off tE and PF codes and costs nothing.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the lint screen and check the exhaust duct",
+      "detail": "Do this whatever the code says. Wash the lint screen mesh in warm soapy water to remove the invisible fabric softener film, vacuum the housing below it, then pull the dryer out, disconnect the duct and check it end to end including the outside wall cap flap. Restricted airflow causes the d codes directly and makes temperature codes far more likely, so it is the cheapest thing to rule out on any LG dryer fault.",
+      "minutes": 30,
+      "tools": "Vacuum with crevice tool, vent brush, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Check the obvious mechanical and electrical basics",
+      "detail": "Close the door firmly and listen for the switch click. Check both halves of the double breaker for an electric dryer, since one tripped leg gives you a drum that turns without heat. On a gas model, confirm the shutoff valve behind the dryer sits in line with the pipe. These three checks cover the dE, nP and PS families between them.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Do not open, adjust or test any gas component yourself. Anything past the shutoff valve is licensed trade work."
+    },
+    {
+      "name": "Find your model number and the manual",
+      "detail": "The model sticker is on the rim inside the door opening, sometimes behind the lint screen slot. Code meanings shift between vented, condensing and heat pump LG dryers, and the control panel button assignments move around too, so the manual for your exact model settles arguments that a generic chart cannot.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide whether this one is yours to fix",
+      "detail": "Duct codes, child lock, door alignment and lint screen work are all straightforward with hand tools. Thermistor testing needs a multimeter and a panel off a 240 volt machine, which is reasonable if you are confident. Gas components, sealed refrigerant circuits on heat pump models, and control board diagnosis are technician work and are not worth attempting to save a call-out fee.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code is still there after a reset and a vent clean, work out which of three situations you are in, because they lead to very different places. The first is a code that comes back on every cycle and always the same one. That is a real, repeatable fault and the code is pointing at the right system, so follow the specific page for it: d codes mean the duct run itself needs rethinking rather than another clean, tE codes mean measuring the thermistor and its harness, dE means the door switch or its alignment. The second is a code that appears intermittently and changes between cycles. That usually points at a connection rather than a component, so with the dryer unplugged, take the rear panel off and work along the harness looking for a terminal backed out of a connector, green corrosion in a damp laundry room, or a wire chafed through where it passes sheet metal. Intermittent faults chased by swapping parts cost a fortune and rarely resolve. The third is a dryer that throws a code and then will not respond to the panel at all, which usually means the user interface board rather than whatever the code said. Across all three, the point where the cost jumps is the main control board: expect $250 to $400 fitted, which on a dryer much over eight years old is worth weighing against replacement, particularly if it is also drying slowly. Before you spend anything on parts, confirm you are reading the code correctly, because d90 and dE on a seven segment display have sent more than one person down the wrong repair entirely.",
+  "reset_procedure": "The reset that works on every LG dryer is the same: press Power to turn it off, unplug it at the wall or switch off its breaker, wait a full five minutes, then restore power. The wait matters because the control board holds charge. Test with a short heated cycle and a few damp towels rather than a full load. Two things this will not clear: child lock, which is stored deliberately so a power cut cannot defeat it, and a d code for a duct that is still blocked, since that figure is recalculated on every cycle.",
+  "model_notes": "LG dryer codes are not fully consistent across the range. Vented dryers use the d75 to d95 duct codes, while ventless heat pump and condensing models have no exhaust duct and never show them. Thermistor codes exist on all of them but refer to different physical sensors depending on the heating system, and on heat pump models some of those sensors sit in the sealed refrigerant circuit, which is technician-only territory. Control panel button assignments for child lock also move between series. Use the owner's manual for your exact model number rather than a generic code chart when the two disagree.",
+  "parts": [
+    { "name": "Semi-rigid aluminum transition duct", "cost": "$12 to $25", "difficulty": "easy", "note": "The fix for most d codes, along with a brush kit" },
+    { "name": "Rotary dryer vent cleaning brush kit", "cost": "$20 to $40", "difficulty": "easy", "note": "Worth owning; you will use it every year or two" },
+    { "name": "Dryer thermistor, also sold as a temperature sensor", "cost": "$15 to $45", "difficulty": "moderate", "note": "For tE codes, after testing rather than on spec" },
+    { "name": "Door switch assembly", "cost": "$15 to $40", "difficulty": "moderate", "note": "For dE, once lint and hinge alignment are ruled out" },
+    { "name": "Main control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Last resort on any code, after the harness is proven good" }
+  ],
+  "when_to_call": "Call a licensed gas technician for anything involving a gas dryer that tumbles but will not light, and do not investigate the burner, valve or igniter yourself. Call an appliance technician when a code survives a correct reset, a clean vent and a visual check of the relevant connectors, since the next step is board level diagnosis with the machine live. Call a vent cleaning company rather than an appliance technician for a persistent d code on a long or roof-terminated duct, because the problem is the ductwork and not the dryer. And on heat pump models, treat any sensor or refrigerant circuit code as a service call from the start.",
+  "faqs": [
+    { "q": "What is the most common LG dryer error code?", "a": "d80, by a long way, followed by d90. Both are Flow Sense duct warnings telling you the exhaust is restricted, and in most homes the cause is lint in the flexible duct behind the dryer or a flap stuck shut at the outside wall cap. Clearing the duct from the lint screen to the outside fixes the great majority of them." },
+    { "q": "How do I reset an LG dryer?", "a": "Press Power to turn it off, then unplug it at the wall or switch off its breaker and wait a full five minutes before restoring power. The wait matters, because the board holds residual charge and a quick off-and-on often leaves the stored fault in place. Test with a short heated cycle rather than a full load." },
+    { "q": "Is CL an error code on an LG dryer?", "a": "No. CL means child lock is switched on, which disables the control panel buttons. Hold the button with the small padlock symbol printed on or under it, usually Timed Dry, for three seconds. It survives a power cut by design, so unplugging the dryer will not clear it. Nothing is broken and no part is needed." },
+    { "q": "Why does my LG dryer show a code but still run?", "a": "Because some LG codes are warnings rather than stop-the-cycle faults. The d duct codes are the main example: the dryer will usually keep drying, just slowly, while telling you the exhaust is restricted. Treat those as a job for this week rather than ignoring them, because a blocked vent is a fire risk." },
+    { "q": "Where do I find my LG dryer model number?", "a": "On a sticker around the rim inside the door opening, and on some models behind or beside the lint screen slot. There is usually a second label on the back of the cabinet. You need it to order the right part and to look up the owner's manual, because code meanings and button assignments differ between LG dryer series." },
+    { "q": "Can I clear an LG dryer code without fixing the problem?", "a": "Sometimes, but it does not help. A reset clears stored faults, so a tE or PF code may vanish, but the duct codes are recalculated on every cycle and will come straight back if the vent is still restricted. Child lock will not clear on a reset at all. If a code returns after one load, treat it as real." },
+    { "q": "Are LG dryer error codes the same on gas and electric models?", "a": "Mostly, with one exception worth knowing: LG notes that on gas dryers a d80 display can indicate inadequate gas supply rather than a blocked duct. So on a gas model that tumbles without getting properly hot and shows d80 with a clean vent, check the gas shutoff behind the machine before you brush the duct again." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The sequence that works on any LG dryer code, in the order that costs least.",
+    "labels": {
+      "display": "d80",
+      "c1": "Read the code exactly as shown",
+      "c2": "Rule out child lock first",
+      "c3": "Five minute power reset",
+      "c4": "Clean lint screen and duct"
+    }
+  },
+  "sources": [
+    { "title": "LG dryer error code list with meanings and recommended actions", "publisher": "LG support help library", "url": null },
+    { "title": "LG dryer owner's manuals, troubleshooting and control panel sections", "publisher": "LG owner's manual supplied with the dryer", "url": null },
+    { "title": "LG dryer error code reference and repair guidance", "publisher": "HomeServe and AppliancePartsPros repair guides", "url": null },
+    { "title": "Field reports on which LG codes are real faults and which are warnings", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["D80", "D90", "D95", "tE1", "CL", "dE"]
+}

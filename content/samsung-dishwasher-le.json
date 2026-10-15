@@ -1,0 +1,118 @@
+{
+  "title": "Samsung Dishwasher LE Code: Leak Error and How to Fix",
+  "meta_description": "Samsung LE is the leak error on older dishwashers, the same fault as LC. Dry the base pan and sensor, and on Waterwall models check the reflector track.",
+  "h1": "Samsung dishwasher LE error code: what it means and how to fix it",
+  "answer": "LE is the leak error on older Samsung dishwashers, and it means the same thing as LC on newer ones: the moisture sensor in the base pan under the tub has got wet. The machine responds by switching itself on and running the drain pump continuously, and it will ignore the power button, so you have to cut power at the breaker to stop it. On Waterwall models, which spray from a moving bar rather than a spinning arm, Samsung also ties this code to the water reflector being blocked or off its track, so check that before you start hunting for a plumbing leak.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes of work, plus several hours of drying",
+  "cost_estimate": { "diy": "$0 to $70", "technician": "$150 to $360" },
+  "safety_warning": "Water has reached the compartment under the tub where the mains wiring and pump connections live. Switch the machine off at its breaker before pulling it out, removing the kickplate, or reaching underneath.",
+  "causes": [
+    {
+      "cause": "Detergent has foamed over into the base pan",
+      "frequency": "most cases",
+      "confirm": "Look for dried foam on the inner door panel above the normal water line, and find out what went in. Hand dish soap, laundry detergent or an overfilled dispenser all generate foam that climbs the tub and spills over the lip onto the sensor below."
+    },
+    {
+      "cause": "A genuine leak from a seal, a clamp or the sump collar",
+      "frequency": "most cases",
+      "confirm": "Dry the pan, then run one hot cycle with the kickplate off and a flashlight underneath. You want to see a bead forming at the sump collar, a hose clamp, or the bottom edge of the door. An existing puddle only shows you where water settles, not where it starts."
+    },
+    {
+      "cause": "The Waterwall reflector is blocked or off its track",
+      "frequency": "common",
+      "confirm": "Only on Waterwall models, where a moving bar runs front to back along the tub floor instead of a rotating spray arm. Pull the lower rack out and push the reflector along its track by hand: it should glide. A utensil fallen through the rack, or a buildup of debris in the track, stops it and triggers the code."
+    },
+    {
+      "cause": "The sensor was splashed and there is no real leak",
+      "frequency": "common",
+      "confirm": "The code appeared immediately after the machine was installed, moved, leveled, or had plumbing worked on beside it. Dry the pan, leave a fan on it, and see whether it stays clear. This is the one that gets parts replaced unnecessarily."
+    },
+    {
+      "cause": "The leak sensor or its connector has failed",
+      "frequency": "rare",
+      "confirm": "The pan has been dry for a full day, a watched hot cycle produced no drip anywhere, and LE returns the second power comes back. Check the connector at the sensor for green corrosion or a pin pushed back before you decide the sensor itself is dead."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker",
+      "detail": "The power button will not respond while the machine is in leak mode, so switch off the dishwasher circuit at the panel or pull the plug if you can reach it from the next cabinet. Letting the pump run for days wears out a part that is probably fine. Everything that follows happens with the power off.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "A Samsung dishwasher in leak mode ignores its own power button and stays live. Confirm the breaker is off before you touch anything underneath."
+    },
+    {
+      "name": "Check the Waterwall reflector if your model has one",
+      "detail": "Slide the lower rack out and look at the tub floor. If there is a long bar running front to back rather than a rotating spray arm, you have a Waterwall. Push the bar along its track by hand from one end to the other: it should move smoothly. Fish out any utensil, bone or bottle cap sitting in the track, wipe the rails clean, and check it glides before you go further.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Rule out suds",
+      "detail": "Look at the inner door and tub walls for dried foam above the water line, and work out what detergent has been going in. Any chance of hand dish soap means you have your answer. Sponge out standing water now, and once the machine runs again put a quarter cup of white vinegar in the empty tub and run two rinse cycles to clear the residue.",
+      "minutes": 15,
+      "tools": "Sponge, white vinegar",
+      "warning": null
+    },
+    {
+      "name": "Pull the machine out and empty the base pan",
+      "detail": "Close the supply valve under the sink, undo the two mounting screws into the countertop underside or the side brackets, and ease the dishwasher forward, feeding the hoses and cord through behind it. Lay towels down, tilt it backward about 45 degrees with the door shut and hold it for a minute while the pan drains onto them. Set it level again afterward.",
+      "minutes": 20,
+      "tools": "Phillips or Torx screwdriver, old towels, a helper",
+      "warning": "Power off at the breaker and water off at the supply valve before moving a plumbed-in machine."
+    },
+    {
+      "name": "Dry the pan and sensor, then leave a fan on it",
+      "detail": "Remove the kickplate, usually two to four screws along the bottom edge, and mop the remaining water out of the pan with dry cloths. The sensor is a small plastic module sitting low in the pan, generally toward the front; dry it and the plastic around it carefully. Then point a household fan into the opening and leave it running for several hours, overnight if the pan was properly wet. Residual damp holds the code as well as standing water does.",
+      "minutes": 25,
+      "tools": "Dry cloths, screwdriver, household fan",
+      "warning": "No heat gun and no hair dryer on a hot setting. The pan and sensor housing are plastic and will warp."
+    },
+    {
+      "name": "Run a watched cycle with the kickplate off",
+      "detail": "Restore power and start a full hot program with the machine still pulled forward and the kickplate off. Get on the floor with a flashlight and check each suspect in turn as the cycle runs: the collar where the sump meets the tub, every hose clamp, the drain pump housing, and the bottom edge of the door. Catching a drip forming is what tells you where to spend money.",
+      "minutes": 40,
+      "tools": "Flashlight",
+      "warning": "Keep hands away from the pump and heater wiring with the machine running. Watch only."
+    }
+  ],
+  "still_showing": "If the pan is dry, the reflector moves freely and LE comes back the moment power returns, work through it in this order before you buy anything. First, give the drying more time. A sensor sitting in residual damp under the tub keeps reading wet long after the pan looks dry to you, and a fan blowing into the open kickplate for a full day clears a real share of codes that people have already replaced sensors over. Second, check the connector rather than the sensor: pull the kickplate, find the plug at the sensor module, and look for green corrosion or a terminal backed out of its housing, which is common under a machine that has been standing in water and costs nothing to put right. Third, if the pan refills while the machine sits switched off, shut the supply valve under the sink and watch again, because water arriving with the dishwasher idle means the fill valve is passing and the leak continues whether you use it or not. Fourth, consider sources outside the dishwasher entirely: a weeping fitting on the sink supply or the disposal above can run down the cabinet and into the pan, and the dishwasher reports it as its own. Put dry paper towel under the sink fittings and run the faucet hard for two minutes with the dishwasher off. The cost steps up at the sump gasket or the tub itself, since both mean laying the machine on its back and stripping the bottom end. On a dishwasher old enough to be using the LE display rather than LC, that quote is likely to be most of the price of a replacement, which is worth weighing before you approve it.",
+  "reset_procedure": "No button sequence clears LE while the sensor is wet, because the machine reads it continuously and re-posts the code at once. The reset is physical: cut power at the breaker, drain and dry the base pan and the sensor, then restore power. If the pan is genuinely dry and the fault is only stored, leaving the breaker off for five minutes before restoring it drops it. Plan on running a fan under the machine for several hours before you test rather than switching straight back on.",
+  "model_notes": "Samsung uses LE on older dishwashers and LC on newer ones for the same leak detection, and both appear together in Samsung's own documentation. The practical difference is model age rather than meaning, and everything on the LC page applies here. The one model-specific case is Waterwall, where the spray comes from a bar that travels along the tub floor: on those machines Samsung also associates this code with the water reflector being blocked or off its track, so clear and test the reflector before assuming a plumbing leak. Some panels blink a leak indicator instead of showing letters.",
+  "parts": [
+    { "name": "Door gasket or tub seal", "cost": "$25 to $60", "difficulty": "easy", "note": "Presses into a channel; a common source and a cheap fix" },
+    { "name": "Leak sensor assembly", "cost": "$30 to $70", "difficulty": "moderate", "note": "Only after a full day of drying has failed to clear it" },
+    { "name": "Drain or fill hose clamp", "cost": "$3 to $10", "difficulty": "easy", "note": "A weeping clamp will often just tighten up" },
+    { "name": "Waterwall reflector assembly", "cost": "$50 to $120", "difficulty": "moderate", "note": "Only if the bar or its track is damaged rather than just obstructed" },
+    { "name": "Sump gasket or sump assembly", "cost": "$50 to $140", "difficulty": "hard", "note": "Means laying the machine down; weigh it against the age of the unit" }
+  ],
+  "when_to_call": "Call a technician if the leak traces to the sump collar or the tub, since reaching either means laying the machine on its back and stripping the bottom end, and a gasket refitted slightly proud brings the code straight back. Call right away, after closing the supply valve, if the pan keeps filling with the dishwasher switched off, because that is a live leak that damages your floor whether or not you run a cycle. Call a plumber rather than an appliance engineer if the sink backs up or the air gap spits while the machine drains. And on a dishwasher old enough to display LE, get any quote near $300 in writing before agreeing to it.",
+  "faqs": [
+    { "q": "Is LE the same as LC on a Samsung dishwasher?", "a": "Yes. Both are the leak error, and the difference is model generation rather than meaning, with LE on older machines and LC on newer ones. Samsung lists them together in its own support material. The cause list and the repair are identical: dry the base pan and the sensor, then find out what made it wet." },
+    { "q": "Why won't my Samsung dishwasher turn off with LE showing?", "a": "Leak mode deliberately overrides the power button. The machine assumes water is escaping and runs the drain pump continuously to keep the tub empty until a person intervenes. The only way to stop it is at the breaker or by unplugging it. Leaving it running for days will wear out a drain pump that was probably fine." },
+    { "q": "What is the water reflector on a Waterwall model?", "a": "It is the bar that travels front to back along the tub floor and throws a wall of water up through the racks, instead of a spinning spray arm. It has to glide along its track freely. A dropped utensil or debris in the rails stops it, and Samsung associates that condition with this code on Waterwall machines." },
+    { "q": "How long should I leave the base pan to dry?", "a": "Several hours at least, and a full day if the pan held real water. Soaking up the standing water takes minutes, but the sensor keeps reading wet while damp sits around it, so a fan blowing into the open kickplate is what actually clears it. Do not use a heat gun; the housing is plastic and will warp." },
+    { "q": "Can I still use the dishwasher with an LE code?", "a": "No. The machine locks into leak mode, runs its pump, and refuses to accept a cycle. Even if it would run, using a dishwasher that is leaking into its own base makes the leak worse and keeps water next to the wiring. Deal with the base pan and the source first." },
+    { "q": "Is an LE repair worth it on an older dishwasher?", "a": "A door gasket, a loose clamp or a sensor that needs drying are all cheap and clearly worth doing. A sump gasket or a cracked tub usually is not on a machine old enough to be showing LE rather than LC, because the labor to reach those parts lands close to the cost of a replacement." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "What wets the Samsung leak sensor in the base pan",
+    "labels": {
+      "display": "LE",
+      "c1": "Leak sensor low in the base pan",
+      "c2": "Sump collar and hose clamps",
+      "c3": "Door gasket down the front",
+      "c4": "Waterwall reflector track"
+    }
+  },
+  "sources": [
+    { "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Understanding the meaning of error codes on your Samsung dishwasher", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung dishwasher service literature, leak detection and Waterwall reflector", "publisher": "Samsung service documentation", "url": null }
+  ],
+  "related_codes": ["LC", "OC", "SC", "4C", "4E"]
+}

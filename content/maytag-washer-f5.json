@@ -1,0 +1,132 @@
+{
+  "title": "Maytag Washer F5 Error Code: Door or Lid Lock Fault",
+  "meta_description": "F5 on a Maytag washer is a door or lid lock fault: the control cannot confirm it locked or unlocked. Usually the lock assembly or a misaligned striker.",
+  "h1": "Maytag washer F5 error code: what it means and how to fix it",
+  "answer": "F5 is the door and lid lock family on a Maytag washer. The control tried to lock the door or lid before filling, or tried to release it at the end of a cycle, and did not get the confirmation back that it expected. On a front loader that means the door latch or its switch; on a top loader it means the lid lock assembly behind the console lip. A second number follows on most displays, as F5 E1, F5 E2 or F5 E3, and it narrows down whether the lock will not engage, will not release, or is sending a contradictory signal.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to check, 45 minutes to replace the lock",
+  "cost_estimate": { "diy": "$50 to $140", "technician": "$180 to $350" },
+  "safety_warning": "Unplug the washer at the outlet or switch off its breaker before removing any panel or disconnecting the lock. The door interlock is a safety device that keeps the drum from spinning with the door open. Never bypass, tape, jam or wire around it to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "The door or lid is not actually shutting all the way",
+      "frequency": "most cases",
+      "confirm": "Push the door until you hear and feel a distinct click, then try to pull it open without touching the handle. On a top loader, press the lid down firmly over the lock point. A towel sleeve, a bra strap or a sock tail caught in the opening holds it a few millimeters proud, which is enough for the lock to miss."
+    },
+    {
+      "cause": "The lid lock or door lock assembly has failed",
+      "frequency": "most cases",
+      "confirm": "You can hear the lock buzz or click but the code still appears, or you hear nothing at all when a cycle starts. Top-load Maytag lid locks are a known wear item: the small plastic actuator inside fatigues and either stops throwing the bolt or stops closing its switch. Look for a melted, cracked or discolored lock housing."
+    },
+    {
+      "cause": "The striker or strike plate is bent, worn or out of line",
+      "frequency": "common",
+      "confirm": "Look at the metal or plastic tongue on the door and the hole it goes into. If the tongue is scraping the edge of the hole, has shiny wear on one side, or the door has to be lifted slightly to shut, it is going in at an angle and not reaching the switch inside. A front loader with sagging hinges does this as the machine ages."
+    },
+    {
+      "cause": "Debris, lint or dried detergent jamming the latch mechanism",
+      "frequency": "common",
+      "confirm": "Shine a light into the latch cavity. Soap scum sets hard and stops the bolt travelling its full stroke. On top loaders the lock sits where everything spilled over the edge of the tub ends up, so it collects grit, coins and detergent crust."
+    },
+    {
+      "cause": "A damaged or disconnected wiring harness at the lock",
+      "frequency": "occasional",
+      "confirm": "With the power off, unplug the connector at the lock and look for green corrosion, a pushed-back pin or chafed insulation where the loom passes an edge. On front loaders the harness runs near the door and flexes thousands of times, so a broken conductor inside intact insulation is a real possibility."
+    },
+    {
+      "cause": "The main control board is not driving or reading the lock",
+      "frequency": "rare",
+      "confirm": "A new lock assembly, a clean latch and a good harness, and F5 is still there. Before condemning the board, check that the lock gets voltage when the cycle starts. This is the point where the cost of parts stops being worth guessing at."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Shut the door or lid properly and look for something in the way",
+      "detail": "Open it fully, run a hand right around the opening and the rubber boot, and pull out anything caught in the fold at the bottom. Then close it with a firm push until it clicks. Do not nudge it. A front loader door that is merely resting against the frame looks shut and is not, and that single thing accounts for more F5 codes than every part on this page.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power for five minutes",
+      "detail": "Unplug the machine or switch off its breaker, leave it a full five minutes, and restore power. The board latches the lock fault and will keep showing F5 after the real problem is gone. Five minutes rather than a quick flick, because the control holds charge. Then start a rinse and spin and listen: you should hear the lock operate within a few seconds of pressing Start.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the latch cavity and the striker",
+      "detail": "With the power off, wipe out the latch recess with a cloth and hot water, then work into it with an old toothbrush to lift dried detergent. Clear any lint packed behind the bolt. On a top loader, check the slot the lid lock bolt drops into for coins, buttons and grit. Dry it, then work the door or lid open and shut a dozen times by hand and feel for anything catching.",
+      "minutes": 12,
+      "tools": "Cloth, old toothbrush, flashlight",
+      "warning": "Unplug the washer before putting fingers or tools near the lock."
+    },
+    {
+      "name": "Check the door alignment and the hinges",
+      "detail": "On a front loader, hold the door at the handle edge and lift gently. More than a little play means the hinge screws have worked loose or the hinge has worn, and the striker is no longer meeting the latch squarely. Tighten the hinge screws through the door frame. If the door still drops, the hinge itself is the part to change, not the lock.",
+      "minutes": 15,
+      "tools": "Torx driver set or Phillips #2 screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Inspect the lock assembly and its connector",
+      "detail": "Unplug the machine. On a front loader the door lock sits behind the boot at the latch side; peel back the outer boot clamp with a flat screwdriver to reach the two screws holding it. On a top loader the lid lock is under the top panel at the front lip. Pull the connector and look for burnt pins, green corrosion or melted plastic on the lock body. Burn marks mean you have found it.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, flat screwdriver, nut driver, flashlight",
+      "warning": "Unplug at the outlet first. Do not run the machine with the lock removed or bypassed."
+    },
+    {
+      "name": "Test the lock switch for continuity",
+      "detail": "With the machine still unplugged and the lock out, put a multimeter on continuity across the switch terminals and operate the latch by hand with a screwdriver tip. The contacts should make and break cleanly as the bolt moves. A switch that never closes, or one that reads closed all the time, is a dead lock. The terminal pairs for your model are identified on the service sheet folded inside the console or taped under the top panel.",
+      "minutes": 15,
+      "tools": "Multimeter, flat screwdriver",
+      "warning": "Machine unplugged throughout. Never test a door lock with the washer powered."
+    },
+    {
+      "name": "Fit the replacement lock assembly",
+      "detail": "Order the lock by your full model number from the sticker inside the door opening or under the lid, not by the look of the part. Fitting is the reverse of removal: two screws and one connector on most machines, plus refitting the boot clamp on a front loader. Seat the boot lip evenly all the way round before you clip the spring back on, or you will swap a lock fault for a leak.",
+      "minutes": 40,
+      "tools": "Phillips #2 screwdriver, nut driver, pliers",
+      "warning": "Unplug the washer. Check the door opens and closes freely and locks audibly before running a full cycle."
+    }
+  ],
+  "still_showing": "If the door shuts cleanly, the latch is clean and a power cut has not helped, go after this in order of cost. First, confirm what the machine is actually doing when you press Start. Stand close and listen: a lock that buzzes or clicks and then throws the code is a lock that is moving but not reaching its switch, which usually means a worn bolt or a striker out of line. A lock that makes no sound at all is either dead or not getting power, and those are two very different bills. Second, read the second half of the code if your display shows one. F5 E1 generally means the control cannot reconcile the lock signal with the lid or door position, F5 E2 generally means the lock will not engage, and F5 E3 generally means it will not release at the end of the cycle. Different sources split those three slightly differently across model platforms, so treat them as a pointer rather than gospel and confirm against the service sheet inside your machine. Third, swap the lock. On top-load Maytags the lid lock is the single most replaced part for this code, it runs roughly $50 to $140, and it is a two-screw job once the top panel is up. On front loaders the door lock is a similar price but means peeling the boot clamp back, which is fiddlier and needs care on refit so you do not create a leak. Fourth, if a new lock changes nothing, stop buying parts. Check that the lock connector sees voltage when a cycle starts, and if it does not, the fault is upstream in the harness or the main control board. That is a $180 to $350 job and the point at which a technician earns the money. One thing not to do at any stage: do not tape the door switch, jam the striker, or wire around the interlock to get a load through. That device is the only thing stopping a drum spinning at full speed with the door open.",
+  "reset_procedure": "Press Power to cancel, then unplug the washer or switch off its breaker for five minutes before restoring power. The control stores the lock fault and will display F5 even after the door is closing properly. When power comes back, start a Rinse and Spin and listen for the lock operating within the first few seconds. If the code returns before the machine even tries to lock, the control is not seeing the lock circuit at all, which points at the harness rather than the latch.",
+  "model_notes": "The F5 family behaves differently depending on whether you have a front loader or a top loader. On front loaders it is the door lock behind the boot, and the usual failure is a worn latch or a sagging hinge letting the striker meet it at an angle. On top loaders it is the lid lock under the front lip of the top panel, and that assembly is a recognized wear item with its own distinctive symptom of buzzing without locking. Older Maytag machines on the same Whirlpool platform may show the fault as dL, LF or a flashing lid lock light with no code at all, and machines with a dial and indicator lights instead of a display need the blink pattern read in service diagnostics. Published meanings for the E1, E2 and E3 sub-codes differ slightly between sources and platforms, so use the service sheet inside your own machine as the authority.",
+  "parts": [
+    { "name": "Lid lock assembly, top load models", "cost": "$50 to $140", "difficulty": "moderate", "note": "The most commonly replaced part for F5 on Maytag top loaders" },
+    { "name": "Door lock and switch assembly, front load models", "cost": "$55 to $150", "difficulty": "moderate", "note": "Requires peeling back the boot clamp; refit the boot carefully to avoid a leak" },
+    { "name": "Door strike or striker", "cost": "$15 to $40", "difficulty": "easy", "note": "Worth checking before the lock if the door has to be lifted to close" },
+    { "name": "Door hinge assembly", "cost": "$40 to $110", "difficulty": "moderate", "note": "Only if the door visibly drops when you lift the handle edge" },
+    { "name": "Main control board", "cost": "$160 to $330", "difficulty": "technician only", "note": "Last resort, after confirming the lock gets no voltage at cycle start" }
+  ],
+  "when_to_call": "Call someone once you have fitted a new lock assembly and the code is still there, because the next step is measuring for voltage at the lock connector with the machine powered up, and that is live mains work inside a wet appliance. Also call if the door is physically jammed shut with laundry inside and the lock will not release, rather than forcing it; a front loader door forced against a latched bolt breaks the handle, the latch and sometimes the glass. Expect $180 to $350 for a lock fault diagnosed and repaired by a technician, which is worth weighing against the age of the machine if the quote comes back pointing at the control board.",
+  "faqs": [
+    { "q": "What does F5 mean on a Maytag washer?", "a": "A door or lid lock problem. The control either could not lock the door before starting a cycle or could not release it at the end, and stopped rather than running. On top loaders it points at the lid lock assembly under the front lip of the top panel; on front loaders it points at the door latch, the striker, or the switch inside the latch." },
+    { "q": "What is the difference between F5 E1, F5 E2 and F5 E3?", "a": "They narrow down the same lock fault. Broadly, E1 means the lock signal and the door position do not agree, E2 means the lock will not engage, and E3 means it will not release. Published meanings vary slightly across model platforms, so check the service sheet inside your own machine rather than trusting a generic list." },
+    { "q": "Can I still use my washer with an F5 code?", "a": "No. The machine will not run a cycle without a confirmed lock, and that is deliberate: the interlock is what stops the drum spinning with the door open. Do not tape the switch or jam the striker to force a load through. If laundry is trapped inside, cut the power for five minutes and the lock usually releases." },
+    { "q": "Why does my lid lock buzz but still throw F5?", "a": "The lock is being energised but the bolt is not completing its travel, so the switch inside never confirms. On Maytag top loaders that usually means the plastic actuator in the lid lock assembly has fatigued, which is a known wear point. Check the strike slot for grit first, then plan on replacing the lock assembly." },
+    { "q": "How much does it cost to fix an F5 code?", "a": "If it is the lock, the part runs roughly $50 to $150 and most people can fit it in under an hour with a screwdriver and a nut driver. A technician doing the same job typically lands between $180 and $350 including labor. If the diagnosis comes back as the main control board, the figure climbs further and the age of the machine becomes the real question." },
+    { "q": "Why did F5 appear out of nowhere?", "a": "Lock assemblies fail gradually. The actuator weakens over hundreds of cycles and works until the day it does not, so the failure feels sudden. The other common trigger is physical: a heavy load slammed the door, the machine was moved, or detergent crust finally built up enough in the latch cavity to stop the bolt travelling its full stroke." },
+    { "q": "Is it safe to bypass the door lock to finish a load?", "a": "No, and no reputable technician will show you how. The lock is the only thing preventing a drum spinning at speed with the door open, and on a front loader that means several hundred revolutions a minute of exposed metal. Cut power, get the laundry out, and either repair it or hand-wring the load and move on." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "What the control checks before it will start, and the four places F5 comes from.",
+    "labels": {
+      "display": "F5",
+      "c1": "Door or lid fully latched",
+      "c2": "Clean the latch cavity",
+      "c3": "Striker meeting the latch square",
+      "c4": "Lock switch and its connector"
+    }
+  },
+  "sources": [
+    { "title": "Maytag washer door and lid lock error code guidance", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "F5 error code on Maytag and Whirlpool washers, sub-code breakdown", "publisher": "PartSelect appliance repair reference", "url": null },
+    { "title": "Maytag washer service sheet, door lock circuit and diagnostic tests", "publisher": "Maytag service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on lid lock actuator failures across Maytag top load models", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F5 E1", "F5 E2", "F5 E3", "dL", "LoC", "F7 E1"]
+}

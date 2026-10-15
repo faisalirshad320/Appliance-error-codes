@@ -1,0 +1,203 @@
+{
+  "title": "Samsung Dishwasher LC Code: Leak Detected and How to Fix",
+  "meta_description": "Samsung LC means the leak sensor in the base pan got wet. The machine pumps nonstop until you cut power. Dry the pan, then find what wet it.",
+  "h1": "Samsung dishwasher LC error code: what it means and how to fix it",
+  "answer": "LC means the moisture sensor sitting in the base pan beneath the tub has got wet, so the dishwasher has declared a leak. Samsung's response to that is aggressive: the machine switches itself on, runs the drain pump continuously, and will not respond to the power button, so the only way to stop it is to pull the plug or trip the breaker. Three things cause it in practice, in this order: an actual leak, too much detergent foaming over, and a sensor that got splashed and just needs drying out. All three need the pan dried before the code will clear.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes of work, plus up to 24 hours of drying",
+  "cost_estimate": {
+    "diy": "$0 to $70",
+    "technician": "$150 to $380"
+  },
+  "safety_warning": "Water has reached the compartment that carries the machine's mains wiring and pump connections. Cut power at the breaker before pulling the dishwasher out, removing the kickplate, or putting your hands under the tub.",
+  "causes": [
+    {
+      "cause": "Detergent or rinse aid has foamed over into the base pan",
+      "frequency": "most cases",
+      "confirm": "Look for dried foam residue on the inner door above the normal water line, and ask what went in. Hand dish soap, laundry detergent, a spilled rinse aid bottle, or a pan washed with suds still on it will all do it. Foam climbs the tub and spills over the lip onto the sensor below."
+    },
+    {
+      "cause": "A real leak from the sump gasket or a hose connection",
+      "frequency": "most cases",
+      "confirm": "Dry the base pan completely, then run one hot cycle with the kickplate off and a flashlight on the underside. You want to catch a bead forming at the sump collar or at a hose clamp. Finding an existing puddle only tells you where water collects, not where it comes from."
+    },
+    {
+      "cause": "The sensor was splashed and nothing is actually wrong",
+      "frequency": "common",
+      "confirm": "LC turned up right after the machine was installed, moved, leveled, or had plumbing worked on next to it. Dry the pan, leave it a day, and it does not come back. This is the one that makes people replace parts they did not need."
+    },
+    {
+      "cause": "The door gasket is letting water down the front of the tub",
+      "frequency": "common",
+      "confirm": "Run a cycle and watch the bottom edge of the door from floor level. Water tracking down the outer door face and disappearing beneath the kickplate means the gasket is flattened, split, or has popped out of its channel at a top corner."
+    },
+    {
+      "cause": "Water is backing up from the garbage disposal or the air gap",
+      "frequency": "occasional",
+      "confirm": "Water spits out of the air gap onto the counter during the drain, or the sink gurgles and backs up when the dishwasher pumps out. The overflow finds its way down the cabinet and into the pan, and the dishwasher reports it as its own leak."
+    },
+    {
+      "cause": "The leak sensor or its harness has failed",
+      "frequency": "rare",
+      "confirm": "The pan has been bone dry for a day or more, you have found no leak after a full cycle with the kickplate off, and LC comes back the moment you restore power. Check the sensor connector for corrosion before deciding the sensor itself is dead."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut the power to stop the runaway pump",
+      "detail": "The power button will not work while LC is active, so go to the breaker panel and switch off the dishwasher circuit, or pull the plug if the cord is reachable from the cabinet next door. Leaving it to run for days wears the drain pump out for nothing. Everything else on this page happens with the power off.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Confirm the power is actually off at the breaker. A Samsung dishwasher in leak mode ignores its own power button and stays live."
+    },
+    {
+      "name": "Look for the obvious leak around the machine first",
+      "detail": "Before you move anything, check the floor at the front edge and the cabinet sides for water, open the sink cabinet and feel the supply line fitting and the drain hose connection with a dry paper towel, and look at the countertop air gap. A fitting that comes up damp when everything around it is dry saves you an hour of pulling the machine apart.",
+      "minutes": 10,
+      "tools": "Paper towel, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Rule out suds before you suspect hardware",
+      "detail": "Open the door and look at the inner door panel and tub walls for dried foam above the water line, and find out what detergent went in. If there is any chance hand dish soap or laundry detergent was used, that is your answer. Sponge out any standing water, then once the machine runs again put a quarter cup of white vinegar in the empty tub and run two rinse cycles to knock the remaining foam down.",
+      "minutes": 15,
+      "tools": "Sponge, white vinegar",
+      "warning": null
+    },
+    {
+      "name": "Pull the machine out and drain the base pan",
+      "detail": "Undo the two mounting screws into the underside of the countertop or the side brackets, and ease the dishwasher forward, feeding the hoses and cord through behind it. Lay towels down, then tilt it backward about 45 degrees with the door shut and hold it for a minute so the pan empties onto the towels. Expect anywhere from a few ounces to a quart. Set it back level afterward.",
+      "minutes": 20,
+      "tools": "Phillips or Torx screwdriver, old towels, a helper",
+      "warning": "Water off at the supply valve and power off at the breaker before you move the machine."
+    },
+    {
+      "name": "Dry the pan and the sensor properly",
+      "detail": "Pull the kickplate, usually two or four screws along the bottom edge, and reach in with a dry cloth to soak up what is left in the pan. The leak sensor is a small plastic module or probe sitting low in the pan, typically toward the front. Dry it and the surrounding plastic carefully. Then point a fan into the opening and leave it for several hours, or overnight if the pan was properly wet. Damp residue holds the code just as well as standing water.",
+      "minutes": 25,
+      "tools": "Dry cloths, screwdriver, household fan",
+      "warning": "Do not use a heat gun or a hair dryer on hot. The pan and the sensor housing are plastic and will distort."
+    },
+    {
+      "name": "Run a watched cycle with the kickplate off",
+      "detail": "Restore power and start a normal hot cycle with the kickplate still off and the machine pulled forward enough to see under it. Lie on the floor with a flashlight and work through the suspects in turn: the collar where the sump meets the tub, each hose clamp, the drain pump housing, and the bottom edge of the door. You are looking for a drip forming, which takes patience but tells you exactly where to spend money.",
+      "minutes": 40,
+      "tools": "Flashlight",
+      "warning": "Keep hands clear of the pump and heater wiring while the machine is running. Watch, do not touch."
+    },
+    {
+      "name": "Check the disposal and air gap connection",
+      "detail": "If water spat out of the air gap or the sink backed up during the drain, lift the chrome cap off the air gap, pull the plastic cover beneath it, and clear the packed sludge out with a bottle brush. Then check the drain hose where it clamps to the disposal inlet. On a recently installed disposal, confirm the knockout plug in the dishwasher inlet was actually driven out, because a blocked port sends the water back up the hose.",
+      "minutes": 20,
+      "tools": "Bottle brush, nut driver, shallow pan",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the pan is dry, the sensor is dry, and LC comes straight back the moment you restore power, slow down before ordering anything, because the two most expensive mistakes here are both avoidable. First, give it longer. A Samsung leak sensor sitting in residual damp under the tub reads wet for far longer than the pan looks wet to you, and a fan blowing into the open kickplate for a full twenty-four hours clears a real share of codes that people have already replaced sensors over. Second, check the sensor connector rather than the sensor: pull the kickplate, find the plug at the sensor module, and look for green corrosion or a pin backed out of its housing, which is common under a machine that has been sitting in water and costs nothing to fix. Third, if the pan refills while the machine is doing nothing, shut the supply valve under the sink and watch again, because water arriving with the dishwasher idle means the fill valve is passing and the leak continues whether you use the machine or not. Fourth, if you have watched a full hot cycle with a flashlight and seen no drip at all, consider the less obvious sources: a leak from the sink plumbing or the disposal above can run down the outside of the cabinet and into the pan, and the dishwasher reports it as its own. Put dry paper towel under the sink fittings and run the faucet hard for two minutes with the dishwasher off. The point where the cost jumps is a sump gasket or a tub leak, because both mean laying the machine down and stripping the bottom end, and on a dishwasher past seven or eight years old that quote usually lands close enough to a new machine to be worth thinking about rather than approving on the spot.",
+  "reset_procedure": "There is no button sequence that dismisses LC while the sensor is wet, because the machine reads the sensor continuously and re-posts the code immediately. The reset is physical: cut the power at the breaker, drain and dry the base pan and the sensor, then restore power. If the pan is genuinely dry and the code is stored rather than live, leaving the breaker off for five minutes before restoring it clears the fault memory. Expect to leave a fan running under the machine for several hours before testing, rather than trying again straight away.",
+  "model_notes": "Samsung uses LC on newer dishwashers and LE on older ones for the same leak detection, and both appear in Samsung's own documentation alongside each other. On Waterwall models, which spray from a moving bar rather than a rotating arm, the leak code is also tied to the water reflector being blocked or off its track, so check that the reflector moves freely before assuming a plumbing leak. Some models show the code as 'LC' on the panel and others blink a leak indicator instead. Samsung's published guidance for this code specifically calls out avoiding detergent overfill and checking the garbage disposal connection, which matches what the field sees.",
+  "parts": [
+    {
+      "name": "Door gasket or tub seal",
+      "cost": "$25 to $60",
+      "difficulty": "easy",
+      "note": "Presses into a channel; a common source and a cheap fix"
+    },
+    {
+      "name": "Leak sensor assembly",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Only after a full day of drying has failed to clear the code"
+    },
+    {
+      "name": "Drain or fill hose clamp",
+      "cost": "$3 to $10",
+      "difficulty": "easy",
+      "note": "A weeping clamp often just needs tightening"
+    },
+    {
+      "name": "Sump gasket or sump assembly",
+      "cost": "$50 to $140",
+      "difficulty": "hard",
+      "note": "Means laying the machine down and stripping the bottom end"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$35 to $85",
+      "difficulty": "moderate",
+      "note": "If the pan refills with the machine idle and the supply on"
+    }
+  ],
+  "when_to_call": "Call a technician if the leak traces to the sump collar or the tub itself, because reaching either means laying the machine on its back and stripping the bottom end, and a gasket refitted slightly proud gives you the same code a month later. Call immediately, after shutting the supply valve, if the pan keeps filling with the dishwasher switched off, since that is a live leak that will damage your floor whether you run the machine or not. Call a plumber rather than an appliance technician if the sink backs up or the air gap spits during the drain, because the blockage is in your kitchen plumbing. And weigh the quote against the machine: past seven or eight years old, a sump repair is usually most of the price of a replacement.",
+  "faqs": [
+    {
+      "q": "Why won't my Samsung dishwasher turn off with an LC code?",
+      "a": "Because leak mode overrides the power button by design. The machine assumes water is escaping and runs the drain pump continuously to keep the tub empty until someone intervenes. The only way to stop it is at the breaker or by unplugging it. Leave it running for days and you will wear out a perfectly good drain pump."
+    },
+    {
+      "q": "Can an LC code appear without an actual leak?",
+      "a": "Yes, and it happens often. The sensor reads moisture in the base pan, so a splash during installation, leveling, or plumbing work under the sink triggers it with nothing broken. So does detergent foaming over the tub lip. Dry the pan thoroughly, run a fan under the machine for several hours, and see whether it stays clear."
+    },
+    {
+      "q": "How long does the base pan take to dry out?",
+      "a": "Longer than it looks. Soaking up the standing water takes minutes, but the sensor keeps reading wet while residual damp sits around it, so plan on several hours with a fan blowing into the open kickplate and up to a full day if the pan was properly flooded. Do not use a heat gun; the housing is plastic."
+    },
+    {
+      "q": "Can I still use the dishwasher with an LC code?",
+      "a": "No. The machine locks into leak mode, runs its pump, and will not accept a cycle. Even if you could force it, running a dishwasher that is leaking into its own base makes the problem worse and puts water next to the wiring. Deal with the pan and the source first."
+    },
+    {
+      "q": "Does too much detergent really cause LC?",
+      "a": "Yes, and Samsung's own guidance says so. Excess detergent, and especially hand dish soap, generates foam that climbs the tub walls and pours over the lip into the base pan, where it lands on the leak sensor. The machine cannot tell foam from a burst hose. Use the marked dose of dishwasher detergent only."
+    },
+    {
+      "q": "Why did LC appear suddenly when nothing changed?",
+      "a": "Most real leaks are slow. A gasket weeps a spoonful per cycle for months, the pan fills unnoticed, and one day the water finally reaches the sensor. It feels instant and has been building all along. The other sudden trigger is a one-off: the wrong soap, a spilled rinse aid bottle, or a sink backing up into the cabinet."
+    },
+    {
+      "q": "Is an LC repair worth it?",
+      "a": "It depends where the leak is. A door gasket, a loose hose clamp, or a sensor that just needs drying are all cheap and clearly worth doing. A sump gasket or a cracked tub on a machine past seven or eight years old usually is not, because the labor to reach those parts approaches the cost of a new dishwasher."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "Where the Samsung leak sensor sits and what reaches it",
+    "labels": {
+      "display": "LC",
+      "c1": "Leak sensor low in the base pan",
+      "c2": "Sump collar and hose clamps above",
+      "c3": "Door gasket running down the front",
+      "c4": "Suds spilling over the tub lip"
+    }
+  },
+  "sources": [
+    {
+      "title": "Common Samsung dishwasher error codes and their meaning",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung dishwasher service literature, leak detection and base pan sensor",
+      "publisher": "Samsung service documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on LC causes, drying times and false triggers",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "LE",
+    "OC",
+    "SC",
+    "4C",
+    "4E"
+  ]
+}

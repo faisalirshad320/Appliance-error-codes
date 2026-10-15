@@ -1,0 +1,146 @@
+{
+  "title": "Samsung Dryer hE Code: Heating Fault and How to Fix It",
+  "meta_description": "hE on a Samsung dryer is a heating fault. The code does not say which direction, so feel the exhaust first, then clean the vent before buying parts.",
+  "h1": "Samsung dryer hE error code: what it means and how to fix it",
+  "answer": "hE means your Samsung dryer's control is unhappy with the heating circuit and has shut the heat down. What the code does not tell you is which direction the problem runs, because Samsung files it under one heating category that covers both a dryer that got too hot and a heater that is not performing. Settle that yourself in ten minutes: run a timed cycle, then feel the air at the outside vent. Scorching hot means an airflow and overheat problem; barely warm means the heater circuit is open. Either way, clean the lint screen and the exhaust duct first, because restricted airflow causes both versions of this fault.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to find the direction, 1 to 2 hours to repair",
+  "cost_estimate": { "diy": "$10 to $120", "technician": "$160 to $400" },
+  "safety_warning": "An electric dryer heater runs on 240 volts and a gas dryer burns gas inside the cabinet. Unplug the dryer at the outlet or switch off its breaker before removing any panel or touching any terminal. Never bypass, jumper or tape over a thermal fuse, a thermostat or a high-limit cut-out to get heat back; those devices are the reason an overheating dryer stops instead of catching fire. On a gas model, the burner, igniter, flame sensor, gas valve and gas line are licensed work.",
+  "causes": [
+    {
+      "cause": "Restricted airflow through the lint screen or the exhaust duct",
+      "frequency": "most cases",
+      "confirm": "Hold the lint screen under a running tap. Water that beads up instead of pouring through means fabric softener has laid an invisible film across the mesh. Then disconnect the duct behind the dryer and look inside for a gray mat of lint or a flattened section. This single cause sits behind both readings of the code: it overheats the dryer, and the overheat is what kills the fuse that then leaves you with no heat at all."
+    },
+    {
+      "cause": "A blown thermal fuse on an electric dryer",
+      "frequency": "most cases",
+      "confirm": "The drum tumbles perfectly, the cycle runs its full length, and the clothes come out cold and damp. With the dryer unplugged, a multimeter across the fuse terminals shows no continuity. A thermal fuse is a one-shot device that opens when the exhaust gets too hot, so finding a blown one tells you there was an airflow problem before there was a heating problem."
+    },
+    {
+      "cause": "One leg of the 240 volt supply has been lost",
+      "frequency": "common",
+      "confirm": "Everything works except the heat: the drum turns, the light comes on, the panel responds, and nothing gets warm. An electric dryer takes two hot legs, and the motor and controls run on one of them. Look at the dryer's double breaker for one half tripped or sitting soft between positions, and at the outlet and cord end for scorch marks or a melted pin."
+    },
+    {
+      "cause": "An open heating element",
+      "frequency": "common",
+      "confirm": "With the dryer unplugged and the element disconnected, a multimeter across its terminals reads open rather than making a circuit. You can often see the break: the coil will have a parted end or a bright melted bead where it failed. Check also between either terminal and the element housing, because an element sagged against its casing shorts to ground and produces heat the control never asked for."
+    },
+    {
+      "cause": "A failed cycling or high-limit thermostat",
+      "frequency": "occasional",
+      "confirm": "Unplugged, with the thermostat cold and disconnected, it should make a circuit. One that reads open when cold has failed and will prevent heat entirely. The opposite failure, a thermostat welded closed, leaves the heat on when the cycle should be cooling, and that shows up as scorched clothes rather than cold ones."
+    },
+    {
+      "cause": "The exhaust thermistor is reading outside its range",
+      "frequency": "occasional",
+      "confirm": "The vent is genuinely clear, airflow at the hood is strong, and the code still arrives, often early in the cycle before the dryer could realistically be hot. Rather than hunting a resistance figure you cannot source for your model, measure the sensor cold, warm it in your hand for a minute, and measure again. A healthy thermistor changes reading as it warms; one that does not has failed."
+    },
+    {
+      "cause": "On a gas dryer, the igniter, flame sensor or gas valve coils",
+      "frequency": "occasional",
+      "confirm": "You can hear the igniter glow and click but the burner never lights, or it lights and drops out after a few seconds, and the drum keeps turning cold. Stop here. Do not open the burner compartment or disturb the gas connection; this is licensed work and the rest of this page is about electric models."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find out which direction the fault runs",
+      "detail": "This is the cheapest and most useful thing you can do, and it decides everything after it. Put a couple of damp towels in, run a timed cycle on high heat for ten minutes, then go outside and put your hand in the stream from the vent hood. A strong scorching blast means the dryer is overheating and airflow is the problem. Air that is barely warm, or a weak trickle at body temperature, means the heater circuit is open. Note which one you have before touching a tool.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wash the lint screen and vacuum its housing",
+      "detail": "Clear the lint, then hold the screen under a running tap. If the water pools on the mesh rather than pouring straight through, scrub both faces with hot water, dish soap and a soft brush until it drains freely, then dry it before refitting. With the screen out, push a vacuum crevice tool or a long flexible brush right down into the slot and clear what has slipped past over the years.",
+      "minutes": 20,
+      "tools": "Soft brush, dish soap, vacuum with crevice tool, long flexible lint brush",
+      "warning": "Unplug the dryer before pushing a brush or a nozzle into the lint housing."
+    },
+    {
+      "name": "Clear the exhaust duct end to end",
+      "detail": "Unplug the machine and walk it out far enough to reach behind. Loosen the clamp, pull the duct off the outlet and look inside both the duct and the dryer's port. Brush the full run with a rotary vent brush on flexible rods, working in and out to break up the lint mat, and vacuum up what falls. Check the outside hood flap swings freely and has no nest or lint packed behind it. Do this even if your test said the dryer runs cold, because a blocked vent is what blows the fuse.",
+      "minutes": 45,
+      "tools": "Dryer vent brush kit, vacuum, nut driver, drill for a rotary kit",
+      "warning": "Unplug first. On a gas dryer, move the machine gently and do not strain the flexible gas connector."
+    },
+    {
+      "name": "Cut the power for two minutes and retest",
+      "detail": "Press Power to turn the dryer off, unplug it at the outlet or switch off its breaker, leave it a full two minutes, then restore power and run a short timed cycle. The control latches the heating fault and will keep showing hE after the cause is gone. If the code stays away and the air is properly hot, airflow was the whole problem and you are finished.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check both legs of the supply on an electric dryer",
+      "detail": "If the drum turns but nothing warms, suspect the power before the parts. Switch the dryer's double breaker fully off, past the off position until it clicks, then back on; a half-tripped breaker often looks engaged. Pull the plug and inspect the pins and the outlet face for scorching, melting or discoloration. A burnt outlet or cord end is an electrician's job and a genuine hazard, not something to keep using.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "Do not probe a 240 volt outlet unless you are experienced with live testing. Scorch marks or a melted pin mean stop and call an electrician."
+    },
+    {
+      "name": "Test the thermal fuse and thermostats for continuity",
+      "detail": "Unplug the dryer and take the back panel off, usually a row of screws around the edge. The thermal fuse and thermostats sit on the blower housing and the heater duct as small flat discs with two spade terminals. Pull one wire off each and put a multimeter on continuity across the terminals while they are cold. Every one of them should make a circuit. Any that reads open has done its job and shut the heat off.",
+      "minutes": 30,
+      "tools": "Multimeter, nut driver, Phillips #2 screwdriver",
+      "warning": "Unplug at the outlet first. Never jumper across a blown fuse or thermostat to restore heat; replace it and fix the airflow that killed it."
+    },
+    {
+      "name": "Test the heating element, including for a short to its housing",
+      "detail": "With the dryer still unplugged, disconnect both element terminals. A multimeter across them should make a circuit; an open reading means the coil has parted and the element needs replacing. Then put one probe on a terminal and the other on the bare metal element housing. That should read open. If it makes a circuit, the coil has sagged and is touching the case, which makes the dryer heat whenever it has power regardless of the cycle, and that is a fire risk rather than an inconvenience.",
+      "minutes": 30,
+      "tools": "Multimeter, nut driver, Phillips #2 screwdriver",
+      "warning": "Unplug at the outlet. A heating element shorted to its housing is dangerous; stop using the dryer until it is replaced."
+    },
+    {
+      "name": "Check the thermistor by warming it rather than by a reference figure",
+      "detail": "Published resistance values for these sensors vary by model and are not worth trusting from a third party. Instead, with the dryer unplugged, disconnect the thermistor and measure it at room temperature, then hold it in your closed hand for a minute and measure again. The reading should move noticeably as it warms. A sensor that reads the same warm as cold, or reads open, has failed and is feeding the control a temperature that is not happening.",
+      "minutes": 20,
+      "tools": "Multimeter, nut driver",
+      "warning": "Unplug the dryer before disconnecting the thermistor."
+    }
+  ],
+  "still_showing": "If the vent is clear, the fuse and thermostats all make a circuit and the element tests good, work through what is left in order of cost. Start by going back to the direction test, because it is easy to get wrong on a dryer that heats weakly rather than not at all. Run a timed cycle with the vent disconnected at the back of the machine and feel the air coming straight out of the dryer outlet. Strong and hot there but weak at the wall means the duct is still restricted somewhere you have not reached, typically a sagging section or a parted joint inside a wall cavity or ceiling void. Weak and cool at the outlet itself means the heat genuinely is not being made, and the fault is inside the cabinet. For an electric dryer that makes no heat with a good element, good fuse and good thermostats, the supply is the next suspect and it is worth being thorough about: a dryer losing one of its two hot legs behaves exactly like a failed heater, and the cause is often a breaker that has weakened rather than tripped, or a terminal backing out of the outlet behind the machine. That is an electrician's call, not an appliance technician's, and getting the right trade first saves a wasted visit. If the supply is solid, the remaining candidates are the thermistor feeding bad data and the heater relay on the main control board failing to close. A technician can distinguish those in one visit by watching whether the relay energizes when the cycle calls for heat. Expect roughly $160 to $400 for that work including a board if it comes to one, and on a dryer past eight or nine years old, get the quote in writing before agreeing, because a control board plus labor can reach a meaningful fraction of a replacement machine. Two things not to do while you work this out. Do not jumper a thermal fuse to get a load dry; the fuse opened because the machine got too hot, and bridging it removes the protection without touching the cause. And if your test showed the dryer running scorching hot rather than cold, stop using it now rather than after one more load.",
+  "reset_procedure": "Press Power to turn the dryer off, unplug it at the outlet or switch off its breaker, wait at least two minutes, then restore power and run a short timed cycle to test. That clears the stored heating fault, which otherwise keeps displaying after the real cause is gone. A reset is a diagnostic rather than a repair. If hE returns, something in the heating circuit is still wrong, and if the dryer was running too hot rather than cold, resetting and carrying on reproduces exactly the condition that trips it.",
+  "model_notes": "Samsung's documentation on this code is thinner than it looks, and you should know that before you cross-check it elsewhere. Samsung groups hE with HC under a single heating category and describes that category in terms of the dryer getting too hot, while also noting the fault can occur when the heater is not hot enough, so the official wording covers both directions at once. Samsung's own community moderators answer HE questions as an overheating problem. Several third-party code lists reverse the two, giving HC as the thermistor or overheat code and hE as a no-heat fault, and at least one list restricts hE to gas models with a different code for electric. None of them agree well enough to route a repair on, which is why this page routes on the symptom instead: feel the exhaust and let the dryer tell you which way the fault runs. Capitalization carries no meaning here either; HE, He and hE are the same code rendered by different panels.",
+  "parts": [
+    { "name": "Thermal fuse", "cost": "$10 to $30", "difficulty": "moderate", "note": "Always clear the vent at the same time; the fuse blew because of airflow" },
+    { "name": "Heating element assembly", "cost": "$45 to $120", "difficulty": "hard", "note": "Electric models, 240 volt work; replace if open or shorted to its housing" },
+    { "name": "Cycling and high-limit thermostat set", "cost": "$15 to $45", "difficulty": "moderate", "note": "Often sold together with the thermal fuse as a kit" },
+    { "name": "Exhaust thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "Only after airflow is genuinely ruled out" },
+    { "name": "Main control board", "cost": "$140 to $280", "difficulty": "technician only", "note": "Last resort, once the heater relay is confirmed not to close" }
+  ],
+  "when_to_call": "Call a licensed technician straight away for any gas dryer showing hE, because the diagnosis runs through the igniter, flame sensor and gas valve, and none of that is home repair work. For an electric dryer, call once the vent is clear and the fuse, thermostats and element all test good, since the next steps mean live measurements at 240 volts inside the cabinet. Call an electrician rather than an appliance technician if the dryer tumbles but never heats and you find a scorched outlet, a melted cord pin or a breaker that will not sit firmly, because that fault is in the house wiring and it is a fire risk in its own right. Stop using the dryer and call now, not later, if clothes come out scorched or smelling burnt, if the cabinet is too hot to touch, or if the heat stays on during what should be the cool-down.",
+  "faqs": [
+    { "q": "What does hE mean on a Samsung dryer?", "a": "The control has found a problem with the heating circuit and cut the heat. The code itself does not say whether the dryer got too hot or stopped heating, because Samsung covers both under one heating category. Run a timed cycle and feel the air at the outside vent: scorching means airflow, barely warm means an open heater circuit." },
+    { "q": "Does hE mean too hot or not hot enough?", "a": "Either, and the code will not tell you. That is why the first step on this page is a ten-minute timed cycle followed by feeling the exhaust at the outside hood. A strong hot blast points at overheating and a restricted vent. Air that is barely warm points at a blown thermal fuse, a lost supply leg or an open element." },
+    { "q": "What is the difference between hE and HC on a Samsung dryer?", "a": "In practice less than most code lists claim. HC is usually described as an overheat and hE as a heating fault, but Samsung files them together and third-party lists contradict each other on which is which. Treat both as heat-system codes, clean the lint screen and vent first for either, then route on whether the dryer runs hot or cold." },
+    { "q": "Why does my Samsung dryer tumble but not heat?", "a": "On an electric dryer the two usual answers are a blown thermal fuse or a lost leg of the 240 volt supply. The motor and controls run on one leg, so the drum turns happily while the heater has nothing. Check the double breaker and the outlet for scorching first, then test the thermal fuse for continuity with the machine unplugged." },
+    { "q": "Is HE on the dryer the same as the HE on my detergent bottle?", "a": "No, and the overlap causes real confusion. HE on detergent means high-efficiency and describes a low-foaming formula for washers. hE on a Samsung dryer is a fault code about the heating circuit. A dryer uses no detergent at all, so nothing you put in the wash has any bearing on this code." },
+    { "q": "Can I just replace the thermal fuse and carry on?", "a": "Replace it, yes, but not on its own. A thermal fuse is a one-shot device that opens because the exhaust got too hot, so a blown one is evidence of an airflow problem. Fit a new fuse without clearing the vent and you will blow the new one too. Never jumper across a fuse to restore heat." },
+    { "q": "Can I still use the dryer with hE showing?", "a": "Not safely. If the fault is the overheating kind, every further load runs a machine that has already exceeded its temperature limit through a vent that is still blocked, and that is the mechanism behind most dryer fires. If it is the no-heat kind, the dryer will tumble cold and waste an hour per load anyway." },
+    { "q": "Is an hE fault worth repairing?", "a": "Usually yes. The common fixes are cheap: clearing the vent costs nothing, a thermal fuse is $10 to $30 and a thermostat kit is $15 to $45. A heating element runs $45 to $120. The arithmetic only turns against you if the diagnosis lands on the main control board, which with labor can reach a sizeable fraction of a new dryer." }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "The heating circuit, and the order to test it once the vent is clear.",
+    "labels": {
+      "display": "hE",
+      "c1": "Feel the exhaust: hot or cold",
+      "c2": "Thermal fuse continuity test",
+      "c3": "Element open or shorted to case",
+      "c4": "Warm the thermistor, watch it move"
+    }
+  },
+  "sources": [
+    { "title": "Samsung dryer displays an error code, heating error guidance", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Common Samsung dryer error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Moderator responses to HE code questions on Samsung dryers", "publisher": "Samsung US community forums", "url": null },
+    { "title": "Samsung dryer owner's manual, information codes and venting requirements", "publisher": "Samsung owner's manual supplied with the dryer", "url": null },
+    { "title": "Field reports on thermal fuse, element and lost supply leg diagnosis", "publisher": "AppliancePartsPros technician forums and r/appliancerepair", "url": null }
+  ],
+  "related_codes": ["HC", "CL9", "C80", "tC", "dC", "Ct"]
+}

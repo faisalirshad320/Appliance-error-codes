@@ -1,0 +1,118 @@
+{
+  "title": "Whirlpool Dryer F3 E2 Code: Moisture Sensor Fault",
+  "meta_description": "F3 E2 on a Whirlpool dryer is a moisture sensor fault. The sensor bars in the drum are usually glazed with softener residue. Clean them with alcohol.",
+  "h1": "Whirlpool dryer F3 E2 error code: the moisture sensor is not reading",
+  "answer": "F3 E2 is a moisture sensor fault. In Whirlpool's two-part system F3 is the sensing function and E2 points at the moisture sensor, the pair of metal strips inside the drum that read how wet your laundry still is by measuring how well it conducts between them. The common cause is not a failed part: it is an invisible film of fabric softener and dryer sheet residue glazing the strips so nothing registers. Wipe them with rubbing alcohol on a cloth. Until it is fixed, timed dry cycles still work normally.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "15 to 45 minutes",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$150 to $300" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Fabric softener or dryer sheet residue glazing the sensor strips",
+      "frequency": "most cases",
+      "confirm": "Find the two metal strips inside the drum, usually set into the plastic just inside the door opening or on the lint screen housing. Drag a fingernail across one. Clean metal squeaks; a waxy drag, a dull gray film or a rainbow sheen is the residue that stops them reading, and it is invisible from arm's length."
+    },
+    {
+      "cause": "Several small loads in a row that never touched the sensor",
+      "frequency": "common",
+      "confirm": "You have been drying one or two items at a time, or a single bulky thing like a comforter that rides on top of the drum. Some Whirlpool controls raise this code after a run of loads where the sensor never registered any moisture data at all, which is a counter rather than a failure. A normal full load clears it."
+    },
+    {
+      "cause": "A loose or corroded connector on the sensor wiring",
+      "frequency": "occasional",
+      "confirm": "With the dryer unplugged, trace the two wires from behind the sensor strips. A connector that lifts off with no resistance, shows green crust, or has a pin backed out of its housing explains the code without any part being faulty."
+    },
+    {
+      "cause": "A worn, scored or broken sensor strip",
+      "frequency": "occasional",
+      "confirm": "Look along the strips. Deep scoring from zippers and rivets over the years, a strip that has worn through to the plastic beneath, or one that has cracked at the end means cleaning will not help and the part has to be replaced."
+    },
+    {
+      "cause": "The main control board is not reading the sensor circuit",
+      "frequency": "rare",
+      "confirm": "Strips clean and bright, wiring sound, connectors reseated, a full normal load run, and F3 E2 still comes up. At this point the sensing circuit on the board is the suspect and it needs a technician with a meter, not a guess."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the sensor strips",
+      "detail": "Open the door and look at the plastic surround just inside the opening, and at the lint screen housing. You are looking for two thin metal bars a few inches long sitting parallel with a gap between them, flush with the plastic. On some models they sit lower in the drum opening and are easy to miss because they look like trim. Run a finger over them so you know where they are.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the strips with rubbing alcohol",
+      "detail": "Unplug the dryer. Put isopropyl rubbing alcohol on a clean cloth or a cotton pad and scrub along each strip until the cloth stops coming away gray. Do each one several times and get into the edges where the metal meets the plastic. The film is thin and completely invisible, so judge by the cloth rather than by looking at the strips. Let the alcohol flash off before closing the door.",
+      "minutes": 12,
+      "tools": "Isopropyl rubbing alcohol, clean cloth or cotton pads",
+      "warning": "Unplug the dryer before reaching into the drum. Do not use alcohol near an open flame or a running gas dryer."
+    },
+    {
+      "name": "Use a fine abrasive only if the film will not shift",
+      "detail": "If alcohol is not touching it, rub lightly along the strips with a fine nylon scouring pad or very fine steel wool, following the length of the strip rather than across it. Light pressure, a few passes. The coating on these strips is thin, so the aim is to break the glaze, not to polish the metal away. Wipe with alcohol afterward to remove the debris.",
+      "minutes": 8,
+      "tools": "Fine nylon scouring pad or fine steel wool, alcohol, cloth",
+      "warning": null
+    },
+    {
+      "name": "Reset the control",
+      "detail": "Switch the dryer's breaker off for five minutes, or leave it unplugged, so the control discharges and drops the stored fault. Restore power and wait ten seconds before pressing anything. A sensor code can stay latched on the display even after the sensor is reading perfectly, so skipping the reset makes a successful fix look like a failed one.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a proper test load, not a small one",
+      "detail": "Put in a full normal load of genuinely damp laundry, a few towels at minimum, and run an automatic sensor dry cycle rather than a timed one. The sensor needs wet fabric to tumble against it repeatedly, and one or two items will not reliably make contact. If the code was raised because several small loads in a row gave no reading, a proper load clears it by itself.",
+      "minutes": 50,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the sensor wiring if the code returns",
+      "detail": "Unplug the dryer and take off the lower front panel or the rear panel, depending on model, to reach the back of the sensor strips. Pull each connector off and push it back until it seats, looking for green corrosion or a pin that has backed out of the housing. Follow the wires for chafe where they pass over a metal edge. This is a free fix and a common one.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, nut driver set, flashlight",
+      "warning": "Unplug the dryer at the wall before removing any panel. On a gas model, close the gas shutoff valve before moving the machine."
+    }
+  ],
+  "still_showing": "If F3 E2 comes back after cleaning, work through this before spending anything. First, clean the strips again and be more aggressive about it. The residue is a wax film from fabric softener and dryer sheets, it builds over years, and most people stop wiping long before the cloth stops coming away gray. Do each strip ten passes with fresh alcohol on a fresh part of the cloth. Second, make sure you are testing properly. An automatic sensor cycle with two t-shirts in it will not touch the strips, so the sensor reads nothing and the code is right to come back. Test with a full load of damp towels, which is the one load guaranteed to tumble against the sensor. Third, unplug the dryer, get the lower front or rear panel off and reseat both connectors behind the strips, checking for corrosion and for a wire chafed where it crosses a metal edge. This finds more faults than people expect on machines in humid rooms. Fourth, look closely at the strips themselves under a bright light. Deep scoring from zippers, a strip worn through to the plastic, or a crack at one end means cleaning has reached its limit and the sensor assembly needs replacing, typically $25 to $60 and a half hour job on most models. Fifth, the expensive answer is the main control board failing to read the sensing circuit, and the cost jumps there to a few hundred dollars, so nobody should reach it on a guess. Have a technician confirm the sensor reads correctly at the board before any board is ordered. There is one thing worth saying plainly: you do not have to fix this at all if you do not want to. The moisture sensor only drives automatic cycles. Timed dry works perfectly with a dead sensor, and if the dryer is old and otherwise healthy, running timed cycles and ignoring the code is a legitimate choice. What you lose is the dryer stopping by itself when the clothes are dry, which means slightly higher running costs and more shrinkage if you over-dry.",
+  "reset_procedure": "Switch the dryer's breaker off for five full minutes, or unplug it, then restore power and wait ten seconds before selecting a cycle. Test with a full automatic sensor dry on damp towels rather than a timed cycle, because a timed cycle never uses the moisture sensor and will run perfectly whether the fault is fixed or not.",
+  "model_notes": "F3 E2 is part of Whirlpool's two-part code system used from roughly the 2012 dryer generation onward, shared with Maytag, Amana and KitchenAid machines on the same platform. The whole F3 family is sensing: F3 E1 is the exhaust thermistor, F3 E2 the moisture sensor, F3 E3 the inlet thermistor. Some model ranges also use F3 E5 for a rear moisture sensor strip, which is the same fault at a second sensor location, and some technical sheets describe F3 E2 as being set after several consecutive loads in which the sensor never registered moisture rather than as an outright sensor failure. Both readings point at the same circuit and the same cleaning job. Published Whirlpool wording for the F3 codes is thin, so the technical sheet inside your own machine is the authority for your model.",
+  "parts": [
+    { "name": "Moisture sensor strip or bar assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Only needed if the strips are worn through, cracked or deeply scored" },
+    { "name": "Moisture sensor wiring harness", "cost": "$15 to $45", "difficulty": "moderate", "note": "For corroded connectors or a chafed wire; often cheaper than the sensor" },
+    { "name": "Main electronic control board", "cost": "$150 to $320", "difficulty": "technician only", "note": "Last resort, and only after a technician has confirmed the sensor reads correctly at the board" }
+  ],
+  "when_to_call": "Call a technician if the strips are clean and bright, the wiring and connectors are sound, a full load of damp towels still raises the code, and a proper reset has not helped. At that point the sensing circuit needs testing with a meter rather than replacing on a hunch. There is no urgency and no safety issue, so this is a repair that can wait for a convenient appointment. If the dryer is old and you are happy using timed cycles, it is also reasonable to call nobody at all.",
+  "faqs": [
+    { "q": "What does F3 E2 mean on a Whirlpool dryer?", "a": "A moisture sensor fault. F3 is the sensing function and E2 points at the moisture sensor, the two metal strips inside the drum that tell the dryer how wet the laundry still is. The usual cause is a film of fabric softener residue glazing the strips so they cannot read, not a broken component." },
+    { "q": "How do I clean the moisture sensor on a Whirlpool dryer?", "a": "Unplug the dryer, find the two parallel metal strips inside the drum opening or on the lint screen housing, and scrub along each one with isopropyl rubbing alcohol on a cloth. Keep going until the cloth stops coming away gray. The film is invisible, so judge by the cloth rather than by how the strips look." },
+    { "q": "Can I still use the dryer with F3 E2?", "a": "Yes. The moisture sensor only drives automatic cycles, so timed dry works normally with the fault present. You lose the dryer deciding for itself when the clothes are dry, which means watching the time yourself and a bit more energy use. There is no safety issue and no reason to stop using the machine." },
+    { "q": "Why did F3 E2 appear when my dryer seems fine?", "a": "Two reasons are common. Softener residue builds up gradually and then crosses a threshold, so the failure feels sudden after years of nothing. The other is a run of small loads: some Whirlpool controls flag this code after several consecutive cycles where the sensor registered no moisture at all, because one or two items never touch the strips." },
+    { "q": "Does F3 E2 mean I need a new sensor?", "a": "Usually not. Cleaning the strips with rubbing alcohol resolves most of these codes for nothing. Replace the sensor only when you can see the strips are worn through to the plastic, deeply scored by zippers, or cracked, which costs $25 to $60 as a part and about half an hour on most models." },
+    { "q": "What is the difference between F3 E1, F3 E2 and F3 E3?", "a": "They are three sensors in the same family. F3 E1 is the exhaust thermistor, which reads the air leaving the drum. F3 E2 is the moisture sensor, which reads the laundry itself. F3 E3 is the inlet thermistor, which reads the air going in. The E number tells you which sensor, and the fixes are quite different." },
+    { "q": "Will fabric softener keep causing this?", "a": "Yes, if you keep using it in the dryer. Dryer sheets and liquid softener leave a wax film on everything in the drum, including the sensor strips and the lint screen mesh. If you have had this code once, either clean the strips twice a year or switch to dryer balls and skip the sheets entirely." }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "The sensing circuit behind F3 E2, and where the strips live",
+    "labels": {
+      "display": "F3 E2",
+      "c1": "Two metal strips in drum opening",
+      "c2": "Clean with rubbing alcohol",
+      "c3": "Reseat the sensor connectors",
+      "c4": "Test with a full damp load"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing, F3 sensing code family", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool dryer technical sheet, moisture sensor and thermistor fault codes", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "Whirlpool and Maytag dryer F and E code guide, moisture sensor codes", "publisher": "HomeServe appliance troubleshooting guide", "url": null },
+    { "title": "Field reports on F3 E2 cleared by cleaning sensor bars, and on small-load triggers", "publisher": "Appliance technician Q and A sites and r/appliancerepair threads", "url": null }
+  ],
+  "related_codes": ["F3 E1", "F3 E3", "F3 E5", "AF", "F2 E1"]
+}

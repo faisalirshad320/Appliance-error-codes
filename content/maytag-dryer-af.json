@@ -1,0 +1,216 @@
+{
+  "title": "Maytag Dryer AF Code: Restricted Airflow, and the Fix",
+  "meta_description": "AF on a Maytag dryer means restricted airflow. Almost always lint in the screen, the transition duct or the outside wall cap.",
+  "h1": "Maytag dryer AF code: restricted airflow, and how to clear it",
+  "answer": "AF means your Maytag dryer has decided the exhaust path is choked and air is not leaving the drum fast enough. It is an airflow warning, not a broken part, and the restriction is lint in nine cases out of ten: in the screen, in the flexible duct behind the machine, or at the flap on the outside wall cap. The dryer will usually keep tumbling, but loads take two or three cycles to dry and the cabinet runs hot. Clear the whole duct run from the lint screen to the outside, not just the easy end.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "45 minutes to 2 hours",
+  "cost_estimate": {
+    "diy": "$0 to $45",
+    "technician": "$100 to $200 for a vent clean, $150 to $320 for a service call"
+  },
+  "safety_warning": "A restricted dryer vent is a genuine fire risk. Lint is excellent fuel, and a duct that cannot carry hot, damp air away lets heat build up around the heater and inside the duct itself. Failure to clean dryer venting is the leading cause of dryer fires in US homes, so treat AF as a job for this week rather than this year. Unplug the dryer at the wall before any panel comes off, and on a gas model leave the burner, the gas valve and the gas line to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The lint screen is clogged, or filmed over with fabric softener",
+      "frequency": "most cases",
+      "confirm": "Pull the screen out and hold it under a running tap. If water pools on the mesh instead of pouring straight through, there is an invisible softener film on it. A screen that looks clean can still be blocking most of the air."
+    },
+    {
+      "cause": "The flexible transition duct behind the dryer is crushed or packed with lint",
+      "frequency": "most cases",
+      "confirm": "Pull the dryer out and take the duct off at both ends. Look down it toward a light. Foil and white plastic flex collapses when the dryer is pushed back against the wall, and the accordion ridges catch lint until the bore is half its original size."
+    },
+    {
+      "cause": "The outside wall cap flap is stuck shut, painted over or nested in",
+      "frequency": "common",
+      "confirm": "Go outside with the dryer running on a heated cycle and watch the cap. The flap should swing open and you should feel warm air on your hand. A flap that stays shut, a screen behind it, or twigs and feathers in the hood are all common and all block almost everything."
+    },
+    {
+      "cause": "The duct run is too long, has too many elbows, or is the wrong material",
+      "frequency": "common",
+      "confirm": "Trace the route. Every 90 degree elbow costs you roughly as much airflow as several extra feet of straight pipe, and ribbed foil or plastic flex costs more again. A run through a ceiling to a roof vent that keeps throwing AF after a clean is a duct design problem, not a dryer problem."
+    },
+    {
+      "cause": "Lint packed into the blower housing or the internal duct below the lint screen",
+      "frequency": "occasional",
+      "confirm": "The whole external run is clear and brushes through freely, but the dryer still shows AF and exhaust flow at the wall cap is weak. Lint that gets past a torn screen collects at the blower wheel, and you have to open the dryer to reach it."
+    },
+    {
+      "cause": "The dryer is in a closet or small room with no make-up air",
+      "frequency": "occasional",
+      "confirm": "AF appears only when the laundry door is shut, and a load dries normally with the door open. A dryer pushes a lot of air outdoors and something has to replace it. A sealed closet with no louvered door starves the machine no matter how clean the duct is."
+    },
+    {
+      "cause": "An airflow sensing fault with a genuinely clear duct",
+      "frequency": "rare",
+      "confirm": "The duct is brushed clean end to end, the wall cap flap swings freely, the exhaust at the cap is strong, and AF still shows on every cycle. Only at that point is the sensing circuit or the control worth suspecting, and this is where it stops being a DIY job."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Wash the lint screen rather than just picking it clean",
+      "detail": "Pull the screen, peel the lint off, then scrub the mesh with warm soapy water and a soft brush and rinse it. Hold it under the tap: water should pour straight through. Fabric softener and dryer sheets leave a film that you cannot see and that blocks a surprising amount of air. Dry the screen fully before it goes back in.",
+      "minutes": 10,
+      "tools": "Soft brush, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Vacuum the lint screen housing",
+      "detail": "With the screen out, push a crevice tool as far down the slot as it will go and work it around. On most Maytag dryers the housing is a vertical duct and lint collects at the bottom where you cannot see it. A flexible lint brush on a long handle gets further than the vacuum alone. Do this every time you clean the duct.",
+      "minutes": 8,
+      "tools": "Vacuum with crevice tool, flexible lint brush",
+      "warning": null
+    },
+    {
+      "name": "Unplug the dryer and pull it out",
+      "detail": "Unplug it at the wall, or switch off both halves of its breaker. On a gas dryer, close the shutoff valve behind the machine first and move it gently so you do not strain the flexible gas connector. Walk it out far enough to get behind it comfortably. Lay a towel down, because what comes out of the duct is filthy.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Unplug at the wall before you touch the duct. On a gas model, close the shutoff valve and do not disturb the gas connector."
+    },
+    {
+      "name": "Take the transition duct off and inspect it",
+      "detail": "Loosen the clamp at the dryer outlet and at the wall, slide the duct off both ends, and take it outside. Shake it out, look through it toward the light, and run a brush through. If it is foil or white plastic flex, or if it is crushed flat anywhere, bin it and fit semi-rigid aluminum instead. Keep the run as short and as straight as you can.",
+      "minutes": 15,
+      "tools": "Nut driver or screwdriver for the clamps, vent brush",
+      "warning": null
+    },
+    {
+      "name": "Brush the duct run inside the wall",
+      "detail": "Screw a rotary vent brush onto a drill and feed it into the wall duct a section at a time, adding rods as you go, with the vacuum running at the opening to catch what comes back. Go slowly on an elbow so the head does not jam. If you can reach the run from the outside end as well, brush from both directions and you will clear it in half the time.",
+      "minutes": 30,
+      "tools": "Rotary vent brush kit, cordless drill, vacuum",
+      "warning": null
+    },
+    {
+      "name": "Check the outside wall cap with the dryer running",
+      "detail": "Reconnect the duct, push the dryer back leaving a hand's width of clearance so the duct is not crushed, start a timed heated cycle, then go outside. The flap should stand open and you should feel a firm warm draft. Clear any bird nest, scrape off paint that has sealed the hinge, and remove any insect screen behind the louvers, because screens block with lint within weeks.",
+      "minutes": 12,
+      "tools": "Screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Clear the blower housing if the external run is already clean",
+      "detail": "Unplug the dryer. On most Maytag models the lower front panel comes off after the top panel is released, which exposes the blower wheel and the internal duct that feeds it. Vacuum out the packed lint, check the wheel spins freely by hand, and look for a torn lint screen that let it through in the first place. Take photos as you go so reassembly is obvious.",
+      "minutes": 45,
+      "tools": "Phillips #2, nut driver, putty knife, vacuum",
+      "warning": "Unplug at the wall before any panel comes off, and do not rely on the power button."
+    },
+    {
+      "name": "Run a test load and clear the code",
+      "detail": "Press Power to clear AF from the display, then run a timed dry with a few damp towels. Watch the end of the cycle: towels should come out dry in one cycle, the cabinet should be warm rather than hot, and AF should not come back. If it reappears on this load, the restriction is still somewhere in the run and the next section is for you.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If AF comes back after you have cleaned the screen, brushed the duct and checked the wall cap, the question is whether air is actually moving. Test that first, because it costs nothing and it tells you which half of the system to blame. Start the dryer on a timed heated cycle with the transition duct disconnected at the wall, and hold your hand in the exhaust stream at the back of the machine. A strong, warm blast means the dryer is fine and your wall duct is still restricted. A weak push means the problem is inside the cabinet, usually lint packed around the blower wheel or a blower wheel that has come loose on the motor shaft and is slipping. Next, if the blast at the back is strong and AF still shows with the duct reconnected, measure the run honestly: count the elbows, measure the length, and look at the material. A duct over about twenty-five feet of equivalent length, or one made of ribbed foil, will throw AF on a clean machine, and the fix is rerouting or rebuilding it in smooth rigid pipe rather than cleaning it again. Then check the simple environmental one: run a load with the laundry room door propped open. If AF disappears, the room is not getting make-up air and the fix is a louvered door or a vent grille, not a part. The point where the cost jumps is when the full duct is rigid, short, clean and proven to flow hard, and AF still shows on every cycle. That means the dryer is misreading airflow, and diagnosing that takes a technician with the service sheet, typically $150 to $320 for the call and whatever the board or sensing circuit costs on top. Before you book that, be certain the lint screen is seated fully home, because a screen sitting slightly proud lets air bypass it and reads to the control like a restriction.",
+  "reset_procedure": "AF is a warning rather than a locked fault, so a press of the Power button usually clears it from the display. It will come straight back on the next cycle if the duct is still restricted, because the dryer recalculates airflow every time it runs. If the panel is unresponsive, unplug the dryer at the wall or switch off both halves of its breaker for five minutes, then restore power and run a timed dry with damp towels to test rather than a full load.",
+  "model_notes": "Maytag dryers are built on the Whirlpool platform, so AF means exactly what it means on a Whirlpool, Amana or KitchenAid dryer of the same generation. Some models in the same family report the identical fault as F4E3 instead of AF, and a few older machines show no code at all and just take three cycles to dry a load. Bravos and Bravos XL top-load dryers put AF in the main display; on front-load Maxima models it appears as a scrolling message. The duct work and the fix are the same on all of them.",
+  "parts": [
+    {
+      "name": "Semi-rigid aluminum transition duct",
+      "cost": "$12 to $25",
+      "difficulty": "easy",
+      "note": "Replace foil or white plastic flex with this while you are back there"
+    },
+    {
+      "name": "Rotary dryer vent brush kit",
+      "cost": "$20 to $40",
+      "difficulty": "easy",
+      "note": "Worth owning; you will use it every year or two"
+    },
+    {
+      "name": "Outside wall vent cap with a free-swinging damper",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "Choose one without an insect screen, which clogs with lint"
+    },
+    {
+      "name": "Lint screen",
+      "cost": "$15 to $40",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn, which is what lets lint reach the blower"
+    },
+    {
+      "name": "Blower wheel",
+      "cost": "$25 to $60",
+      "difficulty": "hard",
+      "note": "For a wheel that has cracked or come loose on the motor shaft"
+    }
+  ],
+  "when_to_call": "Call a vent cleaning company rather than an appliance technician if the duct runs through a ceiling, up two storeys or out through a roof, because that is their job and they have the rods for it. Call an appliance technician when the duct is short, rigid, clean and proven to blow hard, and AF still appears on every cycle, since the next step is diagnosing the sensing circuit with the machine live. Call a licensed gas technician for anything to do with the burner, the gas valve or the gas line on a gas dryer, full stop. And stop using the dryer and get someone out the same week if you smell burning, if the cabinet is too hot to rest a hand on, or if clothes come out scorched, because those are overheating symptoms rather than slow drying.",
+  "faqs": [
+    {
+      "q": "Can I keep using my Maytag dryer with the AF code showing?",
+      "a": "It will run, but you should not leave it running for weeks. AF means the exhaust is restricted, which makes the machine hold heat it is designed to blow outside. That is slow drying at best and a fire risk at worst. One or two loads while you arrange to clean the duct is reasonable. Months of ignoring it is not."
+    },
+    {
+      "q": "I cleaned the lint screen and AF came back. Why?",
+      "a": "Because the lint screen is only the first few inches of the path. Most AF codes come from the transition duct behind the dryer or the run inside the wall, and neither gets touched when you clean the screen. Pull the dryer out, take the duct off at both ends, and brush the whole run through to the outside wall cap."
+    },
+    {
+      "q": "Does AF mean a part has failed on my dryer?",
+      "a": "Usually not. AF reports a condition rather than a component, and in most homes the condition is lint somewhere between the drum and the outside wall. A part is only involved when the duct is proven clear and strong and the code still shows, which points at the blower wheel inside the cabinet or at the sensing circuit on the control."
+    },
+    {
+      "q": "Why did AF appear suddenly when nothing changed?",
+      "a": "Lint accumulates slowly and then crosses a threshold, so a gradual blockage looks like an overnight failure. The other common triggers are physical: the dryer getting pushed back hard against the wall after cleaning behind it, which crushes the transition duct, and a bird building in the outside wall cap in spring."
+    },
+    {
+      "q": "Is AF the same as the F4E3 code on a Maytag dryer?",
+      "a": "On the models that use both, yes, they report the same restricted airflow condition. Maytag and Whirlpool shifted the airflow warning between a plain AF message and the F4E3 format across generations. Whichever one your panel shows, the diagnosis is the same: clean the full duct run and check that the outside flap opens."
+    },
+    {
+      "q": "How often should I clean the dryer vent to stop AF coming back?",
+      "a": "Once a year for a short straight run, and twice a year for a long run, a roof termination, or a household doing heavy laundry. Clean the lint screen after every load and wash it in soapy water every couple of months to remove the softener film. If AF returns inside six months, the duct route itself is the problem."
+    },
+    {
+      "q": "Will a longer duct always cause AF?",
+      "a": "Not always, but length and elbows add up fast, and every bend costs airflow. A long run in smooth rigid pipe with two gentle elbows can be fine, while a shorter run in ribbed foil with four tight bends will throw AF on a spotless machine. If cleaning fixes it only briefly, rebuild the run rather than brushing it again."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Follow the air from the lint screen to the outside; the restriction is in one of these four places.",
+    "labels": {
+      "display": "AF",
+      "c1": "Lint screen and its housing",
+      "c2": "Transition duct behind the dryer",
+      "c3": "Duct run through wall or ceiling",
+      "c4": "Outside wall cap and its flap"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dryer error codes and the restricted airflow message",
+      "publisher": "Maytag product help documentation",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer use and care guide, venting requirements and duct length tables",
+      "publisher": "Maytag owner's manual supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Clothes dryer fire statistics and the role of lint in dryer venting",
+      "publisher": "US fire administration and NFPA dryer fire reporting",
+      "url": null
+    },
+    {
+      "title": "Field reports on AF and F4E3 causes on Whirlpool platform dryers",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F4E3",
+    "PF",
+    "F01",
+    "F3E3",
+    "F2E1",
+    "LOC"
+  ]
+}

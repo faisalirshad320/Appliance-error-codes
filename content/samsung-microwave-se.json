@@ -1,0 +1,184 @@
+{
+  "title": "Samsung Microwave SE Error Code: Stuck Touchpad Fix",
+  "meta_description": "SE or 5E on a Samsung microwave means the control reads a button as permanently pressed. Unplugging clears it briefly; the real fix is a new touchpad.",
+  "h1": "Samsung microwave SE error code: a stuck key on the touchpad",
+  "answer": "SE on a Samsung microwave means the control board is reading one of the touchpad buttons as permanently pressed. Samsung calls it a key short error, and it is a fault in the membrane touchpad or the ribbon behind it rather than anything to do with cooking. Unplugging the microwave for a few minutes clears it temporarily on a lot of units, sometimes for weeks, but it comes back because the panel itself has failed. The lasting fix is a new touchpad or control panel assembly, and on many models that part costs a meaningful fraction of what the microwave is worth. The same fault is shown as 5E on some panels.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "5 minutes to reset, 1 to 2 hours for a panel replacement",
+  "cost_estimate": {
+    "diy": "$0 for a reset, $60 to $180 for a touchpad if you are qualified to fit it",
+    "technician": "$150 to $350 fitted"
+  },
+  "safety_warning": "A microwave's high voltage capacitor can hold a lethal charge long after the unit is unplugged, and it does not need the microwave to be running or even plugged in to kill you. Nothing on this page asks you to open the cabinet, and you should not open it unless you have been trained to discharge that capacitor safely. Everything below is done from outside the case. If the fix needs a part fitted inside, that is a technician's job, and a cheap repair is not worth the risk.",
+  "causes": [
+    {
+      "cause": "The membrane touchpad has failed and a key is reading as closed",
+      "frequency": "most cases",
+      "confirm": "The microwave beeps on its own, or one particular button no longer works while the others do, or the display cycles back to SE within seconds of a reset. Press each key in turn and note which produce no response at all. A touchpad that has worn through at the most-used keys, Start and Add 30 Seconds, is the classic version of this."
+    },
+    {
+      "cause": "Steam and grease behind the panel bridging the contacts",
+      "frequency": "common",
+      "confirm": "This is an over-the-range unit sitting above a stovetop that gets used hard, and SE appeared after a period of heavy cooking or a boil-over. The code sometimes clears for days after the unit has sat unplugged and dry. The panel may feel slightly tacky around the keys. Moisture ingress and the touchpad failing are two stages of the same story."
+    },
+    {
+      "cause": "The ribbon cable from the touchpad to the control board has cracked",
+      "frequency": "common",
+      "confirm": "Every key is dead rather than one, or a whole row has stopped responding, and the unit otherwise powers up normally with the clock running. The ribbon cracks at the fold over years of heat cycling. From outside the case this looks identical to a failed touchpad, which is one reason the two parts are often sold together."
+    },
+    {
+      "cause": "A sticking button on a model with physical keys rather than a flat membrane",
+      "frequency": "occasional",
+      "confirm": "You can feel that one key sits lower than its neighbors, or does not spring back when released. Press every button firmly in turn, including the ones you never use. If one feels mushy or slow, work around its edge with a cotton bud to lift dried grease and try again."
+    },
+    {
+      "cause": "The main control board is misreading a healthy panel",
+      "frequency": "rare",
+      "confirm": "A technician fits a new touchpad and SE comes straight back with the ribbon seated correctly. Rare, and expensive enough to be worth a second opinion before you accept it, because at that point the repair bill is approaching the price of a new microwave."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the microwave for five minutes",
+      "detail": "Pull the plug at the outlet, or switch off its breaker if it is an over-the-range unit you cannot reach behind. Leave it a full five minutes rather than a few seconds, because the control board holds residual charge. Plug it back in and see whether the clock returns and the keys respond. This clears SE on a lot of units, though usually not permanently.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Press every key in turn and note which are dead",
+      "detail": "Go across the whole panel, including the ones you never use, and write down which keys respond and which do nothing. One dead key points at a worn spot on the membrane; a whole dead row points at the ribbon; a panel where nothing works at all points at the ribbon or the board. This is the single most useful piece of information you can give a technician.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the face of the panel carefully",
+      "detail": "Wipe the touchpad with a cloth lightly dampened in warm water with a little dish soap, working around each key with a cotton bud to lift cooking grease. Dry it fully. Never spray anything directly at the panel and never use a solvent or an abrasive cleaner, which attacks the printed membrane and turns a repairable panel into a dead one.",
+      "minutes": 10,
+      "tools": "Soft cloth, cotton buds, mild dish soap",
+      "warning": "Do not spray liquid at the panel. Dampen the cloth, not the microwave."
+    },
+    {
+      "name": "Let it dry out if steam is a likely cause",
+      "detail": "On an over-the-range unit above a busy stovetop, leave the microwave unplugged for a full day, with the door open, somewhere the air is dry. If SE disappears and stays away for a week, condensation behind the panel was the cause. Using the range hood fan on high when you cook below it genuinely reduces how often this comes back.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the clock and the door behavior",
+      "detail": "Note whether the clock keeps time, whether the interior light comes on when you open the door, and whether the turntable spins when a cycle is somehow started. These tell a technician how much of the control is still alive and separate SE from the door-related codes, which look similar on the display but are a different repair entirely.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the model number and price the part before deciding",
+      "detail": "The model sticker is usually inside the door frame or on the back of the unit. Look up a touchpad or control panel assembly for that number from a parts supplier, then compare that figure plus roughly $100 to $150 of labor against the price of a replacement microwave. Do this before you book anyone, because it often changes the decision.",
+      "minutes": 15,
+      "tools": "Phone camera",
+      "warning": null
+    }
+  ],
+  "still_showing": "If SE returns after a reset, accept early that the panel has failed, because the useful decision here is economic rather than technical. Work through it in this order. First, establish how dead the panel is, since it changes the part you need: one unresponsive key means the membrane has worn through at that spot, a dead row usually means the ribbon has cracked at the fold, and a completely unresponsive panel with a working clock means the ribbon or the interface board. Second, find out whether you have bought yourself any time. Many units run normally for days or weeks after an unplug, and if yours does, you can keep using it while you decide, with one caveat: if the microwave ever starts on its own or runs with the door closed when you did not ask it to, unplug it and stop using it, because a control reading phantom key presses is not something to live with. Third, price the part against the machine. A touchpad or control panel assembly for a Samsung microwave typically runs $60 to $180, and a technician's visit and labor adds $100 to $150, which puts a fitted repair somewhere around $150 to $350. Over-the-range Samsung microwaves commonly sell new for $250 to $500, so on an older unit the repair can cost more than half of a replacement, and that is before you account for the installation labor you have already paid once. Fourth, if you decide to repair, insist that the touchpad and the ribbon are treated as one job, because fitting a new membrane onto a cracked ribbon is a wasted visit. The point where the cost jumps beyond sense is a repair that needs both the panel and the main control board, which on most Samsung microwaves is not worth doing. And the thing you should not do, whatever the numbers say, is open the cabinet yourself to save the labor: the high voltage capacitor inside holds a charge that can kill long after the unit is unplugged, and that is not a risk worth a hundred dollars.",
+  "reset_procedure": "Unplug the microwave at the outlet, or switch off its breaker if it is built in over a range, and leave it for a full five minutes before restoring power. The wait matters because the control board holds residual charge and a quick off-and-on often leaves the fault latched. Expect this to be temporary: SE is a hardware fault in the touchpad, and a reset clears the stored state rather than the cause. If it comes back within minutes rather than days, the panel is well past saving.",
+  "model_notes": "Samsung shows this fault as SE on some panels and 5E on others, including units where the display font makes the two almost indistinguishable; they are the same key short error. Samsung's own code tables also list C-d0, C-d1 and C-d2 in a door or key error group, and on some models one of those appears instead of SE for a stuck key, so check what your panel actually shows rather than assuming. Over-the-range models fail this way far more often than countertop ones, because they sit in the steam and grease coming off a stovetop. The repair is the same across all of them: the touchpad and its ribbon.",
+  "parts": [
+    {
+      "name": "Membrane touchpad, sometimes sold as the keypad overlay",
+      "cost": "$60 to $140",
+      "difficulty": "technician only",
+      "note": "Fitting it means opening the cabinet, where the high voltage capacitor lives"
+    },
+    {
+      "name": "Control panel assembly with touchpad and board",
+      "cost": "$100 to $250",
+      "difficulty": "technician only",
+      "note": "Often the only part still available for older models"
+    },
+    {
+      "name": "Touchpad ribbon cable",
+      "cost": "$20 to $50",
+      "difficulty": "technician only",
+      "note": "Replace with the touchpad rather than on its own; a cracked ribbon kills a new panel's value"
+    }
+  ],
+  "when_to_call": "Call a technician as soon as a reset stops holding, because every lasting fix for SE is inside the cabinet and that is not a place to go without training. Ask for a diagnostic fee and a parts quote up front, and ask specifically whether the touchpad and the ribbon are both covered, since replacing one without the other is a common way to pay twice. Stop using the microwave entirely and unplug it if it ever beeps or starts a cycle on its own, since a control reading phantom presses should not be left plugged in. And if the fitted quote comes in over about half the price of a comparable new unit, the honest answer is usually to replace it.",
+  "faqs": [
+    {
+      "q": "What does SE mean on a Samsung microwave?",
+      "a": "The control board is reading one of the touchpad buttons as permanently pressed. Samsung calls it a key short error. It is a fault in the membrane touchpad or the ribbon cable behind it, not in the magnetron or anything to do with heating. Some panels display the same fault as 5E, which means exactly the same thing."
+    },
+    {
+      "q": "Will unplugging the microwave fix the SE code?",
+      "a": "It clears it temporarily on most units, sometimes for weeks, which is why so many people think they have fixed it. Unplug for a full five minutes rather than a few seconds. The code comes back because the touchpad itself has failed and a reset only clears the stored state. If it returns within minutes, the panel is badly gone."
+    },
+    {
+      "q": "Can I still use my Samsung microwave with the SE code?",
+      "a": "If a reset gives you working buttons, you can use it in the short term while you decide what to do. One firm exception: if it ever beeps on its own, starts a cycle you did not select, or runs with nobody touching it, unplug it and stop. A control reading phantom presses should not be left connected."
+    },
+    {
+      "q": "Is a Samsung microwave SE error worth repairing?",
+      "a": "Often not, and the arithmetic is worth doing before you book anyone. The touchpad or control panel typically runs $60 to $180, and labor adds $100 to $150, so a fitted repair lands around $150 to $350. Over-the-range Samsung microwaves commonly sell new for $250 to $500. Over about half the replacement price, replacing usually wins."
+    },
+    {
+      "q": "Can I replace the touchpad myself?",
+      "a": "Only if you have been trained to discharge a high voltage capacitor. A microwave's capacitor can hold a lethal charge long after the unit is unplugged, and it sits right where you need to work. The part itself is not expensive and the job is not mechanically difficult, but the hazard inside the cabinet is real and it does not forgive mistakes."
+    },
+    {
+      "q": "Why did SE appear suddenly on my microwave?",
+      "a": "Touchpads wear from use and from heat, and the failure is sudden even though it has been coming for years. On over-the-range models, steam and grease from the stovetop below work behind the panel and bridge contacts, which is why those units fail this way far more often than countertop microwaves. A boil-over underneath is a common trigger."
+    },
+    {
+      "q": "Is 5E the same as SE on a Samsung microwave?",
+      "a": "Yes. They are the same key short error displayed differently across panels and fonts, and on a seven segment display the digit five and the letter S are easy to confuse. Every fix on this page applies to both. If your panel shows C-d0 or C-d1 instead, that is Samsung's door or key error group and worth checking separately."
+    },
+    {
+      "q": "How do I stop SE from coming back after a repair?",
+      "a": "Run the range hood fan on high whenever you cook on the stovetop below an over-the-range unit, and wipe the panel with a barely damp cloth rather than spraying cleaner at it. Steam and grease getting behind the membrane is what kills these panels, so keeping that away from the console is the only prevention that actually works."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "SE is a console fault: the key short is in the touchpad or its ribbon, not in the oven.",
+    "labels": {
+      "display": "SE",
+      "c1": "Unplug for five full minutes",
+      "c2": "Note which keys are dead",
+      "c3": "Membrane touchpad behind the panel",
+      "c4": "Ribbon cable to the control board"
+    }
+  },
+  "sources": [
+    {
+      "title": "Understanding the meaning of error codes on your Samsung microwave, key short error",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "What does the error code on my Samsung microwave mean",
+      "publisher": "Samsung US troubleshooting support pages",
+      "url": null
+    },
+    {
+      "title": "Field reports on SE and 5E touchpad failures and repair economics",
+      "publisher": "iFixit answers and r/appliancerepair threads",
+      "url": null
+    },
+    {
+      "title": "High voltage capacitor hazards in microwave oven servicing",
+      "publisher": "Appliance service safety guidance and manufacturer service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "5E",
+    "C-d0",
+    "C-d1",
+    "E-36",
+    "E-47",
+    "RH-1"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "title": "Thermador Oven Error Codes: What F Codes Mean",
+  "meta_description": "Thermador oven error codes explained: what each F-code means, how serious it is, and what to check before calling service.",
+  "h1": "Thermador oven error codes: what they mean and where to start",
+  "answer": "Thermador ovens report faults as the letter F followed by one or two digits, shown on the control display. Unlike the mass-market brands, Thermador does not publish a public fault code table, so almost every list you will find online has been assembled by repair companies from their own job records, and those lists openly contradict each other on several codes. That is worth knowing before you act on any of them. The document that actually governs your oven is the tech sheet supplied inside the unit, and a Thermador-authorized technician will work from that. This page covers the codes that are genuinely established and the diagnostic order that works regardless of the number.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to triage, 1 to 3 hours to repair",
+  "cost_estimate": {
+    "diy": "$0 to $250",
+    "technician": "$200 to $600"
+  },
+  "safety_warning": "Thermador ovens run high-current mains circuits and many models are gas. Switch off at the breaker before any panel comes off, never defeat a door interlock or a thermal cut-out to make an oven run, and leave anything involving a gas connection to a licensed technician.",
+  "causes": [
+    {
+      "cause": "Touch panel and control faults, including F7",
+      "frequency": "most cases",
+      "confirm": "The oven refuses commands or behaves as though a button is held down. Press every key in turn and listen for the beep each should give; one that is silent, spongy or proud of the panel face is the one the control is reading as pressed."
+    },
+    {
+      "cause": "Cooling fan and airflow faults, including F34",
+      "frequency": "common",
+      "confirm": "Run the oven on bake for ten minutes and hold a hand a few inches from the vent slot above the door. A working cooling fan gives a steady flow of warm air and a constant whirr. No air at the vent is a real fault and a reason to stop using the oven."
+    },
+    {
+      "cause": "Door lock and self-clean interlock faults",
+      "frequency": "common",
+      "confirm": "The code appears only around a clean cycle, or the door is locked and will not release on a cold oven. Start a clean cycle and cancel within a minute: you should hear the latch motor whirr and the hook clunk home. A buzz with no movement is the lock side."
+    },
+    {
+      "cause": "Temperature sensing faults",
+      "frequency": "occasional",
+      "confirm": "The oven will not heat, heats wildly wrong, or stops partway through a bake. Unplug the oven temperature sensor at the rear and read across its two pins: open circuit or near zero is conclusive and needs no reference value for your model."
+    },
+    {
+      "cause": "Communication faults between the display and relay boards",
+      "frequency": "occasional",
+      "confirm": "The code appears at power-up before the oven has tried to do anything, or the display works while nothing responds. Nothing changes when you clean the panel, check the fan, or test the sensor."
+    },
+    {
+      "cause": "A one-off glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code arrived after a storm, outage or brownout with no change in how the oven behaves otherwise. Cut the breaker for a full five minutes, restore it, and see whether it stays clear through a normal bake."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Photograph the code and the model number",
+      "detail": "Record exactly what the display shows, including whether it names an upper or lower cavity on a double oven. Then find the model number, usually on a plate on the door frame or the side of the opening with the door open. With Thermador the model number matters more than with most brands, because the published code lists disagree and only your model's documentation settles it.",
+      "minutes": 8,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Look for the tech sheet inside the unit",
+      "detail": "Thermador supplies a service sheet with the appliance, commonly folded behind the lower trim, inside the control housing, or taped within the cabinet opening. It lists the codes for your exact model. This single sheet outranks every published list including this page, and finding it turns a guess into a diagnosis. If the oven is built in and you cannot reach it safely, note that and move on.",
+      "minutes": 15,
+      "tools": "Flashlight, Torx screwdriver",
+      "warning": "Breaker off before removing any trim or panel to look for the sheet."
+    },
+    {
+      "name": "Power cycle at the breaker, properly",
+      "detail": "Switch the oven off at its circuit breaker for a full five minutes, then back on. Thermador controls hold residual charge, so a quick flick frequently leaves the stored code showing even when the underlying condition is gone. This is the only free fix available for most of these codes and it genuinely clears the ones left behind by a brownout or a one-off stall.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run the three observations that split most codes",
+      "detail": "Three cheap checks separate the main fault groups. One: press every touch key and note any that do not beep. Two: run a bake for ten minutes and feel for air at the vent slot above the door. Three: start a self-clean, listen for the latch motor whirr and clunk, and cancel before it heats. Write down all three answers. Any technician you call will ask, and having them ready shortens the visit.",
+      "minutes": 30,
+      "tools": "Flashlight, notepad",
+      "warning": "Keep your hand clear of the vent slot, which blows scalding air, and cancel the clean cycle before the oven heats."
+    },
+    {
+      "name": "Check the obvious physical causes",
+      "detail": "Clean the touch panel with a cloth wrung out hard rather than anything sprayed, and let it dry. Shine a light into the vent slot for grease or debris. Check the latch slot in the door frame for baked-on spill. Confirm a built-in oven still has the air gaps its installation called for, because cabinets get rebuilt and filler strips get added. Each of these is free and each fixes a real share of faults.",
+      "minutes": 25,
+      "tools": "Soft cloths, flashlight, plastic scraper",
+      "warning": null
+    },
+    {
+      "name": "Test the oven temperature sensor if the oven will not heat",
+      "detail": "Switch off at the breaker and reach the sensor's two-pin connector behind the oven. Read across the sensor side with a meter on ohms. Open circuit means a broken probe or lead, near zero means a short, and either is conclusive. A steady reading that climbs as you warm the probe tip means the sensor is healthy. This test needs no reference value, which matters because Thermador does not publish one.",
+      "minutes": 30,
+      "tools": "Multimeter, Torx and Phillips screwdrivers",
+      "warning": "Breaker off, and test only across the sensor side of the unplugged connector, never the control side."
+    },
+    {
+      "name": "Decide what to tell the technician",
+      "detail": "Write down the exact code, the model number, which cavity on a double oven, and the three observations from the checks above. Book a Thermador-authorized technician and ask them to work from the service documentation for your model rather than a general code list. Ask for the quote in writing with the specific part named, because panel, ribbon and board all get described loosely as the control and the prices are far apart.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "The honest situation with Thermador is that the public documentation is thin enough to mislead you, so the most valuable thing this page can do is tell you how to avoid paying for someone else's guess. Start by accepting what is and is not established. F7, the stuck touch key, is agreed across independent sources and the repair path is clear. F34 is not: several references describe it as a cooling fan or airflow fault and one describes it as a self-clean door lock fault, and nothing public settles which applies to your model. For every other Thermador F-code you will find online, assume the same uncertainty unless your own tech sheet says otherwise. That is why this page does not print a long code table: a list that looks authoritative and is wrong on a third of its entries sends people to buy parts they do not need, and that is worse than admitting the gap. What to do instead, in order. First, find the tech sheet inside your unit, because it is model-specific and it ends the argument. Second, run the three free observations: keys, vent airflow, latch travel. Between them they place almost any Thermador fault in the right group without a meter and without opening anything. Third, if the oven will not heat, test the temperature sensor at its plug, which is conclusive without a reference value. Fourth, when you call, give the technician the code, the model number and your three observations, and insist they diagnose from your model's documentation. The cost on Thermador jumps hard at the board level, several hundred dollars before labor, so the difference between a diagnosis and a guess is real money. If a technician quotes a control board without having tested the fan, the latch and the sensor first, get a second opinion.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes and then restore it. Thermador controls hold residual charge, so a quick off and on often leaves the stored code on the display even after the condition has cleared. Where moisture behind the touch panel is suspected, extend that to several hours or overnight with the breaker off so the membrane can dry. A code that reappears within seconds of power returning is live, and resetting it again will not change anything.",
+  "model_notes": "Thermador does not publish a consumer-facing fault code table the way the mass-market brands do, so the lists in circulation are compiled by repair firms from their own records and they disagree with each other. F7 is consistently described as a stuck or shorted touch key. F34 has two competing readings, a cooling fan or airflow fault in most sources and a self-clean door lock fault in one widely read source. Beyond those two, this page deliberately does not assert meanings for codes it cannot support, because an authoritative-looking wrong entry costs a reader real money. Thermador shares engineering with the wider BSH group that includes Bosch and Gaggenau, so some diagnostic logic is familiar across those brands, but the code numbers do not map across reliably. On double ovens, codes are often cavity-specific, so note which oven is reporting.",
+  "parts": [
+    {
+      "name": "Touch panel or membrane overlay",
+      "cost": "$120 to $300",
+      "difficulty": "moderate",
+      "note": "Separate from the board on many models; name the dead key when ordering"
+    },
+    {
+      "name": "Door latch assembly",
+      "cost": "$70 to $180",
+      "difficulty": "moderate",
+      "note": "Covers the self-clean interlock faults"
+    },
+    {
+      "name": "Oven temperature sensor probe",
+      "cost": "$40 to $100",
+      "difficulty": "moderate",
+      "note": "Cheap to rule in or out, and the test needs no reference value"
+    },
+    {
+      "name": "Oven cooling fan or blower motor",
+      "cost": "$90 to $220",
+      "difficulty": "hard",
+      "note": "Access varies widely; often means sliding the oven out of its cabinet"
+    },
+    {
+      "name": "Display or control board",
+      "cost": "$250 to $600",
+      "difficulty": "technician only",
+      "note": "The expensive end; insist the cheaper suspects are tested first"
+    }
+  ],
+  "when_to_call": "Call a Thermador-authorized technician for anything past the free checks, and go in prepared: the exact code, the model number, which cavity, and the results of the key, vent and latch observations. Ask them to work from your model's service documentation rather than a published list, because the public lists contradict each other and you are paying for a diagnosis. Call immediately and stop using the oven if no air comes from the vent while it is hot, since that heat is going into your cabinetry and electronics. On any gas model, leave the supply line to the licensed technician. And treat a control board quote given without the fan, latch and sensor having been tested as a reason for a second opinion.",
+  "faqs": [
+    {
+      "q": "Where can I find the official Thermador error code list?",
+      "a": "There is no public consumer table. The authoritative document is the tech sheet supplied inside your appliance, commonly folded behind the lower trim or inside the control housing, and it is model-specific. Everything else online has been compiled by repair companies from their own job records, which is why those lists disagree with each other on several codes."
+    },
+    {
+      "q": "Why do different websites give different meanings for the same Thermador code?",
+      "a": "Because none of them are working from a published manufacturer table. Each repair firm builds its list from the jobs it has seen, and different model generations genuinely behave differently, so the lists diverge. F34 is the clearest example, read as a cooling fan fault by most sources and a door lock fault by one."
+    },
+    {
+      "q": "How do I reset a Thermador oven?",
+      "a": "Switch it off at the circuit breaker for a full five minutes, then restore power. A quick flick is not enough, because the control holds residual charge and often keeps the stored code. If you suspect moisture behind the touch panel, leave the breaker off for several hours instead so the membrane has time to dry out."
+    },
+    {
+      "q": "Can I keep using the oven while it shows a code?",
+      "a": "It depends which. A stuck key generally locks out operation anyway. A cooling fan fault is the one to take seriously, because heat that should leave through the vent goes into the cabinetry and the electronics instead, so stop using it until you have felt for airflow. When in doubt, leave it off."
+    },
+    {
+      "q": "Are Thermador codes the same as Bosch codes?",
+      "a": "No, though the brands share engineering through the BSH group alongside Gaggenau. Some diagnostic logic is familiar across them and a technician who knows one often reads the other well, but the code numbers do not map across reliably. Do not look up a Thermador code in a Bosch table and act on what you find."
+    },
+    {
+      "q": "Is a Thermador oven worth repairing?",
+      "a": "Usually yes, because these are expensive appliances with long service lives and parts remain available. The thing to control is the diagnosis rather than the decision: insist on model-specific documentation and on the cheaper suspects being tested first, since the gap between a latch and a display board on a Thermador is several hundred dollars."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The order to work through any Thermador oven fault code",
+    "labels": {
+      "display": "F--",
+      "c1": "Find the tech sheet in the unit",
+      "c2": "Breaker off five full minutes",
+      "c3": "Keys, vent airflow, latch travel",
+      "c4": "Meter the sensor at its plug"
+    }
+  },
+  "sources": [
+    {
+      "title": "Thermador service documentation and the tech sheet supplied inside the unit",
+      "publisher": "Thermador service literature",
+      "url": null
+    },
+    {
+      "title": "Thermador oven and range fault code references, compiled from repair job records",
+      "publisher": "Appliance repair trade code references",
+      "url": null
+    },
+    {
+      "title": "Conflicting published readings of Thermador F34",
+      "publisher": "Competing appliance repair code guides",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of Thermador oven fault codes on double ovens",
+      "publisher": "Appliance Parts Pros community forum",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F7",
+    "F34"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Kenmore Oven F30 Error Code: Open Sensor Circuit Fix",
+  "meta_description": "F30 on a Kenmore oven means the temperature sensor circuit reads open. Usually the probe or its plug at the back. Here is the test that proves which.",
+  "h1": "Kenmore oven F30 error code: what it means and how to fix it",
+  "answer": "F30 on a Kenmore oven means the control is seeing an open circuit where the oven temperature sensor should be. In plain terms the oven has lost its thermometer, so it refuses to heat rather than run blind. The fault is nearly always the sensor probe itself failing open, or the plug behind the rear panel where the sensor wires meet the harness. Both are cheap, and a multimeter settles which in about ten minutes.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "45 minutes to 1.5 hours",
+  "cost_estimate": { "diy": "$25 to $60", "technician": "$160 to $320" },
+  "safety_warning": "The sensor plug sits behind the rear access panel, a few inches from the terminal block where 240 volt mains arrives, and that block is not insulated. Switch the range off at the circuit breaker before any panel comes off, and check it is dead rather than trusting the switch label. On a gas model, close the gas shutoff behind the range before you pull it out, and leave the burner, safety valve and igniter to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The temperature sensor probe has failed open",
+      "frequency": "most cases",
+      "confirm": "Unplug the sensor behind the rear panel and measure across its two pins with the breaker off. A meter that reads open circuit, or never settles on a number at all, means the element inside the probe has broken. A good sensor gives a steady reading that climbs as you warm the probe in your hand."
+    },
+    {
+      "cause": "The sensor plug has come apart or corroded",
+      "frequency": "most cases",
+      "confirm": "Find the two-pin connector where the sensor wires meet the oven harness behind the rear panel. Look for a plug half pulled apart, a terminal backed out of its housing, or green and white corrosion on the pins. If the sensor measures fine on its own but the oven still reports F30, the break is at this joint."
+    },
+    {
+      "cause": "A broken sensor wire between the cavity and the control",
+      "frequency": "common",
+      "confirm": "Sensor good, plug clean, code still there. Test continuity along each of the two wires from the sensor plug to the control connector. A wire broken inside intact insulation reads open on the meter and looks perfect to the eye, and the usual spot is where the harness passes a sheet metal edge or runs close to the hot cavity."
+    },
+    {
+      "cause": "Heat damage to the sensor wiring after a self-clean cycle",
+      "frequency": "occasional",
+      "confirm": "The code first appeared during or just after a self-clean. Look at the sensor wires where they leave the cavity for insulation that has gone hard, discolored or melted against the liner. Self-clean runs far hotter than any bake and it is where marginal wiring gives up."
+    },
+    {
+      "cause": "The control board is not reading a good sensor",
+      "frequency": "rare",
+      "confirm": "The probe measures correctly, both wires have continuity end to end, the plug is sound, and F30 persists. Only at that point is the board a reasonable suspect, and it is a far more expensive conclusion than the three above it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker and let the oven cool",
+      "detail": "Switch off the double breaker feeding the range at the panel rather than relying on the keypad. Let the cavity come down to room temperature before you handle a sensor probe that projects into it. On a gas model, close the gas shutoff behind the range as well before moving anything.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Breaker off, not just Cancel. The rear panel is inches from an uninsulated 240 volt terminal block."
+    },
+    {
+      "name": "Restore power once and see if the code sticks",
+      "detail": "Leave the breaker off for five minutes, then switch it back on and watch whether F30 returns with the oven idle and nothing set. An open circuit does not come and go, so a code that reappears immediately on a cold oven is real. A code that clears and stays away for several bakes was a loose connection that has reseated itself, and you still want to find it.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the sensor in the cavity and its plug at the back",
+      "detail": "The sensor is a thin metal probe a few inches long projecting into the upper rear corner of the oven cavity, held by two screws through the back wall. Its wires pass through to a two-pin connector behind the rear access panel. With the breaker off, pull the range forward and take the rear panel off with a nut driver to reach that plug.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Confirm the breaker is off before the rear panel comes away."
+    },
+    {
+      "name": "Unplug the sensor and measure it",
+      "detail": "Separate the two-pin connector and put a multimeter on ohms across the sensor's own pins. Note the number. Open circuit, or a meter that never settles, means a dead probe. Any steady reading means the probe is probably alive and you move to the next test rather than buying a part.",
+      "minutes": 10,
+      "tools": "Multimeter",
+      "warning": "Never measure resistance with the breaker on."
+    },
+    {
+      "name": "Warm the probe and watch the reading move",
+      "detail": "With the meter still connected, cup the probe in your hand or hold a hairdryer near it on low for thirty seconds. These sensors are resistance temperature detectors, so the resistance must climb steadily as the probe warms and fall back as it cools. A reading that moves smoothly proves the sensor is good without needing any reference figure for your model. A reading that sits still is a failed probe even if it is not fully open.",
+      "minutes": 10,
+      "tools": "Multimeter, hairdryer",
+      "warning": null
+    },
+    {
+      "name": "Check the plug and both wires back to the control",
+      "detail": "Look at the connector pins for corrosion or a terminal pushed back into the housing, and push the halves together firmly to feel whether they seat properly. Then test continuity along each wire from the sensor plug to the control connector. Pay attention where the harness passes a sheet metal edge or runs near the cavity, which is where insulation hardens and conductors break.",
+      "minutes": 20,
+      "tools": "Multimeter, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Replace the sensor if it failed either test",
+      "detail": "Order by the full model number from the sticker on the door frame or inside the storage drawer. The probe is held by two screws from inside the cavity and its wire pulls back through the rear wall. Route the new wire exactly as the old one ran, clear of the liner, and clip it where the original was clipped so it does not rest against hot metal.",
+      "minutes": 30,
+      "tools": "Nut driver, replacement oven temperature sensor",
+      "warning": null
+    },
+    {
+      "name": "Refit and test with a low bake",
+      "detail": "Put the rear panel back on, push the range into place, restore the breaker and gas if you closed it, and run a bake at a low setting with an independent thermometer on the middle shelf. You want the oven to preheat and level off near the setting. Do not make a self-clean cycle your first test.",
+      "minutes": 30,
+      "tools": "Independent oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If a new sensor has not cleared F30, the break is between the sensor and the board and the meter will find it. Work backwards in cost order. First, repeat the continuity test on each of the two sensor wires, but do it with the harness moved: hold the meter on one wire and flex the harness along its length, especially where it leaves the cavity and where it passes any sheet metal edge. A conductor broken inside unbroken insulation reads fine when still and open when flexed, and that is the single most missed cause of a persistent F30 after a sensor swap. Second, check the connector at the control end as well as the sensor end. People reseat the plug near the probe and never look at the one on the board, where a terminal can be backed out just as easily. Third, if the range has had a self-clean cycle recently, go back along the sensor wiring looking for insulation that has gone hard and crumbly near the cavity; the conductor can be intact but shorting or breaking under its own stiffness, and the fix is a harness repair rather than another sensor. Fourth, only when both wires have proven continuity while being flexed, both connectors are sound, and a known-good sensor is fitted, does the control board become the answer. That is where the bill moves from about $40 to somewhere between $180 and $400 fitted. Before you commit to a board on a Kenmore, confirm the three-digit prefix of your model number and check you have been reading a code chart for the company that actually built the range, because F30 is not assigned identically across every platform sold under this badge.",
+  "reset_procedure": "Switch the range off at the circuit breaker, wait five minutes and switch it back on. That is the whole reset, and it is worth exactly one attempt. An open sensor circuit is a physical break, so it does not clear with a power cycle: if F30 comes straight back on a cold idle oven, the fault is real and the meter is the next step. If it does clear and stays away, you had an intermittent connection that has reseated, and it is still worth finding before it happens mid-roast.",
+  "model_notes": "Kenmore is a badge rather than a manufacturer, and ranges sold under it came from several different builders whose code charts do not match. The three-digit prefix before the decimal in the model number tells you which company made yours, and that is the manual to trust. On the platforms that use this code, F30 is an open sensor circuit and F31 is the shorted version of the same fault, which matters because the two point at opposite ends of the same test: open means no reading, shorted means a reading near zero that does not move with heat. A few sources lump both under a general temperature probe fault, which is true enough but loses the distinction that tells you what you are looking for.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws inside the cavity, one plug behind the rear panel" },
+    { "name": "Sensor connector or harness repair kit", "cost": "$15 to $40", "difficulty": "moderate", "note": "For a corroded plug or a broken wire, which a new sensor will not fix" },
+    { "name": "Electronic oven control board", "cost": "$120 to $280", "difficulty": "technician only", "note": "Last resort, after both wires pass a flex test" }
+  ],
+  "when_to_call": "Call a technician if the sensor and both its wires test good and F30 persists, because the next step is board-level diagnosis on a live 240 volt appliance. Call if you are not comfortable pulling a heavy range out and working next to an uninsulated terminal block, which is a reasonable line to draw. Call a licensed gas technician for anything touching the burner, safety valve or igniter on a gas range. And if the sensor wiring is visibly heat damaged along its length rather than at one spot, get the harness looked at properly rather than splicing it, because the next break will be somewhere else along the same run.",
+  "faqs": [
+    { "q": "Can I still use my Kenmore oven with an F30 code?", "a": "The oven will not heat, so there is nothing to use. That is deliberate: without a working temperature sensor the control has no way of knowing how hot the cavity is, and running an element blind is exactly what it is designed to avoid. The cooktop on a range is on a separate circuit and usually still works normally." },
+    { "q": "What is the difference between F30 and F31?", "a": "They are the two ways the same circuit fails. F30 means the sensor circuit reads open, so the control sees no sensor at all, usually a broken probe or a disconnected plug. F31 means it reads shorted, a resistance near zero that does not change with temperature. The test is the same, and the meter tells you which you have." },
+    { "q": "How do I test an oven temperature sensor without knowing the right value?", "a": "Measure the resistance cold, then warm the probe in your hand or with a hairdryer and watch the number. Oven sensors are resistance temperature detectors, so the reading must climb steadily as the probe heats and fall as it cools. A reading that moves smoothly proves it works, with no reference figure needed for your model." },
+    { "q": "Why did F30 appear suddenly with no warning?", "a": "Open circuits happen abruptly rather than drifting. The element inside the probe cracks, or a wire that has been hardening next to the hot cavity for years finally breaks. The other common trigger is work behind the range: moving it to clean or to fit a new floor tugs the harness and pulls a terminal out of its connector." },
+    { "q": "Is a new sensor likely to fix it?", "a": "In most cases yes, because the probe itself is the usual failure. Test before buying though. If the probe measures fine and responds to heat, a new one changes nothing and the break is in the plug or the wiring instead, which costs far less to repair than a part you did not need." },
+    { "q": "How much should an F30 repair cost?", "a": "A sensor is typically $25 to $60 and is a straightforward job if you are happy pulling the range out and taking the rear panel off. A technician doing the same work usually charges $160 to $320 including the call-out. If the diagnosis lands on the control board instead, expect $180 to $400 fitted." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where the oven's thermometer sits, and the three places the circuit breaks.",
+    "labels": {
+      "display": "F30",
+      "c1": "Probe in the cavity rear corner",
+      "c2": "Two-pin plug behind rear panel",
+      "c3": "Harness run to the control",
+      "c4": "Control connector at the board"
+    }
+  },
+  "sources": [
+    { "title": "Understanding Kenmore range error codes", "publisher": "Sears Home Services support material", "url": null },
+    { "title": "Kenmore range service sheet, oven sensor resistance and wiring diagram", "publisher": "Service sheet supplied inside the range", "url": null },
+    { "title": "Kenmore oven temperature probe fault references", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Field reports on broken sensor wiring after self-clean cycles", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F31", "F10", "F11", "F2", "F3"]
+}

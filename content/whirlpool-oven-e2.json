@@ -1,0 +1,117 @@
+{
+  "title": "Whirlpool Oven E2 Error Code: Half a Code, Usually F3",
+  "meta_description": "E2 on a Whirlpool oven is half a code, and the other half is usually F3, an overheat warning. Here is how to read it all and why it matters.",
+  "h1": "Whirlpool oven E2 error code: what it means and how to read the full code",
+  "answer": "E2 on its own is not a complete Whirlpool oven code. The control pairs an F number naming the system with an E number naming the fault inside it, and the display alternates them about once a second, so there is an F flashing alongside your E2 that you have not caught yet. On ovens the pairing people most often turn out to have is F3 E2, which is an over-temperature warning: the control saw the cavity climb past what the set temperature allows. That makes this the one half-code worth treating cautiously rather than casually, so if there is burnt food, a hot-metal smell, or an element glowing with the oven switched off at the front, switch it off at the breaker before you investigate further.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "5 minutes to read the full code, then it depends",
+  "cost_estimate": { "diy": "$0 to read the code", "technician": "$150 to $600 depending on the F half" },
+  "safety_warning": "The likeliest pairing behind an E2 is an over-temperature warning, and the usual mechanism is a bake relay stuck closed, which keeps the element powered even with the oven switched off at its own controls. Switch the oven off at its circuit breaker rather than its front panel until you know the F half. An oven sits on a 240 volt circuit and a built-in is often hardwired with no plug. On a gas range, the gas valve, safety valve and igniter go to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The code is really F3 E2, an over-temperature warning",
+      "frequency": "most cases",
+      "confirm": "An F3 appears alternating with your E2, and the oven has been running hot, overbrowning food or climbing past the set temperature. This is the pairing most E2 searches turn out to be, and it is the one that should not wait."
+    },
+    {
+      "cause": "The oven never actually got hot, so the control is misreading",
+      "frequency": "most cases",
+      "confirm": "A cold cavity, nothing burnt, no smell, and the code appeared while the oven sat idle. That rules out a genuine overheat and moves the suspicion to the touchpad or the control board reporting something that did not happen."
+    },
+    {
+      "cause": "Your model has a warming drawer and that sensor has failed",
+      "frequency": "common",
+      "confirm": "There is a warming drawer below the cavity. At least one reference reads the E2 and F3 pairing as a warming drawer sensor fault rather than a main oven overheat. If the appliance has no warming drawer, that reading cannot apply and you can discount it in one glance."
+    },
+    {
+      "cause": "The code is an F1 pairing, in the control group",
+      "frequency": "common",
+      "confirm": "An F1 alternates with the E2, often with a beep that will not stop until the power is cut. The published tables list several E numbers under F1 covering the keypad, the board and the probe circuit, which puts this in the control branch rather than the heating branch."
+    },
+    {
+      "cause": "You are misreading a character on the display",
+      "frequency": "occasional",
+      "confirm": "Nothing alternates with it after a full minute of watching. A seven-segment display with one dead segment renders characters convincingly wrong, so check whether other digits on the panel also look slightly off."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check for signs of a real overheat first",
+      "detail": "Before anything else, look for burnt food, a hot-metal smell, discoloration around the console, a door hotter than usual, or an element still glowing with the oven switched off at the front panel. Any of those means the oven has been running hotter than it should. Switch it off at the circuit breaker and leave it off rather than resetting and cooking again while you work out the code.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "An element glowing with the controls off is a stuck relay. Isolate at the breaker immediately and do not use the oven."
+    },
+    {
+      "name": "Film the display for ten seconds",
+      "detail": "Hold your phone steady in front of the panel and record for ten seconds, which covers several complete cycles of the message, then scrub back through the video frame by frame. This beats watching, because the halves swap about once a second and the eye keeps whichever it saw last. You are looking for a character beginning with F.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Write the halves down F first, then E",
+      "detail": "Record it as F3 E2 rather than E2 F3. That is the order every code table uses, including the technical sheet folded inside your own appliance, and reversing it will put you on the wrong row or the wrong page. Keep the note somewhere you can read it out, because it is the first thing a technician will ask for on the phone.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look at whether the appliance has a warming drawer",
+      "detail": "Walk up to the oven and look below the main cavity. A warming drawer carries its own temperature sensor and its own wiring, and one published reading of this code points there rather than at the main oven. No drawer means that reading cannot apply to your machine and you concentrate on the cavity. A drawer means its sensor needs checking before you touch anything else.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker, once, and watch what happens",
+      "detail": "Switch the oven off at the circuit breaker, leave it a full five minutes, then switch back on. A code left by a brownout clears and stays gone. Understand the limit of this though: if the cause was a real overheat, a reset only lets the oven try again, so reset to learn whether the fault returns and then leave the breaker off rather than carrying on cooking.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Do not reset and resume cooking on an oven that showed signs of overheating."
+    },
+    {
+      "name": "Find the technical sheet in the appliance",
+      "detail": "Whirlpool folds a technical sheet into the machine, usually behind the lower trim or the storage drawer on a range, or behind the control panel on a wall oven. It carries the exact code table for your control, which is better than any general reference because it is specific to your model. Switch off at the breaker before removing trim, and put the sheet back when you are done.",
+      "minutes": 20,
+      "tools": "Nut driver set, torch",
+      "warning": "Breaker off and verified dead before any panel or trim comes off."
+    }
+  ],
+  "still_showing": "If a full minute of watching produces no F half at all, work through three explanations before concluding anything. First, some displays show both halves together rather than alternating, and the F part can be small, dim, or tucked at the left edge behind a trim strip; crouch and look at the panel square on instead of from above. Second, a failed segment in the display changes one character into another convincingly, so if any other digit on the panel looks slightly wrong, suspect the display rather than the code. Third, a few ovens, including rebadged and imported models, use a plain E2 as a complete code in their own numbering, in which case only that model's manual will tell you what it means. In every one of those cases the technical sheet inside your own appliance is the authority, because it lists the table for your exact control rather than a general one. Two warnings about what you will find online. The published meanings for E2 pairings are inconsistent: the same combination is described in one place as the oven running too high in cook mode and in another as a warming drawer sensor fault, and those point at completely different circuits with different parts. Check whether your appliance has a warming drawer, because that single observation discriminates between them for free. And whatever the code turns out to be, keep the oven off at the breaker until you know, if there was any sign of real heat. The expensive branch of this code is a control board at $120 to $400 as a part and $200 to $600 fitted. The cheap branch is a temperature sensor at $20 to $60 that takes two screws and an hour. The difference between them is the F half you have not read yet, which is why ten seconds of phone video is the best value work on this page.",
+  "reset_procedure": "Switch the oven off at its circuit breaker, leave it off for five minutes, then switch it back on. A code left behind by a power cut or brownout clears and stays gone, which tells you for free that nothing is broken. One that returns within a cycle is a real fault. Be careful with what the reset means on this particular code: if the oven showed signs of genuinely overheating, resetting only permits another attempt, so reset to learn and then leave the breaker off.",
+  "model_notes": "The two-part F and E system is shared across Whirlpool, KitchenAid, Maytag and Amana ovens built on the same platform, so an E half on any of those badges behaves identically and is meaningless without its F. Older Whirlpool ovens predate the system and use single codes such as F1, F2, F3 and F9 that appear alone and are complete as displayed; if nothing alternates with your display, that is likely what you have, and on those an over-temperature shows as a plain F2. The published tables disagree on specific E2 pairings, with the same combination described as a cook-mode overheat in some references and a warming drawer sensor fault in others, so the sheet inside your own appliance outranks any general table including this page.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$20 to $60", "difficulty": "easy", "note": "The cheap outcome, and worth testing before anything else" },
+    { "name": "Warming drawer temperature sensor", "cost": "$25 to $75", "difficulty": "moderate", "note": "Only on models that actually have a warming drawer" },
+    { "name": "Oven touchpad or control panel assembly", "cost": "$80 to $250", "difficulty": "moderate", "note": "Where the control branch ends on models that sell the pad separately" },
+    { "name": "Electronic oven control board", "cost": "$120 to $400", "difficulty": "technician only", "note": "Where a stuck bake relay ends; confirm before ordering" }
+  ],
+  "when_to_call": "Call a technician straight away, and leave the oven off at the breaker, if there is any sign that the cavity genuinely overheated, because the usual mechanism keeps the element powered with the front panel dark and that does not wait for a convenient appointment. Call for the control branch too, since testing a board or a stuck relay means live 240 volt work behind an open console. Give both halves of the code when you ring, because it changes which parts they load into the van. If the F half turns out to be a plain sensor fault, consider doing that one yourself: a $20 to $60 probe held in by two screws is one of the few genuinely easy oven repairs.",
+  "faqs": [
+    { "q": "What does E2 mean on a Whirlpool oven?", "a": "On its own it is only half a code. Whirlpool pairs an F number naming the system with an E number naming the fault, and the display alternates them. The pairing behind most E2 searches turns out to be F3 E2, an over-temperature warning, so this is a half-code worth reading properly rather than guessing at." },
+    { "q": "Why does the display only show E2?", "a": "It almost certainly does not. The two halves swap roughly once a second and the eye retains whichever it saw last, which is why so many people write down only one. Film the panel for ten seconds on your phone and play it back frame by frame, and the F number will be in there." },
+    { "q": "Is E2 serious?", "a": "Potentially, more so than most half-codes, because the likeliest pairing is an over-temperature warning. If the oven burnt food, smelled hot, or has an element that glows with the controls switched off, treat it as urgent, switch off at the breaker and leave it off. If the cavity never got warm, it is a control misreading instead." },
+    { "q": "Can I keep cooking while E2 is showing?", "a": "Not until you have the F half. If this is the overheat pairing, the oven is reporting that it got hotter than allowed, and a reset only lets it try again. Even on the milder reading, where a drifted sensor is the cause, everything will be overdone and the control will keep tripping out." },
+    { "q": "Why do some sites say E2 is the warming drawer?", "a": "Because the references genuinely disagree. One reading of the E2 and F3 pairing is the oven running too high in cook mode, another is a warming drawer sensor fault, and those are different circuits with different parts. Look at your appliance: no warming drawer means that second reading cannot apply to you." },
+    { "q": "How do I find the full code?", "a": "Record the display for ten seconds and scrub back through the video, then write the F number first and the E number second. That order matches every code table, including the technical sheet folded inside your own appliance, which gives the exact meaning for your control and beats any general reference." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Why E2 is only half the code, and why this half matters",
+    "labels": {
+      "display": "E2",
+      "c1": "Film the display, pause it",
+      "c2": "Usually pairs with F3",
+      "c3": "Check for signs of overheating",
+      "c4": "Tech sheet inside the appliance"
+    }
+  },
+  "sources": [
+    { "title": "Error codes on ranges and wall ovens, two-part code format", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool oven technical sheet, full F and E code table", "publisher": "Service sheet supplied with the appliance", "url": null },
+    { "title": "Conflicting published readings of the E2 and F3 pairing", "publisher": "Appliance repair trade reference sites", "url": null }
+  ],
+  "related_codes": ["E1", "F3 E2", "F2", "F3", "F1", "F3 E0"]
+}

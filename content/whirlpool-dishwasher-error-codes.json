@@ -1,0 +1,220 @@
+{
+  "title": "Whirlpool Dishwasher Error Codes: List and What to Do",
+  "meta_description": "How Whirlpool dishwasher F and E codes work, how to read them from flashing lights on hidden-control models, and the order to work through them.",
+  "h1": "Whirlpool dishwasher error codes: how to read them and what to do next",
+  "answer": "Whirlpool dishwashers report faults as two parts: an F number and an E number, shown as F8 E4, F9 E1 and so on. The F number names the system that failed and the E number narrows it to the specific condition, so F8 is always something about water level and the E number tells you whether the machine could not fill, could not reach level, or found water where it should not be. On hidden-control models with no digital display you read the same code from flashing lights: the Clean light flashes the F number, then the Start light flashes the E number. Get both halves before you start, because the two numbers under the same F can point in opposite directions.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes to read the code, then 30 minutes to a couple of hours depending on what it says",
+  "cost_estimate": {
+    "diy": "$0 to $90 for most filter, hose and seal faults",
+    "technician": "$150 to $400 for pump, valve and board work"
+  },
+  "safety_warning": "Switch the dishwasher off at its breaker before removing the kick panel or reaching under the machine, and close the supply valve under the sink before touching any water connection. Mains wiring for the motor and the heating element shares the same cramped space as standing water. Never bypass the door latch switch to watch a cycle run with the door open.",
+  "causes": [
+    {
+      "cause": "Drain faults: water that will not leave the tub",
+      "frequency": "most cases",
+      "confirm": "Standing water in the bottom of the tub at the end of a cycle, and the machine timing out rather than finishing. Almost always a restriction rather than a dead pump: the sump filter, the drain hose, a blocked disposer inlet knockout on a new installation, or a drain hose that has lost the high loop that stops sink water running back. This is the most common family of faults by a wide margin."
+    },
+    {
+      "cause": "Water level and fill faults, including leaks into the base pan",
+      "frequency": "most cases",
+      "confirm": "Either the tub never reaches its water level, or the float in the base pan under the tub has been lifted by water. The second case is the one that makes the machine run its drain pump continuously and refuse to start. Behind it is usually a small leak at a hose clamp or the lower door seal, or a tub full of foam from the wrong detergent."
+    },
+    {
+      "cause": "Heating and temperature faults",
+      "frequency": "common",
+      "confirm": "Dishes coming out wet and cool, a cycle that runs far longer than usual, or the machine stopping partway. The control gives the water a window to reach temperature and gives up if it does not. Usually the heating element or its thermistor, though a household water heater turned down or a long cold pipe run makes a marginal machine fail the test."
+    },
+    {
+      "cause": "Sensor faults, including the thermistor and the optical water sensor",
+      "frequency": "common",
+      "confirm": "Odd cycle behavior with no obvious mechanical symptom: cycles that run short, run long, or pick the wrong intensity. The optical sensor that judges how dirty the water is sits in the sump and gets fouled by grease and hard water scale, which reads as a failed sensor when it only needs cleaning."
+    },
+    {
+      "cause": "Motor, diverter and wash system faults",
+      "frequency": "occasional",
+      "confirm": "Dishes clean on one rack and untouched on the other, a machine that fills and then stays oddly quiet, or a grinding noise during wash. The diverter that switches pressure between the upper and lower spray arms is a small motor with a position sensor and it fails more often than the main pump does."
+    },
+    {
+      "cause": "Door latch and lock faults",
+      "frequency": "occasional",
+      "confirm": "The cycle will not start at all, or stops the moment the door is nudged. Check whether the latch actually engages with a positive click and whether a rack or a tall item is holding the door a fraction proud. A latch that has to be slammed is a latch about to fail."
+    },
+    {
+      "cause": "Control and communication faults",
+      "frequency": "rare",
+      "confirm": "A dead or scrambled display, buttons that do nothing, or a code that returns instantly after every reset with no mechanical symptom at all. Check the ribbon cable and connectors between the door panel and the main board first, because the door hinge flexes that cable thousands of times and a cracked trace looks exactly like a dead board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read both halves of the code",
+      "detail": "On a display model, write down the F number and the E number exactly. On a hidden-control model, watch the lights: the Clean light flashes a count, pauses, then the Start light flashes a second count, and the pattern repeats. Eight flashes then four is F8 E4. Count it twice before you trust it, because miscounting by one sends you to a completely different fault. Photograph the panel if the display holds the code.",
+      "minutes": 10,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Power cycle the machine",
+      "detail": "Switch the dishwasher off at its breaker, or unplug it from the socket under the sink, and leave it for five minutes before restoring power. The control stores faults and will keep displaying one after the condition has gone, so a machine that has already cleared itself keeps showing a code until it is reset. A code that returns immediately is live, and that tells you something a reset on its own does not.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the door and look at the tub floor",
+      "detail": "This one observation narrows most codes straight away. Standing water means a drain problem. A tub full of foam means a detergent problem that can trigger water level and leak codes. A bone dry tub on a machine that claims to have run means a fill problem. Dishes that are wet and cool but otherwise clean means heating. Note which of those four you have before touching anything.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the sump filter and clear the drain path",
+      "detail": "Lift out the lower rack. In the base of the tub, twist the cylindrical filter anticlockwise and lift it out, then lift out the flat coarse filter under it. Expect grease, glass fragments, fruit stickers and small bones. Rinse both under a hot tap with a brush. While you are in there, scoop out any standing water with a cup and a sponge, and check the drain hose under the sink for a kink and for the high loop that should carry it up near the counter before it drops to the disposer or standpipe.",
+      "minutes": 30,
+      "tools": "Washing-up brush, cup, sponge, towels",
+      "warning": "Reach into the sump carefully. Broken glass collects there and you will not see it in the water."
+    },
+    {
+      "name": "Check for water under the machine",
+      "detail": "Switch off the breaker and close the supply valve, then remove the kick panel across the bottom front, usually two to four Phillips screws along its top edge. Look into the base pan with a flashlight. Any water in there will have lifted the overfill float and will produce a leak code regardless of what else is wrong, so towel it dry and check that the float block drops freely under its own weight when you lift and release it.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Breaker off before the panel comes off. Motor and heater connections are inside this compartment."
+    },
+    {
+      "name": "Run a short empty cycle and watch it",
+      "detail": "With the filters back in and the panel still off, run the shortest cycle with an empty tub and nothing in the dispenser. Listen for the fill, the wash and the drain in sequence, and watch the base pan with a flashlight for the first drip. You are establishing which phase the machine fails in, which is worth more than any code on its own. Keep hands away from the motor and heating element while it is live.",
+      "minutes": 40,
+      "tools": "Flashlight",
+      "warning": "The machine is running and energized. Look, do not reach in."
+    },
+    {
+      "name": "Check your detergent habits before buying parts",
+      "detail": "Hand dish soap in the dispenser produces enough foam to trigger leak and level codes on the first cycle. So does over-dosing powder in soft water, a rinse aid cap left loose, and pre-rinsing dishes with washing-up liquid still on them. If you find foam in the tub, scoop it out, pour a cup of cold water in to collapse the rest, and run rinse cycles until the water is clear before you diagnose anything else.",
+      "minutes": 30,
+      "tools": "Jug of cold water, cloth",
+      "warning": null
+    },
+    {
+      "name": "Find the tech sheet before you order anything",
+      "detail": "Whirlpool tapes a model-specific tech sheet inside the machine, usually folded behind the kick panel at the bottom front or tucked up under the tub on the side. It lists the exact code meanings and the service test sequence for your model, which beats any generic list including this one. Photograph both sides while you have it out, then put it back where you found it for the next person.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, phone camera, flashlight",
+      "warning": "Power off at the breaker before reaching behind the kick panel."
+    }
+  ],
+  "still_showing": "If you have read the code correctly, reset it, cleaned the filters and it is still there, the next move depends on which family it belongs to, and they are not equally serious. Drain faults are the cheapest and most common, and the order to work through is filter, then the drain hose for kinks and the high loop, then the disposer inlet, then the check valve at the pump outlet, and only then the pump itself. On a new installation always check whether the disposer knockout plug was removed, because a brand new dishwasher that has never drained once has usually never been plumbed properly rather than arrived broken. Water level and leak faults split cleanly in two: a machine that cannot fill is looking at the supply valve, the inlet fitting or the household supply, while a machine reporting water in the base pan is looking at a leak, and the thing people get wrong there is not drying the pan properly. The float only reports whether it is floating, so a correctly repaired leak still shows the code until the pan and the insulation blanket around the tub have dried out, which takes hours and sometimes overnight with a fan. Heating faults are worth checking from the outside first: run the hot tap at the sink until it is genuinely hot before starting a cycle, because a machine at the end of a long cold pipe run can fail a heating test with a perfectly good element. Sensor faults, particularly on the optical water sensor in the sump, are frequently cured by cleaning rather than replacement, so get a descaler through the machine before ordering anything. The point where the cost jumps is the circulation pump, the drain pump and the main control board, roughly $80 to $250 in parts each with real labor behind them, and that is the point to weigh the repair against the age of the machine. One habit worth forming before you reach that point: get the tech sheet out from behind the kick panel and run the service test sequence it describes. It walks the machine through fill, heat, wash and drain one step at a time and shows you exactly where it stops, which turns a guess into an answer and costs nothing but twenty minutes.",
+  "reset_procedure": "Switch the dishwasher off at its breaker, or unplug it from the socket under the sink, and wait five minutes before restoring power. A quick off-and-on frequently leaves the stored fault in place. On models with a visible cycle pad you can also press Cancel, or Cancel and Drain, and let the machine run its drain cycle out to completion rather than interrupting it. Understand what the reset is for, though: it clears the display, not the fault. If the machine comes back up and immediately starts pumping without filling, that is not a failed reset, it is the control responding correctly to water still sitting under the float.",
+  "model_notes": "The two-part F and E format appears on Whirlpool dishwashers built from roughly 2014 onward, and the same codes run across Maytag, KitchenAid, Amana and Whirlpool-built Kenmore machines because they share platforms. Older Whirlpool dishwashers used different schemes: some flash a single light a set number of times, and some report nothing at all and just stop. How the code is displayed depends on the control style rather than the age alone, so a top-control model with a hidden display uses the Clean and Start light flash pattern while a front-control model with a digital readout shows the characters directly. Sub-code meanings within a family do vary between platforms, which is exactly why the tech sheet inside your own machine beats any published list.",
+  "parts": [
+    {
+      "name": "Drain pump",
+      "cost": "$40 to $110",
+      "difficulty": "moderate",
+      "note": "Check the filter, hose and disposer knockout before condemning the pump"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$35 to $90",
+      "difficulty": "moderate",
+      "note": "For fill faults and for water appearing in the pan with the machine switched off"
+    },
+    {
+      "name": "Heating element or thermistor",
+      "cost": "$30 to $120",
+      "difficulty": "moderate",
+      "note": "Rule out a cold supply run and a turned-down water heater first"
+    },
+    {
+      "name": "Door latch assembly",
+      "cost": "$25 to $70",
+      "difficulty": "easy",
+      "note": "A latch you have to slam is about to fail"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$120 to $300",
+      "difficulty": "technician only",
+      "note": "Check the door ribbon cable and every connector first; flexing cracks traces"
+    }
+  ],
+  "when_to_call": "Call a technician when the diagnosis lands on the circulation pump, the sump seal or the main control board, because those mean laying the machine on its back or working through a board swap with no certainty, and both go wrong expensively. Call if you can see water arriving in the base pan but cannot find the source with the kick panel off, since the next step is drawing the machine out of a fitted run with the plumbing and electrics still attached. Call a plumber rather than an appliance technician if the trouble turns out to be the disposer connection, the standpipe or the household supply, because an appliance engineer will charge a call-out to tell you the same thing. Do not call before you have read both halves of the code, cleaned the sump filter, checked the drain hose loop and looked in the base pan, because those four take an hour and settle a real share of cases for nothing.",
+  "faqs": [
+    {
+      "q": "How do I read a Whirlpool dishwasher error code with no display?",
+      "a": "Watch the lights. The Clean light flashes the F number, pauses, then the Start light flashes the E number, and the whole pattern repeats. Eight flashes followed by four is F8 E4. Count it through twice before acting, because being out by one flash lands you on a completely different fault in a different part of the machine."
+    },
+    {
+      "q": "What do the F and E numbers actually mean?",
+      "a": "The F number names the system and the E number narrows it to the condition. F8 is water level, F9 is draining, and so on, while the E digit distinguishes, for example, failing to fill from finding water in the base pan. Both halves matter: two codes sharing an F number can point at opposite problems with opposite fixes."
+    },
+    {
+      "q": "Will resetting the dishwasher clear the code for good?",
+      "a": "Only if nothing is actually wrong. Cutting power for five minutes clears the stored fault from the display, and if the cause was a one-off, it stays gone. If the condition is still present, the code returns on the next cycle. Treat the reset as a test that tells you whether the fault is live, not as a repair."
+    },
+    {
+      "q": "Which Whirlpool dishwasher codes can I fix myself?",
+      "a": "Most of them, as it happens. Drain faults usually come down to the sump filter, the drain hose loop or a disposer knockout plug. Leak codes are often a hose clamp, a door seal or a detergent habit. Heating codes sometimes trace back to the household water heater. The genuinely technician-level jobs are the circulation pump, the sump seal and the control board."
+    },
+    {
+      "q": "Where is the tech sheet on a Whirlpool dishwasher?",
+      "a": "Taped inside the machine, usually folded behind the kick panel at the bottom front, sometimes tucked under the tub along one side. Switch the breaker off, take off the kick panel and look. It lists the exact code meanings and the service test sequence for your specific model, which is more reliable than any general list. Photograph both sides and put it back."
+    },
+    {
+      "q": "Why did an error code appear suddenly with no warning?",
+      "a": "Because most of these faults build slowly and then cross a threshold. A sump filter clogs over months, a hose clamp relaxes over years, a door seal hardens each season. The code marks the moment the machine could no longer complete a step inside the time it allows, not the moment the problem began."
+    },
+    {
+      "q": "Can the wrong detergent really cause an error code?",
+      "a": "Yes, and it is one of the more common false alarms. Hand dish soap in the dispenser generates enough foam to escape the door seal and reach the base pan, which lifts the overfill float and produces a leak code on a machine with nothing wrong with it. Over-dosed powder in soft water does the same more gradually."
+    },
+    {
+      "q": "Is it worth repairing an older Whirlpool dishwasher?",
+      "a": "Depends where the fault lands. Filters, hoses, seals, latches and inlet valves are cheap enough that repair wins at almost any age. A circulation pump or a control board on a machine past about eight years old is a few hundred dollars against a comparably priced new appliance, and that is the point where replacement is reasonable arithmetic rather than defeat."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Reading a Whirlpool F and E code and the checks that fit any of them",
+    "labels": {
+      "display": "F_ E_",
+      "c1": "Clean light flashes the F number",
+      "c2": "Start light flashes the E number",
+      "c3": "Sump filter and drain hose loop",
+      "c4": "Base pan float under kick panel"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes and how to read flashing light patterns",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Dishwasher error code or flashing lights troubleshooting",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet taped inside the machine",
+      "publisher": "Whirlpool service literature",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of Whirlpool platform dishwasher fault diagnosis",
+      "publisher": "Appliantology and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F8 E4",
+    "F9 E1",
+    "F8 E1",
+    "F7 E1",
+    "F6 E1",
+    "F3 E1"
+  ]
+}

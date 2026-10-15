@@ -1,0 +1,225 @@
+{
+  "title": "Whirlpool Oven Error Codes: List and What to Do",
+  "meta_description": "How Whirlpool oven F and E codes work, which families mean what, and the checks that fit any of them. Start with a breaker reset, not a parts order.",
+  "h1": "Whirlpool oven error codes: how to read them and what to do next",
+  "answer": "Whirlpool ovens and ranges report faults as two parts: an F number and an E number, shown as F6 E1, F3 E0 and so on. The F number names the system that failed and the E number narrows it to the specific condition, so F3 is always something about temperature sensing while the E digit says which sensor and how it failed. Older Whirlpool ovens use a single code such as F2 or F5 with no second half, which is the same scheme with less detail. Whatever the code, the first move is the same: switch the oven off at its breaker for five minutes rather than pressing Cancel, because a surprising share of these are transients left behind by a power event.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes for the reset, 45 minutes to a couple of hours to diagnose further",
+  "cost_estimate": {
+    "diy": "$0 to $250",
+    "technician": "$200 to $500"
+  },
+  "safety_warning": "Switch the oven off at the breaker before removing any panel. Built-in ovens are hard-wired and a dark control panel does not mean the terminals behind it are dead. Treat any code on a gas oven that will not clear with a reset as a licensed-technician job and leave the gas connection alone entirely. If the oven is running hotter than its setting, will not switch off when commanded, or smells scorched, kill the breaker and leave it off. Never run a self-clean cycle to test whether a fault has gone: self-clean takes the cavity far hotter than cooking and is the worst time for a control to lose track of itself.",
+  "causes": [
+    {
+      "cause": "Control and communication faults, the F1 and F6 families",
+      "frequency": "most cases",
+      "confirm": "The oven displays a code with no accompanying heating symptom: it cooks to temperature correctly, or will not start at all, but nothing is actually running hot. These are faults in the link between the touch panel and the main control board, which Whirlpool calls the appliance manager. A breaker reset clears a good share of them, and most of the rest are a connector rather than a board."
+    },
+    {
+      "cause": "Touchpad and user interface faults, the F2 family",
+      "frequency": "most cases",
+      "confirm": "A key that has stuck down, a panel that needs a hard press, missing display segments, or a control that registers presses you did not make. The classic version is a spill or a steam cleaning session that got under the membrane, after which the control sees a button permanently pressed and reports it as a fault."
+    },
+    {
+      "cause": "Temperature sensor faults, the F3 family",
+      "frequency": "common",
+      "confirm": "Food burning or undercooking at correct settings, an oven that never reaches temperature, or one that overshoots badly. The sensor is the thin metal probe poking into the back of the cavity, usually at the upper left. Its resistance changes with temperature and the board reads it; if that reading goes open circuit or implausible, you get a code."
+    },
+    {
+      "cause": "Door lock faults, the F5 family",
+      "frequency": "common",
+      "confirm": "Usually appears around a self-clean cycle: the door will not lock, will not unlock afterwards, or the control cannot confirm its position. The lock is a small motor with a cam and a switch, and the switch is what normally fails. A door that has been slammed for years or a lock that was interrupted mid-cycle by a power cut are the usual histories."
+    },
+    {
+      "cause": "Overheating and runaway temperature conditions",
+      "frequency": "occasional",
+      "confirm": "Different from a sensor fault, and more urgent. The oven genuinely gets hotter than it should, food burns at normal settings, the kitchen gets unreasonably warm, and the code may appear only at high temperatures or during self-clean. A standalone oven thermometer on the middle rack settles this in half an hour and it is worth doing before anything else if you suspect it."
+    },
+    {
+      "cause": "Gas ignition faults on gas models",
+      "frequency": "occasional",
+      "confirm": "The oven clicks or hisses and does not light, takes a long time to light, or lights with a thump. The control gives ignition a window and reports a fault if it does not see flame. This is where the DIY route ends: gas work goes to a licensed technician, full stop, whatever a video suggests."
+    },
+    {
+      "cause": "Not a fault at all: a stored code after a power event",
+      "frequency": "occasional",
+      "confirm": "The code appeared after a power cut, a surge or a breaker trip, and the oven runs normally once the power is properly cycled. The control holds a stored fault until it is cleared, so an oven that has already recovered keeps showing the code until you cut power at the breaker for five minutes."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down both halves of the code and when it appeared",
+      "detail": "Photograph the display. Record whether the oven was idle, preheating, partway through a bake, or in a self-clean cycle, and whether anything smelled hot. That context matters as much as the code itself: the same two numbers mean very different levels of urgency on an oven that is cold versus one that has been overshooting its setting for a week.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker, not at the control panel",
+      "detail": "Pressing Cancel leaves the board powered and usually leaves the stored fault in place. Go to the consumer unit, switch off the breaker feeding the oven or the double-pole isolator above the counter, and leave it off a full five minutes so the board discharges. Restore it and let the clock come back. This alone clears a meaningful share of Whirlpool oven codes, particularly in the communication families.",
+      "minutes": 12,
+      "tools": null,
+      "warning": "Oven circuits are commonly mislabeled at the panel. The display going dark is your only confirmation you switched the right one."
+    },
+    {
+      "name": "Test with a real bake, not a display check",
+      "detail": "Set a moderate temperature and let the oven run for a good twenty minutes past the preheat beep. A reset that survives a display lighting up proves nothing, because marginal connectors and heat-damaged harnesses behave perfectly cold and fail once everything has warmed and expanded. If the code is going to come back, it will come back during a real heat cycle.",
+      "minutes": 30,
+      "tools": null,
+      "warning": "Stay in the room for this test. Do not leave an oven with an unresolved fault running unattended."
+    },
+    {
+      "name": "Check the real cavity temperature with a standalone thermometer",
+      "detail": "Put an oven thermometer on the middle rack, set a moderate temperature, and read it twenty minutes after the preheat beep. This splits the whole problem. An oven tracking close to its setting has a control, interface or sensor-reporting fault and you can work through it at your own pace. An oven reading well above its setting is overheating, which is urgent: switch it off at the breaker and leave it off until it has been checked.",
+      "minutes": 35,
+      "tools": "Standalone oven thermometer",
+      "warning": null
+    },
+    {
+      "name": "Look for a stuck key or a wet control panel",
+      "detail": "Run a finger over every pad on the touch panel and feel for one that sits lower than the rest or does not spring back. Look for lifted edges on the membrane, a discolored patch, or staining around a pad where something has run under it. If the oven was recently cleaned with a spray or a steam cleaner, give the panel a day to dry out fully before concluding the control has failed.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Find the tech sheet before you order any part",
+      "detail": "Whirlpool supplies a model-specific tech sheet with the appliance. On a range it is usually behind the lower trim or in the storage drawer area; on a wall oven it is often taped to the back of the control housing or behind the upper trim. It lists the exact code meanings and the diagnostic sequence for your model, which beats any general list including this page. Photograph both sides and put it back where you found it.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, flashlight, phone camera",
+      "warning": "Breaker off before reaching behind any trim or panel."
+    },
+    {
+      "name": "Reseat the control connectors",
+      "detail": "With the breaker off and the oven cold, remove the trim or rear console to reach the control. Find the ribbon cable and multi-pin plugs running between the touch panel and the main board, unplug each, check for bent or dirty pins, and push them firmly home until they seat. Then follow the harness and look for insulation that has gone brittle or shiny where it has rested against the cavity, or a section pinched by a bracket during installation.",
+      "minutes": 45,
+      "tools": "Phillips #2 screwdriver, quarter-inch nut driver, flashlight",
+      "warning": "Hard-wired ovens stay live at the terminal block even with the control panel dark. Confirm the breaker is off."
+    },
+    {
+      "name": "Check the temperature sensor if the code points at sensing",
+      "detail": "The sensor is the thin metal probe projecting into the back of the cavity, usually at the upper left, held by two screws. With the oven cold and the breaker off, unclip it and pull it forward; its connector sits just behind the rear wall. Look for a probe that has been knocked, a connector that has corroded, or wiring that has been crushed by a rack. The resistance figure you should measure is on the tech sheet for your model, so read it there rather than taking a number from the internet.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, nut driver, multimeter",
+      "warning": "Oven cold and breaker off. The probe stays hot long after the oven is switched off."
+    }
+  ],
+  "still_showing": "If the breaker reset did not hold, the next step depends on which family the code belongs to, and the gap between the cheap ones and the expensive ones is wide. Take the easy wins first. A stuck pad on the touch panel is free to find and costs nothing if a day of drying out releases it. A reseated ribbon cable is free. A harness baked against the cavity or pinched by a cabinet screw during installation is a cheap repair and a genuinely common cause of intermittent faults that no amount of board replacement will cure, so look for it before you buy anything. A temperature sensor is a $25 to $70 part fitted with two screws and a connector, and it is one of the few oven parts a confident owner can replace with no real risk. Door lock assemblies are similar: $40 to $120 and awkward rather than difficult, usually reached from above on a range or through the top trim on a wall oven. Where the cost jumps is the pair of boards. A user interface runs roughly $120 to $250 and a main control board roughly $150 to $350, and the uncomfortable part is that from the front they produce identical symptoms, so guessing wrong once costs more than a diagnostic call. That is why the tech sheet matters so much. Whirlpool's service mode, which the sheet explains how to enter for your model, steps the control through its own checks and usually names the end of the link that has failed. Twenty minutes with that sheet regularly saves a couple of hundred dollars. Two things that should stop you in your tracks rather than being worked through. If the standalone thermometer shows the oven running well above its setting, or the oven will not switch off when commanded, leave the breaker off and get a technician out: a control that has lost track of its own cavity is not something to keep testing, and self-clean is the last cycle you should run on it. And on a gas oven, any ignition or flame-related code that does not clear with a reset goes to a licensed technician. There is no version of that job worth doing yourself, and the failure mode is not a ruined dinner.",
+  "reset_procedure": "Switch the oven off at its breaker, or at the double-pole isolator switch if the installation has one, and leave it off for a full five minutes. Pressing Cancel or holding the power pad usually will not clear a stored fault, because the control board stays powered throughout. Restore the breaker and let the clock come back, then test with a real bake at a moderate temperature for twenty minutes rather than just checking that the display lights. A fault that is going to return will return under heat, not at the moment you press a button.",
+  "model_notes": "The two-part F and E format appears on Whirlpool ovens and ranges built from roughly 2014 onward, and the same codes run across Maytag, KitchenAid, Amana and Whirlpool-built Jenn-Air and Kenmore appliances because they share control platforms. Older Whirlpool ovens use a single code, such as F2 for a control or overheating problem and F5 for the door lock, with no second digit; the family meanings broadly carry over but the detail does not. Sub-code meanings within a family genuinely do vary between platforms, and published lists disagree with each other on several, F6 E1 among them. That is not a reason to distrust the system, it is a reason to get the tech sheet supplied with your appliance out before ordering a part, because the sheet is specific to your control and a general list cannot be.",
+  "parts": [
+    {
+      "name": "Oven temperature sensor",
+      "cost": "$25 to $70",
+      "difficulty": "easy",
+      "note": "Two screws and a connector at the back of the cavity; one of the few genuinely easy oven parts"
+    },
+    {
+      "name": "Door lock motor and switch assembly",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Awkward access rather than difficult work; usually behind the top trim"
+    },
+    {
+      "name": "Touch panel or user interface control",
+      "cost": "$120 to $250",
+      "difficulty": "hard",
+      "note": "Suspect this when the display itself has been misbehaving"
+    },
+    {
+      "name": "Appliance manager main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Looks identical to a UI fault from the front; get the diagnosis before buying"
+    },
+    {
+      "name": "Control harness or ribbon cable",
+      "cost": "$20 to $70",
+      "difficulty": "moderate",
+      "note": "The cheapest real fix for an intermittent communication fault"
+    }
+  ],
+  "when_to_call": "Call a technician whenever the diagnosis comes down to choosing between the user interface and the main control board, because both cost well over a hundred dollars, they produce identical symptoms, and a diagnostic fee is cheaper than one wrong guess. Call immediately, and leave the breaker off in the meantime, if the oven runs hotter than its setting, will not switch off when commanded, has tripped its breaker, or smells scorched. Call for anything gas-related that a reset does not clear, without exception: ignition, flame sensing and the gas valve are licensed work and the failure mode is not a ruined dinner. Do not call before you have cut the power at the breaker for five minutes, tested with a real bake, checked the panel for a stuck pad and looked for the tech sheet, because that hour settles a real share of these codes for nothing.",
+  "faqs": [
+    {
+      "q": "How do I reset a Whirlpool oven error code?",
+      "a": "At the breaker, not the control panel. Switch off the breaker feeding the oven, or the double-pole isolator if there is one, wait a full five minutes so the board discharges, then restore power. Pressing Cancel leaves the control powered and usually leaves the stored fault in place. Test the result with a twenty-minute bake, not a glance at the display."
+    },
+    {
+      "q": "What do the F and E numbers mean on a Whirlpool oven?",
+      "a": "The F number names the system and the E number narrows it to the condition. F1 and F6 cover control and communication, F2 covers the touchpad and user interface, F3 covers temperature sensing, and F5 covers the door lock. Older ovens use a single F code with no second digit, which follows the same families with less detail."
+    },
+    {
+      "q": "Can I still use the oven while it is showing a code?",
+      "a": "Only after confirming it is not running hot. Put a standalone thermometer on the middle rack and compare the real cavity temperature with the setting twenty minutes after preheat. If it tracks, occasional use while you arrange a repair is reasonable. If it overshoots, or the oven will not switch off, cut the breaker and leave it off."
+    },
+    {
+      "q": "Why does the same code mean different things on different sites?",
+      "a": "Because Whirlpool uses several control platforms and the sub-code meanings within a family are not identical across all of them. The family itself is reliable; the second digit is where published lists drift apart. The tech sheet supplied with your appliance is specific to your control and is the only list that is definitely right about your oven."
+    },
+    {
+      "q": "Where is the tech sheet on a Whirlpool oven?",
+      "a": "On a range, usually behind the lower trim or in the storage drawer area. On a wall oven, often taped to the back of the control housing or behind the upper trim. Switch the breaker off before reaching behind anything. It lists the exact codes and the service test sequence for your model, so photograph both sides and put it back."
+    },
+    {
+      "q": "Should I run a self-clean cycle to test whether the fault is fixed?",
+      "a": "No. Self-clean drives the cavity far hotter than any cooking temperature and relies entirely on the control keeping track of it and keeping the door locked. Running one while a fault is unresolved is the worst possible test. A normal bake at a moderate temperature for twenty minutes proves the same thing with none of the risk."
+    },
+    {
+      "q": "Which Whirlpool oven codes can I fix myself?",
+      "a": "Temperature sensors are genuinely easy: two screws and a connector at the back of the cavity. Stuck keypads sometimes release after drying out. Reseating a control connector or finding a heat-damaged harness costs nothing. Door locks are awkward but doable. Control boards and anything gas-related are not DIY territory."
+    },
+    {
+      "q": "Is it worth repairing an older Whirlpool oven?",
+      "a": "For sensors, locks, harnesses and keypads, almost always, since those land well under a couple of hundred dollars. A control board on a built-in wall oven is usually still worth it, because replacement means a joinery job as well as an appliance purchase. The arithmetic only turns on an older freestanding range where a board approaches half the price of a new one."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Reading a Whirlpool oven F and E code and the first checks that fit any of them",
+    "labels": {
+      "display": "F_ E_",
+      "c1": "F names the system, E the condition",
+      "c2": "Breaker off, five full minutes",
+      "c3": "Thermometer: is it running hot?",
+      "c4": "Tech sheet behind the trim"
+    }
+  },
+  "sources": [
+    {
+      "title": "Whirlpool oven and range fault code structure and troubleshooting",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied with the appliance",
+      "publisher": "Whirlpool service literature",
+      "url": null
+    },
+    {
+      "title": "How to fix F6 error codes on a Whirlpool wall oven",
+      "publisher": "AppliancePartsPros repair guidance",
+      "url": null
+    },
+    {
+      "title": "Whirlpool oven and range error code guidance",
+      "publisher": "HomeServe appliance troubleshooting guides",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of Whirlpool oven control diagnosis",
+      "publisher": "Appliantology and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F6 E1",
+    "F6 E0",
+    "F2 E0",
+    "F3 E0",
+    "F5 E1",
+    "F1 E1"
+  ]
+}

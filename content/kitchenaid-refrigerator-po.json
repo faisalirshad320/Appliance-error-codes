@@ -1,0 +1,95 @@
+{
+  "title": "KitchenAid Refrigerator PO Code: Power Outage Alert",
+  "meta_description": "KitchenAid PO is a power outage notice, not a fault. It tells you the power was interrupted so you can judge whether the food is still safe, then clears.",
+  "h1": "KitchenAid refrigerator PO code: what it means and how to clear it",
+  "answer": "PO is not a fault. It is a power outage notification, telling you that the refrigerator lost power at some point and has since got it back. Nothing is broken and no part needs replacing. The reason KitchenAid bothers to show it is food safety: while the power was off the compartments were warming up, and the appliance has no way to tell you for how long, so it flags the outage and leaves the judgment to you. Check your food first, then acknowledge the alert on the display to clear it. It is often written P0 with a zero rather than PO with a letter, which is the same thing.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes, plus checking the food",
+  "cost_estimate": { "diy": "$0", "technician": "$0, no service call needed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The household power went out and came back",
+      "frequency": "most cases",
+      "confirm": "Check whether the clocks on your microwave or oven are flashing, or whether anything else in the house has reset. A storm, a utility fault or a street outage overnight is the usual story, and you will often find the PO waiting for you in the morning."
+    },
+    {
+      "cause": "The refrigerator was unplugged or its breaker was switched off",
+      "frequency": "common",
+      "confirm": "Someone moved the unit, cleaned behind it, worked on the kitchen, or tripped the breaker with another appliance. If the outage was deliberate and brief, the food is fine and the alert is just the appliance noticing."
+    },
+    {
+      "cause": "A loose plug, worn outlet or intermittent supply",
+      "frequency": "occasional",
+      "confirm": "PO keeps coming back with no outage you can account for, and nothing else in the house resets. Check the plug is pushed fully home and look at the outlet for scorching or a socket that no longer grips. A refrigerator losing power repeatedly is worth sorting out properly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check the food before you clear the alert",
+      "detail": "This is the part that actually matters, and clearing the alert first removes your reminder to do it. The standard food safety guidance is that perishables held above 40 degrees Fahrenheit for more than two hours should be thrown out. Put a thermometer in the fridge compartment and look at the freezer: food still containing ice crystals and firm to the touch is generally safe, while meat, dairy and leftovers that have gone soft and warm are not worth the risk.",
+      "minutes": 15,
+      "tools": "Fridge thermometer",
+      "warning": "Judge by temperature and texture, not by smell. Several food-borne bacteria leave no smell, taste or appearance change at all."
+    },
+    {
+      "name": "Acknowledge the alert on the display",
+      "detail": "Look at the control panel for the button the display is offering to confirm or reset the alert; KitchenAid does not use the same button across its range, so go by the label the screen shows rather than a button name from a web page. On dispenser models it is commonly the Measured Fill button acting as the confirm option. Press it, or press and hold it for a few seconds if a short press does nothing.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the settings survived",
+      "detail": "An outage occasionally leaves a refrigerator back on its default settings. Confirm the fridge and freezer temperatures are where you want them, and check that anything you rely on is still enabled, such as the ice maker or a vacation mode you had set. Correcting these now avoids blaming the appliance in a week for something the outage changed.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Give it a day to settle",
+      "detail": "After an outage of any length the cabinet has to pull a lot of heat back out, and the temperature readings will not mean much for a while. Leave the doors shut as much as you can, do not load it with warm groceries straight away, and give it about 24 hours before judging whether the cooling is back to normal.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "If PO keeps returning, look at the supply rather than the fridge",
+      "detail": "A PO that reappears with no outage you can account for is the appliance correctly reporting that it keeps losing power. Pull the unit forward, check the plug is pushed fully into the outlet, and look at both the plug and the socket for scorch marks, discoloration or a socket that has lost its grip. Avoid extension leads and power strips entirely for a refrigerator.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "A scorched or warm outlet is an electrical fault, not an appliance fault. Stop using it and get an electrician rather than continuing to plug the refrigerator in."
+    }
+  ],
+  "still_showing": "If PO will not clear from the display, work through these in order. First, try press and hold rather than a quick press, because on several KitchenAid models the acknowledgment needs the button held for a few seconds and a tap does nothing at all. Second, check you are pressing the right control: the button that clears this alert is not labeled consistently across the range, so read what your own display is offering next to the alert rather than following a button name from a web page, since the wrong name sends people pressing a control that was never going to work. Third, if the panel will not respond, unplug the refrigerator or switch off its breaker for five minutes and restore it, which resets the control and in most cases drops the notification. Fourth, if PO comes back repeatedly after you clear it, stop treating it as a display problem. The appliance is telling you it is losing power, and the cause is almost always outside the refrigerator: a plug not fully home, a worn outlet that no longer grips, an extension lead, or a breaker that is nuisance-tripping. All of those are worth fixing properly because repeated power loss is hard on a compressor. Finally, keep this in proportion. PO is a notification, not a failure, and there is no part to replace and no reason to book a service call for the code itself. The only situation that justifies calling someone is if the refrigerator is also not cooling properly a day after the outage, which is a separate problem that happens to have been revealed by the same event.",
+  "reset_procedure": "Press the button your display offers for confirming or resetting the alert, holding it for a few seconds if a quick press does nothing. If the panel does not respond, unplug the refrigerator or switch off its breaker for five minutes and plug it back in, which clears the notification along with any other stored state. There is no part to replace and no service mode needed; this is an acknowledgment, not a repair.",
+  "model_notes": "The alert appears as PO on some displays and P0 with a zero on others, depending on the font and the panel, and the two are the same notification rather than different codes. The same power outage alert is used across the Whirlpool group, so Whirlpool and Maytag refrigerators behave the same way. The button that acknowledges it varies across the KitchenAid range: published sources variously say any button, the Measured Fill button acting as a confirm, or a press and hold on an alarm reset control. Because it is not consistent, go by what your own display shows next to the alert.",
+  "parts": [],
+  "when_to_call": "You do not need a technician for PO itself, and anyone who proposes replacing a part because of this code has misread it. The one thing worth a call is if the refrigerator is still not holding temperature about 24 hours after an outage, which is a genuine cooling problem rather than a notification. Call an electrician rather than an appliance technician if the alert keeps returning and you find a warm, scorched or loose outlet, because that is a wiring fault and it is a fire risk well beyond the refrigerator.",
+  "faqs": [
+    { "q": "Is PO on a KitchenAid refrigerator an error?", "a": "No. It is a power outage notification telling you the appliance lost power and has it back again. Nothing is broken, there is no part to replace, and no service call is needed. It exists so you know to check whether the food warmed up while the power was off, which the refrigerator has no way of judging for you." },
+    { "q": "Is my food still safe after a PO alert?", "a": "It depends how long the power was off, which the alert does not tell you. The standard guidance is to discard perishables held above 40 degrees Fahrenheit for more than two hours. Frozen food that still has ice crystals and feels firm is generally fine. Judge by temperature and texture rather than smell, because many bacteria leave no trace." },
+    { "q": "How do I clear the PO code?", "a": "Press the button your display offers for confirming or resetting the alert, and hold it for a few seconds if a quick press does nothing. KitchenAid does not use the same button across the range, so read your own panel rather than following a button name from a web page. A five-minute power cycle clears it too." },
+    { "q": "Is PO the same as P0 with a zero?", "a": "Yes. Whether you see a letter O or a zero depends on the font your display uses, and some panels genuinely make the two indistinguishable. They are one notification about one event. You will find both spellings used online for the same thing, so do not go looking for a separate P0 fault." },
+    { "q": "Why does PO keep coming back when there was no outage?", "a": "Because the refrigerator is losing power in a way you have not noticed. Check the plug is fully home, look at the outlet for scorching or a socket that no longer grips, and get the unit off any extension lead or power strip. Repeated power loss is worth fixing properly, since it is hard on the compressor." },
+    { "q": "Do I need to do anything to the refrigerator after an outage?", "a": "Check the temperature settings survived, since an outage sometimes restores defaults, and confirm things like the ice maker are still enabled. Then leave the doors shut and give it about 24 hours to pull the heat back out before judging the cooling. Avoid loading it with warm groceries while it is recovering." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "What a KitchenAid power outage alert is asking you to do",
+    "labels": {
+      "display": "PO",
+      "c1": "Check food before clearing it",
+      "c2": "Confirm button your panel shows",
+      "c3": "Check settings survived the cut",
+      "c4": "Repeat PO means a supply fault"
+    }
+  },
+  "sources": [
+    { "title": "KitchenAid refrigerator power outage alert references", "publisher": "KitchenAid owner documentation and service manual references", "url": null },
+    { "title": "PO and P0 power outage notification on Whirlpool group refrigerators", "publisher": "Appliance Parts Pros technical article", "url": null },
+    { "title": "Refrigerated food safety after a power outage, the 40 degree and two hour rule", "publisher": "US food safety guidance", "url": null }
+  ],
+  "related_codes": []
+}

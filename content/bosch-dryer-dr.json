@@ -1,0 +1,136 @@
+{
+  "title": "Bosch Dryer DR Error Code: What It Means and How to Fix",
+  "meta_description": "A Bosch dryer DR code is a drainage and maintenance fault on ventless models. Empty the water container, clean the fluff filter and condenser first.",
+  "h1": "Bosch dryer DR error code: what it means and how to fix it",
+  "answer": "DR on a Bosch dryer means the machine has stopped because it cannot move the water it pulled out of your clothes. On a condenser or heat pump dryer that water is pumped from a sump in the base up into the container in the top drawer, and anything that blocks that path stops the cycle. Nine times out of ten the cause is maintenance rather than a broken part: a full water container, a furred fluff filter, or a condenser packed with lint. Be aware that DR is inconsistently documented, and some Bosch material reads it as a door switch fault instead, so check the door is properly latched before you take anything apart.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "20 minutes for the routine checks, up to 90 minutes if the pump needs clearing",
+  "cost_estimate": { "diy": "$0 to $30", "technician": "$150 to $300" },
+  "safety_warning": "Unplug the dryer at the wall before any panel, plinth or kick strip comes off. On a heat pump model the sealed refrigerant circuit sits behind the condenser; clean the condenser and its housing, but do not pierce, bend or disconnect any pipework. That circuit is licensed-technician work.",
+  "causes": [
+    {
+      "cause": "The water container is full or not seated properly",
+      "frequency": "most cases",
+      "confirm": "Pull the drawer out at the top left of the machine. If it is heavy and full to the line, that is your fault. A container that is empty but was pushed back crooked reads the same way, because the float never drops and the pump has nowhere to send water."
+    },
+    {
+      "cause": "The fluff filter in the door is clogged",
+      "frequency": "most cases",
+      "confirm": "Open the door and pull the filter up out of the opening. Fabric softener leaves an invisible film that the eye misses, so run your hand across it: if it feels waxy rather than dry, or water beads on it instead of running through, it is blocked even when it looks clean."
+    },
+    {
+      "cause": "The condenser or heat exchanger is packed with lint",
+      "frequency": "common",
+      "confirm": "Open the flap behind the lower plinth and look at the fins. Clean fins are bright metal with daylight visible between them. A gray felt mat across the face, or fins you cannot see through, means the dryer has been run without this being done. Most owners have never opened this flap."
+    },
+    {
+      "cause": "The condensate pump or its filter is blocked with lint slurry",
+      "frequency": "common",
+      "confirm": "Everything above is clean, the container is empty, and you can hear the pump buzzing or straining for a few seconds before the code appears. Wet lint sets into a paste in the sump and the pump cannot shift it. Some models have a small secondary filter in the sump area behind the plinth."
+    },
+    {
+      "cause": "The external drain hose is kinked or run too high",
+      "frequency": "occasional",
+      "confirm": "Only applies if you have plumbed the dryer to drain directly rather than using the container. Follow the hose: a tight bend behind the machine, or a run that climbs above the height the pump can lift, gives you a dryer that drains fine for a while and then throws DR."
+    },
+    {
+      "cause": "The door is not latching, or the door switch is faulty",
+      "frequency": "occasional",
+      "confirm": "Bosch's own code list reads DR as a door fault on some models. Push the door until it clicks firmly and start a cycle. If the drum light stays on with the door shut, or the cycle starts and drops out within seconds, the switch rather than the drainage side is your problem."
+    },
+    {
+      "cause": "The pump itself or the level sensing has failed",
+      "frequency": "rare",
+      "confirm": "Container empty, filters clean, condenser clean, sump clear, and still DR on the next cycle with no pump noise at all. At this point a part is needed, and this is the first point in the list where that is true."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Empty the water container and reseat it",
+      "detail": "Slide the drawer out of the top of the machine, tip it into a sink, and push it back in until it stops square. Do not just pull it part way and push it back. A container that is seated at a slight angle will not let the pump discharge, and the machine reports that the same way it reports a full one.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Close the door firmly and reset the machine",
+      "detail": "Push the door until you hear it click, then turn the program dial to Off, unplug the dryer at the wall and leave it for five minutes. The control holds the fault until it is cleared, so a dryer you have already fixed will keep showing DR. Plug it back in and start a short cycle to test rather than a full load.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wash the fluff filter rather than just shaking it",
+      "detail": "Lift the filter out of the door opening and open it out if it is the two-part kind. Pull the lint off by hand, then hold it under a running tap and scrub both faces with a soft brush to cut the fabric softener film. Water should run straight through it. Shake it off and dry it fully before it goes back in, because a wet filter puts the water straight back into the drum.",
+      "minutes": 10,
+      "tools": "Soft brush",
+      "warning": null
+    },
+    {
+      "name": "Open the plinth and clean the condenser",
+      "detail": "Unplug the dryer. Press the catch or release the two clips on the plinth flap at the bottom front and swing it down. On a condenser model the heat exchanger block lifts out once you rotate the two locking levers; on most heat pump models the condenser is fixed and you clean it in place. Vacuum the face of the fins with a soft brush nozzle, working in the direction of the fins so you do not fold them over, then wipe out the cavity and the sponge seal behind it.",
+      "minutes": 25,
+      "tools": "Vacuum with soft brush nozzle, cloth",
+      "warning": "Unplug first. Do not bend, pierce or pull on any pipe running into the condenser block on a heat pump model; that is the sealed refrigerant circuit."
+    },
+    {
+      "name": "Check for a secondary filter and clear the sump",
+      "detail": "With the plinth still open, look into the cavity below where the condenser sits. Many Bosch ventless models have a small foam or mesh filter and a shallow sump here that collects the lint the main filter misses. Scoop out the wet lint by hand or with a vacuum, rinse any removable filter, and mop the sump dry with a cloth. This is the single most skipped maintenance job on these machines.",
+      "minutes": 20,
+      "tools": "Cloth, vacuum, rubber gloves",
+      "warning": "Unplug at the wall before reaching into the plinth cavity."
+    },
+    {
+      "name": "Flush the pump with clean water",
+      "detail": "With everything back together and the dryer plugged in, pour about a cup of clean water into the condenser cavity or the container housing, depending on your model, and run a short cycle. You should hear the pump run for a few seconds. Water moving through flushes the last of the lint paste out of the impeller. A pump that buzzes without moving water is still blocked; a pump that is silent is a different problem.",
+      "minutes": 10,
+      "tools": "Jug",
+      "warning": null
+    },
+    {
+      "name": "Check the drain hose if the dryer is plumbed in",
+      "detail": "Skip this if you use the water container. If someone has fitted the direct drain kit, pull the machine out and walk the hose from the dryer to the standpipe or sink trap. Straighten any kink, clear any sag holding standing water, and check the run does not climb higher than the installation instructions allow. A hose that was fine for two years will start throwing DR once lint narrows it.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the container is empty and seated, the fluff filter is washed and dry, the condenser is clean and the sump is clear, and DR is still there, work through this in order. First, rule out the door, because it costs nothing and Bosch's own documentation reads DR as a door fault on some models. Shut the door and watch the drum light: if it stays lit, or the machine runs for ten seconds and drops out, the latch or the switch is the fault, not the drainage side. Lint packed into the strike plate recess is a common and free fix. Second, listen carefully at the start of a cycle with the room quiet. A pump that buzzes or hums for a few seconds is being asked to push against a blockage, and the blockage is almost always wet lint set hard in the sump or the impeller housing, which means going back into the plinth cavity and clearing it properly rather than vacuuming the surface. A pump that makes no noise at all is either dead or not being told to run. Third, if you have a heat pump model and the condenser was genuinely filthy when you got to it, run the machine's own condenser cleaning program if it has one, because lint that has migrated deeper into the block does not come out with a vacuum. Fourth, check the obvious installation faults: a dryer that is not level will let water pool away from the sump pickup, and a direct drain hose run too high will work cold and fail when warm. The cost jumps at the pump itself, which is roughly a $60 to $140 part and a job involving laying the machine over, and jumps again at the control board. On a Bosch ventless dryer more than eight years old that has never had the condenser cleaned, get a quote before committing, because a machine run for years with a blocked condenser has usually been running hot and working hard the whole time.",
+  "reset_procedure": "Turn the program dial to Off, unplug the dryer at the wall socket, and wait a full five minutes before plugging it back in. The five minutes matters because the control board holds residual charge and a quick off-and-on will often leave the stored fault in place. Test with the shortest cycle on the dial and a couple of damp towels rather than a full load, so you find out in fifteen minutes whether you have fixed it. If DR comes back on the very next cycle, the underlying blockage is still there; the reset only clears the memory, not the cause.",
+  "model_notes": "DR does not mean the same thing across the whole Bosch dryer range, and this is worth knowing before you spend money. On ventless condenser and heat pump models, which is what most people searching this code own, it behaves as a condensate drainage fault and the maintenance route on this page is the right one. Bosch's own US error code material reads DR as a door closure or door switch problem, and that reading appears to apply to some model families. The two readings are not reconcilable from the public documentation, so check the door first because it is free, then work the drainage side. Older vented Bosch dryers have no condenser, no pump and no water container at all, and will not show this code for drainage reasons. The location of the condenser flap, whether the heat exchanger block is removable, and whether there is a secondary sump filter all vary by series, so the diagram inside the plinth flap or in the manual for your exact model number is the authority on what comes out and what stays in.",
+  "parts": [
+    { "name": "Fluff filter, door type", "cost": "$20 to $45", "difficulty": "easy", "note": "Only if the mesh is torn; almost all just need washing" },
+    { "name": "Condenser sponge or foam secondary filter", "cost": "$10 to $25", "difficulty": "easy", "note": "Cheap, often perished on older machines, worth doing while you are in there" },
+    { "name": "Condensate drain pump", "cost": "$60 to $140", "difficulty": "hard", "note": "Needs the machine laid over; only after the sump is proven clear" },
+    { "name": "Door switch or latch assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Only if the drum light or cycle behavior points at the door" },
+    { "name": "Condenser heat exchanger block", "cost": "$120 to $250", "difficulty": "technician only", "note": "Condenser models only; on heat pump machines this is sealed-system territory" }
+  ],
+  "when_to_call": "Call an appliance technician once the container, both filters, the condenser and the sump are all clean and DR still appears on a fresh cycle, because the next step is testing the pump and the level sensing with the machine live and partly dismantled. Call sooner if you have a heat pump model and the dryer is also running cold or taking far longer than it used to, since that combination points at the sealed refrigerant circuit and there is nothing for you to do there. Do not attempt any work on the refrigerant pipework, gas or otherwise, regardless of what a video shows you. And if water is appearing on the floor under the machine as well as the code on the display, stop using it and get it looked at, because a leaking sump will find the control electronics eventually.",
+  "faqs": [
+    { "q": "What does DR actually stand for on a Bosch dryer?", "a": "Bosch does not spell it out, which is part of the problem. On ventless models it behaves as a drainage fault, and drain is the obvious reading. Bosch's own US code list instead describes DR as a door closure or door switch issue. Both readings appear in circulation, so check the door first because it is free, then work the drainage side." },
+    { "q": "Can I still use the dryer while it shows DR?", "a": "No, and you should not want to. The machine stops the cycle because it cannot move condensate out of the sump, so running it repeatedly just fills the base with water. There is no fire risk the way there is with a blocked vented dryer, but you risk water reaching the electronics underneath. Clear the blockage first." },
+    { "q": "Why did DR appear suddenly when I have not changed anything?", "a": "Because condenser and sump blockages build slowly and then cross a threshold. The dryer copes with a little restriction, then one load tips it over and the fault looks sudden. The usual trigger is a bulky load such as towels or a duvet, which sheds far more lint in one cycle than a normal wash does." },
+    { "q": "How often should I actually clean the condenser?", "a": "Every two to three months with normal family use, and monthly if you dry towels, bedding or pet bedding regularly. Most owners have never opened the plinth flap, which is why this code is so common. The fluff filter is a job for every single load, and the water container needs emptying every load or two." },
+    { "q": "I emptied the water container and DR is still showing. Why?", "a": "Two likely reasons. The container may not be pushed fully home, so the pump still has nowhere to discharge, which reads identically to a full one. Or the fault is stored and needs clearing: turn the dial to Off, unplug the dryer for five minutes and restart. If it returns on the next cycle, the blockage is further down in the sump." },
+    { "q": "Is a blocked condensate pump worth repairing?", "a": "Usually yes, if the machine is under about eight years old. The pump itself is a $60 to $140 part, and a technician call is $150 to $300. Weigh that against a replacement heat pump dryer. If the condenser has never been cleaned in that time, ask the technician to assess the whole machine before you commit to the part." },
+    { "q": "Do vented Bosch dryers get the DR code?", "a": "Not for drainage reasons, because a vented dryer has no condenser, no sump and no water container. It pushes moist air straight outside. If a vented Bosch shows DR, treat it as the door reading rather than the drainage one and check the latch and switch. Confirm which type you own before following any repair guide." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Where condensate goes on a ventless Bosch dryer, and the four places it gets stuck.",
+    "labels": {
+      "display": "DR",
+      "c1": "Water container, empty and seated",
+      "c2": "Door fluff filter, washed not shaken",
+      "c3": "Condenser fins behind the plinth",
+      "c4": "Sump and pump under condenser"
+    }
+  },
+  "sources": [
+    { "title": "Bosch dryer error codes and recommended owner actions", "publisher": "Bosch Home US owner support error code pages", "url": null },
+    { "title": "Condenser and heat pump dryer maintenance, filter and condenser cleaning instructions", "publisher": "Bosch dryer owner's manual supplied with the machine", "url": null },
+    { "title": "Field reports on DR on ventless Bosch dryers and condensate pump blockages", "publisher": "Appliance repair trade blogs and r/appliancerepair threads", "url": null }
+  ],
+  "related_codes": ["E:03", "E:04", "E:32", "E:08"]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Miele Dryer F066 Error: What It Is and How to Clear It",
+  "meta_description": "Miele F066 is the same airflow fault as F66, written with a leading zero. It means blocked filters starving the machine of air.",
+  "h1": "Miele dryer F066: the airflow fault, and the three filters that cause it",
+  "answer": "F066 on a Miele dryer is an airflow fault, and it is the same fault that other Miele displays and documents write as F66; the leading zero is a formatting convention, not a different problem. The machine has seen the temperature at the heater climb faster than it should for the air it is moving, so it has halted the program. On the T1 heat pump models where this code is most often seen, the cause is nearly always the filter chain: the fluff filters in the door, the fine filter behind them, and the plinth filter behind the flap at the bottom of the machine. A plinth filter that was refitted wet is the single most common reason the fault comes straight back after a clean.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes, plus an hour for the plinth filter to dry",
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$180 to $450"
+  },
+  "safety_warning": "Heat pump dryers contain a sealed refrigerant circuit. Clean the filters and vacuum what the manual tells you to vacuum, but never open, drill, cut into or attempt to service the sealed section. That is licensed work and there is nothing inside it a homeowner can usefully do.",
+  "causes": [
+    {
+      "cause": "The plinth filter went back in wet, or has never been taken out",
+      "frequency": "most cases",
+      "confirm": "Open the flap at the bottom front of the machine and pull the element out. Gray, matted and heavy means it has been in there a long time. If you cleaned it recently and F066 returned within a cycle or two, squeeze it: Miele is explicit that a dripping plinth filter brings the fault straight back."
+    },
+    {
+      "cause": "The door filters are sealed by softener residue rather than visible fluff",
+      "frequency": "most cases",
+      "confirm": "Hold the filter under a running tap. Water that beads and pools instead of passing straight through means an invisible film of fabric softener and detergent residue has blinded the mesh. The filter looks clean and is nearly airtight, which is why people clean it, see no fluff, and conclude it cannot be the problem."
+    },
+    {
+      "cause": "Fluff matted on the heat exchanger face behind the plinth recess",
+      "frequency": "common",
+      "confirm": "With the plinth filter out, shine a flashlight into the opening. The exchanger should look like a fine grid you can see light through. If it looks like a sheet of gray felt, air is not crossing it and the heater side climbs within minutes of the cycle starting."
+    },
+    {
+      "cause": "Laundry loaded in far too wet after a poor spin",
+      "frequency": "common",
+      "confirm": "The fault shows on loads that came out of the washer heavy and dripping and not on properly spun ones. A washer dropping to a reduced spin speed on unbalanced loads puts pounds of extra water in the drum, and the cycle runs far longer and hotter than the machine is expecting."
+    },
+    {
+      "cause": "The drum packed too full, usually with towels or bedding",
+      "frequency": "occasional",
+      "confirm": "It happens on the big heavy loads and never on ordinary ones. Air has to pass between the items as well as through the filters, and heavy cotton packed past about two thirds of the drum stops that no matter how spotless the filter chain is."
+    },
+    {
+      "cause": "A genuine temperature sensing or heating fault",
+      "frequency": "rare",
+      "confirm": "Every filter is clean and bone dry, the exchanger is clear, the load is small and well spun, and F066 appears within the first few minutes rather than an hour in. A fault that arrives almost immediately is a different animal from gradual airflow starvation and is not a DIY diagnosis."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Note exactly how the fault is written and when it appears",
+      "detail": "Write down whether your display shows F066 or F66 and, more usefully, how many minutes into the program it appears. An hour into a large load is the classic airflow picture. Within the first five minutes points somewhere else entirely, toward the sensing or the heating control. Tell whoever you call later which it was, because it changes what they expect to find and what they bring with them.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Pull and wash the door fluff filters",
+      "detail": "Open the door and lift the filter or filters out of the opening. Peel the fluff off by hand, then take them to a sink and run water onto the mesh. If the water pools rather than running through, scrub both faces with warm water and a soft brush until it passes freely. Wipe the seating lip in the door opening with a damp cloth too, because fluff collects there and gets pulled straight back in.",
+      "minutes": 15,
+      "tools": "Soft brush, warm water, damp cloth",
+      "warning": null
+    },
+    {
+      "name": "Clean the fine filter behind them and refit it squarely",
+      "detail": "Behind the coarse door filters sits a finer filter or filter ring, depending on your model. Take it out, pull the fluff off and wash it the same way. When it goes back, make sure it beds properly all the way round its frame. A fine filter sitting slightly proud lets unfiltered air bypass it, and everything that bypasses it ends up on the heat exchanger where you cannot easily get at it.",
+      "minutes": 10,
+      "tools": "Soft brush",
+      "warning": null
+    },
+    {
+      "name": "Open the plinth flap and remove the filter element",
+      "detail": "Switch the machine off. At the bottom front there is a flap or kickplate; open it using the catch or quarter-turn fastener your model uses. Behind it is the plinth filter in a frame. Note which way round it sits before you pull it, lay a towel down first because a little water usually comes with it, and look at the state of the element. If it is gray and dense it has been doing all the work the door filters were supposed to do.",
+      "minutes": 10,
+      "tools": "Towel",
+      "warning": null
+    },
+    {
+      "name": "Wash the plinth filter and dry it completely",
+      "detail": "Rinse it under a tap until the water runs clear, pressing a foam element gently rather than wringing or twisting it. Then squeeze out as much water as you can and leave it somewhere warm to dry. This is the step people skip and it is the step that matters most: Miele states that a plinth filter put back dripping wet causes the fault to occur again, so budget an hour of waiting rather than forcing a load through tonight.",
+      "minutes": 15,
+      "tools": "Towel",
+      "warning": null
+    },
+    {
+      "name": "Vacuum the heat exchanger face, within what your manual allows",
+      "detail": "With the plinth filter out, use a vacuum with a soft brush attachment straight onto the exchanger grid, working gently and square to the fins. They bend easily and a bent block restricts air for good. On T1 heat pump machines the exchanger is often designed to be maintenance-free and is not removable, so clean the face and nothing more. Check your own manual before trying to withdraw anything from the recess.",
+      "minutes": 15,
+      "tools": "Vacuum with soft brush attachment, flashlight",
+      "warning": "Never open or dismantle the sealed refrigerant section of a heat pump dryer."
+    },
+    {
+      "name": "Empty the condensate container and check its drain",
+      "detail": "Pull the water container out and empty it, then look at the seating and the channel it sits in for lint sludge, which builds into a paste and restricts things. If your machine is plumbed to drain directly rather than using the container, check that small hose is not kinked behind the machine. This is not the cause of F066 by itself, but a machine fighting its own condensate handling runs longer and hotter, which makes everything else worse.",
+      "minutes": 10,
+      "tools": "Damp cloth",
+      "warning": null
+    },
+    {
+      "name": "Cut the power, then test on a short program with a small load",
+      "detail": "Switch off at the power button and then at the outlet or breaker for several minutes, so the stored fault clears rather than lingering on the display. Restore power and run a short program with a modest, properly spun load, no more than about two thirds of the drum. A short program tells you in twenty minutes whether the cleaning worked instead of leaving you to find out two hours later.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the whole filter chain is clean and dry, the exchanger face is clear and a small well-spun load still brings F066 back, the useful thing is to split the problem by timing rather than keep cleaning. Run a short program with the door filters freshly washed and watch the clock. A fault that lands an hour in, on a reasonable load, is still airflow: the restriction is somewhere you have not reached, which on a condenser or heat pump machine usually means fluff that got past a poorly seated door filter and has built up on the far side of the exchanger, out of reach of any vacuum nozzle from the plinth opening. That is a legitimate service job, not a failure, and a technician opening the machine will find a gray mat and clear it. A fault that lands within the first few minutes is a different story. The machine cannot have starved itself of air that quickly, so either it is reading a temperature that is not real or the heating genuinely is running away, and both are in the heater bank, its temperature sensor and the control that watches them. Nothing you can clean changes that. Before you call anyone, do two cheap things that catch real cases. First, check your washer, not your dryer: a machine that is reducing spin speed on unbalanced loads or not reaching full spin at all puts enough extra water into the drum to push a healthy dryer over the line, and the fault will look like a dryer problem forever. Run a load through an extra spin and dry that. Second, confirm the plinth filter is bone dry and the right way round in its frame, because the repeat-fault rate on wet filters is high enough that it is worth ruling out twice. After that, it is a call, and with Miele the call deserves some thought. The authorized network in the United States is thin outside major metros, call-out charges are higher than for mass-market brands, and parts are expensive and often not carried locally, so a job needing a sensor or control part can become two visits spread over a week or more. Ask for a diagnosis and a written quote before authorizing work. The compensating factor is real: these machines routinely run fifteen years or more, so a ten-year-old Miele in good order is worth spending on in a way that a ten-year-old budget dryer is not.",
+  "reset_procedure": "Switch the dryer off at the power button, then cut power at the outlet or the breaker for several minutes before restoring it. The control holds the stored fault, so a quick off-on at the panel often leaves F066 on the display even after the filters are clean and dry. Restart on a short program with a small load rather than a full cottons cycle. No reset sequence helps while the air path is still restricted, because the machine re-posts the fault as soon as the heater temperature climbs again.",
+  "model_notes": "F066 and F66 are the same fault. Miele writes some fault numbers with a leading zero in service documentation and on certain displays, and owners searching for one often find advice written for the other, which makes the fault look more mysterious than it is. What genuinely varies is the machine family. Heat pump models, including the T1 range, carry a sealed refrigerant circuit and on many of them the heat exchanger is designed to be maintenance-free, so the plinth filter is the serviceable element and the exchanger face is cleaned in place at most. Older condenser models have a removable condenser block that can be withdrawn and rinsed on some versions. Vented models exhaust through a duct to outside, and on those the duct run and the outside hood become part of the air path you have to keep clear. Check your own operating instructions before removing anything from the plinth recess.",
+  "parts": [
+    {
+      "name": "Plinth filter element",
+      "cost": "$20 to $60",
+      "difficulty": "easy",
+      "note": "Replace if the foam has gone brittle, torn or will not come clean. Otherwise wash and dry it"
+    },
+    {
+      "name": "Door fluff filter set",
+      "cost": "$25 to $70",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn or the frame no longer seats. Most just need washing"
+    },
+    {
+      "name": "Condensate container or drain hose kit",
+      "cost": "$25 to $80",
+      "difficulty": "easy",
+      "note": "Only if the container is cracked or a direct drain hose is damaged"
+    },
+    {
+      "name": "Heater bank temperature sensor",
+      "cost": "$60 to $160",
+      "difficulty": "technician only",
+      "note": "Only once airflow is genuinely ruled out. Needs service documentation to diagnose"
+    }
+  ],
+  "when_to_call": "Call once the filter chain is clean and dry, the exchanger face is clear, the load is small and properly spun, and F066 still appears, especially if it appears within the first few minutes of a program. Go in knowing what Miele service costs in the United States. There are far fewer authorized service centers here than in Europe or than there are for mainstream brands, so outside major metropolitan areas expect a longer wait for an appointment and a higher call-out charge. Parts are expensive and frequently not stocked locally, which means a sensor or control job can become two visits a week apart rather than one. Budget $180 to $280 for a diagnostic and internal clean, and $350 to $500 if the heater bank or its electronics are involved. Ask for the quote in writing before authorizing anything. What makes it worth considering anyway is lifespan: these machines commonly run fifteen years and more, so repairing a well-kept eight or ten year old one is a reasonable decision in a way it would not be on a budget dryer. What is never worth paying for twice is a visit to clean a filter you could have cleaned, so exhaust the free steps first.",
+  "faqs": [
+    {
+      "q": "What does F066 mean on a Miele dryer?",
+      "a": "It is an airflow fault. The machine has detected the temperature at the heater rising faster than the air it is moving can account for, so it stops the program to protect itself. Miele attributes the fault primarily to lint filters and the plinth filter not being cleaned, or being cleaned insufficiently, rather than to a component failing."
+    },
+    {
+      "q": "Is F066 different from F66?",
+      "a": "No. They are the same fault written two ways. Miele uses a leading zero in some service documentation and on some displays, so owners searching one number find advice written for the other and assume there must be two separate problems. There is one fault, one set of causes and one fix."
+    },
+    {
+      "q": "I cleaned everything and F066 came back on the next load. What did I miss?",
+      "a": "Almost certainly the plinth filter going back in wet. Miele states plainly that a dripping plinth filter will cause the fault to recur, and people routinely rinse it, squeeze it once and push it straight back. Dry it properly, for an hour somewhere warm if you need to, before refitting. The second likeliest miss is fluff on the heat exchanger face."
+    },
+    {
+      "q": "Can I open the heat pump to clean inside it?",
+      "a": "No. The refrigerant circuit on a heat pump dryer is sealed and working on it is licensed work. You can clean the plinth filter and, on most models, gently vacuum the exchanger face with a soft brush attachment. Anything beyond what your operating instructions describe is a service job, and forcing it will cost you the machine."
+    },
+    {
+      "q": "Can I still use the dryer while F066 is showing?",
+      "a": "The machine stops the program, so you will not get a dry load out of it. There is no immediate hazard in leaving it, but do not keep restarting and hoping. Every restart runs the heater against a restricted air path, which is the exact condition the fault exists to prevent, and it shortens the life of the heating components."
+    },
+    {
+      "q": "Why does F066 only happen with towels and bedding?",
+      "a": "Because those loads are both the heaviest with water and the worst at letting air through. Towels come out of the washer holding a lot of water, and bedding balls up into a solid mass that air cannot pass between. Dry those loads at two thirds drum capacity or less, and give them an extra spin in the washer first."
+    },
+    {
+      "q": "How often should the plinth filter be cleaned?",
+      "a": "Every few months for normal use, and more often if you dry a lot of towels, bedding or anything that sheds heavily. The door filters are the ones that need doing every load; the plinth filter is the backstop that catches what they miss, so how fast it loads up tells you how well the door filters are being maintained."
+    },
+    {
+      "q": "Is a Miele dryer worth repairing at ten years old?",
+      "a": "Often yes, which is unusual. These machines are built to run fifteen years or more, so a well-maintained one at ten is mid-life rather than end-of-life. The caution is the cost structure: a thin US service network, higher call-out charges and expensive parts that are often not stocked locally. Get a written quote before authorizing work."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "The air path on a Miele heat pump dryer and where F066 starts",
+    "labels": {
+      "display": "F066",
+      "c1": "Door fluff filters washed under a tap",
+      "c2": "Fine filter seated fully in its frame",
+      "c3": "Plinth filter rinsed and dried fully",
+      "c4": "Heat exchanger face vacuumed gently"
+    }
+  },
+  "sources": [
+    {
+      "title": "Tumble dryer fault F66, customer assistance guidance",
+      "publisher": "Miele customer support documentation",
+      "url": null
+    },
+    {
+      "title": "Miele T1 heat pump dryer operating instructions, filter and plinth filter maintenance",
+      "publisher": "Miele owner documentation",
+      "url": null
+    },
+    {
+      "title": "Miele dryer fault guidance on cleaning the plinth trap and condenser grid",
+      "publisher": "Appliance retailer technical advice pages",
+      "url": null
+    },
+    {
+      "title": "Owner reports of the fault recurring after a wet plinth filter was refitted",
+      "publisher": "Appliance repair forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F66"
+  ]
+}

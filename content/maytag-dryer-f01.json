@@ -1,0 +1,130 @@
+{
+  "title": "Maytag Dryer F01 Code: Main Control Board Fault",
+  "meta_description": "F01 on a Maytag dryer is a main control board fault. Try a five minute power reset first, then check the harness connectors before buying a board.",
+  "h1": "Maytag dryer F01 code: the main control board, and what to try first",
+  "answer": "F01 on a Maytag dryer means the main electronic control board has failed its own self-check and the machine has stopped. It is the dryer's brain reporting a fault in itself rather than in the heater, the motor or the duct. A full five minute power reset clears a share of these, because some F01 events are a one-off lockup rather than dead hardware. If it comes back after a proper reset, check the harness connectors at the board before you buy anything, then expect a board replacement at roughly $150 to $300 for the part.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to reset, 1 to 2 hours to replace a board",
+  "cost_estimate": { "diy": "$150 to $300 for the board", "technician": "$250 to $450 fitted" },
+  "safety_warning": "Everything past the reset involves working inside a cabinet carrying 240 volts on an electric dryer. Unplug the machine at the wall or switch off both halves of its breaker before any panel comes off, and confirm with a non-contact tester that it is dead. On a gas dryer, close the shutoff valve behind the machine and leave the burner, the gas valve and the gas line to a licensed technician. Never bypass a thermal cut-out or a door switch to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "A transient control lockup rather than failed hardware",
+      "frequency": "most cases",
+      "confirm": "F01 appeared once, often after a power dip, a storm or a cycle that was interrupted. A full five minute power cut clears it and the dryer runs normally afterward. If it does not return over the following week, there is nothing to replace."
+    },
+    {
+      "cause": "A loose, corroded or backed-out connector at the control board",
+      "frequency": "common",
+      "confirm": "Unplug the dryer, open the console or the rear panel, and look at every plug on the board. A terminal that has crept back out of its housing, green powdery corrosion on a pin, or a connector sitting proud rather than clicked home will all produce an F01 on a board that is otherwise fine. Damp laundry rooms make this common."
+    },
+    {
+      "cause": "The main control board has genuinely failed",
+      "frequency": "common",
+      "confirm": "F01 returns on every power-up after a proper five minute reset, with every connector seated and clean. Look at the board itself under good light for a swollen capacitor, a browned patch around a relay, or a cracked solder joint. A visibly scorched board settles the argument."
+    },
+    {
+      "cause": "A chafed or pinched harness between the board and the rest of the dryer",
+      "frequency": "occasional",
+      "confirm": "F01 comes and goes rather than appearing every time, and sometimes clears when the console is moved. Follow the harness from the board and look for a wire rubbed through where it passes a sheet metal edge, or pinched under a panel that was refitted carelessly after an earlier repair."
+    },
+    {
+      "cause": "A surge or voltage problem on the supply that took the board with it",
+      "frequency": "occasional",
+      "confirm": "F01 arrived immediately after a lightning storm, a utility fault, or work on the house wiring, and other electronics in the house also misbehaved. The board may be damaged outright. Have the supply voltage checked before fitting a new board, or you may lose the new one too."
+    },
+    {
+      "cause": "A failure elsewhere that the board reports as its own fault",
+      "frequency": "rare",
+      "confirm": "F01 appears alongside other codes, or alongside an obvious symptom such as a motor that hums and will not start. A shorted component can pull a board's supply down far enough to trigger its self-check. This is where a technician with the service sheet saves you money."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Do a proper five minute power reset",
+      "detail": "Unplug the dryer at the wall, or switch off both halves of its breaker, and leave it for a full five minutes rather than a quick off and on. The board holds residual charge and a short interruption often leaves the fault latched. Restore power and start a short timed cycle with a few damp towels. This alone clears a real share of F01 codes and costs nothing.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note whether anything else is wrong",
+      "detail": "Before opening anything, check what the dryer actually does. Does the drum turn? Does the drum light come on? Does the panel respond at all? A dryer that does nothing whatsoever points at the board or its supply. A dryer that tumbles but shows F01 at the end of a cycle points at something it is monitoring. Write down what you see; a technician will ask.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the supply before you blame the board",
+      "detail": "Confirm both halves of the double breaker are firmly on, and that the plug is seated and the outlet is not loose, warm or discolored. A dryer being fed on one leg of a 240 volt supply does strange things, including throwing control faults. This takes two minutes and rules out the cheapest cause of an apparently dead board.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "A warm or scorched outlet is an electrician's job. Do not keep using it."
+    },
+    {
+      "name": "Open the console and inspect every connector at the board",
+      "detail": "Unplug the dryer and confirm it is dead. On most Maytag dryers the console comes off after two or three screws along the rear edge of the top panel, and the top then hinges forward or lifts off. Photograph the board before you touch anything. Press each connector firmly home, look for green corrosion and for terminals that have backed out of their housings, and check nothing is pinched.",
+      "minutes": 30,
+      "tools": "Phillips #2, nut driver, non-contact voltage tester, flashlight",
+      "warning": "Unplug at the wall and verify with a tester before reaching inside the console."
+    },
+    {
+      "name": "Look at the board itself under good light",
+      "detail": "With the connectors off, examine both faces of the board. You are looking for a capacitor with a domed or split top, a brown halo of heat around a relay or a solder joint, a burst track, or the smell of scorched resin. Any of those is a dead board and settles the question. A board that looks pristine may still be faulty, but a scorched one is certain.",
+      "minutes": 15,
+      "tools": "Flashlight, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Reassemble and retest before ordering anything",
+      "detail": "Put every connector back exactly as photographed, refit the console and the top panel, restore power and run a short timed cycle. A surprising number of F01 codes are cured by nothing more than reseating connectors, and finding that out costs you an hour rather than three hundred dollars. If it runs clean, run two or three more loads before deciding it is fixed.",
+      "minutes": 25,
+      "tools": "Phillips #2, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Get the exact board number from the machine, not from a chart",
+      "detail": "If you are replacing it, take the part number from the label on the board itself and cross-check it against the model number on the sticker inside the door opening. Control boards change part numbers partway through a production run, and a board that looks identical can have different firmware. Order against the board label, not against a generic listing for your model name.",
+      "minutes": 15,
+      "tools": "Phone camera",
+      "warning": null
+    }
+  ],
+  "still_showing": "If F01 survives a correct five minute reset and a connector check, work through this order before you spend money. First, confirm it is really the main board you are looking at. On most Maytag dryers there are two boards: the main control that runs the machine and a separate user interface board behind the buttons. A dryer that shows F01 and then refuses to respond to any button is as likely to have a dead interface board as a dead main board, and the interface is usually the cheaper part. Second, rule out the supply properly. Have someone check that both legs of the 240 volt feed are present and steady at the terminal block, because a dryer fed on one leg misbehaves in ways that look exactly like a control fault, and fitting a new board will not fix it. Third, if the dryer is intermittent, chase the harness rather than the board. With the machine unplugged, follow every loom from the control to the motor, the heater, the thermistors and the door switch, looking for a wire rubbed through at a sheet metal edge or a connector pinched under a panel. Intermittent faults solved by swapping parts cost a fortune and usually come back. Fourth, when everything above is clean and F01 still appears, it is the board. Expect $150 to $300 for the part and another $100 to $150 in labor if you are not fitting it yourself, which puts a professional repair somewhere around $250 to $450. On a dryer under about six years old that is usually worth doing. On one over ten, especially one that was already drying slowly, you are spending a third of the price of a new machine on the component most likely to fail again. One last thing before you order: a used or refurbished board from a breaker's yard is a false economy on this part, because you have no way of knowing why the donor machine was scrapped.",
+  "reset_procedure": "Unplug the dryer at the wall, or switch off both halves of its breaker, and leave it for a full five minutes. The wait matters: the control board holds residual charge and a quick off-and-on frequently leaves the fault latched, which is why so many people conclude a reset did not work when they never really performed one. Restore power and run a short timed cycle with damp towels rather than a full load, so you find out in ten minutes instead of an hour.",
+  "model_notes": "Maytag dryers run the Whirlpool control platform, so F01 means the same thing on Whirlpool, Amana and KitchenAid dryers of the same generation. Across model series the same fault is shown variously as F01, F:01 and F1E1, and some front load models scroll a control failure message instead of a short code. A handful of references also tie F01 on certain models to the door sensing circuit read by the central control, so if your dryer will not start and the door switch feels dead or sloppy, check the door switch and its connector before ordering a board. Confirm the meaning against the tech sheet for your exact model, which is usually folded inside the console or taped behind the lower front panel.",
+  "parts": [
+    { "name": "Main electronic control board", "cost": "$150 to $300", "difficulty": "technician only", "note": "Order against the number on the board itself, not a generic model listing" },
+    { "name": "User interface board", "cost": "$90 to $200", "difficulty": "moderate", "note": "Worth checking first if the panel is unresponsive as well" },
+    { "name": "Wiring harness connector kit", "cost": "$10 to $30", "difficulty": "moderate", "note": "For corroded or backed-out terminals, which is a free fix if you catch it" },
+    { "name": "Door switch assembly", "cost": "$15 to $40", "difficulty": "moderate", "note": "Only if your model ties F01 to door sensing and the switch feels dead" }
+  ],
+  "when_to_call": "Call an appliance technician when F01 returns after a proper five minute reset and a visual check of the board connectors, because the next step is measuring supply voltages inside a live cabinet and that is not a reasonable risk for an occasional DIYer. Call an electrician instead if the outlet is warm or loose, if the breaker trips, or if other things in the house misbehave at the same time, because the board may be a victim rather than the cause. Call a licensed gas technician for anything involving the burner or gas supply on a gas dryer. And get a firm quote before agreeing to a board replacement on a dryer over ten years old, because the fitted cost often lands close to half the price of a new machine.",
+  "faqs": [
+    { "q": "What does F01 mean on a Maytag dryer?", "a": "It means the main electronic control board has failed its own self-check and shut the dryer down. The fault is in the control itself rather than in the heater, motor or vent. A full five minute power cut clears some of these, because not every F01 is dead hardware. If it returns, the board or its wiring needs attention." },
+    { "q": "Can I fix F01 myself?", "a": "Partly. The reset and the connector inspection are reasonable DIY work with the dryer unplugged, and they solve a fair share of cases for nothing. Replacing the board itself is harder: it means working in a cabinet fed by 240 volts, matching the right part number, and transferring connectors exactly. Most people are better off calling someone at that point." },
+    { "q": "How much does it cost to fix an F01 on a Maytag dryer?", "a": "Nothing if a reset or a reseated connector clears it, which happens more often than you would expect. If the board has genuinely failed, the part runs roughly $150 to $300 and professional fitting brings the total to about $250 to $450. Get a quote before agreeing, and weigh it against the age of the machine." },
+    { "q": "Is it worth repairing a dryer with a failed control board?", "a": "Usually yes under about six years old, and usually no over ten. The deciding factors are what else is already wrong and what a comparable new dryer costs. A machine that was drying slowly or making noise before F01 appeared is telling you something, and spending $400 on the board buys you a dryer with other problems." },
+    { "q": "Why did F01 appear suddenly with no warning?", "a": "Control boards fail without warning by nature; there is no gradual symptom the way there is with a worn belt or a blocked vent. The common triggers are a power surge or storm, a damp laundry room corroding connector pins over years, and simple age, since the relays and capacitors on a board have a finite life." },
+    { "q": "Will unplugging the dryer clear F01?", "a": "Sometimes, and it is always the first thing to try. Unplug at the wall or switch off both halves of the breaker and leave it a full five minutes, not thirty seconds. The board holds residual charge, and a short interruption often leaves the fault latched, which is why many people think the reset failed when they never completed one." },
+    { "q": "Can I still use the dryer while it shows F01?", "a": "Generally not, because the control stops the machine rather than running without a working self-check. If it does start a cycle, do not leave it unattended: the board that monitors temperature is the one reporting a fault, so the usual protection against overheating is not reliably in place. Get it diagnosed before running more loads." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "F01 points at the control; check the connectors on it before condemning the board.",
+    "labels": {
+      "display": "F01",
+      "c1": "Five minute power cut at the breaker",
+      "c2": "Main control board in the console",
+      "c3": "Reseat every harness connector",
+      "c4": "Look for scorching or swollen caps"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error codes beginning with F and the control failure group", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "Maytag dryer technical sheet, control fault codes and connector locations", "publisher": "Service tech sheet supplied inside the dryer console", "url": null },
+    { "title": "Field reports on F01 causes and how often a reset or reseated connector resolves it", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["PF", "F2E1", "AF", "F3E3", "F3E2", "LOC"]
+}

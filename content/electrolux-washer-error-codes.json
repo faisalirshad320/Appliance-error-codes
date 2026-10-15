@@ -1,0 +1,220 @@
+{
+  "title": "Electrolux Washer Error Codes: What Each One Means",
+  "meta_description": "Electrolux washer codes are E plus two digits, and the first digit names the subsystem. Plus SU dS, the suds alert.",
+  "h1": "Electrolux washer error codes: what they mean and where to start",
+  "answer": "Electrolux washers report faults as the letter E followed by two digits, and the first digit tells you which subsystem complained: the E1 group is water coming in and the level sensing that watches it, the E2 group is water going out, the E3 group covers motor and speed faults, and the E4 and higher groups cover the door lock, heating and the control electronics. Alongside the numbers there is one plain-language alert that is not a fault at all, SU dS, which means the machine has detected too much foam and is adding rinses to clear it. North American Electrolux front loaders share most of their platform with Frigidaire machines of the same era, so a Frigidaire diagnosis of the same code usually transfers.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify, 20 minutes to 3 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $100",
+    "technician": "$140 to $400"
+  },
+  "safety_warning": "Several of these codes put you behind the control panel or inside the cabinet, where mains wiring sits inches from wet components. Unplug the washer at the outlet before any panel comes off, and never defeat or bypass the door lock to get a drum open.",
+  "causes": [
+    {
+      "cause": "Too much foam, shown as SU dS rather than a number",
+      "frequency": "most cases",
+      "confirm": "The cycle time keeps climbing and the machine keeps rinsing. Look through the door at the end of a spin: a pillow of foam against the glass, or suds still visible after the final rinse, confirms it. It is an alert, not a breakdown, and the machine is already handling it."
+    },
+    {
+      "cause": "Water coming in, the E1 group including E11 and E13",
+      "frequency": "most cases",
+      "confirm": "The cycle stalls early with the drum dry or barely wet. Shut the faucets, undo a hose at the machine end into a bucket and open the faucet for five seconds: a strong jet means the restriction is inside the machine, a dribble means it is in your plumbing."
+    },
+    {
+      "cause": "Water going out, the E2 group including E21",
+      "frequency": "common",
+      "confirm": "The drum still holds water when the cycle stops, and the machine will not spin because it will not spin a full tub. You may hear the drain pump running steadily while nothing leaves, which is the signature of a blockage rather than a dead pump."
+    },
+    {
+      "cause": "Motor, speed sensing and drum rotation faults in the E3 group",
+      "frequency": "occasional",
+      "confirm": "The machine fills and drains correctly but the drum either does not turn or will not reach spin speed. Turn the drum by hand with the power off: heavy, gritty or seized means bearings, while free movement with no rotation under power points at the motor or its control."
+    },
+    {
+      "cause": "Door lock and interlock faults",
+      "frequency": "occasional",
+      "confirm": "The cycle refuses to start at all, or the door stays locked after the machine has finished and drained. Push the door firmly closed and listen for the click of the lock engaging. No click and no start is the pattern."
+    },
+    {
+      "cause": "Heating and temperature sensing faults",
+      "frequency": "occasional",
+      "confirm": "Cycles run through to the end but take far longer than normal, or wash results drop off on warm programs. Put a hand on the door glass twenty minutes into a hot wash: a machine that is heating warms the glass noticeably."
+    },
+    {
+      "cause": "Control board and communication faults",
+      "frequency": "rare",
+      "confirm": "The code appears before the machine does anything mechanical, or the panel behaves erratically, lights up oddly or ignores buttons. Nothing about the fault changes when you clean filters or check hoses, which is what separates it from the water groups."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly, including the odd ones",
+      "detail": "Note whether you have an E followed by two digits, a plain-language alert such as SU dS, or just a pattern of flashing lights. They are not the same thing. SU dS is an advisory and the machine is still working; an E number means the control stopped the cycle. On models without a digital display, count the flashes and note which indicators are lit, because older machines report the same faults that way.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Deal with suds before anything else",
+      "detail": "If you are seeing SU dS, or you see foam against the door glass, run an empty rinse and spin with no detergent at all and watch whether the foam clears. Then cut your detergent dose by half on the next load and make sure it is labeled high-efficiency. Excess foam does not only trigger its own alert: it also cushions the pressure sensing and can make a healthy machine throw fill or drain codes that look like real faults.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel and power cycle the washer",
+      "detail": "Cancel the cycle, then unplug the machine at the outlet for five full minutes. The board holds residual charge and stores the fault, so a quick off-on at the panel often leaves the code displayed even after the underlying problem is gone. Plug it back in and test with a rinse and spin rather than a full wash, so you get an answer in two minutes rather than an hour.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run the bucket test on the water supply",
+      "detail": "Shut both faucets, undo a fill hose at the machine end over a towel and tray, put the loose end in a mop bucket and open the faucet for five seconds. A strong jet rules the house plumbing out in half a minute. While the hose is off, pick the fine mesh screen out of the inlet port with needle-nose pliers, scrub it and refit it squarely. Do both hot and cold.",
+      "minutes": 15,
+      "tools": "Pliers, bucket, old toothbrush, towel, tray",
+      "warning": "Close both faucets before undoing a hose or you take full line pressure in the face."
+    },
+    {
+      "name": "Clear the drain filter and check the drain hose",
+      "detail": "Open the lower access panel at the front, put a shallow tray and towels down, and unscrew the filter cap counterclockwise. Expect a liter or more of water, so drain it into the tray in stages with the cap partly in. Pull out the coins, hair, lint and the occasional underwire. Then follow the drain hose to the standpipe, straighten kinks, and check the standpipe itself is not blocked by pouring a jug of water down it.",
+      "minutes": 25,
+      "tools": "Shallow tray, towels, flashlight",
+      "warning": "Unplug the machine before opening the lower panel. Water and mains wiring share that space."
+    },
+    {
+      "name": "Check the door and the lock",
+      "detail": "Wipe the gasket and the strike area, push the door firmly shut and listen for the click of the lock engaging. Check nothing is trapped in the seal and that the door is not sagging on its hinge, which stops the latch meeting the lock squarely. Never bypass or wedge the interlock to force a cycle to run: it is what keeps the door shut on a full drum at spin speed.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Do not defeat the door interlock under any circumstances."
+    },
+    {
+      "name": "Find your model number and the service sheet",
+      "detail": "The rating plate is usually inside the door opening on the frame, or on the back of the machine. Write down the full model number including any suffix letters. Many of these machines also carry a folded service sheet tucked behind the lower access panel or under the top panel, and that sheet is worth more than any code list on the internet, including this one, because it is written for your exact platform.",
+      "minutes": 10,
+      "tools": "Flashlight, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Decide repair or replace before you order anything",
+      "detail": "Inlet screens, drain filters, hoses, door seals and drain pumps are cheap and worth fixing at almost any age. Main control boards, motors and anything requiring the drum to come apart are not, because labor dominates the bill. On a machine past about eight years old, a quote near $400 is most of the way to a new washer, and that is the point to stop and compare rather than keep spending.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the obvious checks have not moved it, stop chasing the exact number and work the group it belongs to, because the groups are more reliable than any third-party code table. Water in first: a bucket test at the fill hose settles in thirty seconds whether the problem is your plumbing or the machine, and it is the single test that saves people from paying a call-out to be told a faucet was half shut. Water out second: pull the drain filter, and if it is clean, listen during the drain phase. A pump that runs strongly and moves nothing means a blockage further along, a short buzz means a jam in the impeller, and silence is the only sound that genuinely points at a dead pump. Suds third, and treat this one seriously even when the panel is showing a numeric code rather than SU dS, because foam sits on the water surface and cushions the pressure sensing that the control uses to judge level. A machine fed too much detergent, or regular detergent instead of high-efficiency, will post fill and drain codes that have nothing wrong behind them. Run two empty rinse cycles with no detergent and retest before you order a part. Fourth, the quiet one: the washer measures water level through a small air hose running from a trap on the outer tub to a pressure sensor, and on this platform that hose silts up with detergent residue until the sensor stops seeing the water rise. Pulling it off at both ends and flushing it through is a cheap job with the top panel off and it resolves a real share of complaints that look like valve or pump failures. Only after all of that does it make sense to talk about boards and motors. If you cannot place the code at all, the fallback beats guessing: get the full model number off the door frame, find the service sheet behind the lower panel, and call Electrolux support or an independent technician who also works on Frigidaire with both in front of you. The shared platform is a genuine advantage here, because the pool of technicians who know these machines is much larger than the brand-authorized list suggests.",
+  "reset_procedure": "Cancel the cycle, then unplug the washer at the outlet for a full five minutes before restoring power. The board holds residual charge and keeps the stored fault, so a quick off-on frequently leaves the code on the display even after the problem is fixed. Test with a rinse and spin instead of a full cycle. For SU dS specifically there is nothing to reset: the alert clears itself once the extra rinses have dealt with the foam, and pressing Cancel will silence it. A code that returns immediately on restart means the underlying fault is still present, and no reset sequence will change that.",
+  "model_notes": "Two things vary enough to matter. First, Electrolux front loaders sold in North America are built on substantially the same platform as Frigidaire machines of the same era, so inlet valves, drain pumps, pressure sensing arrangements and the E-number scheme are close cousins and cross-brand guidance usually transfers. European Electrolux machines, and the AEG and Zanussi machines built alongside them, use a broadly similar E-number scheme but the detail differs, so do not assume a European code table applies to a US machine. Second, display behavior differs by generation: later machines show codes plainly on the panel, some mid-range models only reveal them in a service diagnostic mode, and older or dial-only machines report the same faults with flashing indicator lights and no number at all. Machines with the SmartBoost premix system have an extra water path ahead of the drum, which adds a possible location for a fill fault that other models do not have.",
+  "parts": [
+    {
+      "name": "Drain pump",
+      "cost": "$45 to $120",
+      "difficulty": "moderate",
+      "note": "Covers most of the drain group once blockages are ruled out"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "The usual part behind a genuine fill fault"
+    },
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$45 to $130",
+      "difficulty": "moderate",
+      "note": "Common on no-start and door-stays-locked complaints"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$40 to $95",
+      "difficulty": "moderate",
+      "note": "Flush the air hose first. It is free and often the real fault"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort on any code, and rarely worth it past eight years old"
+    }
+  ],
+  "when_to_call": "Call a technician once the free checks are exhausted and the next step means working inside a live machine: a silent drain pump with a clean connector, a motor or speed fault, a heating fault, or anything that looks like a board. Two brand-specific points change the math. Electrolux has fewer authorized service centers in the United States than Whirlpool or GE, so in much of the country expect a longer wait for an appointment, a higher call-out charge, and a decent chance the part is not on the van and has to be ordered, which turns one visit into two. Against that, the Frigidaire platform overlap means a good independent technician who works on Frigidaire machines can usually diagnose these correctly and often sources parts faster than the authorized route, so ask when you call around. Call a plumber rather than an appliance technician if a bucket test at the fill hose gives a weak dribble, or if the laundry standpipe backs up when the machine drains, because both are house plumbing. And get any quote over about $400 in writing on a machine already eight years old.",
+  "faqs": [
+    {
+      "q": "What is the suds code on an Electrolux washer?",
+      "a": "It shows as SU dS and it means the washer has detected too much foam. The machine responds by adding extra rinses, each of which lengthens the cycle by a few minutes, until the suds clear. It is an advisory rather than a breakdown. The fix is less detergent and making sure what you are using is labeled high-efficiency for front loaders."
+    },
+    {
+      "q": "Where does an Electrolux washer show its error code?",
+      "a": "On the main display on models that have one. Some mid-range machines only reveal stored codes in a service diagnostic mode rather than showing them during a cycle, and older or dial-only machines report the same faults with flashing indicator lights and no number at all. In that case, note which lights flash and how many times."
+    },
+    {
+      "q": "Are Electrolux and Frigidaire washer error codes the same?",
+      "a": "Largely, for North American front loaders. The two brands share most of their platform, including the inlet valves, drain pumps, pressure sensing and the E-number scheme, so a Frigidaire diagnosis of the same code usually transfers. European Electrolux, AEG and Zanussi machines use a related but different scheme, so do not treat a European code table as authoritative for a US machine."
+    },
+    {
+      "q": "How do I reset an Electrolux washer?",
+      "a": "Cancel the cycle, then unplug the machine at the outlet for five full minutes and plug it back in. The control board holds residual charge and stores the fault, so a quick off-on often leaves the code showing. Test with a rinse and spin. A code that reappears immediately means the fault is still present and no reset will clear it."
+    },
+    {
+      "q": "Can too much detergent cause error codes other than the suds alert?",
+      "a": "Yes, and this is underappreciated. Foam sits on top of the water and cushions the pressure sensing the control uses to judge level, so an over-sudsed machine can post fill or drain codes with nothing mechanically wrong. Run two empty rinse cycles with no detergent and retest before you order any part on a machine that foams."
+    },
+    {
+      "q": "Which Electrolux washer codes can I fix myself?",
+      "a": "The water groups, mostly. Fill faults usually come down to a faucet, a hose or an inlet screen, and drain faults usually come down to the filter behind the lower access panel or a kinked drain hose. Door lock and heating faults are borderline. Motor, bearing and control board faults are technician work and are where the cost jumps."
+    },
+    {
+      "q": "Can I keep using the washer while a code is showing?",
+      "a": "It depends which group. A suds alert is harmless and the machine is already handling it. A fill or drain fault stops the cycle, so nothing useful happens and a drain fault leaves dirty water sitting in the drum. A door lock fault may leave the door shut on a wet load. None are a shock hazard, but none will wash either."
+    },
+    {
+      "q": "Is an Electrolux washer worth repairing?",
+      "a": "For filters, hoses, seals, inlet valves and drain pumps, yes at almost any age, because the parts are modest and the jobs are short. For control boards, motors and anything needing the drum split, usually not past about eight years: labor dominates, and the thinner US service network means a longer wait and a bigger call-out on top."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The order to work through any Electrolux washer code",
+    "labels": {
+      "display": "E--",
+      "c1": "Note the code or the flash pattern",
+      "c2": "Clear suds with two empty rinses",
+      "c3": "Bucket test the fill, clear the drain filter",
+      "c4": "Unplug five minutes, then retest"
+    }
+  },
+  "sources": [
+    {
+      "title": "Front loading washer displaying error code SU dS, too many suds",
+      "publisher": "Electrolux owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Electrolux front load washer owner guide, alerts and troubleshooting section",
+      "publisher": "Electrolux Major Appliances",
+      "url": null
+    },
+    {
+      "title": "Electrolux and Frigidaire laundry service literature and platform fault schemes",
+      "publisher": "Electrolux service documentation",
+      "url": null
+    },
+    {
+      "title": "Field guidance on Electrolux fill, drain and suds faults",
+      "publisher": "Appliance parts retailer repair guides and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "SU dS",
+    "E11",
+    "E13",
+    "E21",
+    "E23",
+    "E35"
+  ]
+}

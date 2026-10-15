@@ -1,0 +1,172 @@
+{
+  "title": "Miele Coffee Machine F43 Error: What It Means, What to Do",
+  "meta_description": "Miele does not publish F43 in its coffee machine fault lists. Here is what is known, the resets worth trying, and when to stop and book Miele service.",
+  "h1": "Miele coffee machine F43: what is actually known about this code",
+  "answer": "F43 is not a well documented code on Miele coffee machines. It does not appear in the published fault tables for the coffee range, where the familiar F codes cover water intake, the grinder and the brew unit, and no reliable public source defines it. What is known is that across Miele's other appliance lines, the F4x codes are internal electronics and configuration faults rather than anything an owner maintains, which puts F43 in service territory rather than descaling territory. Do the full power-down reset below and check that the brew unit, drip tray, grounds container and water tank are all properly seated, because a component the machine cannot see produces odd codes. If it returns, book Miele service rather than guessing at parts.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 to 30 minutes to try the resets",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$180 to $450 including the call-out"
+  },
+  "safety_warning": "A Miele coffee machine contains a mains-voltage heater and a pressurized hot water circuit. Unplug it and let it cool fully before removing or reseating anything, and do not open the cabinet; the serviceable parts on these machines are all reachable from the front or the side door with no tools.",
+  "causes": [
+    {
+      "cause": "An internal control or module fault the machine cannot clear itself",
+      "frequency": "most cases",
+      "confirm": "The code returns immediately or within a cup or two of every power-up, regardless of what you reseat or clean, and the machine will not run a normal brew cycle. A fault that survives a full power-down and a reseat of every removable part is not a user-level problem, whatever it turns out to be called."
+    },
+    {
+      "cause": "A transient glitch that a full power-down clears",
+      "frequency": "common",
+      "confirm": "The code appeared once, often after a power cut, a surge, a move, or an interrupted cycle. Unplug the machine for several minutes, plug it back in and run a rinse. If it brews normally after that and the code never comes back, it was a glitch, and there is nothing to repair."
+    },
+    {
+      "cause": "A removable component is not seated, so the machine cannot detect it",
+      "frequency": "common",
+      "confirm": "The drip tray, grounds container, water tank or brew unit went back in slightly off, or a magnet or switch face is wet or coffee-grounds-caked. Take each one out and put it back deliberately until it clicks home. On machines with a removable brew unit, it must be in its home position before it will slide in; forcing it is what breaks them."
+    },
+    {
+      "cause": "A sensor, switch or module inside the machine has failed",
+      "frequency": "occasional",
+      "confirm": "Everything reseats correctly, the resets are clean, and the fault still appears at the same point every time. A fault that is reproducible at a specific moment in the cycle is a failed component rather than a glitch, and a technician can read the machine's own fault log to identify it in minutes."
+    },
+    {
+      "cause": "Configuration mismatch after a board replacement or a service visit",
+      "frequency": "occasional",
+      "confirm": "The machine was repaired, serviced or had electronics replaced shortly before the code started. On other Miele appliance lines, F43 specifically indicates that the model type has not been programmed or that two modules do not match each other, which is exactly what happens when a replacement board goes in without being configured. That meaning has not been confirmed for the coffee range, but if your machine was recently serviced, tell whoever did it, because reprogramming is a software job and not a new part."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down exactly what the display shows",
+      "detail": "Photograph the screen, including any text above or below the code and any fault number Miele shows alongside it. Miele displays usually pair a code with a short plain-language message, and that message is more useful than the number for working out which part of the machine is unhappy. Note what the machine was doing when it appeared: at power-up, during grinding, during brewing, or at the rinse.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Do a full power-down reset, not a standby",
+      "detail": "Switch the machine off at its own power button, then pull the plug from the wall and leave it out for at least five minutes. Standby is not off: these machines keep their electronics alive and a stored fault will still be there. If it is a built-in model, use the isolating switch in the adjacent cabinet or the breaker. Plug back in and let it run its automatic rinse without interrupting it.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Let the machine cool before handling internal parts. The brew unit and the water path stay hot for some time after use."
+    },
+    {
+      "name": "Remove and reseat every part the machine has to detect",
+      "detail": "With the machine cool and unplugged, take out the drip tray, the grounds container and the water tank. Wipe the contact faces and the recesses they sit in, especially any small magnet or metal tab and the matching spot on the housing, which collects coffee grounds and milk residue. Put each back deliberately until it seats with a click. A tray sitting a few millimeters proud is enough for the machine to decide it is missing.",
+      "minutes": 10,
+      "tools": "Soft cloth",
+      "warning": null
+    },
+    {
+      "name": "Remove, rinse and refit the brew unit if your model has one",
+      "detail": "On models with a removable brew unit, open the side door, press the release and slide it out. Rinse it under warm water with no detergent, let it drain, and check nothing is jammed in the chamber. It must be in its home position to go back in; most have an arrow or markers that have to line up. Slide it in squarely until it latches. Never force it, and never lever it with a tool, because the plastic rails are what fail when people do.",
+      "minutes": 15,
+      "tools": "Soft cloth",
+      "warning": "Machine unplugged and cool before removing the brew unit."
+    },
+    {
+      "name": "Run the machine's own cleaning cycle if it will let you",
+      "detail": "If the machine reaches its menu, run the brew unit degrease or clean cycle with the proper Miele tablet, and descale it if it has been asking you to. This will not fix an electronics fault, but it rules out the possibility that the code is downstream of a clogged or seized brew unit, and it costs one tablet. If the machine will not enter its menu at all, skip this and go to the next step.",
+      "minutes": 25,
+      "tools": "Miele cleaning tablet, descaling product specified for your model",
+      "warning": null
+    },
+    {
+      "name": "Book Miele service with the model and serial number ready",
+      "detail": "If the code survives the power-down and the reseat, stop. Get the model and serial number from the rating label, which on most Miele coffee machines is behind the water tank or on the underside. Give Miele the exact code, the exact display message and the point in the cycle it appears. Their machines keep an internal fault log a technician can read directly, which is the fastest and cheapest route to a real diagnosis on a code nobody publishes.",
+      "minutes": 15,
+      "tools": "Phone, model and serial number",
+      "warning": null
+    }
+  ],
+  "still_showing": "Be straight with yourself about what this code is. Miele publishes fault tables for its coffee machines covering water intake, the grinder, the brew unit and the drainage path, and F43 is not in them. No reliable public source defines it for the coffee range. That means anyone online telling you confidently that F43 is a specific sensor or a specific valve is guessing, and fitting a part on that basis is how people spend two hundred dollars and still have the code. Here is the honest escalation. First, repeat the full power-down, but leave it unplugged for half an hour rather than five minutes, and put the machine back together with the water tank filled and everything seated before you restore power. Some control faults latch until the electronics fully discharge. Second, try it with the grounds container and drip tray removed and then refitted while the machine is powered on, if your model allows, and watch whether the display acknowledges each one. A machine that does not notice a tray going back in has told you which circuit is unhappy. Third, if the machine was serviced, repaired or had electronics replaced in the recent past, phone whoever did that work before you phone anyone else. On other Miele appliance lines F43 means a module has not been programmed with the correct model type, which is precisely the state a replacement board arrives in. That has not been confirmed for coffee machines, but it costs one phone call to check and the fix would be software rather than parts. Fourth, book Miele service. These machines log their own faults internally and a technician reads that log rather than working from the number on the screen, so they will know within minutes what the machine is actually complaining about. Expect $180 to $450 including the call-out, which on a Miele is usually worth it, because the machines run well past a decade and the alternative is a four-figure replacement. What you should not do is buy a part based on a code chart for a Miele dryer, oven or washing machine. Those appliances use the same F numbering and mean different things by it, and that cross-contamination is where most of the bad advice about F43 comes from.",
+  "reset_procedure": "Switch off at the machine's own power button, then unplug it at the wall, or use the isolating switch or breaker for a built-in model. Leave it disconnected for at least five minutes, and half an hour if five did not work. Standby does not count: these machines stay powered and keep the stored fault. Plug back in with the water tank full and every removable part seated, let the automatic rinse run through without interrupting it, and then try a single espresso rather than a milk drink, so fewer systems are involved in the test.",
+  "model_notes": "Miele uses F-prefixed codes across its whole appliance range, and the same number means different things on different appliances. F43 is documented on Miele tumble dryers, washing machines and ovens, where it indicates that the model type has not been programmed or that two control modules do not match, and Miele describes that as a technical fault an owner cannot remedy. It is not documented in the published coffee machine tables. The coffee range itself spans freestanding, countertop and built-in models with quite different hardware, including machines with a removable brew unit and machines where the brew unit is fixed and serviced only from inside, so even a confirmed code can imply a different repair depending on which you own. Treat any cross-appliance code chart with suspicion, and get the fault list for your own model and serial number.",
+  "parts": [
+    {
+      "name": "Drip tray or grounds container",
+      "cost": "$40 to $120",
+      "difficulty": "easy",
+      "note": "Only relevant if the original is cracked or its magnet or tab is damaged"
+    },
+    {
+      "name": "Removable brew unit",
+      "cost": "$200 to $450",
+      "difficulty": "moderate",
+      "note": "A real part on many models, but do not buy one on the strength of an undefined code"
+    },
+    {
+      "name": "Electronic control module",
+      "cost": "Quoted by service",
+      "difficulty": "technician only",
+      "note": "Needs programming to the machine after fitting, which is why this is not a DIY part"
+    }
+  ],
+  "when_to_call": "Call Miele service as soon as a full power-down and a careful reseat of every removable part have failed to clear it, which on an undefined code is sooner than you would escalate on a well documented one. There is no diagnostic you can usefully run at home against a code nobody publishes, and the machine's own internal fault log answers the question in minutes in a technician's hands. Call immediately rather than experimenting if you see or smell anything electrical, if water is appearing underneath the machine, or if it is a built-in model, since getting those out of a cabinet without damaging the furniture is a job in itself. If the machine was serviced recently, call that engineer first, because a configuration problem after a board replacement is their responsibility to put right.",
+  "faqs": [
+    {
+      "q": "What does F43 mean on a Miele coffee machine?",
+      "a": "Miele does not publish a definition for F43 in its coffee machine fault tables, and no reliable public source gives one. It is an internal fault the machine has logged rather than a maintenance prompt like descaling. The practical answer is to do a full power-down reset, reseat every removable part, and if it returns, have Miele read the machine's own fault log."
+    },
+    {
+      "q": "Can I fix F43 myself?",
+      "a": "You can try the two things worth trying: a full power-down with the plug out for at least five minutes, and removing and refitting the water tank, drip tray, grounds container and brew unit so the machine can detect each one. Beyond that, no. Buying parts against an undefined code is how people spend real money and still have the fault."
+    },
+    {
+      "q": "Is F43 the same on a Miele coffee machine as on a Miele dryer?",
+      "a": "Do not assume so. On Miele dryers, washers and ovens, F43 indicates the model type is not programmed or that two control modules do not match, which Miele treats as a technician-only fault. The coffee range uses the same F numbering for its own fault list, and the same number does not carry over between appliance types. Cross-appliance charts are where most bad F43 advice comes from."
+    },
+    {
+      "q": "Can I still use the machine with F43 showing?",
+      "a": "Usually not, because the machine stops rather than brewing with a logged fault. If it does still make coffee between appearances of the code, you can keep using it while you arrange service, but empty the drip tray and grounds container more often than usual and watch underneath for water. An intermittent fault that involves the water circuit can turn into a leak."
+    },
+    {
+      "q": "Will descaling clear F43?",
+      "a": "Almost certainly not. Descaling addresses a scaled-up water circuit, which Miele signals with its own prompts and its own codes, not with an undefined F4x. Run the descale if the machine has been asking for one, since an overdue descale causes its own problems, but do not expect it to clear this code and do not keep running descale cycles hoping it will."
+    },
+    {
+      "q": "Why did F43 appear right after my machine was serviced?",
+      "a": "That timing is worth reporting to whoever did the work. On other Miele appliance lines, this code family means a replacement control module has not been programmed with the correct model type, which is the state a new board is in before it is configured. It has not been confirmed for coffee machines, but a recently serviced machine throwing a new electronics code is a conversation to have with that engineer first."
+    },
+    {
+      "q": "Is a Miele coffee machine worth repairing at this cost?",
+      "a": "Usually yes. A service visit and repair in the $180 to $450 range sits against a replacement cost that is often four figures, and these machines routinely run well over a decade with the brew unit cleaned and the descaling kept up. Get the diagnosis and the quote before deciding, and ask whether the fault is in the brew unit or the electronics, because that changes the number."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The only two things worth trying at home on an undefined Miele code.",
+    "labels": {
+      "display": "F43",
+      "c1": "Full power-down, not standby",
+      "c2": "Reseat tank, tray, container",
+      "c3": "Refit brew unit squarely",
+      "c4": "Miele service reads the log"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele coffee machine operating instructions, fault messages and what to do",
+      "publisher": "Miele owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Miele customer assistance fault pages, where F43 is documented for other appliance types but not for coffee machines",
+      "publisher": "Miele customer support",
+      "url": null
+    },
+    {
+      "title": "Published Miele coffee machine F-code tables, which do not list F43",
+      "publisher": "Coffee machine and appliance repair reference sites",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F10",
+    "F28",
+    "F73"
+  ]
+}

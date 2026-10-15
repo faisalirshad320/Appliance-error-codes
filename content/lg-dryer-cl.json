@@ -1,0 +1,102 @@
+{
+  "title": "LG Dryer CL Code: Child Lock On, and How to Turn It Off",
+  "meta_description": "CL on an LG dryer is not a fault. It means Child Lock is on and the buttons are disabled. Hold the button with the small padlock icon for three seconds.",
+  "h1": "LG dryer CL code: it means child lock, and here is how to clear it",
+  "answer": "CL on an LG dryer is not an error code. It is the Child Lock indicator telling you the control panel buttons have been disabled so a child cannot change the cycle. Hold down the button with the small padlock icon printed on or under it for about three seconds and CL disappears. On most LG dryers that is the Timed Dry button, but the exact button varies by model, so look along the panel for the padlock symbol.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 5 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$130 to $280 if the control panel has actually failed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Child Lock was switched on, deliberately or by accident",
+      "frequency": "most cases",
+      "confirm": "CL shows in the display and every button except Power is dead. Nothing else is wrong: the drum turns if a cycle was already running, the door works, and the dryer behaves normally once the lock is off. A long press on the lock button while clearing the panel is all it takes."
+    },
+    {
+      "cause": "Someone is pressing the wrong button, or not holding it long enough",
+      "frequency": "most cases",
+      "confirm": "You have tried the Child Lock button and nothing happened. Look closely at the panel for a tiny padlock symbol printed below a button rather than on it, then hold for a full three seconds and count. Quick taps do nothing, and on some panels the lock button is not the one labelled Child Lock."
+    },
+    {
+      "cause": "The lock was set before the dryer was powered off and has stayed on",
+      "frequency": "common",
+      "confirm": "You unplugged the dryer or tripped the breaker and CL was still there when power came back. That is expected behavior, not a fault: LG keeps the child lock setting through a power cycle so it cannot be defeated by switching the machine off and on."
+    },
+    {
+      "cause": "A button is physically stuck or the touch panel has failed",
+      "frequency": "rare",
+      "confirm": "You can see the padlock icon, you are holding the right button for three full seconds, and nothing on the panel responds at all, including after a five minute power cut. A button that feels mushy or stays depressed, or a touch panel with a dead patch, points at the user interface board rather than the lock."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the padlock symbol on the control panel",
+      "detail": "Scan the whole panel, not just the obvious buttons. On LG dryers the child lock is usually a secondary function printed as a small padlock icon directly under or beside a button, most often Timed Dry, sometimes Signal, Temp Control or Wrinkle Care. On some panels it is shared between two adjacent buttons and the icon sits between them.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Press and hold that button for three full seconds",
+      "detail": "With the dryer powered on, hold the button down and count to three out loud rather than guessing. You should hear a beep and see CL clear from the display. Quick presses do nothing at all, which is the whole point of the feature, and is why most people conclude the button is broken when it is working perfectly.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try the two-button combination if your panel has one",
+      "detail": "Some LG models use two buttons held together rather than one. The pair is printed with the padlock icon between them, commonly Temp Control and Signal, or the two buttons either side of the cycle dial. Press both at the same moment and hold for three seconds. If your panel has a dedicated Child Lock button, this does not apply.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the model-specific instruction in the manual",
+      "detail": "The button assignment genuinely changes between LG dryer series, so the manual is worth thirty seconds here rather than pressing everything in turn. Look up your model number from the sticker inside the door opening and search LG's support site for the owner's manual, then find Child Lock in the control panel section.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power the dryer down and try again",
+      "detail": "Switch the dryer off at its breaker for five minutes, restore power, then try the hold again. This does not turn the child lock off by itself, because the setting survives a power cut by design, but it clears a frozen control panel that is not registering presses at all. If the panel comes back to life and the hold now works, you had a hung control rather than a hardware fault.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If CL will not clear after holding the right button for three seconds, the question is whether the control panel is responding at all. Test that first, and it costs nothing: with the dryer on, press any other button, such as a cycle selection or Temp Control, and watch the display. If other buttons respond normally and only the lock will not release, you are almost certainly on the wrong button. Go back to the panel with a flashlight and look for the padlock icon again, including between buttons and on the second row of printed text, and try holding each candidate for a full five seconds rather than three. If nothing at all on the panel responds, cut power at the breaker for five minutes and try once more; a hung user interface board is common and a proper power cut often brings it back when a quick off-and-on will not. If after that the panel is still dead, the fault is the user interface board or a cracked ribbon connection behind it, not the child lock. That is a part costing roughly $90 to $200 plus labor, and it is the point where the job stops being free. Before you spend anything, check one last thing: that the display is actually showing CL and not a similar-looking code on your panel's font, because a d-series duct code or a tE thermistor code is a different problem entirely and will not respond to any button hold.",
+  "reset_procedure": "Child lock is not cleared by resetting the dryer. LG deliberately keeps the setting through a power cut so that switching the machine off does not defeat it. Hold the button carrying the padlock icon for three seconds instead. A five minute power cut at the breaker is still worth doing if the whole panel has stopped responding, because it clears a frozen control, but it will not by itself turn the lock off.",
+  "model_notes": "Which button carries the child lock varies across LG dryer series more than almost any other control. Timed Dry is the most common, with the padlock printed underneath it; some models use Signal or Temp Control, and some need two buttons held together. A few LG washers also display CL for the same feature, so if you have a stacked laundry pair, check which unit is showing it. The function itself is the same everywhere: it disables the panel buttons and survives a power cut.",
+  "parts": [
+    { "name": "User interface control board", "cost": "$90 to $200", "difficulty": "technician only", "note": "Only if the whole panel is unresponsive after a five minute power cut" }
+  ],
+  "when_to_call": "There is almost never a reason to call anyone for CL. The exception is a control panel where no button does anything at all after a full five minute power cut at the breaker, which points at the user interface board rather than the lock setting. Get a quote before agreeing to that repair: with the board and labor it usually lands between $200 and $350, which is worth weighing against the age of the dryer. If the dryer is also throwing a duct or thermistor code alongside it, deal with that first, because it is the real fault and CL is just a setting.",
+  "faqs": [
+    { "q": "Is CL an error code on an LG dryer?", "a": "No. CL stands for Child Lock and is a feature indicator, not a fault. It means the control panel buttons have been disabled so the cycle cannot be changed mid-run. Nothing is broken, nothing needs a part, and the dryer will finish a cycle that is already running. Hold the button with the padlock icon for three seconds to turn it off." },
+    { "q": "Which button turns off child lock on an LG dryer?", "a": "Look for a small padlock symbol printed on or just under a button. On most LG dryers it is Timed Dry, but some models use Signal or Temp Control, and a few need two adjacent buttons held together. Hold for a full three seconds and listen for the beep. The exact button is in the control panel section of your manual." },
+    { "q": "Why does CL stay on after I unplug the dryer?", "a": "By design. LG keeps the child lock setting stored through a power cut, so switching the dryer off at the wall or the breaker will not defeat it. If it cleared on a power cycle, a child could do the same thing. The only way to release it is the button hold on the panel." },
+    { "q": "Can I still use the dryer with CL showing?", "a": "A cycle that was already running will finish normally, but you cannot start a new one or change any setting while the lock is on. The Power button usually still works. There is no risk in leaving it locked, it is just inconvenient, so release it before your next load." },
+    { "q": "Why did CL appear on its own?", "a": "Something held the lock button down long enough to register. Wiping the panel with a cloth, a stacked washer vibrating against the panel, a pet, or a child doing exactly what the feature exists to prevent will all do it. There is no fault condition that switches child lock on by itself." },
+    { "q": "What if holding the button does nothing?", "a": "Check first whether any other button on the panel responds. If they do, you are holding the wrong one, so look again for the padlock icon and hold for five seconds. If no button responds at all, cut power at the breaker for five minutes and retry; if the panel is still dead after that, the user interface board has failed and needs replacing." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "CL is a setting on the panel, not a fault inside the dryer.",
+    "labels": {
+      "display": "CL",
+      "c1": "Find the small padlock icon",
+      "c2": "Hold that button three seconds",
+      "c3": "Some models need two buttons",
+      "c4": "Power cut only frees a hung panel"
+    }
+  },
+  "sources": [
+    { "title": "How to use the child lock feature and the CL display on LG laundry", "publisher": "LG support help library", "url": null },
+    { "title": "LG dryer owner's manual, control panel and child lock section", "publisher": "LG owner's manual supplied with the dryer", "url": null },
+    { "title": "Field reports on which button carries child lock across LG dryer series", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["D80", "D90", "tE1", "dE", "PS", "nP"]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Samsung Washer UR Code: What It Means and What To Do",
+  "meta_description": "UR on a Samsung washer is an unbalanced load retry. The machine is adding water to rebalance the drum and will try the spin again. Usually not a fault.",
+  "h1": "Samsung washer UR code: what it means and what to do",
+  "answer": "UR means the washer found the load sitting unevenly in the drum at the start of a spin, so it has stopped, added water and begun tumbling to spread the laundry out before trying the spin again. Samsung describes it as an unbalanced load retry, and on its own it does not mean anything is broken. Expect it to add several minutes to the cycle and then carry on. It only becomes a problem if the retry never succeeds, if the cycle ends with wet clothes, or if the code hardens into UB or UE.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 to 20 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "One heavy item in an otherwise light load",
+      "frequency": "most cases",
+      "confirm": "Open the door when it settles. A single bath sheet, a hoodie, a pair of jeans or a bath mat sitting in a wet lump on one side of the drum with everything else flat against the wall. Water makes that one item heavy enough to throw the drum out of balance on its own."
+    },
+    {
+      "cause": "The load has tangled into a rope or a ball",
+      "frequency": "most cases",
+      "confirm": "Sheets, duvet covers and long-sleeved tops wrapped around each other into a single twisted mass. A duvet cover that has swallowed the rest of the wash is the standard version of this and it will defeat every retry the machine attempts."
+    },
+    {
+      "cause": "The load is too small for the drum",
+      "frequency": "common",
+      "confirm": "Two towels on their own, or one pair of jeans. There is nothing else in there to counterweight them, so the drum cannot be balanced at any speed. A nearly empty drum triggers UR more reliably than a full one."
+    },
+    {
+      "cause": "The washer is not level or is standing on a flexing floor",
+      "frequency": "common",
+      "confirm": "Push down on each corner of the top in turn. If the machine rocks on a diagonal, the feet are wrong. If the whole floor moves with it, you are on a suspended timber floor and the machine amplifies its own wobble into a retry."
+    },
+    {
+      "cause": "The suspension is worn out",
+      "frequency": "occasional",
+      "confirm": "UR appears on every load including small, well-mixed ones, and the drum knocks the cabinet during the spin-up. Push the empty drum down sharply by hand: it should sink and settle in one movement. If it bounces two or three times, the shock absorbers or suspension rods are spent."
+    },
+    {
+      "cause": "Transit bolts were never removed after delivery",
+      "frequency": "rare",
+      "confirm": "Only on a machine installed in the last few weeks. Look at the back panel for three or four bolts with large heads. If they are still in, the drum is locked to the cabinet, the machine will shake violently, and it must not be run until they come out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Let the retry finish before you touch anything",
+      "detail": "The whole point of UR is that the washer is already fixing the problem. It will add water, tumble slowly for a few minutes to redistribute the laundry, then ramp back up to spin. Give it ten or fifteen minutes. Most of the time the code disappears on its own and the cycle completes normally, just later than you expected.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the door and redistribute by hand",
+      "detail": "If the retries are not working, pause the cycle and wait for the drum to stop and the door to release. Pull everything out and shake each item loose, especially anything that has rolled into a rope. Put it back spread evenly around the drum rather than dropped in as one lump, then restart with Spin or Rinse and Spin.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "Wait for the drum to come to a complete stop before reaching in. On a front loader the door will not unlock until it has."
+    },
+    {
+      "name": "Add a few items to balance a small load",
+      "detail": "If you are washing one heavy thing on its own, add two or three mid-weight towels of similar size. They give the drum something to balance against. The opposite also applies: a drum stuffed past the point where you can fit a flat hand between the laundry and the roof cannot redistribute itself at all, so take some out.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the machine is level and the feet are locked",
+      "detail": "Push each top corner down in turn to find the rocking diagonal. Adjust the feet so all four sit solidly on the floor with no movement, then tighten the lock nut up against the cabinet on each one with a wrench. A foot that is at the right height but has a loose lock nut will unwind itself again within a few weeks of spinning.",
+      "minutes": 15,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Test the suspension with an empty drum",
+      "detail": "With the machine empty and off, grab the top of the drum and push it down firmly, then let go. A healthy front loader drops and stops in one controlled movement. If it rebounds and oscillates, the shock absorbers have lost their damping. On a top loader, the same bounce test points at worn suspension rods.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run an empty spin to separate load from machine",
+      "detail": "Take everything out and run a Spin only cycle on the empty drum. An empty machine has nothing to unbalance, so if UR still appears, the problem is mechanical rather than your laundry. If the empty spin runs up to full speed smoothly and quietly, the machine is fine and you have a loading habit to change.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If UR appears on every load, including a well-mixed medium one, and an empty spin also triggers it, stop blaming the laundry. Work through this in order of cost. First, the floor and the feet, because they cost nothing: with the machine loaded and wet, push each top corner down and watch for the diagonal rock, then check whether the floor itself moves. A front loader on a springy timber floor will throw balance codes it would never throw on concrete, and a sheet of plywood screwed across the joists under it is a cheap fix. Second, the feet lock nuts, which unwind over time and let a correctly levelled machine drift out again. Third, the suspension: shock absorbers on a front loader are a pair of damper struts between the tub and the base, and they are a $30 to $90 part each that a confident DIYer can change in a couple of hours with the front panel off. Suspension rods on a top loader are a set of four and usually cost more. Replace them as a full set, because fitting one new damper against three tired ones just moves the imbalance. Fourth, and much less often, the drum bearings: listen during the spin for a rumble that rises and falls with the speed rather than a knock. A bearing job on a Samsung front loader is expensive enough that on a machine approaching ten years old it is usually the point at which replacing the washer makes more sense. One thing to rule out for free first: if the machine was delivered or moved recently, check the back for transit bolts. Running with those still fitted will destroy the suspension and is the one version of this that gets worse fast.",
+  "reset_procedure": "UR does not usually need a reset, because it clears itself when the load balances. If the cycle has stalled, press Power to cancel, unplug for five minutes, then redistribute the load by hand and restart with Spin or Rinse and Spin rather than a full wash, so you can see within a couple of minutes whether the drum now balances.",
+  "model_notes": "UR is the retry status, and it is genuinely different from UB and UE, which are the fault codes the machine falls back to when the retries fail. Seeing UR a few times during a big load of towels is normal behavior. Seeing UB or UE at the end means the washer gave up and finished the cycle without a proper spin. Some models show Ur in lower case or alternate it with the remaining time; a few top loaders use dC for the unbalance condition instead, so check your model's code list if the letters do not match what you see here.",
+  "parts": [
+    { "name": "Shock absorber or damper pair, front loader", "cost": "$30 to $90 a pair", "difficulty": "hard", "note": "Replace as a pair; the front panel has to come off" },
+    { "name": "Suspension rod set, top loader", "cost": "$60 to $160 a set", "difficulty": "hard", "note": "Replace all four together or the imbalance just moves" },
+    { "name": "Leveling feet and lock nuts", "cost": "$10 to $25", "difficulty": "easy", "note": "Only if a foot is bent, seized or missing its rubber" }
+  ],
+  "when_to_call": "Call someone if UR or the UB code it turns into appears on an empty spin, because that rules out the load and points at the suspension, the drum or the balance sensor, and none of those are worth guessing at. Call sooner if the machine bangs hard enough during spin to move across the floor or knock the cabinet from inside, since that will damage the tub and the bearings if you keep running it. If the machine is less than a few weeks old and is shaking violently, do not call anyone yet. Check the back for transit bolts first, because that is the single most common cause on a new installation and it costs nothing to fix.",
+  "faqs": [
+    { "q": "Is UR an error code or normal behavior on a Samsung washer?", "a": "It is normal behavior in most cases. Samsung describes UR as an unbalanced load retry: the washer has spotted an uneven drum, added water and started tumbling to redistribute the load before attempting the spin again. It is the machine protecting itself. It only counts as a fault if the retries never succeed and the cycle ends with soaking clothes." },
+    { "q": "What is the difference between UR and UB on a Samsung washer?", "a": "UR is the attempt, UB is the surrender. UR means the washer is actively rebalancing and will try the spin again. UB means it ran out of retries and stopped trying. If you see UR and the cycle eventually finishes with properly spun laundry, nothing is wrong. If UR turns into UB, treat it as the unbalanced load fault." },
+    { "q": "Why does UR keep appearing when I wash towels or bedding?", "a": "Those are the worst loads for balance. Wet towels absorb an enormous amount of water and shift as a block, and a duvet cover acts like a bag that swallows everything else into one lump on one side. Wash bedding on its own, shake it out before loading, and expect a few retries on a full load of towels." },
+    { "q": "Can I just ignore the UR code?", "a": "Usually yes. If the wash finishes and the clothes come out spun, the washer did its job and the code was it working as designed. Only pay attention when it appears on every load regardless of what you put in, when it stalls the cycle, or when it ends in UB, because those point at leveling or suspension rather than laundry." },
+    { "q": "Does UR mean my shock absorbers are worn out?", "a": "Rarely, and not as a first conclusion. Worn suspension does cause persistent balance codes, but so does one heavy towel in a small load, which is far more common. Test it properly: run a Spin cycle on a completely empty drum. If that runs up smoothly and quietly, the suspension is fine and the problem is how the machine is being loaded." },
+    { "q": "How much extra time does a UR retry add to the cycle?", "a": "Usually a few minutes per attempt, and the machine may try several times, so a badly balanced load can add fifteen or twenty minutes to the displayed time. That is why the countdown sometimes jumps upward mid-cycle. It is not a malfunction. Redistributing the load by hand is faster than letting it work through every retry." },
+    { "q": "Why did UR start happening after I moved the washer?", "a": "Moving it almost always changes how it sits. The feet end up on a different part of the floor, the lock nuts get knocked loose, and the drain hose can get trapped behind a foot and tilt the machine. Re-level it on all four corners, tighten every lock nut, and leave clearance behind it before you blame the machine." }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why the drum will not balance, and what the retry is trying to fix",
+    "labels": {
+      "display": "UR",
+      "c1": "One heavy item on one side",
+      "c2": "Feet level, lock nuts tight",
+      "c3": "Shake out and spread the load",
+      "c4": "Floor must not flex underneath"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine displays a Ur unbalanced load retry code", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, spin balance detection and retry sequence", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports distinguishing Ur retries from Ub and UE balance faults", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["UB", "UE", "U6", "dC", "SC"]
+}

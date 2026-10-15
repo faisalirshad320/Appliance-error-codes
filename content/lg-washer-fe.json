@@ -1,0 +1,194 @@
+{
+  "title": "LG Washer FE Error Code: Overfill Causes and Fix",
+  "meta_description": "FE on an LG washer means the tub overfilled and it stopped the cycle. Usually an inlet valve stuck open or a blocked water level sensor hose.",
+  "h1": "LG washer FE error code: what it means and how to fix it",
+  "answer": "FE means your LG washer has more water in the tub than it should, so it stopped the cycle and usually started pumping the excess out on its own. There are two realistic causes: a water inlet valve that is passing water when it should be shut, or a water level sensor that is reading low and telling the machine to keep filling. Turn both supply taps off at the wall first, before anything else, because a valve stuck open will carry on filling a machine that is switched off. Then watch whether the water level keeps creeping up with the washer unplugged; if it does, the valve is at fault, and if it does not, suspect the level sensor or its hose.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to 2 hours",
+  "cost_estimate": {
+    "diy": "$25 to $90",
+    "technician": "$150 to $320"
+  },
+  "safety_warning": "A washer that overfills can flood a room, and on an upstairs laundry that means a ceiling. Shut both supply taps off at the wall before you do anything else, and leave them off until the fault is fixed. Unplug the machine before removing any panel; the inlet valve solenoids and the level sensor are both wired to the mains-powered control board.",
+  "causes": [
+    {
+      "cause": "A water inlet valve is stuck open",
+      "frequency": "most cases",
+      "confirm": "Unplug the washer with water in the tub and watch the level for five minutes. If it keeps rising with no power at all, a valve is passing water mechanically and nothing the control does will stop it. Grit from the supply holding the diaphragm off its seat is the usual reason."
+    },
+    {
+      "cause": "The water level sensor hose is blocked",
+      "frequency": "most cases",
+      "confirm": "The level stops rising the moment the machine is unplugged, so the valve is fine and the control is being misinformed. The sensor reads tub pressure through a thin clear hose from the bottom of the outer tub, and that hose silts up with detergent sludge on machines run mostly on cold cycles."
+    },
+    {
+      "cause": "The water level pressure sensor itself has failed",
+      "frequency": "common",
+      "confirm": "The sensor hose is clear and blows through freely, the valve shuts off when unpowered, and the machine still overfills or reports FE at random points in the cycle. The sensor is a small plastic unit, usually mounted high on the cabinet with a single connector and that one hose."
+    },
+    {
+      "cause": "A head of suds is fooling the level reading",
+      "frequency": "occasional",
+      "confirm": "Foam filling the door glass, usually after using regular detergent in an HE machine, or too much of it. Foam does not transmit pressure the way water does, so the sensor under-reads and the machine keeps adding water on top of it."
+    },
+    {
+      "cause": "The control board is driving the valve continuously",
+      "frequency": "rare",
+      "confirm": "The valve stops passing water the instant you unplug the machine, which rules out a mechanical stick, but it runs non-stop the whole time power is on, including when the cycle is paused. That means the switching device on the board has failed closed."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Shut both supply taps off",
+      "detail": "Reach behind the machine and close the hot and cold taps, turning clockwise until they stop or setting a lever valve across the pipe. Do this before you investigate anything. A valve stuck open does not care whether the washer is on, off or unplugged, and the only thing that reliably stops the water is the tap.",
+      "minutes": 2,
+      "tools": null,
+      "warning": "If water is already on the floor, deal with the flood and the electrics before the appliance. Do not stand in standing water to reach behind a plugged-in machine."
+    },
+    {
+      "name": "Drain the tub",
+      "detail": "Try a Drain and Spin cycle first; most LG machines pump the excess out on their own when they see FE. If the control will not respond, unplug the washer, open the small access door at the bottom front right, pull out the short black tube, and empty the tub into a shallow tray in stages. A full tub is several gallons, so expect a dozen trips.",
+      "minutes": 20,
+      "tools": "Shallow tray, towels, flat screwdriver",
+      "warning": "Unplug before using the manual drain tube. Water may still be hot."
+    },
+    {
+      "name": "Do the unplugged fill test",
+      "detail": "With the tub empty and the machine unplugged, open one tap only and mark the water level with a piece of tape on the glass. Leave it ten minutes and look again. Water entering a dead machine proves that valve is passing. Repeat with the other tap to find out which side it is. If nothing enters on either side, the valves are fine and the fault is in the sensing.",
+      "minutes": 25,
+      "tools": "Masking tape",
+      "warning": "Stay in the room and keep a hand near the tap. If the level rises quickly, shut it off."
+    },
+    {
+      "name": "Clean the inlet mesh screens",
+      "detail": "Close both taps. Put a towel and tray under the connections and unscrew each hose at the machine end; expect a cupful of water. Hook the fine mesh screen out of the inlet port with needle-nose pliers, rinse and scrub it, and press it back in squarely. Grit that gets past a damaged screen is what props a valve diaphragm open in the first place, so a torn screen means fitting a new one, not just cleaning it.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Taps closed before undoing a hose, or you get mains pressure in your face."
+    },
+    {
+      "name": "Clear the water level sensor hose",
+      "detail": "Unplug the machine and take the top panel off, usually two or three screws along the back edge, sliding it rearward. Find the small plastic sensor with a single thin clear hose running down to the bottom of the outer tub. Pull the hose off at the sensor end, blow through it, and look for gray sludge or a kink. Flush it with warm water if it is blocked, make sure it has no low loop holding water, and push it firmly back on.",
+      "minutes": 25,
+      "tools": "Phillips screwdriver",
+      "warning": "Unplug at the wall before removing the top panel."
+    },
+    {
+      "name": "Cut the detergent right back and run a Tub Clean",
+      "detail": "If the drum was full of foam, the sensor was reading through suds rather than water. Run Tub Clean with the drum empty and an oxygen-based machine cleaner, then drop to about a tablespoon of HE liquid for a normal load. Most people use several times what an LG needs, and the surplus never rinses out, so it builds up and keeps causing this.",
+      "minutes": 90,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Replace the inlet valve if it is passing",
+      "detail": "With the taps off and the machine unplugged, take the top panel off and find the valve block where the hoses enter. Unclip the connectors by pressing their tabs, release the internal hose clamp with pliers, and undo the two screws holding the valve body to the cabinet. Fit the new one, clamp the internal hose back on properly, and run a rinse cycle watching for leaks before pushing the machine back.",
+      "minutes": 45,
+      "tools": "Phillips screwdriver, pliers",
+      "warning": "Taps off and machine unplugged. The solenoid terminals sit at mains potential when powered."
+    }
+  ],
+  "still_showing": "The unplugged fill test splits this fault cleanly in two, so start there and let the result pick your path. If water enters the tub with the machine unplugged, the inlet valve is mechanically stuck and no amount of resetting, sensor cleaning or board replacement will help. Clean the mesh screens first, since a single piece of grit on the diaphragm seat causes most of these and it costs nothing, but if the valve still passes after that, fit a new valve; it is a $25 to $60 part and about forty-five minutes of work. If no water enters with the machine unplugged, the valves are sound and the machine is being lied to about the level. Pull the thin clear hose off the water level sensor and blow through it: detergent sludge in that hose is the single most common cause of a false reading, and clearing it is free. Check too that the hose has no sagging loop trapping water, because a slug of water in a low spot gives a wrong pressure reading all by itself. If the hose is clear and FE still appears, replace the level sensor, which runs $25 to $70 and is usually two screws and a connector. Only if a new sensor and a clear hose change nothing is the control board the answer, and the giveaway for that is a valve that runs continuously whenever the machine has power but stops dead the moment you unplug it. That is a few hundred dollars fitted, and on an older machine it is the point to price a replacement. Until the fault is actually fixed, leave the supply taps closed between washes rather than trusting the machine.",
+  "reset_procedure": "Drain the tub first, then unplug the washer at the wall for a minute and plug it back in. FE clears once the machine completes a cycle with a normal water level. Do not reset and restart with the taps still open if the unplugged fill test showed a passing valve: the machine will refill and overflow whether or not the display has been cleared, and the code is the only thing warning you about it.",
+  "model_notes": "FE is the overfill code across the LG washer range, front load and top load alike. Do not confuse it with PE, which is LG's code for the water level sensor being out of range rather than the tub being too full; the two are related, both point at the same sensor and the same thin hose, and a machine can show either depending on how the sensor has failed. On some LG models the fault is logged as E07 in the service record. Machines with a steam function have an extra valve, which is one more thing that can stick open.",
+  "parts": [
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Fit a new one rather than trying to clean a valve that is passing"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Clear the hose first; sludge in it mimics a dead sensor"
+    },
+    {
+      "name": "Pressure sensor hose",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Replace if it is kinked, split or permanently coated inside"
+    },
+    {
+      "name": "Inlet mesh filter screens",
+      "cost": "$5 to $12 a pair",
+      "difficulty": "easy",
+      "note": "A torn screen is what lets grit reach the valve seat"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Only for a valve that runs whenever the machine has power"
+    }
+  ],
+  "when_to_call": "Call a technician if the unplugged fill test shows water entering with no power and you are not comfortable swapping the inlet valve, because the alternative is leaving the taps closed and the machine unusable. Call as well if a new valve and a clear sensor hose have not fixed it, since the next step is checking whether the board is energising the valve continuously, and that is a live test. Stop and call straight away if water has reached a floor above a ceiling, an electrical outlet, or anything with a motor in it: at that point the flood is the problem and the error code is a detail. Keep the supply taps closed in the meantime, whatever anyone tells you about the machine being safe to leave.",
+  "faqs": [
+    {
+      "q": "Can I still use my LG washer with an FE code?",
+      "a": "No, and you should turn the supply taps off rather than leave it be. If the inlet valve is stuck open, the machine keeps taking water whether it is running, switched off or unplugged, so the risk is a flood rather than a wasted wash. Closing both taps makes the machine safe to leave while you work out which fault it is."
+    },
+    {
+      "q": "What is the difference between FE and IE on an LG washer?",
+      "a": "They are opposite faults. IE means the washer could not get enough water in within the time allowed. FE means it ended up with too much. If the same machine shows both at different times, stop suspecting the supply and look at the water level sensor and the thin hose feeding it, because a bad reading produces either code depending on which way it is wrong."
+    },
+    {
+      "q": "How do I tell whether it is the inlet valve or the sensor?",
+      "a": "Unplug the washer with the taps open and watch the water level for ten minutes. If it rises with no power to the machine, the valve is mechanically stuck open. If it does not move, the valves are fine and the control is being given a false level reading, which means the sensor or the hose that feeds it."
+    },
+    {
+      "q": "Why did my LG washer overfill suddenly?",
+      "a": "Usually a single piece of grit. A fragment of scale or sand from the mains lodges on the valve diaphragm and holds it a hair off its seat, which turns a perfect valve into a leaking one overnight. Work on the mains nearby, a meter change or a burst repaired up the street are all common triggers because they stir sediment into the supply."
+    },
+    {
+      "q": "Can too much detergent cause an FE error?",
+      "a": "It can. The level sensor reads pressure at the bottom of the tub, and a thick head of foam does not press down the way water does, so the machine under-reads and keeps filling. Running Tub Clean and cutting to about a tablespoon of HE liquid per load fixes the kind of FE that only shows up on heavily dosed washes."
+    },
+    {
+      "q": "How much does it cost to fix an FE code on an LG washer?",
+      "a": "An inlet valve is $25 to $60 in parts, a water level sensor $25 to $70, and either runs roughly $150 to $320 fitted by a technician. Clearing a blocked sensor hose costs nothing and fixes a good share of them. A control board fault is a few hundred dollars and is rare enough to be the last thing considered."
+    },
+    {
+      "q": "Will the washer drain the extra water by itself?",
+      "a": "Most LG models start pumping as soon as they detect the overfill, which is why people often find the machine humming with the code showing. If yours does not, run Drain and Spin. If the control will not respond at all, unplug it and empty the tub through the small drain tube behind the access door at the bottom front."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Where the water is coming from when an LG washer reports FE",
+    "labels": {
+      "display": "FE",
+      "c1": "Shut both supply taps first",
+      "c2": "Inlet valve passing when unpowered",
+      "c3": "Mesh screens, grit holds valves open",
+      "c4": "Level sensor hose blocked with sludge"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG washing machine error codes explained, overfill fault",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG front load washer service literature, water level sensor and inlet valve",
+      "publisher": "LG service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field diagnosis of overfilling washers and stuck inlet valves",
+      "publisher": "Appliance repair trade forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "IE",
+    "PE",
+    "1E",
+    "OE",
+    "SUD",
+    "tCL"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Samsung Dryer CL9 Code: Vent Over 90 Percent Blocked",
+  "meta_description": "CL9 is the result of a Samsung dryer vent blockage test: over 90 percent of the duct is clogged. Clear the whole run before you use the dryer again.",
+  "h1": "Samsung dryer CL9 code: your vent is almost completely blocked",
+  "answer": "CL9 is not a breakdown message. It is the result your Samsung dryer gives at the end of its vent blockage test, and it means the test measured the exhaust duct as more than ninety percent clogged. That is as bad as the test reports. The machine has told you that almost nothing is getting out of the vent, which is why clothes take three cycles to dry and why the dryer keeps tripping heat faults. Clear the whole duct run, from the lint screen housing to the outside hood, before running another load.",
+  "severity": "serious",
+  "can_diy": "usually",
+  "time_estimate": "1 to 2 hours for a full duct clean",
+  "cost_estimate": { "diy": "$20 to $60", "technician": "$120 to $350" },
+  "safety_warning": "A vent this blocked is a fire hazard. Lint is fuel, and a dryer that cannot exhaust runs hotter every cycle. Do not keep drying loads while you get around to it. Unplug the dryer at the outlet or switch off its breaker before removing panels, and on a gas dryer do not disturb the gas connection or the burner.",
+  "causes": [
+    {
+      "cause": "The duct run is packed with felted lint",
+      "frequency": "most cases",
+      "confirm": "Pull the dryer out, undo the clamp and take the duct off the outlet. Look inside with a flashlight. A gray mat lining the walls, or a plug of lint sitting at the first bend, is exactly what the test just measured. Years of normal use does this even with the lint screen emptied every load."
+    },
+    {
+      "cause": "The flexible duct behind the dryer is crushed or kinked",
+      "frequency": "most cases",
+      "confirm": "Look at the hose where the machine sits against the wall. Thin ribbed foil folds flat when the dryer gets pushed back, and a flattened section reads as a near-total blockage to the test even if the rest of the run is clean. Leave several inches of clearance when you reinstall the machine."
+    },
+    {
+      "cause": "The outside vent hood is blocked, stuck shut or screened over",
+      "frequency": "common",
+      "confirm": "Go outside while the dryer runs. The flap should swing open with a steady warm push. Lint welded behind the flap, a hood painted shut, an insect screen fitted over the opening, or a bird nest in the duct mouth will all produce a failed test with a clean duct indoors."
+    },
+    {
+      "cause": "The vent run is too long or has too many bends",
+      "frequency": "common",
+      "confirm": "Trace the route end to end and count the elbows. A long run, especially one with several ninety degree turns or a rise into a roof, clogs again within months of being cleaned. If CL9 comes back within a season of a thorough clean, the installation is the problem rather than your maintenance."
+    },
+    {
+      "cause": "The lint screen housing and the internal duct are blocked",
+      "frequency": "occasional",
+      "confirm": "Take the screen out and look down into its slot with a flashlight. Lint that slips past the mesh packs the housing and the short duct behind it, inside the machine, where no amount of cleaning the external run will reach it."
+    },
+    {
+      "cause": "The test was run in the wrong conditions and the result is not reliable",
+      "frequency": "occasional",
+      "confirm": "Samsung's blockage test needs an empty drum and a dryer at roughly room temperature. If laundry was inside, the machine reports a load-in-drum result instead; if it is too hot or too cold, it reports a temperature result. If you got CL9 straight after a long cycle, let the dryer cool for an hour and run the test again before taking anything apart."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Re-run the test properly so you trust the number",
+      "detail": "Empty the drum completely and let the dryer sit at room temperature for an hour if it has just finished a cycle. Then run the vent blockage test from the panel as your model's manual describes. The test needs those two conditions, and if they are not met it reports a load or temperature result rather than a blockage percentage. A clean CL9 on a cold empty machine is a result you can act on.",
+      "minutes": 65,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wash the lint screen and vacuum its housing",
+      "detail": "Clear the lint, then hold the screen under a running tap. Water beading on the mesh means fabric softener has laid down an invisible film, so scrub both sides with hot water and dish soap. With the screen out, push a vacuum crevice tool or a long flexible brush right down into the slot and clear the lint that has slipped past over the years.",
+      "minutes": 20,
+      "tools": "Soft brush, dish soap, vacuum with crevice tool, long flexible lint brush",
+      "warning": "Unplug the dryer before pushing a brush into the lint housing."
+    },
+    {
+      "name": "Disconnect the duct at the back of the dryer",
+      "detail": "Unplug the machine and walk it out far enough to work behind it. Loosen the clamp and pull the duct off the outlet. Inspect the dryer's own outlet port as well as the duct; both collect lint. Check whether the hose has been crushed flat against the wall, which is a blockage in itself and needs fixing when you reinstall rather than just cleaning.",
+      "minutes": 15,
+      "tools": "Nut driver or screwdriver, flashlight",
+      "warning": "Unplug first. On a gas dryer, move the machine gently and do not stress the flexible gas connector."
+    },
+    {
+      "name": "Brush the entire run from both ends",
+      "detail": "Feed a rotary dryer vent brush on flexible rods in from the dryer end, working it in and out to break up the lint mat, then vacuum out what comes loose. Do the same from the outside hood if you can reach it safely. A run that tested over ninety percent blocked will produce a startling amount of material; keep going until the brush comes back clean.",
+      "minutes": 50,
+      "tools": "Dryer vent brush kit, vacuum, drill for a rotary kit",
+      "warning": "Do not use a ladder to reach a roof vent unless you are confident; hire a vent cleaning service instead."
+    },
+    {
+      "name": "Clear and check the outside hood",
+      "detail": "Open the flap by hand and clear the lint packed behind it. Remove any insect mesh or screen someone has fitted over the outlet, because dryer vents must not be screened. Check for a nest. If the flap is painted shut or the louvers are broken, replace the hood; it is a cheap part and a badly restricted one undoes all the work inside.",
+      "minutes": 20,
+      "tools": "Screwdriver, gloves",
+      "warning": null
+    },
+    {
+      "name": "Replace ribbed foil hose with semi-rigid or rigid duct",
+      "detail": "If the connection behind the dryer is the thin ribbed foil kind, change it while everything is apart. Every corrugation catches lint and the hose sags into traps that fill up. Semi-rigid aluminium or smooth rigid duct holds its shape and sheds lint. Keep the run short and straight, join sections with clamps and foil tape rather than screws, and never use plastic.",
+      "minutes": 30,
+      "tools": "Semi-rigid or rigid duct, clamps, foil tape, nut driver",
+      "warning": "Screws projecting into the duct catch lint and defeat the point. Use clamps and foil tape."
+    },
+    {
+      "name": "Run the blockage test again to confirm",
+      "detail": "Reconnect everything, restore power, let the dryer sit cold with an empty drum, and run the vent blockage test once more. You want a clear result rather than a percentage. Then run a short timed cycle and go outside to feel the air at the hood; it should be a strong steady warm push you can feel from a foot away.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the test still reports a near-total blockage after you have cleaned everything you can reach, the restriction is somewhere you have not got to. Work through it in order. First, confirm the test conditions were right: an empty drum and a dryer at room temperature. A test run on a warm machine or with laundry inside gives a result that is not about the vent at all, and people often re-run it straight after a cycle without realising. Second, check the part of the run you cannot see. Ducts that pass through a wall cavity, a crawl space, a ceiling void or up to a roof often have a sagging section or a disconnected joint that has been dumping lint into the structure for years, and no amount of brushing from the dryer end reaches past a break. A vent cleaning service with a camera will find that in half an hour and costs $120 to $250, which is cheap against the alternative. Third, add up the length honestly. Each ninety degree elbow adds the equivalent of several extra feet of straight run, so a vent with four turns behaves like a much longer one. If the installation was always marginal, it will clog back to a failing result within months whatever you do, and rerouting it is the only permanent answer. Fourth, if the test comes back clear but the dryer still dries badly and throws heat codes, the problem has moved inside the machine: the blower wheel can clog or crack, and the internal duct between the lint housing and the blower collects lint that the external cleaning never touches. That is a strip-down job. One thing not to do while you work out which of these it is: do not keep drying loads. A vent this blocked is the exact condition that starts dryer fires, and the machine has already told you so in the plainest terms it has.",
+  "reset_procedure": "There is nothing to reset. CL9 is a test result rather than a stored fault, so it appears when you run the vent blockage test and clears when you exit it. If you want to confirm the vent is fixed, run the test again on a cold, empty dryer rather than cutting power. Cutting power at the breaker will clear any related heat codes the blockage caused, but running the machine again without clearing the duct only reproduces them.",
+  "model_notes": "CL9 belongs to a family of results from the same test, and which ones your model shows varies. C90 and C9 report the same over-ninety-percent blockage, C80 and C8 report around eighty percent, and Clg or Cg report a blockage without a percentage. Two other results are not about the vent at all: a code in the C1 or CL1 family means there is laundry in the drum and the test cannot run, and Ct means the dryer is too hot or too cold to test, so let it sit at room temperature for about an hour. Samsung has also noted that an upside-down F on some displays is meant to be read as a t, which matters when you are squinting at a short code on a small panel.",
+  "parts": [
+    { "name": "Dryer vent brush kit", "cost": "$20 to $40", "difficulty": "easy", "note": "Rotary kits on flexible rods clear a packed run far better than a hand brush" },
+    { "name": "Semi-rigid or rigid aluminium duct and clamps", "cost": "$15 to $45", "difficulty": "easy", "note": "Replaces ribbed foil hose, which is most of the problem behind the machine" },
+    { "name": "Exterior vent hood", "cost": "$15 to $50", "difficulty": "easy", "note": "Replace if the flap is stuck, painted shut or the louvers are broken" },
+    { "name": "Lint screen", "cost": "$15 to $40", "difficulty": "easy", "note": "Only if the mesh is torn; a filmed-up screen just needs washing" }
+  ],
+  "when_to_call": "Call a vent cleaning service if the run goes through a roof, a ceiling void or a wall cavity you cannot safely reach, or if the test still fails after you have cleaned everything accessible. They will find a sagging section, a disconnected joint or a crushed length inside the structure, and $120 to $250 is a reasonable price for that. Call an appliance technician instead if the vent tests clear but the dryer still dries poorly, because the blower wheel or the internal duct inside the machine is then the suspect. For a gas dryer, anything involving the burner, the igniter or the gas line is licensed work regardless of what the vent test says.",
+  "faqs": [
+    { "q": "What does CL9 mean on a Samsung dryer?", "a": "It is the result of the dryer's own vent blockage test, and it means more than ninety percent of the exhaust duct is clogged. It is not a component failure. The machine has measured the airflow and is telling you almost nothing is getting out, which explains long drying times and any heat codes you have been seeing." },
+    { "q": "Why did CL9 appear when I was not running a test?", "a": "Then the test was triggered without you realising, or the code you are seeing is a related one. Samsung uses C90, C9, C80, C8, Clg and Cg for the same family of results. If you did not start a test, check your model's manual for which results it shows automatically and which require the test to be run from the panel." },
+    { "q": "How do I run the vent blockage test on a Samsung dryer?", "a": "The button sequence varies by model, so get it from the manual for your model number rather than a generic video. Two conditions matter regardless: the drum must be empty, and the dryer must be at roughly room temperature. If either is wrong the test reports a load or temperature result instead of a blockage percentage." },
+    { "q": "Is CL9 dangerous?", "a": "Yes, in the sense that the condition it reports is dangerous. A dryer that cannot exhaust runs hotter with every cycle, and packed lint is fuel. This is the condition behind most dryer fires. The machine is not going to catch fire while you read this, but do not keep drying loads while you put off cleaning the duct." },
+    { "q": "Can I still use the dryer after a CL9 result?", "a": "You should not until the vent is cleared. Clothes will take two or three cycles to dry anyway, the machine will keep tripping heat faults, and every load adds lint to an already packed duct. An hour with a brush kit solves it. If the run is through a roof or a wall cavity, book a vent cleaning service instead." },
+    { "q": "What are C80, Clg and Ct on a Samsung dryer?", "a": "All results from the same vent blockage test. C80 and C8 mean around eighty percent blocked, Clg and Cg mean blocked without a specific figure, and Ct means the dryer is too hot or too cold for the test to be valid, so let it reach room temperature for about an hour and run it again." },
+    { "q": "I cleaned the vent and CL9 came back. Why?", "a": "Either the blockage is in a section you cannot reach, or the installation itself is the problem. Ducts in wall cavities, ceiling voids and roof runs often have a sagging section or a parted joint that brushing from the dryer end never reaches. A vent run with several bends also clogs back to failing within months whatever you do." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "The test measured this path. Over ninety percent of it is blocked.",
+    "labels": {
+      "display": "CL9",
+      "c1": "Wash screen, vacuum housing",
+      "c2": "Crushed hose behind the dryer",
+      "c3": "Brush the full duct run",
+      "c4": "Outside hood flap and nests"
+    }
+  },
+  "sources": [
+    { "title": "Samsung dryer displays an error code, vent blockage test results", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Common Samsung dryer error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung dryer owner's manual, vent sensor test and venting requirements", "publisher": "Samsung owner's manual supplied with the dryer", "url": null },
+    { "title": "Field reports on failed vent tests, hidden duct breaks and marginal installations", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["C90", "C80", "Clg", "Ct", "HC", "hE"]
+}

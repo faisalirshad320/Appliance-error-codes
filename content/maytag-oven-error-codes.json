@@ -1,0 +1,139 @@
+{
+  "title": "Maytag Oven Error Codes: What They Mean and Fixes",
+  "meta_description": "How Maytag oven codes work, from bare F codes on older models to the two-part F and E format, plus the diagnostic sequence that applies to all of them.",
+  "h1": "Maytag oven error codes: how to read the display and where to start",
+  "answer": "Maytag ovens use two code schemes depending on age. Newer models show a two-part code, an F number and an E number together as in F5E1, where the F half names the failure group and the E half names the specific error inside it. Older models show a single F and one digit, like F7, and those are documented far less consistently. Maytag shares its control platform with the rest of the Whirlpool family, so the same codes mean the same things on comparable Whirlpool, KitchenAid and Jenn-Air ovens and parts are frequently common. The most useful thing you can do with any of them is note when the code appears, because the timing narrows the fault faster than looking the number up.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to read the code, 30 minutes to 2 hours to act",
+  "cost_estimate": { "diy": "$0 to $80 for the common ones", "technician": "$170 to $450 for a typical call" },
+  "safety_warning": "Everything behind a Maytag oven console runs on a 240 volt supply, and on a wall oven that console sits directly above a hot cavity. Switch the oven off at the circuit breaker before any cover comes off, and do not rely on the Cancel key, which on an interface fault the control may not be reading. On a gas model, close the gas shutoff behind the range before moving it and leave the burner, the safety valve and the igniter to a licensed technician. Never defeat a door lock, a thermal cut-out or any other protective device to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "Touchpad and user interface faults, including F7 and the F2 group",
+      "frequency": "most cases",
+      "confirm": "Keys stop responding, or one key seems dead or sticky, and the oven refuses to accept a setting. Press each key with the power off and compare the feel. Grease and moisture working under the membrane around a well-used key are the ordinary explanations, and both are free to fix with a careful clean and a night with the breaker off."
+    },
+    {
+      "cause": "Temperature sensing and heating faults, the F3 group",
+      "frequency": "common",
+      "confirm": "The oven will not heat, heats to the wrong temperature, or abandons a preheat. With the breaker off, unplug the oven temperature sensor behind the rear panel and watch its resistance as you warm the probe in your hand. An oven sensor is a resistance temperature detector, so a reading that climbs steadily with heat is healthy and one that will not move is a failed probe."
+    },
+    {
+      "cause": "Door lock faults, the F5 group",
+      "frequency": "common",
+      "confirm": "The code turns up around a self-clean cycle, either because the door would not lock at the start or would not release at the end. Look at the lock motor and its switch through the vent slots at the top of the door frame and check nothing is fouling the latch. Never force a locked oven door or bypass the lock to open it."
+    },
+    {
+      "cause": "Control board faults and bare F codes on older models",
+      "frequency": "occasional",
+      "confirm": "The code is there the instant power is restored at the breaker, before anything has been pressed or set. That timing eliminates the keypad and the heating circuit, since neither has had a chance to be involved yet. Older ovens showing a single F and one digit with no second half often land here too."
+    },
+    {
+      "cause": "Control lock mistaken for a fault",
+      "frequency": "occasional",
+      "confirm": "The display is lit and the clock looks normal, but no key does anything and the oven will not start. Look along the panel for a small padlock icon printed on or beside a pad and hold that pad for a few seconds. Maytag puts this function on different buttons across its ranges, so find the icon rather than following a button name from another model."
+    },
+    {
+      "cause": "A console being overheated from the cavity below",
+      "frequency": "occasional",
+      "confirm": "Codes appear only once the oven has been hot for a while and clear when it cools, and you cannot hear a cooling fan running during a bake. On a wall oven this is a fan or venting problem rather than a control problem, and replacing the control will not stop it happening again."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down in full",
+      "detail": "Record both halves if there are two, including whether a space appears, as in F5 E1 or F5E1. The halves mean different things and a code noted as just F5 has thrown away the part that says what actually failed. Photograph the display, because some Maytag panels alternate the two halves rather than showing them together, and a glance can catch only one.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note exactly when the code appears",
+      "detail": "On this family that is worth more than most lookups. Write down whether the code shows the instant power is restored with nothing touched, only after a keypress, only once a bake has been running, or only around a self-clean cycle. Those four answers point respectively at the board, the keypad, the heating circuit and the door lock, which narrows things faster than any chart.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Rule out the control lock first",
+      "detail": "If the panel is lit but unresponsive and there is no code as such, scan the console for a small padlock symbol and hold that pad for about three seconds. This is a setting rather than a fault, it takes a minute, and it is the single most common thing mistaken for a broken oven on this brand. Find the icon rather than guessing at a button name.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a proper breaker reset",
+      "detail": "Switch the oven off at the circuit breaker and leave it for a full five minutes before restoring power. A quick off and on often leaves the stored fault in place because the board holds residual charge, and on an interface code the Cancel key may not be read at all. Leave the oven idle for a few minutes after power returns before setting anything.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Use the breaker rather than Cancel. An oven reporting a keypad fault cannot be relied on to read its own keypad."
+    },
+    {
+      "name": "Clean around every key on the console",
+      "detail": "With the breaker off, wipe the console with a barely damp cloth and a little dish soap, working around the edge of each key rather than flooding the panel, then dry it thoroughly. Never spray cleaner at the panel directly. Grease under the membrane and moisture from a boil-over cause most interface codes on this family, and both cost nothing to resolve.",
+      "minutes": 20,
+      "tools": "Soft cloth, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Find the service sheet inside your own appliance",
+      "detail": "On a Maytag range it is usually behind the storage drawer at the bottom, and on a wall oven often taped inside the console or behind the lower trim. It lists the codes for your exact control and beats any general chart, which matters most on the older bare F codes where published definitions genuinely disagree. Take your full model number off the door frame sticker at the same time.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Split the keypad from the board with the ribbon test",
+      "detail": "For any interface or control code this halves the problem for free. With the breaker off, open the console, unplug the flat ribbon between the touchpad and the control board, refit the cover and restore power briefly. Code gone means the touchpad is at fault; code unchanged means the board is. Switch the breaker off again before reopening anything.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver",
+      "warning": "Breaker off while the console is open. Restore power only with the cover refitted and hands clear."
+    },
+    {
+      "name": "Decide what is reasonable to do yourself",
+      "detail": "Cleaning a panel, reseating a ribbon, testing a sensor with a meter and clearing a fouled door latch are all sensible with hand tools and care. Pulling a built-in wall oven out of its cabinet is heavy two-person work. Gas components, anything needing the oven live with the console open, and expensive non-returnable control parts are all better handed over.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a reset and a console clean have not shifted it, how you proceed depends on which scheme your oven uses, and there are two traps on this brand worth knowing. The first is the older bare F codes. A single F7, F3 or F1 with no E half predates the clearer format and the published definitions disagree with each other: F7 is described by most sources as a stuck or shorted function key, but at least one reference assigns it on Maytag ranges to a missing AC line detection signal, which is a power sensing fault with nothing to do with the keypad. If your symptoms do not match the common reading, go to the service sheet inside your own appliance rather than trusting a chart. The second trap is buying parts in the wrong order. For any interface or control code, the ribbon-disconnect test is free and tells you which of the two expensive parts to buy: a touchpad at $70 to $200, often sold only as a console assembly and frequently non-returnable, or a control board at $120 to $280. Fitting one on a guess is how a $200 repair becomes a $450 one. Before you commit to either, check whether the code only appears when the oven is hot, because a failed console cooling fan on a wall oven will cook a new control exactly as it cooked the old one, and a fan at $40 to $110 is the actual repair. Across the whole family a fitted repair generally lands between $250 and $450, more on a built-in wall oven once someone has pulled the unit out and put it back, so on an oven past about ten years old get the diagnosis in writing before approving the work.",
+  "reset_procedure": "The reset that applies to any Maytag oven code is the same: switch off at the circuit breaker, wait a full five minutes, then restore power. The wait matters because the control board holds residual charge and a quick cycle often leaves the stored fault in place. Avoid using Cancel as your reset on an interface code, since the control may not be reading the keypad. Watch the display as power returns and note whether the code is present immediately, because that observation is worth more than the reset itself.",
+  "model_notes": "Maytag shares a control platform with the rest of the Whirlpool family, so F and E codes map across comparable Whirlpool, KitchenAid and Jenn-Air ovens and parts are often interchangeable. Two generations run side by side in the field: newer models show a failure group and a specific error together, as in F5E1, while older ones show a single F and one digit. The older bare codes are documented loosely and charts contradict each other, F7 being the clearest example, so the service sheet inside your own appliance is the authority. Maytag also assigns the control lock to different buttons across its ranges, which is why the instruction here is to find the padlock icon rather than to press a named key.",
+  "parts": [
+    { "name": "Touchpad or keypad membrane", "cost": "$70 to $200", "difficulty": "hard", "note": "The interface codes; often sold only as a console assembly" },
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "moderate", "note": "The F3 group; test by watching resistance climb as it warms" },
+    { "name": "Door lock motor and switch assembly", "cost": "$50 to $140", "difficulty": "hard", "note": "The F5 group; never force or bypass a locked oven door" },
+    { "name": "Electronic oven control board", "cost": "$120 to $280", "difficulty": "technician only", "note": "Only once the ribbon test points at the board rather than the pad" },
+    { "name": "Console cooling fan", "cost": "$40 to $110", "difficulty": "moderate", "note": "The real repair where codes only appear once the oven is hot" }
+  ],
+  "when_to_call": "Call a technician for any code that survives a proper breaker reset and a console clean, because what follows involves either a live 240 volt console or pulling a built-in oven out of its cabinet. Call a licensed gas technician for anything touching the burner, safety valve or igniter on a gas range, and do not investigate those yourself. Call before buying a touchpad or control board, since both are expensive, often non-returnable, and easy to order wrongly across a family of platforms that look alike from the front. And if an oven door has locked and will not release once the oven is fully cold, get someone out rather than forcing it.",
+  "faqs": [
+    { "q": "How do I read a Maytag oven error code?", "a": "If there are two parts, read both: the F number names the failure group and the E number the specific error, so F5E1 is the door lock group and a particular lock error within it. Some panels alternate the halves rather than showing them together, so watch for a few seconds and photograph the display before acting on it." },
+    { "q": "How do I reset a Maytag oven?", "a": "Switch it off at the circuit breaker, wait a full five minutes, then restore power. The wait matters because the board holds residual charge and a quick off and on frequently leaves the stored fault in place. Avoid using the Cancel key as your reset on an interface code, since the control may not be reading the keypad at all." },
+    { "q": "My Maytag oven panel is dead but shows no code. What is it?", "a": "Most often the control lock, which disables the keys so a cycle cannot be changed or started. Look for a small padlock icon printed on or beside a pad and hold that pad for about three seconds. Maytag assigns it to different buttons across ranges, so find the icon rather than following instructions written for another model." },
+    { "q": "Are Maytag oven codes the same as Whirlpool codes?", "a": "Largely yes, because they share a control platform. The same two-part F and E codes carry the same meanings across comparable Maytag, Whirlpool, KitchenAid and Jenn-Air ovens, and parts are often common between them. Confirm against the service sheet for your own model before ordering, since several platforms sit behind similar-looking panels." },
+    { "q": "My older Maytag shows a single F code with no second number. What now?", "a": "That is the older scheme, which predates the two-part format and is documented inconsistently, with charts that contradict each other. Narrow it by when the code appears rather than by looking it up: immediately on power-up points at the board, after a keypress at the panel, and only when hot at console cooling." },
+    { "q": "Why do codes only show up when my oven is hot?", "a": "Because something is temperature dependent. Either moisture trapped under the keypad membrane expands and bridges contacts as the console warms, or the console cooling fan has failed and the control is being cooked from the cavity below. Listen for a fan during a bake, since a failed one will ruin a replacement control the same way." },
+    { "q": "Where is the service sheet on a Maytag oven?", "a": "On a range it is usually behind the storage drawer at the bottom. On a wall oven it is often taped inside the console or behind the lower trim. It lists the codes for your exact control and overrides any general chart including this page, which matters most on the older bare F codes where sources disagree." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Read both halves, rule out the lock, then narrow it by when it appears.",
+    "labels": {
+      "display": "F5E1",
+      "c1": "F half names the fault group",
+      "c2": "E half names the specific error",
+      "c3": "Padlock icon means control lock",
+      "c4": "Breaker reset, five full minutes"
+    }
+  },
+  "sources": [
+    { "title": "Maytag oven and range fault code references", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Maytag range and wall oven service sheets and wiring diagrams", "publisher": "Service sheet supplied inside the appliance", "url": null },
+    { "title": "Technician discussion of Whirlpool-family oven code diagnosis", "publisher": "AppliancePartsPros repair forum threads", "url": null },
+    { "title": "Field reports on control lock and console heat issues", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F7", "F3", "F5E1", "F2E1", "F1"]
+}

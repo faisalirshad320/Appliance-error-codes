@@ -1,0 +1,197 @@
+{
+  "title": "Kenmore Washer DE Code: Door Error Causes and Fix",
+  "meta_description": "dE on a Kenmore washer is LG's door error: the lock did not confirm the door is shut. Usually something in the way or a worn latch.",
+  "h1": "Kenmore washer dE error code: what it means and how to fix it",
+  "answer": "dE means the washer could not confirm the door is closed and locked, so it refused to start or stopped mid-cycle. It is LG's door error, which also tells you who built the machine: a Kenmore showing dE is an LG, with a model number starting 796. Most of the time nothing is broken. A sleeve trapped in the seal, a door pushed to rather than clicked shut, or a worn latch that no longer catches is the usual answer. Open the door fully, clear the seal, close it firmly and restart.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $130",
+    "technician": "$130 to $300"
+  },
+  "safety_warning": "The door interlock is a safety device that keeps the door shut while the drum is turning and water is in the tub. Never bypass it, jam it, tape the switch or run the machine with the lock defeated.",
+  "causes": [
+    {
+      "cause": "Something is caught between the door and the seal",
+      "frequency": "most cases",
+      "confirm": "Open the door fully and run a finger right around the rubber boot. A shirt sleeve, a sock corner or a drawstring holds the door a couple of millimeters proud, which is enough for the latch to miss."
+    },
+    {
+      "cause": "The door was pushed to rather than closed firmly",
+      "frequency": "most cases",
+      "confirm": "Open it fully and shut it with a deliberate push until you hear the latch click, then the lock buzz a second or two later. If there is no second sound, the lock never engaged."
+    },
+    {
+      "cause": "The latch strike on the door is worn, bent or loose",
+      "frequency": "common",
+      "confirm": "Look at the metal or plastic hook on the door edge. A rounded tip, visible wear flats, or a hook that moves when you wiggle it means it is no longer pushing the switch far enough into the lock."
+    },
+    {
+      "cause": "The door lock assembly has failed electrically",
+      "frequency": "common",
+      "confirm": "The door shuts and latches with a solid click but you never hear the lock buzz or clunk, and the cycle will not start. Often preceded by weeks of needing two or three attempts to get a cycle going."
+    },
+    {
+      "cause": "The door hinge has dropped",
+      "frequency": "occasional",
+      "confirm": "The door no longer lines up with the opening and you have to lift it slightly to make it shut. Check the hinge screws on the cabinet; they work loose on heavy glass doors and the whole door then sits low."
+    },
+    {
+      "cause": "Wiring to the lock, or the main control board",
+      "frequency": "rare",
+      "confirm": "A lock that tests fine on a meter but is never energised. Check the connector at the lock for corrosion or a pushed-back pin before anyone condemns the board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the door fully and clear the seal",
+      "detail": "Swing the door right open rather than just cracking it. Run a finger all the way around the rubber boot, including the fold at the bottom where small items collect, and pull out anything trapped. Then check the face of the seal for a lump of detergent residue or a coin stuck in the rubber, both of which hold the door a fraction open. Wipe the sealing face with a damp cloth while you are there.",
+      "minutes": 5,
+      "tools": "Flashlight, cloth",
+      "warning": null
+    },
+    {
+      "name": "Close the door deliberately and listen for two sounds",
+      "detail": "Push the door shut with real intent, not a nudge. You should hear two distinct things: the latch clicking home straight away, and then the lock engaging with a buzz or a clunk a second or two after you press Start. If you get the first and never the second, the latch is fine and the lock is the problem. If you get neither, the door is not reaching the latch at all.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the washer",
+      "detail": "Press Power to cancel, unplug at the wall for five full minutes, then plug it in and start a rinse cycle. The control stores dE, so a machine whose door now shuts properly will keep showing the code until it is cleared. If there is water in the drum and the door will not open, run a drain or spin first, because the lock will not release with a full tub.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect the latch hook and the lock opening",
+      "detail": "Look at the hook on the edge of the door. It should be square-edged and rigid. A rounded or chipped tip, a wear flat, or play when you try to wiggle it means it is no longer pushing the lock switch all the way in. Shine a light into the slot in the cabinet that it enters and check for lint packed in behind the lock, a coin, or a broken piece of the previous hook sitting in the bottom of it.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check and tighten the door hinge",
+      "detail": "Open the door and look at where the hinge bolts to the cabinet. On these machines the glass door is heavy and the screws work loose over the years, which drops the door a few millimeters so the hook misses the slot. Tighten them with the correct driver, close the door and check the gap around it is even top and bottom. A door that needs lifting to close is a hinge problem, not a lock problem.",
+      "minutes": 15,
+      "tools": "Torx or Phillips driver",
+      "warning": null
+    },
+    {
+      "name": "Test the lock assembly electrically",
+      "detail": "Unplug the machine at the wall. The lock sits behind the front panel at the latch side, reached by peeling the outer boot clamp off and removing two screws, or through the top on some models. Pull the connector and measure across the switch terminals with a multimeter while you push the hook in with a screwdriver. The contacts should change state as the hook goes home. Use the terminal map on the tech sheet inside your machine rather than guessing which pair to test.",
+      "minutes": 35,
+      "tools": "Torx driver, Phillips #2, multimeter, pliers",
+      "warning": "Unplug at the wall first. The lock carries mains voltage and sits next to the main harness."
+    }
+  ],
+  "still_showing": "If the seal is clear, the door closes with a solid click and dE comes back anyway, work through it in this order. First, separate a mechanical problem from an electrical one by listening. A latch that clicks but never produces the second buzz or clunk means the hook is reaching the lock and the lock is not responding, which points at the lock assembly. A door that does not click at all means the hook is not reaching the lock, which points at the hinge, the hook or something packed into the slot. Second, if it is mechanical, check the hinge screws before you buy anything, since a dropped door is free to fix and is the most common mechanical cause on machines over about five years old. A hook that is visibly rounded is usually sold as part of the door assembly rather than on its own, which is annoying, so check whether yours is a separate part before ordering. Third, if it is electrical, unplug the washer, pull the connector off the lock and look at it closely: green corrosion and backed-out pins are common because the lock sits right behind the boot in the wettest part of the machine. Reseat the connector three times to scrape the contacts and retest before spending anything. Fourth, measure the lock on a meter against the terminal map on the tech sheet inside the cabinet, pushing the hook in with a screwdriver and watching for the contacts to change state. A lock that never changes state is dead, and the assembly is typically a $40 to $130 part and under an hour of work, which is a reasonable DIY job if you are comfortable peeling the boot clamp off. Fifth, only after the lock has been proven dead or proven good does the harness and the main control board come into it, and that is where the cost jumps to a few hundred dollars. One warning that matters more than any of this: do not bypass the lock to get the machine running. It is the device that stops the door opening with the drum at speed and a tub full of hot water, and nothing on this page is worth that.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for five full minutes, then plug it back in and start a rinse cycle. If there is water in the drum, the door will stay locked until the machine drains, so run a drain and spin first rather than forcing it. Most LG-built machines also release the lock automatically a minute or two after power is removed, so if the door is stuck shut, unplug it and wait before trying the emergency release.",
+  "model_notes": "dE is LG's code, so it belongs to Kenmore washers built by LG, with model numbers starting 796. Newer LG-built machines split it into dE1, meaning the lock did not engage, and dE2, meaning the door was detected open during the cycle, which is a useful distinction if your display shows a number after the letters. A Kenmore with a 110 model number is Whirlpool-built and will not show dE at all: door lock faults there appear as an F5 code on front loaders and as a lid lock warning on top loaders. On LG-built top loaders the lid lock is a different mechanism entirely, mounted under the lid edge rather than in the front panel.",
+  "parts": [
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$40 to $130",
+      "difficulty": "moderate",
+      "note": "The usual part when the latch clicks but the lock never engages"
+    },
+    {
+      "name": "Door hinge",
+      "cost": "$25 to $80",
+      "difficulty": "moderate",
+      "note": "Needed when the hinge is worn rather than just loose"
+    },
+    {
+      "name": "Door assembly with strike hook",
+      "cost": "$90 to $220",
+      "difficulty": "moderate",
+      "note": "The hook is often not sold separately, which makes a worn one expensive"
+    },
+    {
+      "name": "Door boot seal",
+      "cost": "$60 to $150",
+      "difficulty": "hard",
+      "note": "Only if the boot is torn or so deformed it holds the door proud"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Prove the lock and the harness first"
+    }
+  ],
+  "when_to_call": "Call a technician when the lock tests correctly on a meter, the connector is clean, and the machine still will not accept the door, because the next step is checking the lock circuit live with the machine plugged in. Call if the door has dropped badly enough that the hinge needs replacing and you are not comfortable supporting a heavy glass door while it comes off. Call immediately if the door is locked shut with water in the drum and the machine will not drain, because forcing it open floods the room. Never pay anyone who offers to bypass the lock to get the machine running; that is not a repair, it is removing a safety device.",
+  "faqs": [
+    {
+      "q": "Why does my Kenmore washer say dE when the door is clearly shut?",
+      "a": "Because the control never got the signal that it is locked, not that it is closed. A sleeve caught in the seal holds the door a couple of millimeters proud, which looks shut and is not. Beyond that, a worn latch hook or a failed lock will leave a properly closed door reporting as open. Listen for the lock buzzing after you press Start."
+    },
+    {
+      "q": "Can I bypass the door lock to use the washer?",
+      "a": "No. The interlock stops the door opening while the drum is spinning at speed with hot water in the tub, and defeating it puts a child's arm in reach of a drum doing hundreds of revolutions a minute. It also usually stops the machine working anyway, since the control watches the lock circuit throughout the cycle."
+    },
+    {
+      "q": "The door is locked shut with water inside. How do I open it?",
+      "a": "Run a drain or spin cycle first, because the lock will not release while the tub holds water. If the machine will not run at all, unplug it and wait a few minutes; most of these locks release once power has been off for a while. As a last resort, drain the tub through the pump filter at the bottom front, then try again."
+    },
+    {
+      "q": "Is dE the same as dE1 or dE2?",
+      "a": "They are the same family. Newer LG-built machines split the fault: dE1 means the lock did not engage when asked, and dE2 means the door was detected open during a running cycle. dE1 points at the lock, the hook or the hinge. dE2 more often points at a connector or a lock that drops out intermittently under vibration."
+    },
+    {
+      "q": "Why does my Kenmore show LG error codes?",
+      "a": "Because LG built the machine. Kenmore is a Sears badge rather than a manufacturer, and model numbers beginning 796 are LG washers with Kenmore trim. The code set is LG's throughout, which is why you get dE, OE, IE, UE, LE and CL instead of the F-codes a Whirlpool-built Kenmore would show."
+    },
+    {
+      "q": "How much does a door lock replacement cost?",
+      "a": "The assembly is typically $40 to $130 and takes under an hour once you have the boot clamp off, so it is a realistic DIY job. A technician doing the same work usually charges $130 to $300 including the part. Tighten the hinge screws and clean the connector first, though, because both are free and both fix a fair share of dE codes."
+    },
+    {
+      "q": "Why did dE start happening suddenly?",
+      "a": "Usually one of two slow failures finally crossing a line. Hinge screws loosen gradually under the weight of a glass door until the hook stops lining up, or the lock's internal contacts wear until they stop making reliably. Both feel sudden because the machine works until the day it does not. A single trapped garment is the other common answer."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "What dE is reporting, and the four things to check at the door",
+    "labels": {
+      "display": "dE",
+      "c1": "Latch hook, check for wear",
+      "c2": "Clear the boot seal fold",
+      "c3": "Hinge screws tight, door square",
+      "c4": "Lock connector, clean and dry"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG washing machine dE door error guidance",
+      "publisher": "LG support documentation for the equivalent LG model",
+      "url": null
+    },
+    {
+      "title": "Kenmore front load washer door will not lock repair article",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Tech sheet inside the machine, door lock terminal map and fault codes",
+      "publisher": "LG service sheet supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on dE causes, hinge sag and lock contact failure",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "dE1",
+    "dE2",
+    "CL",
+    "LE",
+    "OE",
+    "UE"
+  ]
+}

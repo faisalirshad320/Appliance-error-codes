@@ -1,0 +1,201 @@
+{
+  "title": "Asko Dishwasher F11 Error: Drain Fault Causes and Fix",
+  "meta_description": "Asko dishwasher F11 means the drain pump ran and the water did not go. Usually debris in the sump or a blocked drain hose.",
+  "h1": "Asko dishwasher F11 error code: what it means and how to clear it",
+  "answer": "F11 on an Asko dishwasher is a water outlet fault. The control ran the drain pump, waited, and still saw water in the tub, so it stopped the program and locked the code in. In the field this is almost always a blockage rather than a dead pump: debris packed into the filters, something solid jamming the pump impeller, or a drain hose that is kinked, airlocked or plumbed into a sink spigot whose blanking plug was never knocked out. Expect standing water over the filters when you open the door.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 90 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$160 to $400"
+  },
+  "safety_warning": "There is standing water sitting directly above the pump and its wiring. Switch the dishwasher off at its breaker, not just at the panel, before you take the filters out or open anything in the sump.",
+  "causes": [
+    {
+      "cause": "The coarse and fine filters are clogged, or something solid is jammed in the pump",
+      "frequency": "most cases",
+      "confirm": "Lift the filters out. If the mesh is furred with a gray grease mat, or you find a fruit sticker, a shard of glass, a cherry pit or a bit of bone sitting in the sump well underneath, that is your fault. A jammed impeller usually also makes the machine buzz for a second during the drain phase and then go quiet."
+    },
+    {
+      "cause": "The drain hose is kinked, airlocked, or the sink waste connection was never opened up",
+      "frequency": "most cases",
+      "confirm": "Pull the machine forward and follow the hose. A flat spot where the cabinet has crushed it, or a loop lying on the floor instead of rising under the countertop, will both do it. On a new install, check that the knockout plug in the garbage disposal inlet or the blanking plug in the sink waste spigot was actually removed; a machine that has never drained once since installation day is this, not a pump."
+    },
+    {
+      "cause": "The drain pump has failed electrically",
+      "frequency": "common",
+      "confirm": "Filters clean, impeller spins freely by hand, drain hose clear, and the drain phase is completely silent. No hum, no buzz, nothing. A pump that is blocked makes noise; a pump that is dead makes none."
+    },
+    {
+      "cause": "The sink drain or trap the dishwasher shares is itself blocked",
+      "frequency": "occasional",
+      "confirm": "Run the kitchen tap and watch the sink. If it drains slowly, gurgles, or backs up when the dishwasher pumps out, the restriction is in your plumbing and the dishwasher is reporting it accurately. A plumber fixes this, not an appliance technician."
+    },
+    {
+      "cause": "The water level sensor is not registering that the tub has emptied",
+      "frequency": "occasional",
+      "confirm": "You can hear the pump run strongly for its full attempt, and water visibly leaves the machine, and F11 still appears. The tub is empty but the control thinks it is not. This is the one case where the drain path is genuinely fine."
+    },
+    {
+      "cause": "Wiring to the pump, or the main control board",
+      "frequency": "rare",
+      "confirm": "A pump that tests fine on the bench but never energizes in the machine. Check the connector at the pump for corrosion or a pushed-back pin before anyone condemns a board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the program and get the standing water out",
+      "detail": "Cancel the running program at the panel, then open the door and bail the tub out with a plastic cup into a bucket. Finish with an old towel pressed into the sump well. You want the tub close to dry before you start lifting filters, because everything you take out next is below the water line and it will otherwise run across the kitchen floor.",
+      "minutes": 12,
+      "tools": "Plastic cup, bucket, old towels",
+      "warning": null
+    },
+    {
+      "name": "Kill the power at the breaker",
+      "detail": "Switch the dishwasher off at its circuit breaker, or pull the plug if yours is cord-connected under the sink. The control panel power button is not enough: you are about to put your hands into a wet sump a few inches from the pump motor and its terminals. Leave it off until you have finished everything inside the tub.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Breaker off, not just the panel. There is mains wiring directly under the sump."
+    },
+    {
+      "name": "Remove and clean both filters",
+      "detail": "Slide the lower rack out. Asko machines use a two-part filter in the floor of the tub: a coarse filter that lifts straight out, and a finer flat screen beneath it. Take both out, scrub them under a hot tap with a dish brush, and pay particular attention to the underside of the fine screen where the grease and lint mat forms. Hold the fine screen up to a light; if it does not look open, it is not clean yet.",
+      "minutes": 15,
+      "tools": "Dish brush, hot water, work glove",
+      "warning": "Shine a flashlight into the sump before reaching in. Broken glass collects there and you will not see it under water."
+    },
+    {
+      "name": "Check the drain pump impeller",
+      "detail": "With the filters out, look at the floor of the sump. On many Asko models the drain pump is reached through a small plug or stop set into the bottom drain beside the filter opening, usually a different color to the surrounding steel; your use and care guide will say exactly which. Lift it out, expect a little more water, and reach in with a gloved finger to turn the impeller. It should spin freely. If it will not move, work the obstruction out with needle-nose pliers and turn it again before refitting the plug squarely.",
+      "minutes": 20,
+      "tools": "Needle-nose pliers, work glove, flashlight, towel",
+      "warning": "Power must be off at the breaker before you open the sump."
+    },
+    {
+      "name": "Walk the drain hose end to end",
+      "detail": "Pull the machine forward on its feet and follow the corrugated drain hose from the back of the dishwasher to wherever it ends. Straighten any kink, free it from behind a leveling leg, and confirm it rises to just below the countertop before dropping to the waste connection. That high loop is what stops dirty sink water siphoning back. If it terminates at a garbage disposal, check the knockout plug came out at installation; if it goes into a sink spigot, check the spigot is actually drilled through.",
+      "minutes": 25,
+      "tools": "Flashlight, bucket, screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Clear the air gap and test the sink drain",
+      "detail": "If there is an air gap cylinder on the countertop, pull the chrome cover off, unscrew the plastic cap and clear the sludge out of both ports with a bottle brush. Then run the kitchen tap hard for thirty seconds and watch. A sink that backs up, gurgles or empties slowly is telling you the shared trap is partly blocked, and no amount of work on the dishwasher will fix that.",
+      "minutes": 15,
+      "tools": "Bottle brush, towel",
+      "warning": null
+    },
+    {
+      "name": "Restore power, reset, and test on the shortest program",
+      "detail": "Switch the breaker back on. If the code is still displayed, cut the power again for two full minutes and restore it; the control holds the stored fault and a quick off-on often leaves the number sitting there even though the blockage is gone. Then run the shortest or rinse program you have rather than a full wash, so you learn whether it drains in a few minutes instead of two hours.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filters are clean, the impeller turns freely, the hose is clear and the sink drains properly, you have ruled out everything free and the question is now which component is lying. Work it in this order. First, stand next to the machine during the drain phase with the door closed and listen hard. A strong steady whirr that moves no water points at an obstruction further down the hose than you looked, usually right at the waste connection where the hose necks down; pull that end off into a bucket and check it directly. A buzz that lasts a second and stops is a pump still jammed, so go back into the sump and turn the impeller again with the pump plug out. Total silence means the pump is not being driven at all. Second, if it is silent, unplug the machine and get to the pump connector, which means laying the dishwasher on its back on a sheet of cardboard with the door taped shut. Look for green corrosion or a terminal that has backed out of its housing. That costs nothing and it is a real failure mode in machines under a kitchen sink. Third, if the connector is sound, the pump is the part, and on an Asko that is where the money starts: expect $90 to $220 for the pump itself and longer than you would like to wait for it, because parts for Asko in the United States come through a small distributor network rather than off a shelf. Fourth, and only if the pump audibly runs well and water genuinely leaves the machine but F11 still posts, the fault is in the level sensing or the control, and that is a technician call. One last thing worth ruling out before any of this: if your machine drains fine into a bucket when the hose is pulled off but fails when connected, and the hose end sits lower than the water level in the tub, you have a siphon rather than a blockage, and the fix is a proper high loop, which costs nothing but a cable tie.",
+  "reset_procedure": "Cancel the running program at the panel, then switch the dishwasher off at its breaker, or unplug it, for a full two minutes before restoring power. The control stores the fault and a quick off-on frequently leaves F11 showing even after the blockage is cleared. None of this helps while water is still sitting in the tub: the machine re-posts the code within a minute of the next drain attempt, so bail the tub out first.",
+  "model_notes": "Asko's F-number codes are not documented consistently outside the company's own service literature, and third-party lists on the web disagree with each other on several numbers, including this one. The reading used here, a water outlet or drain fault, is the one that matches both Asko parts documentation and what owners actually find when they open the machine. A minority of lists give F11 an entirely different meaning, which is a good reason to check the use and care guide for your exact model number before you buy anything. On Asko dishwashers F7 and F2 cover neighboring drain and overfill faults, so if your panel shows one of those instead, most of this page still applies.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$90 to $220",
+      "difficulty": "moderate",
+      "note": "Order early; Asko parts in the US often take longer to arrive than mass-market equivalents"
+    },
+    {
+      "name": "Coarse and fine filter set",
+      "cost": "$25 to $70",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn or deformed. Most just need a scrub"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$20 to $45",
+      "difficulty": "moderate",
+      "note": "Worth replacing if it is crushed flat or split rather than trying to straighten it"
+    },
+    {
+      "name": "Air gap assembly",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Countertop item, not strictly part of the dishwasher"
+    }
+  ],
+  "when_to_call": "Call a technician once the drain path is proven clear and the pump either stays silent or runs well while the code persists, because the next step is live testing. Be realistic about the economics first. There are far fewer Asko service centers in the United States than there are for Bosch or Whirlpool, which means a longer wait, a higher call-out charge, and a pump that may have to be ordered rather than carried on the van. A single visit plus a pump commonly lands between $250 and $400, and a two-visit job because the part was not in stock lands higher. On a machine under about eight years old that is still worth doing, since Asko tubs and racks outlast the pumps in them. On an older one, get the quote in writing before agreeing to anything. Call a plumber instead, not an appliance technician, if the kitchen sink drains slowly or gurgles when the dishwasher pumps out, because that fault is in your house plumbing and an appliance engineer will charge a call-out to tell you so.",
+  "faqs": [
+    {
+      "q": "What does F11 mean on an Asko dishwasher?",
+      "a": "It is a water outlet fault. The control commanded the drain pump, gave it time to work, and still detected water in the tub, so it halted the program. It is a report that the water did not leave, not a diagnosis of why. In practice a blockage in the filters, the sump or the drain hose is a far more common cause than a failed pump."
+    },
+    {
+      "q": "Can I still use the dishwasher with F11 showing?",
+      "a": "No, and running it again makes things worse. The machine will not complete a cycle, so dishes sit in dirty standing water that turns sour within a day or two. There is no shock hazard in leaving it, but bail the tub out rather than letting it stand, and switch it off at the breaker if you are going away."
+    },
+    {
+      "q": "Why did F11 appear suddenly when nothing changed?",
+      "a": "Grease and lint build on the underside of the fine filter screen gradually, then cross a threshold, so a slow decline looks like a sudden failure. The other common trigger is one solid object: a fruit sticker, an olive pit or a shard of glass finding the pump inlet on a single load after years of trouble-free running."
+    },
+    {
+      "q": "How do I clear the F11 code once the blockage is gone?",
+      "a": "Cancel the program, then cut power at the breaker for two full minutes and restore it. The control stores the fault, so the number can remain on the panel even after the machine would drain perfectly well. If it reappears within a minute of restarting, the blockage is still there and you have not found it yet."
+    },
+    {
+      "q": "Is it worth replacing the drain pump on an Asko dishwasher?",
+      "a": "Usually yes, if the machine is under roughly eight years old. The pump is a moderate part at $90 to $220 and the tub, racks and door around it typically have years left. The thing that changes the math is the thinner US service network: budget for a longer parts wait and a higher call-out than you would pay on a mainstream brand."
+    },
+    {
+      "q": "Does F11 mean my drain pump is broken?",
+      "a": "Usually not. Most F11 cases clear with a filter clean, a jam pulled out of the impeller or a kink taken out of the drain hose. Listen during the drain phase before you spend anything: a running pump that moves no water means a blockage, a short buzz means a jam, and total silence is the only sound that genuinely points at the pump itself."
+    },
+    {
+      "q": "My dishwasher is brand new and shows F11 on the first wash. What now?",
+      "a": "Check the installation, not the machine. The two classic first-cycle causes are a garbage disposal whose knockout plug was never removed, and a sink waste spigot that was never drilled through, both of which leave the drain hose pumping into a sealed dead end. The third is a drain hose lying flat on the floor with no high loop."
+    },
+    {
+      "q": "Why is there still water in the bottom after I cleaned everything?",
+      "a": "A small film of water sitting in the sump well below the filter is normal on any dishwasher and keeps the seals from drying out. What is not normal is water standing above the filter mesh. If the level is over the filters after a drain attempt, the path is still restricted somewhere between the pump and the sink waste."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The drain path on an Asko, and the four places F11 starts",
+    "labels": {
+      "display": "F11",
+      "c1": "Coarse and fine filters in the tub floor",
+      "c2": "Drain pump impeller under the sump plug",
+      "c3": "Drain hose high loop and kinks",
+      "c4": "Disposal knockout or sink waste spigot"
+    }
+  },
+  "sources": [
+    {
+      "title": "Asko dishwasher use and care guide, filter and drain pump cleaning procedure",
+      "publisher": "Asko Appliances owner documentation",
+      "url": null
+    },
+    {
+      "title": "Asko spare parts guidance on drain pump faults and outlet error codes",
+      "publisher": "Asko parts distributor technical notes",
+      "url": null
+    },
+    {
+      "title": "Asko dishwasher fault code reference and troubleshooting pages",
+      "publisher": "iFixit Asko dishwasher device wiki",
+      "url": null
+    },
+    {
+      "title": "Owner and technician reports of F11 traced to drain connections and blockages",
+      "publisher": "Appliantology and home repair forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F7",
+    "F2",
+    "F12",
+    "F4",
+    "F1"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Hamilton Beach Microwave LOC Code: How to Unlock It",
+  "meta_description": "Hamilton Beach microwave codes explained. Most are a stuck key or the child lock rather than a fault, and here is how to tell.",
+  "h1": "Hamilton Beach microwave unlock: what LOC means and how to clear it",
+  "answer": "There is no secret unlock code. LOC, or a padlock symbol, means the keypad lock is switched on, which is a feature rather than a fault: the oven is fine and it is ignoring you on purpose. On most Hamilton Beach models you release it by holding the Stop or Clear key for about three to five seconds until the indicator disappears. If your display shows nothing and it is the door itself that will not open, that is a different thing entirely, and some of these models are built to lock the door at the end of a cycle.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "2 to 10 minutes",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "Rarely worth it on a countertop oven"
+  },
+  "safety_warning": "Nothing on this page needs the oven opened up, and you should not open one. A microwave's high-voltage capacitor holds a charge that can kill, it stays charged after the oven is unplugged, and it does not reliably bleed off on its own. Never remove the cabinet, never interfere with a door latch or interlock switch, and unplug the oven and stop using it if it arcs, smokes, smells of burning or seems to run with the door open.",
+  "causes": [
+    {
+      "cause": "The keypad lock is switched on",
+      "frequency": "most cases",
+      "confirm": "LOC on the display, or a small padlock symbol, and every key except possibly Stop does nothing. The clock usually still runs and the light still works, which is the tell: a locked oven looks alive and just refuses instructions."
+    },
+    {
+      "cause": "A key was held down long enough to switch the lock on",
+      "frequency": "common",
+      "confirm": "Nobody remembers locking it. The lock needs a press of several seconds, which is exactly what a cloth dragged across the panel during cleaning provides, or a child leaning on it. If the oven was fine this morning and locked by evening, this is almost always what happened."
+    },
+    {
+      "cause": "The door locks itself at the end of a cycle",
+      "frequency": "common",
+      "confirm": "The keypad works normally and it is the door that will not open. Several Hamilton Beach and Hamilton Beach-badged models, including units sold for RV use, latch the door after cooking by design. Owners report this regularly and mistake it for a fault. Check your manual for the door release rather than pulling harder."
+    },
+    {
+      "cause": "A showroom or demo mode",
+      "frequency": "occasional",
+      "confirm": "The display lights up and the keys beep normally, but the oven never actually heats and the turntable may not turn. That is demo mode rather than a lock, and it is usually cleared by a key combination listed in the manual or by unplugging the oven for several minutes."
+    },
+    {
+      "cause": "A genuinely stuck key",
+      "frequency": "occasional",
+      "confirm": "The unlock hold does nothing however long you press, and one key feels different from the others: soft, sticky or sitting lower. At that point it has stopped being a lock and become a fault, and on a budget countertop oven it is usually the end of the conversation."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work out what is actually locked",
+      "detail": "Look at the display and then try the door. A display showing LOC or a padlock with a door that opens normally is the keypad lock. A blank or normal display with a door that will not open is a door latch issue, which several of these models do deliberately at the end of a cycle. The two have nothing in common, so settle this before pressing anything.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Hold the Stop or Clear key",
+      "detail": "Press and hold the Stop or Clear key steadily for about three to five seconds, without tapping it, until the LOC indicator clears and the oven beeps. Do not give up at two seconds, which is where most people stop. If your panel has no Stop or Clear key, look for the key with a padlock printed on or beneath it and hold that instead.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try the zero key if that does nothing",
+      "detail": "On some Hamilton Beach panels the lock lives on the 0 key rather than Stop or Clear. Hold it the same way, for a full five seconds. The lock key genuinely varies across these models, so rather than trusting a sequence from another oven, find the model number on the sticker on the back or inside the door frame and check that model's manual.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug it for five minutes and try again",
+      "detail": "Pull the plug at the wall and leave it out a full five minutes, then plug it back in and repeat the unlock hold. This does two useful things: it clears a control that has latched up, which looks identical to a lock from outside, and it resets a demo mode on some models. It will not switch off a lock that the oven is deliberately remembering.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean and dry the panel if a key feels wrong",
+      "detail": "Wipe the keypad with a barely damp cloth and dry it with a second one, working into the edges of the membrane. Spray the cloth, never the panel, because liquid runs down behind the membrane and holds a key closed permanently. Then press each key in turn and find the one that is soft, sticky or unresponsive compared with its neighbours.",
+      "minutes": 8,
+      "tools": "Two soft cloths",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the unlock hold has been tried on Stop, Clear and the zero key for a full five seconds each, and a five minute unplug has not changed anything, the oven has stopped being locked and started being faulty. That usually means a key held closed under the membrane, which the control reads as a permanent press. There is nothing further to do from outside the case, and on a microwave that is where it has to end: the high-voltage capacitor holds a lethal charge after the oven is unplugged, so the keypad is not a part to go chasing yourself. The uncomfortable but honest answer on most of these ovens is that the repair is not worth it. Hamilton Beach countertop microwaves sit at a price point where a technician's call-out alone exceeds the value of the appliance, before any part is fitted. If the oven is still in warranty, go to Hamilton Beach with the model number from the sticker on the back rather than to a repair shop. If it is not, replace it. The exception is a door that will not open rather than a keypad that will not respond: check the manual for your model's door release before concluding anything is broken, because several of these are designed to latch after a cycle and a surprising number of owners have replaced a perfectly good oven over it.",
+  "reset_procedure": "Unplug the oven at the wall for five minutes, then plug it back in and try the unlock hold again. The unplug clears a control that has latched up and resets demo mode on some models, but it will not clear a keypad lock the oven is deliberately holding, because the whole point of the feature is that it survives being switched off. The only thing that clears a real lock is holding the right key for long enough.",
+  "model_notes": "Hamilton Beach does not publish a public fault code table for its microwaves, and the unlock key is not consistent across the range, which is why so many unlock instructions online contradict each other. Rather than trusting a sequence from another model, find the model number on the sticker on the back of the oven or inside the door frame and use that model's manual. Worth knowing too that Hamilton Beach badges appear on ovens built by more than one manufacturer, and that some units sold through RV and compact-living channels latch the door automatically at the end of a cycle, which is behavior rather than failure.",
+  "parts": [
+    {
+      "name": "Membrane keypad assembly",
+      "cost": "$30 to $80",
+      "difficulty": "technician only",
+      "note": "Rarely economic on a countertop oven at this price point"
+    }
+  ],
+  "when_to_call": "On a countertop Hamilton Beach microwave, mostly do not. A technician's call-out typically costs more than the oven did, so if the unlock sequence and a five minute unplug have not worked, check the warranty first and replace it second. Contact Hamilton Beach directly with the model number if it is still covered, since the keypad is the sort of part a manufacturer will deal with. Unplug it and stop using it immediately, whatever is on the display, if it arcs inside, smokes, smells of hot plastic or appears to run with the door open.",
+  "faqs": [
+    {
+      "q": "What is the unlock code for a Hamilton Beach microwave?",
+      "a": "There is not one. No Hamilton Beach microwave uses a numeric unlock code, despite how often the question is asked. The lock is cleared by holding a key, usually Stop or Clear and on some panels the zero key, for about three to five seconds until the LOC indicator disappears. Check your model's manual for the exact key."
+    },
+    {
+      "q": "What does LOC mean on a Hamilton Beach microwave?",
+      "a": "LOC means the keypad lock is active, so the control is ignoring button presses on purpose. It is a feature, not a fault, and the oven is otherwise working normally. Hold the Stop or Clear key for a few seconds to release it. It gets switched on accidentally all the time, usually by a cleaning cloth."
+    },
+    {
+      "q": "Why won't my Hamilton Beach microwave door open?",
+      "a": "Check whether the keypad is actually responding first, because a locked door and a locked keypad are different problems. Several of these models, including units sold for RV and compact use, latch the door automatically when a cycle finishes. Look up the door release in your model's manual rather than pulling harder, which is how latch hooks get broken."
+    },
+    {
+      "q": "Will unplugging the microwave unlock the keypad?",
+      "a": "Not a genuine keypad lock, because the setting is meant to survive the oven being switched off. It is still worth five minutes, since it clears a control that has latched up and resets demo mode on some models, both of which look exactly like a lock from outside. The real lock only clears by holding the right key."
+    },
+    {
+      "q": "The unlock hold does nothing. What now?",
+      "a": "Try Stop, Clear and the zero key in turn, holding each a full five seconds, then unplug for five minutes and repeat. If still nothing, a key is probably held closed under the membrane and the oven has a fault rather than a lock. On a countertop model at this price, check the warranty and otherwise replace it."
+    },
+    {
+      "q": "Is a Hamilton Beach microwave worth repairing?",
+      "a": "Usually not once it is out of warranty. These are budget countertop ovens, and a technician's call-out on its own generally exceeds what the appliance cost, before any part is fitted. If it is still covered, go to Hamilton Beach with the model number from the sticker on the back. If not, replacement is the sensible call."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing the keypad lock on a Hamilton Beach microwave",
+    "labels": {
+      "display": "LOC",
+      "c1": "Locked keypad or locked door",
+      "c2": "Hold Stop or Clear five seconds",
+      "c3": "Try the zero key if nothing",
+      "c4": "Check the manual for your model"
+    }
+  },
+  "sources": [
+    {
+      "title": "Hamilton Beach microwave keypad lock troubleshooting references",
+      "publisher": "Third-party appliance troubleshooting databases",
+      "url": null
+    },
+    {
+      "title": "Owner reports of automatic door latching on Hamilton Beach and badged RV microwaves",
+      "publisher": "Retailer product reviews and owner forums",
+      "url": null
+    },
+    {
+      "title": "Field guidance on microwave capacitor hazards",
+      "publisher": "Appliance repair trade forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "LOC"
+  ]
+}

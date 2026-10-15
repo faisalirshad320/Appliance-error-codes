@@ -1,0 +1,216 @@
+{
+  "title": "Samsung Dishwasher Error Codes: What Each One Means",
+  "meta_description": "Every Samsung dishwasher error code explained: what each one means, how serious it is, and the first thing to check before you call anyone.",
+  "h1": "Samsung dishwasher error codes: what they mean and where to start",
+  "answer": "Samsung dishwasher faults show as two characters on the panel, and the same fault is written two ways depending on how old the machine is: newer models end the code in C, older ones end it in E, so 4C and 4E are one fault and LC and LE are another. The first character names the subsystem, so 4 is water coming in, 5 is water going out, L is a leak, and O is too much water in the tub. The most searched of them all is LC, the leak code, which locks the machine into running its pump until you cut power at the breaker. A segment display also makes 5 and S look alike, which is why the drain code turns up as both 5C and SC.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes to identify, 30 minutes to 3 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $110",
+    "technician": "$130 to $380"
+  },
+  "safety_warning": "Several Samsung dishwasher codes involve water reaching the compartment under the tub where the mains wiring and pump connections sit. Switch the machine off at its breaker, not just at the panel, before pulling it out, removing the kickplate, or reaching underneath.",
+  "causes": [
+    {
+      "cause": "Leak detection, the LC and LE codes",
+      "frequency": "most cases",
+      "confirm": "The dishwasher turns itself on, runs the drain pump without stopping, and will not respond to the power button. That behavior is unique to the leak codes on Samsung machines, so you can recognize it before you even read the panel."
+    },
+    {
+      "cause": "Drain faults, the 5C, SC, 5E and SE codes",
+      "frequency": "most cases",
+      "confirm": "Open the door at the end of a cycle to water standing above the filter and across the tub floor. The machine filled and washed normally and then could not empty, which is what the drain group reports."
+    },
+    {
+      "cause": "Water supply faults, the 4C and 4E codes",
+      "frequency": "common",
+      "confirm": "The cycle stalls early and the tub never fills, or fills far too slowly. Shut the valve under the sink, put the fill line into a bucket and open the valve for five seconds: a strong jet means the restriction is in the machine, a dribble means it is in your plumbing."
+    },
+    {
+      "cause": "Over-level water, the OC and oE codes",
+      "frequency": "common",
+      "confirm": "More water in the tub than the program should have put there. Bail the tub dry, leave the machine off overnight with the supply valve open, and check the sump in the morning: water back in it means the inlet valve is passing rather than the drain being blocked."
+    },
+    {
+      "cause": "Circulation motor, heater and sensor faults",
+      "frequency": "occasional",
+      "confirm": "The machine runs but does the job badly: dishes come out cold and greasy, or you hear none of the usual spray noise during the wash. Unlike the water codes, nothing changes when you clean the filter or check the hoses."
+    },
+    {
+      "cause": "Control board and communication faults",
+      "frequency": "rare",
+      "confirm": "The code appears before the machine does anything mechanical, buttons do nothing or respond at random, or the panel lights up oddly. These are the codes you cannot test from the outside."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code and note how it is written",
+      "detail": "Write down exactly what the panel shows, including whether the second character is a C or an E, because that tells you roughly how old your machine is and which of Samsung's published code lists applies. If the first character could be a 5 or an S, assume the drain code. If a leak indicator is blinking with no letters at all, treat it as LC.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the breaker rather than the panel",
+      "detail": "For any code, switch the dishwasher off at its circuit breaker for five minutes and back on. For the leak codes this is the only way to stop the machine, since it ignores its own power button in leak mode. For everything else the five minutes matters because the control holds the stored fault, and a quick off-on leaves the code on the display even after the problem is gone.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Confirm the breaker is actually off before working underneath. A Samsung dishwasher in leak mode stays live with the panel apparently dead."
+    },
+    {
+      "name": "Clean the filter and clear the sump",
+      "detail": "Twist the filter assembly in the tub floor counterclockwise, lift it out with any flat screen beneath it, and scrub both under a hot tap until the mesh passes light across its whole area. Then put a glove on, shine a flashlight into the empty sump, and pick out glass, pits, labels and bone with needle-nose pliers. Refit and twist clockwise until it locks. This is the first move for every drain and level code.",
+      "minutes": 15,
+      "tools": "Dish brush, needle-nose pliers, work glove, flashlight",
+      "warning": "Look into the sump with a light before reaching in; broken glass settles there."
+    },
+    {
+      "name": "Clear the air gap and check the disposal connection",
+      "detail": "Twist the chrome cap off the small cylinder on the countertop beside the faucet, lift the plastic cover beneath and clear the sludge with a bottle brush. Then pull the drain hose off the garbage disposal inlet over a shallow pan and look into the port: on a recently fitted disposal, the solid plastic knockout plug may never have been driven out, which blocks the drain permanently.",
+      "minutes": 20,
+      "tools": "Bottle brush, nut driver, shallow pan",
+      "warning": null
+    },
+    {
+      "name": "Test the water supply with a bucket",
+      "detail": "Find the shutoff valve under the sink and confirm it is fully open, with a lever parallel to the pipe. Then close it, disconnect the fill line at the dishwasher over a towel and a pan, and open the valve for five seconds with the line in a bucket. A strong jet rules out the supply side in half a minute. While it is apart, check the mesh screen in the inlet fitting for grit and scale.",
+      "minutes": 15,
+      "tools": "Bucket, adjustable wrench, towel, shallow pan",
+      "warning": "Close the shutoff valve before undoing the fill line or you take mains pressure in the face."
+    },
+    {
+      "name": "Check the base pan for water",
+      "detail": "Power off at the breaker, close the supply valve, pull the machine out, lay towels behind it and tilt it back about 45 degrees with the door shut for a minute. Water running out of the underside means the leak sensor has something real to report, whatever the panel is showing. A dry pan rules out the whole leak group in one test and saves you a long hunt.",
+      "minutes": 20,
+      "tools": "Old towels, screwdriver, a helper",
+      "warning": "Power off at the breaker before tipping. There is water sitting beside the mains wiring."
+    },
+    {
+      "name": "Find the model number and the door sticker",
+      "detail": "The rating plate is on the edge of the door, visible when the door is open. Note the full model number including the suffix. Many Samsung dishwashers also carry a code list printed on a sticker inside the door or the toe panel, and that list is written for your exact machine, which makes it better than any published table including this one.",
+      "minutes": 10,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Weigh the repair before ordering parts",
+      "detail": "Filters, gaskets, hoses, clamps and inlet valves are cheap and worth fixing at almost any age. Control boards, sump assemblies and tub repairs are not, because the labor to reach them is most of the cost. On a dishwasher over seven or eight years old, a quote approaching $300 is close enough to a new machine that it deserves a pause rather than an immediate yes.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the general sweep has not settled it, stop treating the code as a label and place it in a group, because each group has a different cheapest-first path. Leak group first, since it is the most common and the most misdiagnosed: the fix is to dry the base pan and the sensor properly, which means a fan blowing into the open kickplate for several hours and sometimes a full day, and a surprising number of people replace a sensor that only needed drying. Drain group next: clean the filter, clear the air gap, check the disposal knockout, walk the hose, then listen at the kickplate during the drain phase, because a hum with no flow means the pump and silence means the circuit feeding it. Supply group after that, settled in thirty seconds with a bucket at the fill line: a weak stream puts the fault in your plumbing and an appliance technician cannot help you. Level group last among the water codes, and the key test is leaving the tub dry overnight with the machine off, because water that appears on its own means an inlet valve passing rather than anything to do with draining. Motor, heater and control faults are the ones you cannot test from outside, and they are where the cost jumps, so get the model number and a written quote before agreeing to anything. If you cannot place the code at all, the honest fallback beats guessing: Samsung's own code lists differ slightly between regions and model years, so read the sticker inside your door or call Samsung support with the model number and the exact characters in front of you.",
+  "reset_procedure": "On every Samsung dishwasher the reliable reset is at the breaker: switch the circuit off for five minutes and back on. The control holds the stored fault and a quick off-on often leaves the code showing after the problem is fixed. For the leak codes the breaker is not optional, because the machine ignores its own power button while it thinks it is leaking. Some models also offer a cancel-and-drain by holding a program button for a few seconds. None of this helps while the fault is still live: a wet sensor or a full tub re-posts the code within seconds of power returning.",
+  "model_notes": "Samsung changed the way the codes are written rather than what they mean. Newer dishwashers end a code in C and older ones in E, so 4C and 4E are the same water supply fault, 5C and 5E the same drain fault, LC and LE the same leak, and OC and oE the same over-level condition. Segment displays also blur characters, which is why the drain code is reported as 5C, SC, 5E and SE by owners of identical machines. Waterwall models, which spray from a bar travelling along the tub floor instead of a rotating arm, add reflector-related behavior to the leak code. Beyond these groups there are codes for the circulation motor, the heater, the temperature sensors and the control boards talking to each other, and those vary enough by model that the sticker inside your door is the authority for your machine.",
+  "parts": [
+    {
+      "name": "Filter assembly",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "The most common part on the list, and usually it only needs a scrub"
+    },
+    {
+      "name": "Door gasket or tub seal",
+      "cost": "$25 to $60",
+      "difficulty": "easy",
+      "note": "A frequent leak source and a press-fit job with no tools"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$35 to $85",
+      "difficulty": "moderate",
+      "note": "Covers both a no-fill and a valve passing water when off"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$45 to $110",
+      "difficulty": "moderate",
+      "note": "Only after a hum with no flow and a clear drain path"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $320",
+      "difficulty": "technician only",
+      "note": "Last resort on any code, and rarely worth it past eight years old"
+    }
+  ],
+  "when_to_call": "Call a technician when the fault survives the free checks and the next step would mean testing live circuits: a drain pump that stays silent with a clean connector, a machine that never heats, or anything that looks like a control fault. Call a plumber instead if the bucket test at the fill line gives a weak dribble, or if the sink gurgles and backs up while the dishwasher drains, because both are house plumbing and an appliance engineer will charge a call-out to say so. Call Samsung support with your model number and the exact characters on the panel for any code you cannot place, since their list is written for your machine. And get any quote over about $300 in writing before approving it on a dishwasher already seven or eight years old.",
+  "faqs": [
+    {
+      "q": "Why do Samsung dishwasher codes end in C on some models and E on others?",
+      "a": "Samsung changed the display convention across model generations. Older machines write the code with an E, newer ones with a C, and the fault behind it is unchanged. So 4C and 4E are the same water supply fault, 5C and 5E the same drain fault, and LC and LE the same leak. Any fix written for one applies to the other."
+    },
+    {
+      "q": "Is SC the same as 5C on a Samsung dishwasher?",
+      "a": "Yes. Both are the drain error, and Samsung lists 5C, SC, 5E and SE together. On a seven-segment panel the figure five and the letter S are almost identical, so owners of the same machine report the code both ways. The meaning is that the machine could not pump the water out within the time allowed."
+    },
+    {
+      "q": "Which Samsung dishwasher error code is the most common?",
+      "a": "LC, the leak code, by a wide margin in searches. It means the moisture sensor in the base pan under the tub has got wet, and the machine responds by running its drain pump nonstop and ignoring the power button. Detergent foaming over causes as many of them as an actual plumbing leak does."
+    },
+    {
+      "q": "How do I reset a Samsung dishwasher?",
+      "a": "Switch it off at the circuit breaker for five minutes and back on. The control board holds the stored fault, so cancelling at the panel often leaves the code on the display. For the leak codes the breaker is the only option, because the machine deliberately ignores its own power button while it thinks water is escaping."
+    },
+    {
+      "q": "Can I use my Samsung dishwasher while it is showing a code?",
+      "a": "It depends which one. A leak code locks the machine into pumping and will not let you start anything. A drain code leaves standing water, so another cycle washes dishes in old water. A heating fault still runs, just badly. None are dangerous to leave for a day, but the leak codes get worse with every cycle."
+    },
+    {
+      "q": "Where is the error code list for my exact model?",
+      "a": "Look for a printed sticker inside the door or on the toe panel, which many Samsung dishwashers carry, and check the manual for your model number from the rating plate on the door edge. Samsung's published lists differ slightly by region and model year, so the sticker in your own machine outranks any table online."
+    },
+    {
+      "q": "Is a Samsung dishwasher worth repairing?",
+      "a": "For filters, gaskets, hoses, clamps and inlet valves, yes at almost any age, because the parts are modest and the work is short. For control boards, sump assemblies and tub leaks on a machine over seven or eight years old, usually not: the labor to reach them dominates the bill and lands close to the price of a replacement."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How to work through any Samsung dishwasher fault code",
+    "labels": {
+      "display": "--C",
+      "c1": "Read the code, C or E ending",
+      "c2": "Breaker off five minutes",
+      "c3": "Filter, air gap and drain path",
+      "c4": "Tilt back to check the base pan"
+    }
+  },
+  "sources": [
+    {
+      "title": "Common Samsung dishwasher error codes and their meaning",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Understanding the meaning of error codes on your Samsung dishwasher",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung dishwasher code list printed inside the door and toe panel",
+      "publisher": "Samsung service documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on Samsung dishwasher leak and drain codes",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "LC",
+    "SC",
+    "OC",
+    "4C",
+    "LE",
+    "5C"
+  ]
+}

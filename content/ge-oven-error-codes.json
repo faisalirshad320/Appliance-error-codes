@@ -1,0 +1,132 @@
+{
+  "title": "GE Oven Error Codes: What Each F Code Means and Fixes",
+  "meta_description": "GE oven F codes group into four things: the temperature sensor, the keypad, the door lock and over-temperature. F2 is the one to switch off at the breaker.",
+  "h1": "GE oven error codes: how to read them and what to do",
+  "answer": "GE oven codes are an F followed by a digit on most models, and they cover four things. F3 and F4 are the oven temperature sensor read as open and as shorted. F7 is a key on the touchpad stuck or held. F9 is the door lock circuit. F2 is the one that matters most: it means the oven went above its safe temperature limit, and the right response is to switch the oven off at the breaker and leave it off until someone has looked at it. For everything else, start with a five minute breaker reset, because codes left behind by a power cut are common and clear for nothing.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to diagnose, 30 minutes to 2 hours to repair",
+  "cost_estimate": { "diy": "$25 to $120", "technician": "$180 to $450" },
+  "safety_warning": "An F2 over-temperature code means the oven got hotter than it should have. Switch it off at the breaker and leave it off: an oven that can run away is a fire risk and is not something to test by trying another bake. Everything behind the control panel or the rear panel is at mains voltage, so isolate at the breaker and verify the circuit is dead before removing any fastener. Never defeat the door lock, and never disable a thermal cut-out to stop a code appearing.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor circuit",
+      "frequency": "most cases",
+      "confirm": "F3 and F4 both point here, as an open circuit and a short circuit on the same sensor. The sensor is the thin metal probe projecting into the upper rear of the oven cavity. A plug pulled loose at the back of the range and a wire broken where the harness flexes are both as common as a failed sensor."
+    },
+    {
+      "cause": "A transient fault left by a power event",
+      "frequency": "most cases",
+      "confirm": "The code appeared after a power cut, a surge or a tripped breaker, on an oven that had been working normally. Kill the breaker for five minutes and run a plain bake. A code that never comes back was never a fault, and this accounts for a large share of one-off GE F codes."
+    },
+    {
+      "cause": "A stuck key on the touchpad",
+      "frequency": "common",
+      "confirm": "F7. Press every key separately and look for the one that does nothing, triggers the wrong function, or needs noticeably harder pressure. Grease and cleaning spray behind the membrane are the usual causes, and on some models the oven will still heat while showing the code."
+    },
+    {
+      "cause": "The door lock circuit",
+      "frequency": "common",
+      "confirm": "F9. Look at the latch through the gap at the top of the door: it should be fully parked, not stopped halfway across the frame. These very often appear during or just after a self-clean cycle, which is the only time the motorised latch travels its full range."
+    },
+    {
+      "cause": "Over-temperature",
+      "frequency": "occasional",
+      "confirm": "F2, and it deserves different treatment from the rest. The control saw the cavity exceed its limit. A shorted sensor can cause it, and so can a relay welded closed, which means the element stays powered whatever the control asks for. Do not keep testing this one; switch it off at the breaker."
+    },
+    {
+      "cause": "The control board or a relay",
+      "frequency": "occasional",
+      "confirm": "The sensor tests correctly, the keypad is clean with no stuck key, the latch is parked, and the code still returns every time. Look for scorched or discoloured connectors at the board before accepting a board quote, because a heat-damaged terminal is a cheaper and more common finding."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check whether this is the one that needs the breaker off now",
+      "detail": "If the code is F2, or the oven is hotter than you asked for, or it is heating with nothing selected, go to the panel and switch the oven circuit off. Do not test it again to see what happens. An oven that overheats once can overheat again, and the usual cause is either a shorted sensor or a relay that has welded closed and is powering the element regardless of the control.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "An over-temperature fault is a fire risk. Switch off at the breaker and leave it off until it has been diagnosed."
+    },
+    {
+      "name": "Reset at the breaker for five minutes",
+      "detail": "For every other code, switch the oven off at the breaker rather than at the control panel and leave it off a full five minutes so the board loses residual charge. Restore power and run a plain bake at a middling temperature, not a timed or convection program. A fair share of GE F codes are left behind by a power event and never return after this.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the touchpad and find the stuck key",
+      "detail": "Wipe the panel with a barely damp cloth and dry it with a second one, getting into the edges where the membrane meets the trim. Spray the cloth and not the panel, because liquid runs down behind the membrane and holds a key closed. Then press each key separately and note the one that behaves differently from its neighbours.",
+      "minutes": 12,
+      "tools": "Two soft cloths",
+      "warning": null
+    },
+    {
+      "name": "Check the door latch is parked",
+      "detail": "With the oven cool, look along the top edge of the door through the gap and find the motorised latch arm. It should sit fully retracted and parked rather than stopped partway across. Cancel any self-clean still running and switch off any control lock. Do not push a latch that has stopped mid-travel back by hand, and never wedge one.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": "An interrupted self-clean may have left the oven above a safe temperature. Let it cool before working near the door."
+    },
+    {
+      "name": "Check the sensor connector at the back",
+      "detail": "Switch off at the breaker and confirm it is dead. Pull the range out and remove the rear panel, usually eight to twelve screws. Find where the two thin sensor wires come through from the cavity and plug into the harness. Check the connector is fully seated, look for corrosion or a pin backed out, and squeeze along the wires feeling for a break under intact insulation.",
+      "minutes": 25,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off and verified dead before the rear panel comes off. Mains wiring and, on gas models, the gas valve sit behind it."
+    },
+    {
+      "name": "Test the sensor without needing a reference value",
+      "detail": "With the connector unplugged and the power still off, put a meter on ohms across the two sensor pins and note the cold reading. Then warm the probe inside the cavity with a hairdryer for a minute and read it again. A GE oven sensor is the type whose resistance rises as it heats, so the number should climb. A reading that will not move, or an open circuit, condemns the sensor and you never need the correct figure for your model.",
+      "minutes": 20,
+      "tools": "Multimeter, hairdryer",
+      "warning": "Power isolated at the breaker throughout. Do not take this reading with the oven live."
+    },
+    {
+      "name": "Look at the board connectors before accepting a board quote",
+      "detail": "With the back still off and the power still isolated, find the control and relay boards and inspect every connector for browning, a melted housing or a terminal discoloured by heat. A scorched connector is a real, findable and relatively cheap fault that frequently gets misdiagnosed as a dead board. Note what you see and photograph it before reassembling.",
+      "minutes": 12,
+      "tools": "Flashlight, phone camera",
+      "warning": "Power isolated. Do not take live readings on the control or relay board."
+    }
+  ],
+  "still_showing": "If a breaker reset has not held, work from the cheapest end. For F3 or F4, go to the sensor connector at the rear before buying a sensor, because a plug that has worked loose and a wire broken inside its insulation both produce exactly the same code as a dead probe and both cost nothing to fix. If the connector is sound, use the warm-it-and-watch-it method rather than hunting for a resistance specification: measure cold, warm the probe with a hairdryer, and confirm the reading climbs. A GE oven sensor is $25 to $50 and is usually two screws inside the cavity and a plug at the back, which puts it within reach of a careful owner working with the breaker off. For F7, clean the panel properly and find the dead key; if the code survives a clean, a dry and a reset, the touchpad is the part and on a wall oven that is a technician job. For F9, check the latch is parked and that a self-clean is not still active, then look at the latch motor and its switch, which is the usual failure. F2 is the one that does not belong in this escalation at all: do not work up through cheap options on an oven that overheated. Switch it off, leave it off, and have the sensor and the relay board checked, because a welded relay keeps the element powered no matter what the control wants and that is the mechanism behind most genuinely dangerous ovens. Across all of these, the point where cost jumps is the control or relay board, typically $150 to $350 in parts plus labour. Before agreeing to one, ask whether the connectors were inspected for heat damage, because a browned terminal is a far more common finding than a failed board and the two look identical from the outside.",
+  "reset_procedure": "Switch the oven off at the breaker rather than at the control panel, leave it for five minutes so the board fully discharges, then restore power and run a plain bake at a middling temperature. Use the simplest program the oven has, so the test is not complicated by timers, convection or delayed starts. One exception: do not reset and retest an F2 over-temperature code. That one gets the breaker switched off and left off until it has been diagnosed.",
+  "model_notes": "GE has used more than one code scheme, and that is worth knowing before matching a code to a list. Older ranges and wall ovens use a plain F and a single digit, while newer models use a two-part code with an F number and a second group after it, and the two schemes do not map onto each other cleanly. GE also does not publish one complete public table covering the whole range, so the single-digit meanings in circulation come from service documentation and trade experience rather than from a consumer page. They are consistent for the sensor codes and the door lock; F7 is described slightly differently by different sources, some saying it halts cooking and others that the oven will still heat while displaying it. Check your model number, on a sticker inside the door frame or on the drawer rail, before buying any part.",
+  "parts": [
+    { "name": "Oven temperature sensor", "cost": "$25 to $50", "difficulty": "moderate", "note": "Two screws in the cavity and a plug at the rear, with the breaker off" },
+    { "name": "Touchpad or membrane keypad", "cost": "$80 to $220", "difficulty": "technician only", "note": "For an F7 that survives a clean, a dry and a reset" },
+    { "name": "Door latch motor and switch assembly", "cost": "$50 to $150", "difficulty": "hard", "note": "The usual F9 part; often reached from the top of the oven" },
+    { "name": "Relay board", "cost": "$100 to $250", "difficulty": "technician only", "note": "Check the connectors for scorching before buying one" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, and the part most often replaced unnecessarily" }
+  ],
+  "when_to_call": "Call a technician straight away for F2, or for any oven that has overheated, heats when nothing is selected, or trips its breaker. Those are the faults where continuing to test is the wrong instinct. Call as well for a touchpad on a wall oven, for a door latch assembly that needs the oven top off, and whenever a code survives a new sensor. On the other side, an oven temperature sensor on a freestanding range is a genuine homeowner job if you are comfortable isolating the circuit and verifying it is dead first. Whoever you call, give them the exact code and whether it appeared during a self-clean, because that single detail explains a large share of door lock faults.",
+  "faqs": [
+    { "q": "What does F2 mean on a GE oven, and is it dangerous?", "a": "F2 means the oven exceeded its safe temperature limit, and it is the one GE code worth treating seriously straight away. Switch the oven off at the breaker and leave it off. The usual causes are a shorted temperature sensor or a relay welded closed, and a welded relay keeps the element powered regardless of what the control asks for." },
+    { "q": "What is the difference between F3 and F4 on a GE oven?", "a": "They are opposite readings from the same part. F3 means the oven temperature sensor circuit reads as open, and F4 means it reads as shorted. Both can come from the sensor itself, a connector pulled loose at the back of the range, or a broken wire. Check the connector before buying a sensor, because it costs nothing." },
+    { "q": "Can I still use my GE oven with an error code?", "a": "It depends which one. An F2 or any oven that has overheated should be switched off at the breaker and not used. A door lock or keypad code usually leaves the oven able to heat, but an oven you cannot reliably cancel is not one to leave running. The cooktop on a range is unaffected either way." },
+    { "q": "Will resetting the breaker clear a GE oven code?", "a": "Often, and it is always the first thing to try except on F2. Switch the oven circuit off for five minutes so the board fully discharges, then run a plain bake. Codes left behind by a power cut or a surge are common and clear for nothing. A code that returns on the next bake is reporting something real." },
+    { "q": "Why did an error code appear after running self-clean?", "a": "Because self-clean puts the oven through its hottest cycle of the year and moves the door latch through its full travel, which it never does otherwise. That combination exposes a tired latch motor, loosens control connectors, and ages the sensor wiring. Door lock codes in particular turn up during or just after a clean cycle far more than at any other time." },
+    { "q": "How do I test an oven temperature sensor without knowing the right resistance?", "a": "Measure it cold on ohms with the power isolated, then warm the probe with a hairdryer for a minute and measure again. A GE oven sensor increases in resistance as it heats, so the number should climb noticeably. One that does not move, or reads open circuit, has failed. This works without a reference figure for your model." },
+    { "q": "How much does a GE oven error code cost to fix?", "a": "A temperature sensor is $25 to $50 in parts and a reasonable homeowner job on a freestanding range. A door latch assembly runs $50 to $150, and a touchpad $80 to $220. Control and relay boards are $150 to $350 plus labour, which is where it is worth asking whether the connectors were checked for heat damage first." },
+    { "q": "Is an F7 stuck key worth worrying about?", "a": "It is worth fixing but it is not an emergency, and on some models the oven will still heat while showing it. Start with a proper clean and dry of the panel, since cleaning spray behind the membrane causes most of them. If it survives that and a breaker reset, the touchpad is the part, and on a wall oven that is a technician job." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The four things GE oven F codes are reporting on",
+    "labels": {
+      "display": "F3",
+      "c1": "Sensor open or shorted, F3 and F4",
+      "c2": "Stuck key on the touchpad, F7",
+      "c3": "Door latch parked or jammed, F9",
+      "c4": "F2 over-temperature, breaker off"
+    }
+  },
+  "sources": [
+    { "title": "GE range, oven and microwave service fault code charts", "publisher": "Appliance service documentation reproduced by parts retailers", "url": null },
+    { "title": "Field diagnosis of GE oven sensor, latch and keypad codes", "publisher": "Appliance repair trade forums and r/appliancerepair", "url": null },
+    { "title": "GE range and wall oven owner documentation, self-clean and door lock guidance", "publisher": "GE owner's manual supplied with the appliance", "url": null }
+  ],
+  "related_codes": ["F2", "F3", "F4", "F7", "F9"]
+}

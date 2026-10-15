@@ -1,0 +1,150 @@
+{
+  "title": "Samsung Washer 5C Error Code: Causes and How to Fix",
+  "meta_description": "5C on a Samsung washer means it could not drain in time. Usually a clogged debris filter or a kinked drain hose. Here is how to find which, and clear it.",
+  "h1": "Samsung washer 5C error code: what it means and how to fix it",
+  "answer": "5C means your Samsung washer tried to pump the water out and the level did not drop far enough in the time it allows. It is a drain fault, and in most homes the cause is the debris filter behind the small panel at the bottom front of the machine, which traps coins, hair and lint until water cannot get past it. Clean that filter first, then check the drain hose for a kink or a blockage where it enters the standpipe. Older Samsung machines show the same fault as 5E or SE.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $30", "technician": "$130 to $280" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The debris filter is clogged",
+      "frequency": "most cases",
+      "confirm": "Open the small panel at the bottom front of the machine and unscrew the filter cap. If it comes out wrapped in a felt of hair, lint and grit, with a coin or a hair clip sitting in the housing, that was your blockage. A filter that has never been cleaned is the single likeliest answer on any front loader."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or blocked",
+      "frequency": "most cases",
+      "confirm": "Pull the machine out and follow the gray drain hose from the back of the washer to the standpipe or sink trap. Look for a tight bend behind the machine, a flat spot where the washer has been pushed against it, and a sagging loop holding a slug of water. Pull the end out of the standpipe and check it is not slimed shut."
+    },
+    {
+      "cause": "Something hard is jammed in the pump impeller",
+      "frequency": "common",
+      "confirm": "With the filter cap out, reach into the housing with a finger and turn the impeller. It should spin freely with a little resistance from the magnet. If it is locked solid, or you feel something sharp, a coin, a bra underwire or a screw has worked past the filter and wedged in the blades."
+    },
+    {
+      "cause": "Too much detergent, so the pump is moving foam instead of water",
+      "frequency": "common",
+      "confirm": "You see suds still visible in the drum or behind the glass at the end of the cycle, or the machine has been running on regular rather than HE detergent. A pump trying to shift foam moves almost no water and times out. Samsung machines often throw a separate suds warning first, but not always."
+    },
+    {
+      "cause": "The standpipe or house drain is backing up",
+      "frequency": "occasional",
+      "confirm": "The washer pumps fine but water comes back, or the standpipe gurgles and overflows onto the floor. Tip a bucket of water down the standpipe with the hose removed. If it does not disappear quickly, the problem is your plumbing rather than the washer."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "occasional",
+      "confirm": "Filter clean, impeller free, hose clear, and when the cycle reaches the drain stage you hear nothing at all from the bottom of the machine, or a hum without water moving. A working pump makes an unmistakable whirring note for a minute or two."
+    },
+    {
+      "cause": "The water level sensor or the control board",
+      "frequency": "rare",
+      "confirm": "You can hear the pump running strongly and see the water leaving, and 5C still appears. The machine is draining but not believing it has drained, which points at the pressure sensor or its air hose rather than anything in the drain path."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and unplug the washer",
+      "detail": "Press Power to cancel, then unplug the machine at the wall. You are about to open a hatch at the bottom of a drum that may be full of water, and you want no chance of the pump starting while your hand is in the housing. Close the supply taps too so nothing refills behind you.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Set up for a lot more water than you expect",
+      "detail": "Put old towels down across the whole area in front of the machine, not just under the hatch, and have a shallow baking tray and a bucket ready. A front loader that stopped mid-cycle can hold several gallons, and it will all come out of a hole four inches above the floor. Plan on emptying the tray into the bucket many times rather than trying to catch it in one go.",
+      "minutes": 5,
+      "tools": "Old towels, shallow baking tray, bucket",
+      "warning": null
+    },
+    {
+      "name": "Drain the machine through the emergency hose",
+      "detail": "Open the small access panel at the bottom front; it pops off with a coin or a flat screwdriver in the slot at its edge. Behind it, next to the filter cap, is a short thin hose with a cap or plug on the end. Pull it out, hold it over the tray, remove the plug and let it run. Pinch the hose or refit the plug each time the tray fills. Let it drain completely before you touch the filter cap.",
+      "minutes": 15,
+      "tools": "Flat screwdriver or a coin, tray, towels",
+      "warning": null
+    },
+    {
+      "name": "Open the filter cap and clean everything out",
+      "detail": "Turn the large round filter cap anticlockwise and keep turning; it unscrews several full turns and the last of the water will come with it. Pull the filter out, clear the hair and lint off it under a tap and scrub the mesh with an old toothbrush. Then shine a light into the empty housing and fish out coins, buttons, underwires and anything else sitting in the bottom.",
+      "minutes": 12,
+      "tools": "Old toothbrush, flashlight, gloves",
+      "warning": null
+    },
+    {
+      "name": "Check the pump impeller turns freely",
+      "detail": "With the filter still out and the machine still unplugged, reach into the housing and find the plastic impeller at the back of the cavity. Turn it with a finger. It should rotate with a slight magnetic notchiness and no grinding. If it will not move, work out what is wedged between the blades and remove it; a bra underwire is the classic, and it usually needs needle-nose pliers.",
+      "minutes": 8,
+      "tools": "Needle-nose pliers, flashlight",
+      "warning": "Keep the washer unplugged. The impeller is driven by a motor you do not want starting with your finger in it."
+    },
+    {
+      "name": "Walk the drain hose and clear the standpipe",
+      "detail": "Pull the machine out and follow the gray drain hose from the back of the washer to where it discharges. Straighten any kink, lift any sagging loop, and pull the end out of the standpipe to check it has not slimed over. Then tip a bucket of water down the standpipe. If it does not drain away briskly, the blockage is in the house plumbing and nothing you do to the washer will help.",
+      "minutes": 15,
+      "tools": "Bucket, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check how the hose sits in the standpipe",
+      "detail": "The hose end should go into the standpipe only far enough to stay put, not jammed deep, so air can escape around it. The discharge height also has to be within the range in the installation manual; too low and the machine siphons itself empty, too high and the pump cannot lift the water. If somebody has extended the hose with a long add-on length, that alone can cause this code.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Refit the filter and run a test cycle",
+      "detail": "Screw the filter cap back in clockwise, firmly and square, until it stops. A cap that is cross threaded or left a turn loose leaks the moment the pump runs, so check it after the first fill. Clip the access panel back on, plug in, open the taps and run a short rinse and spin with an empty drum rather than a full wash, so you find out in a few minutes.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear suds if detergent is the suspect",
+      "detail": "If there was visible foam in the drum, run a rinse and spin with no detergent and nothing in the machine, twice if the suds persist. Then cut your detergent dose roughly in half for the next few loads and check you are using HE detergent. Modern front loaders use so little water that the dose on the bottle is often wrong for them.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the impeller spins, the hose is clear and the standpipe takes a bucket of water without hesitating, the drain path is good and the problem is the pump or what the machine believes about the water level. Work in this order. First, listen. Start a spin cycle and put your ear near the bottom front of the machine at the point it should drain. A healthy drain pump makes a clear, steady whirring for a minute or two. Silence means the pump is not being told to run or is electrically dead; a hum or a buzz with no water moving means it is being told to run and cannot, which usually points back at something jammed that you missed, so take the filter out and look again. Second, if the pump really is silent, unplug the machine and check the connector at the pump itself, reached through the same filter access or from underneath; a corroded or backed-out terminal in a damp laundry room is free to fix. A replacement drain pump is a $35 to $90 part and a job of about an hour on most Samsung front loaders, which makes it one of the better value repairs on a washer. Third, and this is the case people miss: if you can plainly hear the pump running strongly and see water leaving through the hose, and 5C still comes up, the drain is working and the machine is not believing it. That points at the pressure sensor or the thin air hose that connects it to the tub, which blocks with detergent sludge or splits where it flexes. Both are cheap parts. Fourth, if the pump runs, the water goes, the air hose is clear and the code persists, you are into main board territory, and that is where the cost jumps to $200 or more. On a washer over about eight years old, get a quote before agreeing to it.",
+  "reset_procedure": "Press Power to cancel the cycle, unplug the washer at the wall and leave it for five minutes before plugging it back in. The five minutes matters: the control board holds residual charge, so a quick off-and-on often leaves the stored fault in place and the code reappears on a machine you have already fixed. Test with a rinse and spin on an empty drum rather than a full wash, so you know in three minutes instead of an hour.",
+  "model_notes": "Samsung displays this drain fault as 5C on machines from roughly 2017 onward and as 5E, or SE on some panels, on earlier ones. They mean the same thing and the fix is the same. The debris filter described here is a front loader feature: most Samsung top loaders have no accessible filter at all, so on those the diagnosis starts with the drain hose and the pump rather than the filter, and the equivalent code is often shown as nd. A trailing digit, as in 5C2, is a different fault and should be looked up separately rather than treated as a drain problem.",
+  "parts": [
+    { "name": "Debris filter and cap assembly", "cost": "$15 to $35", "difficulty": "easy", "note": "Only needed if the cap seal is perished or the thread is damaged; most just need cleaning" },
+    { "name": "Drain pump assembly", "cost": "$35 to $90", "difficulty": "moderate", "note": "About an hour on most Samsung front loaders" },
+    { "name": "Drain hose", "cost": "$15 to $30", "difficulty": "easy", "note": "Replace rather than patch a hose that is split or permanently kinked" },
+    { "name": "Water level pressure sensor and air hose", "cost": "$20 to $60", "difficulty": "moderate", "note": "For the case where the pump clearly runs and drains but the code stays" },
+    { "name": "Main control board", "cost": "$180 to $320", "difficulty": "technician only", "note": "Last resort; check the pump wiring and the air hose first" }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if a bucket of water poured down the standpipe does not drain away, because that fault is in your house plumbing and an appliance engineer will charge a call-out to tell you so. Call an appliance technician if the pump is silent at the drain stage and you have already checked its connector, or if the machine drains visibly and still reports 5C, since the next step is testing the pressure sensor and the board with the machine live. And stop and deal with it immediately if water is coming out onto the floor while this is happening, because a slow leak behind a washer does far more damage than a cycle that will not finish.",
+  "faqs": [
+    { "q": "What is the difference between 5C and 5E on a Samsung washer?", "a": "Nothing. They are the same drain fault shown differently across model generations, with 5E or SE on older machines and 5C from around 2017 onward. Every fix on this page applies to both. Do not confuse either with 4C or 4E, which are the opposite problem: water not coming in rather than not going out." },
+    { "q": "Can I still use my washer with a 5C code?", "a": "No, and you should not try. The machine stops the cycle with water still in the drum, so starting another load adds more water to a tub that cannot empty. Open the filter hatch and drain it through the emergency hose before anything else, and leave the door ajar afterwards so the drum dries out." },
+    { "q": "How do I get the water out before opening the filter?", "a": "Use the emergency drain hose. Pop the small panel at the bottom front, and beside the big filter cap you will find a short thin hose with a plug. Hold it over a shallow tray, pull the plug and let it run, pinching it off each time the tray fills. Drain it fully before unscrewing the filter cap, or several gallons arrive at once." },
+    { "q": "Why did 5C appear suddenly when nothing changed?", "a": "Debris filters clog gradually and then cross a threshold, so the failure looks sudden after months of build-up. The other common trigger is a single object: a coin, a hair clip or a bra underwire getting past the filter and into the impeller in one load. Both feel like nothing changed, and both are found in the same place." },
+    { "q": "Does 5C mean the drain pump is broken?", "a": "Usually not. In most cases the pump is fine and the obstruction is in the filter, the hose or the standpipe. Only replace the pump after you have cleaned the filter, confirmed the impeller spins freely by hand, and listened for the pump at the drain stage. A new pump fitted behind a blocked filter will throw the same code on its first cycle." },
+    { "q": "Can too much detergent cause a 5C code?", "a": "Yes. A pump trying to move foam rather than water shifts almost nothing and times out. If you saw suds in the drum, run two rinse and spin cycles with nothing in the machine and no detergent, then halve your dose. Front loaders use so little water that the recommendation on the bottle is often far too much." },
+    { "q": "How do I clear the 5C code once I have fixed the problem?", "a": "Cancel with the Power button, unplug the machine for five minutes, then restart. The board stores the fault and will keep displaying it until it is reset, so a washer that now drains perfectly can still show 5C if you skip this step. Test with a rinse and spin rather than a full wash." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "The drain path, and the four places a Samsung washer gets stuck.",
+    "labels": {
+      "display": "5C",
+      "c1": "Emergency drain hose and plug",
+      "c2": "Debris filter cap, turns anticlockwise",
+      "c3": "Pump impeller behind the filter",
+      "c4": "Drain hose and standpipe"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine displays a 5E or 5C drain error", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung front load washer service literature, drain fault codes", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on debris filter and impeller blockages causing drain codes", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["5E", "SE", "4C", "OE", "nd", "SUD"]
+}

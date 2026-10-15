@@ -1,0 +1,144 @@
+{
+  "title": "Bosch Dryer Error Codes: What Each One Means and Fixes",
+  "meta_description": "What Bosch dryer error codes mean, grouped by system. On ventless models most codes come back to the fluff filter, condenser and water container.",
+  "h1": "Bosch dryer error codes: what the display is telling you",
+  "answer": "Bosch dryers report faults either as an E code with a number, such as E:03, or as a short two-letter code such as DR, and on simpler models as a lit pictogram rather than text at all. The number after the E points at the system: low numbers are the control and drive side, and the ones owners actually meet are drainage, condenser and overloading faults. The single most useful thing to know is that most Bosch dryers sold now are ventless condenser or heat pump machines, and the great majority of their codes trace back to three maintenance jobs nobody told you about: washing the fluff filter, emptying the water container, and cleaning the condenser behind the bottom flap.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to read the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $60 for the common codes", "technician": "$150 to $350 for a typical service call" },
+  "safety_warning": "Unplug the dryer at the wall before any panel, plinth or kick strip comes off, and do not rely on the power button. On heat pump models the sealed refrigerant circuit runs through the condenser area: clean the fins and the housing, but never pierce, bend or disconnect any pipework, and treat any fault that leaves the dryer running cold as a technician job. Gas Bosch dryers are rare in the US, but if you have one, nothing past the shutoff valve is yours to touch. Never defeat a door switch or a thermal cut-out to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "Condensate drainage and the water container, shown as DR, E:03 or E:08 depending on model",
+      "frequency": "most cases",
+      "confirm": "The dryer stops partway and the drum is damp rather than hot. Pull the water container out of the top drawer: full, or pushed back crooked, and you have found it. If it is empty, the blockage is further down in the sump below the condenser, where wet lint sets into a paste the pump cannot shift."
+    },
+    {
+      "cause": "Airflow through the fluff filter and condenser",
+      "frequency": "most cases",
+      "confirm": "Loads take far longer than they used to and the machine runs hot to the touch. Pull the fluff filter from the door opening and run a hand across it: if it feels waxy or water beads on it, the fabric softener film is blocking it. Then open the plinth flap at the bottom front and look at the condenser fins; you should see daylight between them."
+    },
+    {
+      "cause": "Overloading, shown as E:04 on current models",
+      "frequency": "common",
+      "confirm": "The code appears on big loads such as towels, bedding or a duvet, and never on a half load. Bosch's own guidance is to leave roughly a hand's width of space above the clothes. A drum packed to the top cannot tumble, so the air never reaches the laundry and the cycle never finishes."
+    },
+    {
+      "cause": "Temperature sensing and overheat protection",
+      "frequency": "common",
+      "confirm": "The dryer cuts out partway through and will often restart once it has cooled for an hour, then cut out again at the same point. This is almost always a downstream symptom of restricted airflow rather than a dead sensor, so clean the filter and condenser before you accept it as a sensor fault."
+    },
+    {
+      "cause": "Door closure and the door switch",
+      "frequency": "occasional",
+      "confirm": "The cycle starts and drops out within seconds, or the drum light stays on with the door shut. Push the door until you hear it click. Look for lint packed into the strike recess, which is free to fix, before deciding the switch has failed."
+    },
+    {
+      "cause": "Control board, relay and drive faults",
+      "frequency": "occasional",
+      "confirm": "The dryer is dead, unresponsive, or the drum will not turn while the panel lights normally. Bosch's own list ties E:02 to a main control board relay fault. These do not clear with cleaning and they are the point where the cost of the repair starts to matter."
+    },
+    {
+      "cause": "Heat pump circuit faults on ventless models",
+      "frequency": "rare",
+      "confirm": "The drum turns, the cycle runs to the end, and the clothes come out cold and damp with air that is room temperature rather than even slightly warm. If the condenser is genuinely clean and the air never warms, the sealed circuit is the suspect and there is nothing in there for you."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly, including the colon",
+      "detail": "Take a photo of the display. Bosch uses both E:03 and E03 styling across generations, and a two-letter code such as DR is a completely different family from a numbered one. On some models there is no text at all and the machine lights a pictogram for the filter, the container or the condenser instead, which people often miss and report as a mystery stoppage.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Work out whether your dryer is vented, condenser or heat pump",
+      "detail": "This decides which half of the code list applies to you. Look at the back: a big flexible duct going to a wall means vented. No duct, plus a pull-out water container in the top panel and a flap across the bottom front, means condenser or heat pump. Heat pump models run noticeably cooler and slower by design. Code meanings differ between these types, and a guide written for the wrong one will send you to the wrong repair.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Empty the water container and wash the fluff filter",
+      "detail": "Do this whatever the code says, because it clears more Bosch codes than everything else combined. Tip the container out and push it back until it sits square. Lift the fluff filter from the door opening, open it if it is the two-part kind, pull the lint off by hand and then scrub both faces under a running tap to cut the invisible softener film. Dry it fully before it goes back in.",
+      "minutes": 15,
+      "tools": "Soft brush",
+      "warning": null
+    },
+    {
+      "name": "Open the plinth flap and clean the condenser",
+      "detail": "Unplug the dryer. Release the catch or clips on the flap across the bottom front and swing it down. On a condenser model the heat exchanger block lifts out once you turn the two locking levers; on most heat pump models it stays put and you clean it in place. Vacuum the fins with a soft brush nozzle, working along the fins rather than across them, then wipe the cavity and check the foam seal behind it. Most owners have never done this once.",
+      "minutes": 25,
+      "tools": "Vacuum with soft brush nozzle, cloth",
+      "warning": "Unplug first. On a heat pump model do not pull, bend or pierce any pipe running into the condenser block; that is the sealed refrigerant circuit."
+    },
+    {
+      "name": "Do a full five-minute power reset",
+      "detail": "Turn the program dial to Off, unplug the dryer at the wall and leave it for five full minutes before plugging it back in. The board holds residual charge, so a quick off-and-on often leaves the stored fault in place and you conclude wrongly that your repair failed. Test with the shortest cycle on the dial and a couple of damp towels, not a full load.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the load size and the door",
+      "detail": "Pull half the laundry out and run it again. Bosch wants roughly a hand's width of free space above the clothes, and overloading triggers both the E:04 family and a lot of codes that look like heat faults. While the door is open, shut it firmly and listen for the click, and clear any lint packed into the recess the latch drops into.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find your model number and the real manual",
+      "detail": "The rating plate is on the rim inside the door opening, sometimes behind the filter slot, and there is usually a second label on the back. You need it because Bosch code meanings are not consistent across vented, condenser and heat pump series, and the public third-party code tables openly contradict each other. The manual for your exact model settles arguments a generic chart cannot.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide which side of the line the fault sits on",
+      "detail": "Filters, condenser cleaning, water container, door alignment, load size and drain hose routing are all straightforward with hand tools and a vacuum. Drain pump replacement means laying the machine over and is a long afternoon. Control board diagnosis and anything in the sealed refrigerant circuit on a heat pump model are technician work, and attempting them to save a call-out fee is a false economy.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code survives a clean filter, an empty container, a cleaned condenser and a proper five-minute reset, sort it into one of three situations, because they go to very different places. The first is a code that returns on every cycle, always the same one, at roughly the same point. That is a real repeatable fault and the code is pointing somewhere useful, so follow the specific page for it. The second is a code that comes and goes and changes between cycles. That almost always means a connection rather than a component, so with the dryer unplugged take the back panel off and work along the harness looking for a terminal backed out of its housing, green corrosion in a damp laundry room, or a wire chafed where it crosses sheet metal. Intermittent faults chased by swapping parts cost a fortune and rarely resolve. The third is a dryer that is slow and cool rather than stopping outright, which on a heat pump model means either a condenser that is still dirty deeper than a vacuum reaches, or the sealed circuit, and only one of those is yours. Run the machine's built-in condenser cleaning program if it has one before you accept the worse answer. Across all three, the point where the cost jumps is the control board at roughly $200 to $400 fitted, and the condensate pump at $60 to $140 plus an awkward job. On a ventless Bosch much over eight years old that has never had the condenser cleaned, get a quote before you commit, because a machine run for years against a blocked condenser has been working hard the whole time and the board is rarely the only tired part. One honest warning about researching these codes yourself: the third-party Bosch code tables disagree with each other and sometimes with themselves, and several assign completely different meanings to E:01 through E:04. Weight Bosch's own material and your model's manual above anything else you find.",
+  "reset_procedure": "The reset is the same on every Bosch dryer: turn the program dial to Off, unplug the machine at the wall socket or switch off its breaker, wait a full five minutes, then restore power. The wait matters because the control board holds charge and a quick off-and-on frequently leaves the stored code in place. Test with the shortest cycle and a few damp towels so you find out in fifteen minutes instead of two hours. Two things this will not clear: child lock, which is held deliberately so a power cut cannot defeat it, and any code caused by a blockage that is still there, because those are recalculated on the next cycle.",
+  "model_notes": "Bosch dryer codes genuinely are not consistent across the range, and pretending otherwise is how people buy the wrong part. Vented models have no condenser, no sump, no pump and no water container, so the whole drainage family of codes does not apply to them. Condenser models have a removable heat exchanger block behind the plinth flap. Heat pump models look similar but the condenser is usually fixed in place and part of a sealed refrigerant circuit, which makes several faults that are DIY on a condenser model into technician work. DR is the clearest example of the inconsistency: it behaves as a condensate drainage fault on ventless machines, while Bosch's own US error code material describes it as a door closure or door switch problem. Older Nexxt series and current 300, 500 and 800 series machines also label and site the filters differently. Use the manual for your exact model number, and when a generic code chart disagrees with it, believe the manual.",
+  "parts": [
+    { "name": "Door fluff filter", "cost": "$20 to $45", "difficulty": "easy", "note": "Only if the mesh is torn; nearly all just need washing" },
+    { "name": "Condenser sponge or foam secondary filter", "cost": "$10 to $25", "difficulty": "easy", "note": "Cheap, often perished, worth doing while the plinth is open" },
+    { "name": "Condensate drain pump", "cost": "$60 to $140", "difficulty": "hard", "note": "Ventless models; needs the machine laid over, and only after the sump is proven clear" },
+    { "name": "Door switch or latch assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Check for lint in the strike recess before ordering" },
+    { "name": "Main control board", "cost": "$200 to $400 fitted", "difficulty": "technician only", "note": "Last resort on any code, after the harness has been proven good" }
+  ],
+  "when_to_call": "Call an appliance technician when a code survives a correct reset, a washed filter, a cleaned condenser and a visual check of the relevant connectors, because the next step is diagnosing the board and harness with the machine live. Call sooner on a heat pump model that runs a full cycle and returns cold, damp laundry with a condenser you know is clean, since that points at the sealed refrigerant circuit and there is nothing in there for you to do at any skill level. Call rather than continue if you find oily residue on the pipework or the floor under the machine, which means refrigerant has escaped. For a gas Bosch dryer that tumbles but will not light, call a licensed gas technician and do not investigate the burner, valve or igniter yourself. And if water is appearing under the machine alongside the code, stop using it, because a leaking sump will reach the electronics eventually.",
+  "faqs": [
+    { "q": "What is the most common Bosch dryer error code?", "a": "On ventless models, the drainage and maintenance family, with DR the one people search most. Nearly all of them come back to the same three jobs: emptying the water container, washing the fluff filter properly rather than shaking it, and cleaning the condenser behind the bottom flap. Most owners have never opened that flap, which is exactly why these codes are so common." },
+    { "q": "How do I reset a Bosch dryer?", "a": "Turn the program dial to Off, unplug the machine at the wall or switch off its breaker, and wait a full five minutes before restoring power. The wait matters because the board holds residual charge and a quick off-and-on often leaves the stored fault in place. Test with the shortest cycle and a few damp towels rather than a full load." },
+    { "q": "How often should I clean the condenser on a Bosch dryer?", "a": "Every two to three months with normal family use, and monthly if you dry towels, bedding or pet bedding. The fluff filter is a job for every single load and the water container needs emptying every load or two. This is the maintenance burden nobody mentions at the point of sale, and skipping it is behind most ventless Bosch faults." },
+    { "q": "Why do different websites give different meanings for Bosch E codes?", "a": "Because Bosch uses different code sets across vented, condenser and heat pump series and across model generations, and most code tables online do not say which family they describe. Several assign conflicting meanings to E:01 through E:04. Weight Bosch's own support material and the manual for your exact model number above any generic chart you find." },
+    { "q": "Can I use a Bosch dryer while it shows a code?", "a": "Usually not, because most of these codes stop the cycle rather than warn you. Where a machine will still run, think about why it is complaining: a dryer working against a blocked condenser runs hot, takes far longer and costs more to run every load. Treat a code as this week's job rather than something to keep resetting past." },
+    { "q": "Where is the model number on a Bosch dryer?", "a": "On the rating plate around the rim inside the door opening, sometimes tucked behind the fluff filter slot, and usually on a second label on the back of the cabinet. You need it to order parts and to find the correct manual, because code meanings and the physical layout of the filters and condenser both change between Bosch dryer series." },
+    { "q": "Is a heat pump Bosch dryer worth repairing when it faults?", "a": "It depends entirely on which side of the line the fault sits. Filters, condenser, pump and door work is sensible on a machine under about eight years old. Anything in the sealed refrigerant circuit usually is not, because the labor and the specialist handling push the bill toward the price of a replacement. Get a diagnosis and a quote before deciding." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The order that clears the most Bosch dryer codes for the least money.",
+    "labels": {
+      "display": "E:03",
+      "c1": "Photograph the exact code",
+      "c2": "Empty container, wash fluff filter",
+      "c3": "Clean condenser behind plinth",
+      "c4": "Five-minute unplug, short test cycle"
+    }
+  },
+  "sources": [
+    { "title": "Bosch dryer error codes and recommended owner actions", "publisher": "Bosch Home US owner support error code pages", "url": null },
+    { "title": "Condenser and heat pump dryer maintenance, filter and condenser cleaning program instructions", "publisher": "Bosch dryer owner's manual supplied with the machine", "url": null },
+    { "title": "Bosch dryer code references and condenser dryer maintenance guidance", "publisher": "Coolblue and independent appliance repair guides", "url": null },
+    { "title": "Field reports on which Bosch codes are maintenance and which are component failures", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["DR", "E:02", "E:03", "E:04", "E:08", "E:32"]
+}

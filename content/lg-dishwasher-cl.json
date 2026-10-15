@@ -1,0 +1,102 @@
+{
+  "title": "LG Dishwasher CL: It's the Child Lock, Not an Error",
+  "meta_description": "CL on an LG dishwasher is the child lock, not a fault. Hold the two buttons marked with the small lock icon for three seconds. Which pair, by model.",
+  "h1": "LG dishwasher CL: it's the child lock, and here is how to turn it off",
+  "answer": "CL on an LG dishwasher is not an error. It means the child lock, which LG also calls Control Lock, is switched on, and the panel will ignore everything except the Power button until you switch it off. You clear it by pressing and holding a specific pair of adjacent buttons for about three seconds, and the pair varies by model: the two buttons involved usually have a small padlock icon or the words Child Lock printed between or beneath them. Common pairs on LG dishwashers are Rinse and Spray, Half Load and Energy Saver, or Night Dry and Delay Start, and some models use a single dedicated Dual Zone or Control Lock key.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 5 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "Not needed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Someone turned the child lock on deliberately",
+      "frequency": "most cases",
+      "confirm": "CL shows in the display and the buttons beep or do nothing when pressed, but Power still works. Nothing else is wrong: the machine ran fine on its last cycle and there is no water or noise problem."
+    },
+    {
+      "cause": "The lock was switched on by accident while wiping the panel",
+      "frequency": "common",
+      "confirm": "Touch panels read a damp cloth as a long press on two keys at once. If CL appeared the same day someone cleaned the front, and nobody admits to locking it, this is almost certainly what happened."
+    },
+    {
+      "cause": "The lock is on but you are holding the wrong pair of buttons",
+      "frequency": "common",
+      "confirm": "You have been holding two buttons for three seconds, nothing happens, and the display still reads CL. Look for the padlock icon printed on the panel; the pair it sits between is the pair, and on some models it is a single button."
+    },
+    {
+      "cause": "A touch key is stuck or the panel is wet behind the glass",
+      "frequency": "rare",
+      "confirm": "The lock will not release with the correct button pair, even after a power cycle, and one or more other buttons also behave oddly. This is the only version of CL that is actually a fault, and it points at the control panel assembly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Look for the padlock icon on the panel",
+      "detail": "Scan the control panel for a small padlock symbol or the words Child Lock or Control Lock printed in small type. On most LG dishwashers it sits between or just below the two buttons that toggle the lock. Reading the panel beats guessing, because the pair is different across model lines and there is no universal combination.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Hold that pair of buttons for three seconds",
+      "detail": "Press both buttons at the same time and keep holding for a full three seconds, counting it out rather than guessing. The display should beep and CL should disappear. If your panel marks a single button such as Dual Zone or Control Lock, hold that one button the same way. Holding the same buttons again turns the lock back on, which is useful to know if you wanted it locked.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try the common pairs if nothing is printed",
+      "detail": "On panels with no visible lock marking, work through LG's usual pairs, three seconds each: Rinse and Spray, Half Load and Energy Saver, Night Dry and Delay Start. Where the machine has a Dual Zone button, try holding that alone. Give each attempt a full three seconds and a few seconds between tries, because a quick tap registers as a cycle selection instead.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the quick-start label or the manual",
+      "detail": "LG prints the child lock combination on the quick reference label stuck inside the door edge on many models, and it is always in the owner's manual under Control Lock. If the label is gone, search LG's support site for your exact model number, which is on the sticker on the inner door edge or along the top of the door.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle it if the lock will not release",
+      "detail": "Switch the dishwasher off at the breaker for five minutes, then back on. This clears a panel that has latched because of moisture or a brief glitch. Dry the front of the panel thoroughly with a towel before you try the button pair again, and avoid spraying any cleaner directly at the panel in future; spray the cloth instead.",
+      "minutes": 7,
+      "tools": "Dry towel",
+      "warning": null
+    }
+  ],
+  "still_showing": "If CL is still displayed after you have held the correct pair for three seconds and power cycled the machine at the breaker, stop trying combinations and check two things. First, make sure you really do have the right model documentation: LG dishwasher panels look alike across very different model years, and the combination that works on a neighbor's machine may do nothing on yours. Pull the model number off the sticker on the inner door edge and look that exact number up rather than relying on a general list. Second, dry the panel properly. A touch panel with moisture under the glass, which happens after a leak at the door or an over-enthusiastic clean, holds keys down on its own and will re-lock itself seconds after you unlock it. Leave the door open overnight in a warm room and try again before spending anything. If the lock still will not release after that, and especially if other buttons are also unresponsive or triggering by themselves, the fault is the control panel assembly rather than the lock setting. That is a technician job in the $150 to $300 range fitted, and it is worth getting a quote before committing, because a panel is one of the more expensive parts on a dishwasher.",
+  "reset_procedure": "Hold the two buttons marked with the padlock icon for three seconds. If that does nothing, switch the dishwasher off at the breaker for five minutes, restore power, dry the panel, and try again. A breaker reset on its own does not usually turn the child lock off, because the setting is stored, so you will still need the button pair afterward.",
+  "model_notes": "The button pair is genuinely model specific. LG's own documentation lists Rinse plus Spray, Half Load plus Energy Saver, Night Dry plus Delay Start, and a single Dual Zone key across different model lines. Newer top-control models with a hidden panel often put the lock on a dedicated Control Lock key inside the door edge. On models paired with the LG ThinQ app, the lock can also be toggled from the app, which catches people out when a phone in someone else's pocket locks the machine.",
+  "parts": [
+    { "name": "Control panel assembly", "cost": "$90 to $250", "difficulty": "technician only", "note": "Only when the lock will not release and other keys misbehave too" }
+  ],
+  "when_to_call": "You should not need anyone for a CL display, because it is a setting rather than a fault. Call only if the lock refuses to release with the correct button pair after the panel has been dried out and the machine power cycled, and particularly if other buttons are dead or firing on their own. That combination points at a failed control panel, which is a part swap rather than a diagnosis, but it is not cheap, so get the quote before you agree to it.",
+  "faqs": [
+    { "q": "Is CL an error code on an LG dishwasher?", "a": "No. CL stands for Control Lock, which LG also calls the child lock. It is a setting that stops the panel responding so a child cannot start or stop a cycle. Nothing is broken, nothing needs replacing, and the machine will run normally the moment you switch the lock off with the right button pair." },
+    { "q": "Which buttons turn off the child lock on an LG dishwasher?", "a": "It depends on the model, so look for the small padlock icon printed on the panel and hold the two buttons it sits between for three seconds. LG uses several pairs across its range, commonly Rinse and Spray, Half Load and Energy Saver, or Night Dry and Delay Start. Some models use a single Dual Zone or Control Lock key." },
+    { "q": "Why did CL turn on by itself?", "a": "It almost never does. The usual explanation is someone wiping the control panel with a damp cloth, which a touch panel reads as holding two keys at once. Children pressing buttons is the other common cause, which is rather the point of the feature. On ThinQ-connected models, the lock can also be switched on from the phone app." },
+    { "q": "Will the dishwasher still run with CL showing?", "a": "A cycle already running will finish normally, but you cannot start a new one or change any setting while the lock is on. The Power button usually still works. There is no risk in leaving it locked, and no reason to, since turning it off takes three seconds once you know which buttons to hold." },
+    { "q": "Does unplugging the dishwasher clear the child lock?", "a": "Usually not. The lock setting is stored, so it survives a power cut and is still on when the machine comes back up. A power cycle is worth doing only if the panel has latched because of moisture or a glitch and the correct button pair is being ignored. Otherwise, use the buttons." },
+    { "q": "Can I lock the panel on purpose?", "a": "Yes, and it is the same action. Hold the same pair of buttons for three seconds and CL appears in the display. It is genuinely useful if you have a toddler who has worked out that the front of the dishwasher lights up when poked, or a cat that walks across top-control panels." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Where the child lock lives on an LG dishwasher panel",
+    "labels": {
+      "display": "CL",
+      "c1": "Find the small padlock icon",
+      "c2": "Hold both keys three seconds",
+      "c3": "Try LG's common button pairs",
+      "c4": "Dry panel, then breaker reset"
+    }
+  },
+  "sources": [
+    { "title": "How to use the control lock feature on an LG dishwasher", "publisher": "LG support help library", "url": null },
+    { "title": "Control Lock section of the LG dishwasher owner's manual", "publisher": "LG owner documentation supplied with the appliance", "url": null },
+    { "title": "Owner reports on which button pairs unlock which LG models", "publisher": "iFixit answers and appliance repair forums", "url": null }
+  ],
+  "related_codes": ["AE", "OE", "IE", "LE", "bE"]
+}

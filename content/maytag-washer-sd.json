@@ -1,0 +1,132 @@
+{
+  "title": "Maytag Washer SD Code: Too Much Suds, and the Fix",
+  "meta_description": "SD or Sud on a Maytag washer means it found too much foam and is extending the rinse to clear it. Nearly always detergent dose or type. Here is the fix.",
+  "h1": "Maytag washer SD error code: what it means and how to fix it",
+  "answer": "SD, printed as Sud on some Maytag panels, means the washer has detected excess suds in the drum. It is not a breakdown. The machine responds by adding water and extending the rinse to knock the foam down, which is why a cycle showing SD can run half an hour or more past the time on the display. The cause is nearly always too much detergent, detergent that is not high-efficiency, or thickened splash-free bleach, and the cure is to cut the dose rather than buy anything.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "45 to 90 minutes, mostly waiting",
+  "cost_estimate": { "diy": "$0 to $20", "technician": "$130 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Too much detergent for the size of the load",
+      "frequency": "most cases",
+      "confirm": "Look into the drum near the end of the wash. Water with a rim of bubbles is normal. A standing head of white foam that does not fall back when the drum stops turning is an overdose, and the cap on most bottles holds several times what a high-efficiency Maytag actually needs."
+    },
+    {
+      "cause": "The detergent is not high-efficiency, or is a concentrate dosed like an old one",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard detergent is built to foam in a machine that uses three times as much water. A 2x or 3x concentrate needs a correspondingly smaller pour, and almost nobody adjusts for it when they change brands."
+    },
+    {
+      "cause": "Thickened splash-free or easy-pour chlorine bleach",
+      "frequency": "common",
+      "confirm": "SD appears on loads where you used bleach and never otherwise. Maytag names this specifically: the thickeners in no-splash bleach foam in a low-water machine. Switch to plain liquid chlorine bleach and the code disappears with it."
+    },
+    {
+      "cause": "Soft water, which makes any dose go roughly twice as far",
+      "frequency": "common",
+      "confirm": "Suds problems that started after a softener was fitted or after moving house, with no change in detergent. Soft water needs about half the detergent to do the same job, and the half you no longer need turns directly into foam."
+    },
+    {
+      "cause": "Detergent residue built up in the drum, dispenser and outer tub",
+      "frequency": "occasional",
+      "confirm": "Pull the dispenser drawer right out. Gray-blue sludge in the housing or on the softener siphon cap means old detergent is being flushed into every load on top of whatever you poured in today, so a correct dose arrives as an overdose."
+    },
+    {
+      "cause": "A slow drain, so normal foam never leaves the sump",
+      "frequency": "occasional",
+      "confirm": "SD keeps appearing on a measured dose, and the drum is slow to empty between rinses. If you have also seen F9 E1 or a long drain, the drain is the real fault and the suds code is a symptom of soapy water sitting in the sump being whipped back into foam."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Let the machine run its own suds routine first",
+      "detail": "When a Maytag washer sees excess suds it stops agitating, adds rinse water and extends the rinse to break the foam down by itself. Give it thirty minutes before touching anything. A good share of the time the code clears and the cycle finishes, just late. Cancelling and restarting pushes more detergent-laden water through the system and makes the problem worse.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run Rinse and Spin twice with nothing added",
+      "detail": "If SD is still there, cancel, leave the laundry where it is, and select Rinse and Spin with no detergent whatsoever. Run it, then run it again. Two clean rinses clear foam out of the drum, the sump and the pump on almost every machine. Watch on the second one: the water should look like water rather than a bubble bath.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Measure your detergent instead of pouring it",
+      "detail": "Use a measuring spoon rather than the bottle cap, which is sized for machines that use far more water than a high-efficiency Maytag. For a normal load, a tablespoon or so of HE liquid is the right order of magnitude, and less than that for a small load or soft water. Your laundry gets just as clean; the extra you were adding was never doing any work.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Switch off the thickened bleach",
+      "detail": "If you use splash-free, easy-pour or thickened chlorine bleach, swap it for plain liquid chlorine bleach. The thickeners are the whole problem, and Maytag calls them out directly as a cause of excess suds. If you have already run a load with it, run the machine empty on a hot cycle or a cleaning cycle to flush what is left out of the dispenser and tub.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Never mix chlorine bleach with ammonia-based or acidic cleaners in the dispenser."
+    },
+    {
+      "name": "Strip out the dispenser drawer",
+      "detail": "Pull the drawer right out; most Maytag drawers release with a tab or press-point in the middle of the softener compartment. Take the siphon cap off the softener section as well. Soak both in hot water, scrub the sludge off with an old toothbrush, and reach into the empty housing with a cloth to clear the roof of the cavity, which is where the worst of the buildup hides.",
+      "minutes": 20,
+      "tools": "Old toothbrush, cloth",
+      "warning": null
+    },
+    {
+      "name": "Clean the drain pump filter on front load models",
+      "detail": "Unplug the machine. Behind the lower front access panel there is a round filter cap and, next to it, a short drain tube. Drain the water out through the tube into a shallow pan first, then turn the filter cap counterclockwise and pull it out; expect about a liter more. Soap scum and lint trapped here hold foam in the sump between cycles. Rinse it, check the impeller turns freely, and refit hand tight.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, shallow pan, towels",
+      "warning": "Unplug at the outlet before reaching into the pump housing. The impeller has sharp edges."
+    },
+    {
+      "name": "Run the Clean Washer cycle empty",
+      "detail": "With nothing in the drum and no detergent in the dispenser, run the Clean Washer cycle with an affresh tablet or equivalent cleaner. This strips the film of old detergent off the drum and the outer tub, which is the reservoir that keeps feeding foam into otherwise sensible loads. Doing this once a month stops SD coming back at all.",
+      "minutes": 120,
+      "tools": "Washing machine cleaner tablet",
+      "warning": null
+    }
+  ],
+  "still_showing": "If two clean rinses and a measured dose have not stopped SD returning, work through this in order. First, change detergent rather than just using less of it. Some cheap HE liquids and nearly all pods foam far beyond what the dose suggests, and a pod in particular is a fixed amount sized for an average load, so every small or lightly soiled wash is an automatic overdose with no way to dial it back. Buy a different HE liquid and run a week of laundry on a measured tablespoon before concluding anything. Second, check whether the machine is actually draining. Foam that is produced normally but never pumped out reads as excess suds to the control, so clean the pump filter, check the drain hose for kinks, and make sure it is not shoved deep into the standpipe. If you have also seen F9 E1 or a long drain time, fix the drain first and the suds code goes with it. Third, think about your water. A softener fitted since the machine was new halves the detergent you need, and nobody ever adjusts the dose to match. Fourth, if SD appears on a cycle you ran with no detergent at all in a freshly cleaned machine, the problem has moved from the laundry room to the hardware. The control infers suds partly from how the water level behaves, so a pressure sensor misreading, or the small clear air hose from the outer tub to that sensor being plugged with soap scum or split at its ends, will make a clean machine report foam. Pull that hose off at the tub port, check it for a blockage or a crack and blow it clear. That is where a technician becomes worth paying, and it should be a $130 to $250 job rather than a big parts bill.",
+  "reset_procedure": "Cancel the cycle with the Power button, then unplug the washer or switch off its breaker for five minutes. A suds code generally clears on its own once the foam has gone, so if it survives a power cut with a clean empty drum, the control is reading a level problem rather than real foam. Run Rinse and Spin to test rather than a full cycle. Expect the code to reappear on the next wash rather than straight away, because the cause is in the detergent, not the control.",
+  "model_notes": "Maytag writes this fault as Sud on panels that can display three characters and Sd on panels that cannot, and on a seven-segment display the letter S and the figure 5 are drawn identically, so plenty of owners read it as 5D. They are all the same condition. Top-load high-efficiency Maytags hold more water than front loaders, so the suds routine on those can add an hour to a cycle before the code appears at all, while on a front loader it tends to show up quickly and stop the spin. Maytag and Whirlpool share these platforms, so a Whirlpool, Amana or Crosley machine of the same vintage behaves identically.",
+  "parts": [
+    { "name": "HE liquid detergent, measured by the tablespoon", "cost": "$10 to $20", "difficulty": "easy", "note": "Changing brand fixes more suds codes than any part on this list" },
+    { "name": "Plain liquid chlorine bleach, not the thickened kind", "cost": "$3 to $8", "difficulty": "easy", "note": "Swap out splash-free or easy-pour bleach entirely" },
+    { "name": "Washing machine cleaner tablets", "cost": "$8 to $18", "difficulty": "easy", "note": "Monthly Clean Washer cycle keeps residue from rebuilding" },
+    { "name": "Dispenser drawer and softener siphon cap", "cost": "$20 to $55", "difficulty": "easy", "note": "Only if the siphon cap is cracked or missing; otherwise clean it" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $30", "difficulty": "moderate", "note": "Last resort, and usually only needs clearing" }
+  ],
+  "when_to_call": "Call a technician if SD appears on a cycle run with no detergent in a machine you have just cleaned, because at that point the control is misreading the water level rather than responding to real foam, and testing the pressure sensor and its air hose means partly dismantling the machine. Also call if SD arrives alongside a drain code every cycle and you have already cleaned the filter and checked the hose, because the pump may be moving water too slowly to clear ordinary foam. Do not pay anyone to tell you to use less detergent. Run a fortnight on a measured tablespoon first; in most houses that is the entire repair and it costs nothing.",
+  "faqs": [
+    { "q": "What does SD mean on a Maytag washer?", "a": "Excess suds. The washer has found more foam in the drum than it can rinse or spin through, so it adds water and extends the rinse to break it down. Maytag treats it as an information message rather than a fault. The cycle usually finishes on its own, just much later than the timer originally promised." },
+    { "q": "Is SD the same as Sud and 5D on a Maytag?", "a": "Yes, all three are the same excess suds condition. Maytag shows Sud where the panel has room for three characters and Sd where it does not, and because the letter S and the number 5 share a shape on seven-segment displays, plenty of people read Sd as 5d. Every fix on this page applies to all of them." },
+    { "q": "How much detergent should I actually use?", "a": "A tablespoon or so of HE liquid for a normal load in a high-efficiency Maytag, measured with a spoon rather than the bottle cap. Halve that for a small load or if your water is soft. The amount that looks right in the cap is several times what the machine needs, which is precisely why suds codes are so common." },
+    { "q": "Can bleach cause the SD code?", "a": "Thickened bleach can. Splash-free, easy-pour and no-splash chlorine bleaches contain thickeners that foam heavily in a low-water machine, and Maytag names them as a cause. Plain liquid chlorine bleach does not do this. If SD only shows up on loads where you bleached something, that is your answer and the fix costs a few dollars." },
+    { "q": "Can I still use my washer when it shows SD?", "a": "Yes. The cycle runs longer while the machine rinses the foam away, but one sudsy load does no harm. Repeated suds locking is worth stopping, because foam carries detergent into the sump and pump where water would normally flush it, and over time that slows the drain enough to produce a genuine drain fault." },
+    { "q": "Do laundry pods cause suds codes?", "a": "Often. A pod is a fixed dose sized for an average load, so every small, lightly soiled or soft-water wash is an overdose you cannot adjust. If SD shows up regularly and you use pods, switch to a measured HE liquid for a few weeks. If the code disappears, you have found it without spending anything on parts." },
+    { "q": "Why did SD start after years of the same detergent?", "a": "Something changed in the water or inside the machine rather than in the bottle. A new water softener, a mains repair, or years of detergent film building up in the drum and dispenser will tip a dose that used to be fine into one that foams. Run the Clean Washer cycle and strip the dispenser before blaming the detergent." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "Why foam stalls a Maytag wash, and the four things that end it.",
+    "labels": {
+      "display": "Sd",
+      "c1": "Foam stalls the drain pump",
+      "c2": "Two rinse and spin cycles",
+      "c3": "Measure HE liquid by the spoon",
+      "c4": "Plain bleach, not thickened"
+    }
+  },
+  "sources": [
+    { "title": "What does the SUD or SD error code mean", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "Maytag washer use and care guide, detergent and bleach dosing section", "publisher": "Maytag owner's manual supplied with the machine", "url": null },
+    { "title": "Excess suds detection on Whirlpool-platform washers", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Field reports on suds lock, extended rinse times and pressure hose faults", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["Sud", "5D", "F9 E1", "F8 E1", "rL", "LF"]
+}

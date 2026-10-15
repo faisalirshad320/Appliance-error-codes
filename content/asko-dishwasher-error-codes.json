@@ -1,0 +1,143 @@
+{
+  "title": "Asko Dishwasher Error Codes: What the F Numbers Mean",
+  "meta_description": "Asko dishwasher codes are an F and a number covering fill, drain, heating and sensing. Start at the sump filter and the base tray float, which cause most.",
+  "h1": "Asko dishwasher error codes: how to read them and what to do",
+  "answer": "Asko dishwasher codes are an F followed by a number, and they group into four subjects: getting water in, getting it out, heating it, and sensing its temperature or level. F1 is water that never reached temperature in the time allowed, F2 is too much water in the machine, F3 is the temperature sensor, and F4 is a fill problem on models that meter water by level. Before chasing any of them, pull the sump filter at the bottom of the tub and check the base tray for standing water, because those two account for more Asko faults than the rest put together.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$160 to $380" },
+  "safety_warning": "Switch the dishwasher off at the breaker before removing the kick plate or any panel, and close the water supply valve under the sink before disconnecting a hose. The heating element and the wiring behind the lower panel are at mains voltage, and the element stays hot long after a cycle ends. Never defeat the door catch or the base tray float switch; the float is the only thing that stops a leaking machine emptying itself into your floor.",
+  "causes": [
+    {
+      "cause": "A blocked sump filter or spray arm",
+      "frequency": "most cases",
+      "confirm": "Lift the filter assembly out of the bottom of the tub and look at it against the light. Food debris, glass fragments and a gray grease film all restrict flow, which can starve the heating cycle, confuse the level sensing, and stop the machine draining. This is the first check for almost any Asko code, not just the drain ones."
+    },
+    {
+      "cause": "Water in the base tray lifting the anti-flood float",
+      "frequency": "most cases",
+      "confirm": "The drain pump runs continuously, including when you open the door or switch the machine off and on. Asko, like most European dishwashers, carries a float in the base tray that triggers protection mode when it senses a leak. The giveaway is a pump that will not stop, and nothing you do at the control panel changes it."
+    },
+    {
+      "cause": "The incoming water is not hot enough",
+      "frequency": "common",
+      "confirm": "This is the F1 territory: the machine could not get the water up to temperature within the time it allows. Run the kitchen tap hot and check how long it takes to turn genuinely hot. A dishwasher plumbed to a long cold run, or in a house with the water heater turned down, starts every cycle from behind."
+    },
+    {
+      "cause": "A fill or inlet restriction",
+      "frequency": "common",
+      "confirm": "F4 on level-controlled models. Check the supply valve under the sink is fully open, the inlet hose is not kinked behind the machine, and the mesh screen where the hose meets the inlet valve is not furred with grit. A machine that fills slowly times out exactly like one that does not fill at all."
+    },
+    {
+      "cause": "The temperature sensor or its wiring",
+      "frequency": "occasional",
+      "confirm": "F3 points here. The pattern is a machine that fills and drains normally but either runs cold, overheats, or quits at the same point in the cycle every time. Rule out the filter and the hot water supply first, because both produce similar symptoms for free."
+    },
+    {
+      "cause": "A drain restriction beyond the filter",
+      "frequency": "occasional",
+      "confirm": "Filter clean and the machine still will not empty. Check the drain hose for a kink behind the machine, the air gap on the sink top if you have one, and the waste disposal inlet, which is blocked by an un-removed knockout plug surprisingly often on a newly installed machine."
+    },
+    {
+      "cause": "A failed heating element or pump",
+      "frequency": "rare",
+      "confirm": "Filters clean, hot water good at the tap, base tray dry, hoses clear, and the same code returns every cycle. At that point a component rather than a blockage is at fault, and that is where the cost moves from nothing to a few hundred dollars."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Note the code and what the machine does",
+      "detail": "Write the code down and record whether the machine fills, whether it drains, whether the water gets hot, and at what point in the cycle it stops. Note also whether the drain pump runs non-stop, because that single symptom points straight at the base tray float and skips most of the rest of this list.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull and clean the sump filter",
+      "detail": "Take the lower basket out, then twist the cylindrical filter in the bottom of the tub anticlockwise and lift the whole assembly clear. It usually separates into a coarse basket and a fine mesh plate. Rinse both under a hot tap and scrub them with a washing-up brush, then clear any debris from the recess they sit in. Refit squarely and twist clockwise until it locks, because a filter left loose lets debris straight into the pump.",
+      "minutes": 15,
+      "tools": "Washing-up brush",
+      "warning": "Watch for broken glass in the sump. Use a cloth rather than bare fingers when clearing debris."
+    },
+    {
+      "name": "Check whether the anti-flood float has tripped",
+      "detail": "If the drain pump runs continuously no matter what you do at the controls, there is water in the base tray. Switch off at the breaker, close the supply valve, then ease the machine out and tilt it gently backwards onto a towel so the tray drains out. Let it stand for an hour, then restore power. If the pump stops, the float has reset and your next job is finding where the water came from.",
+      "minutes": 30,
+      "tools": "Towels, help to move the machine",
+      "warning": "Breaker off and water off before moving the machine. Never disable the float switch to stop the pump; it is the leak protection."
+    },
+    {
+      "name": "Check the spray arms turn freely",
+      "detail": "Spin each spray arm by hand; both should turn with almost no resistance. Then hold each one up to the light and look through the jet holes for lodged seeds, grit or limescale. Clear blocked holes with a cocktail stick rather than anything metal. A spray arm that cannot turn leaves the machine unable to heat or circulate properly and produces faults that look electrical.",
+      "minutes": 10,
+      "tools": "Cocktail stick",
+      "warning": null
+    },
+    {
+      "name": "Test the hot water supply at the tap",
+      "detail": "Run the kitchen hot tap and time how long it takes to run genuinely hot. If it takes more than a minute, the dishwasher is starting every cycle with a slug of cold water in the line and has to make up the difference. Running the tap hot immediately before starting a wash is a free fix for a machine that keeps timing out on heating.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the inlet side",
+      "detail": "Make sure the supply valve under the sink is fully open and the inlet hose is not kinked or crushed behind the machine. With the valve closed, undo the hose at the machine end over a towel and look for a mesh screen in the inlet port; rinse and scrub it if it is furred with grit, then refit and check for weeps.",
+      "minutes": 15,
+      "tools": "Pliers, towel, old toothbrush",
+      "warning": "Close the supply valve before undoing a hose or you get mains pressure in your face."
+    },
+    {
+      "name": "Check the drain path beyond the machine",
+      "detail": "Follow the drain hose for kinks and crushing. If the machine drains to a waste disposal unit, check the knockout plug inside the disposal inlet has actually been removed, which catches out a lot of new installations. If there is an air gap fitting on the sink top, lift its cover and clear the debris that collects inside it.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Reset and run a short program",
+      "detail": "Switch off at the breaker for five minutes, restore power, and run the shortest cycle the machine has with the racks empty. A short program tells you in half an hour whether the cleaning worked, instead of committing you to a two hour cycle. Watch whether the fault lands at the same point every time, which is useful information whoever ends up fixing it.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the spray arms turn, the base tray is dry and the hot water arrives quickly at the tap, work through by group. For a heating fault, the order is hot water supply, then the filter and spray arms, then the element. A machine that fills and circulates but never warms, with everything else ruled out, usually has a failed heating element or a sensor feeding the control bad information, and the sensor is the cheaper of the two to try. Test it the way that works without a reference figure: with the power isolated, measure the sensor cold on ohms, warm it in your hand or with a hairdryer, and watch whether the reading moves in a consistent direction. A sensor whose reading does not change at all has failed, and you never need to know what the correct value for your model is. For a fill or overfill fault, the inlet valve is the part that fails, and the test is whether water enters the machine with the power off: if it does, the valve is passing and nothing electrical will fix it. For a drain fault with a clean filter, the pump impeller is next, and it is usually reachable once the sump is out. Where the cost jumps on an Asko is the control board and the circulation pump, both of which run into several hundred dollars fitted, and Asko parts are generally dearer and slower to source than mainstream brands because the dealer network is thinner. Factor that in before committing: on a machine over ten years old, get the quote in writing and compare it against a replacement, and ask specifically whether the part is in stock, because a cheap repair you wait six weeks for is not a cheap repair.",
+  "reset_procedure": "Switch the dishwasher off at the breaker for five minutes rather than just opening the door, then restore power and run the shortest program with the racks empty. The breaker reset clears a fault left behind by a power interruption. What it will not clear is a tripped base tray float, which stays tripped until the water is physically drained out of the tray, so a drain pump that keeps running after a reset is telling you where to look.",
+  "model_notes": "The numbering is not identical across Asko generations, which is the main trap when matching a code to a list. The most widely reproduced table gives F1 as water not heated within the allowed time, F2 as a high water level, F3 as a thermistor fault and F4 as a fill problem on level-controlled models, but another parts-trade source pairs the codes differently, treating F4 and F12 together as an inlet valve fault and F2 and F10 together as overfill. Both readings keep the same subjects in the same groups, so the practical approach is to work by subject rather than by exact number. Older Asko machines with no numeric display signal faults by flashing program lights in patterns instead, and those patterns are model specific and need the manual.",
+  "parts": [
+    { "name": "Sump filter assembly", "cost": "$25 to $70", "difficulty": "easy", "note": "Only if the mesh is torn or the frame is cracked; most just need scrubbing" },
+    { "name": "Water inlet valve", "cost": "$35 to $90", "difficulty": "moderate", "note": "Fit a new one if water enters with the machine powered off" },
+    { "name": "Temperature sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Cheaper than the element, so test it first on a heating fault" },
+    { "name": "Heating element", "cost": "$60 to $180", "difficulty": "hard", "note": "Check Asko stock before ordering; parts can be slow to arrive" },
+    { "name": "Drain or circulation pump", "cost": "$70 to $220", "difficulty": "hard", "note": "The circulation pump is the expensive one and often a technician job" }
+  ],
+  "when_to_call": "Call a technician once the filter, the spray arms, the base tray and the inlet and drain paths are all proven clear and the same code still returns. Call sooner if the drain pump runs continuously and tilting the machine does not stop it, because that means water is still getting into the base tray and something is leaking inside. Call as well for anything involving the heating element or the circulation pump, both of which sit behind the lower panel among mains wiring. Before you book, ask about Asko parts availability for your model, since the dealer network is thinner than for mainstream brands and a long wait changes whether the repair is worth doing at all.",
+  "faqs": [
+    { "q": "What should I check first on any Asko dishwasher error code?", "a": "The sump filter in the bottom of the tub, and then whether the drain pump runs continuously. A blocked filter causes faults across all four code groups because it restricts circulation, heating and draining at once. A pump that will not stop means water in the base tray has lifted the anti-flood float, which is a different problem with a different fix." },
+    { "q": "Why does my Asko dishwasher pump run constantly?", "a": "Because the anti-flood float in the base tray has lifted, which puts the machine into protection mode and runs the drain pump to get water out. Nothing at the control panel will stop it. Switch off at the breaker, close the water, tilt the machine gently back onto towels to drain the tray, then find where the water came from." },
+    { "q": "What does F1 mean on an Asko dishwasher?", "a": "F1 means the water did not reach the temperature it needed within the time the machine allows. Before suspecting the heating element, check the sump filter and the spray arms, then time how long your kitchen hot tap takes to run hot. A long cold run in the pipework makes the machine start every cycle from behind." },
+    { "q": "Can I still use my Asko dishwasher with an error code?", "a": "Generally no, because these codes stop the cycle rather than degrade it. One case needs acting on rather than ignoring: if the drain pump is running non-stop, the machine thinks it is leaking, and leaving it is how a small leak becomes floor damage. Switch it off at the breaker and close the supply valve." },
+    { "q": "Why do different websites give different Asko code meanings?", "a": "Because the numbering changed between generations. The common table gives F1 heating, F2 overfill, F3 sensor and F4 fill, while another trade source pairs F4 with F12 as inlet faults and F2 with F10 as overfill. The subjects stay the same even where the numbers move, so work by subject and confirm against your own manual." },
+    { "q": "How do I test the temperature sensor without knowing the correct resistance?", "a": "Isolate the power, measure the sensor on ohms while it is cold, then warm it with a hairdryer or in your hand and measure again. What matters is that the reading moves consistently in one direction as the temperature changes. A reading that does not shift at all, or reads open circuit, has failed, and no model-specific figure is needed." },
+    { "q": "Is an Asko dishwasher worth repairing?", "a": "Often yes, because they are built heavier than most, but check parts availability before committing. The Asko dealer network is thinner than for mainstream brands, so components can cost more and take longer to arrive. Ask the technician whether the part is in stock for your model; a cheap repair you wait six weeks for is not really cheap." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "Where Asko dishwasher faults usually start",
+    "labels": {
+      "display": "F2",
+      "c1": "Sump filter, twist and lift out",
+      "c2": "Base tray float, pump runs non-stop",
+      "c3": "Spray arms turning and clear",
+      "c4": "Inlet screen and hot water supply"
+    }
+  },
+  "sources": [
+    { "title": "Asko dishwasher fault code tables reproduced by parts retailers", "publisher": "Appliance parts retailer technical blogs", "url": null },
+    { "title": "Asko dishwasher troubleshooting and filter maintenance guidance", "publisher": "Asko owner documentation supplied with the machine", "url": null },
+    { "title": "Field experience on anti-flood base tray floats in European dishwashers", "publisher": "Appliance repair trade forums", "url": null }
+  ],
+  "related_codes": ["F1", "F2", "F3", "F4", "F10", "F12"]
+}

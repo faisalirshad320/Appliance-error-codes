@@ -1,0 +1,139 @@
+{
+  "title": "Frigidaire Refrigerator SY EF Code: Evaporator Fan Fault",
+  "meta_description": "SY EF on a Frigidaire refrigerator means the board cannot confirm the evaporator fan is running. Usually ice jamming the blade or a failed fan motor.",
+  "h1": "Frigidaire refrigerator SY EF: the evaporator fan is not running",
+  "answer": "SY EF on a Frigidaire refrigerator means the main control board cannot confirm that the evaporator fan is turning. That fan sits behind the back panel of the freezer and pushes cold air over the evaporator coil and through to the fresh food section, so when it stops, the freezer often stays cold while the fridge side goes warm. The two usual causes are ice jamming the fan blade and a failed fan motor, in that order. Open the freezer, hold the door switch in, and listen: no fan noise with the compressor running confirms it.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to diagnose, 1 to 3 hours to fix",
+  "cost_estimate": { "diy": "$0 to $120", "technician": "$180 to $450" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Ice has built up and jammed the fan blade",
+      "frequency": "most cases",
+      "confirm": "Take the freezer rear panel off and look. A blade frozen into a collar of ice, or a coil buried in a solid white block rather than lightly furred with frost, stops the fan dead. The motor is usually fine; it is stalled rather than broken, and it will often start again the moment the ice is gone."
+    },
+    {
+      "cause": "The evaporator fan motor has failed",
+      "frequency": "most cases",
+      "confirm": "No ice anywhere, the blade spins freely by hand, and still nothing happens when the compressor runs and the door switch is held in. A motor that hums without turning, or makes a loud grinding or chirping noise before stopping, is on its way out too."
+    },
+    {
+      "cause": "The fan's wiring connector has corroded or come loose",
+      "frequency": "common",
+      "confirm": "With the unit unplugged, follow the fan's two or three wire lead to its plug and look at the pins under a flashlight. Green crust, a pin pushed back into the housing, or a wire pulled out of its crimp gives the board exactly the same silence a dead motor does, and costs nothing to fix."
+    },
+    {
+      "cause": "Something is physically blocking the fan housing",
+      "frequency": "common",
+      "confirm": "A bag of frozen peas, a packet shoved hard against the rear panel, or a piece of packaging drawn into the fan grille. You will usually hear it first as a rattling or clattering noise before the fan gives up and the code appears."
+    },
+    {
+      "cause": "The defrost system failed and the ice is the symptom",
+      "frequency": "occasional",
+      "confirm": "You clear the ice, the fan runs again, and a few weeks later you are back here. The fan was never the real problem; the defrost heater or its sensor is not clearing frost off the coil, and the ice grows until it reaches the fan blade again."
+    },
+    {
+      "cause": "The control board is not driving or sensing the fan",
+      "frequency": "rare",
+      "confirm": "The motor is good, the connector is clean, nothing is blocking it, and the fan still never runs. This is the diagnosis of exclusion and should be the last thing you accept, because the board is the most expensive part in the cabinet."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Hold the freezer door switch in and listen",
+      "detail": "Open the freezer and find the small plunger switch in the door frame. Press and hold it in with your thumb, which makes the unit behave as though the door is shut. With the compressor running you should hear a distinct whirring from behind the rear panel within a few seconds. Silence while the compressor hums is the confirmation that the fan is not turning.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check which compartment is actually warm",
+      "detail": "Put a thermometer in a glass of water in the fresh food section and leave it two hours. The classic evaporator fan pattern is a freezer that is still cold, or even colder than usual, with a fresh food section drifting warm, because the cold is being made but not moved. That pattern on its own is nearly diagnostic before you take anything apart.",
+      "minutes": 10,
+      "tools": "Kitchen thermometer, glass of water",
+      "warning": null
+    },
+    {
+      "name": "Move the food and empty the freezer",
+      "detail": "Get everything out of the freezer and into a cooler or another unit, because the next step takes the back panel off and the compartment will be open for a while. Take out the shelves and baskets, and the icemaker too if it blocks the rear panel on your model. Put towels down at the base of the unit; whatever ice is in there is about to start melting.",
+      "minutes": 20,
+      "tools": "Cooler, towels",
+      "warning": null
+    },
+    {
+      "name": "Remove the freezer rear panel",
+      "detail": "Unplug the refrigerator. Take out the screws around the edge of the rear interior panel, usually four to six Phillips screws, some of them hidden under plastic caps you lever out with a fingernail. Ease the panel forward gently; it is often stuck to frost around the edges and it cracks if you force it cold. Behind it are the evaporator coil, the defrost heater and the fan at the top.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Unplug the refrigerator first. The defrost heater is immediately behind this panel."
+    },
+    {
+      "name": "Turn the fan blade by hand",
+      "detail": "With the unit still unplugged, spin the fan blade with a finger. It should turn freely and coast a little before stopping. A blade locked in ice, gritty resistance, or a hard stop tells you it is jammed rather than dead. Check for ice built up around the blade tips and in the shroud behind it, which is where the first contact usually happens.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": "Unplug the refrigerator. Never test a fan by spinning it with power on."
+    },
+    {
+      "name": "Defrost the compartment completely",
+      "detail": "If there is ice, the honest fix is time rather than force. Leave the unit unplugged with both doors propped open for 24 hours, towels down, until every trace of ice is gone. A hairdryer on low, kept moving and held well back, speeds it up. Never chip at ice on an evaporator coil with a knife or screwdriver: the tubing is thin aluminium and puncturing it turns a cheap job into a scrapped refrigerator.",
+      "minutes": 90,
+      "tools": "Towels, shallow trays, hairdryer",
+      "warning": "No sharp tools on the evaporator coil. Puncturing the tubing releases the refrigerant charge and ends the repair."
+    },
+    {
+      "name": "Check the fan connector before buying a motor",
+      "detail": "With everything thawed and the unit still unplugged, unplug the fan's connector and look at the pins with a flashlight. Clean off any green corrosion, make sure no pin has backed out of the housing, and push it firmly home until it latches. This sits in the coldest, dampest part of the cabinet and a bad connection looks exactly like a dead motor from the control board's point of view.",
+      "minutes": 15,
+      "tools": "Flashlight, multimeter",
+      "warning": "Unplug the refrigerator before touching any connector."
+    },
+    {
+      "name": "Reassemble and run it before judging",
+      "detail": "Put the panel, shelves and food back, restore power, and give it a few hours. Then hold the freezer door switch in again and listen for the fan. If it runs and the fresh food section comes back down to temperature, the ice was the problem and the question becomes why the ice formed. If it is still silent with a free-spinning blade and a clean connector, the motor is the part to replace.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the fan spins freely, the connector is clean and the blade is still not turning when the compressor runs, the motor is the part. It is a $40 to $120 item on most models and the job is the one you have already done to get this far: rear panel off, unplug the connector, release the motor from its bracket, swap it, put it back. That is a reasonable DIY repair for anyone comfortable with the panel. Beyond that, work this order. First, and most important, if you found ice, do not stop at clearing it. A healthy refrigerator does not accumulate enough ice to jam its own fan, so the ice is a symptom and the defrost system is the actual fault. Check the defrost heater and the defrost sensor clipped to the coil while the panel is already off, because doing it now costs you nothing and doing it later costs you the whole teardown again. Test the sensor by measuring it cold, warming it in your hand for two minutes, and measuring again: a healthy one changes clearly, a dead one does not move. Second, if the fan now runs but the fresh food section is still warm, look at the damper between the two compartments, which is a flap that can stick shut and starve the fridge side with a perfectly good fan. Third, if you replaced the motor and the new one also does nothing, stop and check that the board is actually sending it power before buying a second one. Fourth, if the freezer was never cold in the first place, this was not primarily a fan problem: a unit that is not making cold at all points at the sealed system, and that is licensed technician work with no DIY path. Finally, weigh it up. A fan motor on a ten-year-old refrigerator is worth doing. A fan motor plus a defrost heater plus a control board is the point to price a new unit instead.",
+  "reset_procedure": "Unplug the refrigerator or switch off its breaker for five full minutes, then restore power. The board stores the fault, so a fan you have just freed from ice can keep showing SY EF until the control is reset. After the reset, give it a few hours and then hold the freezer door switch in and listen for the fan rather than trusting the display. If the code returns with a fan you can hear running, that points at the sensing circuit rather than the fan.",
+  "model_notes": "SY is Frigidaire's prefix for a system-level fault and EF is read by most repair sources as the evaporator fan, which matches the symptom pattern owners report: a cold freezer with a warm fresh food section. One reference instead describes SY EF as a fresh food compartment temperature sensor failure, and a forum thread describes it as a communication problem between the board and the fan rather than the fan itself. The documentation here is thin and none of it is from Frigidaire directly. The practical consequence is small, because the diagnosis starts the same way either way: look at the fan, listen for it, and check its connector before buying anything.",
+  "parts": [
+    { "name": "Evaporator fan motor", "cost": "$40 to $120", "difficulty": "moderate", "note": "Behind the freezer rear panel; the usual answer once ice is ruled out" },
+    { "name": "Evaporator fan blade", "cost": "$10 to $30", "difficulty": "easy", "note": "Only when the blade is cracked or has been chewed by ice contact" },
+    { "name": "Defrost sensor or thermistor", "cost": "$15 to $50", "difficulty": "moderate", "note": "Check it while the panel is off if you found ice" },
+    { "name": "Defrost heater", "cost": "$40 to $110", "difficulty": "hard", "note": "The other half of the ice question, same access" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, after motor, connector and harness are all cleared" }
+  ],
+  "when_to_call": "Call a technician if the fan is silent with a free blade and a clean connector and you are not comfortable swapping the motor, or if the fan now runs but the fresh food section stays warm, because that moves the diagnosis to the damper or the defrost circuit. Call straight away if the freezer itself is not cold, since a unit that is not making cold at all points at the sealed refrigerant system, and the compressor, condenser, evaporator and refrigerant charge are licensed technician work that must not be attempted at home. If you found heavy ice, tell whoever you call, because the fan may be the symptom and the defrost circuit the real job.",
+  "faqs": [
+    { "q": "What does SY EF mean on a Frigidaire refrigerator?", "a": "The main control board cannot confirm that the evaporator fan is running. That fan lives behind the freezer rear panel and moves cold air from the evaporator coil into both compartments. The usual causes are ice jamming the blade or a failed fan motor, and the classic symptom is a freezer that stays cold with a fresh food section going warm." },
+    { "q": "Can I still use the refrigerator with SY EF showing?", "a": "Only briefly. Without the evaporator fan, cold air is not being moved into the fresh food section, so that compartment will drift up to unsafe temperatures within hours even though the freezer still feels cold. Move perishable food elsewhere, check the temperature with a thermometer, and treat this as something to fix now rather than next week." },
+    { "q": "Why is my freezer cold but the fridge warm?", "a": "That is the signature of an evaporator fan that has stopped. The cold is still being made at the coil in the freezer, but nothing is pushing it through the duct into the fresh food section. It is the single most useful clue on this code, and it separates a fan fault from a sealed system fault, where neither compartment gets cold." },
+    { "q": "Will defrosting the freezer fix SY EF?", "a": "It often gets the fan turning again, because a blade frozen into ice is stalled rather than broken. Unplug the unit and leave both doors open for 24 hours with towels down. But treat it as a clue, not a cure: a healthy refrigerator does not grow enough ice to jam its own fan, so the defrost system is the thing that actually failed." },
+    { "q": "How much does an evaporator fan motor cost to replace?", "a": "The motor itself runs roughly $40 to $120 on most models, and the job is a rear panel, a connector and a bracket, so it is within reach for anyone comfortable emptying the freezer. A technician doing the same work typically charges between $180 and $450 fitted, depending on your area and the model." },
+    { "q": "Why did SY EF appear suddenly?", "a": "Ice reaches the blade at a specific moment, so a problem that has been building for weeks announces itself in one day. The other sudden version is a motor bearing finally seizing, often after a period of chirping or grinding noises that people put down to normal refrigerator sounds. Neither is really sudden, only the code is." },
+    { "q": "Can I chip the ice off to free the fan faster?", "a": "No. The evaporator tubing behind that ice is thin aluminium, and puncturing it releases the refrigerant charge and ends the refrigerator's life then and there. Use time, warm air from a hairdryer held well back and kept moving, or a cup of warm water. Never a knife, a screwdriver or a chisel." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "The evaporator fan behind the freezer panel, and why the fridge goes warm",
+    "labels": {
+      "display": "SY EF",
+      "c1": "Hold the freezer door switch",
+      "c2": "Rear panel off, unplugged",
+      "c3": "Spin the fan blade by hand",
+      "c4": "Fan connector pins clean"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire refrigerator system fault code descriptions", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "Evaporator fan diagnosis on top-mount and French-door refrigerators", "publisher": "Appliance service documentation summaries", "url": null },
+    { "title": "Conflicting readings of SY EF as a sensor or board-to-fan communication fault", "publisher": "Appliance repair guides and owner forum threads, cited for the disagreement", "url": null },
+    { "title": "Field reports on iced evaporator fans and defrost failures", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["SY CF", "H1", "d1 SP", "SY CE", "dF"]
+}

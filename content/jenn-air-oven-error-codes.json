@@ -1,0 +1,126 @@
+{
+  "title": "Jenn-Air Oven Error Codes: What Each One Means",
+  "meta_description": "How Jenn-Air oven codes work: F2E1 and the two-part format, what each failure group covers, and the diagnostic sequence that applies to any of them.",
+  "h1": "Jenn-Air oven error codes: how to read what the display is telling you",
+  "answer": "Jenn-Air ovens show faults as a two-part code, an F number and an E number together, as in F2E1. The F half names the failure group and the E half names the specific error inside it, so F2 is the keypad and user interface family and E1 is the stuck or unreadable key within that family. Jenn-Air shares its control platform with the rest of the Whirlpool family, so the same code means the same thing on comparable Whirlpool, Maytag and KitchenAid ovens and parts are often common between them. Older Jenn-Air models predate the format and show a single F followed by one digit, which is documented far less consistently.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to read the code, 30 minutes to 2 hours to act on it",
+  "cost_estimate": { "diy": "$0 to $90 for the common ones", "technician": "$180 to $450 for a typical call" },
+  "safety_warning": "Everything behind a Jenn-Air oven console is on a 240 volt supply, and on a wall oven that console sits directly above a hot cavity. Switch the oven off at the circuit breaker before any cover comes off, and confirm it is dead rather than trusting a keypad that may be the thing at fault. On a gas model, close the gas shutoff behind the range before moving it, and leave the burner, the safety valve and the igniter to a licensed technician. Never bypass a door lock, a thermal cut-out or any other protective device to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "User interface and keypad faults, the F2 group",
+      "frequency": "most cases",
+      "confirm": "F2E1 is the one most Jenn-Air owners meet. The control has decided a key is held down, or it cannot read the touch panel at all. Press each key with the power off and feel for one that stays down or does not click, then check the flat ribbon cable at the control board. Both checks are free and between them they cover most of this group."
+    },
+    {
+      "cause": "Temperature sensing and heating faults, the F3 group",
+      "frequency": "common",
+      "confirm": "The oven will not heat, heats to the wrong temperature, or quits partway through a preheat. With the breaker off, unplug the oven temperature sensor behind the rear panel and watch its resistance climb as you warm the probe in your hand. A reading that does not move with heat is a failed sensor regardless of what the exact figure should be."
+    },
+    {
+      "cause": "Door lock faults, the F5 group",
+      "frequency": "common",
+      "confirm": "The code arrives around a self-clean cycle, either because the door would not lock at the start or would not release at the end. Look at the lock motor and its switch through the vent slots at the top of the door frame, and check nothing is fouling the latch. Never force a locked door or defeat the lock to open it."
+    },
+    {
+      "cause": "Control board faults, the F1 group and bare F codes",
+      "frequency": "occasional",
+      "confirm": "The code is present the instant power is restored at the breaker, before anything has been touched or set. That timing rules out the keypad and the heating circuit, because neither has had a chance to be involved. Older models showing a bare F1 rather than a two-part code usually fall here too."
+    },
+    {
+      "cause": "Codes the published charts define inconsistently",
+      "frequency": "occasional",
+      "confirm": "You look a code up and find two or three different meanings. This is common on older bare F codes and on anything outside the main groups. The service sheet inside your own appliance, usually taped inside the console on a wall oven or behind the storage drawer on a range, beats any general chart including this page."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down in full, both halves",
+      "detail": "Note both parts exactly as shown, including whether there is a space, as in F2 E1 or F2E1. The two halves mean different things and a code recorded as just F2 has thrown away the half that tells you what actually failed. Take a photo of the display, because some Jenn-Air panels cycle the two halves alternately rather than showing them together.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note when the code appears",
+      "detail": "This is worth more than most lookups on this brand. Write down whether the code is there the instant power is restored with nothing touched, only after you press a key, only once a bake has been running, or only around a self-clean cycle. Those four answers point at the board, the keypad, the heating circuit and the door lock respectively, and they narrow a vague code faster than any chart.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a proper breaker reset",
+      "detail": "Switch the oven off at the circuit breaker and leave it for a full five minutes before restoring power. A quick off and on often leaves the stored fault in place because the board holds residual charge, and on a control reporting a keypad fault the Cancel key may not be read at all. Leave the oven idle for a few minutes after power returns before setting anything.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Use the breaker rather than the Cancel key. An oven reporting an interface fault cannot be relied on to read its own keypad."
+    },
+    {
+      "name": "Clean around every key on the console",
+      "detail": "With the breaker off, wipe the console with a barely damp cloth and a little dish soap, working around each key rather than flooding the panel, then dry it completely. Press each key and compare the feel. Grease under the membrane and moisture from a boil-over are the two commonest causes of interface codes on this brand, and both are free to fix.",
+      "minutes": 20,
+      "tools": "Soft cloth, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Find the service sheet inside your own appliance",
+      "detail": "On a Jenn-Air range it is usually behind the storage drawer at the bottom; on a wall oven it is often taped inside the console or behind the lower trim. It lists the codes for your exact control and beats any general chart. Get your full model number from the sticker on the door frame at the same time, because parts for these differ between platforms that look identical from the front.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Split the panel from the board with the ribbon test",
+      "detail": "For any interface or control code, this is the test that halves the problem. With the breaker off, open the console, unplug the flat ribbon between the touch panel and the control board, refit the cover and restore power briefly. A display that behaves differently with nothing connected means the panel is at fault; a code unchanged with the ribbon out means the board is. Switch the breaker off again before reopening.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver",
+      "warning": "Breaker off while the console is open. Restore power only with the cover refitted and hands clear."
+    },
+    {
+      "name": "Decide whether this one is yours",
+      "detail": "Cleaning a panel, reseating a ribbon, checking a sensor with a meter and clearing a fouled door latch are all reasonable with hand tools and care. Pulling a built-in wall oven out of its cabinet is heavy, awkward two-person work. Gas components and anything requiring the oven live with the console open are technician jobs, and so is a control board on a part this expensive and this often non-returnable.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a reset and a clean have not fixed it, the useful next move on this brand depends on which half of the code you have, and there are two traps worth knowing about. The first is the bare F codes on older Jenn-Air models. A single F1 or F3 with no E half predates the clearer format and the published definitions for them genuinely disagree, so narrow those by timing rather than by looking them up, and treat any site that gives you a confident one-line answer with suspicion. The second trap is F2E1 specifically, which is the most searched Jenn-Air oven code and has a history worth knowing: a consumer law firm opened a class action investigation into Jenn-Air double ovens showing it, and the reported pattern is that the code returns for some owners even after the control panel has been replaced. That does not settle anything, but it does mean you should establish which side of the keypad ribbon the fault is on before buying a panel, and ask about returns before ordering, because these parts are expensive and often non-returnable once fitted. Across all the groups, the point where cost jumps is the same: a touch panel runs $90 to $250, a control board $150 to $320, and on a built-in wall oven the labor to pull the unit out and put it back pushes a fitted repair to somewhere between $300 and $700. On an oven over about ten years old that is the number to weigh against replacement, and it is worth getting the diagnosis in writing rather than approving a part over the phone.",
+  "reset_procedure": "The reset that works on any Jenn-Air oven code is the same: switch off at the circuit breaker, wait a full five minutes, then restore power. The wait matters because the control board holds residual charge and a quick cycle often leaves the stored fault in place. Do not rely on the Cancel key, particularly on an interface code, since the control may not be reading the keypad. Watch the display as power returns and note whether the code is present immediately, because that observation is worth more than the reset itself.",
+  "model_notes": "Jenn-Air uses the same control platform as the rest of the Whirlpool family, so F and E codes map across comparable Whirlpool, Maytag and KitchenAid ovens and parts are frequently shared. Two generations exist side by side in the field: newer models use the two-part format where a failure group and a specific error show together, and older ones use a single F with one digit. The older bare codes are documented far more loosely, and charts for them contradict each other, so the service sheet inside your own appliance is the authority. Where a wall oven and a range share a code number, the physical access is completely different even though the fault is the same, and a wall oven usually means pulling the unit out of its cabinet.",
+  "parts": [
+    { "name": "Touch panel or keypad membrane", "cost": "$90 to $250", "difficulty": "hard", "note": "The F2 group; often sold only as part of a console assembly" },
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "moderate", "note": "The F3 group; test it by watching resistance rise as it warms" },
+    { "name": "Door lock motor and switch assembly", "cost": "$50 to $140", "difficulty": "hard", "note": "The F5 group; never force or defeat a locked oven door" },
+    { "name": "Electronic oven control board", "cost": "$150 to $320", "difficulty": "technician only", "note": "Last resort on any code, once the ribbon test points at the board" },
+    { "name": "Console cooling fan", "cost": "$40 to $110", "difficulty": "moderate", "note": "Worth checking where a code only appears once the oven is hot" }
+  ],
+  "when_to_call": "Call a technician for any code that survives a proper breaker reset and a console clean, because the next steps involve either a live 240 volt console or pulling a built-in oven out of its cabinet. Call a licensed gas technician for anything involving the burner, the safety valve or the igniter on a gas model, and do not investigate those yourself. Call before buying a touch panel or control board, since both are expensive, often non-returnable, and easy to order wrongly on a brand with several platforms that look identical from the front. And if an oven door has locked itself and will not release after the oven has fully cooled, get someone out rather than forcing it.",
+  "faqs": [
+    { "q": "How do I read a Jenn-Air oven error code?", "a": "Read both halves. The F number names the failure group and the E number names the specific error within it, so F2E1 is the keypad group and the stuck-key error inside it. Some panels alternate the two halves rather than showing them together, so watch the display for a few seconds and photograph it before acting." },
+    { "q": "What is the most common Jenn-Air oven error code?", "a": "F2E1, by a clear margin. It means the control sees a key held down or cannot read the touch panel at all. Start with the free checks: wipe around every key and feel for one that stays down, then reseat the flat ribbon cable between the panel and the control board with the breaker off." },
+    { "q": "How do I reset a Jenn-Air oven?", "a": "Switch it off at the circuit breaker, wait a full five minutes, then restore power. The wait matters because the board holds residual charge and a quick off and on frequently leaves the stored fault in place. Avoid using the Cancel key as your reset on an interface code, since the control may not be reading the keypad at all." },
+    { "q": "Are Jenn-Air codes the same as Whirlpool and Maytag codes?", "a": "Largely yes, because they share a control platform. The same two-part F and E codes carry the same meanings across comparable Whirlpool, Maytag, KitchenAid and Jenn-Air ovens, and parts are often common. Confirm against the service sheet for your own model before ordering, since several platforms sit behind similar-looking panels." },
+    { "q": "My older Jenn-Air shows just F1 with no second number. What now?", "a": "That is the older code scheme, which predates the two-part format and is documented inconsistently. Narrow it by when the code appears rather than by looking it up: immediately on power-up points at the board, after a keypress points at the panel, and only when hot points at heat reaching the console." },
+    { "q": "Where is the service sheet on a Jenn-Air oven?", "a": "On a range it is usually behind the storage drawer at the bottom. On a wall oven it is often taped inside the console or behind the lower trim. It lists the codes for your exact control and overrides any general chart, including this page, which matters most on the older bare F codes where published definitions disagree." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Read both halves of the code, then narrow it by when it appears.",
+    "labels": {
+      "display": "F2E1",
+      "c1": "F half names the fault group",
+      "c2": "E half names the specific error",
+      "c3": "Breaker reset, five full minutes",
+      "c4": "Service sheet inside the appliance"
+    }
+  },
+  "sources": [
+    { "title": "Jenn-Air oven and range fault code definitions", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Jenn-Air wall oven and range service sheets and wiring diagrams", "publisher": "Service sheet supplied inside the appliance", "url": null },
+    { "title": "Jenn-Air double oven F2E1 class action investigation", "publisher": "Chimicles Schwartz Kriner and Donaldson-Smith consumer investigation notice", "url": null },
+    { "title": "Field reports on Whirlpool-family oven code behavior", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F2E1", "F1", "F1E0", "F3E0", "F5E1"]
+}

@@ -1,0 +1,210 @@
+{
+  "title": "GE Dishwasher FTD Error Code: Causes and Fix",
+  "meta_description": "FTD on a GE dishwasher means failure to drain. Usually a clogged filter, a disposal knockout plug left in, or a kinked hose.",
+  "h1": "GE dishwasher FTD error code: what it means and how to clear it",
+  "answer": "FTD stands for failure to drain. The control ran the drain pump for its full allowance, then checked the tub and still found water, so it stopped the cycle and put the code up. Nine times out of ten the water is being held back by something you can reach without tools: a filter packed with sludge, a drain hose kinked behind the machine, or on a recently installed disposal, the knockout plug that nobody removed. Bail out the standing water first, then work from the tub outward.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$140 to $320"
+  },
+  "safety_warning": "Switch off the dishwasher at its breaker before pulling the machine out, removing the lower access panel or touching the drain pump. The pump and the control both sit at line voltage and the junction box under the machine is often live even when the door switch is open.",
+  "causes": [
+    {
+      "cause": "The filter and sump are clogged with food sludge, labels and grease",
+      "frequency": "most cases",
+      "confirm": "Lift out the cylindrical filter in the tub floor and look at the coarse screen under it. Gray paste, a soaked paper label or a film of fat over the mesh means the pump is pulling against a blocked inlet. If the filter has never been cleaned since the machine was installed, this is your fault."
+    },
+    {
+      "cause": "A new garbage disposal still has its dishwasher knockout plug in place, or the disposal is full",
+      "frequency": "most cases",
+      "confirm": "Was a disposal fitted, replaced or reconnected in the last few weeks? Pull the dishwasher hose off the disposal inlet and look into the spigot. If you see a solid plastic disc instead of an open hole, the plug was never punched out and the dishwasher has had nowhere to drain since day one."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or has lost its high loop",
+      "frequency": "common",
+      "confirm": "Open the sink cabinet and follow the corrugated hose from the dishwasher to the disposal or standpipe. A hose squashed flat behind the machine, or one that runs straight along the cabinet floor with no rise, will drain slowly enough to time out even with nothing blocking it."
+    },
+    {
+      "cause": "The air gap on the sink deck is blocked",
+      "frequency": "common",
+      "confirm": "If you have a small chrome cylinder on the sink deck next to the faucet, twist the cover off and lift out the cap. Sludge packed into it will back water up into the dishwasher, and the usual giveaway is water spitting out of the air gap during a drain."
+    },
+    {
+      "cause": "Something hard is jammed in the drain pump impeller",
+      "frequency": "occasional",
+      "confirm": "You hear the pump try and either buzz, hum or make a rattling grind instead of the normal steady whir. Glass chips, fruit stones, bits of bone and plastic caps are the usual offenders, and they usually arrive right after a dishwasher has been loaded straight from a party."
+    },
+    {
+      "cause": "The drain pump has failed outright",
+      "frequency": "occasional",
+      "confirm": "Dead silence from the pump during the drain portion of the cycle, with the filter clean and the hose clear. Put your ear to the lower front of the machine during a drain; you should hear a distinct motor note for roughly a minute."
+    },
+    {
+      "cause": "The water level sensor reports water that is not there",
+      "frequency": "rare",
+      "confirm": "The tub is visibly empty, the pump runs normally and you still get FTD. This is the only case where the machine is wrong and the plumbing is fine, and it is far rarer than the internet suggests, so rule out everything above first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and give it one supervised drain attempt",
+      "detail": "Press Start/Reset, or hold the Start pad for a few seconds depending on your model, and let the machine run its drain. Stand with the door open an inch and listen. A steady motor whir with the water level dropping means the pump is fine and the restriction is downstream. A buzz, a grind or silence tells you the pump itself is the problem.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Bail out the standing water",
+      "detail": "Scoop the water out of the tub floor with a cup into a bucket, then soak up the last of it with towels until the sump is dry enough to work in. Do not skip this. Every job below is miserable with two inches of gray water in the way, and you cannot see what is in the sump until it is empty.",
+      "minutes": 10,
+      "tools": "Cup, bucket, old towels",
+      "warning": null
+    },
+    {
+      "name": "Pull and clean the filter assembly",
+      "detail": "Twist the cylindrical filter in the tub floor anticlockwise about a quarter turn and lift it straight out. Under it is a flat coarse screen that usually lifts out too. Wash both in hot water with dish soap and an old toothbrush until the mesh is open to the light, then reach into the sump and fish out anything solid by hand. Drop both parts back in and twist the cylinder clockwise until it locks.",
+      "minutes": 12,
+      "tools": "Old toothbrush, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Check the garbage disposal connection and the knockout plug",
+      "detail": "Open the sink cabinet, put a bowl under the joint, loosen the clamp and pull the dishwasher drain hose off the disposal spigot. Look inside the spigot. If there is a solid plastic disc across it, knock it out with a screwdriver and a tap from a hammer, then reach in and pull the loose disc out of the disposal body so it cannot jam the grinder. Run the disposal for ten seconds with the tap on before you reconnect.",
+      "minutes": 15,
+      "tools": "Nut driver or pliers, flat screwdriver, hammer, bowl",
+      "warning": "Switch the disposal off at the wall switch and never put your hand into the grinding chamber."
+    },
+    {
+      "name": "Clear the air gap if you have one",
+      "detail": "Twist the chrome cover off the small cylinder on the sink deck and lift out the plastic cap underneath. Pick out the sludge with a bottle brush or a bent piece of wire, rinse it, and put it back. If the gunk packed inside came out in one plug, that was your blockage, and you should also flush the short hose from the air gap down to the disposal.",
+      "minutes": 8,
+      "tools": "Bottle brush",
+      "warning": null
+    },
+    {
+      "name": "Straighten the drain hose and restore the high loop",
+      "detail": "Follow the corrugated hose from the back of the dishwasher to its outlet. Pull out any kink, and make sure the hose rises up to the underside of the counter and is strapped there before it drops to the disposal or standpipe. Without that loop, sink water siphons back and the machine never fully empties. Leave a hand's width of clearance behind the machine when you push it back.",
+      "minutes": 15,
+      "tools": "Flashlight, cable tie or pipe clip",
+      "warning": null
+    },
+    {
+      "name": "Clear the drain pump impeller",
+      "detail": "Switch off the breaker to the dishwasher. Remove the two screws holding the lower access panel and lift it away, then put a tray and towels under the machine. The drain pump sits at the bottom of the sump; on most GE models it twists off the sump housing after you release a clip or turn it part of a turn. Expect a cup or two of water. Turn the impeller with a finger and pull out any glass, stone or plastic wedged against it.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels, flashlight",
+      "warning": "Breaker off, not just the door open. Glass chips in a sump cut deep, so use a towel rather than bare fingers when sweeping it out."
+    },
+    {
+      "name": "Reset the control and run a short cycle",
+      "detail": "Switch the breaker back on, or hold the Start pad to cancel if you never cut power. Run a rinse-only cycle and watch the drain through the open door at the end. A tub that empties to a damp film in under a minute is fixed. If water is still sitting above the filter when the pump stops, the restriction is still in the line.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the hose is clear, the air gap is open, the disposal plug is out and FTD is still there, work through it in this order. First, settle whether the pump is actually moving water: disconnect the drain hose at the disposal end, hold it into a bucket below the level of the dishwasher, and start a drain. A strong pulsed flow into the bucket means the pump and the machine are fine and the fault is in the plumbing past that point, which is the disposal, the standpipe or the trap, and that is a plumber's job rather than an appliance one. Second, if you get a trickle or nothing with the hose into a bucket, the restriction is inside the machine. Pull the pump off the sump again and check the short section of hose between the sump and the pump, which collects a slug of fat and grit that is invisible from the tub side. Third, if the pump is clear and still will not shift water, the pump itself is the part, and it is usually a $45 to $110 item that takes about an hour with the machine pulled out. Fourth, if the pump runs normally, the tub visibly empties, and the control still throws FTD, you are in the rare territory of the water level sensor reporting water that is not there; that sensor sits low at the front of the machine behind the lower panel and is an inexpensive part, but confirm the tub really is dry at the moment the code appears before you buy one. The cost jumps at the main control board, and before you authorize one, ask the technician to show you that the pump is being commanded and the sensor is reading sensibly, because a board is rarely the answer to a drain code.",
+  "reset_procedure": "Hold the Start or Start/Reset pad for about three seconds to cancel the cycle and run a drain. If the code will not clear, switch the dishwasher off at its breaker for five minutes and back on. The control latches the fault, so a machine whose drain you have already fixed will keep showing FTD until it is reset. Test with a rinse-only cycle rather than a full wash so you find out in ten minutes.",
+  "model_notes": "FTD appears on GE models with an alphanumeric display. On machines that show numeric or letter-number codes instead, the same failure to drain is logged as F56, and on older models with status lights rather than a display it appears as a blink count on the Start pad. The letters are easy to misread behind a tinted panel: FTD, not FID, F1D or FTO. The lower-end GE models with a hard food disposer in the sump rather than a removable filter have no filter to lift out, and the first thing to check there is the drain pump and the chopper area instead.",
+  "parts": [
+    {
+      "name": "Drain pump",
+      "cost": "$45 to $110",
+      "difficulty": "moderate",
+      "note": "Clear the impeller before buying; many are replaced for a stuck olive pit"
+    },
+    {
+      "name": "Filter and coarse screen set",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Only needed if the mesh is torn or deformed; most just need washing"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$20 to $40",
+      "difficulty": "moderate",
+      "note": "Worth replacing if it is crushed flat or split at a clamp"
+    },
+    {
+      "name": "Water level or pressure sensor",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Behind the lower front panel; rarely the real fault"
+    },
+    {
+      "name": "Sump and housing assembly",
+      "cost": "$90 to $190",
+      "difficulty": "hard",
+      "note": "Only if the sump is cracked or the pump mount is broken"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if the drain hose held into a bucket flows strongly but the sink side backs up, because the blockage is in your waste pipe and an appliance engineer will charge you to tell you that. Call an appliance technician when the pump is clear, the lines are clear and the machine still reports FTD, since the next step is checking whether the control is commanding the pump at all, with the machine live under the counter. Stop running cycles in the meantime: repeatedly driving a pump against a blockage is how a cheap clog becomes a pump replacement, and standing water in a warm tub turns foul within a couple of days.",
+  "faqs": [
+    {
+      "q": "What does FTD actually stand for on a GE dishwasher?",
+      "a": "Failure to drain. The control ran the drain pump for the time it allows, checked the tub, found water still there and stopped. It is a report that water did not leave, not a diagnosis of why, which is why the fix is almost always in the filter, hose or disposal rather than in a part of the dishwasher."
+    },
+    {
+      "q": "Can I still run the dishwasher with an FTD code?",
+      "a": "No. Each cycle you start drives the pump against whatever is blocking it, which heats the pump and shortens its life, and the dirty water left sitting in the tub starts to smell within a day or two. Bail the water out, leave the door ajar, and fix the drain before you load it again."
+    },
+    {
+      "q": "Why did FTD appear right after we fitted a new garbage disposal?",
+      "a": "Because the knockout plug in the disposal's dishwasher inlet was almost certainly left in place. Disposals ship with that inlet sealed by a plastic disc and the installer has to punch it out. Until it is removed, the dishwasher is pumping into a closed pipe and will throw FTD on its first cycle every time."
+    },
+    {
+      "q": "Is FTD the same as the F56 code?",
+      "a": "They describe the same failure: the machine tried to drain and water stayed in the tub. Which one you see depends on whether your model displays words or numeric codes. Every check on this page applies to both, and so does the order to do them in."
+    },
+    {
+      "q": "How much water should I expect when I open the drain pump?",
+      "a": "A cup or two from the sump, more if the tub was not fully bailed out first. Put a shallow tray and a thick towel under the front of the machine before you release the pump, and dry the floor as you go. The water is greasy and it will stain an unsealed wood floor if it sits."
+    },
+    {
+      "q": "Is a GE dishwasher with a failed drain pump worth repairing?",
+      "a": "Usually yes. The pump is a modest part and the job is an hour or so, which is a small fraction of a new machine even with a technician doing it. The calculation changes if the sump is cracked or the control board is also suspect, at which point a machine over eight years old is close to its replacement value."
+    },
+    {
+      "q": "The tub looks empty but it still shows FTD. What now?",
+      "a": "Check there is no water hiding below the filter in the sump, which is easy to miss, and that the filter is seated and locked rather than sitting proud. If the sump is genuinely dry at the moment the code appears, the water level sensor is reporting a level that is not there, and that is the one case where the machine rather than the plumbing is at fault."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The drain path on a GE dishwasher, and the four places it blocks",
+    "labels": {
+      "display": "FTD",
+      "c1": "Filter and sump in the tub floor",
+      "c2": "Drain pump impeller",
+      "c3": "Drain hose high loop",
+      "c4": "Disposal inlet and knockout plug"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE dishwasher drain system diagnosis and fault code descriptions",
+      "publisher": "GE Appliances technical service literature",
+      "url": null
+    },
+    {
+      "title": "Dishwasher will not drain: filter, air gap and disposal checks",
+      "publisher": "GE Appliances support documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on FTD and F56 causes and resolutions",
+      "publisher": "Appliance repair technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F56",
+    "H2O",
+    "LEAK",
+    "PF",
+    "C2"
+  ]
+}

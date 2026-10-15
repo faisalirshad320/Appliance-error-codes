@@ -1,0 +1,130 @@
+{
+  "title": "Kenmore Washer 5D Code: Too Many Suds, and the Fix",
+  "meta_description": "5D on a Kenmore washer is the suds code, really Sd with the S drawn as a 5. It is a Whirlpool code and a detergent problem. Use far less than you think.",
+  "h1": "Kenmore washer 5D error code: what it means and how to fix it",
+  "answer": "5D means the washer has found more detergent foam than it can deal with and has stopped the normal cycle to try to clear it. The code is actually Sd for suds: the display draws a capital S as a 5, which is why everyone searches for 5D. It is a Whirlpool code, so a Kenmore showing it was built by Whirlpool and its model number starts with 110. Nothing is broken. The fix is to run rinse cycles with no detergent until the foam is gone, then use far less than you have been, which for a front loader is about a tablespoon of HE liquid for a normal load.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "30 to 90 minutes of empty rinses",
+  "cost_estimate": { "diy": "$0", "technician": "$130 to $280 if it turns out to be the drain" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Too much detergent",
+      "frequency": "most cases",
+      "confirm": "Look at how much you pour. If it is anywhere near the fill line on the cap, it is several times what a front loader needs. The machine recirculates and the excess never rinses away, so it builds up over weeks rather than showing up on one load."
+    },
+    {
+      "cause": "Regular detergent instead of HE",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard detergent is formulated to foam in a tub full of water, and a front loader uses a fraction of that, so even a correct dose of the wrong product sudses the machine."
+    },
+    {
+      "cause": "Soft water, which needs a smaller dose again",
+      "frequency": "common",
+      "confirm": "A house with a water softener, or a naturally soft supply, needs noticeably less detergent than the bottle suggests, because the bottle assumes hard water. Soap lathers easily and rinses poorly in soft water, and 5D follows."
+    },
+    {
+      "cause": "A partly blocked drain, which keeps the foam circulating",
+      "frequency": "common",
+      "confirm": "5D appearing alongside or just before F21. Foam the pump cannot shift stays in the machine, so the suds problem and the drain problem feed each other. Check the pump filter."
+    },
+    {
+      "cause": "A detergent build-up already in the machine",
+      "frequency": "common",
+      "confirm": "You cut the dose and still get 5D for several loads afterwards. The residue sitting in the outer tub and the dispenser keeps foaming on plain water, and it takes several empty rinses to shift rather than one."
+    },
+    {
+      "cause": "A water-level sensing fault the machine reports as suds",
+      "frequency": "occasional",
+      "confirm": "An F35 code alongside it, or no visible foam at all through the glass on an empty rinse. If the machine says suds and there are none, it has lost a trustworthy level reading rather than found foam."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Let the machine try to clear it first",
+      "detail": "When 5D shows, the washer has already started its own suds routine: it pauses, adds rinse water and tumbles slowly to break the foam down, then tries the cycle again. That can add half an hour or more to a wash, which people mistake for a breakdown. If the machine is still running and the drum is turning, leave it alone and let it finish. Interrupting it means starting the whole routine again.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run rinse and spin with no detergent, and watch the glass",
+      "detail": "Take the washing out, close the door and run a rinse and spin on an empty drum with nothing added. Stand and watch the window during the tumble. Visible white foam means there is still detergent in the machine. Run it again. It commonly takes three or four empty rinses to clear a machine that has been over-dosed for months, and each one tells you whether you are winning by how much foam appears.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Measure the detergent properly from now on",
+      "detail": "For a normal load in a front loader, use about a tablespoon of HE liquid, or the smallest marking on the cap rather than the big one. Use a kitchen measuring spoon for a few weeks until your eye recalibrates, because almost nobody gets this right by pouring. Lightly soiled or small loads need less again. If you use pods, use one, and do not add liquid as well.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Check you are using HE detergent",
+      "detail": "Look for the HE symbol on the bottle. Standard detergent in a high-efficiency machine produces foam the washer cannot manage at any sensible dose, so the brand and the price are irrelevant if the formulation is wrong. If you have a large bottle of non-HE detergent you do not want to waste, keep it for hand washing rather than trying to use a smaller amount of it in the machine.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the drain pump filter",
+      "detail": "Unplug the washer. At the bottom front, either behind a small flip-down door or behind the lower access panel depending on model year, is the pump filter. Put towels and a shallow tray down, drain through the small tube first if yours has one, then turn the filter cap anticlockwise and clear everything out. A filter clogged with felted lint slows the drain, and a slow drain keeps foam in the machine, which is why 5D and F21 so often arrive together.",
+      "minutes": 25,
+      "tools": "Shallow tray, towels, old toothbrush",
+      "warning": "Unplug at the wall before opening the filter. Water from a hot wash can scald."
+    },
+    {
+      "name": "Clean out the dispenser drawer",
+      "detail": "Pull the dispenser drawer right out, usually by pressing a tab in the middle of the softener compartment, and wash it in hot water with a brush. Then look into the empty housing with a flashlight and scrub the roof of it, where a layer of gray detergent sludge collects. That residue washes into the drum a little at a time and keeps the machine foaming even after you have cut the dose.",
+      "minutes": 20,
+      "tools": "Brush, flashlight, hot water",
+      "warning": null
+    },
+    {
+      "name": "Run a clean-washer cycle or a hot empty wash",
+      "detail": "Finish by running the machine's Clean Washer cycle if it has one, or a hot cycle with an empty drum, using a washer cleaning tablet or a cup of white vinegar instead of detergent. This clears the last of the residue out of the outer tub and the hoses. Do it monthly afterwards, and leave the door ajar between washes so the drum dries, which stops the residue reforming.",
+      "minutes": 60,
+      "tools": "Washer cleaning tablet or white vinegar",
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have cut the detergent right back, run several empty rinses and still get 5D, work through this before assuming anything is broken. First, check whether there is actually any foam. Run one empty rinse and watch the glass for the whole tumble. Real foam means the machine is still carrying residue and needs more rinses, particularly if it has been over-dosed for years; hot rinses shift it considerably faster than cold ones. No foam at all, with 5D still appearing, means the machine is reporting suds it cannot see, and that is a sensing fault rather than a detergent problem. On Whirlpool-built Kenmores that usually comes with F35, and the culprit is the analog pressure sensor or the thin hose that runs from the tub to it. Pull that hose, check it is clear and unsplit and that it has no low loop holding water, and you have either fixed it for nothing or confirmed you need a sensor. Second, deal with the drain properly, because foam that cannot be pumped away stays in the machine and regenerates the problem on every cycle. Clean the pump filter, check the drain hose for a kink, and listen at the drain stage for a pump that strains rather than runs smoothly. A 5D that keeps returning alongside F21 is one problem wearing two codes. Third, look at your water. A softener set aggressively, or a naturally soft supply, means detergent lathers at doses that would be fine elsewhere, and the answer is to go below the smallest marking on the cap rather than at it. Fourth, consider what you are washing: microfiber, towels washed with fabric softener, and anything that has been hand-washed and not fully rinsed all carry soap into the machine. None of this needs a part, which is the point. The only version of 5D that costs money is the one where the machine cannot see the water level properly, and that is worth confirming before you spend anything.",
+  "reset_procedure": "Press Pause or Cancel twice to clear the code, then unplug the washer at the wall for five minutes and plug it back in. Resetting does not remove the foam, so the code returns on the next cycle unless you have run the empty rinses first. Treat the reset as the last step after clearing the suds rather than as an attempt to fix anything.",
+  "model_notes": "5D is Whirlpool's suds code and belongs to Kenmore washers with model numbers starting 110, both Duet-platform front loaders and Oasis and Cabrio-platform top loaders. The display is really Sd, with the S drawn as a 5 on a seven-segment panel, so Sd, SD and 5D are one code. On later control generations the same situation shows as an F8 code with a second part, or as Sud spelled out in full. A Kenmore with a 796 model number is an LG and displays Sud or SUDS instead, with the same causes and the same fix. Where 5D appears alongside F35 on a Whirlpool-built machine, treat the sensing fault as the primary problem rather than the detergent.",
+  "parts": [
+    { "name": "Washer cleaning tablets", "cost": "$8 to $20 a pack", "difficulty": "easy", "note": "Not a repair part, but the practical way to clear years of residue" },
+    { "name": "Dispenser drawer", "cost": "$25 to $70", "difficulty": "easy", "note": "Only if the drawer is cracked or so scaled it will not clean up" },
+    { "name": "Analog pressure sensor", "cost": "$40 to $90", "difficulty": "moderate", "note": "Needed only when the machine reports suds that are not there, usually with F35" }
+  ],
+  "when_to_call": "You should not need anyone for a genuine suds code, and a technician who turns up to find a machine full of foam will charge a call-out to tell you to use less detergent. Call if 5D keeps appearing on a machine with no visible foam after several empty rinses, because that is a water-level sensing fault rather than a detergent problem and it needs diagnosing properly. Call too if 5D arrives with F21 every time and the pump filter is clean, since the drain restriction is somewhere you cannot reach without dropping panels. On an older machine quoted for a control board, price a new washer first.",
+  "faqs": [
+    { "q": "Is the code 5D or Sd on a Kenmore washer?", "a": "Both, and they are the same thing. The code is Sd for suds, and the seven-segment display draws a capital S exactly like a 5, so people read and search for 5D. If your machine spells out Sud instead, that is the same fault with a clearer display. Everything on this page applies to all three." },
+    { "q": "How much detergent should I actually use?", "a": "About a tablespoon of HE liquid for a normal load in a front loader, which is far less than most people pour and well below the main line on the cap. Use the smallest marking, or measure it with a kitchen spoon for a few weeks. Small or lightly soiled loads need less again, and one pod means one pod with nothing added." },
+    { "q": "Can I still use the washer with a 5D code?", "a": "Yes, but the cycle will keep extending itself while the machine tries to break the foam down, so a wash can run half an hour or more over time. Nothing is being damaged. The sensible move is to stop, run empty rinses until the foam is gone, and then carry on with a much smaller dose." },
+    { "q": "Why does my Kenmore show a Whirlpool code?", "a": "Because Whirlpool built it. Kenmore is a Sears badge rather than a factory, and model numbers starting 110 are Whirlpool machines with Kenmore trim. LG-built Kenmores, with 796 model numbers, display Sud or SUDS for the same situation, which is a useful way to confirm which machine you have." },
+    { "q": "I already cut the detergent and 5D keeps coming back. Why?", "a": "Residue already in the machine keeps foaming on plain water, and it takes several empty rinses to clear rather than one. Hot rinses work much faster than cold. If you have run four or five and still see no foam at all while 5D persists, the machine is reporting suds it cannot see, which is a level sensing fault instead." },
+    { "q": "Is 5D related to the F21 drain code?", "a": "Closely. Foam does not pump like water, so a sudsing machine often times out on the drain and throws F21 as well, and a partly blocked drain keeps the foam in the machine and causes more 5D. When both appear, clear the suds first with empty rinses, then clean the pump filter, and the pair usually go together." },
+    { "q": "Does fabric softener cause 5D?", "a": "It can contribute. Softener leaves a film in the drum and the dispenser that holds detergent residue and foams on later cycles, particularly if the dispenser is not rinsing properly. If you get repeated suds codes, stop the softener for a few weeks, clean the drawer and its housing, and see whether the pattern changes." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "Why foam stops a Kenmore mid-cycle and shows 5D",
+    "labels": {
+      "display": "5D",
+      "c1": "Pump cannot move foam",
+      "c2": "Filter clogged keeps suds in",
+      "c3": "Run empty rinses, no detergent",
+      "c4": "One tablespoon of HE liquid"
+    }
+  },
+  "sources": [
+    { "title": "Whirlpool washer excess suds fault code guidance", "publisher": "Whirlpool service literature for the equivalent Duet, Cabrio and Oasis models", "url": null },
+    { "title": "Kenmore high efficiency washer detergent use and suds codes", "publisher": "Kenmore use and care guide supplied with the washer", "url": null },
+    { "title": "Tech sheet inside the machine, suds detection and related fault codes", "publisher": "Whirlpool service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on repeat suds codes, detergent dosing and false suds from level sensors", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["Sd", "SUD", "F21", "F35", "F9 E1", "OE"]
+}

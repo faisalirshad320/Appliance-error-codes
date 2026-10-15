@@ -1,0 +1,130 @@
+{
+  "title": "Frigidaire Oven F11 Error Code: Causes and Fix",
+  "meta_description": "F11 on a Frigidaire oven means the control reads a keypad button as stuck down and shuts the oven off. Here is how to find which key.",
+  "h1": "Frigidaire oven F11 error code: what it means and how to fix it",
+  "answer": "F11 means the control has seen one of the keypad buttons held down for longer than a real press, so it treats the key as shorted and cancels everything the oven was doing. The logic is sound: a stuck key could switch an oven on by itself, so the control refuses to run. Most of the time the touch panel membrane has failed or moisture has worked its way behind it. The fastest way to tell a real fault from a one-off is to kill power at the breaker for five minutes, because if F11 returns the moment power comes back with nobody touching the panel, the fault is in the keypad or the control itself.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to test, 1 to 2 hours to replace a panel",
+  "cost_estimate": { "diy": "$0 to $180", "technician": "$180 to $450" },
+  "safety_warning": "The rear of an electric Frigidaire range carries 240 volts at the terminal block whether or not the oven is switched on at the panel, and the control board behind the fascia is live. Switch off the double breaker before any panel comes off and confirm the oven is dead before putting your hands in. On a gas range the burners, gas valve and igniter circuit are licensed trade work.",
+  "causes": [
+    {
+      "cause": "The keypad membrane has failed",
+      "frequency": "most cases",
+      "confirm": "F11 returns within seconds of power being restored with nobody near the panel, and no amount of cleaning changes it. These membranes are a printed circuit under a plastic overlay and they fail from heat and age, which is why the fault appears on ranges that have had years of self-clean cycles."
+    },
+    {
+      "cause": "Moisture, grease or a spill behind the touch panel",
+      "frequency": "most cases",
+      "confirm": "The code appeared after cooking something that boiled over, after the range was cleaned with a wet cloth, or in a kitchen that had steam in it. Look for a stain or a bubble under the overlay. This one sometimes clears on its own once the panel dries out, which is worth knowing before you buy anything."
+    },
+    {
+      "cause": "Something is physically resting on the panel",
+      "frequency": "common",
+      "confirm": "A pan handle, a cookbook, a dish towel or a child leaning on the fascia will hold a key down just as effectively as a fault will. Check this before anything else, because it costs nothing and it accounts for a fair share of the F11s that clear with a power cycle and never return."
+    },
+    {
+      "cause": "The overlay has lifted or warped near a key",
+      "frequency": "common",
+      "confirm": "Run a fingernail around the edge of the keys. A corner that has peeled from the fascia, or a bulge where the adhesive has let go with heat, keeps pressure on the switch underneath. Common on ranges where the panel sits directly above the oven door and takes the full blast of escaping heat."
+    },
+    {
+      "cause": "The control board is misreading a healthy keypad",
+      "frequency": "occasional",
+      "confirm": "The keypad has been replaced and F11 came straight back, or the panel is visibly perfect and dry. The board reads the keypad through a ribbon connector, and a bad input on the board looks exactly like a shorted key from the outside. There is no way to tell these apart without swapping one."
+    },
+    {
+      "cause": "The ribbon cable or its connector at the board",
+      "frequency": "occasional",
+      "confirm": "With the breaker off and the rear or top panel removed, look at the flat ribbon running from the touch panel to the control. A connector not fully seated, or a ribbon with a heat-browned patch where it has rubbed on a bracket, gives the same symptom and is far cheaper than either part."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press Cancel, then look at what is touching the panel",
+      "detail": "Press Cancel or Clear first, since an F11 that was triggered by a genuine long press will clear there and then. Then look along the whole fascia for a pan handle, a towel, a cookbook or anything leaning against the keys. Move it and try again before you assume the panel is broken.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the breaker for five minutes",
+      "detail": "Switch the range off at the double breaker in the panel, not at the oven's own controls, and leave it off for a full five minutes so the control fully discharges. Turning the knob to off is not the same thing and will not reset the board. Then switch the breaker back on and watch the display.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Watch what happens in the first thirty seconds after power-up",
+      "detail": "This is the test that tells you the most. Stand back from the range and touch nothing. If the display comes up normally and stays clear, the F11 was a one-off and you can carry on using the oven. If F11 reappears within seconds with nobody near the panel, the fault is live and sits in the keypad, the ribbon or the control board.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the face of the panel and let it dry",
+      "detail": "Wipe the overlay with a barely damp cloth and then dry it thoroughly, paying attention to the seams around each key where grease collects. If the code appeared after a boil-over or a wet clean, leave the range off at the breaker overnight in a dry room and try again. Moisture-driven F11s genuinely do clear this way.",
+      "minutes": 12,
+      "tools": "Soft cloth",
+      "warning": null
+    },
+    {
+      "name": "Check the overlay for lifting or bubbling",
+      "detail": "Run a fingernail gently around the perimeter of each key and along the edge of the panel. You are feeling for a corner that has peeled away from the fascia or a raised blister where heat has broken the adhesive down. Either one holds a switch closed. If you find one, the touch panel needs replacing rather than gluing.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect the ribbon connector at the control board",
+      "detail": "Switch the breaker off. Take the rear access panel off on a freestanding range, or the trim above the door on a wall oven, to reach the back of the fascia. Find the flat ribbon running from the touch panel into the control and check it is fully seated and square in its socket, with no browned or creased section where it crosses a bracket.",
+      "minutes": 25,
+      "tools": "Nut driver or Phillips screwdriver, flashlight",
+      "warning": "Breaker off first. There is 240 volts at the terminal block behind an electric range even with the oven switched off."
+    },
+    {
+      "name": "Find out whether your model has a separate keypad",
+      "detail": "Before ordering anything, look up your full model number on a parts site and see whether the touch panel and the control board are listed as separate parts or as one assembly. Frigidaire does both across the range. Buying a keypad for a model where it only comes bonded to the board wastes a week and a restocking fee.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F11 comes back within seconds of a breaker reset with nobody touching the panel, you are down to three things and they are easy to put in order. First, rule out the free ones properly: nothing resting on the fascia, no lifted corner on the overlay, no moisture behind it, and the ribbon connector fully seated at the board. The moisture case deserves patience rather than money, so if there has been any steam or a spill, give it a night off at the breaker in a dry room before spending anything. Second, work out which part your model actually uses. On some Frigidaire ranges the touch panel and the electronic oven control are separate parts, and on others they come as a single bonded assembly, so look up your full model number on a parts site before you order. Third, understand that from the outside a failed membrane and a control board with a bad keypad input look identical. There is no measurement you can take that separates them, which is why technicians work by substitution. The sensible order is the cheaper of the two parts first if your model splits them, and the combined assembly if it does not. Weigh that against the range: a control assembly on a Frigidaire range is often well over a hundred dollars, and on an older range that has already had other faults, that is the point to ask whether the oven is worth it. One thing not to do: do not keep resetting the breaker and using the oven between F11s. A control that intermittently reads a key as pressed is a control that may act on a key you did not press, and an oven that can switch itself on is not a fault to live with.",
+  "reset_procedure": "Switch the range off at the double breaker in the consumer panel, leave it for a full five minutes, then switch it back on. Turning the oven off at its own controls does not reset the board, because the control stays powered. If F11 clears and does not return over the next few days, treat it as a one-off; if it returns immediately on power-up, the fault is live.",
+  "model_notes": "Frigidaire F-codes group by circuit rather than by symptom: the F1x codes point at the control and the user interface, F3x at the oven temperature probe and F9x at the door latch motor. F11 sits firmly in the control group. The part names vary across the range, with the control variously called the EOC, the electronic oven control or the oven control board, and on some models the touch panel is a separate part while on others it is bonded to the board. Kenmore ranges and wall ovens with a model number starting 790 are built by Frigidaire and show the same F-codes, so this page applies to those too.",
+  "parts": [
+    { "name": "Touch panel or keypad membrane", "cost": "$60 to $180", "difficulty": "moderate", "note": "Only available separately on some models; check your model number first" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "hard", "note": "On some models the keypad comes bonded to it as one assembly" },
+    { "name": "Keypad ribbon cable", "cost": "$20 to $50", "difficulty": "moderate", "note": "Worth checking before either of the above; often just unseated rather than faulty" }
+  ],
+  "when_to_call": "Call someone if F11 returns instantly after a breaker reset and you are not comfortable taking the back panel off a range that has 240 volts at its terminal block. Call sooner if the oven has done anything by itself, such as starting to heat or entering self-clean without being asked, because a control acting on phantom key presses is a fault to get out of service rather than work around. Before you book anything, get the full model number off the tag inside the oven door frame and ask whether the keypad is available separately, because that single question changes the quote substantially. On a gas range, the F11 circuit itself is electrical and the same advice applies, but leave anything on the gas side to a licensed technician.",
+  "faqs": [
+    { "q": "What does F11 mean on a Frigidaire oven?", "a": "The control has read one of the keypad buttons as held down for longer than a real press, so it treats the key as shorted and cancels the oven. It is a safety behavior rather than a glitch, because a stuck key could otherwise turn the oven on by itself. The cause is usually the touch panel membrane or moisture behind it." },
+    { "q": "Can I still use the oven with an F11 code?", "a": "No, and it is one of the codes worth taking seriously. The control cancels oven activity as soon as it sees the fault, so it will not cook reliably anyway. More to the point, a control that reads key presses that did not happen might act on one, and an oven that can start itself is not something to live with while you decide." },
+    { "q": "Will unplugging the oven fix F11?", "a": "It will clear the code, which is not the same as fixing it. Cut power at the double breaker for five minutes, then watch the display. If F11 stays away for days, it was a one-off, often something leaning on the panel. If it reappears within seconds of power-up with nobody near the keypad, the fault is live." },
+    { "q": "Which key is stuck? The display does not say.", "a": "Frigidaire controls do not name the key on an F11, which is genuinely unhelpful. Work by inspection instead: look for a lifted corner on the overlay, a blister where heat has broken the adhesive, or a stain from a spill. Press each key in turn and feel for one with a different action from the others." },
+    { "q": "Do I need a new keypad or a new control board?", "a": "From outside the oven they look identical, which is why technicians work by substitution. Check your model number on a parts site first: some Frigidaire ranges list the touch panel separately and some bond it to the control as one assembly. Where they are separate, try the cheaper keypad first." },
+    { "q": "Why did F11 appear suddenly after years with no trouble?", "a": "Keypad membranes fail from accumulated heat rather than from any single event, so the failure looks sudden after a long slow decline. Self-clean cycles are the hardest thing a control panel endures. The other common trigger is moisture, which is why the code often shows up the day after a boil-over or a wet clean of the fascia." },
+    { "q": "Is an F11 repair worth it on an older range?", "a": "It depends entirely on which part your model needs. A separate keypad is usually worth fitting. A bonded control and keypad assembly on a range that is already ten years old and has had other faults often costs enough that you are part way to a new range. Get the part price before you book labor." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The keypad circuit behind an F11, from overlay to control board",
+    "labels": {
+      "display": "F11",
+      "c1": "Breaker off before any panel",
+      "c2": "Touch panel membrane under the overlay",
+      "c3": "Reseat the keypad ribbon connector",
+      "c4": "Control board reads the keypad here"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Newer Frigidaire range fault codes reference", "publisher": "ApplianceAid technician reference", "url": null },
+    { "title": "Frigidaire self-cleaning range error codes", "publisher": "Sears PartsDirect repair guides", "url": null },
+    { "title": "Field reports on F11 keypad and control board substitution", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F10", "F16", "F31", "F050", "F13"]
+}

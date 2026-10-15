@@ -1,0 +1,193 @@
+{
+  "title": "Frigidaire Refrigerator D1 SP Code: What It Means",
+  "meta_description": "D1 SP on a Frigidaire refrigerator is two codes alternating: a defrost sensor fault and a dispenser flap fault. Check the flap first, it is free.",
+  "h1": "Frigidaire refrigerator D1 SP: two codes sharing one display",
+  "answer": "D1 SP on a Frigidaire refrigerator is almost certainly two separate codes alternating in the same display rather than one four-character code. D1 is the defrost sensor circuit, which the main board reads as open or shorted, and SP is the dispenser chute flapper, which the control cannot confirm has closed. Start with the chute flap, because it is visible, usually just iced up, and costs nothing to check. If the flap moves freely and D1 SP stays, the defrost sensor behind the freezer back panel is the part to look at.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to check the flap, 2 hours for the sensor",
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$150 to $400"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Ice is holding the dispenser chute flap open",
+      "frequency": "most cases",
+      "confirm": "Open the ice chute door on the dispenser with a finger and let it go. It should snap shut flat against its seal. A flap that hangs part open, moves stiffly, or has a rim of clear ice around its edge is the SP half of the code, and you can see it without any tools."
+    },
+    {
+      "cause": "The defrost sensor circuit is open or shorted",
+      "frequency": "most cases",
+      "confirm": "This is the D1 half. The tell is frost: pull the freezer back panel and look at the evaporator coil. A coil buried in a solid block of frost, rather than lightly furred, means defrost is not running, and the sensor the board uses to control it is the first suspect."
+    },
+    {
+      "cause": "The sensor's harness connector has corroded or worked loose",
+      "frequency": "common",
+      "confirm": "With the freezer back panel off and the unit unplugged, find the small two-wire sensor clipped to the evaporator coil and follow its lead to its plug. Green crust on the pins, a pin pushed back in its housing, or a wire pulled out of the crimp gives the same open circuit a dead sensor does, and costs nothing to fix."
+    },
+    {
+      "cause": "The chute flap gasket or its hinge spring has failed",
+      "frequency": "common",
+      "confirm": "The flap is free of ice but still does not seat. Look at the foam or rubber strip around its edge for a piece that has torn away or compressed flat, and push the flap open and release it a few times to see whether the spring still snaps it back or just lets it drift."
+    },
+    {
+      "cause": "Humid air is condensing and refreezing in the chute",
+      "frequency": "occasional",
+      "confirm": "The ice comes straight back within a day or two of you clearing it. Common in humid kitchens and in garage refrigerators in summer. The flap and the spring are both fine; the chute is making new ice faster than the dispenser can clear it."
+    },
+    {
+      "cause": "The main control board is misreading a good circuit",
+      "frequency": "rare",
+      "confirm": "The flap seats properly, the sensor and its connector check out, and the codes still cycle. This is a diagnosis of exclusion and should be the last thing you accept, not the first, because the board is the most expensive part in the cabinet."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work the dispenser chute flap by hand",
+      "detail": "Reach up into the ice dispenser opening, push the flap inward with a finger, and let it go. It should swing back and sit flat against its seal with a soft tap. If it is stiff, hangs part open, or has ice around the hinge, you have found the SP half of the code. Do this before anything else; it takes a minute and resolves a good share of these.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Melt the ice out of the chute",
+      "detail": "Unplug the refrigerator or switch the icemaker off. Pour warm, not boiling, water over the iced area with a cup, or hold a hairdryer on a low setting six inches back and keep it moving. Never chip at it with a knife or a screwdriver, because the flap and its seal are thin plastic and foam and they puncture easily. Dry the chute with a cloth when the ice is gone so it does not immediately refreeze.",
+      "minutes": 20,
+      "tools": "Cup of warm water, hairdryer, cloth",
+      "warning": "No boiling water and no sharp tools. Unplug the unit before using a hairdryer anywhere near the dispenser."
+    },
+    {
+      "name": "Check the flap seal and spring",
+      "detail": "With the ice gone, push the flap open and release it five or six times. It should snap back each time under its own spring. Run a finger around the foam or rubber strip on its edge, feeling for a torn section or a part that has compressed flat and no longer touches. A flap that drifts shut slowly instead of snapping is a spring or hinge problem rather than ice.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the refrigerator",
+      "detail": "Unplug the unit at the wall, or switch off its breaker, and leave it five full minutes before restoring power. The board holds its stored codes, so a flap you have just freed can keep showing SP until the control is reset. Watch the display for a few minutes afterward to see whether one code, both, or neither comes back, which tells you what is left to chase.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look at the evaporator coil behind the freezer panel",
+      "detail": "Unplug the refrigerator. Empty the freezer and take out the shelves and the icemaker if it blocks access, then remove the screws holding the rear interior panel, usually four to six Phillips screws around its edge, and ease the panel out. Behind it is the evaporator coil. Light, even frost is normal. A solid white block of ice filling the fins means the defrost system is not running, which is the D1 half of the code.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Unplug the refrigerator before removing the rear freezer panel. There is a defrost heater behind it."
+    },
+    {
+      "name": "Test the defrost sensor without a reference value",
+      "detail": "With the unit still unplugged, find the small sensor clipped to the evaporator tubing and unplug its connector. Measure resistance across the two pins while it is cold, write the number down, then warm the sensor in your closed hand for two minutes and measure again. A healthy sensor changes smoothly and substantially as it warms. A reading that does not move, or an open circuit, condemns it, and this works without knowing the correct figure for your model.",
+      "minutes": 20,
+      "tools": "Multimeter",
+      "warning": "Unplug the refrigerator. Do not test any component with the unit powered."
+    },
+    {
+      "name": "Defrost the whole cabinet if the coil was iced",
+      "detail": "If you found a block of ice, the fastest honest fix is to empty the unit, prop both doors open and leave it unplugged for 24 hours with towels down to catch the melt. That clears the ice so the refrigerator cools properly again while you sort the sensor out. It is a stopgap rather than a repair; if the defrost circuit is faulty the ice comes back within a few weeks.",
+      "minutes": 60,
+      "tools": "Towels, shallow trays",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the chute flap snaps shut cleanly and the codes still alternate, you are down to the defrost side, and the order goes like this. First, go back to the connector rather than the sensor. The plug on a defrost sensor sits in the coldest, wettest part of the cabinet and corrodes, and a pushed-back pin reads exactly like a failed part on a meter. Unplug it, inspect the pins under a flashlight, clean any green crust off, and push it firmly home. Second, do the cold-then-warm resistance test rather than looking for a published figure. Measure the sensor cold, warm it in your hand for two minutes, and measure again: a healthy sensor's resistance moves clearly and smoothly, and one that sits dead still or reads open circuit is finished. That test tells you what you need without a reference value, which matters because the correct figure differs by model and the ones printed on repair blogs are frequently wrong. Third, if the sensor is good, look at the defrost heater itself and the bi-metal cut-out beside it, since a dead heater produces exactly the same solid frost pattern. Fourth, consider that you may have two unrelated problems that happen to be displaying together, because that is what this code usually is. A frozen chute flap and a failing defrost sensor have nothing to do with each other beyond sharing a display, so fixing one and finding the other still there is the expected outcome, not a sign you got it wrong. Fifth, if the coil was solid with ice, remember that clearing the ice makes the refrigerator cold again for a few weeks regardless of what caused it, so do not take the return of cooling as proof you fixed the fault. Finally, on a unit over about ten years old, price a control board replacement against a new refrigerator before agreeing to it, and ask the technician what they actually measured rather than accepting the board as a first answer.",
+  "reset_procedure": "Unplug the refrigerator or switch off its breaker for five full minutes, then restore power. The board stores these codes, so a chute flap you have just freed of ice will keep showing SP until it is reset. Watch the display for several minutes afterward. If only one of the two codes returns, you have fixed half the problem, which is useful information rather than a failure.",
+  "model_notes": "This code is poorly documented and you should know that before you cross-check it elsewhere. No Frigidaire source describes D1 SP as a single code. The most consistent reading across repair sources is that D1 is the defrost sensor circuit code and SP is the chute flapper code, displayed one after the other, and that is how this page treats it. At least one guide instead reads the whole string as a shorted defrost thermistor on its own. The two readings point at overlapping hardware, so the diagnostic order here works either way, but if your model's service documentation says something different, believe your service documentation.",
+  "parts": [
+    {
+      "name": "Defrost sensor or thermistor",
+      "cost": "$15 to $50",
+      "difficulty": "moderate",
+      "note": "Behind the freezer rear panel; clipped to the evaporator tubing"
+    },
+    {
+      "name": "Dispenser chute flap assembly",
+      "cost": "$30 to $90",
+      "difficulty": "moderate",
+      "note": "Only when the hinge spring or the seal has failed, not when it is just iced"
+    },
+    {
+      "name": "Defrost heater",
+      "cost": "$40 to $110",
+      "difficulty": "hard",
+      "note": "Same access as the sensor; suspect it when the coil is solid with frost"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Rule out both sensors and both connectors first"
+    }
+  ],
+  "when_to_call": "Call a technician if the evaporator coil is buried in frost and the sensor, its connector and the defrost heater all check out, because the next step is diagnosing the defrost control circuit on a live machine. Call sooner if you are not comfortable removing the freezer rear panel, since there is a defrost heater immediately behind it and the panel has to come off with the unit unplugged. If the refrigerator has also stopped cooling properly and clearing the ice did not bring it back, say so when you book the visit, because that changes the diagnosis from a sensor fault to a cooling fault and may need sealed system work, which is licensed technician territory.",
+  "faqs": [
+    {
+      "q": "What does D1 SP mean on a Frigidaire refrigerator?",
+      "a": "It is most likely two codes alternating rather than one. D1 is the defrost sensor circuit reading open or shorted, and SP is the dispenser chute flapper not confirming closed. Check the chute flap first because it is visible and usually just iced up, then move to the defrost sensor behind the freezer rear panel if the code stays."
+    },
+    {
+      "q": "Can I still use the refrigerator with D1 SP showing?",
+      "a": "Yes, in the short term, as long as it is still cooling properly. Neither half of this code is a safety problem. The risk is the defrost side: if frost is building on the evaporator coil, cooling will get steadily worse over a few weeks until the fresh food section goes warm, so do not leave it indefinitely."
+    },
+    {
+      "q": "Why does ice keep forming in the dispenser chute?",
+      "a": "Humid room air reaches the chute and condenses, then freezes against the cold surfaces. It is worse in humid kitchens and in garage units during summer. A flap that no longer seals makes it much worse, because it lets warm air in continuously. Clear the ice with warm water, never a sharp tool, and check the flap seal."
+    },
+    {
+      "q": "How do I test a defrost sensor without knowing the right resistance?",
+      "a": "Measure it cold, then warm it in your closed hand for two minutes and measure again. A healthy sensor's resistance changes clearly and smoothly between the two readings. One that does not move, or reads open circuit, has failed. This works without a reference value, which matters because the correct figure varies by model."
+    },
+    {
+      "q": "Why did D1 SP appear suddenly?",
+      "a": "The two halves usually appear for different reasons at different times and happen to be displaying together. Chute ice builds over days of humid weather and then bridges the flap. A defrost sensor fails electrically with no warning. Seeing both at once is coincidence rather than one problem causing the other."
+    },
+    {
+      "q": "Will defrosting the freezer fix this?",
+      "a": "It will restore cooling for a few weeks, but it is not a repair. Emptying the unit and leaving it unplugged with the doors open for 24 hours clears the ice off the evaporator, which makes the refrigerator work properly again. If the defrost sensor or heater is actually faulty, the ice rebuilds and you are back where you started."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Two unrelated faults sharing one display: chute flap and defrost sensor",
+    "labels": {
+      "display": "D1 SP",
+      "c1": "Dispenser chute flap seats flat",
+      "c2": "Melt chute ice with warm water",
+      "c3": "Evaporator coil behind the panel",
+      "c4": "Sensor cold, then warm in hand"
+    }
+  },
+  "sources": [
+    {
+      "title": "Frigidaire refrigerator troubleshooting tables listing D1 and SP separately",
+      "publisher": "Appliance parts retailer service documentation",
+      "url": null
+    },
+    {
+      "title": "Defrost sensor circuit code descriptions for Frigidaire refrigerators",
+      "publisher": "Appliance repair trade reference listings",
+      "url": null
+    },
+    {
+      "title": "Conflicting third-party readings of the D1 SP string",
+      "publisher": "Appliance repair guides, cited for the disagreement",
+      "url": null
+    },
+    {
+      "title": "Field reports on chute flap icing and defrost sensor testing",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "SY EF",
+    "SY CF",
+    "H1",
+    "d2",
+    "SP"
+  ]
+}

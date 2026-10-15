@@ -1,0 +1,137 @@
+{
+  "title": "LG Washer LE Error Code: Locked Motor Causes and Fix",
+  "meta_description": "LE on an LG washer means the motor could not turn the drum. Usually an overloaded drum or a failed rotor position sensor. Here is how to tell which it is.",
+  "h1": "LG washer LE error code: what it means and how to fix it",
+  "answer": "LE means the control told the motor to turn the drum and the drum did not move the way it was supposed to, so the washer shut the motor down to protect it. The cheapest and most common reason is too much in the drum, especially a load of towels or bedding that has soaked up its own weight in water. Take half of it out, unplug the machine for ten minutes to let the motor's thermal protection reset, and run a spin. If LE comes straight back on a half-empty or empty drum, the usual culprit is the rotor position sensor on the back of the motor.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$180 to $450" },
+  "safety_warning": "Anything past checking the load means working inside the cabinet. Unplug the washer at the wall before removing any panel, and do not run the machine with the back off unless you know exactly what you are doing: the stator carries mains-derived voltage and the rotor spins without warning.",
+  "causes": [
+    {
+      "cause": "The drum is overloaded",
+      "frequency": "most cases",
+      "confirm": "Open the door. If the drum is packed solid, or full of wet towels, a comforter or a rug, the motor is being asked to turn more weight than it can start. Wet laundry weighs roughly three times what it did dry, which is why a load that looked reasonable going in becomes a problem at the spin."
+    },
+    {
+      "cause": "Something is jammed between the drum and the outer tub",
+      "frequency": "common",
+      "confirm": "Reach in and turn the drum by hand with the machine unplugged. It should spin freely for several turns. A grinding noise, a hard stop, or a scraping at one point in the rotation means an underwire, a coin or a sock has worked through a drum hole and is wedged behind it."
+    },
+    {
+      "cause": "The motor has tripped its thermal protection",
+      "frequency": "common",
+      "confirm": "LE appeared after several heavy loads run back to back, or after the machine struggled and then stopped. Unplug it and leave it half an hour. If it then runs normally on a light load, the motor overheated rather than failed, and your loading habits are the real fix."
+    },
+    {
+      "cause": "The rotor position sensor has failed",
+      "frequency": "common",
+      "confirm": "LE on a light load or an empty drum, sometimes alternating with UE, and the drum turns freely by hand. The sensor tells the board where the rotor is; without that the board cannot drive the motor and reads it as locked. This is the most common genuine part failure behind LE."
+    },
+    {
+      "cause": "Loose rotor bolt, or a connector off at the stator",
+      "frequency": "occasional",
+      "confirm": "A knocking or rattling from the back of the machine before the code appeared, or a visible gap where the rotor sits proud of the stator. With the back panel off, a connector hanging loose or a chewed harness is obvious once you look."
+    },
+    {
+      "cause": "Failed stator winding or motor",
+      "frequency": "occasional",
+      "confirm": "A burnt smell, visible scorching on the stator windings, or a motor that reads a shorted or open winding on a multimeter. On a direct drive LG this is the motor itself and it is a significant part."
+    },
+    {
+      "cause": "Control board or motor drive fault",
+      "frequency": "rare",
+      "confirm": "Sensor, stator and wiring all test correctly and the drum turns freely, but the motor never so much as twitches. Look for scorched tracks or a bulged capacitor on the board before condemning it, and treat this as the last thing on the list rather than the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Take half the load out",
+      "detail": "Open the door and pull out enough wet laundry to leave the drum no more than half full. Weigh it in your hands: a soaked comforter or a load of bath towels can be two or three times its dry weight. Close the door and run Spin Only. If it spins, the machine was never faulty and you were asking too much of it.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug the machine for ten minutes",
+      "detail": "Pull the plug at the wall rather than pressing Power, and leave it for at least ten minutes. This does two things: it clears the stored fault from the control, and it gives the motor's thermal cut-out time to cool and reset. A machine that has been working hard may need half an hour rather than ten minutes before it will run again.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Turn the drum by hand",
+      "detail": "With the washer unplugged and the drum empty, spin the drum several full turns in both directions. It should turn smoothly with a little resistance from the motor. Listen for scraping or a click at the same point each revolution and feel for a hard stop. Anything caught between the drum and the outer tub will announce itself here, and running the machine with it in there will cut the drum or hole the tub.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Machine unplugged. Do not put your hand between the drum and the door seal while the drum is moving."
+    },
+    {
+      "name": "Check the drum holes and the gasket for trapped objects",
+      "detail": "Shine a torch through the drum holes while turning the drum slowly, and peel the door gasket back at the bottom with a finger. Coins, hairpins, bra underwires and small screws all end up in that gap. A wire that has gone through a drum hole can usually be pulled out with needle-nose pliers from inside the drum. If you can see it but cannot reach it, stop here and get someone to take the front off.",
+      "minutes": 15,
+      "tools": "Torch, needle-nose pliers",
+      "warning": "Machine unplugged. Underwires and broken metal in the gasket are sharp."
+    },
+    {
+      "name": "Run a spin with an empty drum",
+      "detail": "Plug the machine back in, close the door and run Spin Only with nothing inside. An empty drum that reaches full speed and holds it tells you the motor, the sensor and the drive are all working, and the fault was the load. An empty drum that throws LE within a minute means a real fault and takes you inside the cabinet.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect the motor connections at the back",
+      "detail": "Unplug at the wall. Take the rear access panel off, usually six to ten Phillips screws around its edge. You are looking at the rotor, a large shallow metal dish, and the stator behind it. Check that the big center bolt holding the rotor is tight, that both connectors on the stator and the small sensor plug are pushed fully home, and that no wire has rubbed through on the cabinet. Push each connector on until it clicks.",
+      "minutes": 25,
+      "tools": "Phillips screwdriver, socket set",
+      "warning": "Unplug at the wall before removing the rear panel and leave it unplugged while you work. Do not run the machine with the panel off."
+    },
+    {
+      "name": "Replace the rotor position sensor",
+      "detail": "With the machine unplugged and the rear panel off, undo the center rotor bolt and lift the rotor off the shaft; it is heavier than it looks and the magnets grab. The sensor is a small plastic block clipped to the stator with one connector. Unclip it, fit the new one, reseat the rotor squarely on the splines and torque the center bolt to the figure on the service sheet inside the machine rather than guessing. Refit the panel before you plug the washer back in.",
+      "minutes": 60,
+      "tools": "Socket set, torque wrench, Phillips screwdriver",
+      "warning": "Unplug at the wall. The rotor magnets are strong enough to trap fingers and will wipe cards and watches."
+    }
+  ],
+  "still_showing": "If the drum is empty, turns freely by hand, and LE still appears within a minute of starting a spin, you have a genuine electrical fault and the order of work goes cheapest first. Start with the connections. Unplug the machine, take the rear panel off, and work along the harness from the control board to the motor looking for a connector that is half seated, a pin pushed back in its housing, green corrosion, or a wire chafed through where the harness crosses a bracket. This costs nothing and finds a surprising number of LE faults, particularly on machines in damp garages. Next, suspect the rotor position sensor. It is the part that fails most often behind a genuine LE, it runs about $25 to $60, and swapping it means pulling the rotor, which is an hour's work with a socket set. A good sign that it is the sensor rather than the motor is LE that comes and goes, or LE that alternates with UE on loads that are obviously balanced. If a new sensor does not fix it, test the stator windings with a multimeter: you are looking for a winding that reads open circuit or shorted to the stator body, and the correct resistance for your model is on the service sheet folded inside the machine, not on a forum. A failed stator is a few hundred dollars in parts on most LG direct drive machines. Only when the drum turns freely, the sensor is new, the harness is sound and the stator reads correctly does the control board become the answer, and at that point you are looking at a bill in the region of a few hundred dollars fitted. On a machine over about ten years old, that is the moment to price a replacement before you price the repair.",
+  "reset_procedure": "Unplug the washer at the wall for at least ten minutes rather than pressing Power. Ten minutes clears the stored fault and gives the motor's thermal protection time to cool; if the machine has been running heavy loads back to back, give it half an hour instead. Plug it back in and test with Spin Only on an empty drum, which tells you in one minute whether anything has changed.",
+  "model_notes": "On LG direct drive machines, front load and top load alike, the motor is bolted straight to the back of the tub with no belt, so LE always points at the motor, its sensor or its wiring rather than at a slipping belt. Some LG models show LE1 instead, which is a related motor-side fault, and the first checks are the same: empty the drum, confirm it turns freely, then look at the motor connections. On LG refrigerators and dryers the same two letters mean something different, so make sure the code you are reading is from the washer.",
+  "parts": [
+    { "name": "Rotor position sensor", "cost": "$25 to $60", "difficulty": "moderate", "note": "The most common genuine cause of a repeat LE" },
+    { "name": "Rotor bolt and washer", "cost": "$8 to $20", "difficulty": "easy", "note": "Replace if the old one has been overtightened or the threads are damaged" },
+    { "name": "Motor stator assembly", "cost": "$120 to $300", "difficulty": "hard", "note": "Only after the sensor and harness are ruled out" },
+    { "name": "Motor wiring harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "For a harness chafed through against the cabinet" },
+    { "name": "Main control board", "cost": "$150 to $380", "difficulty": "technician only", "note": "Last resort; check for scorching before buying" }
+  ],
+  "when_to_call": "Call a technician if the drum will not turn freely by hand and you cannot see what is blocking it, because getting at that means taking the front of the machine off and dropping the door seal, and doing it badly turns a cheap job into a tub replacement. Call as well if you can smell burning, see scorching on the stator windings, or the machine trips the breaker when you start it, since all three mean a live electrical fault and none of them should be tested with the machine running. If you are quoted a stator or a control board on a machine over ten years old, get the quote in writing and compare it against a new washer before agreeing, because either part plus labour can reach half the price of a replacement.",
+  "faqs": [
+    { "q": "Can I still use my LG washer with an LE code?", "a": "No. The motor is being shut down to protect it, so the drum will not turn and nothing will wash or spin. Carrying on by restarting repeatedly is actively a bad idea: if something is jammed between the drum and the tub, every attempt grinds it further in, and if the motor is overheating you are cooking the windings." },
+    { "q": "Does LE always mean the motor is broken?", "a": "No. LE means the motor could not turn the drum as commanded, which is far more often about what is in the drum than about the motor itself. An overloaded drum, a jammed object or a tripped thermal cut-out all produce LE on a perfectly healthy motor. Only treat it as a part failure after an empty drum has also failed to spin." },
+    { "q": "What is the rotor position sensor and why does it cause LE?", "a": "It is a small sensor on the back of the motor that tells the control board where the rotor is at any instant. A direct drive motor cannot be driven without that information, so when the sensor fails the board commands the motor, sees no proper movement, and logs a locked motor. It is a cheap part that needs the rotor pulled to reach." },
+    { "q": "Why does my LG washer show LE on heavy loads but not light ones?", "a": "Because the motor is close to its limit and something is eating the margin. That is usually just overloading, since wet towels and bedding weigh roughly three times their dry weight. It can also be an early sensor fault or a drum that is binding slightly. Halve your load sizes and see whether the code goes away entirely." },
+    { "q": "How much does it cost to fix an LE error on an LG washer?", "a": "Nothing if the load was the problem. A rotor position sensor runs about $25 to $60 in parts, or roughly $180 to $300 fitted. A stator or control board is a few hundred dollars once labour is counted, which is the point where the age of the machine matters more than the diagnosis." },
+    { "q": "Can an unbalanced load cause LE instead of UE?", "a": "They overlap. A load heavy enough to be unbalanced is often also heavy enough to stall the motor, and a failing rotor position sensor produces both codes on different cycles. If you see LE and UE alternating on loads that look fine, stop treating it as a loading problem and look at the sensor." },
+    { "q": "Why did LE appear suddenly after years of normal use?", "a": "The two usual triggers are an object finally working its way through a drum hole, and a rotor position sensor reaching the end of its life, neither of which gives any warning. A third is a change in habit, such as starting to wash a heavy comforter at home instead of taking it out, which pushes the motor past what it will start." },
+    { "q": "Is an LE error worth repairing?", "a": "Usually yes if it turns out to be the rotor position sensor or a jammed object, since both are modest jobs on a machine with years left in it. Think harder if the stator or the control board is at fault: on a washer past ten years old either repair can run to half the cost of a new one, and a direct drive motor failure often arrives with other wear." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The drive side of an LG washer and what LE is reporting",
+    "labels": {
+      "display": "LE",
+      "c1": "Drum must turn freely by hand",
+      "c2": "Rotor position sensor on the stator",
+      "c3": "Stator connectors fully seated",
+      "c4": "Motor harness unchafed to the board"
+    }
+  },
+  "sources": [
+    { "title": "LE error code on a washing machine, locked motor", "publisher": "LG support documentation", "url": null },
+    { "title": "LG direct drive washer service literature, motor and rotor position sensor", "publisher": "LG service sheet supplied inside the machine", "url": null },
+    { "title": "Field diagnosis of LE, rotor position sensor testing and replacement", "publisher": "Appliance repair trade forums and parts retailers' repair guides", "url": null }
+  ],
+  "related_codes": ["LE1", "UE", "dE", "OE", "CE", "PF"]
+}

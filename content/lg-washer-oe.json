@@ -1,0 +1,208 @@
+{
+  "title": "LG Washer OE Error Code: Drain Fault Causes and Fix",
+  "meta_description": "OE on an LG washer means it could not drain in the time allowed. Usually a clogged pump filter or a kinked drain hose, and about 30 minutes to fix.",
+  "h1": "LG washer OE error code: what it means and how to fix it",
+  "answer": "OE means your LG washer tried to pump the water out, did not get the tub empty inside the time it allows, and stopped with the water still in it. On a front loader the cause is a clogged drain pump filter more often than everything else put together: coins, hair clips, lint and the occasional baby sock. Open the small access door at the bottom front right, drain the water off through the little tube first, then unscrew the round filter and clear it. If the filter is clean, the drain hose or the standpipe it empties into is the next place to look.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $80",
+    "technician": "$150 to $320"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain pump filter is clogged",
+      "frequency": "most cases",
+      "confirm": "Unscrew the filter at the bottom front of the machine. If it comes out wrapped in gray felt, hair and coins rather than looking like a clean plastic screw, this is it. A filter that has never been cleaned in several years of use is normal and is exactly what causes OE."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or pushed too far into the standpipe",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow the hose. A hose squashed flat behind the machine, or one shoved a foot down the standpipe so the end sits in water, will both stop the pump moving water. The hose should enter the standpipe only far enough to stay put, with an air gap around it."
+    },
+    {
+      "cause": "The standpipe, trap or sink drain is blocked",
+      "frequency": "common",
+      "confirm": "Pull the drain hose out of the standpipe and put it in a bucket, then run a drain cycle. If the machine empties into the bucket happily, the washer is fine and your house drain is blocked. Lint and detergent sludge build a hard gray coating inside a laundry standpipe over years."
+    },
+    {
+      "cause": "Something is jammed in the pump impeller",
+      "frequency": "common",
+      "confirm": "With the filter out, reach into the opening and turn the impeller with a finger. It should spin freely with a slight magnetic notchiness. If it is locked solid or you feel fabric, something has got past the filter. An underwire from a bra is the classic one."
+    },
+    {
+      "cause": "Too many suds",
+      "frequency": "occasional",
+      "confirm": "A thick head of foam visible through the door, or a wash where you used regular detergent instead of HE. A pump cannot move foam, so it spins without shifting anything and the machine times out. You will usually have seen a SUD message earlier in the same cycle."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "occasional",
+      "confirm": "Filter clean, hose clear, impeller free, and on a drain cycle you hear either nothing at all or a hum with no water moving. A pump that is dead electrically is silent; one with a seized motor hums and gets warm."
+    },
+    {
+      "cause": "Water level sensor or control board fault",
+      "frequency": "rare",
+      "confirm": "The tub is visibly empty and the pump is clearly running, but the machine still calls OE. The control is being told there is water left when there is not, usually because the little pressure hose to the level sensor is blocked with sludge or has slipped off."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and get the water out",
+      "detail": "Press Power to stop the machine and unplug it at the wall. Put a shallow baking tray and a pile of towels in front of the machine. Open the small access door at the bottom front right with a coin or a flat screwdriver, pull out the short black tube, hold it over the tray and pull its cap off. A full tub holds several gallons and the tray holds a quart, so plug the tube between trips rather than trying to catch it all.",
+      "minutes": 15,
+      "tools": "Shallow tray, towels, flat screwdriver",
+      "warning": "Unplug the machine first. If the cycle stopped during a hot wash the water will still be hot."
+    },
+    {
+      "name": "Remove and clean the pump filter",
+      "detail": "With the tub drained, turn the large round filter cap anticlockwise and pull it straight out. Expect another cupful of water. Pick out coins, hair, buttons and the gray felt of compacted lint, then rinse the filter under a tap and scrub the threads with an old toothbrush. Shine a torch into the empty housing and clear anything sitting in the bottom before you refit. Screw it back in clockwise until it is firm, with the handle vertical if your model marks a position.",
+      "minutes": 15,
+      "tools": "Torch, old toothbrush",
+      "warning": "A filter that is not fully screwed home will leak the entire wash onto your floor. Run the first cycle with a towel under the door."
+    },
+    {
+      "name": "Turn the pump impeller by hand",
+      "detail": "With the filter still out, put a finger into the opening and feel for the impeller, a small plastic propeller at the back of the housing. Turn it. It should rotate freely with a faint magnetic step to it. If it will not move, work out what is wrapped around it; underwires, hair ties and coins all wedge there. Never do this with the machine plugged in.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": "Machine unplugged. The impeller has sharp edges and anything wedged in it may be a broken underwire."
+    },
+    {
+      "name": "Check the drain hose along its whole length",
+      "detail": "Pull the washer forward and follow the hose from the back of the machine to where it discharges. Straighten any kink, and look for a flat spot where the machine has been pushed back against it. Check that the hose enters the standpipe only a few inches and is not jammed down into the water in the trap, which siphons and confuses the machine. Keep the loop at the back of the machine, which stops the drain from siphoning out mid-cycle.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test the house drain with a bucket",
+      "detail": "Take the drain hose out of the standpipe, put it in a large bucket, and run a Drain and Spin cycle. If the machine pumps into the bucket normally, the washer is working and your standpipe is blocked. Pour a kettle of hot water and a cup of washing soda down the standpipe, leave it half an hour, then flush with hot water. Repeat before you call a plumber.",
+      "minutes": 20,
+      "tools": "Large bucket",
+      "warning": "Hold the hose in the bucket or the pump will shoot it out onto the floor."
+    },
+    {
+      "name": "Run a Drain and Spin and listen",
+      "detail": "Put the filter back, plug the machine in, and start Drain and Spin with nothing in the drum. Put your ear near the bottom front. A healthy pump makes a steady electrical whirr that changes note as it catches water. Silence means the pump is not being energised at all. A hum with no flow means the motor is powered but the rotor is stuck or the pump is airlocked.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a Tub Clean cycle if you have been over-dosing detergent",
+      "detail": "If the drum was full of foam when this started, the machine was choking on suds rather than failing. Clear the tub, run Tub Clean empty with an oxygen-based washer cleaner, and cut your detergent to about a tablespoon of HE liquid for a normal load. Most people use three or four times what an LG actually needs, and the excess never rinses out.",
+      "minutes": 90,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the impeller spins freely, the hose is straight and the machine drains happily into a bucket, the plumbing is ruled out and the problem is in the washer. Work up in cost. First, check the pump's electrical connector: unplug the machine, take the lower front panel or the kick plate off, and look at the two-wire plug on the pump body for corrosion or a pin that has backed out. Damp laundry rooms do this and it costs nothing to fix. Second, measure across the pump motor terminals with a multimeter on ohms. A dead winding reads open circuit and confirms the pump; check the service sheet tucked inside the machine for the figure your model should show, because it varies and guessing it is how people buy parts they did not need. A drain pump runs about $30 to $80 and is a genuinely straightforward swap: a few screws, one connector and two hose clamps, maybe forty minutes. Third, if the pump reads correctly and runs when you start a drain, but the code still appears once the tub is empty, the machine is being told there is water left. Find the thin clear hose running from the bottom of the outer tub up to the water level sensor, pull it off at the sensor end, and blow through it. Sludge in that hose is common on machines that get washed on cold cycles with too much detergent, and clearing it fixes a fault that otherwise looks like a dead control board. Only after all of that is the main board a reasonable suspect, and that is where you are into a few hundred dollars and a conversation about whether the machine is worth it.",
+  "reset_procedure": "Unplug the washer at the wall for a minute, plug it back in, and run Drain and Spin rather than a full cycle so you find out in three minutes instead of an hour. OE clears as soon as the machine completes a drain successfully. If the drum is still full of water when you restart, drain it through the filter tube first, because a machine that starts a cycle with a full tub often just throws the same code again.",
+  "model_notes": "The code is OE, the letter O, not a zero, but on the seven-segment displays LG uses the two are nearly identical, so you will see it written 0E all over the internet. They are the same drain fault. The big practical difference across the range is the filter: LG front loaders all have a user-accessible drain pump filter behind a small door at the bottom front, but most LG top loaders in the WT series do not. On a top loader you cannot clean the filter from the front, so the order of work changes: check the drain hose and standpipe first, then get at the pump from underneath or behind the machine. On some LG models the same fault is logged as E03 or E21 in service mode.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "A few screws, one connector and two hose clamps"
+    },
+    {
+      "name": "Drain pump filter and cap",
+      "cost": "$12 to $30",
+      "difficulty": "easy",
+      "note": "Only if the cap is cracked or the seal is perished and it leaks"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Worth replacing if the old one is kinked permanently or split"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Clear the sludge from its hose before buying one"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and only after the pump and sensor check out"
+    }
+  ],
+  "when_to_call": "Call an appliance technician if the pump filter is clean, the drain hose is clear, and the machine either makes no sound at all on a drain cycle or hums without moving water, and you are not comfortable taking the lower panel off to reach the pump. Call a plumber instead if the bucket test showed the washer draining normally, because the blockage is in your house drain and an appliance engineer will charge you a call-out to tell you that. Stop and deal with it straight away if water is coming out onto the floor rather than just sitting in the drum, and do not keep running cycles hoping it clears; each failed cycle leaves several gallons of dirty water sitting against the door seal.",
+  "faqs": [
+    {
+      "q": "Is 0E the same as OE on an LG washer?",
+      "a": "Yes. It is the letter O for the drain error, but LG's display makes an O and a zero look almost identical, so plenty of owners and plenty of websites write it as 0E. There is no separate zero-E code on LG washers. Everything on this page applies whichever way you read it off the panel."
+    },
+    {
+      "q": "Can I still use my LG washer with an OE code?",
+      "a": "No, not usefully. The machine will not spin with water in the tub, so every cycle ends with soaking clothes and a full drum you have to bail by hand. There is no electrical danger, but leaving several gallons of dirty water sitting in the machine for days makes the door seal smell within a week."
+    },
+    {
+      "q": "How do I drain an LG washer manually?",
+      "a": "Unplug it, open the small access door at the bottom front right, and pull out the short black tube beside the round filter. Hold it over a shallow tray, pull its cap off, and let the water run. The tray will fill several times over, so plug the tube between trips. Only unscrew the round filter once the water has stopped."
+    },
+    {
+      "q": "Why does my LG washer drain but still show OE?",
+      "a": "It is draining too slowly rather than not at all, and the control times out before the tub is empty. A partly clogged filter, a sagging section of drain hose, or a standpipe coated in lint all reduce flow without stopping it. Less often, the water level sensor hose is blocked and the machine cannot tell that the tub has emptied."
+    },
+    {
+      "q": "Can too much detergent cause an OE code?",
+      "a": "Yes. A pump cannot move foam, so a drum full of suds leaves the pump spinning on air while the water stays put. Regular detergent in an HE machine, or too much HE detergent, both do it. Run a Tub Clean cycle and cut down to about a tablespoon of liquid for a normal load."
+    },
+    {
+      "q": "How much does it cost to fix an OE error on an LG washer?",
+      "a": "Nothing in most cases, because cleaning the pump filter fixes it and takes half an hour. If the pump itself has failed, the part runs about $30 to $80 and a technician will charge roughly $150 to $320 including labour. A blocked house drain is a plumber's bill instead, typically more than the appliance repair."
+    },
+    {
+      "q": "Why did OE appear suddenly when the washer was fine yesterday?",
+      "a": "Pump filters clog gradually and then cross a threshold, so a machine goes from fine to failed in one load. The other common trigger is a single object: a coin, a hair tie or a bra underwire getting through to the impeller. Check the filter before assuming anything has broken."
+    },
+    {
+      "q": "Does an OE code mean the drain pump needs replacing?",
+      "a": "Usually not. In most cases the pump is healthy and something is blocking it, either in the filter, in the impeller, or further down the drain. Only replace the pump after you have confirmed the filter is clean, the impeller turns freely, and the machine drains into a bucket no better than it drains into the standpipe."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "The drain path on an LG washer and where OE usually starts",
+    "labels": {
+      "display": "OE",
+      "c1": "Drain tube, empty the tub first",
+      "c2": "Pump filter turns anticlockwise",
+      "c3": "Impeller must spin freely",
+      "c4": "Drain hose and standpipe clear"
+    }
+  },
+  "sources": [
+    {
+      "title": "OE error code on a washing machine, drain fault",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG front load washer error code list",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on OE causes, pump filter contents and standpipe blockages",
+      "publisher": "Appliance repair trade forums and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "0E",
+    "SUD",
+    "UE",
+    "FE",
+    "PE",
+    "dE"
+  ]
+}

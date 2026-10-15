@@ -1,0 +1,138 @@
+{
+  "title": "Whirlpool Dryer Error Codes: Full List and Meanings",
+  "meta_description": "Every Whirlpool dryer error code explained: PF, AF, LF, F01, F70 and the two-part F and E codes. What each one means and which are worth fixing.",
+  "h1": "Whirlpool dryer error codes: what each one means and what to do",
+  "answer": "Whirlpool dryers use three different code styles depending on when yours was built, and knowing which you are looking at tells you most of what you need. Two-letter codes like PF, AF and LF are plain-language warnings: power failure, restricted air flow, lint filter. Single F codes like F01 and F70 are the older electronic faults, mostly control board and communication problems. Newer machines split codes in two, so F is the function that failed and E is the specific fault within it, which is why F3 E2 and F3 E3 are both sensors but different ones. Write down exactly what the display shows, including both halves if they alternate, before you do anything else.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes for most codes, longer for board faults",
+  "cost_estimate": { "diy": "$0 to $320 depending on the code", "technician": "$130 to $550" },
+  "safety_warning": "Two things on this list are genuine hazards rather than inconveniences. A restricted dryer vent is a real fire risk, because lint burns well and a duct that cannot clear hot air lets heat build where it should not; that is what AF and F4 E3 are warning you about. And a power code that keeps returning when the house never lost power usually means a loose connection on a 240 volt circuit, which heats up and scorches. Everything else here can wait for a convenient weekend. Those two should not.",
+  "causes": [
+    {
+      "cause": "Restricted airflow through the lint screen, duct or outside vent",
+      "frequency": "most cases",
+      "confirm": "Codes in this group are AF, F4 E3 and Check Vent, and airflow is also behind a lot of heat and thermistor codes. The tell is cycles that have been getting longer for months and clothes that come out hot but damp. Pull the duct off the back and look inside before suspecting anything electronic."
+    },
+    {
+      "cause": "Power interruptions and supply problems",
+      "frequency": "common",
+      "confirm": "PF means the dryer lost power mid-cycle, and L2 means low or no line voltage reaching the heater. Check whether the household clocks are flashing. If they are not and the dryer alone lost power, the fault is in the outlet, the cord, the terminal block or the breaker."
+    },
+    {
+      "cause": "Temperature and moisture sensing faults",
+      "frequency": "common",
+      "confirm": "The whole F3 family. F3 E1 is the exhaust thermistor, F3 E2 the moisture sensor strips in the drum, F3 E3 the inlet thermistor. Automatic cycles misbehave while timed cycles still work normally, which is the clearest sign the problem is a sensor rather than the heater."
+    },
+    {
+      "cause": "Control board faults and board-to-board communication",
+      "frequency": "common",
+      "confirm": "F01, F1 and F1 E1 are the main control failing its own self-check. F70 and F6 E1 mean the console and the main control cannot hear each other. The dryer usually does nothing at all, or lights up and refuses to start. These are the codes where the repair bill starts to rival the machine."
+    },
+    {
+      "cause": "User interface and stuck keys",
+      "frequency": "occasional",
+      "confirm": "F2 E1 means a button is held down and F2 E2 means the console has lost its connection. Run a finger over the panel: a key that sits low, feels tacky or does not click back up is the fault, and it is usually free to fix."
+    },
+    {
+      "cause": "Motor and drive faults",
+      "frequency": "occasional",
+      "confirm": "F7 E1 and the F1 E2 motor control fault. The console lights up and responds normally but the drum does not turn, or it starts and stops. Worth distinguishing from a snapped belt, which produces no code at all because the dryer has no way of knowing."
+    },
+    {
+      "cause": "Condensate drain faults on ventless models",
+      "frequency": "occasional",
+      "confirm": "F9 E2 and the LF filter code on HybridCare and heat pump dryers. These machines condense water out of the air and pump it to a drawer or a drain, and lint in the sump is the usual cause. Vented dryers have none of this hardware and do not use these codes."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as shown",
+      "detail": "Two-part codes alternate on the display, so F3 flashes and then E2, and it is easy to assume you are seeing two separate faults. Watch the panel through a full cycle of the display before writing anything down. The difference between F3 E2 and F3 E3 is the difference between cleaning two metal strips with alcohol and replacing a thermistor behind the lower panel.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the technical sheet inside your own machine",
+      "detail": "Whirlpool folds a technical sheet into the dryer, usually tucked inside the console or behind the lower access panel. It lists the codes for your exact model with the resistance figures for its sensors. Published code lists disagree with each other in places, particularly across the F3 family, so your own sheet outranks anything on the internet including this page.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Unplug the dryer before opening any panel to look for the sheet."
+    },
+    {
+      "name": "Do a proper power-down reset",
+      "detail": "Switch the dryer's breaker off for five full minutes, or unplug it at the wall. Not thirty seconds: the control holds residual charge and a quick off-on leaves the stored fault in place. Restore power and wait ten seconds before pressing anything, because key presses during the control's power-up delay can set codes of their own. This alone clears a surprising share of one-off faults.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the lint screen and check the vent, whatever the code says",
+      "detail": "Wash the screen with warm water and dish soap to strip the softener film, vacuum the housing below it, then pull the dryer out and clear the transition duct, the wall run and the outside cap. Restricted airflow causes its own codes and makes the dryer run hot enough to trigger temperature codes that look like sensor failures. Fifteen minutes here saves a lot of wrong diagnoses.",
+      "minutes": 45,
+      "tools": "Vacuum with crevice tool, vent brush, nut driver",
+      "warning": "Unplug the dryer before moving it. On a gas model, close the gas shutoff valve first and do not strain the flexible gas line."
+    },
+    {
+      "name": "Reseat the connectors before buying any board",
+      "detail": "With the dryer unplugged, open the console and work along each plug on the control boards, pulling each one off and pushing it back until it clicks. Look for green corrosion and for a pin that has backed out of its housing. On communication codes especially, a loose connector is more common than a failed board and costs nothing to rule out.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, nut driver set, flashlight",
+      "warning": "Unplug at the wall or kill the breaker first. Board capacitors hold charge, so give it a few minutes and never probe a live board."
+    },
+    {
+      "name": "Test with a timed dry on damp towels",
+      "detail": "Timed dry is the right test for almost every code because it starts heating within a minute, so you find out in two minutes rather than forty. Use a few genuinely damp towels rather than an empty drum: an empty dryer does not exercise the moisture sensor and barely loads the heater, so it can run cleanly while a real load still faults.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Price the repair against a new dryer before committing",
+      "detail": "Control and communication codes are where this matters. A board is $150 to $320, a technician fitting one comes to $300 to $550 all in, and a comparable new Whirlpool dryer is roughly $550 to $900. On a machine over eight years old that has already had a motor or a heater, the honest answer is often replacement, and a good technician will tell you so.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have reset the machine, cleared the vent and reseated the connectors and the code is still there, the next move depends entirely on which family it belongs to, so sort it before you spend. Airflow codes, meaning AF, F4 E3 or Check Vent, almost never come back from a dryer fault; if the duct is genuinely clean and the code persists, disconnect the duct completely and run a short heated cycle into the room. A code that survives with nothing attached to the outlet is a sensor or control problem; a code that disappears means your ductwork is too long, too bent or too ribbed, and that is a twenty dollar duct rather than a service call. Sensing codes, the F3 family, split neatly: F3 E2 is the moisture sensor and is usually cured with rubbing alcohol on the two metal strips in the drum opening, while F3 E1 and F3 E3 are thermistors that need the vent cleared first and then a resistance check against the figure on your own technical sheet, never a number from a search result. Power codes, PF and L2, send you to the outlet, cord, terminal block and breaker rather than into the machine at all, and if a 240 volt connection is browned or warm that is an electrician this week, not an appliance technician next month. User interface codes, the F2 family, are the cheapest in the list: press every key, clean the panel with a barely damp cloth, dry it out and reset. Control and communication codes, F01, F1, F1 E1, F70 and F6 E1, are where the money is, and the discipline is to exhaust the free checks before anyone names a part. Reseat every connector, follow the harness for chafe where it crosses a metal edge, and look at the board under a bright light for a cracked solder ring around a relay pin or a domed capacitor. A board rebuild service at $70 to $150 often beats a new board at $150 to $320, and both beat a technician at $300 to $550. Then do the arithmetic honestly against $550 to $900 for a new machine, because on a nine year old dryer the repair usually loses. One last thing worth knowing: a dryer that will not start with no code at all is a different problem, usually a door switch, a thermal fuse or a snapped belt, and no amount of code-reading will help because the machine has nothing to report.",
+  "reset_procedure": "The same reset works for every code on a Whirlpool dryer. Switch the dryer's breaker off for five full minutes, or unplug it at the wall, so the control fully discharges. Restore power and wait ten seconds before touching the controls, because pressing keys during the power-up delay can itself set a code. Then test with a timed dry on damp towels rather than an automatic cycle. PF is the exception worth knowing: hold START and the interrupted cycle resumes where it stopped.",
+  "model_notes": "Which code style you see depends on when the dryer was built. Duet-era front loaders, roughly the mid 2000s to the early 2010s, use single F codes like F01 and F70. Cabrio-era top loaders use short codes like F1 and F2 alongside the letter codes. From around 2012, Whirlpool moved to the two-part system where F names the function and E names the fault within it, which is the system Maytag, Amana and KitchenAid dryers on the same platform also use. The letter codes PF, AF, LF and L2 run across all of them. LF and F9 E2 are specific to the ventless HybridCare and heat pump machines, which have a second lint filter and a condensate pump that vented dryers do not. Whirlpool's published descriptions for several codes, particularly in the F3 and F9 families, are thin or absent, and third-party lists disagree, so the technical sheet inside your own dryer is always the authority.",
+  "parts": [
+    { "name": "Semi-rigid aluminum transition duct", "cost": "$12 to $25", "difficulty": "easy", "note": "The cheapest fix on this page and the one that prevents several codes" },
+    { "name": "Inlet or exhaust thermistor", "cost": "$20 to $60", "difficulty": "moderate", "note": "For F3 E1 and F3 E3, after the vent has been cleared" },
+    { "name": "User interface or console assembly", "cost": "$90 to $220", "difficulty": "moderate", "note": "For F2 codes that survive cleaning, and the cheaper half of an F70" },
+    { "name": "Main electronic control board", "cost": "$150 to $320", "difficulty": "moderate", "note": "For F01, F1 and F1 E1; price a rebuild service at $70 to $150 first" },
+    { "name": "Condensate drain pump", "cost": "$60 to $140", "difficulty": "hard", "note": "Ventless models only, for F9 E2 where the sump is clear and the pump is dead" }
+  ],
+  "when_to_call": "Call an electrician rather than an appliance technician for any power code where the outlet, plug or breaker looks browned, feels warm or smells hot, because that is the supply side and it is the one item on this list that can burn a house down. Call a licensed gas technician for anything touching the burner or gas valve on a gas dryer. Call an appliance technician when a code survives the free checks and the next step needs a meter on a live machine, when a replacement board faults again within weeks, or when you are being asked to choose between two boards on a guess. And before authorizing anything over about $400 on a dryer more than eight years old, get a price on a new machine and compare the two properly.",
+  "faqs": [
+    { "q": "How do I read a two-part Whirlpool dryer code?", "a": "The two halves alternate on the display, so you see F3, then E2, then F3 again. They are one code, not two. F is the function that failed and E is the specific fault within that function, which is why F3 E2 and F3 E3 are both sensing faults but need completely different repairs. Watch the display through a full cycle before writing it down." },
+    { "q": "What is the most common Whirlpool dryer error code?", "a": "Airflow codes, meaning AF or F4 E3 on newer models, with power failure codes close behind. Restricted venting is the most common real fault on any dryer regardless of brand, and it also causes heat and sensor codes that look like component failures until you pull the duct off the back and find it packed with lint." },
+    { "q": "How do I reset a Whirlpool dryer?", "a": "Switch the dryer's breaker off for five full minutes, or unplug it, then restore power and wait ten seconds before touching the controls. Thirty seconds is not enough, because the control holds charge and keeps the stored fault. Test with a timed dry so you get an answer in two minutes rather than waiting out an automatic cycle." },
+    { "q": "Which codes can I fix myself?", "a": "Most of them. Airflow codes, lint filter codes, moisture sensor codes and stuck key codes are all free or nearly free to fix with a vacuum, a cloth and rubbing alcohol. Thermistors are a moderate job at $20 to $60. The ones to think hard about are the control and communication codes, where the parts alone start at $150." },
+    { "q": "My dryer will not start but shows no code at all. What now?", "a": "No code usually means the control never got as far as running, so look at a door switch that is not making, a blown thermal fuse behind the back panel, or a snapped drive belt. None of those report themselves, because the dryer has no way of knowing. A thermal fuse blowing is also a signal that the vent has been restricted." },
+    { "q": "Do Maytag and Amana dryers use the same codes?", "a": "Yes, where the machines share a platform, which is most of the current range. Whirlpool owns those brands and the two-part F and E system runs across Whirlpool, Maytag, Amana and KitchenAid dryers built on the same controls. Kenmore dryers made by Whirlpool use them too. The technical sheet inside the machine confirms it for your model." },
+    { "q": "Is an error code ever worth ignoring?", "a": "A moisture sensor code can reasonably be ignored if you are happy running timed cycles, since nothing unsafe is happening and the dryer works. An airflow code should never be ignored, because a restricted vent is a fire risk. A power code that keeps returning should never be ignored either, for the same reason at the other end of the circuit." },
+    { "q": "When is a Whirlpool dryer not worth repairing?", "a": "When the quote approaches half the price of a new machine and the dryer is over eight years old, which in practice means most control board repairs on older dryers. A board fitted by a technician runs $300 to $550 against roughly $550 to $900 for a comparable new dryer. Vent, sensor and filter repairs are almost always worth doing at any age." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How to work any Whirlpool dryer code, in the order that saves money",
+    "labels": {
+      "display": "F_ E_",
+      "c1": "Note both halves of the code",
+      "c2": "Five minute breaker reset",
+      "c3": "Clear lint screen and full vent",
+      "c4": "Reseat connectors before buying"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing, letter codes and F and E code families", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool dryer technical sheet, model-specific code tables and sensor values", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "Whirlpool dryer error code guide across model generations", "publisher": "HomeServe appliance troubleshooting guide", "url": null },
+    { "title": "Field reports on which Whirlpool dryer codes are worth repairing", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["PF", "AF", "LF", "F01", "F70", "F1"]
+}

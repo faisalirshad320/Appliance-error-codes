@@ -1,0 +1,220 @@
+{
+  "title": "Whirlpool Refrigerator Error Codes: What They Mean",
+  "meta_description": "Whirlpool fridge codes are not one universal set. PO and CF are reliable, E and F numbers are sensor faults, and some displays are not faults at all.",
+  "h1": "Whirlpool refrigerator error codes: what they mean and where to start",
+  "answer": "Whirlpool refrigerators do not use one universal code list the way its washers and dryers broadly do, so the first thing to establish is which kind of message you have. A few are consistent across the range: PO is a power outage alert rather than a fault, and CF means the main control board and the user interface have stopped talking to each other. Most of the rest are E or F numbers reporting a sensor or system fault, and which number maps to which sensor varies by platform, which is why published lists on the internet contradict each other. Some things that look like codes are not faults at all, including Sabbath mode and the air filter indicator.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to identify, 30 minutes to several hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$150 to $500"
+  },
+  "safety_warning": "A refrigerator's sealed refrigerant circuit is not DIY work under any circumstances. Never cut, braze, open or attempt to recharge the sealed system. Unplug the unit at the wall before removing the rear access panel or working behind the evaporator cover.",
+  "causes": [
+    {
+      "cause": "Informational alerts that are not faults, including PO and the filter indicator",
+      "frequency": "most cases",
+      "confirm": "The refrigerator is cooling normally and the only problem is the display. PO follows a power interruption and clears with a button press. A filter light changing from blue to yellow to red is a service reminder on a schedule. Neither is a breakdown and neither needs a technician."
+    },
+    {
+      "cause": "Temperature and defrost sensor faults, the E and F number family",
+      "frequency": "most cases",
+      "confirm": "One compartment drifts while the other behaves, or the unit runs constantly without reaching temperature. Put an appliance thermometer in each compartment and read them after a day: a freezer at 0 degrees Fahrenheit with a fresh food side at 50 tells you far more than the number on the display does."
+    },
+    {
+      "cause": "An evaporator iced over because the defrost system has stopped working",
+      "frequency": "common",
+      "confirm": "The freezer stays cold but the fresh food compartment creeps warm, and the evaporator fan sounds louder or starts rattling against ice. Take the rear panel off inside the freezer: a solid wall of frost over the coil instead of light rime is the answer, and it is behind a large share of sensor-looking codes."
+    },
+    {
+      "cause": "Communication faults between the control board and the user interface, shown as CF",
+      "frequency": "occasional",
+      "confirm": "The display behaves oddly, goes blank in places, or stops responding to buttons, while the refrigerator carries on cooling. The giveaway is that nothing about the fault changes when you adjust temperatures or clean coils, because the cooling side is not involved at all."
+    },
+    {
+      "cause": "A dirty condenser or a failed condenser fan making the unit run hot",
+      "frequency": "occasional",
+      "confirm": "Pull the unit out and look underneath or at the back. A gray felt of dust and pet hair across the coils, or a condenser fan that is not spinning while the compressor runs, makes the whole system struggle and throws codes that look like sensor faults. The outside of the cabinet near the hinges often feels unusually warm."
+    },
+    {
+      "cause": "Ice maker and dispenser faults",
+      "frequency": "occasional",
+      "confirm": "The code arrives alongside no ice, slow ice, or a dispenser that does nothing, while the refrigerator holds temperature fine. On some platforms the freezer defrost sensor and the ice maker share a code, which is why these two complaints often turn up together."
+    },
+    {
+      "cause": "Sealed system or compressor faults",
+      "frequency": "rare",
+      "confirm": "Neither compartment gets cold, the compressor runs continuously or not at all, and the condenser coils stay at room temperature while it is supposedly running. This is the one group where the honest answer is to stop and get a quote, because nothing about it is a home repair."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down exactly what the display shows",
+      "detail": "Photograph the panel. Note whether you have two letters, a letter and a number, a number pair, or just a flashing indicator. A seven-segment display makes O and zero nearly identical and 6 and b similar, so a photograph beats memory. Also note whether the refrigerator is actually cooling, because an alert on a working fridge and a code on a warm one are two different problems with two different urgencies.",
+      "minutes": 5,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Rule out the things that are not faults",
+      "detail": "Check three before anything else. PO is a power outage alert and clears with a button press. The air filter indicator changing color is a replacement reminder on a timer, not a failure. Sabbath mode, shown as Sb or similar on some models, disables the lights and display behavior and looks exactly like a malfunction to someone who did not know it was on. Any of these can send people chasing a repair that does not exist.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug for five minutes and see what comes back",
+      "detail": "Pull the refrigerator out and unplug it at the wall, or switch off its breaker, for five full minutes. Plug it back in and watch the display. A code that does not return was a glitch, often from a voltage sag. A code that comes straight back is real. Expect the compressor to take up to ten minutes to restart, because the control delays it deliberately, so do not panic at the silence.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Measure both compartments with thermometers",
+      "detail": "Put an appliance thermometer in the middle of the fresh food compartment and another in the freezer, and read them 24 hours later. You want the fresh food side at or below 40 degrees Fahrenheit and the freezer at or below 0. This single piece of information decides everything that follows: a unit holding both temperatures correctly has a display or sensor problem, and one that is not has a cooling problem, and those go to different places.",
+      "minutes": 10,
+      "tools": "Two appliance thermometers",
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser coils and check the condenser fan",
+      "detail": "Unplug the unit. Pull it out and take the lower rear access panel or the toe grille off, depending on where your coils live. Vacuum the dust mat off the fins with a brush attachment and a condenser coil brush, working gently so you do not bend the fins. While you are there, spin the condenser fan by hand: it should turn freely. A matted coil or a stalled fan makes the whole system run hot and throws codes that look like sensor faults.",
+      "minutes": 30,
+      "tools": "Vacuum with brush attachment, condenser coil brush, nut driver, flashlight",
+      "warning": "Unplug at the wall before any panel comes off. There is mains wiring behind the lower rear panel."
+    },
+    {
+      "name": "Check the evaporator for an ice block",
+      "detail": "Unplug the unit, empty the freezer and take the rear panel off inside the freezer compartment, which is usually a handful of screws plus some clips. Light rime on the coil is normal. A solid white block filling the space between the fins, or ice built up against the fan blade, means the defrost system has stopped working and that is what is really behind your symptoms. Thaw it fully with the doors open and towels down before anyone tests anything.",
+      "minutes": 45,
+      "tools": "Nut driver, Phillips screwdriver, towels, flashlight",
+      "warning": "Unplug first. Never use a knife, a screwdriver or a heat gun on an evaporator; puncturing a coil ends the refrigerator."
+    },
+    {
+      "name": "Find your model number and the tech sheet",
+      "detail": "The rating plate is usually on the inside wall of the fresh food compartment, on the ceiling, or behind the crisper drawers. Write down the full model number including any suffix. Most Whirlpool refrigerators carry a folded tech sheet behind the toe grille or taped inside the control housing, and it is the only document that gives the correct code meanings and the service diagnostic entry sequence for your exact platform. It outranks any list online, including this one.",
+      "minutes": 15,
+      "tools": "Flashlight, nut driver, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Decide repair or replace before ordering anything",
+      "detail": "Thermistors, defrost heaters, fans, door seals and control boards are all replaceable at sensible money and are worth doing on a unit under roughly ten years old. Anything inside the sealed refrigerant circuit, meaning the compressor, the evaporator or a refrigerant leak, is not: it needs licensed work, it typically starts around $500 to $900, and on most domestic refrigerators that is most of the way to a replacement.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code survived a five-minute power cycle, stop trying to translate the number and start from what the refrigerator is physically doing, because that is reliable and published Whirlpool fridge code tables are not. Third-party lists genuinely contradict each other on which E or F number belongs to which sensor, and they do it because the mapping really does differ between platforms. So work it this way. If both compartments hold their temperatures correctly and the only problem is the display, you have an alert, a communication fault or a user interface problem. Those are annoying rather than urgent, and a CF in particular is usually a connector or a ribbon cable between the board and the panel rather than a dead board, which is worth saying out loud before anyone quotes you for electronics. If the freezer is cold and the fresh food side is warm, that pattern is specific and it almost always means air is not moving from one to the other: an iced-over evaporator, a stalled evaporator fan, or a damper that has stuck shut. Take the rear panel off inside the freezer and look. A solid block of ice on the coil tells you the defrost system has failed, and the three candidates there are the defrost heater, the defrost thermostat and the defrost sensor, all of which are modest parts and a long but straightforward job. If both compartments are warm and the compressor is running constantly, check the condenser coils and the condenser fan first, because a matted coil is free to fix and produces exactly this. If both are warm and the compressor is not running at all, listen for a click and a hum every few minutes, which is the start relay trying and failing; that is a cheap part and a common failure. If both are warm, the compressor runs, and the condenser coils stay at room temperature while it does, that is the sealed system and the honest answer is to get a quote rather than keep spending on diagnosis. Finally, when you cannot place the code at all, the fallback beats guessing every time: get the full model number off the plate inside the fresh food compartment, find the tech sheet behind the toe grille, and call Whirlpool support or a technician with both in front of you. That sheet also carries the button sequence to enter service diagnostic mode, which reads the stored faults properly instead of showing you one character on a seven-segment display.",
+  "reset_procedure": "Unplug the refrigerator at the wall, or switch off its breaker, for five full minutes, then restore power. That clears transient codes and resets a frozen display. Expect the compressor to take up to about ten minutes to restart afterward, because the control delays it on purpose to protect it, so silence immediately after plugging in is normal. A PO alert is cleared separately by pressing a button on the control panel to acknowledge it. Any code that reappears on its own after a five-minute power cycle is reporting something real, and no reset sequence will change that.",
+  "model_notes": "This is the page where model specifics matter more than usual. Whirlpool has never published one universal refrigerator code set, and the mapping between E or F numbers and individual sensors differs between side-by-side, French door and top-mount platforms and between generations, which is why independent code lists disagree with one another so visibly. Treat any online table, this page included, as a starting point rather than an authority, and treat the tech sheet in your own machine as the final word. Two things are consistent enough to rely on: PO is a power outage alert on essentially all models that show it, and CF means the main board and the user interface have lost communication. Whirlpool also builds Maytag, KitchenAid and Amana refrigerators, and units sharing a platform behave the same way and often take the same parts, which widens your options when hunting for a diagnosis or a component.",
+  "parts": [
+    {
+      "name": "Temperature sensor or thermistor",
+      "cost": "$15 to $50",
+      "difficulty": "moderate",
+      "note": "Cheap part, and the one behind most sensor-family codes"
+    },
+    {
+      "name": "Defrost heater and defrost thermostat kit",
+      "cost": "$30 to $90",
+      "difficulty": "hard",
+      "note": "The usual fix for an iced-over evaporator. Long job, modest parts"
+    },
+    {
+      "name": "Evaporator or condenser fan motor",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Listen for a fan that rattles, stalls or does not start"
+    },
+    {
+      "name": "Compressor start relay and overload",
+      "cost": "$20 to $70",
+      "difficulty": "moderate",
+      "note": "Common failure on a unit that clicks and hums but never cools"
+    },
+    {
+      "name": "Main control board or user interface board",
+      "cost": "$120 to $350",
+      "difficulty": "technician only",
+      "note": "Check the ribbon cable and connectors first on a CF. They fail far more often than boards"
+    }
+  ],
+  "when_to_call": "Call when the refrigerator is not holding temperature and the free checks, meaning coils, fans and a look at the evaporator, have not explained it, or whenever you suspect the sealed system. Whirlpool is the easiest brand on this site for getting help: parts are cheap and stocked everywhere, every independent appliance technician works on them, and you are not tied to an authorized network, so expect competitive quotes and a visit within days almost anywhere in the country. Use that. Get two quotes, and ask whether the diagnostic fee comes off the repair. A typical diagnostic visit runs $120 to $200, a sensor or fan repair lands $200 to $350 all in, and a defrost system job lands $250 to $450 because of the labor. Sealed system work is the line: compressor and refrigerant repairs generally start around $500 to $900, need licensed handling, and on most domestic refrigerators under about twelve years old that is close enough to replacement cost to be a genuine decision rather than an obvious yes. Do not call an appliance technician for a PO alert that keeps coming back with the fridge cooling normally; that is an electrician's job, because the fault is in the outlet or circuit.",
+  "faqs": [
+    {
+      "q": "Does Whirlpool use one standard set of refrigerator error codes?",
+      "a": "No, and this is the single most useful thing to know. The mapping between E or F numbers and individual sensors varies by platform and generation, which is why published lists contradict each other. PO and CF are consistent across the range. For everything else, the tech sheet behind your own toe grille is the only reliable source for your model."
+    },
+    {
+      "q": "What does PO mean on a Whirlpool refrigerator?",
+      "a": "It is a power outage alert, not a fault. The power was interrupted long enough for the freezer to warm to roughly 18 degrees Fahrenheit or higher, so the control flagged it for you to check your food. A button press clears it, and on some models cooling does not resume until it is acknowledged."
+    },
+    {
+      "q": "What does CF mean on a Whirlpool refrigerator?",
+      "a": "The main control board and the user interface have stopped communicating. The display misbehaves or goes unresponsive while the refrigerator often keeps cooling normally. Before anyone quotes you for a board, have the ribbon cable and the connectors between the panel and the board checked, because those fail far more often than the electronics do."
+    },
+    {
+      "q": "How do I reset a Whirlpool refrigerator?",
+      "a": "Unplug it at the wall, or switch off its breaker, for five full minutes and restore power. That clears transient codes and unfreezes a stuck display. The compressor takes up to ten minutes to restart afterward by design, so initial silence is normal. A code that returns by itself after this is reporting something real."
+    },
+    {
+      "q": "The freezer is cold but the fridge is warm. What code is that?",
+      "a": "Possibly none at all, and the pattern tells you more than any code would. Cold freezer with a warm fresh food side almost always means air is not moving between the two: an evaporator iced over because defrost has failed, a stalled evaporator fan, or a damper stuck shut. Take the rear panel off inside the freezer and look at the coil."
+    },
+    {
+      "q": "Is my refrigerator safe to use while a code is showing?",
+      "a": "If both compartments are holding temperature, yes, and the code is an alert or a display problem. If either compartment is drifting warm, use a thermometer rather than the display and move perishables elsewhere once the fresh food side goes above 40 degrees Fahrenheit. No refrigerator code represents a shock or fire hazard by itself."
+    },
+    {
+      "q": "How do I get into the service diagnostic mode?",
+      "a": "Through a button sequence on the control panel that is specific to your model, and the only reliable place to find it is the tech sheet folded behind the toe grille or taped inside the control housing. Sequences published online for a different platform will not work and can put the unit into a demo or showroom mode you then have to undo."
+    },
+    {
+      "q": "When is a Whirlpool refrigerator not worth repairing?",
+      "a": "When the fault is in the sealed refrigerant circuit, meaning the compressor, the evaporator or a leak. That work needs licensed handling and generally starts around $500 to $900, which on most domestic units is close to replacement cost. Sensors, fans, defrost parts, relays and boards are all worth repairing on a unit under about ten years old."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "How to read any Whirlpool refrigerator code, in order",
+    "labels": {
+      "display": "E--",
+      "c1": "Photograph the display, note if it cools",
+      "c2": "Rule out PO, filter light, Sabbath mode",
+      "c3": "Thermometer in each compartment, 24 hours",
+      "c4": "Tech sheet behind the toe grille"
+    }
+  },
+  "sources": [
+    {
+      "title": "Whirlpool refrigerator error codes reference",
+      "publisher": "iFixit Whirlpool refrigerator error code wiki",
+      "url": null
+    },
+    {
+      "title": "Whirlpool refrigerator owner manuals and the tech sheet supplied behind the toe grille",
+      "publisher": "Whirlpool product documentation",
+      "url": null
+    },
+    {
+      "title": "Whirlpool fridge error code overview and the absence of a standardized set",
+      "publisher": "HomeServe appliance guidance",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of code variation between Whirlpool refrigerator platforms",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "PO",
+    "CF",
+    "E4",
+    "F4",
+    "E6",
+    "F6"
+  ]
+}

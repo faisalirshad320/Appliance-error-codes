@@ -1,0 +1,131 @@
+{
+  "title": "LG Dryer D90 Error Code: Causes and How to Fix It",
+  "meta_description": "D90 on an LG dryer means Flow Sense measured about 90% restriction in the exhaust duct. Clear the duct and outside flap now, before the next load.",
+  "h1": "LG dryer D90 error code: what it means and how to fix it",
+  "answer": "D90 is LG's Flow Sense warning telling you the exhaust duct is around 90 percent restricted. It is the same measurement as D80, one step further along: the dryer's blower is pushing against a duct that is nearly closed. At this level the lint is rarely subtle, and it is usually a solid plug in the transition duct behind the machine or a mat of lint jammed behind the outside wall flap. Clear the whole run from the lint screen to the outside before you run another load.",
+  "severity": "serious",
+  "can_diy": "yes",
+  "time_estimate": "1 to 2 hours",
+  "cost_estimate": { "diy": "$0 to $40", "technician": "$100 to $200 for a vent clean, $150 to $350 for a service call" },
+  "safety_warning": "A duct this restricted is a fire risk, plainly. Lint burns readily and a vent that cannot clear hot, damp air lets heat build up inside the duct and around the heater. Failure to clean the vent is the leading cause of dryer fires in US homes. Do not keep running loads and plan to deal with D90 at the weekend; clear it first.",
+  "causes": [
+    {
+      "cause": "A solid plug of lint in the duct, usually at the first bend",
+      "frequency": "most cases",
+      "confirm": "Pull the duct off the back of the dryer and look into both ends. At D90 you are not looking for a furry lining, you are looking for a gray felt bung. The first elbow after the dryer is where it forms, because that is where the airflow slows and turns."
+    },
+    {
+      "cause": "The outside wall cap is blocked or its flap will not open",
+      "frequency": "most cases",
+      "confirm": "Run a heated cycle and go outside to the hood. You should feel a steady warm push. At D90 you will usually feel almost nothing. Open the flap by hand: lint packed behind it, a bird or wasp nest, or a wire insect screen furred over are all common and all visible in ten seconds."
+    },
+    {
+      "cause": "The transition duct is crushed flat behind the dryer",
+      "frequency": "common",
+      "confirm": "Slide the dryer out and look at the duct where it turns into the wall. Foil flex duct folds like a concertina when the machine is pushed back hard, and a four inch pipe becomes a slot. The crease is obvious once the dryer is away from the wall."
+    },
+    {
+      "cause": "The lint screen housing and blower area are packed",
+      "frequency": "occasional",
+      "confirm": "Shine a light down the empty lint screen slot. A gray wall partway down means lint has bypassed the screen, usually because the screen was run torn or left out, and has built up where the air turns toward the blower."
+    },
+    {
+      "cause": "A duct run that is too long or has too many bends, now fully loaded",
+      "frequency": "occasional",
+      "confirm": "You cleaned the duct not long ago and it has gone straight from fine to D90. An over-long or elbow-heavy run collects lint far faster than a short straight one, because the air slows at every turn. Measure the run and count the bends while the duct is apart."
+    },
+    {
+      "cause": "Flow Sense sensor fault",
+      "frequency": "rare",
+      "confirm": "D90 still shows with the duct completely disconnected and the dryer exhausting into the room. That is the only test that rules the ductwork out entirely, and it is the point at which the dryer rather than the plumbing is at fault."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Stop running loads and unplug the dryer",
+      "detail": "Finish nothing and start nothing. Unplug an electric dryer at the wall. On a gas model, unplug it and close the gas shutoff valve behind it before you move anything, then walk the dryer out gently so the flexible gas connector is not strained.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "On a gas dryer, close the gas shutoff before moving the machine and never pull on the flexible gas line."
+    },
+    {
+      "name": "Clean the lint screen and vacuum its housing",
+      "detail": "Peel the screen, then wash the mesh with warm water and dish soap to remove the invisible film fabric softener leaves. Dry it fully. Vacuum down the empty slot with a crevice tool as far as it reaches, and use a long flexible brush beyond that. Lint sitting below the screen is feeding everything downstream.",
+      "minutes": 12,
+      "tools": "Vacuum with crevice tool, long flexible brush, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Take the transition duct off and clear or replace it",
+      "detail": "Loosen the clamp at the dryer outlet with a nut driver, pull the duct free and take it outside. At D90 expect to pull out a compacted mat rather than loose fluff. If it is the thin foil or plastic concertina type, throw it away and fit semi-rigid aluminum; the ribs collect lint faster than you can keep up with and most installation instructions do not permit them.",
+      "minutes": 15,
+      "tools": "Nut driver or flathead screwdriver, vent brush, gloves",
+      "warning": null
+    },
+    {
+      "name": "Clear the outside wall cap",
+      "detail": "Find the hood outside and open its flap with a finger. It must swing freely and fall shut on its own. Pull out the lint mat behind it, clear any nest, and free a flap that has been painted shut. If there is a wire mesh insect screen across the hood, remove it; mesh on a dryer vent clogs within a few months and will put you back here.",
+      "minutes": 15,
+      "tools": "Screwdriver, gloves",
+      "warning": null
+    },
+    {
+      "name": "Brush the entire run from both ends",
+      "detail": "Feed a rotary vent brush on flexible rods in from the wall opening a few feet at a time, pulling back to drag lint out with it, with a shop vacuum running at the mouth. Then do the same from the dryer end. At D90 you should expect to fill a grocery bag. Keep going until the brush comes back clean twice in a row.",
+      "minutes": 35,
+      "tools": "Rotary dryer vent brush kit, shop vacuum",
+      "warning": null
+    },
+    {
+      "name": "Reassemble with the shortest possible duct and foil tape",
+      "detail": "Push the dryer back only as far as the duct allows without folding, and leave a hand's width behind it. Seal joints with foil tape rather than sheet metal screws, because screws project into the airway and grow lint around every one. Tighten the clamp snug rather than crushing the duct.",
+      "minutes": 15,
+      "tools": "Foil tape, nut driver",
+      "warning": null
+    },
+    {
+      "name": "Run a test load and check the exhaust outside",
+      "detail": "Restore power, open the gas valve if you closed it, and run a heated cycle with a few damp towels. Flow Sense recalculates every cycle, so a clear duct means no code. Halfway through, go outside and hold your hand at the hood: you want a strong, warm, humid push, not a trickle.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the duct is now genuinely clear and D90 is still coming up, the duct cannot move enough air even when empty, and cleaning it again will not change that. Work in this order, cheapest first. Replace any remaining thin foil or plastic flex duct with smooth semi-rigid aluminum, even a short length of it, because the ribs behave like dozens of small obstructions. Then measure the run and count the bends: most dryer installation sheets allow around 35 feet of four inch rigid duct and charge you roughly five feet of that allowance for every 90 degree elbow, so a 20 foot run with four bends is already over. Check the exact allowance on the installation sheet for your model. Removing one elbow, or swapping a tight bend for a wide sweep, often drops the reading a whole band. Next, pull any sheet metal screws out of the joints and seal them with foil tape instead, since each screw head collects a beard of lint. Then look at the outside hood: a louvered cap with an insect mesh screen is a guaranteed repeat offender, and a proper dryer hood with a wide swinging damper and no mesh fixes codes that come back every few months. If the run goes up through two floors to a roof cap, or you share a duct in a condo, you may need a booster fan, which is worth paying someone to size and wire. Only after all that is it reasonable to suspect the dryer. The test that settles it: take the duct off completely, leave the outlet exhausting into the room with the laundry door open, and run a short heated cycle. If D90 still appears with nothing attached, the sensor or control board is reporting a restriction that does not exist, and that is where the cost moves from a $30 duct to a service call. If the code stays away, the dryer is right and the duct run itself is what has to change.",
+  "reset_procedure": "There is no stored code to clear. Flow Sense works the figure out on each cycle, so once the airflow is good D90 stops appearing on its own. If the display is stuck, press Power to switch the dryer off, then unplug it or switch off the breaker for five minutes and restore power. Test with a short heated cycle and a few damp towels rather than a full load.",
+  "model_notes": "d75, D80, D90 and D95 are thresholds on the same Flow Sense measurement, climbing with the restriction. The practical difference is urgency, not mechanism: D80 means clear it this week, D90 means clear it before the next load. The code appears in the time display, and some models also light a separate Flow Sense indicator. Ventless heat pump and condensing LG dryers have no exhaust duct and do not use these codes.",
+  "parts": [
+    { "name": "Semi-rigid aluminum transition duct", "cost": "$12 to $25", "difficulty": "easy", "note": "Replaces thin foil or plastic flex; buy the shortest length that reaches" },
+    { "name": "Rotary dryer vent cleaning brush kit", "cost": "$20 to $40", "difficulty": "easy", "note": "Flexible rods and a brush head for a drill; essential at this level of blockage" },
+    { "name": "Outside dryer vent hood with wide damper", "cost": "$10 to $30", "difficulty": "moderate", "note": "Fit one without an insect mesh screen" },
+    { "name": "Aluminum foil duct tape", "cost": "$8 to $15", "difficulty": "easy", "note": "Seal joints with tape instead of screws" },
+    { "name": "Flow Sense duct sensor assembly", "cost": "$40 to $110", "difficulty": "technician only", "note": "Only after the duct-off test still shows D90" }
+  ],
+  "when_to_call": "Call a vent cleaning company if the run is long, climbs through a ceiling or exits at a roof cap. Those need proper rods and a vacuum, and at D90 there is a lot of material to shift. Call an appliance technician if D90 persists with the duct completely disconnected, because the restriction is then not real. Call a licensed gas technician if a gas dryer tumbles without heating and you suspect the gas supply; do not test or adjust gas components yourself. And if you open the duct and find browned or scorched lint, stop using the dryer until the entire run has been cleared and inspected.",
+  "faqs": [
+    { "q": "Is D90 worse than D80 on an LG dryer?", "a": "Yes. They are thresholds on the same Flow Sense measurement, so D90 means the dryer is reading about 90 percent restriction against D80's 80 percent. In practice that is the difference between clearing the vent this week and clearing it before the next load. If yours climbed from D80 to D90, the duct has been filling the whole time." },
+    { "q": "Can I still use the dryer with a D90 code?", "a": "You should not. The dryer will often keep running, but a duct this restricted makes cycles drag, wastes energy and lets heat and lint build up where they should not, which is a genuine fire risk. Clear the duct before the next load. If clothes come out hot and still damp, that is the same problem reported differently." },
+    { "q": "Why does D90 come back after I cleaned the vent?", "a": "Usually because the restriction is structural rather than lint. A run that is too long, has too many elbows, uses ribbed foil flex duct, or ends in a hood with an insect screen will restrict airflow when spotless. Measure the run, count bends at about five feet each, and change the duct material before blaming the dryer." },
+    { "q": "How do I clear D90 once the vent is clean?", "a": "You generally do not have to. The figure is recalculated each cycle, so good airflow makes it stop appearing. If the display hangs on to it, power off, unplug or trip the breaker for five minutes, restore power and run a short heated cycle with damp towels to confirm the fix." },
+    { "q": "Could D90 be caused by something inside the dryer?", "a": "Occasionally. Lint that bypassed a torn or missing screen can pack the screen housing and the path to the blower, which restricts airflow before the duct even starts. Shine a light down the empty lint screen slot. Beyond that, a failed Flow Sense sensor is possible but rare, and only worth suspecting after the duct-off test." },
+    { "q": "How long should clearing a D90 vent take?", "a": "Plan on one to two hours for a typical ground floor run, including moving the dryer, brushing from both ends and sorting out the outside hood. A long run to a roof cap takes longer and is worth handing to a vent cleaning company, who will charge roughly $100 to $200 and bring the right rods." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "The air path from lint screen to wall cap, and where a D90 plug forms.",
+    "labels": {
+      "display": "D90",
+      "c1": "Lint screen and its housing",
+      "c2": "Transition duct behind the dryer",
+      "c3": "Duct run through wall or ceiling",
+      "c4": "Outside wall cap and its flap"
+    }
+  },
+  "sources": [
+    { "title": "LG dryer error code list, duct blockage codes d75 through d95", "publisher": "LG support help library", "url": null },
+    { "title": "LG dryer installation instructions, exhaust duct length and elbow allowances", "publisher": "LG installation sheet supplied with the dryer", "url": null },
+    { "title": "Clothes dryer fire causes and vent maintenance guidance", "publisher": "US Fire Administration and NFPA fire safety material", "url": null },
+    { "title": "Field reports on recurring Flow Sense codes after vent cleaning", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["D80", "D95", "d75", "tE1", "dE", "PS"]
+}

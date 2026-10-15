@@ -1,0 +1,129 @@
+{
+  "title": "Samsung Washer SUD Error Code: Causes and Fix",
+  "meta_description": "SUD on a Samsung washer means too much foam, so it paused to let the suds collapse. Nearly always too much detergent or the wrong type. Here is the fix.",
+  "h1": "Samsung washer SUD error code: what it means and how to fix it",
+  "answer": "SUD, shown as Sud or 5ud depending on the panel, means the washer detected more foam in the drum than it can rinse or spin safely, so it has paused the cycle to let the suds collapse. It is an information code rather than a breakdown, and Samsung's own guidance treats it that way. The cause is almost always too much detergent, or detergent that is not HE, or both. Leave it to run its suds-clearing routine, then cut your dose by about half on the next load.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "40 to 60 minutes, most of it waiting",
+  "cost_estimate": { "diy": "$0 to $20", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Too much detergent for the load",
+      "frequency": "most cases",
+      "confirm": "Look through the glass. If you can see a meringue of foam filling the top half of the drum rather than clear water with a rim of bubbles, you have overdosed. The habit of filling the cap to the brim is the usual culprit; the fill line is nowhere near the top."
+    },
+    {
+      "cause": "The detergent is not HE, or is a concentrate dosed as if it were not",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard top-load detergent foams far more than a Samsung front loader's low water level can handle. A 2x or 3x concentrate needs a correspondingly smaller dose, and most people pour the same amount they always did."
+    },
+    {
+      "cause": "The drain is slow, so the foam never gets pumped away",
+      "frequency": "common",
+      "confirm": "SUD keeps appearing even on a sensible dose, and the drum takes a long time to empty between rinses. Check the pump debris filter. A partly blocked filter leaves soapy water sitting in the sump where the drum whips it straight back into foam."
+    },
+    {
+      "cause": "Soft water or a very lightly soiled load",
+      "frequency": "common",
+      "confirm": "A dose that works fine on muddy work clothes foams up badly on a half load of shirts, and soft water needs noticeably less detergent than hard. If SUD shows up on light loads and never on heavy ones, this is it."
+    },
+    {
+      "cause": "Detergent residue built up inside the drum and dispenser",
+      "frequency": "occasional",
+      "confirm": "Pull out the dispenser drawer. If the compartments are lined with gray-white sludge, there is months of undissolved detergent in the machine that gets released a bit at a time, so even a correct dose comes out as an overdose."
+    },
+    {
+      "cause": "The water level sensor or its pressure hose is misreading",
+      "frequency": "rare",
+      "confirm": "SUD appears on a correctly dosed load with no visible foam at all, and keeps appearing after a detergent-free rinse. The control is inferring suds from a level reading that will not settle. Worth suspecting only after everything above is ruled out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Leave it alone and let the routine finish",
+      "detail": "The machine is not stuck, it is waiting. Samsung washers pause on SUD, add water and run slow rotations to knock the foam down, then carry on by themselves. Give it half an hour before you intervene. Opening the door or cancelling mid-routine just means you start the whole thing again.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a Rinse and Spin with no detergent",
+      "detail": "If it has not cleared itself, cancel and select Rinse and Spin with an extra rinse if your model offers it. Add nothing to the drawer. This flushes the soap out of the load and the tub. You may need two consecutive runs if the drum was genuinely full of foam, and the second one will usually come out clear.",
+      "minutes": 25,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the detergent is HE and halve the dose",
+      "detail": "Look for the HE symbol on the bottle. If it is not there, that detergent is wrong for this machine whatever the cycle. If it is there, read the dosing panel for your load size and water hardness rather than filling the cap, and start at about half what you have been using. You will not get dirtier clothes; you will get fewer suds and less residue.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Stop using fabric softener for a few loads",
+      "detail": "Softener adds to the foam load and leaves a waxy film in the drum and dispenser that holds onto detergent. Skip it entirely while you are chasing a recurring SUD, and if the code goes away, reintroduce it at half the dose. Wool and sports fabrics do better without it anyway.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the pump debris filter",
+      "detail": "Unplug the machine. Open the small access panel at the bottom front, put a shallow tray down, drain through the short hose beside the cap, then turn the filter cap anticlockwise and pull it out. Rinse off the felt and soap sludge under a hot tap. A filter half blocked with gray scum slows the drain enough to keep foam in the machine.",
+      "minutes": 20,
+      "tools": "Phillips #2, shallow tray, towels",
+      "warning": "Unplug at the wall before opening the filter housing."
+    },
+    {
+      "name": "Pull out and scrub the dispenser drawer",
+      "detail": "Most Samsung drawers come out fully once you press the release tab in the softener compartment. Take it to the sink, scrub every compartment and the siphon cap with a brush and hot water, and reach into the empty housing with a cloth to clear the sludge on the roof of the recess. Dry it before refitting.",
+      "minutes": 12,
+      "tools": "Stiff brush",
+      "warning": null
+    },
+    {
+      "name": "Run the Self Clean or tub clean cycle empty",
+      "detail": "With nothing in the drum and nothing in the drawer, run Self Clean, Eco Drum Clean or whatever your model calls it. It is a long hot cycle at high water level that strips the soap film out of the tub and the outer drum. Do this once, then once a month, and recurring SUD usually stops being a thing.",
+      "minutes": 180,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have halved the dose, switched to HE detergent, run a detergent-free rinse and cleaned both the filter and the drawer, and SUD still comes up on an ordinary load, stop treating it as a detergent problem and start treating it as a drainage problem. Work in this order. First, time the drain: run a rinse-and-spin and watch the water go. A healthy Samsung empties a full tub in well under a couple of minutes with a steady whirr from the pump. If it dribbles out or the pump cycles on and off, the machine is holding soapy water long enough for the drum to whip it back into foam, and the real fault is a partial blockage in the sump hose or the pump rather than your soap. Second, with the filter out, check the short rubber hose between the tub and the pump housing for a sock or a build-up of scum. Third, if the drain is genuinely fast and clear, suspect the water level sensor circuit: the thin pressure hose from the sump to the sensor blocks with detergent sludge, and a sensor that cannot see the level settle reports suds. Blowing that hose through is free and replacing it is cheap. Only if all of that checks out is the sensor itself or the control board worth paying for, and at that point you want a technician who will confirm it on the machine rather than guessing. One last thing worth ruling out for nothing: if the code started after someone else did a load, ask what they poured in. A single wash with standard top-load detergent leaves enough foam in the outer drum to trigger SUD for the next two or three cycles.",
+  "reset_procedure": "SUD usually clears itself once the foam collapses, so the first move is to wait rather than reset. If you want to force it, press Power to cancel, unplug for five minutes and plug back in, then run Rinse and Spin with an empty dispenser. Resetting without rinsing the soap out just means the code comes back on the next cycle.",
+  "model_notes": "The same condition is printed as Sud, SUdS or 5ud depending on how many characters your display has, and some models show it as 5d. There is no difference in meaning. On machines with a Self Clean or Eco Drum Clean cycle, that cycle is the proper fix for built-up soap film; on older models without it, run the hottest wash available with an empty drum and a cup of white vinegar in the drum instead of detergent.",
+  "parts": [
+    { "name": "HE detergent", "cost": "$8 to $20", "difficulty": "easy", "note": "Not a repair part, but it is the actual fix in most cases" },
+    { "name": "Dispenser drawer insert", "cost": "$15 to $40", "difficulty": "easy", "note": "Only if the siphon cap is cracked or missing so the drawer never empties properly" },
+    { "name": "Water level pressure hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "For the rare case where SUD appears with no visible foam" }
+  ],
+  "when_to_call": "Call someone if SUD appears on loads with no visible foam in the drum, survives a detergent-free rinse, and the drain is fast and clear, because at that point you are looking at the water level sensing circuit and that needs someone who can watch the sensor reading while the machine runs. There is no urgency and no safety issue, so there is no reason to pay for a call-out before you have tried a month of correct dosing and a Self Clean cycle. Do call sooner if the machine is also leaking foam onto the floor from the door seal or the dispenser, since that is a separate fault and foam on a tiled floor is a genuine slip hazard.",
+  "faqs": [
+    { "q": "Is SUD an error or just a warning on a Samsung washer?", "a": "It is an information code, not a fault. The washer has found more foam than it can safely rinse or spin through, so it pauses, adds water and tries to break the suds down before carrying on. Nothing is broken. If you leave it alone for half an hour it will often finish the cycle without any help from you." },
+    { "q": "How much detergent should I actually use?", "a": "Start at roughly half what you have been pouring, and read the dosing panel on the bottle rather than filling the cap. Concentrates marked 2x or 3x need proportionally less. Soft water, small loads and lightly soiled clothes all need less again. Clothes come out just as clean, with less residue left in the fabric." },
+    { "q": "Can I still use the washer when it shows SUD?", "a": "Yes, once the suds have gone. There is no safety risk and no damage being done. The practical problem is that the machine will not spin properly through foam, so your clothes come out soaked. Run a Rinse and Spin with an empty dispenser and the load will finish normally." },
+    { "q": "Why did SUD start appearing when I have used the same detergent for years?", "a": "Soap film builds up in the outer drum over months and eventually starts releasing enough detergent on its own to tip an ordinary load into foam. A slowly clogging pump filter does the same thing by leaving soapy water in the sump. Both creep up gradually and then show themselves all at once." },
+    { "q": "Will SUD damage my washing machine?", "a": "Not directly, but persistent heavy foam is bad for it over time. Suds cushion the load so it never spins out properly, they carry detergent into the outer drum where it feeds mold on the door seal, and they make the pump work harder than it should. Fixing the dosing is worth it for the machine as well as the code." },
+    { "q": "Do detergent pods cause SUD on a Samsung washer?", "a": "They can, for two reasons. A pod is a fixed dose sized for an average load, so it overdoses a small or lightly soiled one. And pods dissolve slowly at low temperatures, which means the detergent arrives late in the cycle when there is less water to dilute it. Try half a pod or a measured liquid on small loads." },
+    { "q": "Does hard or soft water change how much detergent I need?", "a": "Yes, significantly. Hard water ties up part of the detergent so you need more of it; soft water does not, so the same dose produces far more foam. If you have a water softener and you are dosing by habit, you are almost certainly using two or three times what the machine needs." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Why foam builds up, and the two places to look when it will not clear",
+    "labels": {
+      "display": "SUD",
+      "c1": "Filter cap, clear the soap sludge",
+      "c2": "Slow drain keeps foam in the tub",
+      "c3": "Code shown on the panel",
+      "c4": "Foam filling the drum, halve the dose"
+    }
+  },
+  "sources": [
+    { "title": "My washing machine is showing Suds on the display", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, suds detection and over-sudsing routines", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on recurring Sud codes, dosing and drain restriction", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["SC", "5C", "nd", "UB", "4C"]
+}

@@ -1,0 +1,199 @@
+{
+  "title": "LG Oven Error Codes: What They Mean and How to Fix",
+  "meta_description": "LG oven codes explained, led by F9, which means the oven never reached temperature. The cause splits by fuel: igniter on gas, relay board on electric.",
+  "h1": "LG oven error codes: what the display means and where to start",
+  "answer": "LG ovens show faults as an F followed by a digit in the main display, and one code accounts for most of what owners actually see: F9, which means the oven failed to reach temperature within the time the control allows during early preheat. What F9 does not tell you is why, and the likely answer splits cleanly by fuel. On a gas oven it is usually the igniter, which weakens with age until it glows without drawing enough current to open the gas safety valve. On an electric oven it is usually the relay board, the element or the temperature sensor. Work out which fuel you have before reading any further advice, because the two repairs have nothing in common.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to diagnose, 1 hour upward to repair",
+  "cost_estimate": {
+    "diy": "$0 to $60 on an electric sensor",
+    "technician": "$180 to $450"
+  },
+  "safety_warning": "An LG range runs on 240 volt mains throughout, and on a gas model there is a gas supply and a safety valve behind the same panels. Switch the range off at the circuit breaker before any panel comes off, and close the gas shutoff behind the range before moving it. Watching a gas igniter through the oven floor to see whether it lights is a safe and useful observation. Replacing an igniter, touching the burner, the safety valve or any gas joint is licensed trade work and goes to a technician, with no exceptions. Never bypass a thermal cut-out or a door lock to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "Gas models: a weak or failed igniter, shown as F9",
+      "frequency": "most cases",
+      "confirm": "This is the single most common LG oven fault and it has a distinctive signature. Set a bake and watch the igniter through the slots in the oven floor. A healthy one glows bright and the burner lights within roughly a minute. A failing one glows, often dull orange, carries on glowing well past a minute and a half, and the burner never lights. It is drawing enough current to glow but not enough to open the gas safety valve."
+    },
+    {
+      "cause": "Electric models: a failed relay board or element circuit, shown as F9",
+      "frequency": "most cases",
+      "confirm": "The oven never warms at all and the bake element never glows anywhere along its length. LG's own guidance for electric ranges on this code points at a short-circuited element, a failed relay board, or a bad connector at the relay board, and says the fix is a repair service. Look along the element for a blistered or split section before anything else, since that is visible and free to check."
+    },
+    {
+      "cause": "A temperature sensor reading wrongly",
+      "frequency": "common",
+      "confirm": "The oven heats but the control is not satisfied with what it is being told. With the breaker off, unplug the sensor behind the rear panel and watch its resistance as you warm the probe in your hand: an oven sensor is a resistance temperature detector, so the reading must climb steadily with heat. A reading that does not move is a failed sensor regardless of what the correct figure would be."
+    },
+    {
+      "cause": "Gas supply not reaching the oven",
+      "frequency": "occasional",
+      "confirm": "The igniter glows properly but nothing lights, and your other gas appliances are also behaving oddly or will not light. Check the shutoff valve behind the range sits in line with the pipe rather than across it. If other appliances are affected too, the problem is upstream of the range and belongs to the gas utility."
+    },
+    {
+      "cause": "A blown thermal fuse or tripped cut-out",
+      "frequency": "occasional",
+      "confirm": "The oven is completely dead on heat while the display and the cooktop work normally, often after a self-clean cycle. These devices do not fail without a reason, so if one has opened, something made it overheat and that cause needs finding too, otherwise the replacement will do the same thing."
+    },
+    {
+      "cause": "Control lock mistaken for a fault",
+      "frequency": "occasional",
+      "confirm": "The display is lit and normal but the keys do nothing and the oven refuses to start. Look along the panel for a small padlock icon printed on or beside a pad and hold that pad for a few seconds. LG assigns this to different buttons across ranges, so find the icon rather than trusting a button name from another model."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Establish whether your range is gas or electric",
+      "detail": "This decides everything that follows, and it is not always obvious on a built-in wall oven. A gas oven has a burner tube along the bottom of the cavity under a removable floor panel and a shutoff valve on a pipe behind the range. An electric oven has a visible bake element across the bottom of the cavity. Advice written for the wrong fuel on this code sends you after a part your oven does not have.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a proper breaker reset",
+      "detail": "Switch the range off at the circuit breaker and leave it for a full five minutes before restoring power. Sources disagree on how long is needed, with some saying thirty seconds is enough, but five minutes costs nothing and covers both: the board holds residual charge and a short cycle often leaves the stored fault in place. If the code returns on the next preheat, it is hardware and resetting again will not help.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Gas: watch the igniter during a preheat",
+      "detail": "This is the most informative thing you can do on a gas LG oven and it needs no tools. Take the oven floor panel out, usually two screws inside the cavity, set a bake, and watch the igniter at the burner. Time it. Bright glow and a burner lighting inside about a minute is healthy. A dull glow continuing past ninety seconds with no flame is a failing igniter, which is the classic cause of F9 on gas.",
+      "minutes": 15,
+      "tools": "Screwdriver, timer",
+      "warning": "Stay back from the burner while it may light, keep the oven door open only as far as you need, and do not touch the igniter, the burner or any gas fitting. This step is to look, not to work."
+    },
+    {
+      "name": "Electric: inspect the bake element along its length",
+      "detail": "With the breaker off and the oven cold, look along the whole bake element at the bottom of the cavity, not just at a glance. You are looking for a blistered, swollen, split or brightly pitted section, which is where the resistance wire inside has broken through the sheath. A visibly damaged element explains the code and is one of the cheaper oven parts to replace.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": "Breaker off before you reach into the cavity, and let the oven cool completely first."
+    },
+    {
+      "name": "Test the temperature sensor by warming it",
+      "detail": "With the breaker off, pull the range forward, remove the rear access panel with a nut driver and unplug the two-pin sensor connector. Put a multimeter on ohms across the sensor pins, note the reading, then warm the probe in your hand or with a hairdryer on low and watch the number climb. Steady movement with heat proves the sensor is good without needing a reference figure for your model. No movement condemns it.",
+      "minutes": 25,
+      "tools": "Nut driver, multimeter",
+      "warning": "Breaker off. The rear panel sits close to an uninsulated 240 volt terminal block, and resistance readings are never taken live."
+    },
+    {
+      "name": "Check the control lock before assuming a fault",
+      "detail": "If the panel is lit but unresponsive, scan the control for a small padlock symbol printed on or under a pad and hold that pad for about three seconds. LG puts this function on different buttons across its ranges, so find the icon on your own panel rather than following a button name from a different model. This takes a minute and it is not a fault at all.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test with a low bake and an independent thermometer",
+      "detail": "Once you have changed something, run a bake at a low setting with a separate oven thermometer on the middle shelf and stay with it for the first twenty minutes. You want to see the oven climb and level off near the setpoint. Do not use a self-clean cycle as your first test, because it is the hottest thing the oven does and the worst moment to find out the fault is still there.",
+      "minutes": 30,
+      "tools": "Independent oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If a reset has not held, the next move depends entirely on fuel, so take the two separately. On a gas oven, the igniter observation settles most cases on its own: an igniter that glows past ninety seconds without lighting the burner has weakened to the point where it no longer draws enough current to open the gas safety valve, and that is your fault even though the igniter still lights up and looks alive. This is the single most misdiagnosed gas oven symptom, because people see a glow and conclude the igniter is fine. The part itself is typically $40 to $110, but fitting it means working at the burner assembly on a gas appliance, so it goes to a licensed technician and a fitted repair usually lands between $200 and $400. If the igniter never glows at all, the fault is upstream of it in the wiring or the control rather than the igniter itself. On an electric oven, work in cost order: a visibly damaged element at $30 to $80 first, then the temperature sensor at $25 to $60 if it fails the warm-up test, and only then the relay board, which is what LG's own guidance points at for this code and which runs $120 to $280 as a part. The relay board is the expensive end and is also the one LG says needs a service visit rather than a home fix. Across both fuels, one thing to rule out early is a thermal cut-out that has opened, usually after a self-clean cycle. These protect against overheating and they do not trip without a reason, so if you find one open, something caused it and fitting a new one without finding that cause just resets the clock. A blocked oven vent, a failed cooling fan or a door seal that has gone hard are the usual reasons.",
+  "reset_procedure": "Switch the range off at the circuit breaker, wait a full five minutes and restore power. Published advice disagrees here, with some sources saying thirty seconds is sufficient and others five minutes, so take the longer one since it costs nothing and covers both. Leave the oven idle for a few minutes after power returns before setting a cycle. A reset is worth one attempt on this code: F9 that comes back on the next preheat is a hardware fault, and the diagnosis then depends on whether your oven burns gas or runs an element.",
+  "model_notes": "LG publishes a fairly short oven code list and F9 dominates it in practice, so a page claiming a long roster of LG oven codes is usually padding. The important distinction on F9 is fuel rather than model year: LG's own support material for electric ranges points at a short-circuited element, a failed relay board or a bad relay connector and directs owners to a repair service, while the field evidence on gas models points overwhelmingly at a weakening igniter. Several figures that circulate for this code, including the exact preheat temperature and time window the control uses and a room-temperature sensor resistance, come from repair blogs rather than LG, so treat them as approximate and use the warm-up test on the sensor instead of chasing a specific number. LG also puts the control lock function on different pads across ranges, so look for the padlock icon rather than a named button.",
+  "parts": [
+    {
+      "name": "Oven igniter, gas models",
+      "cost": "$40 to $110",
+      "difficulty": "technician only",
+      "note": "The usual F9 answer on gas; fitting it is work at the burner and is licensed trade"
+    },
+    {
+      "name": "Bake element, electric models",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Two screws and two spade terminals; fit if it is visibly blistered or split"
+    },
+    {
+      "name": "Oven temperature sensor probe",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Test by watching resistance climb as the probe warms, before buying"
+    },
+    {
+      "name": "Relay or main control board",
+      "cost": "$120 to $280",
+      "difficulty": "technician only",
+      "note": "What LG points at for electric F9; the expensive end of this repair"
+    },
+    {
+      "name": "Thermal fuse or cut-out",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Find what made it open before fitting a new one"
+    }
+  ],
+  "when_to_call": "Call a licensed gas technician for anything on a gas oven beyond watching the igniter, including replacing it, because that is work at the burner assembly of a gas appliance and it is not a DIY part regardless of what a video shows. Call an appliance technician for an electric oven where the element and sensor both check out, since the relay board is next and LG's own guidance for this code on electric ranges is a service visit. Call if a thermal cut-out has opened, because the cause needs finding rather than just the part replacing. And call rather than guessing if you cannot tell whether a built-in wall oven is gas or electric.",
+  "faqs": [
+    {
+      "q": "What does F9 mean on an LG oven?",
+      "a": "The oven failed to reach temperature within the time the control allows during early preheat. It is a symptom rather than a diagnosis: the control knows the oven is not heating but not why. The cause splits by fuel, with a weakening igniter the usual answer on gas and the relay board, element or sensor the usual answer on electric."
+    },
+    {
+      "q": "Why is F9 different on gas and electric LG ovens?",
+      "a": "Because they make heat in completely different ways. A gas oven relies on an igniter that must draw enough current to open the gas safety valve, and igniters weaken with age until they glow without opening the valve. An electric oven relies on a relay switching power to an element, so the failures are a dead element, a bad relay or a bad sensor."
+    },
+    {
+      "q": "My gas oven igniter glows but the burner never lights. Why?",
+      "a": "That is the classic failing igniter and the most misdiagnosed gas oven symptom. The igniter doubles as the current path that opens the gas safety valve, so as it ages it can still glow while drawing too little current to open the valve. A glow lasting past about ninety seconds with no flame is the giveaway."
+    },
+    {
+      "q": "How do I reset an LG oven?",
+      "a": "Switch it off at the circuit breaker, wait a full five minutes and restore power. Sources disagree on the time needed, with some saying thirty seconds, so take the longer one since it costs nothing. If the code returns on the next preheat it is a hardware fault, and the diagnosis from there depends on whether the oven is gas or electric."
+    },
+    {
+      "q": "Can I still use my LG oven with an F9 code?",
+      "a": "The oven will not heat, so there is nothing to use. On a range the cooktop sits on a separate circuit and usually works normally. On a gas model, do not keep retrying the preheat repeatedly to force it, because each attempt puts gas near an igniter that is not lighting it reliably."
+    },
+    {
+      "q": "Can I replace an LG oven igniter myself?",
+      "a": "The observation that identifies it is safe to do yourself. The replacement is not: it means working at the burner assembly of a gas appliance, which is licensed trade work. Expect $40 to $110 for the part and $200 to $400 for the job fitted. Watching the igniter first is still worth doing, because it tells the technician exactly what to bring."
+    },
+    {
+      "q": "How do I unlock an LG oven control panel?",
+      "a": "Look along the panel for a small padlock icon printed on or beside a pad and hold that pad for about three seconds. LG assigns the control lock to different buttons across its ranges, so find the icon on your own panel rather than following a button name from another model. A locked panel is a setting, not a fault, and nothing needs repairing."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "F9 means the oven never got hot. Which part failed depends on the fuel.",
+    "labels": {
+      "display": "F9",
+      "c1": "Gas: watch the igniter glow",
+      "c2": "Electric: inspect the bake element",
+      "c3": "Sensor: resistance rises with heat",
+      "c4": "Breaker reset, five full minutes"
+    }
+  },
+  "sources": [
+    {
+      "title": "Electric range F9 error code guidance",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG range and wall oven service sheet and wiring diagram",
+      "publisher": "Service sheet supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "LG oven F9 diagnosis on gas and electric models",
+      "publisher": "Appliance repair reference sites and parts retailers",
+      "url": null
+    },
+    {
+      "title": "Field reports on weak igniters glowing without opening the gas valve",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F9"
+  ]
+}

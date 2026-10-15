@@ -1,0 +1,107 @@
+{
+  "title": "Whirlpool Oven PF Code: Power Failure, Not a Fault",
+  "meta_description": "PF on a Whirlpool oven means the power was interrupted and has come back. It is a notice, not a fault. Press Cancel and reset the clock.",
+  "h1": "Whirlpool oven PF code: it means the power was interrupted",
+  "answer": "PF is not a fault. It means the power to your oven was interrupted and has since come back, and the control is telling you so because it lost the clock and anything you had timed. Press Cancel or Off to clear it, then set the clock again. The only version worth investigating is a PF that keeps appearing when there has been no obvious power cut, because that means the supply to the oven is dropping out intermittently and something in the circuit needs looking at.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "2 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $300 only if it keeps recurring" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A power cut or a brownout",
+      "frequency": "most cases",
+      "confirm": "Other clocks in the house are flashing too, or the neighbors lost power at the same time. A storm, a utility fault or a momentary dip will all do it, and nothing in the oven is affected beyond the clock."
+    },
+    {
+      "cause": "The breaker tripped or was switched off",
+      "frequency": "most cases",
+      "confirm": "Only the oven shows PF and nothing else in the house lost time. Check the panel: a breaker that tripped and was reset, or one switched off during work elsewhere, produces exactly this with no other symptom."
+    },
+    {
+      "cause": "A loose connection at the terminal block or junction box",
+      "frequency": "common",
+      "confirm": "PF appears repeatedly with no power cut anyone noticed, sometimes after the oven door is closed firmly or when another appliance starts. A lug that has backed out over years of heat cycling drops the supply for a fraction of a second, which is all it takes."
+    },
+    {
+      "cause": "A failing breaker or an overloaded shared circuit",
+      "frequency": "occasional",
+      "confirm": "PF arrives when something else large switches on, or the breaker feels warm to the touch. Breakers do wear out and start dropping out under load long before they fail outright."
+    },
+    {
+      "cause": "The control board is losing its own supply",
+      "frequency": "rare",
+      "confirm": "Repeated PF with the house supply proven good by an electrician and the terminal block confirmed tight. The answer of exclusion, and not somewhere to start."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press Cancel or Off to clear it",
+      "detail": "A single press of Cancel, or Off on models that use that wording, dismisses the notice. There is nothing to reset, no code stored and no part to check. If the display clears and goes back to the time of day or a blank clock, that is the whole repair and you can stop reading here.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Set the clock again",
+      "detail": "The control lost the time when the power dropped, and on many Whirlpool ovens a clock that has not been set will block timed cooking and delay start even though normal baking works. Set it now rather than discovering the problem the next time you want a timed roast.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check anything that was cooking or timed",
+      "detail": "This is the part people miss. If the power dropped during a bake, the oven stopped and did not restart itself, so whatever is inside has been sitting in a cooling oven for an unknown length of time. If it dropped during a delay start or an overnight timed cook, the food may have sat at room temperature for hours. Throw out anything you cannot account for rather than guessing.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Partly cooked food left at room temperature for more than a couple of hours is not safe to finish cooking. Discard it."
+    },
+    {
+      "name": "Look at the breaker if nothing else in the house lost power",
+      "detail": "Go to the panel and find the oven's breaker. A breaker that has tripped often sits slightly proud rather than in a clean off position, especially a double pole that has gone on one leg. Push it fully off and fully on. If it trips again, leave it off and call an electrician rather than resetting it repeatedly.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": "A breaker that keeps tripping is reporting a real fault. Do not keep resetting it."
+    },
+    {
+      "name": "Get the supply checked if PF keeps coming back",
+      "detail": "Recurring PF with no power cuts anyone noticed means the oven is losing its supply briefly and repeatedly. With the breaker off, the terminal block and junction box need checking for a lug that has backed out or discolored. That is an electrician's hour rather than an appliance repair, and it is worth doing because a loose high-current connection generates heat.",
+      "minutes": 45,
+      "tools": "Licensed electrician",
+      "warning": "Breaker off and verified dead before any cover comes off. Leave the terminal block to someone who can identify every conductor."
+    }
+  ],
+  "still_showing": "A single PF after a storm is finished business once you have pressed Cancel and reset the clock. A PF that keeps returning is a different thing and worth chasing, because the oven is reporting something real about your electrical supply rather than about itself. Work out first whether the rest of the house is affected: if other clocks blink at the same moments, the supply into the property is dipping and that is a utility or main panel question. If only the oven does it, the fault is in that circuit. Check the breaker for heat and for a sloppy action, then have an electrician check the terminal block and junction box for a lug that has backed out, which is the common cause on an oven that has been in place for years. A loose connection carrying oven current generates heat at the joint, so this is worth fixing properly rather than living with. Only when the supply has been proven good does the control board become a candidate, and that is rare enough that you should not reach for it first.",
+  "reset_procedure": "Press Cancel or Off once to dismiss the notice, then set the clock. That is all PF needs. If the display will not clear with the button, switch the oven off at its circuit breaker for a full minute and back on, which forces the control to reinitialise. There is no stored fault to clear and no diagnostic sequence to run, because nothing has gone wrong inside the appliance.",
+  "model_notes": "PF means the same thing across Whirlpool, KitchenAid, Maytag and Amana ovens and ranges, and on most of their other appliances too, so a PF on a washer or a dryer in the same house is telling you the same story about the supply. Some models show the code as PF, some flash the clock without any letters at all, and some do both. Do not confuse it with the F-prefixed fault codes: PF carries no F number and no E number because it is a notice rather than a fault in the code table.",
+  "parts": [
+    { "name": "Oven terminal block", "cost": "$20 to $60", "difficulty": "technician only", "note": "Only where a lug has overheated or backed out and is causing repeat dropouts" }
+  ],
+  "when_to_call": "There is nothing to call anyone about for a single PF after a power cut. Call an electrician, not an appliance technician, if PF keeps appearing with no power interruptions anyone noticed, because the fault is in the circuit feeding the oven rather than in the oven. Call them promptly rather than eventually if the breaker feels warm, looks discolored, or trips when the oven is used, since a loose connection carrying that current is a heat problem as well as a nuisance. An appliance technician is only worth the call-out once an electrician has proven the supply is sound and PF is still recurring.",
+  "faqs": [
+    { "q": "What does PF mean on a Whirlpool oven?", "a": "Power failure. The supply to the oven was interrupted and has come back, so the control lost the clock and any timed cooking you had set. It is a notice rather than a fault code, nothing is broken, and pressing Cancel or Off clears it. Setting the clock again finishes the job." },
+    { "q": "How do I clear the PF code?", "a": "Press Cancel, or Off on models using that wording, and then reset the clock. If the display will not clear with the button, switch the oven off at its breaker for a minute and back on. There is no stored fault and no diagnostic sequence, because nothing in the appliance has actually failed." },
+    { "q": "Is PF a sign my oven is broken?", "a": "No. It reports something that happened to the electricity supply, not something wrong with the oven. The one case worth attention is a PF that keeps coming back when nobody noticed a power cut, because that means the circuit feeding the oven is dropping out intermittently and the connection needs checking." },
+    { "q": "Is food left in the oven during a PF safe to eat?", "a": "Not if you cannot account for how long it sat. The oven stopped when the power went and did not restart itself, so anything mid-bake has been cooling for an unknown period, and anything on a delay start may never have cooked at all. Partly cooked food left out for more than a couple of hours should be thrown away." },
+    { "q": "Why does PF keep appearing with no power cut?", "a": "Because the oven is losing its supply briefly and repeatedly, usually from a lug that has backed out at the terminal block or junction box after years of heat cycling. It only takes a fraction of a second for the control to notice. Have an electrician check the connection, since a loose joint at that current also makes heat." },
+    { "q": "Does PF stop the oven working?", "a": "Not generally. Normal baking works once you clear the notice. What it does block on many models is timed cooking and delay start, because those need a clock that has been set and the clock was lost with the power. Set the time and the full set of functions comes back." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "What PF is telling you, and the two minutes it takes to clear",
+    "labels": {
+      "display": "PF",
+      "c1": "Press Cancel or Off once",
+      "c2": "Set the clock again",
+      "c3": "Check food left mid-bake",
+      "c4": "Repeat PF means check the supply"
+    }
+  },
+  "sources": [
+    { "title": "PF power failure message on ovens and ranges", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool oven use and care guide, clock and timed cooking after a power interruption", "publisher": "Owner documentation supplied with the appliance", "url": null },
+    { "title": "Whirlpool appliance display code reference", "publisher": "Appliance repair trade reference sites", "url": null }
+  ],
+  "related_codes": ["F1", "F9 E0", "E1", "PSH", "F3", "F2"]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Amana Oven F3 Error Code: Causes and How to Fix It",
+  "meta_description": "F3 on an Amana oven is a temperature sensor fault. The sensor is a cheap part and the test needs no reference figure, just a meter.",
+  "h1": "Amana oven F3 error code: what it means and how to fix it",
+  "answer": "F3 on an Amana oven means the control is reading something from the oven temperature sensor that it refuses to believe, so it stops rather than guess at how hot the cavity is. Amana ovens are built on the Whirlpool platform, so this is the same fault and the same repair as a Whirlpool F3. The sensor is an inexpensive part at the back of the cavity, and you can test it with a meter without needing any reference figure for your model.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 minutes to test, about an hour to replace",
+  "cost_estimate": { "diy": "$25 to $60 for the sensor", "technician": "$180 to $350" },
+  "safety_warning": "Switch the oven off at the breaker before removing any panel or unplugging the sensor. A built-in wall oven is usually hardwired with no plug to pull, and the oven's own power button does not isolate it. On a gas range, anything involving the gas valve, the safety valve or the igniter goes to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has failed open or shorted",
+      "frequency": "most cases",
+      "confirm": "With the breaker off and the sensor unplugged, a meter across its two terminals reads infinite (open) or near zero (shorted) instead of a steady value that changes as it warms."
+    },
+    {
+      "cause": "The sensor plug or harness behind the oven",
+      "frequency": "common",
+      "confirm": "The sensor itself tests fine on the bench but the code persists. Look for a pushed-back pin, a scorched plug or a wire chafed against the cavity where it passes through."
+    },
+    {
+      "cause": "Heat damage from repeated self-clean cycles",
+      "frequency": "common",
+      "confirm": "The code appeared shortly after a self-clean. That cycle runs the cavity far hotter than cooking does and is the single biggest killer of oven sensors, latches and boards."
+    },
+    {
+      "cause": "The electronic control board",
+      "frequency": "rare",
+      "confirm": "A sensor that reads correctly and a connector that is sound, with F3 still showing. This is the last thing to suspect, not the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch off at the breaker and note the self-clean history",
+      "detail": "Turn the oven off at the breaker, not just at the control panel, because a built-in wall oven is often hardwired with no plug to pull. While you are there, think back to whether the oven ran a self-clean recently. That answer will not change the repair, but it tells you why the part failed and whether to keep using that cycle.",
+      "minutes": 4,
+      "tools": null,
+      "warning": "The oven's own power button is not an isolator. Use the breaker."
+    },
+    {
+      "name": "Find the sensor inside the cavity",
+      "detail": "Look at the rear wall of the oven cavity, usually in an upper corner. The sensor is a thin metal probe a few inches long on a small bracket, held by two screws. Take the racks out, undo the two screws, and gently draw the probe forward: there is enough slack in the lead to pull a few inches of it into the cavity.",
+      "minutes": 8,
+      "tools": "Nut driver or Phillips screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Test the sensor without needing a reference figure",
+      "detail": "Unplug the sensor at the connector behind the cavity wall and put a meter on ohms across its two terminals. Infinite means the sensor has gone open circuit and is dead. Near zero means it has shorted and is dead. Anything in between, warm the probe in your closed hand or with a hairdryer on low and watch the number. An oven sensor is a resistance element, so it should climb steadily as it heats. A reading that climbs is a healthy sensor and the fault is elsewhere.",
+      "minutes": 10,
+      "tools": "Multimeter, hairdryer",
+      "warning": "Breaker off before unplugging anything."
+    },
+    {
+      "name": "Inspect the connector before you buy anything",
+      "detail": "With the sensor unplugged, look closely at both halves of the connector. A pin pushed back into the housing, green corrosion, or browning from heat will all produce this code with a perfectly good sensor fitted. Reseat it firmly and make sure it clicks. This costs nothing and accounts for a real share of repeat faults.",
+      "minutes": 6,
+      "tools": "Torch",
+      "warning": null
+    },
+    {
+      "name": "Fit the new sensor if it failed the test",
+      "detail": "Order against your full model number, fit the probe back through the cavity wall, do up the two screws, and push the connector home until it clicks. Make sure the lead is not resting against anything that gets hot. Restore the breaker and run the oven up to a moderate temperature to confirm the code stays away.",
+      "minutes": 35,
+      "tools": "Nut driver, new sensor",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sensor reads a sensible value that climbs when you warm it, and the connector is clean and firmly seated, the sensor is not your problem and you should not buy one. Work through it in this order. First, follow the sensor lead from the cavity wall back toward the control and look for a chafed spot where it passes through the metal, which is a common failure on ovens that have been pulled out and pushed back for cleaning: an intermittent short there produces exactly this code and is repairable with a crimp and some heat-shrink rather than a part. Second, if the harness is sound, the fault is in the electronic control board, and that is a $150 to $350 part on this platform, commonly $300 to $550 fitted. That is the point to weigh the repair against the oven, especially on a built-in over about ten years old where the board may no longer be available new. Third, before agreeing to a board, ask the technician whether they have measured the sensor circuit at the board connector rather than at the sensor, because a reading that is good at one end and bad at the other proves the harness and saves you the board. One thing worth knowing whichever way it goes: if this oven has been run on self-clean regularly, the replacement will fail the same way, so use the cycle sparingly or hand-clean instead.",
+  "reset_procedure": "Switch the oven off at the breaker for five minutes and back on. That clears a stored fault and will tell you whether the code was a one-off reading glitch or a live fault, which is useful information either way. It will not fix a failed sensor: if the sensor is genuinely open or shorted, the code returns as soon as the control next reads it.",
+  "model_notes": "Amana ovens are built on the Whirlpool platform, so an Amana F3 and a Whirlpool F3 are the same fault with the same part and the same procedure, and any independent who works on Whirlpool can service it. Newer controls in this family report the same area of fault as a two-part code, F3 followed by an E and a digit, where the second half narrows down which sensor circuit is complaining. If your display shows two groups of characters alternating, write both halves down before searching, because half a code finds the wrong page.",
+  "parts": [
+    { "name": "Oven temperature sensor and bracket", "cost": "$25 to $60", "difficulty": "easy", "note": "Two screws and a connector; order against the full model number" },
+    { "name": "Sensor harness or repair connector", "cost": "$15 to $40", "difficulty": "moderate", "note": "Only if the lead is chafed or the plug is heat damaged" },
+    { "name": "Electronic oven control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, and only after the sensor and harness are proven good" }
+  ],
+  "when_to_call": "Call someone if the sensor tests healthy, the connector is sound and the harness is undamaged, because the next step is measuring the sensor circuit at the control board with the oven live, and that is work at mains voltage inside a cabinet. Call rather than proceed if this is a gas range and you find yourself anywhere near the gas valve, safety valve or igniter: those are licensed-technician parts regardless of how cheap they look. And if the oven is a built-in more than about ten years old and the diagnosis lands on the control board, get the quote in writing before agreeing, because board availability on older built-ins is poor and the cost can approach replacing the appliance.",
+  "faqs": [
+    { "q": "Is an Amana F3 the same as a Whirlpool F3?", "a": "Yes. Amana ovens are built on the Whirlpool platform, so the code, the part and the procedure are identical. That is good news practically: any independent technician who works on Whirlpool can service it, the sensor is widely stocked, and parts cost what mass-market parts cost rather than what premium-brand parts cost." },
+    { "q": "Can I keep using the oven with F3 showing?", "a": "No, and it will usually refuse anyway. The control has decided it cannot trust the cavity temperature, so it stops heating rather than run blind. Even if yours still lights, cooking on an oven that does not know its own temperature risks both undercooked food and an element running longer than it should." },
+    { "q": "How do I test the sensor if I do not know what reading to expect?", "a": "You do not need the figure. Infinite resistance means open and dead, near zero means shorted and dead. For anything in between, warm the probe in your hand and watch the meter: an oven sensor is a resistance element and should climb steadily as it heats. A reading that climbs is healthy." },
+    { "q": "Why did this happen after I ran a self-clean?", "a": "Self-clean runs the cavity several hundred degrees hotter than any cooking cycle, and that heat is what eventually kills sensors, door latch motors and control boards. It is the single most common trigger for this code. Use the cycle sparingly, or hand-clean, and the replacement sensor will last considerably longer." },
+    { "q": "Is the oven sensor the same thing as the thermostat?", "a": "On a modern Amana oven there is no separate mechanical thermostat. The sensor reports the cavity temperature to the control board, and the board decides when to switch the element on. Older ovens used a mechanical thermostat with a capillary tube, which is a different part and does not produce an F3 code." },
+    { "q": "The code cleared after a breaker reset. Is it fixed?", "a": "Possibly, but watch it. A reset clears a stored fault, so a genuine one-off glitch will stay away. If the code returns within a few cycles the sensor or its wiring is failing intermittently, which is harder to catch but no less real, and the meter test is still the way to settle it." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where the Amana oven temperature sensor connects, and what to check before buying a board",
+    "labels": {
+      "display": "F3",
+      "c1": "Sensor connector, reseat it first",
+      "c2": "Sensor lead, check for chafing",
+      "c3": "Control board, last resort",
+      "c4": "Breaker off before any of this"
+    }
+  },
+  "sources": [
+    { "title": "Oven temperature sensor fault guidance for the Whirlpool platform", "publisher": "Whirlpool-family product help documentation", "url": null },
+    { "title": "Technical sheet supplied inside the oven console", "publisher": "Amana service literature", "url": null },
+    { "title": "Field reports on F3 causes and self-clean damage", "publisher": "Appliance repair community threads", "url": null }
+  ],
+  "related_codes": ["F3 E0", "F3 E2", "F1", "F2", "F5"]
+}

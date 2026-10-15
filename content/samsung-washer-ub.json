@@ -1,0 +1,197 @@
+{
+  "title": "Samsung Washer UB Error Code: Causes and Fix",
+  "meta_description": "UB on a Samsung washer means the drum would not balance, so it gave up on the spin. Usually one heavy item or an unlevel machine. Here is how to fix it.",
+  "h1": "Samsung washer UB error code: what it means and how to fix it",
+  "answer": "UB means the washer tried to spin, found the load sitting unevenly in the drum, retried several times and eventually gave up, which is why your clothes are still soaking wet. It is the fault code the machine falls back to when the UR rebalancing attempts fail. Most of the time the cause is the load itself, usually one heavy item like a bath mat or a tangled duvet cover, and redistributing it by hand clears the code immediately. If it happens on every load including small balanced ones, the machine is either not level or its suspension is worn.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "10 minutes for a load problem, up to 3 hours for suspension",
+  "cost_estimate": {
+    "diy": "$0 to $160",
+    "technician": "$180 to $400"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "One heavy item, or a load tangled into a single mass",
+      "frequency": "most cases",
+      "confirm": "Open the door. A wet bath mat, a hoodie or a duvet cover sitting in a lump on one side with everything else flat against the drum wall. Soaked, that one item outweighs the rest of the wash, and no amount of retrying will spread it out on its own."
+    },
+    {
+      "cause": "The machine is not level, or the feet have worked loose",
+      "frequency": "most cases",
+      "confirm": "Push down on each top corner in turn. If the machine rocks on a diagonal, two feet are carrying it and two are not. Also check each lock nut: a foot set correctly at installation will unwind itself over a year or two of spinning if the nut was never tightened."
+    },
+    {
+      "cause": "The load is too small or too large for the drum",
+      "frequency": "common",
+      "confirm": "One pair of jeans on its own has nothing to balance against; a drum packed to the roof cannot redistribute at all. The test is whether you can lay a flat hand on top of the dry load and still fit it between the laundry and the top of the drum."
+    },
+    {
+      "cause": "The floor flexes under the machine",
+      "frequency": "common",
+      "confirm": "Stand next to it during the spin-up. If the floor moves under your feet, or a glass on a nearby counter rattles, you are on a suspended timber floor. The machine feeds its own vibration back into the floor and the sensor reads it as imbalance."
+    },
+    {
+      "cause": "Worn shock absorbers or suspension rods",
+      "frequency": "occasional",
+      "confirm": "UB on every load including small mixed ones, plus a knock from inside the cabinet during spin-up. Push the empty drum down sharply by hand: a healthy machine sinks and settles in one movement, a worn one bounces two or three times before it stops."
+    },
+    {
+      "cause": "Transit bolts still fitted after delivery",
+      "frequency": "rare",
+      "confirm": "Only on a recently delivered or moved machine. Look at the back panel for three or four large-headed bolts. If they are still there the drum is bolted solid to the cabinet, the machine will shake hard, and it must not be run until they come out."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Redistribute the load by hand",
+      "detail": "Pause the cycle and wait for the drum to stop so the door releases. Pull everything out, shake each item loose, and untwist anything that has roped. Put it back spread evenly around the drum rather than dropped in as one lump, then run Spin or Rinse and Spin. This alone clears most UB codes.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Wait for the drum to come to a complete stop before reaching in."
+    },
+    {
+      "name": "Rebalance the contents of the load",
+      "detail": "If you are spinning one heavy item on its own, add two or three mid-weight towels so the drum has something to counterweight against. If the drum is crammed, take a third of it out. Wash bedding on its own and shake duvet covers out fully before loading, because a cover that has swallowed the rest of the wash cannot be balanced at any speed.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Level the machine on all four feet",
+      "detail": "Put a spirit level across the top, front to back and side to side. Push each corner down to find the rocking diagonal. Adjust the feet until the cabinet sits solid with no movement at any corner, then hold each foot and tighten its lock nut firmly up against the underside of the cabinet with a wrench. Recheck by pushing the corners again.",
+      "minutes": 20,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Run an empty spin to separate load from machine",
+      "detail": "Take everything out and run a Spin only cycle on a completely empty drum. An empty machine has nothing to unbalance. If it spins up smoothly and quietly to full speed, the machine is mechanically fine and the problem is how it is being loaded. If UB appears on an empty drum, it is the machine.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the floor under the machine",
+      "detail": "Stand beside it through a spin-up and feel the floor. On a suspended timber floor, screw a sheet of plywood across the joists under the machine, or move it onto a solid base. An anti-vibration mat under the feet helps a little but will not fix a genuinely springy floor and can make leveling harder.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Bounce test the suspension",
+      "detail": "With the machine empty and switched off, grip the top edge of the drum, push it down firmly and let go. A front loader with healthy dampers drops and stops in one controlled movement. Two or three rebounds means the shock absorbers have lost their damping. On a top loader the same bounce points at the suspension rods.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the back panel for transit bolts",
+      "detail": "If the machine has been delivered, moved house or had a kitchen fitted around it in the last few weeks, look at the back for three or four bolts with large heads and plastic spacers. They lock the drum for transport. Take them out with a wrench and fit the blanking caps that came in the bag of accessories.",
+      "minutes": 10,
+      "tools": "Wrench or socket set",
+      "warning": "Never run a front loader with transit bolts fitted. It destroys the suspension quickly."
+    }
+  ],
+  "still_showing": "If UB appears on a well-mixed medium load and also on a completely empty spin, the laundry is not the problem and you can stop rearranging it. Go in order of cost. First, the free checks: feet, lock nuts and floor. Loaded and wet is when a marginal installation shows itself, so do the corner-push test with the machine full rather than empty, and look for the drain hose trapped behind a leveling foot, which quietly lifts one corner off the ground. A front loader on a springy timber floor throws balance codes it would never throw on concrete, and a sheet of plywood screwed across the joists underneath is the cheapest real fix there is. Second, the suspension. Shock absorbers on a Samsung front loader are a pair of damper struts between the tub and the base, around $30 to $90 for the pair, reachable with the front panel off and within reach of a confident DIYer in a couple of hours. Suspension rods on a top loader are a set of four, cost more, and should always be replaced as a complete set, because one new damper working against three tired ones just relocates the imbalance. Third, listen carefully during the spin-up with the load out. A rumble or growl that rises and falls with drum speed, rather than a knock, means drum bearings, and that job is expensive enough that on a machine approaching ten years old it is usually the point to price a replacement washer instead. One more thing worth ruling out for nothing if the code started recently: a spin that keeps failing on a machine that also drains slowly is sometimes a drain problem wearing an unbalance code, because water left in the tub throws the balance off. Check the pump filter before you buy any suspension parts.",
+  "reset_procedure": "Press Power to cancel, unplug the washer for five minutes, then plug it back in. Redistribute the load by hand before you restart, and use Spin or Rinse and Spin rather than a full wash so you can see within a couple of minutes whether the drum now balances. Resetting on its own does nothing if the load is still bunched on one side.",
+  "model_notes": "UB is the current code, used on machines from roughly 2017 onward; earlier Samsung washers show the identical fault as UE. Both are distinct from UR, which is the retry status the machine displays while it is still trying to rebalance and is not in itself a fault. Some models, particularly certain top loaders, use dC for the unbalance condition instead, which is confusing because dC is a door fault on most other Samsung washers. If your machine shows dC when the drum is clearly unbalanced, check your model's code list rather than assuming the door latch is at fault.",
+  "parts": [
+    {
+      "name": "Shock absorber or damper pair, front loader",
+      "cost": "$30 to $90 a pair",
+      "difficulty": "hard",
+      "note": "Always replace as a pair; front panel has to come off"
+    },
+    {
+      "name": "Suspension rod set, top loader",
+      "cost": "$60 to $160 a set",
+      "difficulty": "hard",
+      "note": "Replace all four together or the imbalance just moves to a new corner"
+    },
+    {
+      "name": "Leveling feet and lock nuts",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if a foot is bent, seized or has lost its rubber pad"
+    },
+    {
+      "name": "Drum bearing kit",
+      "cost": "$40 to $120",
+      "difficulty": "technician only",
+      "note": "Labor is the real cost; often not worth it on an older machine"
+    }
+  ],
+  "when_to_call": "Call someone if UB appears on an empty spin after the machine has been properly levelled, because at that point the load and the installation are both ruled out and you are into suspension, bearings or the balance sensor. Call sooner if the machine bangs hard enough during spin to walk across the floor or to knock audibly from inside the cabinet, since continuing to run it in that state will damage the tub and the bearings. If the machine is new or newly moved and shaking violently, check the back for transit bolts before you call anyone, because that is the most common cause on a fresh installation and it costs nothing to put right.",
+  "faqs": [
+    {
+      "q": "What is the difference between UB and UR on a Samsung washer?",
+      "a": "UR is the washer trying, UB is the washer giving up. UR means it has detected imbalance and is adding water and tumbling to redistribute the load before another spin attempt. UB means those attempts failed and it stopped, which is why the clothes are still wet. Seeing UR during a big load is normal; seeing UB means you need to intervene."
+    },
+    {
+      "q": "Is UB the same as UE on a Samsung washer?",
+      "a": "Yes. They are the same unbalanced load fault shown on different model generations, with UE on older machines and UB from roughly 2017 onward. Every check on this page applies to both. One wrinkle: a small number of Samsung models use dC for the unbalance condition instead, even though dC is a door fault on most of the range."
+    },
+    {
+      "q": "Can I still use my washer with a UB code?",
+      "a": "You can wash, but you will not get a proper spin, so clothes come out dripping. There is no safety risk in running it, though a machine that bangs hard during spin is damaging its own suspension and bearings. Redistribute the load and run Spin again rather than carrying on with a cycle that ends wet every time."
+    },
+    {
+      "q": "Why does UB only happen with towels and bedding?",
+      "a": "Those are the hardest loads to balance. Wet towels hold a lot of water and move as a block, and a duvet cover behaves like a bag that collects the rest of the wash into one lump on one side. Wash bedding alone, shake it out fully before loading, and split large towel loads into two."
+    },
+    {
+      "q": "How do I know if my shock absorbers are worn?",
+      "a": "Test it with the machine empty and off. Push the top of the drum down firmly and let go. A healthy one drops and stops in a single movement. If it bounces two or three times before settling, the dampers have lost their resistance. Confirm it by running a spin on an empty drum: if that also throws UB, the suspension is the suspect."
+    },
+    {
+      "q": "Does a UB code mean my washer is broken?",
+      "a": "Usually not. In most cases nothing is faulty at all, and the machine is correctly refusing to spin a load it cannot balance. It only counts as a breakdown when the code appears on an empty, level machine. The deciding test is an empty spin, and it takes about ten minutes to run."
+    },
+    {
+      "q": "Can an unlevel floor really cause this?",
+      "a": "Yes, and it is one of the most common real causes. A machine that rocks on a diagonal has only two feet taking the load, so the drum's own movement gets amplified rather than damped. A springy timber floor does the same thing on a larger scale. Both show up as persistent balance codes with nothing wrong inside the machine."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "The four things that stop a Samsung drum from balancing",
+    "labels": {
+      "display": "UB",
+      "c1": "Heavy item bunched on one side",
+      "c2": "Level the feet, lock the nuts",
+      "c3": "Shake out and spread the load",
+      "c4": "Springy floor amplifies the wobble"
+    }
+  },
+  "sources": [
+    {
+      "title": "Washing machine displays an unbalanced load code and will not spin",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung washer service literature, spin balance detection and suspension checks",
+      "publisher": "Samsung service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Samsung washer Ub error code: what it means and how to fix it",
+      "publisher": "AppliancePartsPros repair guides",
+      "url": null
+    },
+    {
+      "title": "Field reports on persistent Samsung balance codes and damper wear",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "UE",
+    "UR",
+    "U6",
+    "dC",
+    "SC"
+  ]
+}

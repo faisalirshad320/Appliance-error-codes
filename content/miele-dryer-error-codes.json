@@ -1,0 +1,136 @@
+{
+  "title": "Miele Dryer Error Codes: Reading F Numbers and Messages",
+  "meta_description": "Miele dryer codes are poorly documented and the public lists disagree. Here is what is reliable, plus the airflow checks that fix most faults regardless.",
+  "h1": "Miele dryer error codes: what is reliable and what to check first",
+  "answer": "Miele dryers report faults two ways: older machines show F followed by a number, while the newer heat pump models mostly show plain-language messages telling you to clean the filters or the heat exchanger. The honest position on the F numbers is that Miele does not publish a consumer fault code table, and the third-party lists that fill the gap contradict each other badly, so a number from a web page is a lead rather than a diagnosis. The good news is that it matters less than it sounds: the large majority of Miele dryer faults, whatever number they produce, come down to restricted airflow, and the filters and the heat exchanger are where you start.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes for the airflow checks",
+  "cost_estimate": { "diy": "$0 to $40", "technician": "$180 to $450" },
+  "safety_warning": "Unplug the dryer at the wall before removing any panel beyond the filters and the plinth covers, which are designed to be opened without tools. A heat pump dryer contains a sealed refrigerant circuit: that is licensed-technician work and is not something to open, top up or repair at home. Never run the machine with a filter or the heat exchanger removed, because the fluff goes straight into the heat pump and turns a cleaning job into a repair.",
+  "causes": [
+    {
+      "cause": "Blocked lint filters",
+      "frequency": "most cases",
+      "confirm": "Pull the filters in the door opening and hold them up to a light. You should see light through the mesh across the whole surface. A gray felt layer, or a filter that looks clean but feels slick when you run a thumb across it, is restricting airflow. Fabric softener leaves an invisible film that blocks mesh as effectively as fluff does."
+    },
+    {
+      "cause": "A clogged heat exchanger or evaporator fin block",
+      "frequency": "most cases",
+      "confirm": "Open the plinth cover at the bottom front and look at the fins behind it. They should be a clean comb of metal you can see daylight through. Matted fluff across the face of the fins is extremely common on heat pump models, because owners clean the door filters religiously and never know this part exists."
+    },
+    {
+      "cause": "Cycles that never finish, or finish damp",
+      "frequency": "common",
+      "confirm": "This is the behavior behind the overrun codes, where the machine gives up after running far longer than it should. It is almost always airflow rather than a failed heater. Check the filters and the fin block before anything else, and only then think about sensors."
+    },
+    {
+      "cause": "A sensor in the NTC family",
+      "frequency": "common",
+      "confirm": "The low F numbers are consistently described across sources as sensor faults, as open or shorted circuits on the heater and fan sensors. The pattern to look for is a machine that runs but misjudges drying, or stops early, with airflow already proven good."
+    },
+    {
+      "cause": "The door lock not engaging",
+      "frequency": "occasional",
+      "confirm": "The machine will not start and the door feels like it closes without a solid click. Independent sources agree on the door lock meaning for one of the F numbers. Check the seal for trapped laundry and the latch hook for cracks before assuming the lock has failed."
+    },
+    {
+      "cause": "A condensate drain or container fault",
+      "frequency": "occasional",
+      "confirm": "The container is full, or on a plumbed machine the condensate hose is kinked or its outlet is blocked. A dryer that will not run with an empty container usually has a float stuck in the container housing, which a rinse under a tap normally frees."
+    },
+    {
+      "cause": "An electronics fault",
+      "frequency": "rare",
+      "confirm": "Airflow proven clear, filters and fins clean, container empty and draining, and the machine still faults in the same place every cycle. Sources agree that one of the higher F numbers indicates an electronic unit fault, and that is where a Miele repair gets expensive."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code or message down exactly",
+      "detail": "Note whether you have an F and a number or a plain-language message, and copy it down character for character. Note too what the machine was doing when it appeared and whether the load came out damp, hot or untouched. With Miele's codes being poorly documented publicly, this is what makes a call to Miele service productive rather than a guessing game.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean both lint filters properly",
+      "detail": "Take the filters out of the door opening and pull the fluff off by hand, then rinse them under a hot tap and scrub the mesh with a soft brush. Rinsing matters more than picking: fabric softener leaves a film that blocks the mesh invisibly, and a filter that looks spotless can still be choking the airflow. Dry them fully before refitting, because a wet filter sheds fluff straight into the machine.",
+      "minutes": 12,
+      "tools": "Soft brush",
+      "warning": "Never run the dryer with a filter removed. Fluff then goes directly into the heat exchanger."
+    },
+    {
+      "name": "Open the plinth and clean the heat exchanger fins",
+      "detail": "Release the cover at the bottom front, which on most Miele dryers unclips or turns without tools. Behind it is the heat exchanger or, on a heat pump model, a block of fine metal fins. Vacuum the face of it with a soft brush attachment, working in the direction of the fins rather than across them so you do not bend them flat. This is the single most neglected maintenance point on these machines.",
+      "minutes": 20,
+      "tools": "Vacuum with soft brush attachment",
+      "warning": "Machine unplugged. Do not poke anything metal into the fins; a punctured fin block means a sealed-system repair."
+    },
+    {
+      "name": "Empty the condensate container and check its float",
+      "detail": "Pull the container out, empty it, and rinse the housing it sits in. Look inside for a small float that should move freely up and down; if it is stuck with lint slurry, a rinse frees it. On a plumbed machine, follow the condensate hose instead and check for a kink or a blocked outlet where it joins the waste.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door seal and latch",
+      "detail": "Run a finger all the way round the door seal looking for trapped laundry, a tear or a section pulled out of its channel. Then look at the latch hook on the door edge for cracks and check it clicks solidly rather than just resting closed. A door that is not latching reads to the control as a door that is open, which stops the machine before it starts.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset and run a short program",
+      "detail": "Switch the machine off at the socket for five minutes, then restore power and run the shortest program the dryer has with a couple of towels in it. A short cycle tells you within half an hour whether the airflow work fixed it, rather than committing you to a three hour program to find out. Watch whether the fault lands at the same point each time.",
+      "minutes": 35,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get the model number before calling Miele",
+      "detail": "Find the model and serial number, usually on a sticker inside the door opening or on the back panel. Miele service can tell you what your specific machine is reporting, which no public code list reliably can. Have the code, the model number, and what you have already cleaned ready when you call, because that turns a diagnostic visit into a repair visit.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filters are genuinely clean, the fin block has been vacuumed, the container is empty and the door latches solidly, and the same fault still lands at the same point in the cycle, stop looking up code lists and get the model number to Miele. That is not a cop-out, it is the honest route on this brand: Miele does not publish a public code table, and the lists circulating online disagree with each other on several numbers, including some of the heat pump ones, so a part bought against a web page is a gamble. There are a few numbers that independent sources do agree on, and if yours is one of them it narrows things usefully: the low F numbers as a family of sensor faults on the heater and fan, one of the thirties as the door lock failing to close, another in the thirties as an electronic unit fault, one in the fifties as laundry still not dry after an extended run, and one in the sixties as an air path leak. Treat even those as leads. An air path leak is worth knowing about because it is often fixable: it means air is bypassing the circuit rather than going through the drum, and a door seal that has gone hard, a filter seated crooked, or a plinth cover not properly latched all do it. Where the cost jumps is the electronics and the heat pump itself. A Miele control board is a several hundred dollar part, and anything involving the sealed refrigerant circuit is licensed work with a bill to match. Those machines are built to last a very long time, so a repair on a ten year old Miele is usually worth it in a way the same repair on a budget dryer would not be, but get the quote before you decide rather than after.",
+  "reset_procedure": "Switch the dryer off at the socket for five minutes, then restore power and run the shortest program available with a light load. Use a short cycle deliberately, so you learn within half an hour whether anything changed. A reset will clear a fault left behind by a power interruption, but it does nothing at all to a blocked filter or a matted fin block, and on a Miele those are what most repeat faults actually are.",
+  "model_notes": "This is a brand where the documentation genuinely is thin, and you should know that before cross-checking elsewhere and concluding this page is wrong. Miele does not publish a consumer-facing fault code table, and the third-party lists that fill the gap contradict each other on several numbers, with one widely copied list assigning heat-pump-specific meanings that no other source supports and another giving a number two different meanings on a washer and a dryer. Where independent sources do agree, it is on a handful: a low-number family of NTC sensor faults, a door lock code, an electronic unit code, an overrun code for laundry still damp after a long run, and an air path leak code. The newer T1 heat pump generation mostly sidesteps the problem by showing plain-language maintenance messages instead of numbers, which is why owners of those machines rarely see an F code at all.",
+  "parts": [
+    { "name": "Lint filter set", "cost": "$20 to $60", "difficulty": "easy", "note": "Only if the mesh is torn; most just need rinsing and scrubbing" },
+    { "name": "Condensate container float or seal", "cost": "$15 to $50", "difficulty": "easy", "note": "A stuck float usually frees with a rinse and needs nothing bought" },
+    { "name": "Door seal", "cost": "$40 to $110", "difficulty": "moderate", "note": "A hardened seal is a common cause of an air path leak" },
+    { "name": "Door lock assembly", "cost": "$50 to $130", "difficulty": "moderate", "note": "Check the latch hook and the seal for trapped laundry first" },
+    { "name": "Electronic control unit", "cost": "$250 to $600", "difficulty": "technician only", "note": "The expensive outcome; worth a written quote on an older machine" }
+  ],
+  "when_to_call": "Call Miele service, rather than a general appliance engineer, once the airflow checks are done and the fault persists, because they can tell you what your specific model is reporting and the public code lists cannot. Call immediately and stop using the machine for anything involving the sealed refrigerant circuit on a heat pump model, which is licensed work. Call too if the dryer trips its breaker, smells of burning, or gets hot on the outside of the cabinet. Have the model number, the exact code or message, and a list of what you have already cleaned ready when you ring; on this brand that genuinely shortens the job.",
+  "faqs": [
+    { "q": "Why can't I find a reliable Miele dryer error code list?", "a": "Because Miele does not publish one for owners. The lists online come from third-party repair sites and they contradict each other on several numbers, including some of the heat pump codes. Treat any number you find as a lead rather than a diagnosis, do the airflow checks that fix most faults regardless, and get the model number to Miele service." },
+    { "q": "What should I check first on any Miele dryer fault?", "a": "Airflow, in this order: both lint filters in the door opening, then the heat exchanger or fin block behind the plinth cover at the bottom front. The filters need rinsing and scrubbing rather than just picking, because fabric softener leaves an invisible film. The fin block is the part almost nobody knows about and it causes a disproportionate share of faults." },
+    { "q": "Can I still use my Miele dryer with a fault code showing?", "a": "Not usefully, since most of these stop the cycle rather than degrade it. More to the point, the common causes are restricted airflow, and running a dryer that cannot breathe makes the blockage worse and puts the heater or heat pump under strain. Clear the filters and the fin block before trying another cycle." },
+    { "q": "How do I clean the heat exchanger on a Miele heat pump dryer?", "a": "Open the plinth cover at the bottom front, which unclips or turns without tools on most models. Vacuum the face of the metal fins using a soft brush attachment, working along the direction of the fins rather than across them so they do not bend flat. Never push anything metal into them, because a punctured fin means a sealed-system repair." },
+    { "q": "Why does my Miele dryer take hours and leave clothes damp?", "a": "That is the classic restricted airflow symptom and it is behind the overrun faults too. The machine runs longer and longer trying to reach a dryness it cannot achieve because air is not moving through the load. Clean both filters properly and vacuum the fin block behind the plinth. It is free and it fixes most cases." },
+    { "q": "Is a Miele dryer worth repairing?", "a": "More often than most brands, because the machines are built to run for a very long time and a ten year old Miele may have years left. That logic has limits: a control board is a several hundred dollar part and sealed refrigerant work on a heat pump model is licensed and expensive. Get a written quote before deciding." },
+    { "q": "Does my newer Miele dryer show codes at all?", "a": "Often not. The newer heat pump generation mostly displays plain-language maintenance messages asking you to clean the filters or the heat exchanger rather than a number, which is a genuine improvement and the reason many owners never see an F code. Treat those messages as instructions rather than faults; the machine is telling you exactly what it needs." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "The airflow path that fixes most Miele dryer faults",
+    "labels": {
+      "display": "F",
+      "c1": "Both door filters, rinsed not picked",
+      "c2": "Fin block behind the plinth cover",
+      "c3": "Condensate container and its float",
+      "c4": "Door seal flat and latching solidly"
+    }
+  },
+  "sources": [
+    { "title": "Miele tumble dryer fault code references, where independent lists agree", "publisher": "Third-party appliance fault code databases", "url": null },
+    { "title": "Miele dryer owner documentation, filter and heat exchanger maintenance", "publisher": "Miele operating instructions supplied with the machine", "url": null },
+    { "title": "Field experience on heat pump fin block fouling and overrun faults", "publisher": "Appliance repair trade forums", "url": null }
+  ],
+  "related_codes": ["F32", "F39", "F55", "F66"]
+}

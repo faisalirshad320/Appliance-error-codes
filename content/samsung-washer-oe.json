@@ -1,0 +1,211 @@
+{
+  "title": "Samsung Washer OE Error Code: Overfill, Causes and Fix",
+  "meta_description": "OE on a Samsung washer means it detects too much water in the tub. Turn the taps off first, then check for a stuck inlet valve, suds or a blocked air hose.",
+  "h1": "Samsung washer OE error code: what it means and how to fix it",
+  "answer": "OE means your Samsung washer's water level sensor is reporting that the water in the tub has reached or passed the overflow point. The machine stops the cycle and usually tries to pump out on its own. The two things that cause it are a water inlet valve that has stuck part open and keeps letting water in, and a pressure sensing system that is reading the level wrongly because its air hose is blocked or the drum is full of suds. Turn both supply taps off before you do anything else, because a valve that is passing water will keep passing it whether the machine is running or not.",
+  "severity": "serious",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to diagnose, 1 to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$150 to $300"
+  },
+  "safety_warning": "This is a code where water and mains electricity meet. If there is water on the floor, do not stand in it to reach the plug: switch the washer off at its breaker instead, or dry the floor first with the machine untouched. Turn both supply taps off and leave them off until you know why the machine overfilled, because a mechanically stuck inlet valve will keep filling a stationary washer and flood the room. Unplug the machine at the wall before removing any panel.",
+  "causes": [
+    {
+      "cause": "A water inlet valve is stuck part open",
+      "frequency": "most cases",
+      "confirm": "The definitive test costs nothing. Unplug the washer with the taps still on and watch the drum through the glass for ten minutes. Water trickling in with the machine completely dead can only be a valve stuck open mechanically, usually by a piece of grit on the seat. A valve held open electrically would stop the moment the power went."
+    },
+    {
+      "cause": "The pressure sensor air hose is blocked, kinked or split",
+      "frequency": "most cases",
+      "confirm": "The water level looks normal, nothing overflowed, and the machine still reports OE. The thin clear or black tube running from the bottom of the tub up to the water level sensor fills with detergent sludge or splits where it flexes, and the sensor then reads a pressure that has nothing to do with the real level."
+    },
+    {
+      "cause": "Too much detergent, so foam is filling the tub",
+      "frequency": "common",
+      "confirm": "Suds visible through the glass or piled above the water line, often with a suds warning earlier in the cycle. Foam occupies far more volume than the water that made it and loads the pressure system the same way a genuine overfill does. Regular detergent in an HE machine is the usual reason."
+    },
+    {
+      "cause": "The machine cannot drain, so the level never falls",
+      "frequency": "common",
+      "confirm": "You also saw a 5C or 5E drain code recently, or the drum is sitting full of water. If the washer keeps adding rinse water to a tub that is not emptying, the level climbs until it trips the overflow limit. Check the debris filter behind the panel at the bottom front before anything else."
+    },
+    {
+      "cause": "The water level pressure sensor itself has failed",
+      "frequency": "occasional",
+      "confirm": "Taps off, no water coming in, drum empty, air hose clear and unblocked, and the machine still reports OE on a dry tub. A sensor reporting a high level with no water in the machine has failed and is the part to change."
+    },
+    {
+      "cause": "Main control board fault",
+      "frequency": "rare",
+      "confirm": "The valve closes properly with the power off, the air hose is clear, the sensor is new and OE still appears. A board that keeps a valve energised, or misreads a good sensor, is possible but it is the last thing to suspect rather than the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Turn both supply taps off",
+      "detail": "Reach behind the machine and close the hot and cold taps fully; a quarter-turn lever sits across the pipe when it is shut. Do this before anything else and leave them shut between loads until the fault is found. If the cause is a mechanically stuck valve, the taps are the only thing standing between you and a flooded laundry room overnight.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut the power safely and deal with any water on the floor",
+      "detail": "If the floor is dry, press Power to cancel and unplug the washer at the wall. If there is standing water, do not reach for the plug: switch the washer off at its breaker, then mop up and dry the area before you touch the machine again. Check whether water is above the door glass before opening the door, because a front loader with a full tub will empty onto your feet.",
+      "minutes": 8,
+      "tools": "Towels, mop",
+      "warning": "Never reach for a plug or a switch while standing in water. Use the breaker."
+    },
+    {
+      "name": "Run the stuck-valve test",
+      "detail": "With the washer unplugged and both taps now open again, watch the inside of the drum for ten minutes with a flashlight. Any water appearing, even a slow trickle down the back of the drum, proves an inlet valve is stuck open mechanically, because a dead machine cannot be energising anything. Close the taps again straight afterwards. If nothing comes in, the valves are fine and the fault is on the sensing side.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Drain the tub through the emergency hose",
+      "detail": "Pop the small access panel at the bottom front with a coin or a flat screwdriver. Beside the large filter cap is a short thin hose with a plug. Hold it over a shallow baking tray, pull the plug and let the water out, pinching the hose each time the tray fills. Expect several gallons and lay towels across the whole area, not just under the hatch.",
+      "minutes": 15,
+      "tools": "Flat screwdriver or coin, shallow tray, bucket, towels",
+      "warning": null
+    },
+    {
+      "name": "Clean the debris filter and confirm it drains",
+      "detail": "Once the water is out, unscrew the large filter cap anticlockwise and clear the hair, lint and coins from the filter and the housing. Turn the pump impeller behind it with a finger to check nothing is jammed. If the machine could not drain, the level was always going to climb, and this is the cheapest half of the fix.",
+      "minutes": 12,
+      "tools": "Old toothbrush, flashlight, gloves",
+      "warning": "Keep the washer unplugged while your hand is anywhere near the impeller."
+    },
+    {
+      "name": "Check the pressure sensor air hose",
+      "detail": "Unplug the machine and take the top panel off, usually two screws at the back with the panel sliding rearward. The water level sensor is a small round component with a thin tube running down to a fitting on the tub. Pull the tube off both ends, look through it against a light, and blow through it. Detergent sludge blocks it and a split at a flex point lets pressure escape, and both make the sensor lie. Flush it with warm water and refit it with no kinks or sags.",
+      "minutes": 25,
+      "tools": "Phillips screwdriver, flashlight",
+      "warning": "Unplug at the wall before any panel comes off. Do not rely on the power button."
+    },
+    {
+      "name": "Clear out suds if foam was the problem",
+      "detail": "Run two rinse and spin cycles with an empty drum and no detergent at all, then halve your usual dose and check the bottle says HE. Foam fills the tub far beyond the water that created it and loads the pressure system exactly like a real overfill, so it has to be flushed out before any test result means anything.",
+      "minutes": 45,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset and test on an empty drum",
+      "detail": "Refit the filter cap clockwise until it stops, clip the panel back on, plug the washer in, open the taps and run a short rinse and spin with nothing in the machine. Stand and watch the whole cycle. You want the fill to stop at a sensible level and the drum to empty completely, and you want to be present if it does not.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the taps are off, the tub is empty, the filter is clean and the air hose is clear, you have narrowed OE down to two parts and one board, and the order to try them in is clear. First, settle whether the machine is overfilling or just thinks it is, because that one answer splits the repair in half. Dry the drum, leave the taps off, plug the washer in and switch it on without starting a cycle. If it shows OE on a dry empty tub, nothing is overflowing and the sensing side is at fault: that is the pressure sensor or its air hose, and the sensor is a $20 to $60 part that usually sits under the top panel with one connector and one tube. If instead the machine behaves normally until you open the taps and start a fill, the problem is on the water side and the inlet valve is the part to change, typically $25 to $60 and about half an hour with two screws and a connector. Second, if you fitted a sensor and the code came back, check the air hose fitting on the tub itself rather than the hose; the spigot it pushes onto can block with the same sludge and is easy to miss because it looks clear from the outside. Third, if you replaced a valve because water was getting in with the power off and it still happens, check that nobody has plumbed the washer into a supply with a non-return problem and that you have not replaced just one of two valves when both were weeping. Fourth, only then is the control board a reasonable suspect, and that is where the bill jumps to $250 or more fitted. One honest caveat on this code: Samsung's own documentation on OE is thin, and some sources read it as an overflow condition while others describe it as a general water level sensor fault. The practical approach covers both, which is why the dry-tub test above is the first thing to do rather than the last.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall and wait five full minutes before restoring power. The control holds residual charge and a quick off-and-on frequently leaves the stored fault in place. Before you plug it back in, make sure the tub is actually empty, because the machine will often go straight back into a drain and re-check the moment it wakes up. Test on a short rinse and spin with an empty drum and stay with it.",
+  "model_notes": "Samsung shows this condition with several display variants across model generations, including OE, 0E and OC, which are the same fault read off different panels. Do not confuse it with 1C or 1E, which Samsung uses for a water level sensor fault specifically rather than an overflow condition, although the parts involved overlap. On top loaders the pressure sensor and its air hose sit under the control console rather than under a lift-off top panel, and most Samsung top loaders have no accessible debris filter, so the drain check there starts at the hose.",
+  "parts": [
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "One connector and one air tube, usually under the top panel"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Try flushing the old one first; it is often just blocked"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Fit this only if water enters with the machine unplugged"
+    },
+    {
+      "name": "Drain pump assembly",
+      "cost": "$35 to $90",
+      "difficulty": "moderate",
+      "note": "If the overfill was really a drain failure in disguise"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $320",
+      "difficulty": "technician only",
+      "note": "Last resort, after the sensor, hose and valves are all proven"
+    }
+  ],
+  "when_to_call": "Call someone straight away if water keeps entering the machine with it unplugged and closing the taps is the only thing stopping it, and you are not comfortable changing an inlet valve, because that is a flood waiting for the first person who forgets the taps. Call if the machine reports OE on a dry empty tub after you have cleared the air hose, since the next step is testing the sensor and the board with the machine live and wet. Call a plumber instead if the standpipe backs up when the washer pumps out. And if water has got under the machine or into a floor below, deal with the water damage before the appliance.",
+  "faqs": [
+    {
+      "q": "What does OE mean on a Samsung washer?",
+      "a": "It means the water level sensor is reporting that the water in the tub has reached or exceeded the overflow point, so the machine stops the cycle and usually tries to pump out. It can be a genuine overfill from a stuck inlet valve, or a false reading from a blocked sensor air hose or a tub full of suds."
+    },
+    {
+      "q": "Should I turn the water off if my washer shows OE?",
+      "a": "Yes, immediately, and leave it off until you know the cause. If an inlet valve has stuck open mechanically, it will keep letting water in whether the washer is running, finished or unplugged. The taps are the only thing between a stuck valve and a flooded room, and closing them takes ten seconds."
+    },
+    {
+      "q": "Can I still use my washer with an OE code?",
+      "a": "No. Either the machine is genuinely overfilling, which risks water on the floor, or it cannot tell how much water is in the tub, which means it cannot run a cycle safely. Drain the tub through the emergency hose, leave the door ajar to dry it out, and keep the taps closed until it is fixed."
+    },
+    {
+      "q": "How do I tell if the inlet valve is stuck open?",
+      "a": "Unplug the washer with the taps still open and watch the drum for ten minutes with a flashlight. Any water arriving in a machine with no power can only be a valve stuck open mechanically. If the drum stays dry, the valves are fine and the fault is in the pressure sensing side instead. Close the taps again afterwards."
+    },
+    {
+      "q": "Can too much detergent cause OE?",
+      "a": "Yes. Foam occupies far more space than the water that made it and loads the pressure sensing system the same way a real overfill does. If you can see suds piled above the water line, run two rinse and spin cycles with an empty drum and no detergent, then halve your dose and check you are using HE detergent."
+    },
+    {
+      "q": "Is OE the same as 1C on a Samsung washer?",
+      "a": "They are related but not the same. OE, and its display variants 0E and OC, report an overflow condition, while 1C and 1E indicate a problem with the water level sensor itself. The parts overlap, which is why the diagnosis starts the same way, but do not assume a chart entry for one applies to the other."
+    },
+    {
+      "q": "Why did OE appear suddenly?",
+      "a": "Two things happen abruptly. A piece of grit lands on an inlet valve seat and holds it slightly open, which can occur the week after plumbing work anywhere in the house. Or the thin air hose to the pressure sensor finally blocks with the detergent sludge it has been collecting for years. Neither gives any warning."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Water in, water sensed, water out: OE comes from a failure in one of these.",
+    "labels": {
+      "display": "OE",
+      "c1": "Inlet valves and supply taps",
+      "c2": "Pressure sensor air hose to tub",
+      "c3": "Water level sensor under the top",
+      "c4": "Drain filter and pump below"
+    }
+  },
+  "sources": [
+    {
+      "title": "Washing machine water level and overflow error codes",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung front load washer service literature, water level sensor and inlet valve",
+      "publisher": "Samsung service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "What error code OE means on a Samsung washing machine",
+      "publisher": "AppliancePartsPros repair guides",
+      "url": null
+    },
+    {
+      "title": "Field reports distinguishing a stuck inlet valve from a blocked pressure hose",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "0E",
+    "OC",
+    "1C",
+    "5C",
+    "4C",
+    "SUD"
+  ]
+}

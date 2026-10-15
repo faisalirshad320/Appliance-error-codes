@@ -1,0 +1,144 @@
+{
+  "title": "Samsung Refrigerator Error Codes: Meanings and Fixes",
+  "meta_description": "What Samsung refrigerator error codes mean, from OF OF demo mode and 22E fan faults to PC ER and 88 88. Which clear themselves and which need service.",
+  "h1": "Samsung refrigerator error codes: what the display is telling you",
+  "answer": "Samsung refrigerators show faults as a number followed by E or C, such as 22E or 5C, and the number identifies the component while the letter marks it as an error. Before you treat yours as broken, check for OF OF on the display: that is not a fault at all but cooling off mode, also called demo or shop mode, and it means the fridge is deliberately not cooling. Hold the top two buttons on the left of the panel for about five to eight seconds until you hear a chime to leave it. Of the genuine faults, 22E, a fridge fan error, and PC ER, a panel communication error, are the two most people meet, and both are often triggered by something as ordinary as a door left open or a power surge.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "5 minutes to read the code, 30 minutes to rule out the easy ones",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$150 to $400 for diagnosis and common repairs, far more for sealed system work" },
+  "safety_warning": "The sealed refrigerant circuit, meaning the compressor, the coils and every pipe between them, is licensed-technician work in the United States. Venting refrigerant is illegal and hazardous, and recharging requires certification and equipment you will not have at home. Any code pointing at the compressor ends your involvement. Unplug the refrigerator at the wall before any panel comes off, and never bypass a door switch or a thermal cut-out.",
+  "causes": [
+    {
+      "cause": "Cooling off mode, shown as OF OF, O FF or scrolling bars",
+      "frequency": "most cases",
+      "confirm": "The display shows OF OF or the temperature digits scroll, the lights work, the fan may run, and nothing is getting cold. This is demo mode, used in showrooms, and it is switched on far more often than people expect after a delivery or an accidental button combination. Nothing is broken and nothing needs ordering."
+    },
+    {
+      "cause": "Fridge fan error, shown as 22E or 22C",
+      "frequency": "common",
+      "confirm": "Samsung's own guidance notes this can be caused by running the fridge with a door left open too long, which lets humid air in and ices the fan. Open the fridge and listen for the fan behind the rear panel. Silence, or a scraping and rattling sound, means ice on the blade rather than a dead motor in most cases."
+    },
+    {
+      "cause": "Communication error, shown as PC ER or PC Er",
+      "frequency": "common",
+      "confirm": "The display is lit but the control panel will not respond properly, usually after a power surge. The cause is typically the wiring harness that runs through the door hinge area working loose. Samsung's guidance is to reconnect the harness above the door and restart the fridge before assuming a board has failed."
+    },
+    {
+      "cause": "Defrost and temperature sensor faults, shown as codes such as 1E, 5E, 1C or 5C",
+      "frequency": "common",
+      "confirm": "The numbered sensor codes mean the board is not getting a believable reading from a thermistor. The symptom owners notice is one compartment drifting while the other is fine, often with a thick even sheet of frost building on the rear wall inside the freezer. Confirm with a thermometer rather than trusting the panel."
+    },
+    {
+      "cause": "Ice maker faults, shown in the 40 series such as 41 or 42",
+      "frequency": "occasional",
+      "confirm": "No ice or hollow cubes alongside the code. Check the ice maker for a frozen block, the fill tube for an ice plug, and the water line behind the fridge for a kink where the cabinet was pushed back. Samsung French-door ice makers are a known weak point and frost up readily."
+    },
+    {
+      "cause": "Power and voltage faults, shown as 88 88 or 8 8",
+      "frequency": "occasional",
+      "confirm": "All eights across the display, or digits that make no sense, usually straight after a surge, brownout or outage. Samsung's advice is to cut power at the plug or breaker for a minute and restore it. A code that returns immediately after that is a genuine board fault rather than a hangover from the power event."
+    },
+    {
+      "cause": "Compressor and sealed system faults, shown as codes such as 83E",
+      "frequency": "rare",
+      "confirm": "Nothing in the cabinet is cold, the condenser coils are clean, and the compressor is either silent or cycling on and off every few minutes. Reported as abnormal compressor current on some models. This is the branch with no DIY path; stop and call a licensed technician."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Rule out demo mode before anything else",
+      "detail": "If the display reads OF OF, O FF, OFF OFF or the temperature digits are scrolling, the fridge is in cooling off mode and is working exactly as told. Press and hold the top two buttons on the left side of the control panel together for five to eight seconds until you hear a chime. Button names vary by model, so if that does not work, check the manual for your model rather than pressing combinations at random.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Photograph the exact code",
+      "detail": "Write down whether it ends in E or C, because Samsung moved from E to C suffixes across generations and the two are the same fault with different labelling. Note which display the code appears in, fridge or freezer, since on several models that identifies the compartment. On a seven-segment panel a letter O and a zero are nearly identical, which is how OF OF gets reported as a fault code.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a full power reset",
+      "detail": "Unplug the refrigerator at the wall or switch off its breaker, wait a full five minutes, then restore power and keep the doors shut. The board holds residual charge, so a quick off-and-on often leaves the stored code in place. This clears a genuine one-off after a surge, which is what 88 88 and many PC ER codes turn out to be. Give it a few hours before judging whether it held.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the doors, the seals and how full the cabinet is",
+      "detail": "Samsung specifically links the 22E fan error to a door left open. Check both doors close and latch on their own from a hand's width open, run a sheet of paper around each seal and feel for grip all the way round, and make sure nothing is packed against the vents at the back of either compartment. A door held ajar by a protruding container overnight is enough to ice a fan.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Defrost the cabinet if a fan code or frost is involved",
+      "detail": "For 22E and similar fan codes, Samsung's own guidance is to unplug the refrigerator and leave both doors open for several hours so the ice around the fan melts, then close the doors and restore power. Put towels down first, because a French-door model holds a surprising amount of water. Move the food to a cooler while you do it. This clears a real share of fan codes without any part at all.",
+      "minutes": 300,
+      "tools": "Towels, cooler box",
+      "warning": null
+    },
+    {
+      "name": "Reseat the door harness for a communication error",
+      "detail": "Unplug the fridge. For PC ER, look at the top of the door hinge area where the ribbon or wiring harness crosses from the cabinet into the door. Remove the hinge cover, usually one or two screws or a clip, and unplug and firmly reseat the connector, checking the pins for corrosion or a terminal that has backed out. Reassemble and restore power before deciding a board has failed.",
+      "minutes": 30,
+      "tools": "Phillips screwdriver",
+      "warning": "Unplug at the wall first and do not rely on the control panel being off."
+    },
+    {
+      "name": "Measure the real temperatures before calling anyone",
+      "detail": "Stand a glass of water with a thermometer in it in the fridge for four hours, and put a second thermometer between frozen packages. This separates a genuine cooling failure from a sensor or display fault and is the single most useful thing you can establish in advance. Note both figures down, because it is the first question a technician will ask and it changes the quote.",
+      "minutes": 240,
+      "tools": "Two thermometers",
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser coils",
+      "detail": "Unplug the fridge, pull it out and take off the rear access panel. Vacuum the coils and the fan housing with a crevice tool and a soft brush, working gently so the fins do not fold over. Matted coils make the machine work harder and push a marginal fridge into throwing temperature codes on warm days. Do this twice a year regardless of whether a code is showing.",
+      "minutes": 40,
+      "tools": "Vacuum with crevice tool, soft brush, Phillips screwdriver",
+      "warning": "Unplug first. Do not pull, bend or pierce any copper pipework behind the coils; that is the sealed refrigerant circuit."
+    }
+  ],
+  "still_showing": "If a five-minute power reset has not cleared it, sort the problem by what your thermometers say rather than by what the code says, because that decides both the urgency and the cost. If both compartments are at temperature and the only symptom is a code on the panel, you most likely have a sensor or a display fault, the food is safe, and you can book a visit without panic. That is the cheap branch. If the fridge section is drifting warm while the freezer stays cold, and there is a thick even sheet of frost on the rear wall inside the freezer, you are looking at the defrost system or an iced evaporator fan, and the full manual defrost described above is worth doing before you spend anything: unplug the machine, empty it into a cooler, and leave both doors open overnight with towels down. A surprising number of 22E and sensor codes do not come back after that, and it costs nothing but a night. If the same code returns within a week of a successful defrost, the ice is reforming for a reason and the defrost heater, thermostat or sensor is genuinely faulty, which is a real repair in the $250 to $450 range. If neither compartment is cooling, the coils are clean and the compressor is silent or clicking on and off every few minutes, this stops being yours: that is the sealed refrigerant circuit and it requires certification. One pattern worth recognizing before you spend money: a panel cycling through several unrelated codes, or showing all eights, is almost always a board or harness fault rather than simultaneous failures in the systems those codes name, so do not let anyone replace three components on the strength of it. And whatever the code, if the cabinet has been above 40 degrees Fahrenheit for more than a few hours, move the food first. The repair can wait a day; the contents cannot.",
+  "reset_procedure": "Unplug the refrigerator at the wall socket or switch off its breaker, wait a full five minutes, then restore power with the doors closed. The wait matters because the board holds residual charge and a quick off-and-on often leaves the stored code in place. Samsung's own guidance for the power and communication codes is a shorter interruption of about a minute, so if five minutes feels excessive, a minute is enough for those. Give it several hours before judging the result, since the cabinet has to pull back down to temperature. Two things a reset will not clear: cooling off mode, which is a setting rather than a fault and needs the button hold instead, and any code caused by ice that is still there.",
+  "model_notes": "Samsung changed the suffix on its refrigerator codes partway through the range, so the same fault appears as 22E on older models and 22C on newer ones. They mean the same thing and the fix is the same, which matters because a search for one suffix will miss half the useful material. The button combination for leaving cooling off mode is not consistent either: Samsung describes holding the top two buttons on the left of the panel, but which buttons those are depends on the panel layout, and several models use Freezer and Fridge together or Energy Saver and Fridge. Family Hub models with a touchscreen handle both codes and demo mode through the screen rather than physical buttons. Ice maker behavior and the 40 series codes vary considerably between side-by-side, French-door and four-door Flex models. Use the manual for your exact model number, and when a generic code chart disagrees with it, believe the manual.",
+  "parts": [
+    { "name": "Evaporator or condenser fan motor", "cost": "$40 to $120", "difficulty": "hard", "note": "For 22E, only after a full defrost has failed to clear it" },
+    { "name": "Fridge or freezer thermistor temperature sensor", "cost": "$15 to $50", "difficulty": "moderate", "note": "After a technician has confirmed which sensor reads wrong" },
+    { "name": "Defrost heater and defrost thermostat", "cost": "$40 to $120", "difficulty": "hard", "note": "Means emptying the freezer and taking the rear evaporator panel off" },
+    { "name": "Ice maker assembly", "cost": "$120 to $300", "difficulty": "moderate", "note": "A known weak point on French-door models; check the fill tube first" },
+    { "name": "Main control board", "cost": "$200 to $450", "difficulty": "technician only", "note": "Last resort, after the door harness and sensors are proven good" }
+  ],
+  "when_to_call": "Call a licensed technician for anything touching the compressor, the refrigerant lines or recharging the sealed system, with no exceptions. That work requires certification and there is no partial version you can safely do. Beyond that, call once you have confirmed with a thermometer that the cabinet is genuinely not holding temperature, the coils are clean, the seals are sound, a full overnight defrost has been tried and a reset has not helped. Call sooner if the compressor is cycling on and off every few minutes, if you smell anything burning, or if there is oily residue on the pipework or the floor beneath, which means refrigerant has escaped. Before you book, check your warranty: Samsung has at times run extended coverage and service programs on specific refrigerator components and ice makers, so look up your model number and serial number first, because a covered repair is free where a call-out is not.",
+  "faqs": [
+    { "q": "What does OF OF mean on a Samsung refrigerator?", "a": "It means cooling off mode, also called demo or shop mode, is switched on, so the lights and display work but the fridge deliberately does not cool. It is a setting, not a fault. Hold the top two buttons on the left of the control panel together for five to eight seconds until you hear a chime. Nothing needs repairing or ordering." },
+    { "q": "What is the difference between Samsung codes ending in E and C?", "a": "Nothing but the generation of the machine. Samsung moved from an E suffix to a C suffix partway through the range, so 22E and 22C are the same fridge fan error with the same fix. This matters for research: searching only one suffix will hide half the useful material about your fault." },
+    { "q": "How do I fix a Samsung 22E error?", "a": "Start with a full manual defrost rather than a part. Unplug the fridge, move the food to a cooler, put towels down and leave both doors open for several hours so ice around the fan melts, then close up and restore power. Samsung links this code to a door left open. If it returns within a week, the fan or defrost system is genuinely faulty." },
+    { "q": "Can I still use my Samsung fridge with an error code showing?", "a": "It depends on the code. In demo mode nothing is cooling, so no. With a sensor or display code and both compartments at the right temperature, the food is safe and you can wait for a visit. Confirm with a thermometer rather than guessing from the panel, and if either compartment is above 40 degrees Fahrenheit, move the food now." },
+    { "q": "What does PC ER mean and is it serious?", "a": "It is a communication error between the control panel and the main board, usually after a power surge, and it is one of the more fixable Samsung codes. The common cause is the wiring harness in the door hinge area working loose. Unplug the fridge, remove the hinge cover and firmly reseat that connector before assuming a board has failed." },
+    { "q": "Why did my Samsung fridge show all eights on the display?", "a": "That is 88 88, and it almost always follows a power surge, brownout or outage rather than a component failing. Cut the power at the plug or the breaker for a minute and restore it. If the display comes back normal, you are done. If all eights return straight away, the main board has genuinely been damaged and needs service." },
+    { "q": "Is a Samsung refrigerator with a cooling code worth repairing?", "a": "It depends which repair. A fan, a sensor or a reseated harness is modest and worth doing on almost any machine. A defrost system repair at $250 to $450 is usually worth it under ten years old. Sealed system work rarely is on an older fridge. Check for extended coverage on your model number before you authorize anything." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Reading a Samsung fridge code, cheapest check first.",
+    "labels": {
+      "display": "22E",
+      "c1": "Rule out OF OF demo mode",
+      "c2": "Photograph code, note E or C",
+      "c3": "Five-minute unplug, doors shut",
+      "c4": "Overnight defrost for fan codes"
+    }
+  },
+  "sources": [
+    { "title": "Samsung refrigerator error codes and recommended actions", "publisher": "Samsung US support troubleshooting documentation", "url": null },
+    { "title": "Common Samsung refrigerator error codes and their meaning, including cooling off mode", "publisher": "Samsung Canada support documentation", "url": null },
+    { "title": "Samsung refrigerator owner's manuals, control panel and troubleshooting sections", "publisher": "Samsung owner's manual supplied with the refrigerator", "url": null },
+    { "title": "Field reports on Samsung fan icing, PC ER harness faults and ice maker failures", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["OF OF", "22E", "PC ER", "88 88", "5E", "83E"]
+}

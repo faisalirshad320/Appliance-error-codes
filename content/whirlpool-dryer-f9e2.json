@@ -1,0 +1,124 @@
+{
+  "title": "Whirlpool Dryer F9 E2 Code: Water Not Draining",
+  "meta_description": "F9 E2 on a Whirlpool ventless dryer points at the condensate drain: the float reads full and the pump keeps running. Clear the lint and free the float.",
+  "h1": "Whirlpool dryer F9 E2 error code: the condensate is not getting away",
+  "answer": "F9 E2 shows up almost entirely on Whirlpool's ventless dryers, the HybridCare and heat pump models, and in the field it nearly always comes back to the condensate drain system: the float in the sump is reading full and the pump has been running without clearing it. Whirlpool's own published guidance for this code is only a power reset, with no part named, so treat anything more specific as field knowledge rather than gospel. Start by emptying and reseating the water drawer, then clear the lint out of the filters and the sump, because packed lint around the float is the usual culprit.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to 2 hours",
+  "cost_estimate": { "diy": "$0 to $140", "technician": "$180 to $400" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Lint and pet hair packed into the sump and around the float",
+      "frequency": "most cases",
+      "confirm": "Get to the sump area behind the lower access door and look at the float with a flashlight. A gray mat of lint holding the float up, or a sump half filled with sludge, is the answer. Owners who report this code almost always find the pump area full of lint when they open it up."
+    },
+    {
+      "cause": "The water collection drawer is full, or not pushed fully back in",
+      "frequency": "common",
+      "confirm": "Pull the drawer out and check both the water level and the seating. If it was already full, empty it. If it was nearly empty, push it back in until it stops; a drawer sitting a few millimeters proud stops the dryer sending water to it and the sump fills instead."
+    },
+    {
+      "cause": "The condensate drain hose is kinked, blocked or routed too high",
+      "frequency": "common",
+      "confirm": "On machines plumbed to a standpipe rather than using the drawer, pull the machine out and follow the small drain hose. A kink behind the cabinet, a slime plug inside it, or a hose looped higher than the installation instructions allow all leave the pump working against water it cannot shift."
+    },
+    {
+      "cause": "The float is stuck in the up position",
+      "frequency": "common",
+      "confirm": "With the dryer unplugged, find the float in the sump and press it down. It should drop freely and bob back. One that stays up, or moves in a notchy way, keeps telling the control the sump is full no matter how much the pump runs."
+    },
+    {
+      "cause": "The condensate pump has failed",
+      "frequency": "occasional",
+      "confirm": "The sump is clean, the float moves freely, the hose and drawer are clear, and you hear either nothing from the pump when the dryer should be clearing water, or a buzz with no result. That is a pump rather than a blockage."
+    },
+    {
+      "cause": "A control or communication fault reported under the same code",
+      "frequency": "rare",
+      "confirm": "The whole drain system is clean and working, the code appears on power-up before any water could have collected, and a proper breaker reset does not touch it. Some technicians describe F9 E2 as a board-to-console communication failure on certain models, which is a minority reading but worth knowing before you keep stripping the sump."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Empty the water drawer and push it fully home",
+      "detail": "Pull out the condensate collection drawer, tip it out in the sink, and slide it back until it stops and sits flush with the cabinet. Thirty seconds, and it is the most common no-cost fix. A drawer that is full, or that is sitting a few millimeters out because something is caught behind it, produces exactly this code even though nothing has failed.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean both lint filters",
+      "detail": "Take out the screen in the door opening and strip it, then open the lower access door and pull the second filter out. Clean both faces by hand, rinse if they are the washable type, and let them dry completely before refitting. Every bit of lint that gets past these filters ends up in the condenser and the sump, which is where this code starts, so this is prevention as much as repair.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug the dryer and clear the condenser area",
+      "detail": "Unplug the machine at the wall. Open the lower access door and look at the heat exchanger behind the second filter. If the fins are furred over with lint, vacuum them gently with a soft brush attachment, working along the fins rather than across so you do not bend them. Take your time; a packed condenser dumps lint straight into the sump below it.",
+      "minutes": 25,
+      "tools": "Vacuum with soft brush attachment, flashlight",
+      "warning": "Unplug the dryer before putting your hands into the condenser compartment."
+    },
+    {
+      "name": "Clear the sump and free the float",
+      "detail": "Still unplugged, look into the sump below the condenser with a flashlight. Scoop or vacuum out the lint sludge, then find the float and press it down with a finger. It should drop freely and float back up with no notchiness. Clean any lint wrapped around its stem. Mop the last of the water out with a cloth so you can see whether it refills.",
+      "minutes": 25,
+      "tools": "Flashlight, vacuum, cloths",
+      "warning": "Unplug at the wall first. There is a pump in this compartment and it should not be able to run while your hand is in there."
+    },
+    {
+      "name": "Check the drain hose if your dryer is plumbed in",
+      "detail": "If the machine drains to a standpipe instead of the drawer, pull it out and follow the small drain hose end to end. Straighten any kink, check the hose is not pushed so far into the standpipe that it seals, and confirm the run is not looped higher than the installation sheet allows. A slime plug inside the hose comes out with warm water and a flush at the sink.",
+      "minutes": 20,
+      "tools": "Bucket, warm water",
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker and run a test cycle",
+      "detail": "Switch the dryer's breaker off for a full five minutes so the control discharges, then restore power and wait ten seconds before pressing anything. Run a normal cycle with a few damp towels, which generates real condensate, and watch whether the drawer fills normally and the code stays away. An air-fluff cycle makes no water and proves nothing.",
+      "minutes": 50,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F9 E2 comes back after the drawer, the filters, the condenser and the sump have all been cleared, work it in this order. First, repeat the sump clean properly, with the dryer unplugged and a flashlight. The lint in these machines compacts into a gray felt that does not look like lint, and people stop too early. Scoop until you reach bare plastic and you can see the float's full travel. Second, test the float on its own: press it down, let it go, and watch it rise. A float that sticks halfway, or that has lint wound around its stem, tells the control the sump is full forever and the pump will run itself into a fault trying to empty it. Third, listen for the pump. With the machine running a damp load, you should hear a short buzz every few minutes as it clears the sump. Silence means the pump has no power or has failed; a buzz with the level never dropping means the impeller is jammed or the outlet is blocked. A condensate pump on these dryers is typically $60 to $140 as a part, and getting to it means laying the machine over or working through the base, which is a fair point to decide whether you want the job. Fourth, if the dryer is plumbed to a standpipe, take the drain hose off at the machine end and hold it over a bucket, then run a cycle. Water into the bucket proves the dryer is pumping and your plumbing is the restriction. Fifth, and this is where the honesty matters: Whirlpool publishes only a power reset against this code and no official description, and a minority of technicians describe F9 E2 on some models as a board-to-console communication fault rather than a drain problem. If your sump is spotless, your float moves freely, your pump runs and the code appears on power-up before any water could have collected, stop stripping the drain system and get a technician to check the communication side. That is the point where the cost jumps from a $140 pump to a board at a few hundred dollars, and it is not a decision to make on a guess.",
+  "reset_procedure": "Whirlpool's published guidance for F9 E2 is to switch the dryer's circuit breaker off for a minute, restore power, and run a cycle to see whether the code returns. In practice, give it five minutes so the control fully discharges, and wait ten seconds after power comes back before pressing anything. Test with damp towels on a normal cycle, since the dryer has to actually make condensate for the test to mean anything.",
+  "model_notes": "F9 E2 is reported almost exclusively on Whirlpool's ventless dryers, the HybridCare heat pump range and the models sold alongside them, which collect condensate in a sump and move it with a small pump to either a drawer or a drain hose. Vented Whirlpool dryers have no condensate system at all, so if F9 E2 appears on one, note your model number and check the technical sheet inside the machine before assuming any of this applies. Whirlpool's own published material for this code gives a reset procedure and no description of the fault, and independent sources disagree, with most describing a drain assembly failure where the float reads full while the pump has been running, and a minority describing a communication fault between the main control and the user interface. The drain reading matches what owners actually find when they open these machines up.",
+  "parts": [
+    { "name": "Condensate drain pump", "cost": "$60 to $140", "difficulty": "hard", "note": "Usually means laying the dryer over or working through the base; a fair point to call someone" },
+    { "name": "Float or level switch assembly", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only if the float is cracked or will not move freely after cleaning" },
+    { "name": "Condensate drain hose", "cost": "$15 to $40", "difficulty": "moderate", "note": "Replace rather than straighten a hose that is split or permanently kinked" },
+    { "name": "Secondary lint filter", "cost": "$25 to $70", "difficulty": "easy", "note": "A torn filter is why the sump filled with lint in the first place" }
+  ],
+  "when_to_call": "Call a technician if the sump and float are clean, the drawer and hose are clear, and the pump either does nothing or buzzes without moving water, because reaching the pump on a ventless dryer means laying the machine over and is a genuinely awkward job. Call one too if the code appears on power-up before the dryer could have made any condensate, since that pattern fits the communication-fault reading rather than a drain blockage and needs testing rather than guessing. And if water is appearing on the floor under the machine, stop using it until someone has looked at it.",
+  "faqs": [
+    { "q": "What does F9 E2 mean on a Whirlpool dryer?", "a": "On the ventless HybridCare and heat pump models where it appears, it is a condensate drain fault: the float in the sump reads full and the pump has been running without clearing it. Whirlpool's own published material gives only a reset and no description, so the drain reading comes from what technicians and owners consistently find inside these machines." },
+    { "q": "What should I check first for F9 E2?", "a": "Empty the water collection drawer and push it fully back in, which takes thirty seconds and fixes a fair share of these. Then clean both lint filters and, with the dryer unplugged, clear the lint out of the condenser and the sump below it. Packed lint holding the float up is the single most common finding." },
+    { "q": "Can I still use the dryer with F9 E2 showing?", "a": "No, and you should not want to. The machine stops because it cannot get rid of the water it is condensing out of your laundry, so continuing would mean running with a full sump. There is no shock or fire risk in leaving it, but leave the drawer out and the access door open so the compartment dries rather than growing a smell." },
+    { "q": "Why is my ventless dryer full of lint when I clean the filter every load?", "a": "Because fine lint passes the filters over time and settles in the condenser fins and the sump, where the air slows and the water collects. It is normal on heat pump dryers and it is why they have a secondary filter and an access door at all. Clean the condenser every few months rather than waiting for a code." },
+    { "q": "How much does an F9 E2 repair cost?", "a": "Nothing if it is lint, a full drawer or a stuck float, which covers most cases. A float or level switch is $25 to $70, a condensate pump is $60 to $140 as a part, and a technician visit lands between $180 and $400 depending on what has to come apart. The expensive answer, a control board, is rare and should never be the first guess." },
+    { "q": "Does F9 E2 mean the pump has failed?", "a": "Not usually. The code says the pump ran without the level dropping, and the commonest reason for that is a blockage or a float stuck up rather than a dead pump. Confirm by listening: silence when the dryer should be clearing water points at the pump, while a buzz with no result points at a jam or a blocked outlet." },
+    { "q": "Why do some sites say F9 E2 is a communication error?", "a": "Because Whirlpool publishes no official description for this code, so third-party sources have filled the gap and they disagree. Most field evidence points at the condensate drain system. A minority of technicians report it as a main control to user interface communication fault on certain models, which is worth considering only once the drain system is proven clean." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The water path F9 E2 is complaining about, and where it blocks",
+    "labels": {
+      "display": "F9 E2",
+      "c1": "Empty and reseat the water drawer",
+      "c2": "Clean both lint filters",
+      "c3": "Clear condenser fins and sump",
+      "c4": "Free the float, check drain hose"
+    }
+  },
+  "sources": [
+    { "title": "F9 E2 error code on dryers, reset procedure", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "HybridCare and ventless dryer use and care guide, condensate drawer and filter maintenance", "publisher": "Whirlpool use and care manual supplied with the dryer", "url": null },
+    { "title": "Owner reports of F9 E2 on ventless models traced to lint in the sump and a stuck float", "publisher": "GreenBuildingAdvisor and appliance technician Q and A threads", "url": null },
+    { "title": "Conflicting third-party descriptions of F9 E2 as a drain versus communication fault", "publisher": "Appliance repair community discussion", "url": null }
+  ],
+  "related_codes": ["LF", "F3 E2", "F2 E1", "F70", "PF"]
+}

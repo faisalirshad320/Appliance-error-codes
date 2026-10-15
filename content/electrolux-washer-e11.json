@@ -1,0 +1,212 @@
+{
+  "title": "Electrolux Washer E11 Error Code: Fill Fault and Fix",
+  "meta_description": "Electrolux washer E11 means the tub did not fill to level in the time allowed. Usually a part-closed faucet or clogged inlet screens.",
+  "h1": "Electrolux washer E11 error code: why it will not fill and how to fix it",
+  "answer": "E11 on an Electrolux washer is a fill timeout. The control opened the water valves, watched the level, and gave up because the tub did not reach the level the cycle needed within the window it allows. Most of the time the water is the problem rather than the washer: a faucet turned part way down, a kinked hose behind the machine, or the fine mesh screens at the hose connections clogged with grit. The less obvious case is a machine that fills visibly but still throws E11, which points at the pressure sensing circuit instead.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $30",
+    "technician": "$140 to $320"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A faucet is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Reach behind the machine and turn both faucets counterclockwise until they stop. If the washer was recently moved, installed, or had a leak scare, someone turned one down and never turned it back. A quarter-turn lever has to sit in line with the pipe."
+    },
+    {
+      "cause": "The inlet mesh screens are clogged with grit or scale",
+      "frequency": "most cases",
+      "confirm": "Shut the faucets and undo a hose at the machine end. There is a fine mesh screen set into the inlet port. Brown, furred or chalky rather than bright metal means this is your fault. Do both hot and cold even if only one looks bad."
+    },
+    {
+      "cause": "A fill hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow both hoses. A hose crushed flat against the wall by the back of the washer passes enough water to drip but not enough to fill. In an unheated garage or laundry room on an outside wall, a hose that feels rigid and very cold is frozen."
+    },
+    {
+      "cause": "Household water pressure is genuinely too low",
+      "frequency": "common",
+      "confirm": "Disconnect a hose into a bucket and open the faucet for five seconds. You want a strong jet that puts several inches in a mop bucket. A weak stream means the restriction is upstream in your plumbing. Worth checking whether it only fails while a shower is running."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is blocked",
+      "frequency": "occasional",
+      "confirm": "The drum visibly fills to a normal depth and E11 still appears. The water is arriving; the control cannot see it. The small clear hose running from the tub to the sensor silts up with detergent sludge, which is a known weak point on this platform."
+    },
+    {
+      "cause": "A water inlet valve solenoid has failed",
+      "frequency": "occasional",
+      "confirm": "Faucets open, screens clean, strong flow into a bucket, and no water enters when the cycle starts. Put a hand near the back of the machine at the start of a cycle: a working valve clicks and you hear a hiss. Silence on one side points at that solenoid."
+    },
+    {
+      "cause": "Wiring to the valves or the main control board",
+      "frequency": "rare",
+      "confirm": "A valve that measures fine across its terminals but never energizes when the cycle calls for water. Check the connector at the valve for corrosion or a backed-out pin before anybody condemns a board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both faucets fully",
+      "detail": "Reach behind the washer and turn both the hot and cold faucets counterclockwise until they will not turn further. A quarter-turn lever valve must sit in line with the pipe, not across it. Do this before you move anything or take anything apart, because it clears this code more often than every other cause combined and takes under a minute.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel the cycle and power cycle the washer",
+      "detail": "Press Cancel or turn the selector to off, then unplug the machine at the outlet for five minutes. The control holds the stored fault, so a washer with a now-perfect water supply will keep showing E11 until it is cleared. Plug it back in and start a rinse and spin rather than a full cycle, so you learn the answer in two minutes instead of fifty.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the machine out and inspect both hoses",
+      "detail": "Walk the full length of each hose from faucet to machine. Look for a tight bend, a flat spot where the washer has been shoved back against it, or a hose trapped under a leveling foot. In winter, feel for a section that is rigid and very cold. Straighten any kink and leave a hand's width of clearance behind the machine when you push it back.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean both inlet mesh screens",
+      "detail": "Close both faucets. Put a towel and a shallow tray down, then unscrew each hose from the machine end by hand or with pliers; expect a cupful of water from each. Inside the inlet port is a fine mesh screen. Pick it out with needle-nose pliers, rinse it, scrub it with an old toothbrush, and soak it in white vinegar for ten minutes if it is scaled rather than dirty. Push it back in squarely and do both sides even if only one looks fouled.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, white vinegar, towel, shallow tray",
+      "warning": "Close both faucets before undoing a hose or you take full line pressure in the face."
+    },
+    {
+      "name": "Test the flow into a bucket",
+      "detail": "With a hose still off the machine, put the loose end in a mop bucket and open the faucet for five seconds. You want a strong jet that puts several inches of water in the bucket. A weak stream or a dribble means the restriction is upstream of the washer and the machine is reporting the problem accurately, so the fix is in your plumbing rather than the appliance. Test both hot and cold.",
+      "minutes": 6,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Listen for the valves at the start of a cycle",
+      "detail": "With the hoses back on and the faucets open, start a cycle and stand at the back of the machine. You should hear a soft click as the solenoid pulls in and then a clear hiss of water entering. Silence on one side with a good supply behind it points at that solenoid or its wiring. A hiss that never builds any level points at slow flow or at the pressure sensing circuit instead.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the inlet valve electrically",
+      "detail": "Unplug the machine at the outlet. Remove the top panel, usually two or three screws along the back edge, and slide it rearward. The inlet valve assembly sits where the hoses enter at the rear. Pull the connector from one solenoid and measure across its two terminals on the ohms range; an open circuit means a dead solenoid. Do not work to a resistance figure you found online. Use the service sheet tucked inside the machine for the number that applies to your model.",
+      "minutes": 25,
+      "tools": "Nut driver or Phillips screwdriver, multimeter",
+      "warning": "Unplug at the outlet before any panel comes off. The power button is not an isolator."
+    }
+  ],
+  "still_showing": "If both faucets are wide open, both screens are clean, the hoses are straight and a bucket test gives a strong jet on each side, the supply is proven good and the fault has moved inside the machine. Split it by one observation: does the drum get water or not. If no water enters, unplug the washer, take the top panel off and look at the connectors on the inlet valve body before anything else, because green corrosion or a terminal pushed back out of its housing is free to fix and common in damp laundry rooms. Then measure each solenoid; an open circuit confirms a dead valve, and the assembly is a $30 to $80 part with two screws and a connector, about half an hour of work. If the solenoids read correctly and still never click when the cycle calls for water, the fault is in the harness or the main board, and that is where the bill climbs past two hundred dollars. If water does enter and the drum reaches what looks like a normal level and E11 posts anyway, stop thinking about the water side entirely. The control measures level through a small air hose running from a trap on the outer tub up to a pressure sensor, and on this platform that hose silts up with detergent and softener residue until the sensor stops seeing the rise. Pulling that hose off at both ends and flushing it through with warm water is a cheap job a competent DIYer can do with the top panel off, and it resolves a meaningful share of fill complaints that look like valve failures. One more thing to rule out before spending anything: if the machine only fails on warm or hot cycles and runs a cold cycle normally, your hot supply is the problem, not the washer. A water heater that is off, isolated or empty produces exactly this pattern, and people replace valves over it.",
+  "reset_procedure": "Cancel the cycle, then unplug the washer at the outlet for a full five minutes before plugging it back in. The five minutes matters: the board holds residual charge and a quick off-on frequently leaves the stored fault in place, so a machine with a now-working supply keeps showing E11. Test with a rinse and spin rather than a full wash so you get the answer in a couple of minutes. If E11 returns at the first fill, water still is not reaching the tub fast enough and the restriction has not been found.",
+  "model_notes": "Electrolux front load washers sold in North America share most of their platform with Frigidaire machines of the same era, which is useful when you are hunting for parts or guidance: the inlet valve assembly, the pressure sensing arrangement and the E-number fault scheme are close cousins, and a Frigidaire diagnosis of the same code usually transfers. Older Electrolux and Frigidaire machines display this family of faults as a two-part code such as E11 or a flashing pattern of lights, while later models may show it in a service display only when you enter diagnostic mode. Machines fitted with the SmartBoost premix system have an extra water path before the drum, so on those a fill fault can also sit in the mixing chamber rather than at the main valves.",
+  "parts": [
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Two screws and a connector under the top panel, about 30 minutes"
+    },
+    {
+      "name": "Inlet hose mesh screens",
+      "cost": "$5 to $12 a pair",
+      "difficulty": "easy",
+      "note": "Usually only need cleaning. Replace if the mesh is torn"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $30",
+      "difficulty": "moderate",
+      "note": "Often just needs flushing rather than replacing"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$40 to $95",
+      "difficulty": "moderate",
+      "note": "Only after the hose is proven clear"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$180 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Check the valve harness first"
+    }
+  ],
+  "when_to_call": "Call a technician when the supply side is proven good, no water enters, and the next step would be testing live circuits inside the cabinet. Two brand-specific things are worth knowing before you book. First, Electrolux has fewer authorized service centers in the United States than Whirlpool or GE, so expect a longer wait for an appointment and a higher call-out charge in much of the country. Second, because the platform is shared with Frigidaire, a good independent technician who works on Frigidaire machines can usually diagnose this correctly and may get parts faster than a brand-authorized route, which is worth asking about when you call around. A visit plus an inlet valve commonly lands between $180 and $300. On a machine over about eight years old, a quote near $350 is most of the way to a replacement and that is the moment to stop and think. Call a plumber instead if the bucket test gives a weak dribble, because that is a house plumbing fault and an appliance technician will charge you a call-out to tell you so.",
+  "faqs": [
+    {
+      "q": "What does E11 mean on an Electrolux washer?",
+      "a": "It is a fill timeout. The washer opened its water valves and the tub did not reach the level the cycle needed within the time allowed, so the control stopped and posted the code. It tells you the water did not arrive fast enough. It does not say why, and in most cases the reason is outside the machine rather than inside it."
+    },
+    {
+      "q": "Can I still use the washer with E11 showing?",
+      "a": "Not for a normal wash, because the machine halts rather than running with too little water. There is no safety risk in leaving it. If only your hot supply has failed, a cold-only cycle will often run perfectly, which is a quick way to narrow down where the problem is while you wait for a repair or a plumber."
+    },
+    {
+      "q": "Why did E11 appear suddenly when nothing changed?",
+      "a": "Inlet screens clog over months and then cross a threshold, so a gradual decline shows up as one sudden failure. The other common trigger is work elsewhere in the house: a plumber closing a stopcock, a meter swap or a mains repair that stirs up sediment and deposits it in your screens within a week of the job."
+    },
+    {
+      "q": "The drum fills with water but E11 still comes up. Why?",
+      "a": "Water is arriving, but the control cannot see it reach the target level. The washer measures level through a small air hose running from the outer tub to a pressure sensor, and that hose silts up with detergent and softener residue. Flushing it through is cheap and fixes a real share of fill faults that look like valve failures."
+    },
+    {
+      "q": "Is E11 the same on a Frigidaire washer?",
+      "a": "Broadly yes. Electrolux and Frigidaire front loaders sold in North America share most of their platform, including the inlet valves, the pressure sensing arrangement and the E-number fault scheme, so a Frigidaire diagnosis of the same code usually transfers. Confirm against your own model's service sheet before buying a part, since the valve bodies are not always identical."
+    },
+    {
+      "q": "Does E11 mean my water inlet valve is bad?",
+      "a": "Usually not. Most E11 cases come down to a faucet that is not fully open, a clogged inlet screen or a kinked hose. Only replace the valve after a bucket test shows strong flow and a multimeter shows an open circuit across the solenoid, because a new valve fitted to a restricted supply throws the same code on its first cycle."
+    },
+    {
+      "q": "How do I clear the E11 code once the supply is fixed?",
+      "a": "Cancel the cycle, unplug the machine for five full minutes, then plug it back in and run a rinse and spin. The board stores the fault and holds residual charge, so a quick off-on at the panel often leaves the code displayed even when the water supply is now perfect. If it returns at the first fill, the restriction is still there."
+    },
+    {
+      "q": "Can a frozen hose cause E11?",
+      "a": "Yes, and it is the standard winter cause for machines in garages, basements or anywhere plumbed along an outside wall. The giveaway is a hose that feels rigid and very cold. Thaw it with towels soaked in hot tap water, never a heat gun, a flame or boiling water, which will split the hose and let go at full line pressure."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Where an Electrolux washer takes its water, and the four things that stop it",
+    "labels": {
+      "display": "E11",
+      "c1": "Both faucets fully open",
+      "c2": "Hose run clear of kinks and crushing",
+      "c3": "Inlet mesh screens at the machine",
+      "c4": "Inlet valve solenoids under the top panel"
+    }
+  },
+  "sources": [
+    {
+      "title": "Electrolux front load washer owner guide, water supply requirements and error alerts",
+      "publisher": "Electrolux owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Electrolux and Frigidaire front load washer service literature, fill and level fault diagnostics",
+      "publisher": "Electrolux Major Appliances service documentation",
+      "url": null
+    },
+    {
+      "title": "Field guidance on E11 fill timeouts, inlet screens and pressure sensing hoses",
+      "publisher": "Appliance parts retailer repair guides",
+      "url": null
+    },
+    {
+      "title": "Technician reports on silted pressure hoses causing apparent fill faults",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E13",
+    "E21",
+    "E35",
+    "SU dS",
+    "E23"
+  ]
+}

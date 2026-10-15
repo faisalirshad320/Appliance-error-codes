@@ -1,0 +1,125 @@
+{
+  "title": "LG Dishwasher 6E Error Code: What It Means and How to Fix",
+  "meta_description": "6E on an LG dishwasher is almost always the bE bubble error, shown with a 6 instead of a b. It means too much foam. Open the door and look before you fix.",
+  "h1": "LG dishwasher 6E error code: it is usually the bubble error",
+  "answer": "6E on an LG dishwasher is almost always the same code as bE, the bubble error, because a lowercase b and a 6 are nearly identical on a seven-segment display. It means the machine has detected more foam than it can handle, and the cause is usually hand dish soap or liquid kitchen detergent getting into the tub. Open the door and look: foam around the door seal or suds on the water confirms it, and the fix is an empty flush cycle followed by a switch to dishwasher powder or tablets. A handful of guides list 6E as a water inlet fault instead, so if the tub is bone dry with no foam anywhere, treat it as a fill problem and check your water supply.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "1 to 2 hours, mostly waiting for a flush cycle",
+  "cost_estimate": { "diy": "$0 to $15", "technician": "Rarely needed" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Hand dish soap or liquid kitchen detergent has foamed the tub",
+      "frequency": "most cases",
+      "confirm": "Open the door mid-cycle. A white cuff of foam around the tub opening, suds floating on the water in the bottom, or bubbles weeping onto the floor settles it. Check what is actually in the detergent cupboard; a teaspoon of hand soap is enough to do this."
+    },
+    {
+      "cause": "Dishes pre-rinsed in a sink full of soapy water",
+      "frequency": "most cases",
+      "confirm": "Nothing wrong went in the dispenser, but the code shows up on loads that follow washing up by hand. Soap film on plates and inside mugs carries straight into the machine and foams under the spray arms."
+    },
+    {
+      "cause": "Rinse aid set too high, or the dispenser is leaking",
+      "frequency": "common",
+      "confirm": "Check the cap on the rinse aid reservoir inside the door. A cap that is not seated, or a cracked reservoir, empties itself into the tub and foams every single cycle. Pour it out, dry it, and see whether the level in the window drops with the machine idle."
+    },
+    {
+      "cause": "The dishwasher has dropped out of level",
+      "frequency": "common",
+      "confirm": "Put a spirit level on the inside edge of the open door, front to back and side to side. A machine tipped forward, often after flooring work left the feet unadjusted, lets water and foam pile up against the door rather than staying over the sump."
+    },
+    {
+      "cause": "On some models the code is a water fill fault instead",
+      "frequency": "occasional",
+      "confirm": "The tub is bone dry, there is no foam anywhere, and the code appears within the first few minutes of a cycle. That is a fill problem, not a foam problem, so check the shut-off valve under the sink, the fill hose and the inlet screen instead."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel and look inside before anything else",
+      "detail": "Press Power to cancel and open the door. This one look decides the whole repair. Foam around the tub opening or suds on the water means you are dealing with the bubble error and should follow the foam steps below. A bone-dry tub with no water at all means the machine never filled, and you should work the water supply instead: shut-off valve, fill hose, inlet screen.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Collapse the foam and bail the tub",
+      "detail": "Pour about half a cup of white vinegar, or a tablespoon of cooking oil, over the suds and wait two minutes for them to drop. Scoop the water out with a plastic cup into a jug and mop up the rest with towels. Wipe the tub walls and the inside of the door with a damp cloth, because the soap film left on them will foam again on the next cycle.",
+      "minutes": 15,
+      "tools": "White vinegar, plastic cup, jug, old towels",
+      "warning": null
+    },
+    {
+      "name": "Run an empty cycle with no detergent",
+      "detail": "Empty the racks, put nothing in the dispenser, and run a full hot cycle. This flushes residual soap out of the sump, the hoses and the spray arms, which is where it hides. Look through the door window partway through; if foam is still building, cancel, bail, and run it again. A heavy dose of hand soap usually needs two flush cycles.",
+      "minutes": 90,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Empty the rinse aid and turn it down",
+      "detail": "Open the rinse aid reservoir inside the door, pour out what is in it, and check that the cap seats properly. Set the rinse aid level to its lowest setting on the control panel and run a few loads without it. LG's guidance for stubborn foam goes further: with rinse aid at its lowest and the dispenser empty, put a bowl holding roughly 200 to 300 ml of milk on the upper rack and run a normal cycle, which knocks the foam down.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Change detergent and move the hand soap",
+      "detail": "Switch to a powder or a sealed tablet made for automatic dishwashers and dose to the marking rather than filling the cup. Then physically move the hand dish soap to another cupboard, away from the dishwasher. That last part is the bit that stops this happening again the next time somebody else loads the machine.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "If the tub was dry, check the water supply instead",
+      "detail": "Look under the sink for the shut-off valve on the line feeding the dishwasher; a quarter-turn lever must sit in line with the pipe, not across it. Then pull the machine forward and check the braided fill hose for a kink or a crushed section. Close the valve, undo the hose at the machine, and clean the fine mesh screen inside the inlet port with an old toothbrush.",
+      "minutes": 25,
+      "tools": "Adjustable wrench, needle-nose pliers, old toothbrush, towels",
+      "warning": "Close the shut-off valve before undoing any water connection."
+    },
+    {
+      "name": "Reset at the breaker and test",
+      "detail": "Switch the dishwasher off at the breaker for five minutes, then back on. The code is stored and will stay on the display even after the problem is fixed. Run a normal load with the correct detergent and watch the first fifteen minutes, which is when foam shows up if there is any soap left in the system.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have flushed twice with no detergent, switched to tablets, emptied the rinse aid and 6E keeps returning, take it in this order. First, go looking for the soap you have not found. Residue sits in the sump under the filter and inside the corrugated hose feeding the upper spray arm, and it seeds foam for several cycles after you think you are done. Pull the filter and the mesh screen, rinse them in hot water with no soap, and wipe the sump out with a cloth. Second, test the rinse aid dispenser rather than eyeballing it: empty it, dry it, and watch whether anything appears in the reservoir window over a day with the machine switched off. A cracked reservoir drips constantly and foams every cycle. Third, use an actual spirit level on the door edge in both directions, because a machine that has dropped at the front sends water at the door seal rather than over the sump. Fourth, consider the water itself. Very soft water, or a softener set aggressively, makes any detergent foam far more than the dose on the box assumes, and halving your detergent for a few loads is a free test. Finally, if there is genuinely no foam anywhere and the tub has been filling normally the whole time, stop treating this as a foam code. Get the exact model number off the sticker on the inner door edge and look that number up on LG's support site, because the handful of guides that call 6E a water inlet fault may be describing your specific model, and chasing the wrong fault is how people end up replacing parts that were never broken.",
+  "reset_procedure": "Switch the dishwasher off at the breaker for five minutes and back on. The code is stored, so the display will keep showing 6E after the problem is fixed until you reset. Reset after the flush cycle, not before, and test with a normal load rather than a quick cycle so you get a full dose of detergent and a full wash to judge it by.",
+  "model_notes": "6E and bE are the same code on most LG dishwashers, separated only by how the panel draws a lowercase b. LG support has used the bE and 6E wording interchangeably when answering owners of front-control models, and pointed at detergent and leveling as the cause in both cases. The code is not well documented under 6E specifically, and a minority of third-party guides describe it as a water inlet problem instead, which is why the first step on this page is to open the door and look rather than to assume. If your tub has water and foam, it is the bubble error. If it is dry, work it as a fill fault and read the IE page, which covers the same supply checks in more depth.",
+  "parts": [
+    { "name": "Rinse aid dispenser assembly", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only when the reservoir is cracked or the cap seal has perished" },
+    { "name": "Inlet mesh filter screen", "cost": "$5 to $15", "difficulty": "easy", "note": "Only relevant if the tub was dry and this is a fill fault" },
+    { "name": "Water inlet valve", "cost": "$25 to $70", "difficulty": "moderate", "note": "Same caveat; confirm no foam and no fill before buying one" }
+  ],
+  "when_to_call": "You should not need a technician for 6E. If the tub had foam, this is a detergent problem and the fix costs the price of a box of tablets. Call someone only if the code persists after two empty flush cycles with the correct detergent, with the rinse aid dispenser empty, the machine level, and no foam visible at any point in a cycle. That combination means the machine is detecting something that is not there, which is a sensor question. If the tub has been dry and the supply checks have not fixed it, a technician diagnosing a fill fault is a reasonable call rather than guessing at parts.",
+  "faqs": [
+    { "q": "What does 6E mean on an LG dishwasher?", "a": "On most models it is the bubble error, the same code as bE, shown with a 6 because a lowercase b looks almost identical on a seven-segment display. It means too much foam in the tub, usually from hand dish soap. Open the door: foam confirms it. A dry tub means you should treat it as a fill fault instead." },
+    { "q": "Is 6E the same as bE on an LG dishwasher?", "a": "In almost every case, yes. LG support has answered owners using the bE and 6E wording for the same machines and the same cause, which is improper detergent or the unit not being level. The fix is identical: flush the foam out with an empty hot cycle and switch to a dishwasher powder or tablet." },
+    { "q": "Can I still use my LG dishwasher with a 6E code?", "a": "Not until the foam is gone. Running it again pushes more suds past the door seal onto the floor, and in a bad case foam reaches the base tray and triggers a leak code on top of this one. Cancel, collapse the foam with vinegar, bail the tub, and run one empty cycle with no detergent." },
+    { "q": "What if there is no foam in my dishwasher at all?", "a": "Then stop treating it as a foam code. A bone-dry tub with 6E in the first few minutes of a cycle points at a fill problem: a closed shut-off valve under the sink, a kinked fill hose, or a clogged mesh screen at the inlet valve. Work those three in that order before considering any part." },
+    { "q": "Why is 6E so hard to find information about?", "a": "Because it is not documented under that name as widely as LG's other codes, and third-party sites disagree about it. Some describe it as a bubble error, others as a water inlet fault, and a few are quoting Samsung code lists by mistake. Looking inside your own machine beats any of them for deciding which one you have." },
+    { "q": "How do I get suds out of a dishwasher quickly?", "a": "Pour half a cup of white vinegar or a tablespoon of cooking oil over the foam and give it two minutes to collapse. Scoop the water out with a cup, wipe the tub and door with a damp cloth, and run a full hot cycle with nothing in the dispenser. One flush clears most of it, two after a dose of hand soap." },
+    { "q": "Will changing detergent stop 6E coming back?", "a": "Usually, as long as you also deal with how the soap got in. Switch to a dishwasher powder or sealed tablet, dose to the marking rather than filling the cup, and stop pre-rinsing plates in soapy water. Move the hand dish soap to a different cupboard so the next person loading the machine cannot reach for it by habit." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "Check for foam first: it decides whether 6E is a bubble error or a fill fault",
+    "labels": {
+      "display": "6E",
+      "c1": "Open the door, look for foam",
+      "c2": "Collapse suds and bail the tub",
+      "c3": "Rinse aid dispenser in the door",
+      "c4": "Dry tub? Check the supply valve"
+    }
+  },
+  "sources": [
+    { "title": "LG dishwasher troubleshooting: bE error code and bubble error guidance", "publisher": "LG support help library", "url": null },
+    { "title": "LG support answer describing the bE and 6E codes on a front-control dishwasher", "publisher": "LG customer support response published on a retailer Q&A", "url": null },
+    { "title": "Dishwasher error codes and what they indicate", "publisher": "LG support help library", "url": null },
+    { "title": "Conflicting third-party descriptions of 6E on LG dishwashers", "publisher": "Appliance repair guides and owner forums", "url": null }
+  ],
+  "related_codes": ["bE", "IE", "AE", "OE", "FE", "LE"]
+}

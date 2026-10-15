@@ -1,0 +1,193 @@
+{
+  "title": "LG Refrigerator CH E Error Code: High-Side Fault",
+  "meta_description": "CH E on an LG refrigerator points at the high-pressure side of the sealed system, near the condenser. This one is a licensed technician job.",
+  "h1": "LG refrigerator CH E error code: what it means and what to do",
+  "answer": "CH E means the control has detected a problem on the high-pressure side of the sealed cooling system, the part that runs from the compressor through the condenser. In practice that means a refrigerant leak or a restriction at the condenser end, and sometimes a compressor that is no longer pumping. It is the high-side counterpart to CL E, which reports the same kind of trouble on the low side near the evaporator. There is nothing in this circuit you can open, clean or replace at home, so the useful work is confirming the code is real, clearing the obvious things that make cooling look worse than it is, and finding out what warranty you still hold before you pay anyone.",
+  "severity": "serious",
+  "can_diy": "no",
+  "time_estimate": "20 to 40 minutes to confirm and reset; a technician visit if it returns",
+  "cost_estimate": {
+    "diy": "$0, there is no home repair for a sealed system",
+    "technician": "$400 to $1,200, and more if the compressor is replaced"
+  },
+  "safety_warning": "This code is about the sealed refrigerant circuit. Only a technician licensed to handle refrigerant may open, recover, repair or recharge it. Do not tap, cut, braze or vent any refrigeration line, and do not use automotive refrigerant or stop-leak products on a domestic refrigerator. The compressor and the high-side pipework also run hot enough to burn while the appliance is working.",
+  "causes": [
+    {
+      "cause": "A refrigerant leak or restriction on the high side, at or near the condenser",
+      "frequency": "most cases",
+      "confirm": "The compressor runs for long stretches or continuously, the condenser coils at the base or rear stay barely warm instead of clearly hot, and both compartments drift up in temperature over days rather than failing at once. On a restriction rather than a leak you sometimes get frost forming at one point on a line where it should not be."
+    },
+    {
+      "cause": "A compressor no longer pumping properly",
+      "frequency": "common",
+      "confirm": "You can hear the compressor running, or it tries to start, clicks and stops a few minutes later on its overload. Nothing gets cold, the condenser never heats up, and the condenser fan may be running perfectly the whole time. Common enough on older linear compressor models to be worth checking your coverage before paying for diagnosis."
+    },
+    {
+      "cause": "A one-off control glitch after a power interruption",
+      "frequency": "common",
+      "confirm": "The code appeared after a power cut, surge or breaker trip, and both compartments are holding their set temperatures normally. Reset it once and give it a week of normal running. A code that stays away was never a fault."
+    },
+    {
+      "cause": "Heat the condenser cannot shed, from a blocked coil or no clearance",
+      "frequency": "occasional",
+      "confirm": "A thick felt of dust and pet hair across the condenser at the base, or a refrigerator pushed so far back that there is no gap behind it, or one standing next to an oven or in a hot garage. This does not strictly cause CH E on its own, but it loads the high side and it is the only part of this problem you can fix with a vacuum cleaner."
+    },
+    {
+      "cause": "A sensor or board misreading the system",
+      "frequency": "occasional",
+      "confirm": "The refrigerator cools properly, food is frozen hard, the ice maker runs, and the code returns after every reset anyway. A machine that cools correctly does not have a failed high side, so a persistent code on a cold appliance points at the sensing rather than the refrigerant."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Establish whether the refrigerator is actually cooling",
+      "detail": "Leave a glass of water in the middle of the fresh food compartment for four hours, and check whether ice cream in the freezer is hard or has gone soft. This splits the problem in two. A refrigerator holding its temperatures does not have a failed high side, whatever the panel says, and you are chasing a false code. A refrigerator that is warming means the code is real and the clock is running on your food.",
+      "minutes": 10,
+      "tools": "Thermometer if you have one",
+      "warning": null
+    },
+    {
+      "name": "Reset the code and watch for a few days",
+      "detail": "Open the right-hand fresh food door and press the refrigerator and freezer temperature buttons together three times. The combination varies across LG generations, so if nothing happens, unplug the appliance at the wall or trip its breaker for five minutes instead. Then leave it alone. Clearing the code fixes nothing; it only tells you whether the condition is still being detected, which is exactly what you need to know.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser properly",
+      "detail": "Unplug the refrigerator and pull it out. On most LG models the condenser is behind a snap-off or screw-on panel at the lower rear, and on some it sits behind the base grille at the front. Vacuum the coil with a crevice tool and work a long coil brush between the fins until you stop pulling out gray felt. Expect more dust than you think reasonable if there is a pet in the house. Leave a hand's width of clearance behind the appliance when you push it back.",
+      "minutes": 30,
+      "tools": "Vacuum with crevice tool, long coil brush, Phillips #2 screwdriver",
+      "warning": "Unplug at the wall first. The condenser and the compressor beside it stay hot for a while after the power is off."
+    },
+    {
+      "name": "Feel the condenser and listen to the compressor",
+      "detail": "With the appliance running again, hold a hand near the coils. On a healthy system that has been running a while they are distinctly warm to hot. If the compressor is audibly running and the condenser stays at room temperature, very little heat is being moved, which supports a real high-side problem. Also note whether the compressor runs steadily or starts, buzzes and cuts out after a minute or two, because those are different faults and the technician will ask.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Touch the condenser briefly and lightly, or hold a hand just above it. It can be hot enough to burn."
+    },
+    {
+      "name": "Photograph the model and serial number",
+      "detail": "The rating sticker is usually on the inside left wall of the fresh food compartment, behind the crisper drawers, or along the top edge of the door opening. Photograph the whole label. You will need both numbers for the warranty call and the service booking, and having them on your phone saves kneeling on the kitchen floor three separate times.",
+      "minutes": 5,
+      "tools": "Phone camera, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Ask LG what coverage remains before you book a repair",
+      "detail": "Call LG support or raise a service request with that model and serial, and ask specifically about remaining coverage on the compressor and the sealed system. On many LG refrigerators that runs considerably longer than the standard first-year whole-appliance warranty, and parts and labor are sometimes handled on different terms. The answer depends on your market and your serial number, so get it for your actual unit rather than relying on anything you read online, this page included.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Protect your food before the visit",
+      "detail": "Sealed-system work takes most of a day and the appliance is off for the duration. If cooling is already fading, move the freezer contents into coolers with ice or a neighbor's freezer rather than finding out on the morning of the appointment that everything thawed and refroze overnight. Anything that has been above refrigeration temperature for more than a couple of hours should go in the bin, not back in the cabinet.",
+      "minutes": 30,
+      "tools": "Coolers, ice",
+      "warning": null
+    }
+  ],
+  "still_showing": "If CH E returns after a reset, what you do next depends on whether the appliance is cold, and the two answers are very different. If it is cooling normally, holding both set temperatures and making ice, then the high side has not failed in any way that matters and you are looking at sensing or control rather than refrigerant. That is still a service call, but a much cheaper one, and you can keep using the refrigerator in the meantime instead of emptying the kitchen. If it is not cooling, treat the code as true and stop looking for a home fix, because there is not one. The sealed circuit is closed, charged by weight, and opening it needs recovery equipment and a license. The top-up and stop-leak cans sold for car air conditioning are not an option: they contaminate the oil, they will not seal a leak in a refrigerator, and a technician who finds one in the system will charge you more to flush it than the original repair would have cost. What you can usefully do is sharpen the diagnosis before anyone arrives. Clean the condenser fully, then run the appliance for an hour and note three things: whether the compressor runs steadily or cycles off on its overload after a minute, whether the condenser gets hot, and whether the condenser fan at the base is turning. Those three observations separate a dead compressor from a loss of charge from a simple airflow problem, and they are worth real money in diagnosis time. If the condenser fan is not turning, look for CF E alongside this code, because a stopped condenser fan overheats the high side and can produce exactly these symptoms for a fraction of the cost. Then make the warranty call before the repair call. LG compressor and sealed-system coverage frequently runs well past the first year on these refrigerators, the terms depend on your market and your serial, and the gap between a covered repair and an uncovered one is several hundred dollars. If the unit is out of coverage and past about eight years old, a four-figure sealed-system quote is the point at which replacement stops being a defeat and starts being arithmetic.",
+  "reset_procedure": "With the right-hand fresh food door open, press the refrigerator temperature and freezer temperature buttons together, three times in succession. Labels and combinations differ across LG generations, so if that does not clear it, unplug the refrigerator at the wall or trip its breaker, wait five minutes and restore power. Give the compressor a few minutes before expecting it to restart; most controls hold it off deliberately after a power interruption so it does not try to start against a pressurized system.",
+  "model_notes": "Some LG panels display this as E CH rather than CH E, and older displays show Er CH. They are the same fault. CH E is the high-side partner to CL E, which reports the same category of problem on the low side near the evaporator; if you see both, you are being told the control has lost confidence in the circuit as a whole rather than at one end of it. Do not confuse CH E with CF E, which is the condenser fan motor and is a far cheaper, genuinely DIY-adjacent repair, even though both codes involve the condenser area at the base of the appliance.",
+  "parts": [
+    {
+      "name": "Sealed-system diagnosis with gauges and leak detection",
+      "cost": "$100 to $250 as a diagnostic visit",
+      "difficulty": "technician only",
+      "note": "Often credited against the repair if you go ahead"
+    },
+    {
+      "name": "Compressor",
+      "cost": "$180 to $500 for the part",
+      "difficulty": "technician only",
+      "note": "Check LG coverage on your serial before paying for this"
+    },
+    {
+      "name": "Condenser assembly",
+      "cost": "$120 to $350 for the part",
+      "difficulty": "technician only",
+      "note": "Requires recovery, brazing, evacuation and a measured recharge"
+    },
+    {
+      "name": "Filter drier",
+      "cost": "$10 to $30",
+      "difficulty": "technician only",
+      "note": "Replaced as standard practice any time the system is opened"
+    }
+  ],
+  "when_to_call": "Call once you have confirmed the code returns after a reset and the refrigerator is not holding temperature. Make the first call to LG, not to an independent shop: with your model and serial they can tell you what sealed-system and compressor coverage remains, and on these refrigerators it often outlasts what owners assume, so an independent technician may be about to invoice you for work LG would have covered. If you are out of coverage, use someone licensed to handle refrigerant and check the quote includes recovery, a new filter drier, evacuation and a charge measured by weight, because a quote that skips those is a repair that comes back. Stop and call immediately, whatever else is happening, if you smell burning, see scorch marks near the compressor, or the appliance trips a breaker.",
+  "faqs": [
+    {
+      "q": "Can I still use the refrigerator showing CH E?",
+      "a": "Yes while it is still cold, and you should, rather than emptying it preemptively. If it has started warming, move perishable food out now and stop trusting the freezer even while things feel firm, because a system losing charge can keep ice cream soft and meat at an unsafe temperature simultaneously. Leaving the appliance plugged in carries no shock or fire risk by itself."
+    },
+    {
+      "q": "What is the difference between CH E and CL E?",
+      "a": "Which side of the sealed circuit the control suspects. CH E is the high-pressure side, running from the compressor through the condenser at the base or rear. CL E is the low-pressure side, around the evaporator inside the cabinet. Both are sealed-system codes needing a licensed technician, so your immediate next steps are identical even though the eventual repair differs."
+    },
+    {
+      "q": "Will cleaning the condenser coils fix CH E?",
+      "a": "Rarely on its own, but do it anyway. A coil choked with dust makes the high side run hotter and harder and makes a marginal system look much worse, so cleaning it sometimes drops a borderline unit back below the threshold that triggers the code. It also costs nothing, takes half an hour, and removes one variable before a technician starts charging by the hour."
+    },
+    {
+      "q": "Is CH E covered under warranty?",
+      "a": "Often, and for longer than most owners realize. LG refrigerators with linear and inverter compressors have carried compressor and sealed-system coverage extending well past the standard one-year warranty, with terms that vary by market and by when the unit was sold. Take the model and serial off the sticker inside the fresh food compartment and ask LG about your specific appliance."
+    },
+    {
+      "q": "Why did CH E appear suddenly?",
+      "a": "Slow refrigerant loss produces no symptoms at all until the charge falls past the point where the system can still reach its set temperature, and then performance collapses over a few days. The other frequent trigger is a power cut or surge, which can leave a spurious code behind on an appliance that is working perfectly, which is why resetting once and waiting is the first thing to do."
+    },
+    {
+      "q": "Can I add refrigerant to fix it myself?",
+      "a": "No. Domestic refrigerators are sealed and charged by weight to a precision you cannot reach without proper equipment, and opening the circuit without recovery gear is illegal in most places. Beyond the legality, adding refrigerant to a leaking system fixes nothing for more than a few weeks and the automotive products sold for this will contaminate the oil and the drier."
+    },
+    {
+      "q": "Is it worth repairing?",
+      "a": "Under warranty, absolutely, and make that call before anything else. Out of warranty and under roughly seven years old, a sealed-system repair is usually still well below the cost of replacement. Past that, weigh a four-figure quote against a new appliance, especially if the fault turns out to be the compressor rather than a single repairable joint."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "The high side of the system, and the three things worth checking yourself",
+    "labels": {
+      "display": "CH E",
+      "c1": "Condenser coils, clean and hot",
+      "c2": "Compressor: steady or cycling off",
+      "c3": "Condenser fan actually turning",
+      "c4": "Model and serial for warranty"
+    }
+  },
+  "sources": [
+    {
+      "title": "Refrigerator CL E and CH E error code guidance",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG refrigerator error code list and reset procedure",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of LG high-side fault diagnosis",
+      "publisher": "Appliantology and r/appliancerepair",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied inside the appliance",
+      "publisher": "LG service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "CL E",
+    "CF E",
+    "FF E",
+    "rF E",
+    "IF E",
+    "CO E"
+  ]
+}

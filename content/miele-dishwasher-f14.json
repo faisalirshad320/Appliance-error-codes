@@ -1,0 +1,196 @@
+{
+  "title": "Miele Dishwasher F14 Error Code: Causes and Fix",
+  "meta_description": "Miele F14 means the machine could not confirm the right water level or circulation before heating. Usually a fill or filter problem.",
+  "h1": "Miele dishwasher F14: what it means and what to check",
+  "answer": "F14 on a Miele dishwasher means the control could not confirm the water level and circulation it expects before it commits to heating, so it stops the program. In practice that comes down to three things: not enough water going in, not enough water moving once it is in, or a pressure switch that is no longer reporting honestly. This code is poorly documented in public sources, and the published lists genuinely disagree about it, so the service sheet for your exact model number is the only authoritative word. The checks below cover every reading of it.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "45 minutes to diagnose",
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$250 to $600"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A clogged filter or blocked spray arms are starving the circulation",
+      "frequency": "most cases",
+      "confirm": "Lift the filter assembly out and look at the mesh, then take the spray arms off and hold them up to the light. A gray grease film on the mesh, or jets blocked with seeds and grit, drops circulation flow enough for the control to decide something is wrong even though the tub has water in it."
+    },
+    {
+      "cause": "The machine is not filling to the level it expects",
+      "frequency": "common",
+      "confirm": "Open the door a minute or two into the wash and look at the water over the sump. If it is barely covering the filter, the fault is on the fill side and you should work the supply valve and the inlet filter screen at the tap end first, the same checks as an F13."
+    },
+    {
+      "cause": "The pressure switch chamber or its hose is silted up",
+      "frequency": "common",
+      "confirm": "The tub fills to a normal level, the pump sounds healthy, and the code still appears at the same point every cycle. The small chamber and tube that let the switch sense water level pack with sludge over years, especially in a hard water area, and then under-report."
+    },
+    {
+      "cause": "A foreign object is restricting the circulation pump",
+      "frequency": "occasional",
+      "confirm": "A rattle, a grinding note or an obviously weak spray during the main wash. Dishes come out with food still on the upper rack. Glass chips, fruit stones and bone fragments get past a filter that has been left out or seated badly."
+    },
+    {
+      "cause": "The pressure switch itself has failed",
+      "frequency": "occasional",
+      "confirm": "Filter clean, spray arms clear, tub filling to a normal level, pump sounding strong, and F14 still appears. At that point the thing reporting the level is the thing that is wrong, and you need a technician to confirm it rather than a parts gamble."
+    },
+    {
+      "cause": "Wiring or the electronic unit",
+      "frequency": "rare",
+      "confirm": "Everything mechanical and hydraulic has been proved good. Check the connectors for corrosion before anyone condemns the electronics, because on a Miele that is the most expensive sentence in the diagnosis."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the program and power cycle at the breaker",
+      "detail": "Switch the machine off at the on/off button, then turn it off at its breaker for five minutes and back on. One-off F14 codes after a power blip or a partially filled cycle do happen and clear for good. If the code comes straight back at the same point in the program, it is a real fault and you can stop hoping. Note where in the cycle it stops, because that is the single most useful clue you have.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the filter assembly properly",
+      "detail": "Turn the handle of the cylindrical coarse filter anticlockwise to unlock it and lift the whole assembly out of the tub floor. Separate the coarse filter from the fine filter plate, rinse both under hot running water and scrub the mesh with a washing-up brush until light passes through it evenly. A grease film looks clean and still halves the flow. Refit the assembly and turn the handle clockwise until it locks down.",
+      "minutes": 15,
+      "tools": "Washing-up brush",
+      "warning": null
+    },
+    {
+      "name": "Take the spray arms off and clear the jets",
+      "detail": "The lower spray arm lifts straight off its spindle on most Miele models. The upper arm and the ceiling spray, if you have one, unscrew by hand at the center nut. Hold each arm up to a light and look down every jet. Push a toothpick or a straightened paperclip into any that are blocked, then rinse the arm through under a tap until water comes out of all of them. Refit and spin each arm by hand to check it turns freely.",
+      "minutes": 15,
+      "tools": "Toothpick or paperclip",
+      "warning": null
+    },
+    {
+      "name": "Watch the fill level",
+      "detail": "Start the shortest program and open the door about two minutes into it. Water should be visible over the sump and up around the base of the filter, not just a puddle. If the level is clearly low, stop here and go and work the water supply instead: open the supply valve fully and clean the mesh filter in the inlet hose connector at the tap end. A machine that cannot fill properly will throw a level fault no matter what you do inside the tub.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Open the door slowly part way through a cycle. The water inside can be hot enough to scald and steam will come straight out at you."
+    },
+    {
+      "name": "Listen to the circulation pump during the main wash",
+      "detail": "Restart the shortest program and stand with the machine through the wash phase. A healthy circulation pump is a steady, even whirr with the sound of water being thrown against the tub walls behind it. A grinding note, a rattle, or a pump that rises and falls in pitch means something is in it or it is struggling, which is a different repair from a level sensing fault and worth knowing before you call anyone.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get the model number and the service sheet before buying anything",
+      "detail": "Open the door and read the full model and serial number off the plate on the door edge or the tub rim. Because public code lists disagree about F14, that number is what turns this from guesswork into a diagnosis. Quote it to Miele support or to the technician on the phone and ask what F14 maps to on your exact machine. Doing that first stops you buying a pressure switch for a problem that was a blocked spray arm.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter and spray arms are clean, the tub fills to a normal level and the pump sounds strong, you have exhausted what is sensibly done from inside the tub, and it is worth being honest about where you are. F14 is not well documented outside Miele's own service material. Most repair references map it to a water level or heater pressure switch confirmation fault, some group it with F12 and F13 as a general intake fault, and at least one widely copied list calls it a door lock problem, which does not match the rest. That disagreement matters, because the wrong reading sends you to buy the wrong part. So the order from here is this. First, call Miele support with your model and serial number and ask what F14 means on that machine. It costs nothing and it is the only way to resolve the conflict. Second, if the answer is level sensing, the pressure switch chamber and its connecting hose are the cheap part of that job: they silt up over years in hard water and a technician can clear them without replacing anything. Ask for that to be checked before a part is ordered. Third, if a part really is needed, expect the Miele reality rather than the mass-market one. A pressure switch is a modest component but reaching it means pulling a built-in machine out of a tight housing, and authorized Miele call-outs commonly run $150 to $250 before any work. A finished repair in this area typically lands between $250 and $600. If the diagnosis moves to the electronic unit, you are at $450 to $800. Owners find these numbers hard to accept, and that reaction is reasonable: a machine designed for twenty years of service feels like it should be cheap to keep running, and it is not. The counterweight is real though. A sound Miele at year ten often has another decade in it, so $400 spent on it buys more remaining life than $400 spent anywhere else. What is not worth doing is guessing at parts, which on this brand gets expensive faster than on any other.",
+  "reset_procedure": "Switch off at the on/off button, then cut the power at the breaker for five minutes and restore it. A single F14 after a power interruption, a part-filled cycle or an interrupted program will sometimes clear and never return. Restart on the shortest program rather than a full wash, and watch what point it reaches before stopping. A code that returns at exactly the same stage every time is a real fault; one that moves around is more likely a supply or level problem that varies with water pressure.",
+  "model_notes": "F14 is the least consistently documented code in the Miele dishwasher range. Different published tables map it to a heater pressure switch fault, to the F12 to F14 water intake group, and in at least one widely copied list to a door lock fault, and these sources are third-party rather than Miele. The practical consequence is that the model and serial number on the door edge matter more here than on any other Miele code. If your machine displays F14 and the checks in this page do not resolve it, get the meaning confirmed against your own service documentation before anyone orders a part, because the three readings point at three different components at three different prices.",
+  "parts": [
+    {
+      "name": "Triple filter assembly, coarse filter and fine filter plate",
+      "cost": "$45 to $90",
+      "difficulty": "easy",
+      "note": "Usually only needs scrubbing. Replace if the mesh is torn or the plastic has distorted"
+    },
+    {
+      "name": "Spray arm, upper or lower",
+      "cost": "$40 to $110",
+      "difficulty": "easy",
+      "note": "Only if cracked or split. A blocked arm just needs clearing"
+    },
+    {
+      "name": "Pressure switch or water level switch",
+      "cost": "$60 to $150",
+      "difficulty": "hard",
+      "note": "Modest part, awkward access. The machine normally has to come out of its housing"
+    },
+    {
+      "name": "Circulation pump",
+      "cost": "$200 to $420",
+      "difficulty": "technician only",
+      "note": "Only if the pump is clearly the problem. Roughly double the mass-market equivalent"
+    },
+    {
+      "name": "Electronic unit",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "Last resort, and only after the level sensing has been proved good"
+    }
+  ],
+  "when_to_call": "Call once the filter, the spray arms and the fill level all check out, because everything past that point is inside the machine and behind panels. Before you book, phone Miele support with your model and serial number and get F14 confirmed for your specific machine, since the public code lists conflict and you do not want to pay someone to work that out on your kitchen floor. Ask any technician for the call-out charge, the hourly rate and whether the call-out is credited against the repair, and expect those numbers to be higher than for a Bosch or a GE. Get anything over $400 in writing. If a technician proposes replacing the electronic unit without having first proved the pressure switch and its chamber, ask them to explain how they ruled it out.",
+  "faqs": [
+    {
+      "q": "What does F14 actually mean on a Miele dishwasher?",
+      "a": "The control could not confirm the water level and circulation it expects before heating, so it stopped. That is the reading most service references agree on. Be aware that the published lists conflict, with some grouping F14 with the water intake codes instead. Your model and serial number, quoted to Miele support, is the only way to settle it."
+    },
+    {
+      "q": "Can I still use the dishwasher with F14 showing?",
+      "a": "No. The machine stops the program rather than running the heater without confirming there is water around it, which is sensible behavior. There is no hazard in leaving the code displayed. If the tub has water in it, bail it out so it does not start to smell while you work out what to do."
+    },
+    {
+      "q": "Why do different websites give different meanings for F14?",
+      "a": "Because Miele publishes its full code tables in service documentation rather than in owner manuals, so third-party sites copy each other and the errors spread. You will find F14 described as a heater pressure switch fault, an intake fault and a door lock fault, all from sites that sound equally confident. Only your model's service sheet resolves it."
+    },
+    {
+      "q": "Could a blocked filter really cause F14?",
+      "a": "Yes, and it is the first thing to rule out. A grease-filmed filter mesh looks clean and still cuts circulation flow enough for the control to decide the water is not where it should be. The same goes for spray arm jets blocked with seeds and grit. Both are free to fix and take half an hour."
+    },
+    {
+      "q": "Is F14 worth repairing on an older Miele?",
+      "a": "Usually yes if the fix is a pressure switch or a cleaning job, and it needs thought at electronic unit prices. A Miele at ten or twelve years is often halfway through its working life, so a $400 repair buys more remaining years than the same money would on a mass-market machine. Above $700 the math gets harder."
+    },
+    {
+      "q": "Why is this repair likely to cost more than on another brand?",
+      "a": "Miele parts cost materially more than the Bosch, Whirlpool or GE equivalents, and authorized call-outs commonly run $150 to $250 before anything is touched. Fewer independents stock Miele parts, so you may also wait for an order. Owners are regularly shocked by the quotes, because the build quality implies cheap ownership and it does not work that way."
+    },
+    {
+      "q": "Should I just replace the pressure switch and see?",
+      "a": "No. Guessing at parts is expensive on every brand and worst on this one, where a modest component sits behind a job that needs the machine pulled out of its housing. Clean the filter and spray arms, confirm the fill level, confirm the code's meaning against your model number, and only then let anyone order a part."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "What the control checks before it heats, and where F14 comes from",
+    "labels": {
+      "display": "F14",
+      "c1": "Filter mesh, scrub not rinse",
+      "c2": "Spray arm jets, clear every hole",
+      "c3": "Fill level over the sump",
+      "c4": "Pressure switch chamber and hose"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher fault code tables, water level and heating group",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher common fault codes, including the conflicting F14 definitions",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher operating instructions, filter and spray arm cleaning",
+      "publisher": "Miele owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of poorly documented Miele F-codes",
+      "publisher": "Appliantology and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F13",
+    "F12",
+    "F24",
+    "F78",
+    "F11"
+  ]
+}

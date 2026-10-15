@@ -1,0 +1,193 @@
+{
+  "title": "Maytag Dryer F2 E1 Code: Stuck Button on the Console",
+  "meta_description": "F2 E1 on a Maytag dryer is a stuck or shorted keypad: the control reads a button as permanently pressed. Here is how to confirm it.",
+  "h1": "Maytag dryer F2 E1 code: a stuck button, and how to free it",
+  "answer": "F2 E1 on a Maytag dryer means the control sees one of the console buttons as held down. If a key stays pressed for a sustained stretch the board treats it as stuck, stops accepting input and puts F2 E1 on the display. Most of the time a key really is sticking, from lint, spilled detergent or a swollen membrane overlay, and pressing every button firmly in turn frees it. If no key is physically stuck, the fault is the membrane switch or the user interface board behind the panel.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to try the easy fixes, 1 to 2 hours to replace a panel",
+  "cost_estimate": {
+    "diy": "$0 to $200",
+    "technician": "$180 to $380"
+  },
+  "safety_warning": "Taking the console apart means working next to the dryer's main wiring. Unplug the machine at the wall or switch off both halves of its breaker before any panel comes off, and verify with a non-contact tester that it is dead. On a gas dryer, close the shutoff valve behind the machine first. Nothing on this repair requires you to defeat the door switch or any thermal cut-out, and you should not.",
+  "causes": [
+    {
+      "cause": "A key is physically sticking from lint, detergent or spilled liquid",
+      "frequency": "most cases",
+      "confirm": "Press each button in turn and compare the feel. A sticky key sits lower, feels mushy, or does not spring back cleanly the way its neighbors do. Dried detergent or softener around the edge of a key is visible under a flashlight held at a low angle across the panel."
+    },
+    {
+      "cause": "The membrane overlay has lifted, bubbled or swollen",
+      "frequency": "common",
+      "confirm": "Run a fingernail across the panel. An overlay that has started to peel at an edge, or has a raised blister over one key, holds that key's contact closed. Heat from the drum and steam from a badly vented dryer both do this, and it is usually obvious once you look at the panel in raking light."
+    },
+    {
+      "cause": "Moisture behind the console from a poorly vented dryer",
+      "frequency": "common",
+      "confirm": "F2 E1 appears after a humid run of laundry, or in a small unvented laundry room, and often clears on its own once the machine has sat dry for a day. Condensation behind the membrane bridges contacts. A lint screen seal that no longer sits tight lets damp air into the console and makes it recur."
+    },
+    {
+      "cause": "The membrane switch or user interface board has failed",
+      "frequency": "occasional",
+      "confirm": "No key feels stuck, the overlay is flat and intact, the dryer has been dry for days, and F2 E1 returns every time you power up. A dead patch where several adjacent keys do nothing points the same way. This is the point at which a part is needed."
+    },
+    {
+      "cause": "A damaged ribbon cable or connector between the panel and the board",
+      "frequency": "occasional",
+      "confirm": "With the dryer unplugged and the console open, look at the flat ribbon from the membrane to the board. A crease, a tear at the fold, or a connector sitting proud rather than clicked home produces the same symptom as a stuck key and costs nothing to reseat."
+    },
+    {
+      "cause": "The main control board is misreading a healthy console",
+      "frequency": "rare",
+      "confirm": "A new interface panel changed nothing and F2 E1 still appears on every power-up with the ribbon seated correctly. Rare enough that you should re-check the ribbon and the overlay twice before accepting it, because replacing the main board on this symptom is an expensive way to be wrong."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press every button on the console firmly in turn",
+      "detail": "Go along the whole panel, including the ones you never use and the ones under the cycle dial, pressing each key fully and letting it spring back. You are trying to free a key that is held down. Compare the feel as you go: the stuck one is usually noticeably softer or slower to return. This alone clears a large share of F2 E1 codes.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a full five minute power reset",
+      "detail": "Unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes rather than a quick off and on. The board holds residual charge and a short interruption often leaves the fault latched. Restore power and see whether the panel responds normally before you do anything else.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean around the keys",
+      "detail": "Wipe the console with a cloth lightly dampened with warm water and a little dish soap, working carefully around the edge of each key with a cotton bud to lift dried detergent and softener. Dry it thoroughly afterward. Do not spray anything directly at the panel and do not use solvents, which attack the printed overlay and will make a repairable panel unrepairable.",
+      "minutes": 10,
+      "tools": "Soft cloth, cotton buds, mild dish soap",
+      "warning": "Never spray liquid at the console. Dampen the cloth, not the panel."
+    },
+    {
+      "name": "Inspect the overlay in raking light",
+      "detail": "Hold a flashlight almost flat against the panel so the light skims across it. You are looking for a blister over a key, a lifted corner, a wrinkle, or a soft patch that gives too easily under a fingertip. A swollen or peeling overlay holds its key closed and will keep setting F2 E1 no matter how many times you reset the dryer.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Let the console dry out if moisture is likely",
+      "detail": "If the dryer lives in a small or humid room, or the code appeared after a long run of wet laundry, leave the machine unplugged with the door open for a day. Check that the lint screen seal is intact and sits tight, because a worn seal lets damp exhaust air into the console. If F2 E1 goes away and stays away, that was the cause.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the console and reseat the ribbon",
+      "detail": "With the dryer unplugged and confirmed dead, release the console, usually two or three screws along the rear edge of the top panel. Photograph everything first. Find the flat ribbon from the membrane switch to the interface board, unclip it, check for creases or tears at the fold, and push it squarely back until it clicks. Reassemble and retest before ordering anything.",
+      "minutes": 35,
+      "tools": "Phillips #2, nut driver, non-contact voltage tester, phone camera",
+      "warning": "Unplug at the wall and verify with a tester before reaching into the console."
+    },
+    {
+      "name": "Order the panel against the number on the part, not the model name",
+      "detail": "If the membrane or interface board needs replacing, take the part number from the label on the board or the back of the panel and cross-check it against the model sticker inside the door opening. Console parts change part numbers partway through a production run, and a panel that looks identical can have different key mapping or firmware.",
+      "minutes": 15,
+      "tools": "Phone camera",
+      "warning": null
+    }
+  ],
+  "still_showing": "If F2 E1 survives pressing every key, a reset and a clean, the next question is whether the console responds at all. Power the dryer up and try selecting a different cycle or changing the temperature. If other keys work normally and only F2 E1 keeps appearing, one specific key is still being read as closed, and you can often find it: watch the display as you press each button and see which one produces no response or an inconsistent one. If nothing on the panel responds, you are looking at the membrane switch, the ribbon or the interface board rather than a single sticky key. Work in that order, cheapest first. Reseat the ribbon, because a connector that was never pushed fully home after a previous repair is free to fix and surprisingly common. Then inspect the ribbon where it folds, since a crack at the fold breaks a trace and is visible if you flex it gently under good light. Then replace the membrane or the interface panel, which on most Maytag dryers is a single assembly costing roughly $90 to $200 and held by a few clips and screws; it is reasonable DIY work with the machine unplugged. Only when a known-good panel is fitted, with the ribbon seated and the overlay flat, is the main control board worth suspecting, and that is where the cost jumps to $250 to $450 fitted. Two things worth ruling out before you spend anything. First, confirm the code really is F2 E1 and not F2 E3 or a similar neighbor, because several codes in the F2 group cover different parts of the console and they look alike on a seven segment display. Second, if the dryer sits in a humid room, deal with that: a console that failed from condensation will do it again to a new panel, and the fix there is ventilation and an intact lint screen seal rather than a part.",
+  "reset_procedure": "Press Power to cancel, then unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes. The wait matters because the board holds residual charge and a quick off-and-on often leaves the stuck-key state latched. Before restoring power, press every button on the console in turn to free anything that is physically held down, then power up and test. A reset does nothing for a key that is genuinely stuck.",
+  "model_notes": "Maytag dryers share the Whirlpool control platform, so F2 E1 means the same thing on Whirlpool, Amana and KitchenAid dryers of the same generation. It also appears as F2E1 with no space, and some older machines in the family show the same fault as F:02. The same code exists on Maytag washers, ovens and dishwashers with broadly the same stuck-key meaning but different panels and parts, so make sure you are reading it off the dryer. Published references disagree on exactly how long a key must be held before the control flags it, so do not read anything into the timing; check the tech sheet inside your console for your model.",
+  "parts": [
+    {
+      "name": "Membrane switch and console overlay",
+      "cost": "$60 to $150",
+      "difficulty": "moderate",
+      "note": "The usual fix when a key is stuck under a swollen overlay"
+    },
+    {
+      "name": "User interface control board",
+      "cost": "$90 to $200",
+      "difficulty": "moderate",
+      "note": "Often sold as one assembly with the membrane on newer models"
+    },
+    {
+      "name": "Lint screen housing seal",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Worth doing if moisture in the console is the underlying cause"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, only after a known-good console changed nothing"
+    }
+  ],
+  "when_to_call": "Call an appliance technician if F2 E1 survives a reset, a clean and a reseated ribbon and you would rather not take the console apart, or if a new interface panel has not fixed it, because the next step is tracing the console wiring with the machine live. Call a licensed gas technician for anything involving the burner or gas supply on a gas model. Get a quote before agreeing to a repair on an older dryer: a console assembly plus labor usually lands between $180 and $380, which on a machine over ten years old is worth weighing against replacement, particularly if it was already drying slowly.",
+  "faqs": [
+    {
+      "q": "What does F2 E1 mean on a Maytag dryer?",
+      "a": "The control is reading one of the console buttons as permanently pressed. When a key stays closed long enough the board flags it as stuck, stops accepting input and displays F2 E1. Usually a key really is sticking from lint, dried detergent or a swollen overlay. If none is, the membrane switch or the interface board has failed."
+    },
+    {
+      "q": "How do I fix a stuck button on a Maytag dryer?",
+      "a": "Press every key on the console firmly in turn, including the ones you never use, and let each spring back. Then wipe around the keys with a barely damp cloth and a cotton bud to lift dried detergent, and dry the panel thoroughly. Finish with a five minute power cut at the breaker, then test. That sequence clears most F2 E1 codes."
+    },
+    {
+      "q": "Can I still use my dryer with F2 E1?",
+      "a": "Usually not, because the control stops accepting button presses while it thinks a key is held, so you cannot start or change a cycle. There is no safety risk in leaving it showing, but nothing will run. If the panel still responds intermittently, avoid relying on it until the stuck key is found."
+    },
+    {
+      "q": "Why did F2 E1 appear suddenly?",
+      "a": "The most common triggers are a cleaning session that pressed a key with a wet cloth, dried detergent building up around a key edge until it no longer releases, and humidity getting behind the overlay in a small laundry room. Heat from the drum also swells the console overlay over years, which eventually holds one key closed."
+    },
+    {
+      "q": "Do I need a new control board for F2 E1?",
+      "a": "Rarely. The part that fails on this code is almost always the console itself, meaning the membrane switch or the user interface board behind it, which typically costs $90 to $200. The main control board is only the suspect once a known-good console is fitted with the ribbon seated and the code still appears."
+    },
+    {
+      "q": "Can I replace the Maytag dryer console myself?",
+      "a": "Yes, for most people. With the dryer unplugged, the console usually comes off after two or three screws along the back edge of the top panel, and the membrane and interface board are held by clips and a ribbon connector. Photograph everything before disconnecting it, and order the part against the number printed on the board."
+    },
+    {
+      "q": "Is F2 E1 the same on a Maytag washer?",
+      "a": "The meaning is similar, a stuck key on the console, but the parts are completely different. If you have a stacked laundry pair, confirm which unit is showing the code before ordering anything, because a washer console will not fit a dryer. The diagnosis is the same: free the key first, replace the console only if you must."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "F2 E1 is a console fault; the stuck key is usually under the overlay, not inside the dryer.",
+    "labels": {
+      "display": "F2 E1",
+      "c1": "Press every key in turn",
+      "c2": "Clean dried detergent off the panel",
+      "c3": "Check the overlay for blisters",
+      "c4": "Reseat the ribbon to the board"
+    }
+  },
+  "sources": [
+    {
+      "title": "Maytag dryer F2 E1 stuck button fault and keypad checks",
+      "publisher": "Maytag and Whirlpool platform service documentation",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer technical sheet, console fault codes and keypad test",
+      "publisher": "Service tech sheet supplied inside the dryer console",
+      "url": null
+    },
+    {
+      "title": "Field reports on stuck key causes and how often the console is the part that fails",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F01",
+    "F3E3",
+    "F3E2",
+    "AF",
+    "PF",
+    "LOC"
+  ]
+}

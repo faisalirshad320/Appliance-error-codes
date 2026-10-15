@@ -1,0 +1,133 @@
+{
+  "title": "Panasonic Microwave Error Codes and How to Unlock It",
+  "meta_description": "Most Panasonic microwave lockouts are the child lock, not a fault. Press Stop/Reset three times, or unplug it. Plus what the H codes actually mean.",
+  "h1": "Panasonic microwave error codes: unlocking it, and what the codes mean",
+  "answer": "Most people searching for a Panasonic microwave code are locked out rather than broken down. If the oven shows a key symbol or an L and refuses to start, that is the child safety lock and it is not a fault: on most models pressing Stop/Reset three times releases it, and on any model unplugging the oven for ten seconds clears it, because Panasonic's lock does not survive a power cut. Genuine faults appear as H codes from the self-diagnostic system, of which H97 and H98 are the ones owners actually meet, and those point at the circuit that generates the microwaves. Panasonic publishes very little code documentation, so your own operating manual outranks any chart.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "2 minutes to unlock, 20 minutes to investigate an H code",
+  "cost_estimate": { "diy": "$0 for a lockout", "technician": "$150 to $350 for an H code" },
+  "safety_warning": "Nothing on this page asks you to open a microwave. The high-voltage capacitor inside holds a charge that can kill and keeps it after the oven is unplugged, so the case stays shut whatever the display says. Unlocking, clearing a demo mode and running a cup-of-water test are all safe from outside. Anything beyond that is a technician job. Stop using the oven altogether, rather than working around a code, if the door sits crooked, the hinges or seal are damaged, or you can see arcing inside the cavity.",
+  "causes": [
+    {
+      "cause": "Child safety lock, shown as a key symbol or an L",
+      "frequency": "most cases",
+      "confirm": "The display is lit and the clock is normal, but no cooking key does anything and the oven will not start. A key or padlock symbol sits in the display. Nothing is broken: the panel has been locked, usually by someone holding a pad for a few seconds without meaning to. The oven behaves perfectly the moment it is released."
+    },
+    {
+      "cause": "Self-diagnostic hardware faults, the H codes",
+      "frequency": "common",
+      "confirm": "The display shows an H followed by two digits, most often H97 or H98, and cooking either fails outright or stops within seconds. Run a cup of cold water for one minute at full power: if it comes out cold, the oven is not generating microwaves and the fault is real rather than a lockout."
+    },
+    {
+      "cause": "Demo or display mode on models that have it",
+      "frequency": "occasional",
+      "confirm": "The oven lights up, the turntable may turn and the timer counts down normally, but nothing ever gets warm and no code is shown. Some models indicate this with a D in the display. It is a shop mode meant for showroom units and it is sometimes left on after a return or a delivery. The exit sequence is model-specific and is in the manual."
+    },
+    {
+      "cause": "Cavity too hot from previous use to accept an automatic program",
+      "frequency": "occasional",
+      "confirm": "Manual cooking by time and power works normally, but sensor, reheat, popcorn and other preset programs are refused. Panasonic's own troubleshooting material associates this condition with codes in the H group. Half an hour standing with the door open fixes it, and nothing needs repairing."
+    },
+    {
+      "cause": "A code chart for the wrong Panasonic product",
+      "frequency": "occasional",
+      "confirm": "The meaning you found does not match what the oven is doing at all. Panasonic air conditioners use some of the same code numbers for completely unrelated faults, including H97 and H98. Check that whatever you are reading is written for microwaves before acting on it."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Work out whether you are locked out or broken down",
+      "detail": "Look at the display. A lit, normal-looking clock with a key or padlock symbol and dead cooking keys is a child lock, which takes seconds to clear. An H followed by two digits is a self-diagnostic fault. A display that counts down a cycle normally while nothing gets hot is either demo mode or a heating failure. Those three go in completely different directions, so settle it before doing anything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try Stop/Reset three times to unlock",
+      "detail": "This is the sequence Panasonic documents for most of its older microwaves, and it is the one to try first. Press the Stop/Reset pad three times in reasonably quick succession and watch for the key symbol to clear. If your oven has a Function button, some models want Function followed by 5 and then 2 instead. Do not hold the pads down, just press them.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the panel for a named unlock sequence",
+      "detail": "Panasonic has not kept one unlock method across the range, and newer models use a short sequence of named cooking pads rather than Stop/Reset. Because the pads differ between models, look at your own control panel and your manual rather than trusting a sequence found online for a different unit. Look for small print under or beside a pad indicating a lock function.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug it for ten seconds, which clears the lock on any model",
+      "detail": "This is the reliable fallback and the thing worth knowing about Panasonic specifically. Unlike some other brands, where the child lock is stored deliberately so a power cut cannot defeat it, Panasonic's own material states the lock disengages when the oven is unplugged. Pull the plug, count to twenty, plug it back in and reset the clock. If the oven was only locked, it will now work.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run the cup-of-water test if you have an H code",
+      "detail": "Stand a microwave-safe mug with about a cup of cold tap water in the middle of the turntable and run one minute at full power. It should come out clearly warm. Water still cold after a full minute means the oven is not producing microwaves and the fault is in the generating circuit. Never test by running the oven empty, which can damage the magnetron.",
+      "minutes": 8,
+      "tools": "Microwave-safe mug",
+      "warning": "Never run a microwave with nothing inside it."
+    },
+    {
+      "name": "Let it cool and clear the vents before assuming the worst",
+      "detail": "Unplug the oven and leave the door open for half an hour, then vacuum the grilles on the back, sides and top with a brush attachment and take anything stored on top of it off. A cavity still hot from heavy use will refuse automatic programs, and an oven recycling its own waste heat through blocked vents will keep throwing codes however healthy its components are.",
+      "minutes": 35,
+      "tools": "Vacuum with brush attachment",
+      "warning": null
+    },
+    {
+      "name": "Find the model number and the manual before spending anything",
+      "detail": "The model sticker is inside the door frame or on the back of the cabinet. Panasonic publishes less code documentation than most brands, so the troubleshooting section of the manual for your exact model is worth more than any general list. Check the warranty at the same time, because magnetrons on these often carry parts cover running well beyond the general warranty.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Stop at the cabinet",
+      "detail": "If the oven fails the water test, the remaining work is on the high-voltage side behind the case and belongs to a technician with a discharge tool. Get a quote with your model number in hand and compare it against a replacement before agreeing, because on countertop models the two figures are frequently close enough to make repair the wrong choice.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Do not remove the outer case. The high-voltage capacitor holds a lethal charge even when the oven is unplugged."
+    }
+  ],
+  "still_showing": "If the oven is genuinely not heating rather than locked, the honest summary for this brand is short. The faults you can do something about from outside the case are the cavity-overheat condition, which fixes itself in half an hour with the door open, and blocked ventilation, which is a vacuum cleaner and a rethink of where the oven sits. Everything else is the inverter board and the magnetron, typically $100 to $250 and $70 to $180 as parts, and nobody can tell which has failed without opening the cabinet and testing the high-voltage side, because the H codes do not distinguish them. With labor a repair generally lands between $150 and $350. That is close enough to the price of a comparable new Panasonic inverter microwave that many technicians will say over the phone that a countertop model is not worth a call-out, and they are usually right. The arithmetic reverses for a built-in or over-range oven, where replacing means matching a cabinet opening and paying for installation, and there a repair in the low hundreds against six hundred plus fitting is clearly worth doing. Before you decide either way, check the magnetron warranty, which is often longer than the warranty on the rest of the oven and which people routinely forget to claim. And do not let anyone order a specific part off the code alone: H97 and H98 are not separated by any documentation I could find, so the component has to be confirmed by testing rather than by lookup.",
+  "reset_procedure": "Unplug the microwave at the socket, wait at least ten seconds, and plug it back in. On Panasonic this single action does double duty: it clears a stored fault, and it releases the child lock, because unlike some brands the lock here does not survive a power cut. You will need to set the clock again afterwards, which is the easiest way to confirm the power cut actually took. If an H code returns immediately on a cold oven with nothing running, it is a hardware fault and further resets will not shift it.",
+  "model_notes": "Panasonic publishes less error code documentation for microwaves than most manufacturers, and what exists is inconsistent. The clearest example is H97 and H98: third-party repair references describe both as magnetron or inverter circuit failures, while Panasonic's own troubleshooting page groups them with a cavity too hot to run an automatic program, and no source separates the two codes from each other. Unlock sequences have also changed across the range, with older models documented as Stop/Reset three times, some models using a Function button followed by digits, and newer ones using a sequence of named cooking pads, so the panel in front of you decides which applies. Panasonic air conditioners reuse several of the same code numbers for unrelated faults, which is a common source of wrong answers online.",
+  "parts": [
+    { "name": "Inverter board", "cost": "$100 to $250", "difficulty": "technician only", "note": "High-voltage component; never a DIY part" },
+    { "name": "Magnetron", "cost": "$70 to $180", "difficulty": "technician only", "note": "Check the warranty first, cover often runs longer than the rest of the oven" },
+    { "name": "Cooling fan motor", "cost": "$40 to $100", "difficulty": "technician only", "note": "Inside the cabinet, so still not a job to attempt" },
+    { "name": "Control board", "cost": "$80 to $200", "difficulty": "technician only", "note": "Uncommon, and only once the heating side has been cleared" }
+  ],
+  "when_to_call": "There is no reason to call anyone for a lockout, a demo mode or a hot cavity, and all three are free to resolve. Call once the oven fails a cup-of-water test, because everything beyond that is behind the case on the high-voltage side. Tell them the model number and the water test result when you book, since that saves a diagnostic step. Ask for a quote before parts are ordered and ask them to confirm the failed component rather than fitting one on the code. And stop using the oven straight away, without waiting for an appointment, if the door is damaged or misaligned or you see arcing inside.",
+  "faqs": [
+    { "q": "What is the unlock code for a Panasonic microwave?", "a": "There is no numeric code. The child lock is released by a pad sequence, most commonly pressing Stop/Reset three times on older models, with some using a Function button followed by 5 and 2, and newer models using a short sequence of named cooking pads. If none works, unplugging the oven for ten seconds clears the lock on any model." },
+    { "q": "Why does my Panasonic microwave say it is locked?", "a": "Because the child safety lock is on, which disables the control panel so a child cannot start the oven. It is usually switched on by accident, by someone holding a pad for a few seconds while wiping the panel. The display stays lit and the clock looks normal, with a key or padlock symbol showing and no cooking key responding." },
+    { "q": "Does unplugging a Panasonic microwave clear the child lock?", "a": "Yes, and this is worth knowing because it differs from some other brands. Panasonic's own material says the lock disengages when the oven is unplugged, so a ten second power cut releases it regardless of model. On brands like LG the lock is deliberately stored through a power cut, so advice written for those does not transfer." },
+    { "q": "What do the H codes mean on a Panasonic microwave?", "a": "They come from the self-diagnostic system, and H97 and H98 are the ones owners actually see. Both point at the circuit that generates microwaves, meaning the inverter board and the magnetron, though Panasonic's own material also links them to a cavity too hot for an automatic program. A cup-of-water test tells you which situation you are in." },
+    { "q": "My microwave runs but nothing gets hot. Is that a code problem?", "a": "Not necessarily. If the display counts down normally and shows no code, check whether the oven is in demo or display mode, a showroom setting sometimes left on after a delivery or return, indicated by a D on models that have it. If there is an H code, or no D, run the cup-of-water test to confirm it is not heating." },
+    { "q": "Can I repair a Panasonic microwave myself?", "a": "You can unlock it, clear a demo mode, let a hot cavity cool and clean the vents, all from outside. You cannot work inside the cabinet. The high-voltage capacitor holds a charge capable of killing you and keeps it after the oven is unplugged, so the case stays shut and anything behind it goes to a technician." },
+    { "q": "Is a Panasonic microwave worth repairing?", "a": "On a countertop model usually not, because a repair at $150 to $350 sits close to the price of a comparable new inverter oven. On a built-in or over-range unit it usually is, since replacing means matching a cabinet opening and paying for installation. Check the magnetron warranty before deciding, as it often runs longer than the rest." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Locked out, in demo mode, or genuinely not heating: three different problems.",
+    "labels": {
+      "display": "H97",
+      "c1": "Key symbol means child lock",
+      "c2": "Stop/Reset three times",
+      "c3": "Unplug ten seconds clears lock",
+      "c4": "H code means run the water test"
+    }
+  },
+  "sources": [
+    { "title": "Troubleshooting an error code appears in the microwave display window", "publisher": "Panasonic North America support help library", "url": null },
+    { "title": "How to use the child safety lock feature on Panasonic microwave ovens", "publisher": "Panasonic North America support help library", "url": null },
+    { "title": "Panasonic microwave operating manual, troubleshooting and child lock sections", "publisher": "Panasonic owner's manual supplied with the oven", "url": null },
+    { "title": "Panasonic microwave code references and unlock sequences by model", "publisher": "Third-party appliance repair reference sites", "url": null }
+  ],
+  "related_codes": ["H97", "H98"]
+}

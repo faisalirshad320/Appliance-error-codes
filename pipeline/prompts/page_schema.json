@@ -1,0 +1,53 @@
+{
+  "type": "json_schema",
+  "name": "error_code_page",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["title","meta_description","h1","summary_answer","severity","can_diy",
+                 "typical_repair_cost_usd","causes","immediate_steps","still_showing",
+                 "parts","when_to_call","faqs","related_codes"],
+    "properties": {
+      "title": {"type":"string","description":"SEO title, under 60 chars, leads with brand+appliance+code"},
+      "meta_description": {"type":"string","description":"Under 155 chars, states the meaning and the top fix"},
+      "h1": {"type":"string"},
+      "summary_answer": {"type":"string","description":"2-3 sentences. What the code means and the single most likely fix. This is the AI Overview / featured snippet target."},
+      "severity": {"type":"string","enum":["minor","moderate","serious","stop-using-it"]},
+      "can_diy": {"type":"string","enum":["yes","usually","sometimes","no"]},
+      "typical_repair_cost_usd": {"type":"string","description":"A range like '0-40 DIY, 150-320 technician'"},
+      "causes": {
+        "type":"array","minItems":2,"maxItems":7,
+        "items":{"type":"object","additionalProperties":false,
+          "required":["cause","how_common","how_to_confirm"],
+          "properties":{
+            "cause":{"type":"string"},
+            "how_common":{"type":"string","enum":["most cases","common","occasional","rare"]},
+            "how_to_confirm":{"type":"string","description":"The specific observation that proves it is this one"}}}},
+      "immediate_steps": {
+        "type":"array","minItems":3,"maxItems":10,
+        "items":{"type":"object","additionalProperties":false,
+          "required":["step","detail","tools_needed","minutes"],
+          "properties":{
+            "step":{"type":"string"},
+            "detail":{"type":"string"},
+            "tools_needed":{"type":"string"},
+            "minutes":{"type":"integer"}}}},
+      "still_showing": {"type":"string","description":"What to do when the steps above did not clear the code. The most valuable section on the page."},
+      "parts": {
+        "type":"array","maxItems":5,
+        "items":{"type":"object","additionalProperties":false,
+          "required":["part_name","typical_cost_usd","difficulty"],
+          "properties":{
+            "part_name":{"type":"string"},
+            "typical_cost_usd":{"type":"string"},
+            "difficulty":{"type":"string","enum":["easy","moderate","hard","technician only"]}}}},
+      "when_to_call": {"type":"string"},
+      "faqs": {
+        "type":"array","minItems":4,"maxItems":8,
+        "items":{"type":"object","additionalProperties":false,
+          "required":["q","a"],
+          "properties":{"q":{"type":"string"},"a":{"type":"string","description":"40-70 words, answers in the first sentence"}}}},
+      "related_codes": {"type":"array","maxItems":6,"items":{"type":"string"}}
+    }
+  }
+}

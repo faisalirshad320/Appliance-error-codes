@@ -1,0 +1,192 @@
+{
+  "title": "Bosch Dishwasher E25 Error Code: Drain Pump Blocked",
+  "meta_description": "Bosch E25 means the drain pump is blocked or its cover is loose. Free the impeller under the pump cover in the sump. Usually a 20-minute fix.",
+  "h1": "Bosch dishwasher E25 error code: what it means and how to fix it",
+  "answer": "E25 points at the drain pump rather than the pipework: either something is jamming the impeller, or the plastic pump cover in the floor of the sump is loose, missing, or not clicked down. The classic sign is a hum from under the machine during the drain with no water moving. Lift out the filters, take off the pump cover, and turn the impeller with a finger. A shard of glass, a fruit pit or a toothpick wedged against the housing is the usual culprit, and freeing it costs nothing.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$140 to $280"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Debris is jamming the drain pump impeller",
+      "frequency": "most cases",
+      "confirm": "With the filters and pump cover out, try to turn the impeller with a fingertip. A healthy one turns with a faint magnetic notchiness. One that will not move at all, or that grinds and stops at the same point every revolution, has something wrapped around it or wedged beside a vane."
+    },
+    {
+      "cause": "The pump cover is loose, cross-seated or missing",
+      "frequency": "most cases",
+      "confirm": "Look at the plastic cover over the pump opening in the sump floor. It must sit flush and lock with a small twist. If it rocks, lifts at one edge, or is not there at all because it was left out after a clean, the pump pulls air instead of water."
+    },
+    {
+      "cause": "Broken glass in the pump housing",
+      "frequency": "common",
+      "confirm": "Specific to a machine that recently had a glass break in it, and worth suspecting even if you thought you picked up all the pieces. Shine a flashlight into the pump opening with the cover off; glass shows up as a bright edge against the dark plastic. It can sit against the impeller and block it without jamming it solid."
+    },
+    {
+      "cause": "The drain pump has failed electrically or seized",
+      "frequency": "common",
+      "confirm": "The impeller spins freely by hand, the cover is seated, the filters are clean, and the pump still only hums or stays silent during the drain phase. At that point the pump itself is the remaining part in the chain."
+    },
+    {
+      "cause": "The pump is airlocked after a repair or a move",
+      "frequency": "occasional",
+      "confirm": "E25 appeared right after the machine was tipped, moved, or had the pump out. Pour a quart of hot water into the sump and run a drain cycle; if it clears and stays clear, that was all it was."
+    },
+    {
+      "cause": "A wiring fault or a failed connector at the pump",
+      "frequency": "rare",
+      "confirm": "No sound at all from the pump during the drain, with a pump that turns freely. Pull the connector at the pump with the power off and look for green corrosion or a terminal pushed back out of the housing before blaming the control board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle, cut the power and bail the tub out",
+      "detail": "Hold Start for about three seconds to cancel, then switch the dishwasher off at the breaker before you put your hands into the sump. Scoop the standing water out with a plastic cup into a bucket and mop up the last of it with a sponge. You want the sump dry enough to see the bottom clearly.",
+      "minutes": 10,
+      "tools": "Plastic cup, bucket, sponge",
+      "warning": "Switch off at the breaker before reaching into the sump. You are about to expose the pump opening, and nobody should be able to start a cycle while your hand is in there."
+    },
+    {
+      "name": "Take out the filters",
+      "detail": "Turn the cylindrical filter anticlockwise about a quarter turn and lift it straight out, then lift out the flat mesh screen underneath. Rinse both while you have them out and scrub the underside of the flat screen, which is where the grease mat builds. Set them somewhere you will not stand on them.",
+      "minutes": 6,
+      "tools": "Dish brush",
+      "warning": null
+    },
+    {
+      "name": "Remove the pump cover",
+      "detail": "With the filters out you are looking at the sump floor, with a round or oval plastic cover over the pump opening on one side. Most twist a few degrees and lift; some have a small tab you press. If it resists, do not lever it with a screwdriver and crack it, because it is the part that has to seal afterward. Note which way round it sits before you lift it.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clear the pump housing and free the impeller",
+      "detail": "Put a glove on. Look into the opening with a flashlight before you reach in, because broken glass is the single most likely thing you will find. Pick out glass, fruit pits, bone chips, bottle labels and bits of plastic with needle-nose pliers. Then turn the impeller with a fingertip: it should rotate with a slight notchy resistance from the magnets. Work anything wrapped around the shaft loose and turn it a full few revolutions in both directions.",
+      "minutes": 12,
+      "tools": "Work glove, needle-nose pliers, flashlight",
+      "warning": "Assume there is broken glass in the pump housing until you have looked with a light. Never sweep a bare hand around in there."
+    },
+    {
+      "name": "Refit the cover properly and reassemble",
+      "detail": "Seat the pump cover back in its opening the way it came out and twist it until it locks; a cover that is a few degrees off looks fitted but leaves the pump pulling air, which gives you the same code back. Drop in the flat screen, then the filter cylinder, and turn it clockwise until it stops. Give the filter a gentle tug; it should not lift out.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Prime and test the drain",
+      "detail": "Pour about a quart of hot water into the sump to give the pump something to grab, restore power at the breaker, and start the shortest cycle. The drain runs in the first minute or two of any program, so you will know quickly. A working drain rises to a whine and then finishes with a slurp as the sump empties. A flat hum with no water movement means you are not done.",
+      "minutes": 10,
+      "tools": "Jug of hot water",
+      "warning": null
+    },
+    {
+      "name": "Check the pump connector if it makes no sound at all",
+      "detail": "Power off at the breaker, pull the kickplate off, usually two or four Torx screws along the bottom edge, and find the drain pump on the underside of the sump. Unplug the connector and look at both halves for green corrosion, a melted shell or a terminal that has backed out. Push it firmly back together and retest. This is free and it is a real failure mode in damp kitchens.",
+      "minutes": 15,
+      "tools": "Torx T20 screwdriver, flashlight",
+      "warning": "Power off at the breaker before unplugging anything under the machine."
+    }
+  ],
+  "still_showing": "If the impeller turns freely, the cover is locked down and the filters are clean, you have ruled out the cheap end and the question becomes whether the pump is being driven at all. Listen first, because the sound tells you where you are. A steady hum with no flow means the pump has power but cannot move water, which after a free impeller and a seated cover means the pump is worn out internally; that is a $50 to $120 part and about an hour on most Bosch models, with the machine tipped back and the pump twisted off the bottom of the sump. Total silence from the pump during the drain phase means something upstream is not delivering power, so check the connector at the pump for corrosion before anything else, since that costs nothing and fails often in a damp cabinet. If the connector is sound and the pump still never runs, you are into the harness and the control module, and that is where the bill jumps to a few hundred dollars and stops being sensible on an older machine. Two things worth ruling out before you spend. One: clear the rest of the drain path anyway, because a blocked hose or an air gap packed with sludge can load the pump enough to produce a pump-side code even though the pump is fine. Two: if E25 appeared immediately after the machine was moved, tipped or repaired, the pump may just be airlocked. Pour a quart of hot water into the sump and run a drain cycle before you order anything.",
+  "reset_procedure": "Hold the Start button for about three seconds to cancel the program. Once the blockage is cleared, cut power at the breaker for five minutes and restore it, which drops the stored fault from the control. Run the shortest cycle to test rather than a full wash, since the drain phase runs in the first couple of minutes and you will know straight away.",
+  "model_notes": "Bosch puts its drain-side faults in the E22 to E25 range and the exact split varies between model generations and between the US and European service documentation; Bosch's own US support material describes E23 as the pump fault and E24 as a blocked pump or loose pump cover, while E25 is more commonly documented by repair sources as the pump being blocked or its cover unseated. The practical consequence is that these numbers are a hint rather than a precise diagnosis: clear the filters, the pump housing and the drain hose together, whichever of the four you are looking at. On hidden-control models the code appears only on the inner panel display.",
+  "parts": [
+    {
+      "name": "Pump cover or sump cover plate",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if cracked; a cover that just was not clicked down costs nothing"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "Twists off the underside of the sump; about an hour with the machine tipped back"
+    },
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Replace only if the mesh is torn or the cylinder is cracked"
+    },
+    {
+      "name": "Drain pump wiring connector or pigtail",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "For a corroded connector rather than a failed pump"
+    }
+  ],
+  "when_to_call": "Call a technician if the pump makes no sound at all during the drain phase and the connector at the pump is clean and tight, because the next step is testing a live circuit back to the control module. Call as well if the pump hums with a free impeller and a seated cover and you do not want to tip the machine onto its back to change it, which is the awkward part of an otherwise straightforward job. And think twice before authorizing a control module on a dishwasher over eight years old: by the time you add labor you are most of the way to a new machine, and the sensible move is often to put the money toward a replacement instead.",
+  "faqs": [
+    {
+      "q": "Why does my Bosch dishwasher hum but not drain?",
+      "a": "The drain pump is getting power but cannot move water. Either the impeller is jammed by debris, the pump cover in the sump is not seated so the pump is pulling air, or the pump is worn out internally. Check the first two before buying a part, because both are free to fix and together they account for most of these."
+    },
+    {
+      "q": "What is the difference between E24 and E25?",
+      "a": "Both are drain-side faults. E24 points at the path the water takes out, so the filters, drain hose, air gap and disposal connection, while E25 points at the pump itself being blocked or its cover loose. The codes overlap between model generations, so clearing the filters, the pump housing and the hose together is the practical approach."
+    },
+    {
+      "q": "Where is the drain pump on a Bosch dishwasher?",
+      "a": "It mounts on the underside of the sump, in the middle of the machine. You reach its impeller from inside the tub by lifting out the filters and removing the plastic pump cover in the sump floor. To replace the whole pump you have to pull the machine out, tip it back, and twist the pump off from underneath."
+    },
+    {
+      "q": "Can broken glass really stop the drain pump?",
+      "a": "Yes, and it is the most common single cause. A shard small enough to pass the filter mesh can sit against an impeller vane and block it, or score the housing so the pump loses its seal. If a glass broke in the machine any time in the last few weeks, check the pump housing with a flashlight even if you thought you collected every piece."
+    },
+    {
+      "q": "Can I still use the dishwasher with an E25 code?",
+      "a": "No, because the water from the previous stage is still in the tub and another cycle just adds to it. There is no danger in leaving it, but you will get dirty dishes sitting in standing water. Bail the tub out rather than leaving it full, since a sump of warm food water turns unpleasant within a day or two."
+    },
+    {
+      "q": "I cleared the pump and E25 came straight back. Why?",
+      "a": "The usual reason is the pump cover going back in slightly off. It can look fitted while sitting a few degrees out of its lock, which leaves the pump pulling air and gives you the identical code. Take the filters back out, lift the cover, and refit it until it positively locks before you conclude the pump has failed."
+    },
+    {
+      "q": "Is it worth replacing the drain pump myself?",
+      "a": "On most Bosch models yes, if you are comfortable pulling the machine out and tipping it onto its back. The pump twists off the bottom of the sump and the job runs about an hour with a $50 to $120 part, against $140 to $280 for a technician. The awkward part is the handling, not the pump itself."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "Reaching the Bosch drain pump impeller from inside the tub",
+    "labels": {
+      "display": "E25",
+      "c1": "Filters lifted out of the sump",
+      "c2": "Pump cover twisted off",
+      "c3": "Impeller turned free by hand",
+      "c4": "Pump connector under the kickplate"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature, drain pump and sump assembly",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Technician threads on E23 and E25 after drain pump replacement",
+      "publisher": "Appliantology forum",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E24",
+    "E23",
+    "E22",
+    "E15",
+    "E09"
+  ]
+}

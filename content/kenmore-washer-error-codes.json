@@ -1,0 +1,209 @@
+{
+  "title": "Kenmore Washer Error Codes: Who Actually Built Yours",
+  "meta_description": "Kenmore washers are rebadged LG, Whirlpool, Frigidaire or Samsung machines. Your model number tells you whose code system you are reading.",
+  "h1": "Kenmore washer error codes: start by finding out who built the machine",
+  "answer": "Kenmore does not build washing machines and never has. Sears sold machines made by Whirlpool, LG, Frigidaire and Samsung under the Kenmore badge, so the code on your display belongs to whichever of those companies actually built it. The first three digits of the model number tell you which: 110 is Whirlpool, 796 is LG, 417 is Frigidaire or Electrolux, and 592 is Samsung. That is why one Kenmore washer shows LG-style letter codes like OE, LE and UE while the one next to it in the showroom shows Whirlpool F-codes like F21 and F35.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to identify the machine, 15 to 60 minutes for most fixes",
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$120 to $350"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Drain restriction: the machine could not empty in time",
+      "frequency": "most cases",
+      "confirm": "Water still standing in the drum when the cycle stops. Shows as OE on an LG-built machine, F21 or F9 E1 on a Whirlpool-built one. Nearly always the pump filter, the drain hose or a blocked standpipe."
+    },
+    {
+      "cause": "Fill restriction: the machine could not get water in time",
+      "frequency": "common",
+      "confirm": "Drum dry or barely wet when the cycle stops. IE or 1E on LG-built, LF or FH on Whirlpool-built. Check the taps and the mesh screens at the hose connections before anything else."
+    },
+    {
+      "cause": "Load balance: the drum could not be balanced for the spin",
+      "frequency": "common",
+      "confirm": "Clothes soaking wet, cycle ended early, one heavy item bundled on one side of the drum. UE or uE on LG-built, uL on Whirlpool-built top loaders."
+    },
+    {
+      "cause": "Too much detergent foam",
+      "frequency": "common",
+      "confirm": "Suds visible through the glass long after the wash stage, and the cycle keeps extending itself. Sud or SUD on LG-built, 5D or Sd on Whirlpool-built. Not a broken part."
+    },
+    {
+      "cause": "Door or lid lock will not engage",
+      "frequency": "occasional",
+      "confirm": "The cycle refuses to start and you can hear the lock clicking without catching, or you cannot hear it at all. dE on LG-built, an F5 code or a lid-lock warning on Whirlpool-built."
+    },
+    {
+      "cause": "Motor or drive fault",
+      "frequency": "occasional",
+      "confirm": "The drum does not turn, or turns in stutters, and the code appears early in the cycle. LE on LG-built, F51 on Whirlpool-built Oasis and Cabrio top loaders."
+    },
+    {
+      "cause": "Not a fault at all: the control lock is on",
+      "frequency": "common",
+      "confirm": "CL on the display of an LG-built machine, or LOC and a padlock icon on a Whirlpool-built one. Every button except Power is ignored. Nothing is broken."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the model number and read the first three digits",
+      "detail": "On a front loader the model tag is on the door frame, visible with the door open, or on the back panel near the top. On a top loader it is under the lid or on the back of the console. The number reads like 110.xxxxxxxxx or 796.xxxxxxxxx. Only the first three digits matter here: 110 means Whirlpool built it, 796 means LG, 417 means Frigidaire or Electrolux, and 592 means Samsung. Everything you do next follows from that.",
+      "minutes": 4,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Write the code down exactly as it appears",
+      "detail": "Seven-segment displays make characters ambiguous and people search for the wrong code constantly. A capital I and the numeral 1 are identical, so IE and 1E are one code. The letter S is drawn as a 5, which is why the suds code Sd shows up in searches as 5d. A zero and a capital O are the same shape, so OE and 0E are the same drain fault. Copy it character by character, then note whether any letters are lowercase, because on LG machines uE and UE mean different things.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the machine properly",
+      "detail": "Press Power to cancel, then unplug the washer at the wall for five full minutes. Boards hold residual charge and a quick off-on often leaves the stored fault in place, so people fix the real problem and then assume it did not work. Plug it back in and run a rinse and spin rather than a full cycle, so you find out in three minutes instead of an hour.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear the drain path if the drum still has water in it",
+      "detail": "On any front loader, Whirlpool-built or LG-built, there is a round filter behind a small door at the bottom front. Put towels and a shallow tray down, pull the little drain tube out of its clip and let it empty first, then turn the filter cap anticlockwise. Expect a liter or more even after the tube has run. Most LG-built top loaders have no accessible filter, so on those you check the drain hose for a kink and lift the hose end so it is not pushed more than a few inches into the standpipe.",
+      "minutes": 25,
+      "tools": "Shallow tray, towels, flashlight",
+      "warning": "Unplug the washer before opening the filter. The water can be scalding after a hot wash."
+    },
+    {
+      "name": "Check the supply side if the drum is dry",
+      "detail": "Turn both taps anticlockwise until they stop, then close them again, undo the hoses at the machine end with a towel underneath, and look at the fine mesh screen set into each inlet port. Scale and grit block these gradually, so the failure looks sudden when it is not. Rinse the screens, scrub them with an old toothbrush and push them back in squarely. Put the loose hose end in a bucket and open the tap for five seconds to confirm you have real pressure rather than a dribble.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, bucket, towel",
+      "warning": "Close both taps before undoing a hose, or you get mains pressure in your face."
+    },
+    {
+      "name": "Redistribute the load and run a spin-only cycle",
+      "detail": "Open the door, pull everything out and put it back spread evenly around the drum. One bath mat, one hoodie or a tangled sheet on one side is enough to defeat the balance routine on any of these platforms. Never spin a single heavy item on its own: add two or three towels to give it something to balance against. Then run spin only, which tests the thing that failed without a forty-minute wash in front of it.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get the tech sheet out of the machine",
+      "detail": "Every one of these washers ships with a folded service sheet hidden inside it, and it lists the codes for your exact machine rather than a generic list like this one. On front loaders it is usually folded behind the lower kick panel near the pump, sometimes taped to the underside of the top panel. On top loaders it is normally inside the console or taped to the cabinet behind it. Unplug the machine first, then photograph the sheet and put it back where you found it.",
+      "minutes": 12,
+      "tools": "Phillips #2 screwdriver, phone camera",
+      "warning": "Unplug at the wall before removing any panel. Do not rely on the power button."
+    }
+  ],
+  "still_showing": "If the code is back after a reset and the obvious mechanical checks came up clean, work in this order rather than buying parts. First, confirm which platform you are on, because almost every wrong repair on a Kenmore starts with someone following a guide for the other manufacturer. A 110 machine behaves like a Whirlpool Duet, Cabrio or Oasis and the parts and diagnostics are Whirlpool's; a 796 machine is an LG and nothing in a Whirlpool manual applies to it. Second, run the machine's own diagnostic mode, which the tech sheet inside the cabinet describes as a button sequence; that mode cycles each component in turn and will usually tell you whether a valve, pump or lock is actually being energized, which is the single most useful test you can do without a meter. Third, pull and reseat the connectors for whatever component the code points at, and look for green corrosion or a pin that has backed out of its housing, since damp laundry rooms kill connectors far more often than they kill parts. Fourth, measure the suspect component with a multimeter, using the resistance figures printed on the tech sheet rather than any number you find online, because they differ between platforms and generations. The cost steps up sharply at the main control board, which runs a few hundred dollars on either platform, so do not order one until the cheaper tests have ruled everything else out. One last thing worth knowing: parts for these machines are sold under the original builder's number as well as the Kenmore number, and the same pump or valve is often noticeably cheaper when ordered as a Whirlpool or LG part. Match the part by the builder's number from the tech sheet and you will not pay the Kenmore premium.",
+  "reset_procedure": "Press Power to cancel the cycle, unplug the machine at the wall for five full minutes, then plug it back in and start a rinse and spin. Five minutes is not superstition: the control holds the stored fault through a brief interruption, and a two-second power blip clears nothing. On LG-built machines you can also hold Start/Pause for a few seconds to cancel a running cycle before unplugging. If the code returns within the first minute of the test cycle, the fault is live rather than stored and no amount of resetting will help.",
+  "model_notes": "The prefix rule is the whole game. 110 machines are Whirlpool: Duet front loaders and Oasis and Cabrio-platform top loaders, with F-codes and the occasional two-letter code like LF, Sd and dL. 796 machines are LG: direct-drive front loaders and top loaders, with two-character codes like OE, IE, UE, LE, dE and CL. 417 machines are Frigidaire or Electrolux and use E-codes such as E10 and E20. 592 machines are Samsung and use codes in the Samsung style, such as 4C, 5C and UB. Older Sears machines carry other prefixes entirely, and very old Kenmore top loaders have no electronic display and no codes at all. Where a prefix is not on this list, search the full model number on a parts site and look at which manufacturer's parts come back.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Different part on LG-built and Whirlpool-built machines; match by model number"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$30 to $85",
+      "difficulty": "moderate",
+      "note": "Two screws and a connector on most of these machines"
+    },
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$40 to $130",
+      "difficulty": "moderate",
+      "note": "Common failure on front loaders of both platforms"
+    },
+    {
+      "name": "Drain pump filter and its seal",
+      "cost": "$15 to $45",
+      "difficulty": "easy",
+      "note": "Only needed if the cap seal is split and weeping"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$160 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Check harnesses and connectors first, every time"
+    }
+  ],
+  "when_to_call": "Call a technician when the code points at the motor, the main control board or the tub bearings, because those jobs need either a meter and a wiring diagram or the machine stripped to the drum. Call when the washer is leaking while throwing a code, since water damage costs more than the repair. Call a plumber rather than an appliance technician if the bucket test at the tap gives a weak flow or the standpipe backs up when the machine drains, because that fault is in your house and an appliance engineer will charge a call-out to tell you so. And weigh it up honestly on an older machine: once a Kenmore front loader is past about ten years and the quote includes a control board or a bearing job, the repair starts to approach the price of a new washer.",
+  "faqs": [
+    {
+      "q": "Who actually makes Kenmore washers?",
+      "a": "Whirlpool, LG, Frigidaire and Samsung, depending on the machine. Kenmore is a Sears badge rather than a factory, and Sears bought machines from whichever manufacturer won the contract for that model line. The first three digits of the model number identify the builder: 110 Whirlpool, 796 LG, 417 Frigidaire or Electrolux, 592 Samsung."
+    },
+    {
+      "q": "How do I find out who built my Kenmore washer?",
+      "a": "Read the first three digits of the model number on the rating tag. On a front loader the tag sits on the door frame, visible with the door open; on a top loader, look under the lid or on the back of the console. The digits before the dot or dash name the manufacturer, and everything else on the tag is the specific model."
+    },
+    {
+      "q": "Why does my Kenmore washer show LG error codes?",
+      "a": "Because LG built it. A Kenmore model number starting 796 is an LG machine with a Kenmore badge, so it uses LG's code set: OE for drain, IE for fill, UE for unbalanced, LE for a locked motor, dE for the door and CL for the child lock. Any LG repair guide for the equivalent model applies to it."
+    },
+    {
+      "q": "Can I use Whirlpool or LG parts on a Kenmore washer?",
+      "a": "Yes, if the machine was built by that manufacturer and the part number matches. A 110 Kenmore takes Whirlpool parts and a 796 Kenmore takes LG parts, because they are the same machine with different trim. Cross-reference from your full Kenmore model number on a parts site rather than guessing from a photograph, since similar-looking pumps have different mountings."
+    },
+    {
+      "q": "Are Kenmore error codes the same as the manufacturer's codes?",
+      "a": "They are the manufacturer's codes. Sears did not write its own code system, so a Kenmore F21 means exactly what a Whirlpool F21 means, and a Kenmore OE means exactly what an LG OE means. The only thing that changes is the badge on the door, which is why finding the builder first saves so much time."
+    },
+    {
+      "q": "Sears has closed most of its stores. Can I still get Kenmore parts?",
+      "a": "Yes. The parts are made by Whirlpool, LG, Frigidaire and Samsung and are still produced and stocked by the usual appliance parts suppliers. Searching the original builder's part number, taken from the tech sheet inside the machine, usually returns more suppliers and lower prices than searching the Kenmore number."
+    },
+    {
+      "q": "My Kenmore shows a code with no letters at all. What now?",
+      "a": "Check for lowercase characters and for a space in the code, then search the full code with your model prefix. Whirlpool-built machines use two-part codes like F9 E1, where the F number is the system and the E number is the specific fault, and dropping the space hides the real meaning. The tech sheet inside the cabinet lists the full set for your exact machine."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Finding out who built your Kenmore, which is the first diagnostic step",
+    "labels": {
+      "display": "CODE",
+      "c1": "Model tag on door frame",
+      "c2": "First three digits name the builder",
+      "c3": "Copy the code character by character",
+      "c4": "Tech sheet behind the kick panel"
+    }
+  },
+  "sources": [
+    {
+      "title": "How to identify who made your Kenmore appliance",
+      "publisher": "iFixit community wiki",
+      "url": null
+    },
+    {
+      "title": "Kenmore washer error code articles and model parts listings",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Tech sheet supplied inside the machine, listing the fault codes for the specific model",
+      "publisher": "Whirlpool and LG service literature",
+      "url": null
+    },
+    {
+      "title": "Field discussion of Kenmore model prefixes and their original manufacturers",
+      "publisher": "Appliantology and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "OE",
+    "LE",
+    "UE",
+    "F21",
+    "F35",
+    "CL"
+  ]
+}

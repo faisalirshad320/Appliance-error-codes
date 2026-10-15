@@ -1,0 +1,102 @@
+{
+  "title": "LG Refrigerator 1F E Error Code: What It Means",
+  "meta_description": "The code is IF E, with a capital I, not a one. It means the ice maker fan is not turning, and frost around it is the usual reason.",
+  "h1": "LG refrigerator 1F E error code: what it means and how to fix it",
+  "answer": "The code is IF E, with a capital I, not the digit 1. LG's display draws a capital I as a plain vertical bar, so the same code gets written down both ways and searched both ways. It means the board asked the ice maker fan to run and never got a speed signal back from it. Nine times out of ten the fan is physically jammed by frost that has built up around it, not broken.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 minutes of work, then 8 to 24 hours of waiting",
+  "cost_estimate": { "diy": "$0, or $40 to $90 if the fan needs replacing", "technician": "$180 to $340" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Frost has built up around the ice maker fan and jammed it",
+      "frequency": "most cases",
+      "confirm": "Take the ice bin out and look into the housing behind it with a torch. White frost packed around the fan blade, or a blade you cannot turn with a fingertip, is your answer."
+    },
+    {
+      "cause": "A door seal is letting warm, humid air in",
+      "frequency": "common",
+      "confirm": "Close the door on a sheet of paper and pull. If it slides out with no drag anywhere along the seal, that section is not sealing and is feeding the frost that jams the fan."
+    },
+    {
+      "cause": "The ice maker fan motor has failed",
+      "frequency": "occasional",
+      "confirm": "The fan is clear of frost, spins freely by hand, and the code still comes back within a day of a full defrost."
+    },
+    {
+      "cause": "The connector or harness to the fan",
+      "frequency": "rare",
+      "confirm": "A fan that is free and tests good but never runs. Look for a pushed-back pin or green corrosion at the plug before condemning anything."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm which code you are actually looking at",
+      "detail": "Photograph the display and zoom in. A capital I on an LG panel is a bare vertical bar with no serifs and the digit 1 usually has a small flag at the top. If you cannot tell, it does not matter much here: IF E and what people write as 1F E are the same fault, and everything below applies either way.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the ice bin and look for frost",
+      "detail": "Lift the ice bin out of the door or the compartment and shine a torch into the housing behind it. You are looking for the small fan that pushes cold air into the ice maker. If you can see white frost packed around the blade, or the blade will not turn when you nudge it with a fingertip, you have found the fault and the rest is defrosting.",
+      "minutes": 6,
+      "tools": "Torch",
+      "warning": null
+    },
+    {
+      "name": "Defrost the compartment properly",
+      "detail": "Move the food, switch the refrigerator off at the wall and leave both doors open for eight hours. A hairdryer on a low setting from a distance speeds it up, but never chip at the ice with a screwdriver or a knife: the evaporator tubing behind that panel is thin-walled sealed-system pipework and puncturing it turns a free repair into a four-figure one.",
+      "minutes": 15,
+      "tools": "Towels, hairdryer if you are in a hurry",
+      "warning": "No sharp tools on the ice. The tubing behind it carries refrigerant."
+    },
+    {
+      "name": "Dry it out and restart",
+      "detail": "Wipe every surface dry, including the back of the ice bin and the housing, because water left behind simply refreezes into the same jam. Switch it back on, leave the ice maker turned on, and give it a full 24 hours before judging it. The code should clear on its own once the fan turns freely.",
+      "minutes": 10,
+      "tools": "Dry cloths",
+      "warning": null
+    },
+    {
+      "name": "Check the door seals while you wait",
+      "detail": "Work round each door with a sheet of paper, closing the door on it and pulling. Anywhere it slides out freely is a gap letting humid room air in, and that humidity is what became the frost. A seal that has gone stiff can often be softened with a hairdryer and pushed back into shape; one that is torn needs replacing.",
+      "minutes": 8,
+      "tools": "A sheet of paper",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the compartment is fully defrosted, the fan turns freely by hand, the seals pass the paper test, and IF E is back within a day, the fan motor itself has failed. Before you order one, check the connector at the fan for a pushed-back pin or green corrosion, which is free to fix and accounts for a slice of repeats. If the plug is sound, the fan is the part: $40 to $90, and on most models it is reached by taking out the ice bin and removing the housing cover, which is a screwdriver job rather than a service call. One thing worth knowing before you buy: LG's fans report their speed back to the board, so a physically identical-looking motor from a different LG series will fit mechanically and still throw the same code. Order against your full model number, not against a photograph. If the code persists with a new fan correctly fitted, the fault is upstream in the harness or the main board, and that is the point to call someone rather than keep buying parts. Finally, if the ice maker is not making ice and the freezer itself is also struggling, do not treat this as an ice maker problem at all: check whether FF E is showing as well, because a failed freezer fan starves the whole compartment and the ice side is just the first place you noticed.",
+  "reset_procedure": "There is no button sequence for this one. The code clears by itself once the fan reports a speed back to the board, which means the fix is the defrost, not the reset. Unplugging for five minutes will blank the display, but if the fan is still iced the code returns within minutes of the machine restarting.",
+  "model_notes": "The same fault is written IF E, 1F E, IFE and 1F across LG's model generations and across the sites that document them, because of the capital-I glyph. Twin-evaporator models have more fans than single-evaporator ones, so check which fan a code refers to before ordering: IF E is the ice compartment fan specifically, FF E is the freezer fan, and CF E is the condenser fan at the base.",
+  "parts": [
+    { "name": "Ice maker fan motor assembly", "cost": "$40 to $90", "difficulty": "moderate", "note": "Order against your full model number; the fan reports speed to the board" },
+    { "name": "Door gasket", "cost": "$40 to $120", "difficulty": "moderate", "note": "Only if the paper test fails and softening the seal does not fix it" }
+  ],
+  "when_to_call": "Call someone if the code returns after a correctly fitted new fan, which points at the harness or the main board rather than anything you can swap. Call sooner if the freezer compartment is also failing to hold temperature, because that combination suggests a problem bigger than the ice maker and chasing the ice side first wastes time. Do not call anyone before you have done the full eight-hour defrost: a technician who arrives to find a frosted fan will defrost it, charge you a call-out, and the frost will come back if the seal that caused it is still leaking.",
+  "faqs": [
+    { "q": "Is 1F E the same as IF E on an LG refrigerator?", "a": "Yes. It is one code, IF E, with a capital I that LG's display draws as a plain vertical bar. People read the bar as the digit 1 and write it down as 1F E, so both spellings circulate and both describe the ice maker fan not reporting back. Everything written for one applies to the other." },
+    { "q": "Can I keep using the refrigerator with 1F E showing?", "a": "Yes, as long as the fridge and freezer are still holding their temperatures. The code concerns the small fan serving the ice maker, so what you lose is ice production rather than cooling. If food is also getting warm, that is a different and more urgent problem and this is not the page for it." },
+    { "q": "Why does frost keep coming back after I defrost it?", "a": "Because the humidity that formed it is still getting in. A door seal that no longer grips, a door left ajar on a crowded shelf, or an ice bin not seated properly all let room air into a compartment well below freezing, where the moisture lands as frost. Fix the air leak or you will be defrosting again in a month." },
+    { "q": "How long does the defrost actually need?", "a": "Eight hours with the doors open is the reliable figure, and longer does no harm. Shortcuts are where this goes wrong: ice hidden behind the rear panel survives a quick thaw, refreezes around the fan within a day, and you conclude the fan is dead when it was never the problem." },
+    { "q": "Can I just replace the fan without defrosting first?", "a": "You can, and a good number of people do, then get the code back. If frost jammed the original fan, the same frost will jam the new one. Defrost first, run it for a day, and only buy a fan if the code returns with the compartment genuinely dry." },
+    { "q": "Is IF E related to FF E?", "a": "They are different fans and different codes, but a common cause can produce both. IF E is the ice compartment fan, FF E is the freezer fan. If you are seeing both, work on the freezer side first: a failed freezer fan affects the whole cabinet, while the ice fan only affects ice." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Which fan is which on an LG refrigerator, and where the ice maker fan sits",
+    "labels": {
+      "c1": "Ice maker fan, this code",
+      "c2": "Fridge compartment sensor",
+      "c3": "Freezer fan, a different code",
+      "c4": "Frost here is the usual cause"
+    }
+  },
+  "sources": [
+    { "title": "LG refrigerator error code guidance on fan faults", "publisher": "LG support documentation", "url": null },
+    { "title": "Community answers identifying 1F and IF as one ice maker fan code", "publisher": "iFixit Answers", "url": "https://ifixit.com/Answers/View/655735/What+is+the+error+code+1F" },
+    { "title": "LG refrigerator error code reference", "publisher": "HomeServe", "url": "https://www.homeserve.com/blog/home-improvement/lg-refrigerator-error-codes" }
+  ],
+  "related_codes": ["IF E", "FF E", "CF E", "CL E", "OF F"]
+}

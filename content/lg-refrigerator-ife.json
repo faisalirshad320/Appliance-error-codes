@@ -1,0 +1,204 @@
+{
+  "title": "LG Refrigerator IF E Error Code: Ice Fan Fault & Reset",
+  "meta_description": "IF E on an LG refrigerator means the ice compartment fan is not turning, usually jammed by ice. Not the freezer fan, and not the condenser fan.",
+  "h1": "LG refrigerator IF E error code: how to reset it and fix the cause",
+  "answer": "IF E means the board told the small fan that feeds the ice compartment to run and never got the speed signal back from it. That fan is not the one in the freezer and not the one at the base by the compressor: it is a separate motor whose only job is pushing cold air into the ice maker housing. Nine times out of ten the blade is jammed by ice that has built up around it, usually after a slow leak from the fill tube or a door that has been sitting ajar. Unplug the refrigerator for five minutes to reset the code, then take the ice bin out and look at the fan, because the reset will not hold if the ice is still there.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 minutes to reset and inspect, up to 24 hours if you need to defrost the ice compartment",
+  "cost_estimate": {
+    "diy": "$0 to $80",
+    "technician": "$150 to $350"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Ice built up around the fan blade in the ice compartment",
+      "frequency": "most cases",
+      "confirm": "Pull the ice bin out and shine a light into the housing behind it. A fan blade glazed in ice, a frozen slab across the vent, or a loose chunk of ice wedged in the shroud. Flick the blade: if it will not turn, you have found it. This is the fault in the large majority of IF E cases."
+    },
+    {
+      "cause": "A leaking or misaligned fill tube icing the compartment up",
+      "frequency": "most cases",
+      "confirm": "This is usually what put the ice there. Look for an icicle hanging from the small tube that feeds water into the ice maker, or a mound of ice directly under it. A fill tube that drips between cycles, or sprays past the mold because it has shifted, ices the whole housing within weeks."
+    },
+    {
+      "cause": "The ice compartment fan motor has failed",
+      "frequency": "common",
+      "confirm": "No ice anywhere, the blade spins freely and coasts when you flick it, and the fan still never runs. These are brushless motors that report their own speed to the board, so a dead speed sensor throws IF E even if the blade is physically turning."
+    },
+    {
+      "cause": "A door left ajar, or a gasket not sealing on the ice maker housing",
+      "frequency": "common",
+      "confirm": "Frost on the inside face of the ice compartment door or around its seal, and ice that keeps coming back within days of being cleared. Warm humid kitchen air reaching a compartment held well below freezing turns to frost almost immediately, and an ice maker door that does not latch properly does this every time it is used."
+    },
+    {
+      "cause": "A damaged connector or pinched wire in the fan harness",
+      "frequency": "occasional",
+      "confirm": "Check the plug on the fan and where the harness passes out of the housing. Corrosion, a terminal pushed back out of the plug, or insulation chafed where the ice bin rails cross it. Meltwater running over a connector during a manual defrost is a common way this starts."
+    },
+    {
+      "cause": "The main control board is not driving the fan",
+      "frequency": "rare",
+      "confirm": "A clean compartment, a free blade, a sound harness, and still no power to the fan at any point. Confirm the first three twice before landing here, because this is the expensive answer and it is almost never right."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Reset the code first",
+      "detail": "Unplug the refrigerator at the wall, or trip its breaker, and leave it for five minutes. Restore power and give it ten minutes. On many LG models you can also clear a stored code by opening the right-hand fresh food door and pressing the refrigerator and freezer temperature buttons together three times, though the combination varies by generation. If IF E comes straight back, the fault is live and the rest of this applies. If it stays away for a week, it was a transient after a power cut.",
+      "minutes": 16,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take out the ice bin and look into the housing",
+      "detail": "Lift the bin up and out, which on most LG models means tilting the front up slightly to clear a lip at the back. Empty it into the sink so it is not dripping on your floor. With a flashlight, look into the space it came out of: you should see the ice maker mold, a vent where cold air arrives, and the fan behind or beside that vent. Note whether you are looking at clear plastic or a wall of ice before you touch anything.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Try to turn the fan blade with a finger",
+      "detail": "Reach in and flick the blade. A healthy fan spins several turns and coasts to a stop. A blade that will not move, or that moves a few degrees and stops against something solid, is iced in. A blade that grinds has debris round the hub or a failing bearing. This one observation decides whether you are spending the afternoon defrosting or ordering a motor, so do it before anything else.",
+      "minutes": 4,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Melt the ice out, do not chip it",
+      "detail": "The quickest safe method is a hair dryer on its lowest heat, held well back and kept constantly moving, with a towel underneath to catch the meltwater. Do not park it on one spot: the housing is plastic and it will warp. Do not attack the ice with a screwdriver, knife or ice pick, because the fan blade, the fill tube and the housing all break more easily than the ice does. If you would rather not use heat, empty the refrigerator and leave it unplugged with the doors open for 24 hours.",
+      "minutes": 40,
+      "tools": "Hair dryer, towels, shallow tray",
+      "warning": "Keep the hair dryer moving and on low heat. Keep water away from the fan connector and any exposed wiring."
+    },
+    {
+      "name": "Find out where the water came from",
+      "detail": "With the ice cleared, look at the small fill tube that delivers water to the ice maker mold. It should be dry between fills and aimed squarely into the mold. An icicle on its end, a drip forming while the appliance sits, or a mound of ice directly below it means the inlet valve is seeping or the tube has shifted out of line. Clearing ice without fixing this just means doing it again next month.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the fan connector and the compartment seal",
+      "detail": "Unplug the refrigerator again. Look at the plug on the fan body and the harness where it leaves the housing for corrosion, a backed-out terminal or chafed insulation, and push the connector firmly home. Then check the ice compartment door or flap: it should close positively and its seal should sit flat all round. A flap held open by a stray ice cube is one of the most common reasons the ice comes straight back.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": "Unplug the refrigerator before handling any connector, and make sure the area is dry after defrosting."
+    },
+    {
+      "name": "Refit, restore power and confirm the fan runs",
+      "detail": "Dry the housing with a towel, put the ice bin back and make sure it seats fully, because a bin sitting proud holds the compartment door open. Plug the refrigerator in and reset the code if it is still displayed. Within a few minutes of the compressor starting you should hear the small fan and feel air at the ice compartment vent. Give the ice maker eight to twelve hours before judging whether it is producing properly again.",
+      "minutes": 15,
+      "tools": "Towel",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the compartment is completely dry, the blade spins freely and IF E keeps coming back after a reset, you are down to the motor, the harness and the board. Work in that order, because that is also cheapest to most expensive. Start by listening at the ice compartment with the door open and the light switch held in, during a period when the compressor is running. A fan that hums without turning is seized. A fan that starts and dies within a minute is either catching on its shroud, which usually means a blade bent during an ice removal, or has a failing speed sensor. A fan that makes no sound at all is dead or getting nothing, and voltage at the connector separates those two. If the board is feeding it and nothing turns, the motor is finished. That is a $25 to $80 part on most models and a genuinely approachable swap once the ice bin and the housing cover are out of the way: a couple of screws, a push-fit blade and one plug. Order it against your model number rather than by appearance, because LG's brushless fans report speed back to the board and a physically similar motor from another series will throw the same IF E on its first run. Two things worth ruling out before you buy anything. First, if the ice came back within a couple of weeks of a thorough defrost, the fan was never the real problem and you are chasing a water leak or an air leak. Watch the fill tube for drips between cycles and check that the ice compartment flap closes fully with the bin seated, because a compartment that is quietly taking in humid kitchen air will ice up around any fan you fit. Second, check whether FF E has also appeared. The ice compartment is fed from the freezer evaporator on most LG models, so a freezer fan problem can starve the ice compartment and produce symptoms that look like an ice fan fault. Fix the freezer side first if both codes are showing. If the motor tests good and the board is not driving it, that is where the cost steps up from under a hundred dollars to several hundred, and it is worth having a technician confirm the diagnosis before you buy a control board on your own judgment.",
+  "reset_procedure": "Unplug the refrigerator at the wall, or switch off its breaker, wait a full five minutes and restore power. The five minutes matters: a quick off-and-on often leaves the stored fault in place. On many LG models you can also clear it from the panel by opening the right-hand fresh food door and pressing the refrigerator temperature and freezer temperature buttons together three times in succession, though the labels and the combination vary across generations. Be clear about what the reset does, though: it clears the display, it does not clear ice. If the blade is still frozen in place the code will return on the next cooling cycle, so the reset is the last step after the repair rather than the repair itself.",
+  "model_notes": "The code is shown as IF E on newer panels, E IF on some, and Er IF on older LG displays. They all mean the ice compartment fan. Keep it apart from the other fan codes, because they are separate motors: FF E is the evaporator fan behind the rear panel in the freezer, rF E is a second fresh food compartment fan on models with two evaporators, and CF E is the condenser fan at the base beside the compressor. On French door models with the ice maker built into the left fresh food door, the ice compartment and its fan are in the door itself and you reach them by removing the ice bin and the housing cover. On side by side and bottom freezer models with the ice maker in the freezer, the fan sits in the ice maker housing on the freezer wall. Models without an automatic ice maker do not use this code at all.",
+  "parts": [
+    {
+      "name": "Ice compartment fan motor",
+      "cost": "$25 to $80",
+      "difficulty": "moderate",
+      "note": "Order against your model number; brushless fans report speed and near-enough substitutes throw the same code"
+    },
+    {
+      "name": "Ice compartment fan blade",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Only if the blade is chipped or bent, often from ice removal"
+    },
+    {
+      "name": "Water inlet valve for the ice maker",
+      "cost": "$40 to $110",
+      "difficulty": "moderate",
+      "note": "If a seeping valve is what iced the compartment up in the first place"
+    },
+    {
+      "name": "Ice compartment door seal or flap assembly",
+      "cost": "$20 to $70",
+      "difficulty": "moderate",
+      "note": "If humid air getting in is why the ice keeps returning"
+    },
+    {
+      "name": "Ice maker assembly",
+      "cost": "$90 to $250",
+      "difficulty": "moderate",
+      "note": "Only if the mold or its heater is also faulty, not for the fan code alone"
+    }
+  ],
+  "when_to_call": "Call a technician if the compartment is dry, the blade is free and the fan still never runs, since the next step is checking for voltage at a connector on a live appliance and most people would rather pay for an hour than learn that on their own refrigerator. Call sooner if the ice keeps returning within days of a full defrost and you cannot find where the water or the warm air is getting in, because an unfound leak will destroy whatever fan you fit next. If IF E is showing alongside FF E or a general loss of cooling, treat that as the more serious problem and have the freezer side diagnosed first. And if the diagnosis ever moves toward the compressor or the sealed system, stop and check your warranty position: get the model and serial from the sticker inside the fresh food compartment and ask LG what compressor coverage remains, because on these refrigerators it often runs longer than owners assume and the terms vary by market.",
+  "faqs": [
+    {
+      "q": "How do I reset the IF E code on an LG refrigerator?",
+      "a": "Unplug it at the wall or trip the breaker, wait five minutes, then restore power. On many models you can also open the right-hand fresh food door and press the refrigerator and freezer temperature buttons together three times. Either way the reset only clears the display. If the fan is still iced in or dead, the code returns on the next cooling cycle."
+    },
+    {
+      "q": "Can I still use the refrigerator with an IF E code?",
+      "a": "Yes. This fan serves only the ice compartment, so food storage in both compartments carries on normally and there is no safety issue. What you lose is ice production, and possibly some ice quality, since a compartment that is not getting proper airflow makes slow, hollow or fused cubes. Fix it at your convenience rather than in a panic."
+    },
+    {
+      "q": "Which fan does IF E refer to?",
+      "a": "The small one that pushes cold air into the ice maker housing, and nothing else. It is not the evaporator fan behind the rear freezer panel, which reports as FF E, and not the condenser fan at the base by the compressor, which is CF E. Three different parts at three different prices, so confirm which before you order anything."
+    },
+    {
+      "q": "Why does the ice keep coming back after I defrost it?",
+      "a": "Because something is still putting water or humid air into the compartment. The two usual culprits are a fill tube that drips or sprays past the mold between cycles, and an ice compartment flap that does not close fully, often because the ice bin is not pushed all the way home or a stray cube is holding it open. Find that before fitting a fan."
+    },
+    {
+      "q": "Can I chip the ice off instead of melting it?",
+      "a": "Don't. The fan blade, the fill tube and the plastic housing all break more easily than the ice does, and a bent blade turns a free repair into a parts order. Use a hair dryer on low, kept moving, with a towel underneath, or leave the appliance unplugged with the doors open for a day. Time costs nothing and breaks nothing."
+    },
+    {
+      "q": "Why did IF E appear suddenly?",
+      "a": "Ice builds up invisibly for weeks and then finally reaches the fan blade, so the failure looks sudden when the cause is slow. Power cuts are the other trigger and leave a false code on an appliance that is fine, which is why a reset and a week of watching is a sensible first move before you take anything apart."
+    },
+    {
+      "q": "Is it worth repairing?",
+      "a": "Yes. This is at the cheap end of refrigerator faults: often free if it is only ice, and under a hundred dollars in parts if the motor has gone. Even with a technician it is a low-hundreds job. The only reason to hesitate is if the diagnosis spreads to the sealed system or the main board, and neither is likely from this code alone."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Inside the ice compartment: the fan, the fill tube and the ice that stops them",
+    "labels": {
+      "display": "IF E",
+      "c1": "Ice bin out, light into housing",
+      "c2": "Fan blade: must spin freely",
+      "c3": "Fill tube dripping or iced",
+      "c4": "Compartment flap closing fully"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG refrigerator error code list, ice maker fan motor error",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG refrigerator digital and analog error codes",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "Field reports on LG ice compartment fan icing and fill tube leaks",
+      "publisher": "r/appliancerepair and Appliantology technician forums",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied inside the appliance",
+      "publisher": "LG service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "FF E",
+    "rF E",
+    "CF E",
+    "IC E",
+    "CL E",
+    "CH E"
+  ]
+}

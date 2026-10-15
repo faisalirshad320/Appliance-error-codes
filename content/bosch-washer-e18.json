@@ -1,0 +1,190 @@
+{
+  "title": "Bosch Washer E18 Error Code: Causes and How to Fix",
+  "meta_description": "Bosch washer E18 means it could not drain in time. The drain pump filter behind the lower front flap is blocked in most cases. Here is how to clear it.",
+  "h1": "Bosch washer E18 error code: what it means and how to fix it",
+  "answer": "E18 means your Bosch washer tried to pump the water out, did not get the drum empty in the time it allows, and stopped with a load of water still in it. It is a drainage fault, and on a front loader the cause is almost always something caught in the drain pump filter behind the small flap at the bottom front of the machine. That filter is designed to be opened by hand without tools, and clearing it fixes most E18 codes in under half an hour. Expect water on the floor when you open it, because the drum has not drained.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $20",
+    "technician": "$150 to $320"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The drain pump filter is packed with lint, coins, hair and grit",
+      "frequency": "most cases",
+      "confirm": "Open the flap at the bottom front and turn the filter cap out. If what comes out is a gray felted plug of lint with hair pins, buttons, coins or a bra underwire in it, that is your fault. A filter that has never been cleaned since the machine was installed is the single most common cause of E18."
+    },
+    {
+      "cause": "Something is jammed in the pump impeller behind the filter",
+      "frequency": "common",
+      "confirm": "With the filter out, reach into the opening and turn the small plastic impeller with a fingertip. It should spin freely with a faint magnetic notchiness from the motor. If it will not move, or it grinds, there is a coin, a sock thread or an underwire wrapped around the shaft behind it."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or blocked at the far end",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow the corrugated gray hose. Look for a flat spot where the machine has been pushed back onto it. If it runs into a sink spigot or a standpipe, disconnect it and check that end: the spigot on a kitchen waste trap is a classic blockage point, often still capped with the blanking plug from installation."
+    },
+    {
+      "cause": "The drain hose sits too low or too high",
+      "frequency": "occasional",
+      "confirm": "The end of the hose should sit in a standpipe or spigot well above the floor, not lying in a bucket or pushed deep down a drain. Too low and the machine siphons continuously and never registers a successful drain. Too high and the pump cannot lift the water. Bosch gives the correct range in the installation instructions for your model."
+    },
+    {
+      "cause": "The drain pump motor has failed",
+      "frequency": "occasional",
+      "confirm": "Filter clean, impeller free, hose clear, and you still hear nothing at all from the bottom of the machine when it tries to drain. A healthy pump makes a distinct buzzing whirr. Dead silence, or a buzz with no water moving and a free impeller, points at the pump."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is blocked, so the machine thinks water is still there",
+      "frequency": "rare",
+      "confirm": "The drum is visibly empty, the pump runs the full time, and E18 still appears. The thin clear hose running from the sump up to the pressure sensor can silt up or fill with condensate, which makes the control read a water level that is not there."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and unplug the machine",
+      "detail": "Turn the program dial to Off, then pull the plug out of the wall. Do not just press Start again. You are about to open the drain path on a machine holding ten or more liters of water, and you do not want it deciding to spin while your hand is in the pump.",
+      "minutes": 2,
+      "tools": null,
+      "warning": "Unplug at the wall before opening the service flap. The pump can start on its own if the cycle resumes."
+    },
+    {
+      "name": "Lay down towels and open the service flap",
+      "detail": "The flap is a small rectangular panel at the bottom front of the machine, on the right on most Bosch front loaders. Some pop open with a fingertip in the groove along one edge; others need a coin or a flat screwdriver twisted in the slot. Put two old towels and a shallow baking tray in front of the machine before you open it, and lift the front edge of the machine onto a block of wood if you can, so the water runs toward you instead of under the cabinet.",
+      "minutes": 6,
+      "tools": "Coin or flat screwdriver, towels, shallow tray",
+      "warning": null
+    },
+    {
+      "name": "Drain the water through the small hose first",
+      "detail": "Behind the flap, most Bosch models have a short ribbed drain hose clipped to one side with a cap on the end. Pull it out, hold it over the tray, and pull the cap off. Water comes out steadily and will fill a washing-up bowl or more. Push the cap back on to swap the full tray for an empty one, and keep going until it runs dry. Doing this first means the filter comes out onto a damp towel rather than a flood.",
+      "minutes": 10,
+      "tools": "Shallow tray or bowl, towels",
+      "warning": null
+    },
+    {
+      "name": "Unscrew the filter and clean it",
+      "detail": "The round filter cap sits behind the same flap, usually with a small handle or a cross molded into it. Turn it anticlockwise, slowly at first to let the last of the water past. Expect roughly a liter even after draining the hose. Pull the whole filter out and rinse it under a tap. Clear the mesh and the spiral with your fingers and an old toothbrush, and check the rubber seal around the cap is clean and undamaged, because grit on that seal is what makes a machine drip from the flap afterward.",
+      "minutes": 10,
+      "tools": "Old toothbrush, towels",
+      "warning": null
+    },
+    {
+      "name": "Reach in and check the impeller",
+      "detail": "With the filter out, shine a phone torch into the round opening. The small plastic impeller is right at the back of it. Put a finger on it and turn it a full revolution. It should spin with a light magnetic resistance that clicks round in steps. If it is locked or crunchy, pick out whatever is wrapped around it with needle-nose pliers, then turn it again to confirm it is free. Coins sit in the housing below the impeller and are easy to miss, so sweep the bottom of the chamber with a fingertip.",
+      "minutes": 8,
+      "tools": "Phone torch, needle-nose pliers",
+      "warning": "Only do this with the machine unplugged. The impeller is driven by a motor directly behind it."
+    },
+    {
+      "name": "Check the drain hose along its whole run",
+      "detail": "Pull the machine forward and follow the corrugated hose from the back of the machine to where it discharges. Straighten any kink, and look for the flat crushed section that appears where the machine has been shoved back against the wall. Pull the end off the standpipe or sink spigot and check that end is clear. If the machine is newly installed, make sure the blanking plug has actually been cut out of the sink spigot, because a capped spigot gives exactly this fault.",
+      "minutes": 12,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Refit the filter and test on a short cycle",
+      "detail": "Screw the filter back in clockwise by hand until it is firm. It needs to be tight enough to seal but it is a plastic thread, so do not lever it. Close the flap, plug the machine back in and run a rinse and spin with the drum empty. Stand and watch the flap area for the first two minutes for drips, and listen for the pump to run and the water to go. A rinse and spin tells you in a few minutes what a full cycle would take an hour to.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the impeller turns freely and the hose is clear, work through this in order. First, run the rinse and spin again and put your ear against the lower front panel. A pump that is working makes a steady electric whirr for a minute or two. If you hear that whirr but no water leaves, something is still blocking the path between the sump and the hose outlet, and the usual culprit is debris sitting in the pump housing below the impeller where you cannot see it. Pull the filter again and sweep the whole chamber with a finger. Second, if you hear nothing at all, check the simplest electrical thing before condemning anything: the connector on the pump itself, reached from underneath by tipping the machine gently back against a wall. A pushed-back pin or a corroded terminal is free to fix. Third, if the pump is silent with a good connector, the pump has failed. The part is usually a $30 to $80 item, and on most Bosch front loaders the pump body unclips from the same housing you have already opened, so it is a realistic job with a screwdriver and a pair of pliers once the machine is drained and tipped. Fourth, if the pump runs the full time and the drum is visibly empty but E18 keeps appearing, the machine is being told there is still water in it. Check the thin clear hose running from the sump up to the pressure sensor: pull it off at the sump end, blow through it, and look for silt or trapped condensate. That blocked hose is a cheap fix that otherwise looks exactly like a control board fault. Only after all of that does the cost jump to a sensor or a control board, and at that point a technician is worth the call-out rather than buying parts on a guess.",
+  "reset_procedure": "Turn the program dial to Off, unplug the machine for a few minutes, then plug it back in and select a rinse and spin. Bosch front loaders hold the fault state until the cycle is cancelled properly, so a machine whose filter you have just cleaned can still show E18 if you only press Start again. If the drum still has water in it when you power back on, run a drain or spin program first so the machine can prove to itself that the path is clear.",
+  "model_notes": "The service flap is at the bottom front on every Bosch front loader, but the detail varies. Most machines from the last fifteen years have the small capped drain hose behind the flap for emptying the drum before you open the filter; some older and cheaper models do not, and on those the only option is to open the filter slowly and catch the water in trays. On Bosch washer dryers the same flap and filter exist but the space behind the kickplate is tighter. Bosch shows the code as E18 on some panels and E:18 or F18 on others, and the fault is the same drainage timeout in each case. Top-loading Bosch machines are rare outside Europe and place the filter behind a flap on the front lower panel in the same way.",
+  "parts": [
+    {
+      "name": "Drain pump filter and cap assembly",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Only needed if the cap thread or seal is damaged; most just need cleaning"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Unclips from the housing behind the filter on most models, about an hour"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$12 to $30",
+      "difficulty": "easy",
+      "note": "Worth replacing if it is crushed flat or split at the bend"
+    },
+    {
+      "name": "Pressure sensor",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Check its air hose for silt first; that is free and fails more often"
+    }
+  ],
+  "when_to_call": "Call someone if the pump is silent with a known-good connector and you are not comfortable tipping the machine over to get at it, or if water is coming from anywhere other than the filter opening while you work. A leak from the sump or the outer drum is a different and more expensive problem than a blocked filter, and running the machine to test it will make the damage worse. Also call if E18 returns within a cycle or two every time despite a clean filter, free impeller and clear hose, because repeated drainage faults with no visible blockage usually mean the pump is drawing air through a split hose or a cracked sump, and finding that needs the machine stripped further than most people want to go at home. If you rent, report it rather than opening the pump yourself; a flooded floor is harder to explain than a washing machine that will not drain.",
+  "faqs": [
+    {
+      "q": "How do I get the water out of a Bosch washer showing E18?",
+      "a": "Use the small capped hose behind the service flap at the bottom front. Unplug the machine, open the flap, pull the hose out, hold it over a shallow tray and remove the cap. Cap it again to swap trays as they fill. Most of a full drum comes out this way, which means the filter comes out onto a damp towel rather than a flood across the floor."
+    },
+    {
+      "q": "Can I still use the washer with an E18 code?",
+      "a": "No. The machine stops mid-cycle with water in the drum and will not spin, so clothes come out soaked. There is no shock or fire risk in leaving it, but the standing water will smell within a day or two in a warm room. Clear the filter or at least drain it down through the capped hose before you leave it sitting."
+    },
+    {
+      "q": "Why did E18 appear suddenly when nothing changed?",
+      "a": "Drain filters clog gradually and then cross a threshold, so a fault that has been building for a year looks instant. The other common trigger is a single object: a coin, a hair clip or a bra underwire that works its way out of the drum and into the pump on one particular wash. That is why a machine can run perfectly on Monday and throw E18 on Tuesday."
+    },
+    {
+      "q": "What is the difference between E18 and E17 on a Bosch washer?",
+      "a": "They sit on opposite sides of the same cycle. E18 is a drainage fault, meaning water would not leave in time. E17 is a filling fault, meaning water would not come in fast enough, and that points at the supply tap and the inlet mesh screens rather than the pump. If you are getting both at different times, check the whole water path rather than guessing between them."
+    },
+    {
+      "q": "Do I need to clean the Bosch drain filter regularly?",
+      "a": "Yes, and most people never do. Every three or four months is sensible, and more often with pets, towels or anything that sheds. It takes ten minutes and it is the single maintenance job that prevents E18 coming back. Put a tray down each time, because there is always some water sitting in the pump housing even when the machine has drained normally."
+    },
+    {
+      "q": "Is it worth repairing, or should I replace the washer?",
+      "a": "Worth repairing in almost every case. A cleaned filter costs nothing and a replacement drain pump is usually $30 to $80 for the part. Even with a technician the total sits well under the price of a new machine. Replacement only makes sense if the fault turns out to be a cracked sump or outer drum on a machine that is already ten years old."
+    },
+    {
+      "q": "Water is dripping from the flap since I cleaned the filter. What did I do wrong?",
+      "a": "The cap is not sealing. Take it back out, wipe the rubber seal and the lip it sits against with a cloth, and check for a thread of hair or a grain of grit on either. Refit it by hand and turn clockwise until it is firm and the handle sits where the machine's markings show. Do not use tools; over-tightening distorts the plastic thread and makes the leak worse."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Behind the lower front flap on a Bosch front loader, in the order you touch it.",
+    "labels": {
+      "display": "E18",
+      "c1": "Service flap, bottom front",
+      "c2": "Capped hose drains the drum",
+      "c3": "Filter turns anticlockwise out",
+      "c4": "Impeller must spin freely"
+    }
+  },
+  "sources": [
+    {
+      "title": "Washing machine displays an E18 error",
+      "publisher": "Bosch Home UK customer service support pages",
+      "url": null
+    },
+    {
+      "title": "Bosch front loader installation and operating instructions, drain pump cleaning section",
+      "publisher": "Bosch owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on recurring E18 after filter cleaning",
+      "publisher": "Appliance repair community forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E17",
+    "E23",
+    "F18"
+  ]
+}

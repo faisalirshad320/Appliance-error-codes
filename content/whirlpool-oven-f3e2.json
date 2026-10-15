@@ -1,0 +1,126 @@
+{
+  "title": "Whirlpool Oven F3 E2 Error Code: Oven Too Hot",
+  "meta_description": "Whirlpool F3 E2 warns the oven ran hotter than the set temperature allows. Usually a drifting sensor or a stuck relay. Switch it off at the breaker.",
+  "h1": "Whirlpool oven F3 E2 error code: what it means and how to fix it",
+  "answer": "F3 E2 is an over-temperature warning: the control saw the cavity climb above what the selected cooking temperature allows and stopped. The F3 half points at the temperature sensing circuit and the E2 half says the reading went too high, so the two usual answers are a sensor that has drifted out of calibration and a bake relay on the control board that has stuck closed and will not stop feeding the element. Switch the oven off at its breaker rather than its own controls, because a stuck relay keeps heating regardless of what the front panel says. One caveat worth knowing before you diagnose: some references read the E2 and F3 pairing as a warming drawer sensor fault instead, so if your model has a warming drawer, that is the first thing to check.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to diagnose, longer to repair",
+  "cost_estimate": { "diy": "$20 to $60 for a sensor", "technician": "$200 to $600" },
+  "safety_warning": "This code reports an oven running hotter than it should. A bake relay welded closed can keep the element powered with the oven switched off at its own controls, so switch it off at the circuit breaker and leave it off until you know the cause. An oven sits on a 240 volt circuit and a built-in is often hardwired with no plug. On a gas range, leave the gas valve, the safety valve and the igniter to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has drifted and reads low",
+      "frequency": "most cases",
+      "confirm": "Food has been overbrowning and the oven has run hot for weeks before the code appeared. A sensor reading below the true cavity temperature makes the control keep heating toward a number it never sees arrive, until the overheat threshold trips."
+    },
+    {
+      "cause": "A bake relay on the control board has stuck closed",
+      "frequency": "most cases",
+      "confirm": "A real, sharp overheat: burnt food, a hot-metal smell, or the oven visibly climbing past the set temperature. If the element still glows after you switch the oven off at its own controls, stop and kill the breaker, because that is a stuck relay and nothing else."
+    },
+    {
+      "cause": "The warming drawer sensor has failed, on models that have one",
+      "frequency": "common",
+      "confirm": "Your oven has a warming drawer and the main cavity never actually got hot. Some references read this code as a warming drawer sensor fault, and if the model has no warming drawer that reading cannot apply, which makes this a quick question to settle."
+    },
+    {
+      "cause": "A sensor lead has shorted against the cavity",
+      "frequency": "common",
+      "confirm": "Insulation gone brown and brittle, or a lead rubbed bare, where the sensor wires pass through the rear of the liner. A circuit shorted part way along reads as a low temperature exactly as a drifted sensor does, while the probe itself is fine."
+    },
+    {
+      "cause": "A control board fault other than the relay",
+      "frequency": "occasional",
+      "confirm": "Sensor tests good, wiring is sound, no warming drawer involved, and the code returns. It ends at the same part as a stuck relay, so the distinction affects the explanation more than the bill."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch the oven off at the breaker before anything else",
+      "detail": "Go to the panel and switch the oven's breaker fully off, both halves on a double pole. Do this before you investigate, not after. The failure mode behind half of these codes is a relay that keeps the element live with the control panel dark, so the oven's own power button is not a reliable way to stop it heating. Leave the breaker off while you work out which cause you have.",
+      "minutes": 5,
+      "tools": "Torch",
+      "warning": "If the element is still glowing with the oven switched off at its controls, the breaker is the only thing that will stop it. Do not wait."
+    },
+    {
+      "name": "Establish whether the oven genuinely overheated",
+      "detail": "This free observation splits the diagnosis. Did food burn, did the kitchen smell of hot metal, was the door hotter than usual, did the display climb past the set temperature? Any of those means a real overheat and points at the relay or a drifted sensor. A cold cavity with nothing burnt means the overheat was never real and the fault is in what the control is reading.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether your model has a warming drawer",
+      "detail": "Look at the appliance. If there is a warming drawer below the oven cavity, some references attribute this code to its sensor rather than the main oven, and that drawer has its own probe and its own wiring. If there is no warming drawer, that reading cannot apply to your machine and you can discount it entirely and concentrate on the main cavity. Two minutes here saves chasing the wrong circuit.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note when the oven last ran self-clean",
+      "detail": "Ask the household rather than guessing. Self-clean holds the cavity far hotter than cooking ever does, for hours, and the relay on the control board and the sensor probe both sit in that heat. It is the leading cause of stuck relays and drifted sensors on domestic ovens, so a code dated to during or within a week of a clean cycle has usually been caused by it.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Let it cool, then test the sensor",
+      "detail": "With the breaker still off and the cavity cold, unscrew the probe from the upper left or upper rear of the oven, draw it forward and unplug it. Read across its two terminals with a multimeter on ohms, then warm the tip with a hair dryer and watch the number. This sensor type rises in resistance as it heats, so the reading should climb and settle back. A flat, falling or open reading condemns it; the exact figure for your model is on the service sheet supplied with the appliance.",
+      "minutes": 25,
+      "tools": "Multimeter, hair dryer, nut driver set, torch",
+      "warning": "Breaker off and verified dead. Let the cavity cool completely; an oven that has just overheated stays dangerous for hours."
+    },
+    {
+      "name": "Inspect the sensor leads through the liner",
+      "detail": "With the probe out, look at the two leads where they pass through the back of the cavity. You want supple insulation and clean terminals. Insulation that has browned, stiffened or cracked, or a conductor rubbing bare against the liner, shorts the circuit and reads just like a drifted sensor while the probe is healthy. Replace a damaged lead rather than taping it back together.",
+      "minutes": 15,
+      "tools": "Torch",
+      "warning": "Breaker off. Do not reuse a lead whose insulation crumbles when flexed."
+    },
+    {
+      "name": "Hand the relay over and leave the oven off",
+      "detail": "If the sensor tests good, the leads are sound and the oven really did overheat, what remains is the control board and its bake relay. Confirming a relay means watching the board switch under power with the console open, which is live 240 volt work on an appliance that has already shown it can run away hot. Leave the breaker off, do not cook on it meanwhile, and tell the technician that the oven overheated and when it last ran self-clean.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Leave the oven isolated at the breaker until this is resolved. A stuck bake relay is a fire risk rather than an inconvenience."
+    }
+  ],
+  "still_showing": "With a good sensor and sound wiring, F3 E2 has few honest answers left, and the order below keeps you from buying the wrong one. First settle the warming drawer question, because it costs nothing: if your model has no warming drawer, the alternative reading of this code does not apply and you can stop considering it. If it does have one, the drawer carries its own sensor and its own leads, and those need the same meter test the main probe got before you look any further at the oven cavity. Second, settle whether the cavity genuinely got hot. A real overheat with a healthy sensor points straight at the bake relay on the control board, and that is not a thing to test by running the oven and watching, because the whole problem is that the oven does not stop. A code on a cold cavity that never heated points instead at the control misreading, which shares its diagnosis with F1: with the breaker off, unplug the touchpad ribbon from the board, restore power, and see whether the code comes back without the pad connected. Third, before committing to a board, flex the sensor leads along their length where they pass through the liner, because a conductor rubbed bare against the metal reads exactly like a drifted sensor and costs a few dollars rather than a few hundred. A control board is $120 to $400 as a part and $200 to $600 fitted, and on an oven past about ten years old that is the moment to price a replacement instead. Whatever the outcome, leave the oven off at the breaker while you work through it. This is the oven code where the failure mode can keep heating with the display dark, and that is worth taking seriously rather than cooking around for a few more days.",
+  "reset_procedure": "Switch the oven off at its circuit breaker, leave it five minutes and switch back on. Understand what the reset does and does not do: it clears the stored code, but if the cause was a real overheat it only lets the oven try again, so do not reset and carry on cooking. Reset once to see whether the fault returns, then leave the breaker off until it is repaired. The oven's own cancel button neither resets the control nor isolates a stuck relay.",
+  "model_notes": "F3 E2 belongs to Whirlpool's two-part code system, where F3 names the temperature sensing circuit and E2 names the over-temperature condition within it. On older single-code ovens the equivalent overheat warning is a plain F2, so if your display shows no second half, that page is the one you want. The documentation here is not consistent: most references describe F3 E2 as the oven temperature running too high in cook mode, while at least one describes the E2 and F3 pairing as a warming drawer sensor fault, and the two readings point at different circuits. Rather than pick one, check whether the appliance has a warming drawer, which settles it immediately. The same code appears on KitchenAid, Maytag and Amana ovens built on the Whirlpool platform.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$20 to $60", "difficulty": "easy", "note": "Two screws inside the cavity; the cheap answer and worth testing first" },
+    { "name": "Warming drawer temperature sensor", "cost": "$25 to $75", "difficulty": "moderate", "note": "Only relevant on models that actually have a warming drawer" },
+    { "name": "Sensor lead and connector block", "cost": "$15 to $45", "difficulty": "moderate", "note": "For chafed or heat-stiffened leads where the probe tests good" },
+    { "name": "Electronic oven control board", "cost": "$120 to $400", "difficulty": "technician only", "note": "Where the bake relay has stuck; the usual answer after a genuine overheat" }
+  ],
+  "when_to_call": "Call a technician for anything past the sensor, and leave the oven isolated at the breaker until they come. Checking a bake relay means watching the board switch with power on and the console open, on an appliance that has already demonstrated it can overheat, and that is not a sensible place to learn. Call immediately rather than at your convenience if the element glows with the oven switched off at its own controls, if there is a burning smell from the console, or if the oven kept climbing past the set temperature. On a gas range, hand over the gas valve, the safety valve and the igniter to a licensed technician without exception. Before authorizing a board on an oven over about ten years old, get the total in writing and compare it with a replacement.",
+  "faqs": [
+    { "q": "What does F3 E2 mean on a Whirlpool oven?", "a": "The control saw the oven cavity climb above the temperature the selected cycle allows and shut it down. F3 names the temperature sensing circuit and E2 names the over-temperature condition. The two usual causes are a sensor that has drifted and reads low, and a bake relay on the control board that has stuck closed." },
+    { "q": "Is F3 E2 dangerous?", "a": "It can be, which is why the first step here is switching off at the breaker rather than the control panel. If a bake relay has stuck closed, the element stays powered regardless of what the front panel shows, so the oven's own controls cannot be trusted to stop it. Leave the circuit off until the cause is known." },
+    { "q": "Can I keep cooking with F3 E2 showing?", "a": "No. The fault being reported is the oven getting hotter than it is supposed to, and resetting at the breaker only gives it another go. Even on the milder version, where a drifted sensor is the cause, everything you cook will be overdone and the control will keep tripping. Cook elsewhere until it is fixed." },
+    { "q": "Is F3 E2 the same as F2?", "a": "They are the same kind of warning on two generations of control. Older Whirlpool ovens report an over-temperature as a plain F2, while newer ones split codes into a system half and a fault half and report it as F3 E2. The causes and the checks are the same, so either page will get you there." },
+    { "q": "Why do some sites say F3 E2 is the warming drawer?", "a": "Because at least one reference reads the E2 and F3 pairing as a warming drawer sensor fault rather than a main oven overheat, and the sources genuinely differ. The quick way to settle it is to look at your appliance: no warming drawer means that reading cannot apply and the main cavity is where to look." },
+    { "q": "Did self-clean cause this?", "a": "Very possibly. Self-clean runs the cavity far hotter than cooking does and holds it there for hours, which is the leading cause of stuck bake relays and drifted temperature sensors in domestic ovens. A code that first appeared during or within a week of a clean cycle has usually been caused by it, and that is worth telling the technician." },
+    { "q": "How much will this cost to fix?", "a": "A temperature sensor is $20 to $60 and under an hour's work, which is the good outcome and worth testing for first. A control board is $120 to $400 as a part and $200 to $600 fitted. Because the relay is a safety-relevant part, this is not a repair worth deferring or cutting corners on." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What F3 E2 is warning about, and the order to check it",
+    "labels": {
+      "display": "F3 E2",
+      "c1": "Switch off at the breaker first",
+      "c2": "Bake relay stuck closed",
+      "c3": "Sensor drifted, reads low",
+      "c4": "Warming drawer sensor, if fitted"
+    }
+  },
+  "sources": [
+    { "title": "Oven over-temperature error codes on ranges and wall ovens", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool oven technical sheet, temperature limit and sensor codes", "publisher": "Service sheet supplied with the appliance", "url": null },
+    { "title": "Conflicting readings of the E2 and F3 pairing as a warming drawer sensor fault", "publisher": "Appliance repair trade reference sites", "url": null },
+    { "title": "Field reports on stuck bake relays following self-clean cycles", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F2", "F3", "F3 E0", "F1", "E2", "F9"]
+}

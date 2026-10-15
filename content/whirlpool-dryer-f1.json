@@ -1,0 +1,119 @@
+{
+  "title": "Whirlpool Dryer F1 Code: Control Board Fault Explained",
+  "meta_description": "F1 on a Whirlpool Cabrio dryer means the main control board failed its self-check. Reset at the breaker, check connectors, then weigh the board cost.",
+  "h1": "Whirlpool dryer F1 error code: what it means and what it costs",
+  "answer": "F1 on a Whirlpool dryer is a main control board fault. The board ran its internal self-check, did not like what it found, and stopped the machine. It shows up most often on Cabrio-era top-load dryers, where the console sits across the back of the lid. Switch the breaker off for five minutes first, because a scrambled control after a power event sometimes clears for good. If F1 comes straight back, the board has failed, and on an older dryer the repair cost sits uncomfortably close to the price of a new machine.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to reset, 1 to 2 hours to replace the board",
+  "cost_estimate": { "diy": "$150 to $320 for the board", "technician": "$300 to $520 fitted" },
+  "safety_warning": "The console carries mains wiring on a dryer fed by a 240 volt circuit, and board capacitors can hold a charge after power is cut. Switch off the breaker or unplug the dryer before removing any panel, and never probe a live board. On a gas model, close the gas shutoff valve before moving the machine.",
+  "causes": [
+    {
+      "cause": "The main control board has genuinely failed",
+      "frequency": "most cases",
+      "confirm": "F1 comes back within seconds of a full five minute power-down, every time you try. Opening the console and finding a cracked ring of solder around a relay pin, a domed capacitor or a brown scorch mark confirms it visually."
+    },
+    {
+      "cause": "A one-off control glitch after a surge or outage",
+      "frequency": "common",
+      "confirm": "The code appeared the day after a storm or a power cut, and a five minute breaker reset clears it. If the dryer then runs normally for a week, nothing is broken."
+    },
+    {
+      "cause": "A loose or corroded connector between the board and the harness",
+      "frequency": "common",
+      "confirm": "With the dryer unplugged, pull each plug off the board. One that lifts away with no resistance, shows green crust, or has a pin pushed back into the housing is your fault. Reseat everything and retest before ordering a part."
+    },
+    {
+      "cause": "The fault is actually on the console or user interface side",
+      "frequency": "occasional",
+      "confirm": "You swap the main board and the display now shows F2 instead of F1, or the code moves around. That pattern means the two boards are arguing and the console is as likely a suspect as the main control. Field reports on Cabrio dryers describe exactly this."
+    },
+    {
+      "cause": "Damp or insects inside the console",
+      "frequency": "rare",
+      "confirm": "A dryer in a basement, garage or unheated porch, with water staining, white powdery corrosion across the board, or a nest inside the console. Both bridge tracks and make a board fail its own checks."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power for five full minutes",
+      "detail": "Switch the dryer's breaker off, or unplug it if you can reach behind. Five minutes rather than thirty seconds, because the control holds residual charge and a quick off-on usually leaves the stored fault in place. Restore power, wait ten seconds before pressing anything, then start a timed dry. This clears a real share of F1 codes at zero cost.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Watch how and when the code returns",
+      "detail": "Run a timed dry and note the timing. F1 within seconds of pressing start, on every attempt, is a hard board fault. F1 only part way into a heated cycle, or only on automatic cycles, is worth writing down because it points at something the board is driving rather than the board itself. That one detail saves a technician half an hour.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug and open the console",
+      "detail": "Kill the breaker and unplug the machine. On Cabrio-style top-load dryers the console is held by screws at the rear of the panel and rotates backward or lifts clear once they are out. Go slowly: the ribbon cable to the display is short, and tearing it turns a board job into two board jobs. Photograph everything before you disturb it.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, nut driver set, phone camera",
+      "warning": "Breaker off and unplugged before any panel comes off. Give the board a few minutes before touching it."
+    },
+    {
+      "name": "Reseat the connectors and inspect both faces of the board",
+      "detail": "Touch the bare metal cabinet first to discharge static. Pull each plug one at a time and push it back until it clicks, checking for corrosion or a backed-out pin. Then look at both sides of the board under a bright light: a cracked solder ring around a relay pin, a capacitor with a domed or weeping top, or a brown heat mark are all visible answers rather than guesses.",
+      "minutes": 25,
+      "tools": "Flashlight, magnifier",
+      "warning": null
+    },
+    {
+      "name": "Clean out corrosion, damp or a nest",
+      "detail": "If the console is damp or crusted white, blow it out with canned air, clean the affected area with isopropyl alcohol on a cotton bud, and let it dry for a couple of hours before power goes back on. Clear any insect nest out completely. In a damp laundry room this is a genuine fix, though it may buy you months rather than years.",
+      "minutes": 30,
+      "tools": "Isopropyl alcohol, cotton buds, canned air",
+      "warning": null
+    },
+    {
+      "name": "Price the board against a new dryer before ordering",
+      "detail": "Look up the main control board for your exact model number. A board is typically $150 to $320, a technician fitting one comes to $300 to $520 all in, and a comparable new Whirlpool dryer is roughly $550 to $900. Check the age of your machine and whether it has already had a motor or a heating element. That comparison should happen before the part is in your cart, not after.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F1 outlives a five minute breaker reset, the board is the problem and the decision is financial. Take it in this order. First, spend nothing: open the console, reseat every connector, and inspect the board for a cracked solder joint around a relay pin. That failure is common enough on these boards that someone comfortable with a soldering iron fixes an F1 for free, and even if you are not that person, finding the crack tells you the diagnosis is right. Second, look at a board rebuild service before a new board. You pull the board, mail it, they resolder the known weak points and test it, and it comes back within a week for roughly $70 to $150, which is half the price of new. Third, if you want it running this weekend, a new main control board is $150 to $320 and fitting it is realistically a DIY job: photograph every connector, swap the board, reconnect exactly as photographed, allow ninety minutes. Fourth, watch for the code moving. If you fit a board and the display now shows F2 rather than F1, you have not cured anything; you have shifted the argument to the console side, and the user interface board or the harness between the two is the real fault. That specific sequence is reported often enough on Cabrio dryers to be worth knowing before you buy a second part. Fifth, do the honest arithmetic. A technician fitting a board lands between $300 and $520, and a new dryer is $550 to $900. On a machine over eight years old, or one that has already had a major repair, replacement is usually the better call. On a three year old dryer in good condition, fix it. And if a fresh board throws F1 again within weeks, stop buying boards: something the board drives, usually a shorted relay load or a chafed harness rubbing on the cabinet, is killing them and needs a technician with a meter.",
+  "reset_procedure": "Switch the dryer's breaker off for five full minutes, or unplug it at the wall, then restore power and leave it ten seconds before touching the controls. Test with a timed dry cycle rather than an automatic one, so the result arrives in two minutes instead of forty. A brief power cycle is not enough to clear a stored control fault.",
+  "model_notes": "A plain F1 is the Cabrio-era style on top-load Whirlpool dryers and the Kenmore and Maytag machines built on that platform. The same family of fault appears as F01 on Duet-era front loaders and as F1 E1 on models using the two-part function-and-fault system, where a companion code F1 E2 points at the motor control board rather than the main control. If your display shows two parts that alternate, read the F1 E1 page rather than this one. Note also that F1 on a Whirlpool oven or washer means something entirely different; this page is dryers only.",
+  "parts": [
+    { "name": "Main electronic control board", "cost": "$150 to $320", "difficulty": "moderate", "note": "Match your exact model number; similar-looking boards are not interchangeable" },
+    { "name": "Control board rebuild service", "cost": "$70 to $150", "difficulty": "easy", "note": "Mail-in repair of the known solder failures, usually a week's turnaround" },
+    { "name": "User interface or console board", "cost": "$90 to $220", "difficulty": "moderate", "note": "The suspect if the code moves to F2 after a main board swap" },
+    { "name": "Console wiring harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "Worth checking for chafe where it passes the cabinet edge" }
+  ],
+  "when_to_call": "Call a technician if the code shifts after you replace a board, or if a new board fails within weeks, because something else in the machine is taking boards out and a third one will go too. Call one if the dryer is gas, since anything touching the gas valve wiring is licensed work. And get a quote before you spend anything if the dryer is over eight years old, then price a new machine alongside it; a $450 repair on a nine year old dryer is rarely the right answer, and an honest technician will say so.",
+  "faqs": [
+    { "q": "What does F1 mean on a Whirlpool dryer?", "a": "It is a main control board fault. The board ran its own self-check, failed it, and shut the dryer down rather than running blind. It appears most often on Cabrio-era top-load models. A power-down reset sometimes clears it when the cause was a surge or outage, but an immediate return means the board itself has failed." },
+    { "q": "How do I reset a Whirlpool dryer showing F1?", "a": "Switch the dryer's breaker off for five full minutes, then back on, and wait ten seconds before pressing any buttons. Start a timed dry to test. Thirty seconds is not long enough, because the control holds charge and keeps the stored fault. If F1 returns within seconds, resetting will not fix it." },
+    { "q": "Is F1 worth fixing?", "a": "It depends on the age of the dryer. A board is $150 to $320, fitted by a technician it is $300 to $520, and a comparable new dryer is roughly $550 to $900. Under five years old, repair it. Over eight, or already repaired once, replacement usually wins. A mail-in board rebuild at $70 to $150 changes that math in favor of repair." },
+    { "q": "Can I replace the control board myself?", "a": "Yes, for most people. Switch off the breaker, unplug the dryer, open the console, photograph every connector before touching anything, swap the board and reconnect exactly as photographed. Allow around ninety minutes. The two rules are never probe a live board, and order by your exact model number rather than by appearance." },
+    { "q": "Why did F1 appear right after a thunderstorm?", "a": "Surges and brownouts scramble or damage control boards, and a dryer board sits on the same circuit as everything else in the house. Try a five minute breaker reset first, since a scrambled control often comes back clean. If the surge actually damaged the board, the code returns immediately and no reset will help." },
+    { "q": "My dryer now shows F2 after I replaced the board. What happened?", "a": "You moved the fault rather than fixing it. F2 points at the user interface or a stuck key on the console, which means the problem is in the console side or the harness between the two boards, not the main control. This sequence is reported often on Cabrio dryers, so check connectors and the console board before buying a third part." },
+    { "q": "Can I still use the dryer with F1 showing?", "a": "No. The control has shut the machine down and it will not run a cycle. There is no hazard in leaving it unplugged while you decide what to do, but repeatedly trying to start it achieves nothing. Unplug it and work out whether a board, a rebuild or a new machine makes the most sense." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where F1 comes from, and the four checks before you buy a board",
+    "labels": {
+      "display": "F1",
+      "c1": "Five minute breaker reset first",
+      "c2": "Reseat each board connector",
+      "c3": "Inspect relay solder joints",
+      "c4": "Console board if code shifts"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing and F-code reference", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Cabrio dryer technical sheet, control fault codes", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "Cabrio F1 diagnosis threads, including codes shifting to F2 after a board swap", "publisher": "Appliance Parts Pros community forum", "url": null },
+    { "title": "Field reports on dryer control board failure modes and rebuild services", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F01", "F1 E1", "F2 E1", "F70", "PF"]
+}

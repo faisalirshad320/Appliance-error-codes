@@ -1,0 +1,197 @@
+{
+  "title": "Bosch Dishwasher E24 Error Code: Blocked Drain, Fixed",
+  "meta_description": "Bosch E24 means the water cannot get out. Usually a clogged filter, a kinked drain hose, or a disposal knockout plug nobody removed.",
+  "h1": "Bosch dishwasher E24 error code: what it means and how to fix it",
+  "answer": "E24 means the dishwasher tried to drain and the water did not leave fast enough, so the control stopped the cycle. The blockage is in the path the water takes out of the machine: the filter well, the pump cover, the drain hose, the air gap, or the garbage disposal connection. You will usually open the door to standing water sitting over the filter. In the large majority of cases this is a clog you can clear yourself in under an hour with a bucket and a screwdriver, not a failed part.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $30",
+    "technician": "$130 to $250"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The filter assembly in the sump is clogged",
+      "frequency": "most cases",
+      "confirm": "Lift out the cylindrical filter and the flat mesh screen under it. If the mesh is greasy, gray, or has a mat of soft debris on the underside rather than being clean plastic you can see light through, this is it. Hold the flat screen up to a window; a clean one is translucent."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or clogged",
+      "frequency": "most cases",
+      "confirm": "Pull the machine out and follow the hose from the pump to the sink cabinet. A crush where the machine was pushed back, or a sharp bend behind a leg, restricts the flow enough to time the drain out without stopping it entirely. A hose that is heavy and soft when you squeeze it is full of standing water and grease."
+    },
+    {
+      "cause": "The garbage disposal knockout plug was never removed",
+      "frequency": "common",
+      "confirm": "Only applies if the dishwasher drains into a new or recently replaced disposal. Disconnect the drain hose at the disposal inlet and look into the spigot: a factory disposal ships with a solid plastic plug in that port that an installer has to knock out. If you see a flat wall instead of an open hole, that is your fault and it has been there since install."
+    },
+    {
+      "cause": "The air gap on the countertop is blocked",
+      "frequency": "common",
+      "confirm": "Lift the chrome cap off the little cylinder next to the faucet and pull off the plastic cover underneath. Food sludge packed in there is obvious once you look. A giveaway is water spitting out of the air gap onto the counter during the drain."
+    },
+    {
+      "cause": "The pump cover inside the sump is loose or sitting proud",
+      "frequency": "occasional",
+      "confirm": "With the filters out, look at the plastic cover over the pump opening in the floor of the sump. It should sit flat and locked. If it rocks, lifts at one edge, or was left off after someone cleaned the machine, the pump cannot pull a proper draw."
+    },
+    {
+      "cause": "A high loop or standpipe that was plumbed wrong",
+      "frequency": "occasional",
+      "confirm": "Common on a machine that has never drained reliably since the day it was installed rather than one that worked for years. The drain hose must rise to just under the countertop before it drops to the disposal or trap. A hose that runs flat along the floor lets water sit in it and siphon back."
+    },
+    {
+      "cause": "The sink trap or the branch drain is partly blocked",
+      "frequency": "rare",
+      "confirm": "The sink next to the dishwasher drains slowly too, or gurgles when the dishwasher pumps out. If both fixtures are sluggish the blockage is in the house plumbing, not the appliance, and the dishwasher is reporting it correctly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and bail out the standing water",
+      "detail": "Hold the Start button for about three seconds to cancel, or switch the machine off. Scoop the water out of the tub with a plastic cup into a bucket, then soak up the last of it with a sponge or an old towel. You need the sump dry to work in, and leaving a quart of greasy water in there just means you wear it later.",
+      "minutes": 10,
+      "tools": "Plastic cup, bucket, sponge or towel",
+      "warning": null
+    },
+    {
+      "name": "Remove and clean the filter assembly",
+      "detail": "Reach into the sump and turn the cylindrical filter anticlockwise about a quarter turn, then lift it straight out. The flat mesh screen underneath lifts out after it. Rinse both under a hot tap and scrub the mesh with a washing-up brush or an old toothbrush until you can see light through it. Pay attention to the underside of the flat screen, which is where the grease mat actually forms and where most people do not look.",
+      "minutes": 12,
+      "tools": "Old toothbrush or dish brush",
+      "warning": null
+    },
+    {
+      "name": "Clear the sump well and check the pump cover",
+      "detail": "With the filters out, you can see the bottom of the sump and the pump opening. Fish out glass fragments, fruit pits, label paper and bits of bone with your fingers or needle-nose pliers; wear a glove, because broken glass is the usual thing waiting down there. Check the plastic pump cover sits flat and clicks down. Refit the flat screen first, then the cylinder, and twist it clockwise until it stops.",
+      "minutes": 12,
+      "tools": "Needle-nose pliers, a work glove",
+      "warning": "Assume there is broken glass in the sump until you have looked. Do not sweep a bare hand around blind."
+    },
+    {
+      "name": "Check the air gap if you have one",
+      "detail": "Look on the countertop behind the faucet for a small chrome cylinder about two inches tall. Twist the chrome cap off and lift away the plastic cover underneath. Clear out any sludge with a paper towel and a bottle brush, and rinse the cover. This one takes three minutes and is responsible for a surprising share of drain faults in kitchens where nobody knew what the little chrome thing was for.",
+      "minutes": 8,
+      "tools": "Bottle brush, paper towel",
+      "warning": null
+    },
+    {
+      "name": "Check the disposal connection and the knockout plug",
+      "detail": "Put a shallow pan under the connection, loosen the hose clamp at the disposal inlet with a nut driver or screwdriver, and pull the hose off. Expect a cup of dirty water. Look into the spigot on the disposal: you want to see a clear open hole into the grinding chamber. If there is a solid plastic disc in there, drive it out with a screwdriver and a hammer tap, then fish the loose plug out of the disposal before you reconnect.",
+      "minutes": 15,
+      "tools": "Nut driver or flat screwdriver, shallow pan, hammer",
+      "warning": null
+    },
+    {
+      "name": "Inspect the full run of the drain hose",
+      "detail": "Pull the machine forward and walk the hose from the pump outlet to wherever it terminates. Straighten any kink, free it from behind a leveling leg, and confirm it rises to just below the countertop before dropping down to the disposal or trap. If the hose feels heavy and soft, disconnect both ends over a bucket and flush it through with hot water from a jug until it runs clear.",
+      "minutes": 20,
+      "tools": "Bucket, nut driver, hot water",
+      "warning": null
+    },
+    {
+      "name": "Run a drain test and reset",
+      "detail": "Push the machine back with a hand's width of clearance so you do not crush the hose again, restore power, and start the shortest cycle you have. Stand there for the first two minutes: the drain runs at the start of every cycle, so you will know almost immediately whether the water leaves. A clean drain sounds like a rising whine and then a slurp as the sump empties.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filters are clean, the hose is clear and straight, the air gap is empty and the disposal port is open, the drain path is ruled out and the problem is at the pump end. Work through it like this. First, listen during the drain phase with the door latched and your ear near the kickplate. A steady hum with no water movement means the pump is powered but the impeller is jammed or the pump is airlocked; silence means the pump is not being driven at all, which is a different and more expensive fault. Second, pull the kickplate and the pump cover inside the sump and turn the impeller by hand. It should spin freely with a slight magnetic notchiness. If it is locked solid, something is wrapped around it, and a shard of glass or a toothpick wedged against the housing is the usual culprit; freeing it costs nothing. Third, if the impeller spins freely and the pump only hums, the pump is on its way out, and that is a $50 to $120 part and about an hour of work on most Bosch models. Fourth, if there is no sound at all from the pump during the drain, check the wiring connector at the pump for corrosion before you condemn anything, then accept that you are into control board territory, which is where the cost jumps past the sensible repair line on an older machine. One thing worth ruling out early: fill a bucket at the sink and pour it down the drain, or run the disposal. If the sink itself drains slowly or gurgles, the blockage is in your house plumbing and no amount of work on the dishwasher will fix it.",
+  "reset_procedure": "Press and hold the Start button for about three seconds to cancel the running program, then let the machine drain whatever it can. If the code stays after you have cleared the blockage, cut power at the breaker for five minutes and restore it, which clears the stored fault from the control. Then run the shortest cycle rather than a full wash, so you find out in two minutes instead of ninety.",
+  "model_notes": "Bosch groups its drain-side faults in the E22 to E25 range and the exact split shifts between model generations and between the US and European documentation. Broadly, E22 points at the filters, E23 at the pump itself, E24 at the path the water takes out, and E25 at the pump being blocked. In practice they overlap enough that the same clog can produce different codes on two different machines, so clear the whole drain path rather than treating the number as a precise diagnosis. On models with a hidden control panel the code only appears on the inner display, so with the door closed you just get a machine that stops mid-cycle.",
+  "parts": [
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Only if the mesh is torn; most just need a scrub"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $35",
+      "difficulty": "moderate",
+      "note": "Worth replacing if it is crushed flat or split rather than just dirty"
+    },
+    {
+      "name": "Air gap body and cap",
+      "cost": "$10 to $20",
+      "difficulty": "easy",
+      "note": "Usually just needs cleaning out"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "Only after you have confirmed a hum with no flow and a free impeller"
+    }
+  ],
+  "when_to_call": "Call an appliance technician if the drain path is demonstrably clear and the pump makes no sound at all during the drain phase, because the next step is testing the pump circuit with the machine live. Call a plumber rather than an appliance technician if the kitchen sink is also slow or gurgles when the dishwasher pumps out, since the fault is in your branch drain and an appliance engineer will charge a call-out to tell you exactly that. And stop and call if you find the drain hose is plumbed flat along the floor with no high loop, because that is an installation fault that will keep producing E24 no matter how many times you clean the filters.",
+  "faqs": [
+    {
+      "q": "Why is there standing water in the bottom of my Bosch dishwasher?",
+      "a": "Because the drain cycle timed out and the water had nowhere to go, which is exactly what E24 reports. A small amount of water sitting in the sump well is normal and keeps the seals wet. Water standing above the filter and over the tub floor is not, and it means the path out is blocked somewhere between the filter and your sink drain."
+    },
+    {
+      "q": "What is the difference between E24 and E25 on a Bosch dishwasher?",
+      "a": "Both are drain faults, and the split is one of emphasis. E24 points at the path the water takes out of the machine, so the filters, hose, air gap and disposal connection. E25 points at the pump itself being blocked or its cover sitting loose. The codes overlap between model generations, so clear the whole drain path either way."
+    },
+    {
+      "q": "Can I still use the dishwasher with an E24 code?",
+      "a": "No, and running it again just refills the tub. The machine stops the cycle because the water from the previous stage is still sitting there, so another run gives you dirty dishes in standing water. There is no safety risk, but nothing will wash properly until the water can get out."
+    },
+    {
+      "q": "Why did E24 appear suddenly when nothing changed?",
+      "a": "Filters and hoses clog gradually and then cross a threshold, so the failure looks sudden after months of building. The other common trigger is something small and hard going down the sump: a fruit pit, a shard of glass or a bottle label can block the pump inlet in a single cycle after years of trouble-free running."
+    },
+    {
+      "q": "Do I need to remove the knockout plug on a new garbage disposal?",
+      "a": "Yes, every time, and forgetting it is one of the most common causes of a dishwasher that has never drained since installation. Disposals ship with a solid plastic disc sealing the dishwasher inlet so the port does not leak if nothing is connected. It has to be knocked out with a screwdriver and the loose disc retrieved from inside the unit."
+    },
+    {
+      "q": "Will a dishwasher cleaner or vinegar clear E24?",
+      "a": "Not usually. Cleaners dissolve grease films and limescale, which helps slightly with a greasy filter, but they do nothing about a kinked hose, a packed air gap or a fruit pit in the pump inlet. Clear the blockage mechanically first. A cleaner is maintenance after the repair, not the repair."
+    },
+    {
+      "q": "How often should I clean the filter to stop this happening again?",
+      "a": "Pull and rinse the filter once a month if you run the machine most days, and every couple of months otherwise. It takes about three minutes. Scraping plates properly before loading matters more than the rinse cycle people use instead, since it is the soft debris that mats under the flat screen that eventually stops the drain."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The path water takes out of a Bosch dishwasher, and where it stops",
+    "labels": {
+      "display": "E24",
+      "c1": "Filter cylinder and flat screen",
+      "c2": "Pump cover seated in the sump",
+      "c3": "Drain hose high loop and kinks",
+      "c4": "Air gap and disposal knockout"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature, drain system and fault code range",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Field reports on E22 to E25 drain faults and their real causes",
+      "publisher": "Appliantology and r/appliancerepair technician threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E25",
+    "E22",
+    "E23",
+    "E15",
+    "E09"
+  ]
+}

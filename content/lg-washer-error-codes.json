@@ -1,0 +1,213 @@
+{
+  "title": "LG Washer Error Codes: What Each One Means",
+  "meta_description": "Every LG washer code follows one pattern: a letter for the system, then E for error. Here is what each one means and what to do about it.",
+  "h1": "LG washing machine error codes: how to read them and what to do",
+  "answer": "LG washer codes follow one simple pattern: a letter or two for the part of the machine that complained, then E for error. IE is an inlet error, OE is an outlet error, dE is a door error, UE is an unbalanced error, LE is a locked motor error. Three of the things that look like codes are not faults at all, and it saves a lot of worry to know them: CL is Child Lock, tCL is the tub clean reminder, and SUD means the machine has found too much foam and is dealing with it. Read the code off the panel in good light before you do anything, because an O and a zero, and a capital I and a one, look identical on an LG display.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify, 15 minutes to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $90 for most common faults",
+    "technician": "$130 to $350 for most washer repairs"
+  },
+  "safety_warning": "Unplug the washer at the wall before taking any panel off. The power button does not isolate the control board. Never bypass, wedge or defeat the door interlock to get a machine running, and never keep resetting a breaker that trips repeatedly on the laundry circuit.",
+  "causes": [
+    {
+      "cause": "Water going in and water coming out",
+      "frequency": "most cases",
+      "confirm": "Codes in this group are IE and 1E for a machine that will not fill, OE and 0E for one that will not drain, FE for one that has overfilled, and PE for a water level sensor that is reading out of range. Between them they account for more LG washer faults than every other group combined, and most of them are a clogged screen or a clogged filter rather than a failed part."
+    },
+    {
+      "cause": "Load, balance and spin",
+      "frequency": "most cases",
+      "confirm": "uE, UE and on some models Ub. Lowercase uE means the washer is still trying to rebalance the load; uppercase UE means it gave up. The machine is usually right, and the fix is usually in the drum rather than in the machine, though worn suspension and an unlevel floor produce the same codes."
+    },
+    {
+      "cause": "The door and its lock",
+      "frequency": "common",
+      "confirm": "dE on older models, split into dE1 and dE2 on newer ones. dE1 means the door was never properly shut, which is normally laundry caught in the rubber gasket. dE2 means the door is shut but has not latched, which points at the hook or the lock assembly itself."
+    },
+    {
+      "cause": "The motor and drive",
+      "frequency": "common",
+      "confirm": "LE, and on some models LE1, mean the motor could not turn the drum the way it was told to. CE means the motor circuit drew more current than it should. Both are most often caused by an overloaded drum rather than a dead motor, so empty it and retry before assuming the worst."
+    },
+    {
+      "cause": "Heating and water temperature",
+      "frequency": "occasional",
+      "confirm": "tE and related codes cover the temperature sensor and the heater circuit, and on steam models the steam generator has codes of its own. A washer that works perfectly on cold and fails on warm or hot cycles is pointing at this group, and the first thing to rule out is a hot supply that is off rather than a heater that has failed."
+    },
+    {
+      "cause": "Power and the control board",
+      "frequency": "occasional",
+      "confirm": "PF means the machine lost power mid-cycle. Repeated PF with no outage in the rest of the house points at the plug, the outlet or an extension lead rather than the washer. Genuine control board failures exist but are much rarer than the internet suggests, and they should be the last thing diagnosed, never the first."
+    },
+    {
+      "cause": "Messages that are not faults",
+      "frequency": "common",
+      "confirm": "CL is Child Lock, meaning the panel is locked and buttons do nothing. tCL is the tub clean reminder, which appears after about thirty washes. SUD means too much foam, and the machine clears it itself given half an hour. None of these needs a part, a technician or a reset."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as it appears",
+      "detail": "Look at the panel in good light and note the case and any small characters. Lowercase uE and uppercase UE mean different things. tCL with a small t is the tub clean reminder, while CL on its own is Child Lock. An O and a zero, and a capital I and a one, are drawn the same way on these displays, so IE and 1E are the same code and OE and 0E are the same code.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note where in the cycle it appeared",
+      "detail": "This is the single most useful piece of diagnostic information and it is free. A code at the start points at filling or the door. One at the end points at draining, spinning or balance. One that always arrives at the same moment, such as when the spin accelerates, points at something mechanical or electrical that only shows up under load. Write it down before you start resetting things and losing the evidence.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do the standard LG reset",
+      "detail": "Press Power to turn the washer off, then unplug it at the wall. With the plug out, hold Start/Pause for about five seconds to bleed the residual charge out of the control. Plug it back in and run a short program. This clears a stored fault that has already been fixed, and it clears the occasional one-off glitch. It does not clear Child Lock, which needs its own button hold.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the four things that cost nothing",
+      "detail": "Whatever the code, these four are worth a look before anything else. Are both supply taps fully open. Is the drain pump filter at the bottom front clean. Is the door gasket clear of trapped laundry and does the door click shut. Is the drum sensibly loaded and the machine solid on its feet with no rock on the diagonals. Between them these account for the majority of LG washer codes.",
+      "minutes": 25,
+      "tools": "Shallow tray, towels, flat screwdriver",
+      "warning": "Unplug the machine before opening the pump filter, and expect over a liter of water."
+    },
+    {
+      "name": "Test with a short cycle rather than a full wash",
+      "detail": "Use Rinse and Spin or Drain and Spin to reproduce the fault in two or three minutes instead of an hour. A rinse tells you whether the machine fills and whether the door locks. A drain and spin tells you whether it empties and whether it balances. Running a full cycle to see what happens is the most common way people waste an afternoon on this.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find your model number and check it against LG's own list",
+      "detail": "The model and serial sticker is inside the door opening on a front loader, usually on the lower edge, or under the lid on a top loader. Codes mostly mean the same thing across the range but there are real exceptions, and on ThinQ models the app will give you a plain-language description of the fault that the two-character display cannot. If your model supports Smart Diagnosis, that transmits the machine's fault log as an audio tone to LG support.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide whether this is a part job or a parts-and-skills job",
+      "detail": "Inlet screens, pump filters, drain hoses, door gaskets and loading habits are all homeowner territory. Inlet valves, drain pumps, door locks and water level sensors are reasonable with a screwdriver and patience. Anything involving the stator, the drum bearing, the heater circuit or the control board means mains work or heavy lifting, and on a machine over ten years old it is the point to price a replacement before pricing the repair.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Anything behind a panel is at mains potential. Unplug at the wall first, every time."
+    }
+  ],
+  "still_showing": "If the reset has not cleared it and the four free checks found nothing, use the code group to decide where the money goes. For a fill fault, the order is taps, mesh screens, hose, bucket test at the tap, then the inlet valve solenoid, then the water level sensor hose, then the board; by the time you reach the board you have spent nothing and ruled out six things. For a drain fault, it is the pump filter, the impeller, the hose, a bucket test into the room, then the pump itself, then the level sensor hose. For a balance fault, it is the load, the leveling, the drain, then the suspension, then the drum bearing, and the bearing is the one where the repair cost starts to rival a new machine. For a door fault, it is the gasket, the load size, the hook, then the lock assembly, which is a cheap part and the usual answer. For a motor fault, it is the load, a ten minute cool-down for the thermal cut-out, the drum turning freely by hand, then the rotor position sensor, then the stator. Two rules cut across all of them. First, a code is a symptom and not a diagnosis: it tells you what the control observed, not which part failed, and buying a part off the code alone is how people end up with two bills. Second, if the same machine throws several unrelated codes in a week, stop chasing them individually and look at what they share, which is usually the power supply, a water level sensor giving nonsense, or a harness chafed through somewhere it moves.",
+  "reset_procedure": "The reset that works for most LG washer codes is: press Power to turn the machine off, unplug it at the wall, hold Start/Pause for about five seconds with the plug still out, then plug it back in and run a short program. That bleeds the control rather than just interrupting it. Two things it will not do: it will not turn off Child Lock, which needs its own button held for three seconds, and it will not clear the tCL reminder, which only resets when a Tub Clean cycle runs all the way through.",
+  "model_notes": "The letter-then-E convention holds across LG front loaders, top loaders and compact washers, but what the machine physically has differs. LG front loaders have a user-accessible drain pump filter at the bottom front and a locking door, so they use the dE family. Most LG top loaders in the WT series have no accessible filter and use a lid switch rather than a door lock, which changes both the diagnosis and the order of work for drain and door faults. In service mode LG also records numbered codes such as E01 and E03, which map onto the same faults the panel shows in letters. Washer-dryer combination machines add drying codes on top of everything here.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "The usual part behind a persistent drain fault"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "For fill and overfill faults once the screens are clean"
+    },
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$20 to $80",
+      "difficulty": "moderate",
+      "note": "The part that fails behind most persistent door codes"
+    },
+    {
+      "name": "Rotor position sensor",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "For repeat motor codes on a drum that turns freely"
+    },
+    {
+      "name": "Water level pressure sensor",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Clear its hose before buying one; sludge mimics a dead sensor"
+    }
+  ],
+  "when_to_call": "Call a technician when the diagnosis needs the machine running with a panel off, when the repair means laying the washer down or splitting the tub, or when you have replaced the obvious part and the code has not moved. Call an electrician rather than an appliance engineer for repeated power faults, warm outlets or a breaker that keeps tripping, because those are supply problems. Call a plumber rather than either if a bucket test shows the washer filling or draining perfectly well on its own: the fault is then in your house plumbing and an appliance visit will only confirm it. Whoever you call, tell them the exact code and where in the cycle it appeared; it genuinely shortens the visit and sometimes the bill.",
+  "faqs": [
+    {
+      "q": "What does the E mean in LG washer error codes?",
+      "a": "Error. LG names each code after the system that complained, then adds E: IE is inlet error, OE is outlet error for draining, dE is door error, UE is unbalanced error, LE is locked motor error, FE is a fill or overflow error, PE is a pressure sensor error, CE is a current error. Once you know the pattern most codes read themselves."
+    },
+    {
+      "q": "Which LG washer codes are not actually faults?",
+      "a": "Three of them. CL is Child Lock, meaning the control panel is locked; hold the Child Lock button for three seconds. tCL is the tub clean reminder that appears after about thirty washes. SUD means the machine has found too much foam and is running a routine to clear it, which usually takes twenty to forty minutes and needs nothing from you."
+    },
+    {
+      "q": "How do I reset an LG washing machine?",
+      "a": "Press Power to turn it off, unplug it at the wall, and hold Start/Pause for about five seconds with the plug out. Then plug it back in and run a short program. That drains the control rather than just interrupting it, which is why it clears faults that a quick off-and-on does not. It will not turn off Child Lock."
+    },
+    {
+      "q": "Why do IE and 1E, or OE and 0E, both show up online?",
+      "a": "Because LG's display draws a capital I as a plain vertical bar and an O almost exactly like a zero, so owners read the same code two different ways. There is no separate 1E or 0E fault on an LG washer. IE and 1E are both the fill fault; OE and 0E are both the drain fault."
+    },
+    {
+      "q": "Are LG washer codes the same on top loaders and front loaders?",
+      "a": "Mostly, but the hardware behind them differs in ways that change the fix. Front loaders have a drain pump filter at the bottom front and a locking door; most LG top loaders have neither, using a lid switch instead and hiding the pump underneath. So a drain code means check the filter on one and check the hose and the pump on the other."
+    },
+    {
+      "q": "Can I look up an LG error code without the manual?",
+      "a": "Yes. Find the model number on the sticker inside the door opening on a front loader or under the lid on a top loader, and put it into LG's support site. On ThinQ models the app gives a plain-language description that a two-character display cannot, and Smart Diagnosis transmits the machine's fault log to LG support as an audio tone."
+    },
+    {
+      "q": "Does an error code tell me which part has failed?",
+      "a": "No, and treating it as if it does is the most expensive mistake people make. A code says what the control observed, not what broke. A drain code usually means a blocked filter rather than a dead pump; a fill code usually means a closed tap rather than a dead valve. Diagnose from the code, do not shop from it."
+    },
+    {
+      "q": "How much do LG washer repairs usually cost?",
+      "a": "Most of the common faults cost nothing, because they are a clogged filter, a closed tap, a trapped sock or an overloaded drum. When a part is genuinely needed, pumps, valves, door locks and sensors are typically $20 to $80 and $130 to $350 fitted. Stators, bearings and control boards run into several hundred, which is where the machine's age starts to decide it."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How to read any LG washer code and what to check first",
+    "labels": {
+      "display": "E",
+      "c1": "Note the exact code and its case",
+      "c2": "Note where in the cycle it appeared",
+      "c3": "Unplug, hold Start/Pause five seconds",
+      "c4": "Taps, filter, gasket, load"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG front load washer error code list",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG top load washer error codes and resolutions",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG washer owner's manuals, troubleshooting sections across model generations",
+      "publisher": "LG owner's manual supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Field experience on which LG codes are user-fixable and which are not",
+      "publisher": "Appliance repair trade forums and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "UE",
+    "OE",
+    "IE",
+    "LE",
+    "dE",
+    "FE"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "title": "LG Refrigerator FF E Error Code: Freezer Fan Fault",
+  "meta_description": "FF E on an LG refrigerator means the freezer fan is not turning. Usually ice has packed around the fan blade after a failed defrost.",
+  "h1": "LG refrigerator FF E error code: what it means and how to fix it",
+  "answer": "FF E means the main board told the freezer fan to run and never got the speed signal back from it. That fan sits behind the rear panel inside the freezer and pushes cold air over the evaporator coil and through both compartments, so when it stops, the fresh food side warms up first and the freezer follows. The usual reason is not a dead fan at all: ice has built up around the blade after the defrost cycle stopped working, and the blade is physically locked. Pull the rear freezer panel and look before you order a fan.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to inspect, 24 to 48 hours if you manually defrost",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$180 to $450"
+  },
+  "safety_warning": "Unplug the refrigerator at the wall before you remove any interior panel. The evaporator coil behind that panel is part of the sealed refrigerant circuit: never chip ice off it with a screwdriver, knife or ice pick. One puncture turns a free defrost into a sealed-system repair that costs more than the fan.",
+  "causes": [
+    {
+      "cause": "Ice has built up around the fan blade and jammed it",
+      "frequency": "most cases",
+      "confirm": "Unplug, empty the freezer and take off the rear freezer panel. If the fan blade is encased in frost, frozen to its shroud, or you can see a solid white block where the coil should be a row of separate fins, this is your fault. A blade you can turn freely by hand once the ice is gone confirms it."
+    },
+    {
+      "cause": "The defrost system has quit, which is what let the ice build",
+      "frequency": "most cases",
+      "confirm": "This is the cause behind the cause. Normal frost on an evaporator is light, even and you can still see the individual fins. A coil buried in a solid slab of ice means the defrost heater, the defrost thermostat or the defrost sensor stopped working, probably weeks ago. Clearing the ice without fixing this just buys you a month."
+    },
+    {
+      "cause": "The fan motor itself has failed",
+      "frequency": "common",
+      "confirm": "No ice anywhere, the coil looks normal, the blade spins freely when you flick it, and the fan still never runs when the compartment calls for cooling. LG uses a brushless fan that reports its own speed, so a motor with a dead speed sensor throws FF E even while the blade turns."
+    },
+    {
+      "cause": "A broken or corroded connector in the fan wiring",
+      "frequency": "occasional",
+      "confirm": "Look where the harness passes through the freezer liner and at the plug on the fan body. A green, crusty or pushed-back terminal, or a wire chafed through where the panel screw caught it, means the board is getting nothing from a perfectly good fan."
+    },
+    {
+      "cause": "A door gasket leaking warm, damp air into the freezer",
+      "frequency": "occasional",
+      "confirm": "Frost concentrated near the door side rather than spread evenly over the coil. Close the door on a dollar bill and pull: if it slides out with no drag, that section of gasket is not sealing, and the humidity it lets in is feeding the ice faster than defrost can clear it."
+    },
+    {
+      "cause": "The main control board is not driving the fan",
+      "frequency": "rare",
+      "confirm": "A fan that measures fine and a harness with no breaks, but the fan never gets power at any point in a cycle. Check everything else twice before you land here, because this is the expensive answer and it is almost never right."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check how bad the cooling actually is before anything else",
+      "detail": "Put a glass of water in the fresh food compartment and a thermometer in the freezer if you have one. Feel whether the fridge section is noticeably warmer than the freezer. If both compartments are still cold, the fan has only just stopped and your food is fine for now. If the fridge side is at room temperature, move what you care about to a cooler now, because the rest of this takes hours.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the refrigerator",
+      "detail": "Unplug it at the wall socket, or switch off its breaker, and leave it for five minutes. Plug it back in and give it ten minutes to settle. A fan that stalled once on a scrap of frost and then freed itself will leave the stored code behind, and the code will sit on the display until the board is reset. If FF E comes straight back, the fault is live and you carry on.",
+      "minutes": 16,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Empty the freezer and take off the rear freezer panel",
+      "detail": "Unplug the refrigerator first. Pull out the baskets or slide out the drawer, then remove the flat panel on the back wall of the freezer. It is usually held by four or five Phillips screws, sometimes with plastic caps over them, and the lower edge often sits in a slot so the panel tips out from the top. Work the panel loose gently. If it will not come away, it is frozen to the liner and needs the defrost in the next step before it will move.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, towels",
+      "warning": "Unplug the refrigerator at the wall before you remove any panel."
+    },
+    {
+      "name": "Look at the evaporator coil and the fan blade",
+      "detail": "Behind that panel is a radiator-like coil and, above or beside it, the fan in a plastic shroud. Light, even frost with the fins visible is normal. A solid white block is not. Note which it is before you clear anything, because that single observation decides whether you are fixing a one-off jam or a dead defrost system. Flick the blade with a finger and see whether it turns freely or is locked solid.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": "Do not chip, scrape or pry at the ice on the coil. The tubing is part of the sealed refrigerant circuit and a puncture is not repairable at home."
+    },
+    {
+      "name": "Defrost the freezer completely",
+      "detail": "Leave the refrigerator unplugged with both doors propped open and towels along the base and on the floor. Give it 24 hours, and 48 if the coil was a solid block. A fan heater pointed into the freezer from a safe distance, or a hair dryer on low held well back and kept moving, speeds it up, but never aim steady heat at one spot on the plastic liner or at the coil itself. You want every trace of ice gone, including in the drain trough at the bottom of the coil.",
+      "minutes": 1440,
+      "tools": "Towels, bucket, optional fan heater",
+      "warning": "No steam, no boiling water and no open flame near the liner or the coil."
+    },
+    {
+      "name": "Clear the defrost drain while the panel is off",
+      "detail": "At the bottom of the evaporator there is a trough leading to a small drain hole. If it is plugged with ice or sludge, meltwater backs up, refreezes around the fan and puts you right back here in a few weeks. Pour warm water down it until it runs through freely and you hear it reach the pan underneath. A length of soft tubing or a pipe cleaner helps, but keep anything stiff and sharp away from the coil.",
+      "minutes": 15,
+      "tools": "Warm water, turkey baster or small funnel, pipe cleaner",
+      "warning": null
+    },
+    {
+      "name": "Check the fan connector, then run it",
+      "detail": "With the ice gone, unplug the connector on the fan body and look at both halves for corrosion, melted plastic or a terminal that has backed out of the housing. Push it firmly back together. Refit the panel, reload the freezer, plug the refrigerator in and wait. Within a few minutes of the compressor starting you should hear the fan and feel air moving at the freezer vents. If you hear nothing, the motor is the problem.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Unplug the refrigerator before touching the connector."
+    },
+    {
+      "name": "Check the door gaskets",
+      "detail": "Close each door on a dollar bill at several points around the frame and pull it out. You want firm drag everywhere. Where it slides out easily, the gasket is not sealing and is feeding humidity straight onto the coil. Wipe the gasket and the mating surface with warm soapy water, and work a section that has gone flat back into shape with a hair dryer on low and gentle pulling.",
+      "minutes": 12,
+      "tools": "Dollar bill, warm soapy water",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the freezer is fully defrosted, the drain runs clear, the connector is clean and FF E is back, work through it in this order. First, listen. Stand with the door open and the light switch held in, or taped down, and wait for the compressor to start. A fan that hums but does not turn is seized and needs replacing. A fan that spins up and then stops within a minute is usually catching on its shroud, so look for a blade bent out of plane by someone forcing ice off it. A fan that makes no sound at all and never moves is either dead or getting no power, and those two are what you separate next. Second, check for power at the fan connector with the compartment calling for cooling. If the board is feeding it and nothing happens, the motor is finished. Replacement is a $35 to $90 part and a genuinely approachable job once the panel is already off, because it is two screws, a plug and a blade that pulls off the shaft. Buy the fan for your model number rather than a generic one: LG's brushless fans talk to the board, and a near-enough motor from a different series will throw the same code on its first run. Third, if the fan is good but the ice came back within a month, you have not fixed anything, you have only delayed it. Stop replacing fans and have the defrost circuit tested. The defrost heater, the bimetal thermostat clipped to the coil and the defrost sensor are all serviceable parts in the $20 to $70 range, but telling which of the three has failed needs a meter and the tech sheet, and it is worth paying for an hour of someone's time rather than buying all three. Fourth, if the fan runs properly and the compartments still will not hold temperature, the fan was never the real story and you are looking at a cooling fault instead. That is the point to stop and read the paragraph below about warranty, because LG compressors carry coverage that a lot of owners do not know they have.",
+  "reset_procedure": "Unplug the refrigerator at the wall, or trip its breaker, wait five minutes and restore power. The board holds the stored fault, so a freezer whose fan has freed itself will keep showing FF E until it is reset. Do not take a code that clears on a reset and then returns within a day as a fluke: a fan that jams on ice will jam again every time the frost rebuilds, and the reset is only telling you the board is working.",
+  "model_notes": "The display convention changes across LG generations. Older panels show this as Er FF or F F, newer ones as FF E, and some LG documentation writes it E FF. They are the same freezer fan fault. Do not confuse it with rF E, which is the fresh food compartment fan on models that have a second evaporator, or with IF E, which is the separate fan serving the ice compartment. On French door models the evaporator and fan are behind the rear freezer panel in the bottom drawer. On side by side models they are behind the rear panel of the tall freezer section, and you usually have to remove a shelf or two first. Models with a linear or inverter compressor may also be covered by a longer compressor warranty than owners expect, which matters if the diagnosis moves from the fan to the cooling system.",
+  "parts": [
+    {
+      "name": "Freezer evaporator fan motor",
+      "cost": "$35 to $90",
+      "difficulty": "moderate",
+      "note": "Order by model number; LG brushless fans report speed to the board and generics throw the same code"
+    },
+    {
+      "name": "Evaporator fan blade",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if the blade is cracked or bent from ice removal"
+    },
+    {
+      "name": "Defrost heater",
+      "cost": "$25 to $70",
+      "difficulty": "hard",
+      "note": "Fitted against the evaporator; worth having tested before buying"
+    },
+    {
+      "name": "Defrost thermostat or defrost sensor",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Cheap parts, but a meter and the tech sheet tell you which one failed"
+    },
+    {
+      "name": "Door gasket",
+      "cost": "$60 to $150",
+      "difficulty": "moderate",
+      "note": "Only if reshaping the existing one does not restore the seal"
+    }
+  ],
+  "when_to_call": "Call a technician if the ice comes back after a full defrost, because that means the defrost circuit has failed and diagnosing which of the heater, thermostat and sensor is at fault needs a meter and the model's tech sheet. Call one straight away if the fan runs normally and the refrigerator still will not get cold, since that points at the compressor or the sealed system rather than airflow, and sealed system work is licensed-technician only, full stop. Before you book anything on a cooling fault, find your model and serial number on the sticker inside the fresh food compartment and call LG with them: compressor coverage on these refrigerators often runs much longer than the standard first-year warranty, and plenty of owners pay for a repair they were entitled to have done free. Check your own model and serial with LG rather than taking any figure you read online, including from this page, because the terms vary by market and change over time.",
+  "faqs": [
+    {
+      "q": "Can I still use the refrigerator with an FF E code?",
+      "a": "Briefly, and only to empty it. With the freezer fan stopped, nothing moves cold air into the fresh food compartment, so that side warms to an unsafe temperature within hours even while the freezer still feels cold. Move perishable food to a cooler or a neighbor's fridge now. There is no fire or shock risk in leaving the appliance plugged in, only a food safety one."
+    },
+    {
+      "q": "Why did FF E appear suddenly when the fridge was fine yesterday?",
+      "a": "Because the real fault has been building for weeks. Defrost failures are silent: ice accumulates on the evaporator a little each day and nothing seems wrong until the frost finally reaches the fan blade and stops it dead. The code is sudden, the cause is not. That is also why clearing the ice without fixing defrost only buys you a few weeks."
+    },
+    {
+      "q": "Will unplugging the refrigerator overnight fix FF E?",
+      "a": "It often clears it, and that is exactly the trap. Unplugging melts the ice that was jamming the fan, so the fan runs and the code goes. If the defrost system is dead, the ice rebuilds and you are back here within a month. Treat a code that returns after a manual defrost as proof the defrost circuit needs attention, not as bad luck."
+    },
+    {
+      "q": "How do I tell FF E apart from rF E and IF E?",
+      "a": "They are three different fans. FF E is the freezer evaporator fan behind the rear freezer panel, which supplies both compartments on most models. rF E is a separate fresh food compartment fan, fitted only to models with two evaporators. IF E is the small fan that feeds the ice compartment. Replacing the wrong one is an expensive and completely avoidable mistake."
+    },
+    {
+      "q": "Is it worth repairing, or should I replace the refrigerator?",
+      "a": "Worth repairing in nearly every case. A fan motor is a sub-$90 part and an hour of work, and even a full defrost circuit repair by a technician usually lands well under half the price of a comparable new refrigerator. The calculation only changes if the diagnosis moves to the compressor on an older unit, and even then check your warranty coverage with LG first."
+    },
+    {
+      "q": "Can I just chip the ice off the fan and put it back together?",
+      "a": "Do not do it with anything hard or sharp. The evaporator tubing right behind that ice is part of the sealed refrigerant circuit, and puncturing it ends the repair: it vents the charge and needs a licensed technician with recovery equipment to put right. Melt the ice instead, with time and warm air, and you cannot damage anything."
+    },
+    {
+      "q": "How long should I leave it unplugged to defrost?",
+      "a": "Twenty-four hours with both doors propped open if the frost was moderate, and forty-eight if the coil was a solid block. Put towels down, because a freezer that has been icing for months holds a surprising amount of water. Check the drain trough at the base of the coil before you reassemble, since a blocked drain refreezes around the fan and starts the whole thing again."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "Behind the rear freezer panel: the fan, the coil and what stops them",
+    "labels": {
+      "display": "FF E",
+      "c1": "Rear freezer panel, four screws",
+      "c2": "Evaporator fan blade and shroud",
+      "c3": "Coil frost: even or solid block",
+      "c4": "Defrost drain trough at base"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG refrigerator digital and analog error codes, FF freezer fan fault",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG refrigerator error code list and display conventions",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "Field reports on LG evaporator fan and defrost failures",
+      "publisher": "r/appliancerepair and Appliantology technician forums",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied inside the appliance",
+      "publisher": "LG service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "rF E",
+    "IF E",
+    "CF E",
+    "dH E",
+    "CL E",
+    "CH E"
+  ]
+}

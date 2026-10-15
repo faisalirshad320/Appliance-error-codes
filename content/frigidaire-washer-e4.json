@@ -1,0 +1,190 @@
+{
+  "title": "Frigidaire Washer E4 Error Code: Causes and Fix",
+  "meta_description": "E4 on a Frigidaire top loader means the drum went out of balance during the spin and could not correct itself. Usually the load.",
+  "h1": "Frigidaire washer E4 error code: what it means and how to fix it",
+  "answer": "E4 on a Frigidaire top load washer means the drum went out of balance during the spin and the machine could not correct it. The washer tries on its own first, adding water and redistributing, and only shows E4 after it has failed several times in the same spin. Most of the time the answer is in the drum: a bunched sheet or a bath towel wrapped around one side. The other two causes worth knowing are a machine that is not sitting level on the floor and, on a recently delivered washer, shipping supports that were never removed.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "10 minutes to redistribute, 30 minutes to level the machine",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$130 to $300"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The load has bunched to one side of the drum",
+      "frequency": "most cases",
+      "confirm": "Open the lid at the point the code appears. A single sheet, duvet cover or bath towel wrapped around itself and pressed against one wall of the basket is the picture you are looking for. Items that wrap, and single heavy items washed alone, cause nearly all of these."
+    },
+    {
+      "cause": "The washer is not level or is rocking on the floor",
+      "frequency": "most cases",
+      "confirm": "Push down on each front corner in turn. Any movement at all, even a slight knock, means a foot is off the floor. Put a spirit level across the top in both directions as well. A washer that rocks turns a small imbalance into a shock the control has to stop."
+    },
+    {
+      "cause": "Shipping supports still fitted after delivery or a move",
+      "frequency": "common",
+      "confirm": "The machine was installed or moved in the last few weeks and has never completed a spin since. Frigidaire packs top loaders with foam shipping supports that have to come out before first use. Check the installation instructions for exactly what your model shipped with, and go and look rather than assuming the installer did it."
+    },
+    {
+      "cause": "The drum is overloaded",
+      "frequency": "common",
+      "confirm": "You packed it to the rim. A full drum cannot redistribute itself during the spin, so the washer has no way to correct an imbalance it finds. Aim for about two thirds full with room to put a flat hand on top of the load, and the problem usually disappears."
+    },
+    {
+      "cause": "Worn suspension rods or shock absorbers",
+      "frequency": "occasional",
+      "confirm": "E4 on ordinary, evenly loaded washes as well as awkward ones, often with a knocking or banging from the cabinet as the spin speeds up. On a top loader the basket hangs on suspension rods at the corners, and when those wear the tub swings further than the control will tolerate."
+    },
+    {
+      "cause": "The floor itself flexes",
+      "frequency": "occasional",
+      "confirm": "The machine is level and solid when still, but the whole floor moves when the spin speeds up. Common on upstairs laundry rooms and suspended timber floors. A sheet of plywood under the machine, or moving it closer to a joist or a wall, fixes what no amount of work on the washer will."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the lid and redistribute the load",
+      "detail": "Pull the laundry apart and spread it evenly around the basket rather than piling it in the middle. Unwind anything that has wrapped itself into a rope. If you are washing one heavy item such as a mattress protector or a single duvet cover, add two or three towels to give it something to balance against. Close the lid and press Start.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take some laundry out if the drum is packed",
+      "detail": "A full basket cannot shuffle itself into balance during the spin, so the washer has no way to fix anything. Take out enough that you can lay a flat hand on top of the load with room to spare, roughly two thirds full. Run the rest as a second load. This fixes more E4 codes than any adjustment to the machine.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the machine is sitting solid",
+      "detail": "Push down firmly on each front corner in turn, then each back corner. Any rock at all means a foot is not touching the floor. Put a spirit level across the top of the machine front to back and side to side. A washer can look level to the eye and still be sitting on three feet, which is exactly what produces an intermittent E4.",
+      "minutes": 10,
+      "tools": "Spirit level",
+      "warning": null
+    },
+    {
+      "name": "Level the washer properly",
+      "detail": "Unplug it, then adjust the screw feet. Most Frigidaire top loaders have threaded front feet with a lock nut: slacken the nut, turn the foot clockwise to lower the corner or anticlockwise to raise it, then tighten the nut back against the cabinet so it cannot drift. Work one corner at a time, rechecking the level and the rock test after each adjustment.",
+      "minutes": 25,
+      "tools": "Spirit level, adjustable wrench",
+      "warning": null
+    },
+    {
+      "name": "Confirm the shipping supports came out",
+      "detail": "If the machine was delivered or moved within the last month or two, this is the first thing to check rather than the last. Frigidaire ships top loaders with foam supports holding the tub, and a washer run with them still in place will throw E4 on every single spin. The installation instructions show exactly what your model had and where it sat.",
+      "minutes": 15,
+      "tools": "Flashlight, installation instructions",
+      "warning": null
+    },
+    {
+      "name": "Test with a controlled spin",
+      "detail": "Put four or five bath towels in, spread evenly, and run a Rinse and Spin. Stand and watch as the spin speeds up. A healthy machine ramps up with a steady hum and only a faint vibration. Banging, a cabinet that walks across the floor, or a basket you can hear hitting the outer tub means the problem is mechanical rather than the load.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the floor under the machine",
+      "detail": "If the washer is solid and level but the floor flexes as the spin builds, you have found it. Press a hand flat on the floor a meter away during a spin and feel for movement. Upstairs laundry rooms on timber joists are the usual case. A sheet of plywood under the machine, or repositioning it over a joist, cures it.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If E4 persists on evenly loaded washes in a machine you have levelled properly, the fault has moved from the laundry to the suspension, and the useful thing is to work out how far. Start with the listening test: run a Rinse and Spin with four or five towels and stand next to the machine as it ramps up. A knock or a bang that appears at a particular speed and then settles is the tub swinging further than it should and meeting something. On a Frigidaire top loader the basket hangs on suspension rods at the corners, each with a damping sleeve, and when those sleeves wear out the tub swings freely instead of being damped. Worn rods are sold in sets, cost roughly $60 to $140 for a set, and replacing them means getting the cabinet open and supporting the tub, which is realistic DIY if you are confident and awkward if you are not. Before you order anything, do two cheaper checks. Rock the drum by hand with the machine off and empty: it should move a little and come back to center, not swing loosely or feel notchy. And look underneath for a foot that has worked loose, because a lock nut that has vibrated free lets a levelled machine quietly go out of level again over a few months. The other thing worth ruling out is the one nobody checks: if the machine was delivered recently, go and confirm the shipping supports were removed rather than taking the installer's word for it, because a washer run with them still fitted throws this code on every spin and no amount of levelling will help. Frigidaire's own guidance is to go back to the installer for a unit installed or moved in the last thirty days. If the rods are good, the machine is level and solid, the floor does not flex and E4 still appears, then the imbalance sensing itself is in question, and that is a technician visit at $130 to $300 rather than a part you can choose from a catalogue.",
+  "reset_procedure": "Open the lid, redistribute the load and press Start again, which is what the washer is asking for and clears the code in most cases. If E4 is stuck on the display with no cycle running, unplug the machine at the wall or switch off its breaker for five full minutes, then restore power. The control holds residual charge, so a quick off and on often leaves the stored message in place. Test with a Rinse and Spin and a few towels rather than a full wash, so you learn in ten minutes whether anything changed.",
+  "model_notes": "E4 is a Frigidaire top load washer code and means an out-of-balance load during the spin. It does not carry the same meaning on Frigidaire front loaders, which use two-digit codes where the whole E4x group covers the door and its lock, and where E4A specifically points at the door lock circuit. That mismatch catches people out constantly, because a front loader showing a code starting with 4 is reporting a completely different part of the machine. Check whether you have a top or front loader before looking anything up. Some other brands also use E4 for an overfill or inlet valve fault, so a generic cross-brand code chart is not safe here either.",
+  "parts": [
+    {
+      "name": "Suspension rod kit",
+      "cost": "$60 to $140 a set",
+      "difficulty": "hard",
+      "note": "Replace as a set; one worn rod means the others are the same age"
+    },
+    {
+      "name": "Levelling feet and lock nuts",
+      "cost": "$15 to $40",
+      "difficulty": "easy",
+      "note": "Only if a foot is damaged or the thread is stripped"
+    },
+    {
+      "name": "Plywood sheet for a flexing floor",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "Cheaper and more effective than any part when the floor is the problem"
+    }
+  ],
+  "when_to_call": "Call the installer rather than a repair technician if the washer was delivered or moved in the last month, because unremoved shipping supports are an installation issue and Frigidaire's own guidance sends you back to whoever put it in. Call a technician if the machine bangs or knocks on spin with an evenly spread load in a washer you have confirmed is level and solid, since that is suspension work inside the cabinet with a heavy tub to support. It is also worth calling if the basket can be rocked loosely by hand or feels notchy, which points past the suspension to the bearing. Do not pay anyone to redistribute your laundry, and do not pay for a visit until you have done the rock test and the spirit level.",
+  "faqs": [
+    {
+      "q": "What does E4 mean on a Frigidaire washer?",
+      "a": "On a top loader it means the drum went out of balance during the spin and the washer could not correct it after several attempts. It is a load and installation issue far more often than a fault. Redistribute the laundry, check the machine is sitting level and solid on all four feet, and make sure any shipping supports were removed."
+    },
+    {
+      "q": "How do I fix an out-of-balance Frigidaire washer?",
+      "a": "Open the lid, unwind anything that has wrapped into a rope and spread the load evenly around the basket, then close the lid and press Start. If the drum was packed, take some out so you can lay a flat hand on top of the load. Then check that the machine does not rock when you push down on each corner."
+    },
+    {
+      "q": "Can I still use my washer with an E4 code?",
+      "a": "Yes, in the sense that the wash itself completes and nothing is damaged. The spin stops short, so the laundry comes out wetter than it should. Repeated hard imbalances are not good for the suspension over time, so it is worth sorting out rather than redistributing the load every single wash."
+    },
+    {
+      "q": "Why does E4 only happen with bedding?",
+      "a": "Because sheets, duvet covers and large towels wrap around themselves into a single heavy rope that sits against one wall of the basket, and there is nothing else in the load to balance it. Wash bedding with two or three towels added, or use a bulky setting if your model has one, and the code usually stops appearing."
+    },
+    {
+      "q": "Is E4 on a Frigidaire front loader the same thing?",
+      "a": "No, and this is the trap. Frigidaire front loaders use two-digit codes where the whole E4x group is about the door and its lock, with E4A pointing at the door lock circuit. A front loader showing a code beginning with 4 is reporting a different part of the machine entirely, so check which type you have first."
+    },
+    {
+      "q": "Could the shipping bolts cause E4?",
+      "a": "Yes, and it is the first thing to check on a recently delivered or moved machine. Frigidaire ships top loaders with foam supports holding the tub, and a washer run with them still in place throws this code on every spin. Frigidaire directs owners back to the installer for units put in within the last thirty days."
+    },
+    {
+      "q": "How do I level a Frigidaire top load washer?",
+      "a": "Unplug it, then work one corner at a time. Slacken the lock nut on the screw foot, turn the foot clockwise to lower that corner or anticlockwise to raise it, then tighten the nut back against the cabinet so it cannot drift. Recheck with a spirit level in both directions and push each corner to confirm nothing rocks."
+    },
+    {
+      "q": "What does it cost if E4 turns out to be the suspension?",
+      "a": "A suspension rod set runs roughly $60 to $140 and should be replaced as a set rather than one at a time. With a technician, expect $130 to $300 for the visit and labor depending on your area. Before spending that, check the levelling and the floor, because both are free and both produce the same symptom."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why a Frigidaire top loader calls an imbalance, and the four things to check",
+    "labels": {
+      "display": "E4",
+      "c1": "Spread the load evenly",
+      "c2": "Fill to about two thirds",
+      "c3": "No rock on any corner",
+      "c4": "Shipping supports removed"
+    }
+  },
+  "sources": [
+    {
+      "title": "Top loading washer displaying error code E4, washer is out of balance",
+      "publisher": "Frigidaire owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Levelling, installation clearances and shipping support removal",
+      "publisher": "Frigidaire installation instructions supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on top load suspension rod wear and imbalance codes",
+      "publisher": "Appliance technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E1",
+    "E10",
+    "E20",
+    "E4A",
+    "E41"
+  ]
+}

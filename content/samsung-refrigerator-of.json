@@ -1,0 +1,111 @@
+{
+  "title": "Samsung Refrigerator OF Code: Cooling Off Mode Explained",
+  "meta_description": "OF on a Samsung refrigerator is not a fault. It is Cooling Off or demo mode, so the fridge lights up but does not cool. Hold the panel buttons to exit.",
+  "h1": "Samsung refrigerator OF code: cooling off mode and how to exit it",
+  "answer": "OF is not a fault code. It means the refrigerator is in Cooling Off mode, also called demo or shop mode, which is the setting that lets a fridge sit on a showroom floor with its lights and display working while the compressor stays off. Your panel may show it as OF OF, O FF, OFF or just OF, and the tell is that everything looks alive but nothing gets cold. You leave it by holding a two-button combination on the panel until the fridge chimes. Which two buttons depends on the model, so if the usual pairs do nothing, your manual has the right one.",
+  "severity": "serious",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes, then several hours to cool down",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A button combination was held by accident",
+      "frequency": "most cases",
+      "confirm": "The fridge was working yesterday and nothing else changed. The usual culprit is wiping the control panel with a cloth, which presses several buttons at once for several seconds, which is precisely the gesture that toggles the mode. Children leaning on the dispenser panel do it too."
+    },
+    {
+      "cause": "It came out of the store in demo mode and was never taken out",
+      "frequency": "most cases",
+      "confirm": "A newly delivered or recently installed fridge that has never got cold, with lights, display and fans all behaving normally. Retail stock runs in this mode and it does not always get cleared before delivery. If the appliance has never worked, this is almost certainly why."
+    },
+    {
+      "cause": "The display is showing something else and being read as OF",
+      "frequency": "occasional",
+      "confirm": "Look closely, ideally with a phone photo zoomed in. O FF with a gap, OF OF across two zones, and a plain FF are easy to confuse on these panels, and FF on some models is a different thing entirely. If the fridge is genuinely cold, it is not Cooling Off mode whatever the characters look like."
+    },
+    {
+      "cause": "A power interruption left the control in the mode",
+      "frequency": "occasional",
+      "confirm": "The code appeared after an outage, a surge or the fridge being unplugged for a move. Unplug it for five minutes and plug it back in, then look again. If it clears on its own, that was it and no further action is needed."
+    },
+    {
+      "cause": "The panel genuinely will not exit the mode",
+      "frequency": "rare",
+      "confirm": "You have tried the correct combination for your model, held it long enough and heard no chime, and a power cycle changed nothing. Samsung's own guidance is that being unable to leave Cooling Off mode is not normally a service matter, so check the combination again before assuming the panel has failed."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm it is really not cooling",
+      "detail": "Open both doors and feel. In Cooling Off mode the lights work, the display works and the fridge looks completely normal, but the compartments are at room temperature and you will not hear the compressor. If the fridge is actually cold, you are reading a different code and this page is not the one you want.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Hold the exit combination until it chimes",
+      "detail": "On most Samsung panels it is two buttons held together for about five to eight seconds until you hear a chime and the display returns to temperatures. The pair is commonly the top two on the left of the panel, often Energy Saver with Fridge, or Power Freeze with Energy Saver. Hold them firmly and keep holding past the point where it feels too long.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Look up the combination for your exact model",
+      "detail": "If nothing chimes, stop guessing. Samsung assigns this combination differently across panel layouts, so the pair that works on one fridge does nothing on another. Get the model number from the sticker inside the fridge, usually on the left-hand wall near the crisper, and find the Cooling Off section of that model's manual.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Use the touchscreen if you have a Family Hub",
+      "detail": "Models with a full touchscreen do not use button combinations at all. Cooling Off lives in the fridge settings menu on the screen rather than on physical keys, so go into settings and look for Cooling Off or demo mode and switch it off there. Holding parts of the screen will achieve nothing.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle if the buttons do nothing",
+      "detail": "Unplug the refrigerator at the wall for five minutes and plug it back in, then try the combination again on a freshly started control. This clears a stuck panel state and occasionally drops the fridge out of the mode by itself. It is the last free thing to try before you go looking for the manual again.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Give it hours to come down to temperature",
+      "detail": "Once the mode is off you should hear the compressor start within a minute or two. A fridge that has been sitting at room temperature takes several hours to reach normal temperatures and longer to make ice. Do not refill it with a full load of warm shopping immediately, and throw out anything perishable that sat warm.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the right combination for your model does not clear it, work through three things before treating the panel as broken. First, make sure you are holding long enough and hard enough. Five to eight seconds feels much longer than people expect, and most failed attempts are released at three. Hold until you hear the chime rather than counting. Second, make sure you are reading the display correctly: take a photo and zoom in, because O FF, OF OF and a plain FF are hard to tell apart on these panels and FF on some models means something quite different. If the fridge is actually getting cold, it is not in Cooling Off mode at all and you are chasing the wrong thing. Third, if the fridge was recently delivered, check it is not still in a retail display state that the showroom set differently, which the model manual will describe. Samsung's own position is that being unable to leave Cooling Off mode does not usually need a service visit, so an engineer is a last resort here rather than an early step. The one genuinely urgent part of this code has nothing to do with the panel: a fridge in Cooling Off mode is not refrigerating, so anything perishable that has been sitting in there has been at room temperature for as long as the mode has been on. Throw it out rather than risk it, and do not judge the fridge's recovery by how it feels after an hour, because a cabinet that has warmed through takes most of a day to settle and longer again before the ice maker produces properly.",
+  "reset_procedure": "Unplug the refrigerator at the wall for five minutes and plug it back in, then try the exit combination again on a freshly started control. A power cycle on its own does not reliably leave Cooling Off mode, because the setting is stored, so treat it as something to try alongside the button combination rather than instead of it.",
+  "model_notes": "The exit combination is not consistent across the range. Samsung describes holding two buttons on the panel until a chime sounds, but which two depends entirely on the panel layout, and the pairs most often quoted are Energy Saver with Fridge, or Power Freeze with Energy Saver. Family Hub models with a touchscreen handle the mode through the settings menu rather than any button combination. The display wording varies too, appearing as OF OF, O FF, OFF or a single OF depending on how many character zones the panel has. None of these differences change what the mode is or what it does.",
+  "parts": [],
+  "when_to_call": "There is almost nothing here worth a call-out. Samsung's own guidance is that being unable to exit Cooling Off mode is not normally a service matter, so check the combination for your exact model and try a power cycle before paying anyone. The one case that does justify a call is a fridge that leaves the mode, starts its compressor and still does not get cold after a full day, because at that point the mode was a red herring and you have a genuine cooling fault underneath it. If the appliance is newly delivered and will not come out of demo mode at all, that is a warranty conversation with the retailer rather than a repair.",
+  "faqs": [
+    { "q": "Is OF on a Samsung refrigerator a fault?", "a": "No. It is Cooling Off mode, also called demo or shop mode, which keeps the lights and display running while the compressor stays off so a fridge can sit on a showroom floor. Nothing is broken. The fridge will not cool until you leave the mode, which is done by holding a two-button combination on the panel until it chimes." },
+    { "q": "What buttons turn off Cooling Off mode?", "a": "Two held together for about five to eight seconds until a chime sounds, but which two depends on your panel. The pairs most often quoted are Energy Saver with Fridge, or Power Freeze with Energy Saver. If neither works, get the model number from inside the fridge and check that model's manual rather than trying more combinations." },
+    { "q": "Is my food safe if the fridge has been showing OF?", "a": "Assume not. In Cooling Off mode the fridge has been at room temperature for however long the mode has been on, which is often longer than people realize because the lights and display look normal. Throw out perishables rather than risk it. Frozen food that has fully thawed should not be refrozen." },
+    { "q": "What is the difference between OF and FF on a Samsung fridge?", "a": "They are easy to confuse and they are not the same. OF, O FF or OF OF is Cooling Off mode and means nothing is cooling at all. FF on many models points at a freezer fan problem, and on others at a service test mode. The deciding question is whether the fridge is actually cold: if it is, this is not Cooling Off." },
+    { "q": "Why did my fridge go into Cooling Off mode by itself?", "a": "It almost certainly did not. The usual cause is someone wiping the control panel with a cloth, which holds several buttons down for several seconds and is exactly the gesture that toggles the mode. Children pressing the dispenser panel do the same. On a newly delivered fridge, the mode was often set in the store and never cleared." },
+    { "q": "How long until the fridge is cold again after I exit the mode?", "a": "You should hear the compressor within a minute or two, but a cabinet that has warmed to room temperature takes several hours to reach normal temperatures and most of a day to settle properly. Ice making takes longer again. Avoid loading it with a lot of warm shopping until it has had time to pull down." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Leaving Cooling Off mode, and what to check if the chime never comes",
+    "labels": {
+      "display": "OF OF",
+      "c1": "Hold two panel buttons for the chime",
+      "c2": "Hold past five seconds, do not release early",
+      "c3": "No chime means the wrong pair for your model"
+    }
+  },
+  "sources": [
+    { "title": "Cooling Off mode, also called demo mode, on your Samsung refrigerator", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung refrigerator user manuals, Cooling Off mode by panel layout", "publisher": "Samsung model manuals", "url": null },
+    { "title": "Field reports on fridges delivered still in demo mode", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["OF OF", "O FF", "FF", "5E", "33E"]
+}

@@ -1,0 +1,193 @@
+{
+  "title": "LG Refrigerator CF E Error Code: Condenser Fan Fault",
+  "meta_description": "CF E on an LG refrigerator means the condenser fan at the base is not turning. Often dust or debris jamming the blade.",
+  "h1": "LG refrigerator CF E error code: what it means and how to fix it",
+  "answer": "CF E means the main board asked the condenser fan to run and never got the speed signal back. That is the fan down at the bottom rear of the appliance, next to the compressor, and its job is to pull air across the condenser coil so the system can dump heat into the room. It is not the fan inside the freezer, which is FF E, and it is not the ice compartment fan, which is IF E: getting that distinction right matters, because they are different parts in different places and the wrong one is money thrown away. Most of the time the fan itself is fine and the blade is jammed by a mat of dust, pet hair or something that has fallen into the base.",
+  "severity": "serious",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes to an hour, plus 30 minutes if the motor needs replacing",
+  "cost_estimate": {
+    "diy": "$0 to $100",
+    "technician": "$160 to $350"
+  },
+  "safety_warning": "Unplug the refrigerator at the wall before you remove the rear access panel. Behind it are mains-voltage connections, the compressor and its start components, which can hold a charge, and metal pipework hot enough to burn for some time after the power is off. The tubing in that compartment is part of the sealed refrigerant circuit, so do not lever against it, stand on it or pull wiring taut over it.",
+  "causes": [
+    {
+      "cause": "Dust, pet hair or debris jamming the fan blade",
+      "frequency": "most cases",
+      "confirm": "Unplug, pull the appliance out and take off the lower rear panel. If the blade will not spin freely with a finger, or there is a gray felt packed into the shroud and across the coil behind it, that is your fault. Homes with a shedding pet, a carpet near the kitchen or a floor vent behind the refrigerator produce this reliably every couple of years."
+    },
+    {
+      "cause": "The condenser fan motor has failed",
+      "frequency": "common",
+      "confirm": "No debris, the blade spins freely and keeps spinning when you flick it, and the fan still never runs while the compressor is going. LG uses a brushless fan here that reports its own speed back to the board, so a motor with a dead speed sensor throws CF E even on the rare occasions when the blade is actually turning."
+    },
+    {
+      "cause": "A damaged or disconnected connector in the fan wiring",
+      "frequency": "occasional",
+      "confirm": "Check the plug on the fan body and where the harness is clipped along the base. A terminal backed out of its housing, green corrosion from a damp floor, or insulation chafed through where the harness crosses a bracket. The base of a refrigerator is a hostile place for wiring and this is more common than it ought to be."
+    },
+    {
+      "cause": "A cracked or warped fan blade catching on its shroud",
+      "frequency": "occasional",
+      "confirm": "The fan starts, scrapes or rattles for a few seconds and stops. Look at the blade edge-on for a chip or a blade bent out of plane, and check the shroud for a scuff mark where it has been rubbing. Usually follows someone cleaning the area with a vacuum nozzle and catching the blade."
+    },
+    {
+      "cause": "The main control board is not driving the fan",
+      "frequency": "rare",
+      "confirm": "A fan that is physically free, correctly wired and never receives power at any point during a compressor run. Check the connector and the blade twice before you land here, because this is the expensive answer and it is almost never the right one."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check what the refrigerator is doing before you open anything",
+      "detail": "Feel the temperature in both compartments and put a hand near the base grille while the compressor is running. A stopped condenser fan does not kill cooling instantly, it makes the system run hotter and hotter until it gives up, so you may still have a cold fridge and a very hot compressor compartment. That combination is the classic CF E picture and it tells you the code is real rather than a leftover from a power cut.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "The compressor area can be hot. Hold a hand near the grille rather than reaching into it."
+    },
+    {
+      "name": "Power cycle to rule out a stored code",
+      "detail": "Unplug at the wall or trip the breaker, wait five minutes, restore power and give it ten minutes. A fan that stalled once on a scrap of debris and then shook itself free leaves the code behind on the display until the board is reset. If CF E returns within the first cooling cycle, the fault is live and you carry on to the panel.",
+      "minutes": 16,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the refrigerator out and remove the lower rear panel",
+      "detail": "Unplug it first, and turn off the water supply if the model has an ice maker so you are not dragging a live line around. Walk it out from the wall far enough to kneel behind it. The access panel at the lower rear is held by between four and eight screws, usually Phillips but sometimes a quarter-inch hex head, and it lifts away to expose the compressor on one side and the fan in a plastic shroud on the other. Keep the screws in a cup; they are all the same and they all get lost.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, quarter-inch nut driver, cup for screws",
+      "warning": "Unplug the appliance at the wall before removing the panel. Do not rely on the control panel being off."
+    },
+    {
+      "name": "Clear the debris and spin the blade by hand",
+      "detail": "Vacuum out everything in that compartment with a crevice tool: dust, hair, bottle caps, the odd dried-out piece of food. Work a long coil brush between the condenser fins until you stop pulling out gray felt. Then put a finger on the fan blade and turn it. It should spin several times freely and coast to a stop. A blade that will not move, or that grinds, has either debris wrapped round the hub or a seized bearing.",
+      "minutes": 25,
+      "tools": "Vacuum with crevice tool, long coil brush, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Inspect the blade and the connector",
+      "detail": "Look along the blade edge-on for a chip or a blade bent out of line with the others, and at the shroud for a bright scuff where something has been rubbing. Then unplug the connector on the fan body, check both halves for corrosion, melted plastic or a pushed-back terminal, and push it firmly home. Follow the harness back along the base and look for anywhere it has been pinched by a bracket or the panel edge.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": "Keep the appliance unplugged while handling any connector."
+    },
+    {
+      "name": "Refit, restore power and watch the fan",
+      "detail": "Put the panel back, plug in and wait for the compressor to start, which can take several minutes after a power interruption because the control deliberately holds it off. When it starts, the condenser fan should start with it. Kneel behind the appliance and look: you want a steady spin, not a twitch, not a start-and-stall. If it runs and keeps running, reset the code and you are done.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Leave the appliance room to breathe when you push it back",
+      "detail": "A condenser fan can only move air if there is air to move. Leave a hand's width behind the refrigerator and keep the base grille at the front clear of boxes, pet beds and the vacuum cleaner. If the appliance lives in a garage, a utility room with no ventilation or hard against an oven, the high side runs hot permanently and you will be back here sooner than you should be.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the compartment is clean, the blade spins freely and CF E is still there, you are down to the motor, the wiring and the board, in that order of likelihood. Start by watching the fan through a full compressor start with the panel off and the appliance running, which means being careful: keep hands, sleeves and the flashlight clear of the blade and the hot pipework, and do not touch anything inside the compartment while it is live. What you see decides the next step. A fan that hums without turning has a seized motor. A fan that spins up and dies within a minute is either catching on its shroud or has a failing speed sensor. A fan that is completely silent and still is either dead or getting nothing, and those two are separated by checking for voltage at the connector while the compressor runs. If the board is feeding the fan and nothing happens, the motor is finished, and that is good news: a condenser fan motor is a $30 to $100 part and the swap is genuinely straightforward once the panel is already off, usually two screws holding the motor bracket, a blade that pulls off the shaft, and one connector. Buy it against your model number rather than by eye. LG's brushless condenser fans report their speed to the board and a physically identical motor from a different series will throw the same CF E on its first run, which is a frustrating way to spend an afternoon. If the motor is good and the board is not driving it, that is the point where the cost jumps from under a hundred dollars to several hundred and it is worth a technician confirming the diagnosis before you buy a board. One thing worth doing before you spend anything: check whether the display is also showing CH E, or has shown it recently. A condenser fan that has been stopped for a while overheats the high side of the sealed system, and a sealed-system code that appeared after the fan quit may well clear once the fan is running properly again. Fix the fan first and give it a day before you accept a sealed-system diagnosis. And if your refrigerator has a linear or inverter compressor, find the model and serial on the sticker inside the fresh food compartment and ask LG what coverage remains before you pay for any work that reaches past the fan, because that coverage often runs longer than owners expect.",
+  "reset_procedure": "Unplug the refrigerator at the wall, or trip its breaker, wait five minutes and restore power. On many LG models you can also clear a stored code by opening the right-hand fresh food door and pressing the refrigerator and freezer temperature buttons together three times, though the combination varies by generation. Expect a delay of several minutes before the compressor and fan restart; the control holds the compressor off deliberately after a power interruption rather than starting it against a pressurized system.",
+  "model_notes": "The same fault appears as CF E, E CF or, on older LG displays, Er CF. Treat them as identical. Keep it clearly separate from the other fan codes, because they are different motors in different places: FF E is the evaporator fan behind the rear panel inside the freezer, rF E is a second fresh food compartment fan fitted only to models with two evaporators, and IF E is the small fan serving the ice compartment. On most LG French door and side by side models the condenser fan is behind the lower rear access panel. On a few models with a front-breathing base the condenser and fan sit behind the toe grille instead and are reached from the front, which is easier but tighter to work in.",
+  "parts": [
+    {
+      "name": "Condenser fan motor",
+      "cost": "$30 to $100",
+      "difficulty": "moderate",
+      "note": "Order against your model number; brushless fans report speed and generics throw the same code"
+    },
+    {
+      "name": "Condenser fan blade",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if the blade is chipped or bent out of plane"
+    },
+    {
+      "name": "Fan wiring harness or connector repair",
+      "cost": "$10 to $40",
+      "difficulty": "moderate",
+      "note": "Often a crimped repair rather than a whole harness"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and only after the motor and harness are proved good"
+    }
+  ],
+  "when_to_call": "Call a technician if the fan is physically free and correctly connected but still never runs, because the next step is testing for voltage at the connector on a live appliance in a compartment that also contains the compressor and its start components. That is a reasonable thing to pay someone an hour for rather than learn on. Call sooner if the refrigerator has stopped cooling altogether, or if CH E or CL E are showing alongside CF E after the fan has been fixed, since that moves the problem into the sealed system and sealed-system work is licensed-technician only. Before booking anything that reaches beyond the fan, get your model and serial off the sticker inside the fresh food compartment and ask LG what compressor and sealed-system coverage you still hold: on these refrigerators it commonly runs well past the first year and the terms vary by market, so check your own unit rather than taking a figure from anywhere online.",
+  "faqs": [
+    {
+      "q": "Can I still use the refrigerator with a CF E code?",
+      "a": "For a day or two while you arrange the repair, but not indefinitely. Without the condenser fan the system cannot shed heat, so the compressor runs longer and hotter on every cycle, cooling slowly degrades and you are shortening the life of the most expensive part in the appliance. If the compartment is already struggling to stay cold, move perishable food out now."
+    },
+    {
+      "q": "Which fan is CF E, exactly?",
+      "a": "The one at the bottom rear next to the compressor, behind the access panel, blowing air across the condenser coil. It is not the fan you hear inside the freezer when the door is open, which is the evaporator fan and reports as FF E, and not the small ice compartment fan, which is IF E. Three different parts, three different prices, so confirm which before ordering."
+    },
+    {
+      "q": "Why did CF E appear suddenly?",
+      "a": "Usually because dust finally reached the point where the blade could not turn through it, which is gradual right up until it is not. The other common trigger is something falling into the base compartment, or a vacuum nozzle catching the blade during a clean and bending it. Power cuts occasionally leave a false code behind, which is why resetting once is worth the five minutes."
+    },
+    {
+      "q": "Is replacing the condenser fan motor a DIY job?",
+      "a": "For most people, yes. The appliance comes out from the wall, the rear panel comes off with a handful of screws, and the motor is two screws, a push-fit blade and one connector. The part is well under a hundred dollars. The caution is the company it keeps: mains connections, the compressor, and refrigerant tubing you must not lever against. Unplug it and take your time."
+    },
+    {
+      "q": "Will cleaning the coils fix CF E on its own?",
+      "a": "Often, and it is always the first thing to try because it costs nothing. The blade jams in packed dust and hair long before the motor wears out, so a thorough vacuum and a coil brush clears the fault on a good share of these. If the blade spins freely by hand and the code still returns, cleaning has done its job and the problem is electrical."
+    },
+    {
+      "q": "Can a stopped condenser fan cause other error codes?",
+      "a": "Yes, and this catches people out. A condenser fan that has been dead for weeks overheats the high side of the sealed system and can bring up CH E alongside it. Fix the fan first and give the appliance a day of normal running before you accept an expensive sealed-system diagnosis, because the second code may well clear on its own."
+    },
+    {
+      "q": "Is it worth repairing?",
+      "a": "Yes, in almost every case. This is one of the cheapest real faults an LG refrigerator produces: often free if it is just debris, and well under a hundred dollars in parts if the motor has failed. Even a technician visit lands in the low hundreds. The only time the arithmetic changes is if the fan turns out to be a symptom of a sealed-system problem."
+    }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "The condenser fan at the base, and the four things that stop it",
+    "labels": {
+      "display": "CF E",
+      "c1": "Lower rear access panel screws",
+      "c2": "Fan blade: must spin freely",
+      "c3": "Condenser fins packed with dust",
+      "c4": "Fan connector and harness run"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG refrigerator error code list, CF condenser fan motor error",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG refrigerator digital and analog error codes",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "Field reports on LG condenser fan failures and debris jams",
+      "publisher": "r/appliancerepair and Appliantology technician forums",
+      "url": null
+    },
+    {
+      "title": "Model-specific tech sheet supplied inside the appliance",
+      "publisher": "LG service literature",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "FF E",
+    "rF E",
+    "IF E",
+    "CH E",
+    "CL E",
+    "CO E"
+  ]
+}

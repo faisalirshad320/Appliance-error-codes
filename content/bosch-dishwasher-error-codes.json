@@ -1,0 +1,210 @@
+{
+  "title": "Bosch Dishwasher Error Codes: What Every E Code Means",
+  "meta_description": "Bosch dishwasher codes run E01 to E27, and the first digit tells you the subsystem. What each group means, and the order to work through any of them.",
+  "h1": "Bosch dishwasher error codes: what they mean and where to start",
+  "answer": "Bosch dishwashers report faults as a letter E followed by two digits, shown on the main display or, on hidden-control models, only on the inner panel with the door open. The first digit tells you the subsystem: the E0 group is electronics and control, the E1 group covers water intake, heating and the anti-flood system, and the E2 group covers draining and the pump. The single most common code by a wide margin is E15, water in the base tray. Older Bosch machines signal the same faults with flashing indicator lights or a tap symbol instead of a number, which is why some owners never see a code at all.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "15 minutes to identify, 30 minutes to 3 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $130",
+    "technician": "$130 to $400"
+  },
+  "safety_warning": "Several Bosch codes involve water collecting where mains wiring and the heating circuit live. Switch the machine off at its breaker, not just at the control panel, before removing the kickplate, tipping the machine, or reaching underneath it.",
+  "causes": [
+    {
+      "cause": "Draining and pump faults, the E22 to E25 group",
+      "frequency": "most cases",
+      "confirm": "Open the door to standing water sitting over the filter at the end of a cycle. If the tub will not empty, or the machine hums during the drain phase without moving water, you are in this group regardless of which of the four numbers appears."
+    },
+    {
+      "cause": "Water in the base tray and the anti-flood lockout, E15",
+      "frequency": "most cases",
+      "confirm": "The drain pump runs continuously even with the cycle cancelled, and the machine refuses to start. Tip the machine back about 45 degrees over towels: if water runs out of the base, this is your group and there is a leak above the tray feeding it."
+    },
+    {
+      "cause": "Water intake faults, including the tap symbol and the E1 group",
+      "frequency": "common",
+      "confirm": "The cycle stalls early and the tub never fills, or fills far too slowly. Turn off the machine, close the supply valve and undo the fill hose into a bucket: strong fast flow means the restriction is in the machine, a weak dribble means it is in your plumbing."
+    },
+    {
+      "cause": "Heating faults, where the water never gets hot",
+      "frequency": "occasional",
+      "confirm": "Dishes come out wet and greasy and the inside of the machine is barely warm at the end of a cycle. Open the door mid-wash and put a hand near the vent: a working machine puts out obvious steam and heat in the main wash."
+    },
+    {
+      "cause": "Control electronics and sensor faults, the E0 group",
+      "frequency": "occasional",
+      "confirm": "The code appears before the machine does anything mechanical, the panel behaves oddly, or buttons do nothing. Unlike the water and drain codes, nothing about the fault changes when you clean the filters or check the hoses."
+    },
+    {
+      "cause": "Low or unstable supply voltage",
+      "frequency": "rare",
+      "confirm": "The fault appears at the same time of day, during a storm, or only when another heavy appliance is running on the same circuit. Machines on a long extension lead or a shared circuit are the usual candidates."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code properly before you do anything",
+      "detail": "Open the door and look at the display with the door open, because on hidden-control models the code only appears on the inner panel and you will never see it from the front. Write the exact digits down. Bosch shows some codes as E:15 with a colon and some as E15. If you have no number at all, note which indicator lights are flashing and whether the tap symbol is lit, since older machines report faults that way.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel the program and power cycle the machine",
+      "detail": "Hold the Start button for about three seconds to cancel. Then switch the machine off at its breaker for five minutes and back on. Five minutes matters: the control holds the stored fault and a quick off-on often leaves the code sitting there even after the underlying problem is gone. Restart with the shortest program you have, not a full wash, so you learn the outcome in minutes rather than an hour and a half.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the filters, because a third of Bosch faults start there",
+      "detail": "Turn the cylindrical filter in the sump anticlockwise a quarter turn and lift it out, then lift out the flat mesh screen underneath. Scrub both under a hot tap, paying attention to the underside of the flat screen where the grease mat forms. Clear solid debris out of the sump well with needle-nose pliers and a glove, looking with a flashlight first for broken glass. Refit the screen flat and twist the cylinder clockwise until it locks.",
+      "minutes": 15,
+      "tools": "Dish brush, needle-nose pliers, work glove, flashlight",
+      "warning": "Look into the sump with a light before reaching in. Broken glass settles there."
+    },
+    {
+      "name": "Walk the drain path end to end",
+      "detail": "Pull the machine forward and follow the drain hose from the pump to wherever it terminates, straightening kinks and freeing it from behind a leveling leg. Confirm it rises to just under the countertop before dropping to the disposal or trap. Lift the chrome cap off the air gap on the countertop and clear the sludge out. If the machine drains into a new garbage disposal, check that the knockout plug in the dishwasher inlet was actually removed at installation.",
+      "minutes": 25,
+      "tools": "Nut driver, bucket, bottle brush",
+      "warning": null
+    },
+    {
+      "name": "Check the water supply side",
+      "detail": "Confirm the supply valve under the sink is fully open, which means the lever in line with the pipe rather than across it. Close it, put the fill hose end into a bucket, and open the valve for five seconds: you want a strong jet, not a dribble. Weak flow means the fault is in your plumbing and the dishwasher is reporting it correctly. Check the inlet screen at the hose connection for grit while you have it apart.",
+      "minutes": 15,
+      "tools": "Bucket, pliers, towel",
+      "warning": "Close the supply valve before undoing the fill hose or you get mains pressure in the face."
+    },
+    {
+      "name": "Check for water in the base tray",
+      "detail": "Switch off at the breaker, pull the machine out, lay towels behind it and tip it back about 45 degrees for a minute with the door shut. Water running out of the underside means the anti-flood tray has filled and you have a leak to find, whatever code the panel is showing. A dry tray rules out the whole E15 family in one two-minute test.",
+      "minutes": 15,
+      "tools": "Old towels, a second pair of hands",
+      "warning": "Power off at the breaker before tipping. There is water sitting next to mains wiring."
+    },
+    {
+      "name": "Find your model number and the service sheet",
+      "detail": "The rating plate is on the edge of the door, visible when the door is open, or on the side of the tub. Note the full model number including any suffix, because the meaning of a few codes shifts between generations. Many Bosch machines also carry a folded service sheet tucked behind the kickplate, and that sheet beats any list on the internet for your specific machine.",
+      "minutes": 10,
+      "tools": "Torx T20 screwdriver, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Decide between repair and replacement before ordering parts",
+      "detail": "Filters, hoses, seals and drain pumps are cheap and worth fixing at almost any age. Control modules, sump assemblies and water softener housings are not, because the labor to reach them is the bulk of the cost. On a machine over eight years old, a quote near $300 is usually most of the way to a new dishwasher, and that is the point to stop and think rather than to keep spending.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have cleaned the filters, cleared the drain path, confirmed the water supply and found a dry base tray and the code is still there, work out which group you are in rather than chasing the number. Drain group first, because it is the most common and the cheapest to settle: lift the filters out, remove the plastic pump cover in the sump floor, and turn the impeller with a gloved finger. Jammed means a free fix, free-spinning with a hum means a pump at $50 to $130, and silence means a wiring or control problem. Water intake group next: a bucket test at the fill hose tells you in thirty seconds whether the fault is in your plumbing or in the machine, and that single test saves people from paying for appliance call-outs to fix a half-closed supply valve. Heating group after that, since a dishwasher that washes but never heats is still usable in the short term and the element is a sealed part that generally means a technician. Electronics group last, because it is the one you cannot test from the outside and the one where the cost jumps hardest. If you cannot place the code in a group at all, the fallback is better than guessing: get the full model number off the door edge, look for the folded service sheet behind the kickplate, and call Bosch support with the code and the model in front of you. The meaning of a handful of Bosch codes genuinely does shift between model generations and between the US and European documentation, so for the awkward ones the sheet in your own machine outranks any list, including this one.",
+  "reset_procedure": "On almost every Bosch dishwasher, holding the Start button for about three seconds cancels the running program and starts a drain. To clear a stored fault, switch the machine off at its breaker for five minutes and back on; the control holds residual charge, so a quick off-on frequently leaves the code showing even after the fault is fixed. Some models also offer a longer Start hold for a factory reset. None of this helps while the underlying problem is still present: a blocked filter or a full base tray re-posts the code within seconds.",
+  "model_notes": "Bosch's code numbering has been broadly stable across the Ascenta, 100, 300, 500, 800 and Benchmark lines in the US and the SMS, SMV, SMU and SMI series in Europe, but three things vary. First, the drain group E22 to E25 is split differently between sources and generations, so treat those four as one family. Second, older machines report faults by flashing indicator lights or a lit tap symbol with no number at all, where the tap symbol means check the water supply. Third, European machines have a salt-fed water softener housing under the tub that is a known leak source behind E15, which most US models do not have.",
+  "parts": [
+    {
+      "name": "Filter assembly, cylinder and flat screen",
+      "cost": "$20 to $45",
+      "difficulty": "easy",
+      "note": "The most common part on the list, and usually it only needs cleaning"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$50 to $130",
+      "difficulty": "moderate",
+      "note": "Covers most of the E22 to E25 group once blockages are ruled out"
+    },
+    {
+      "name": "Door gasket or seal",
+      "cost": "$20 to $50",
+      "difficulty": "easy",
+      "note": "A common E15 leak source and a press-fit job"
+    },
+    {
+      "name": "Fill hose with Aquastop valve",
+      "cost": "$35 to $80",
+      "difficulty": "moderate",
+      "note": "For intake faults and for a weeping connection at the rear inlet"
+    },
+    {
+      "name": "Control module",
+      "cost": "$180 to $400",
+      "difficulty": "technician only",
+      "note": "Last resort on any code, and rarely worth it past eight years old"
+    }
+  ],
+  "when_to_call": "Call a technician when the fault survives the free checks and the next step would mean testing live circuits: a pump that stays silent with a clean connector, a heating fault, or anything in the E0 electronics group. Call a plumber instead if the bucket test at the fill hose gives a weak dribble, or if the kitchen sink drains slowly and gurgles when the dishwasher pumps out, because both of those are house plumbing and an appliance engineer will charge a call-out to say so. Call Bosch support directly if you have the model number and a code you cannot place, since they are reading the same service documentation for your exact machine. And get any quote over about $300 in writing before agreeing to it on a dishwasher that is already eight years old.",
+  "faqs": [
+    {
+      "q": "Where does a Bosch dishwasher show its error code?",
+      "a": "On the main display if your model has one on the front. On hidden-control models, where the buttons are along the top edge of the door, the display faces up and the code is only visible with the door open. If your machine has no digital display at all, it reports faults through flashing indicator lights and symbols instead of numbers."
+    },
+    {
+      "q": "What does the tap or faucet symbol mean on a Bosch dishwasher?",
+      "a": "It means check the water supply. The machine either did not fill or filled too slowly, so it has lit the intake indicator rather than a numbered code. Start with the supply valve under the sink, confirm it is fully open, then check the fill hose for kinks and the inlet screen at the connection for grit."
+    },
+    {
+      "q": "Which Bosch dishwasher error code is the most common?",
+      "a": "E15 by a wide margin. It means water has collected in the base tray under the tub and lifted a float that locks the machine out. Tipping the machine back about 45 degrees drains the tray and clears the code, but the water came from a leak, so it comes back in days unless you find the source."
+    },
+    {
+      "q": "How do I reset a Bosch dishwasher?",
+      "a": "Hold the Start button for about three seconds to cancel the running program, which also triggers a drain. To clear a stored fault code, switch the machine off at its breaker for five minutes and back on. A quick off-on at the panel often leaves the code displayed, because the control board holds charge and keeps the stored fault."
+    },
+    {
+      "q": "Can I use my Bosch dishwasher while it is showing a code?",
+      "a": "It depends which one. A drain fault leaves standing water in the tub, so another cycle just washes dishes in dirty water. An anti-flood lockout stops the machine starting at all. A heating fault will still run, just badly. None of them are dangerous to leave, but the leak codes get worse with every cycle you run."
+    },
+    {
+      "q": "Do Bosch error codes mean the same thing on every model?",
+      "a": "Mostly, but not entirely. The broad groups hold across the range, and E15 means the same on everything. The drain group E22 to E25 is split differently across generations and between US and European documentation, so those four overlap. For an awkward code, the service sheet behind your own kickplate beats any published list."
+    },
+    {
+      "q": "Is a Bosch dishwasher worth repairing?",
+      "a": "For filters, hoses, seals, spray arms and drain pumps, yes at almost any age, because the parts are modest and the jobs are short. For control modules, sump assemblies and softener housings on a machine over eight years old, usually not: the labor to reach them dominates the bill and lands close to the price of a replacement."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The order to work through any Bosch dishwasher fault code",
+    "labels": {
+      "display": "E--",
+      "c1": "Read the code on the inner panel",
+      "c2": "Cancel and power cycle five minutes",
+      "c3": "Clean filters and clear the drain",
+      "c4": "Tip back to check the base tray"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes, owner support",
+      "publisher": "Bosch Home Appliances",
+      "url": "https://www.bosch-home.com/us/owner-support/error-codes/dishwashers"
+    },
+    {
+      "title": "Bosch dishwasher service literature and the fault sheet supplied behind the kickplate",
+      "publisher": "Bosch service documentation",
+      "url": null
+    },
+    {
+      "title": "Bosch dishwasher fault code training notes and their field causes",
+      "publisher": "Appliance repair trade training references",
+      "url": null
+    },
+    {
+      "title": "Technician threads on overlapping E22 to E25 drain codes",
+      "publisher": "Appliantology and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E15",
+    "E24",
+    "E25",
+    "E22",
+    "E23"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "title": "Maytag Washer LF Code: Long Fill and How to Fix It",
+  "meta_description": "LF on a Maytag washer means long fill: it never reached the water level in time. Usually a closed valve, a clogged inlet screen, or a siphoning drain hose.",
+  "h1": "Maytag washer LF error code: what it means and how to fix it",
+  "answer": "LF stands for long fill. Your Maytag washer called for water, did not reach the level it was expecting inside the time it allows, and stopped rather than running a cycle dry. It is the same fault that shows as F8 E1 on Maytag models with a digital readout. Four times out of five the cause is on the supply side: a shut-off valve that is not fully open, a clogged mesh screen where the hose meets the machine, or a drain hose pushed so far down the standpipe that the washer siphons the water back out as fast as it fills.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "20 to 45 minutes",
+  "cost_estimate": { "diy": "$0 to $40", "technician": "$130 to $300" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A supply valve is closed, partly open, or only one of the two is on",
+      "frequency": "most cases",
+      "confirm": "Reach behind the machine and turn both valves counterclockwise until they stop. Maytag washers want hot and cold both connected and both running, and the control reads a missing hot supply as a fill failure even on a cold wash. If someone recently moved the machine, chased a leak, or worked on the plumbing, this is almost certainly it."
+    },
+    {
+      "cause": "The mesh inlet screens at the valve are clogged",
+      "frequency": "most cases",
+      "confirm": "Shut both valves, undo a hose at the machine end, and look into the inlet port. There is a fine mesh screen set into it. Bright metal is fine; brown, furred or scaled means water is trickling through instead of flowing. Sediment stirred up by any work on the street main lands here first."
+    },
+    {
+      "cause": "The drain hose sits too deep in the standpipe and the washer is siphoning",
+      "frequency": "common",
+      "confirm": "Pull the drain hose out of the standpipe and look at how much of it was down there. Maytag's own installation guidance puts the limit at about 4.5 inches of hose inside the pipe. Any deeper and the machine can drain while it fills, so the level never rises and the control times out. You will often hear water running continuously with the drum staying nearly empty."
+    },
+    {
+      "cause": "A hose is kinked, crushed, frozen, or its flood-stop device has tripped",
+      "frequency": "common",
+      "confirm": "Walk the length of both hoses. A hose flattened against the wall behind the machine still drips but will not fill. If you have flood-safe hoses with the plastic collar at the valve end, a pressure surge can latch them shut; shut the valve, undo the hose for a few seconds to let it reset, and reconnect."
+    },
+    {
+      "cause": "Household water pressure is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "With the hose off the machine, put the loose end in a bucket and open the valve for five seconds. You want a hard jet that puts several inches in the bucket. A weak dribble means the restriction is upstream and the washer is reporting the truth."
+    },
+    {
+      "cause": "The water inlet valve has failed",
+      "frequency": "occasional",
+      "confirm": "Valves open, screens clean, strong flow at the bucket, drain hose correct, and still LF. Either a solenoid is open circuit or the valve is stuck closed with scale. This is the point at which the job needs a part rather than a cleaning."
+    },
+    {
+      "cause": "The pressure sensor or its air hose is misreading the level",
+      "frequency": "rare",
+      "confirm": "The drum visibly fills with a normal amount of water and the machine still calls LF. The control is not seeing the level it can see with its own eyes. Suspect the small clear tube running from a port low on the outer tub up to the sensor, which blocks with soap scum or splits at the ends."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both supply valves all the way",
+      "detail": "Turn both the hot and the cold valve counterclockwise until they will not go further. A quarter-turn lever handle must sit in line with the pipe, not across it. Maytag washers expect both supplies live even when you only selected a cold cycle, so a hot valve left shut after a water heater job throws LF on everything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check how far the drain hose goes into the standpipe",
+      "detail": "Lift the drain hose out and look at the wet line on it. Maytag allows roughly 4.5 inches inside the standpipe and no more. If a foot of it was down there, shorten it, secure it with the retainer clip so it cannot creep back down, and leave an air gap. This fixes a surprising share of LF codes on machines that were recently installed or moved.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut the power for five minutes",
+      "detail": "Unplug the washer at the outlet, or switch its breaker off, and leave it for five minutes. The control latches the fault and will keep showing LF even after you have fixed the water supply. Five minutes rather than five seconds, because the board holds charge. Restore power and start a rinse and spin rather than a full cycle so you find out in two minutes.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the mesh inlet screens",
+      "detail": "Shut both valves. Put a towel and a shallow pan under the connections, then unscrew each hose from the machine end; expect a cupful of water. Pick the mesh screen out of the inlet port with needle-nose pliers, rinse it, scrub it with an old toothbrush and press it back in square. Do hot and cold even if only one looks dirty. Hand-tighten the hoses, then give them a quarter turn with pliers.",
+      "minutes": 15,
+      "tools": "Needle-nose pliers, old toothbrush, towel, shallow pan",
+      "warning": "Shut both valves before undoing a hose, or you take the full mains pressure in the face."
+    },
+    {
+      "name": "Bucket test the flow at each valve",
+      "detail": "With the hose still off the washer, hold the loose end in a bucket and open that valve for five seconds. Do it for hot and for cold. A strong jet means the supply is fine and the problem is inside the machine. A thin stream means the fault is in your plumbing: a partly closed isolation valve, a failing shut-off, or a line that is scaled up, and no washer part will fix it.",
+      "minutes": 8,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Thaw a frozen hose if the machine lives somewhere cold",
+      "detail": "A washer in a garage, a basement on an outside wall, or an unheated utility room can freeze its supply solid overnight. The giveaway is a hose that feels rigid and very cold. Shut the valve, disconnect it, and wrap it in towels soaked in hot tap water, swapping them as they cool. Give it twenty minutes. Never use a heat gun, a torch or boiling water on a rubber or braided hose.",
+      "minutes": 25,
+      "tools": "Towels",
+      "warning": "No open flame and no boiling water on a supply hose. It will split and you will find out at full pressure."
+    },
+    {
+      "name": "Test the inlet valve solenoids",
+      "detail": "Unplug the machine. On a top loader the valve sits at the back where the hoses enter, usually behind a panel held by a few screws; on a front loader it is under the top panel, which slides off rearward after removing the screws at the back edge. Pull the connector off one solenoid and measure across its terminals with a multimeter on ohms. A working solenoid shows a sensible resistance reading; an open circuit reads infinite and means the valve is dead. The correct figure for your model is on the service sheet folded inside the console or taped under the top panel.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, nut driver, multimeter",
+      "warning": "Unplug at the outlet before removing any panel. The power button does not isolate the board."
+    }
+  ],
+  "still_showing": "If both valves are open, both screens are clean, the bucket test gives a hard jet and the drain hose is sitting properly in the standpipe, the supply side is cleared and the fault is inside the machine. Work through it in this order, cheapest first. Start at the connector on the inlet valve: unplug the washer, pull the plug off the valve, and look for green corrosion or a terminal that has backed out of its housing. Damp laundry rooms do this constantly and it costs nothing to fix. Next, measure each solenoid with a multimeter. An open circuit confirms a dead valve, and the part is a $30 to $90 item that most people can change in half an hour with a nut driver and a pair of hose clamps. If the solenoids read fine but never click when the cycle calls for water, the fault has moved to the wiring harness or the main control board, and that is where the bill jumps from under $100 to $250 and up. Two things worth ruling out before you spend anything. First, if the drum does visibly fill with a normal amount of water and the control still calls LF, the problem is the pressure sensor or its air tube, not the fill. Pull the small clear tube off the port low on the outer tub, check it for soap scum, water sitting in a low spot or a split end, and blow it clear. Second, on top-load Maytags that lock the lid and pump out for several minutes when they detect a supply problem, confirm you are not actually watching the machine respond to a hot supply that is off at the water heater. Turn the hot valve on, reset power, and run a short cycle before buying anything.",
+  "reset_procedure": "Press Power to cancel, then unplug the washer or switch off its breaker for five minutes. A quick off-and-on frequently does not clear a stored fill fault, because the control board holds residual charge. After power is restored, run Rinse and Spin to test instead of a full cycle. If LF comes straight back before any water has run, the control is not even seeing a fill attempt, which points at the valve or its wiring rather than the supply.",
+  "model_notes": "Which label you see depends on the display. Maytag front loaders and top loaders with a digital readout generally show F8 E1 for this fault; models with a simpler alphanumeric display show LF, and some older Whirlpool-platform machines show Lo FL for the same long-fill condition. The fix list is identical for all of them. On machines with a dial and a column of indicator lights rather than any display, a fill fault will not spell itself out at all and has to be read as a blink pattern in service diagnostics, which our Maytag washer error codes page covers.",
+  "parts": [
+    { "name": "Inlet valve mesh screens", "cost": "$5 to $15 a pair", "difficulty": "easy", "note": "Only if a screen is torn; most just need cleaning" },
+    { "name": "Water inlet valve assembly", "cost": "$30 to $90", "difficulty": "moderate", "note": "A few screws, two hoses and a connector, roughly 30 minutes" },
+    { "name": "Braided stainless supply hoses", "cost": "$15 to $35 a pair", "difficulty": "easy", "note": "Worth replacing rubber hoses over five years old regardless" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $30", "difficulty": "moderate", "note": "Usually just needs clearing rather than replacing" },
+    { "name": "Main control board", "cost": "$150 to $320", "difficulty": "technician only", "note": "Last resort, and check the harness and connectors first" }
+  ],
+  "when_to_call": "Call an appliance technician once the bucket test gives a strong jet, the screens are clean and the valve solenoids measure correctly, because the next move is diagnosing the harness and control board with the machine powered up. Call a plumber instead if the bucket test shows a weak dribble, since that fault lives in your house plumbing and an appliance engineer will charge a call-out fee to tell you the same thing. If water is leaking anywhere while this is going on, shut both valves and stop; a supply-side leak at mains pressure will cost you far more than a washer that will not fill.",
+  "faqs": [
+    { "q": "What does LF mean on a Maytag washer?", "a": "Long fill. The washer asked for water and the level never reached what the cycle needed inside the time the control allows, so it stopped. It is a water supply message rather than a broken part in most cases. The same condition displays as F8 E1 on Maytag models with a digital readout, and the fixes are identical." },
+    { "q": "Why does LF appear when water is clearly running into the drum?", "a": "Because the machine is losing it as fast as it gains it. The usual cause is a drain hose pushed too far down the standpipe, which lets the washer siphon continuously. Pull the hose up so no more than about four and a half inches sits inside the pipe and clip it in place so it cannot slide back down." },
+    { "q": "Do I really need the hot water turned on for a cold wash?", "a": "Yes. Maytag washers expect both supplies connected and both valves open, and the control treats a dead hot line as a fill fault even on a cold cycle, because it blends water at the valve. A hot valve left shut after a water heater repair is one of the most common reasons LF appears out of nowhere." },
+    { "q": "Can I still use the washer with an LF code?", "a": "Not usefully. The machine stops the cycle rather than washing with too little water, and it may lock the lid and pump out while it decides. There is no safety risk in leaving it sitting there, but nothing gets washed. Clear the supply problem and reset power before trying again." },
+    { "q": "Why did LF start suddenly when nothing changed?", "a": "Inlet screens clog slowly and then cross a threshold, so a months-long problem looks instant. The other usual trigger is work elsewhere: a main repaired in the street, a meter swap, or a plumber shutting a valve down and not reopening it. Both of those put sediment or a restriction in front of the washer within days." },
+    { "q": "How much does it cost to fix an LF code?", "a": "Nothing at all in most houses, because opening a valve, cleaning a screen or lifting a drain hose costs only your time. If the inlet valve has genuinely failed, the part runs roughly $30 to $90 and swaps out in half an hour. A technician visit for a control board fault is where it climbs past $250." },
+    { "q": "Is LF the same as F8 E1 on a Maytag?", "a": "Yes, they describe the same long-fill condition on different displays. Models with an alphanumeric panel tend to show LF while models with a full digital readout show F8 E1, and some older machines on the same platform show Lo FL. Work through the identical checklist for any of them, starting with the supply valves." }
+  ],
+  "diagram": {
+    "kind": "water-supply",
+    "caption": "Where a Maytag washer gets its water, and the four things that stop it.",
+    "labels": {
+      "display": "LF",
+      "c1": "Both valves fully open",
+      "c2": "Clean the mesh inlet screens",
+      "c3": "Drain hose no deeper than 4.5 in",
+      "c4": "Bucket test for real pressure"
+    }
+  },
+  "sources": [
+    { "title": "LF error code on a Maytag top load washer", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "F8 E1 and LF water supply error guidance, including drain hose standpipe depth", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "Maytag washer installation instructions, water supply and drain hose section", "publisher": "Maytag installation guide supplied with the machine", "url": null },
+    { "title": "Field reports on LF causes, siphoning drain hoses and inlet valve testing", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F8 E1", "Lo FL", "F9 E1", "Sd", "F5 E2", "F8 E2"]
+}

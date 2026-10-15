@@ -1,0 +1,208 @@
+{
+  "title": "LG Washer UE Code: Unbalanced Load Causes and Fix",
+  "meta_description": "UE on an LG washer means the drum could not balance itself for the spin. Usually one heavy item sitting on one side, and five minutes to fix.",
+  "h1": "LG washer UE error code: what it means and how to fix it",
+  "answer": "UE means your LG washer tried to balance the load for the spin, failed, and stopped. The load itself is the cause the large majority of the time, usually one heavy item like a bath mat, a comforter or a pair of jeans that has slid to one side of the drum. Open the door, spread the washing out by hand so it lines the drum evenly, and start a spin-only cycle. A lowercase uE is different: that means the washer is still trying to rebalance on its own, and it often sorts itself out if you leave it alone for a few minutes.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 to 45 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$150 to $350"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "One heavy item has gathered on one side of the drum",
+      "frequency": "most cases",
+      "confirm": "Open the door. If the washing is balled up in a rope or piled against one wall of the drum rather than spread around it, that is your fault. Bath mats, rugs, hoodies and single bedsheets do this more than anything else."
+    },
+    {
+      "cause": "The load is too small, too large, or a single bulky item",
+      "frequency": "most cases",
+      "confirm": "One towel on its own or one comforter filling the drum will both throw UE. A washer needs several items of mixed size to spread the weight. If you are washing a waterproof mattress protector or a rain jacket, water pools inside it and the machine cannot balance it at all."
+    },
+    {
+      "cause": "The washer is not level or sits on a flexing floor",
+      "frequency": "common",
+      "confirm": "Push down firmly on two diagonally opposite top corners, then the other two. Any rock at all is too much. On a suspended wooden floor the machine can be level and still bounce, which reads as imbalance to the control."
+    },
+    {
+      "cause": "Shipping bolts were never removed",
+      "frequency": "occasional",
+      "confirm": "Only on a machine installed in the last few weeks. Look at the back panel for three or four large bolts with plastic collars. With these in place the drum is bolted to the cabinet, the machine shakes violently, and UE comes up on the first spin."
+    },
+    {
+      "cause": "The water has not fully drained before the spin",
+      "frequency": "occasional",
+      "confirm": "Water still sitting in the drum when UE appears. A partly blocked pump filter leaves enough water in the tub to slosh and register as imbalance, and the same machine will usually throw OE sooner or later too."
+    },
+    {
+      "cause": "Worn suspension rods or shock absorbers",
+      "frequency": "occasional",
+      "confirm": "With the drum empty, push the drum straight down and let go. It should settle in one or two movements. If it bounces repeatedly or stays low, the dampers are worn out. Expect this on machines past about eight years, and expect UE on every large load before it fails on small ones."
+    },
+    {
+      "cause": "Rotor position sensor or motor fault",
+      "frequency": "rare",
+      "confirm": "UE on small, obviously balanced loads, often alternating with LE. The control reads drum position from a sensor on the motor; when that sensor is flaky the machine thinks a perfectly even load is swinging around."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the door and redistribute the load by hand",
+      "detail": "Pull everything loose and lay it back around the inside of the drum rather than in a heap at the bottom. Unroll anything that has twisted into a rope. If you are washing one heavy item on its own, add two or three bath towels to give it something to balance against. Close the door and start a Spin Only cycle to test.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take out anything waterproof or rubber backed",
+      "detail": "Waterproof mattress protectors, rain shells, rubber-backed bath mats and pet beds trap water in a pocket that shifts all at once when the drum speeds up. No amount of redistributing fixes this. Wash them on their own on a low spin setting, or hand-wring them and let them drip dry.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the machine is not rocking",
+      "detail": "Press hard on the top of the washer at one front corner and then the diagonally opposite one. If it tips at all, it needs leveling. Loosen the lock nut on the short foot with an adjustable wrench, screw the foot out until the gap closes, then run the lock nut back up tight against the cabinet. A foot that is wound out and not locked will work loose again within a month.",
+      "minutes": 12,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Look for shipping bolts if the machine is new",
+      "detail": "Pull the washer forward and look at the back panel. Shipping bolts are large bolts, usually three or four across the upper half of the back, each with a plastic spacer behind it. Unscrew them completely with a wrench and fit the plastic hole caps that came in the bag with the hoses. Keep the bolts; you need them if the machine ever moves house.",
+      "minutes": 10,
+      "tools": "Adjustable wrench or socket set",
+      "warning": null
+    },
+    {
+      "name": "Clear the drain pump filter",
+      "detail": "Unplug the washer. On a front loader, open the small access door at the bottom front right with a coin or flat screwdriver. Pull out the short drain tube, hold it over a shallow tray and pull the plug; expect a liter or more of water and drain it in stages. Then turn the large round filter cap anticlockwise and lift it out. Clear coins, hair and lint, rinse it, and screw it back in firmly or it will leak.",
+      "minutes": 20,
+      "tools": "Shallow tray, towels, flat screwdriver",
+      "warning": "Unplug the machine before opening the filter. The water can be hot straight after a wash."
+    },
+    {
+      "name": "Bounce test the suspension",
+      "detail": "With the drum empty and the door open, push the drum down firmly at the front and let go. On a healthy machine it drops and settles within a movement or two. If it keeps oscillating, the shock absorbers on a front loader or the suspension rods on a top loader are worn. These are replaced as a set of four, not one at a time, because a new one next to three tired ones puts the drum out again.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset the washer and run a test spin",
+      "detail": "Press Power to turn the machine off, unplug it at the wall for a full minute, then plug it back in. Put two or three towels in, select Spin Only at the highest speed the machine offers, and watch it. A machine that reaches full speed without walking across the floor is fixed. One that shakes hard at a particular speed and then settles has a suspension problem rather than a load problem.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the load is evenly spread, the machine does not rock, and UE still comes up, work through it in this order. First, run a spin with the drum completely empty. If an empty drum spins up cleanly and holds full speed, the machine is mechanically fine and the problem is genuinely what you are putting in it, so look again at bulky or waterproof items. Second, if the empty drum also throws UE, check that the tub is actually draining: pull the pump filter, and if water pours out past the cap that you did not expect, you have a drain restriction masquerading as an imbalance. Third, do the bounce test on the empty drum. Worn suspension rods on a top loader run roughly $40 to $90 for a set of four and are a doable afternoon job; front-loader shock absorbers are a similar price but mean tipping the machine on its back. Fourth, grab the drum at the twelve o'clock position and pull it toward you, then push it back. More than a small amount of play, or a gritty rumble when you spin it by hand, points at the drum bearing, and on most LG front loaders that means splitting the outer tub. At that point the repair cost approaches the price of a new machine and the honest answer on a machine over eight years old is usually to replace it. Finally, if UE appears on small, obviously balanced loads and sometimes swaps to LE, suspect the rotor position sensor on the back of the motor rather than anything to do with balance. That is a cheap part but needs the rear panel and rotor off.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for one minute, then plug it back in and select Spin Only to test. UE is not a stored fault in the way a sensor failure is, so it clears as soon as a spin completes successfully. If the machine is mid-cycle and full of water, run Drain and Spin rather than cancelling outright, or you will have to bail the drum by hand.",
+  "model_notes": "Lowercase uE and uppercase UE are not the same message. LG shows lowercase uE while the washer is still working on the problem: it adds water, tumbles the load, and tries again, typically up to three times. Uppercase UE appears only after those attempts fail and the washer has given up on the spin. So a uE on the display means wait; a UE means go and open the door. Some LG models show Ub instead, which means the same unbalanced load. On LG top loaders in the WT series the suspension is four rods hanging from the cabinet corners, and UE from worn rods is far more common than it is on front loaders, which use shock absorbers at the base.",
+  "parts": [
+    {
+      "name": "Suspension rod kit, top loader",
+      "cost": "$40 to $90 a set of four",
+      "difficulty": "moderate",
+      "note": "Always replace all four together"
+    },
+    {
+      "name": "Shock absorber pair, front loader",
+      "cost": "$30 to $70",
+      "difficulty": "hard",
+      "note": "Means laying the machine on its back"
+    },
+    {
+      "name": "Leveling feet with lock nuts",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Only if a foot is stripped or missing its rubber"
+    },
+    {
+      "name": "Rotor position sensor",
+      "cost": "$25 to $60",
+      "difficulty": "moderate",
+      "note": "Only for UE that alternates with LE on balanced loads"
+    },
+    {
+      "name": "Drum bearing and seal kit",
+      "cost": "$60 to $150",
+      "difficulty": "technician only",
+      "note": "Labour is the real cost here, often more than the machine is worth"
+    }
+  ],
+  "when_to_call": "Call someone if an empty drum will not spin up cleanly, if you can feel play or hear a rumble when you turn the drum by hand, or if the machine walks across the floor on every spin after you have leveled it. Those point at suspension or bearing wear rather than loading, and both are jobs that mean moving a very heavy appliance around. Get a quote before agreeing to a bearing replacement: on an LG front loader the bearing is pressed into the outer tub and many models need the whole tub assembly, which can cost more than half the price of a new washer. If the machine is under ten years old and otherwise fine, suspension work is usually worth paying for; a bearing on a machine past ten is usually not.",
+  "faqs": [
+    {
+      "q": "What is the difference between uE and UE on an LG washer?",
+      "a": "Lowercase uE means the washer has spotted an uneven load and is actively rebalancing it, adding water and retumbling, usually up to three times. Uppercase UE means those attempts failed and the spin has been abandoned. If you see lowercase uE, leave the machine alone for a few minutes. If you see UE, open the door and sort the load out yourself."
+    },
+    {
+      "q": "Can I still use my LG washer with a UE code?",
+      "a": "Yes, as long as you are willing to intervene. The machine washes and rinses normally and only gives up at the spin, so your clothes come out soaked rather than damp. There is no safety risk. Redistribute the load and run a separate Spin Only cycle, and you will get most loads through while you work out the underlying cause."
+    },
+    {
+      "q": "Why does my LG washer show UE on small loads?",
+      "a": "Small loads are harder to balance, not easier. One or two items have nothing to counterweight them, so the drum ends up heavier on one side at speed. Add a few towels of similar weight to bulk the load out. If UE appears on genuinely balanced medium loads, the cause is more likely the machine being unlevel or the suspension being worn."
+    },
+    {
+      "q": "Does UE mean my LG washer is broken?",
+      "a": "Usually not. UE is the washer protecting itself from spinning an uneven load, which is the machine working as designed rather than failing. It becomes a fault when it appears on an empty drum, on every load regardless of contents, or alongside violent shaking, and at that point you are looking at leveling, suspension or the drain."
+    },
+    {
+      "q": "Why did UE start suddenly on a washer that was fine for years?",
+      "a": "Three things change slowly and then cross a line. Suspension rods and shocks wear gradually until the drum can no longer settle. Leveling feet work loose on a floor that flexes. And a drain pump filter clogs over months until the tub stops emptying fully before the spin. Check the filter first because it costs nothing."
+    },
+    {
+      "q": "Can a blocked drain cause a UE code on an LG washer?",
+      "a": "Yes, and it is an easy one to miss. If water is left in the tub when the spin starts, it sloshes to one side and the machine reads that as an unbalanced load. Clean the pump filter at the bottom front of the machine. If you also see OE from time to time, the drain is almost certainly the real problem."
+    },
+    {
+      "q": "How do I level an LG washer properly?",
+      "a": "Set a level across the top, front to back and side to side, with the machine in its final position. Adjust the short front feet by loosening the lock nut and turning the foot, then tighten the lock nut hard against the cabinet. Finish by pushing both pairs of diagonal corners; there should be no movement at all in either direction."
+    },
+    {
+      "q": "Is a UE code worth paying a technician for?",
+      "a": "Only once you have ruled out the load, the leveling and the drain filter, because those three account for the overwhelming majority of UE codes and all are free to check. If the fault turns out to be suspension rods or shocks, a repair is usually worth it on a machine under ten years old. If it is the drum bearing, get a written quote before saying yes."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "What the drum is doing when an LG washer reports UE",
+    "labels": {
+      "display": "UE",
+      "c1": "Spread the load around the drum",
+      "c2": "No rock on diagonal corners",
+      "c3": "Shipping bolts out on new machines",
+      "c4": "Worn suspension lets the drum swing"
+    }
+  },
+  "sources": [
+    {
+      "title": "What is a washing machine UE or Ub error code",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "LG front load and top load washer error code list",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Field experience on UE causes, suspension wear and drain-related imbalance",
+      "publisher": "Appliance repair trade forums and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "uE",
+    "Ub",
+    "LE",
+    "OE",
+    "dE",
+    "CL"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "title": "LG Dishwasher LE Error Code: Wash Motor Fault Explained",
+  "meta_description": "LE on an LG dishwasher means the control cannot see the wash motor turning. Usually debris jamming the impeller or a loose motor connector.",
+  "h1": "LG dishwasher LE error code: the wash motor is not turning as expected",
+  "answer": "LE means the control board asked the wash motor to run and could not confirm it was turning. On LG dishwashers that points at the circulation motor, the wiring between it and the board, or something physically stopping the impeller. Start with a five-minute power cut at the breaker, because a single stall can latch the code even after the obstruction has cleared itself, and then look for debris in the sump. LG's own documentation groups LE with CE and describes both as a motor or wiring harness problem, so treat this as a drive-system fault rather than a supply or drain issue.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to check, half a day to replace a motor",
+  "cost_estimate": {
+    "diy": "$0 to $180",
+    "technician": "$200 to $450"
+  },
+  "safety_warning": "The wash motor and its harness carry mains voltage and sit in the wettest part of the machine. Switch the dishwasher off at the breaker before removing the toe kick or touching any connector, and do not run the machine with panels off to watch the motor turn.",
+  "causes": [
+    {
+      "cause": "Debris is jamming the circulation pump impeller or chopper",
+      "frequency": "most cases",
+      "confirm": "Remove the filter and look into the sump with a flashlight. Broken glass, a fruit sticker, a fragment of bone or a toothpick wedged against the impeller will stall the motor within a second of it starting. You may also have heard a brief buzz or grinding note just before the code appeared."
+    },
+    {
+      "cause": "The motor's wiring connector is loose or corroded",
+      "frequency": "most cases",
+      "confirm": "With the breaker off and the toe kick removed, look at the plug on the motor body. Green or white crust on the pins, or a terminal that has backed out of the plastic housing, means the board is losing the signal it uses to confirm rotation. Common in machines that have had any kind of leak."
+    },
+    {
+      "cause": "The wash motor itself has failed",
+      "frequency": "common",
+      "confirm": "Impeller spins freely by hand, the connector is clean and tight, and the motor is silent when the cycle should be washing. No hum, no click, nothing. On an inverter-driven motor the windings can read fine and the motor still not run, so silence plus a clean mechanical check is the strongest sign."
+    },
+    {
+      "cause": "A power interruption latched the fault",
+      "frequency": "occasional",
+      "confirm": "LE appeared right after a power cut, a breaker trip or a surge, and the machine was working normally before. A five-minute breaker reset clears it and it never comes back. If LE returns on the next cycle, this was not it."
+    },
+    {
+      "cause": "The control board cannot drive or read the motor",
+      "frequency": "occasional",
+      "confirm": "The motor is good, the harness is good, and the board never sends power to the motor at the wash step. This is the diagnosis of exclusion and it should be the last thing you accept, not the first, because the board is the most expensive part in the machine."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker for five minutes",
+      "detail": "Switch the dishwasher off at the breaker, not just at the control panel, and leave it for a full five minutes so the board loses its residual charge. Restore power and start a rinse-only cycle. A single momentary stall or a brown-out can latch LE, and this clears it. If the code comes straight back, the fault is real and you move on.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Bail the tub and remove the filter",
+      "detail": "There will be water sitting in the tub because the cycle stopped partway. Scoop it out with a plastic cup and towels. Pull the lower rack, twist the cylindrical filter in the tub floor anticlockwise about a quarter turn and lift it out, then lift the flat mesh screen underneath. Rinse both and set them aside; you need the sump opening clear to see anything.",
+      "minutes": 12,
+      "tools": "Plastic cup, towels, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Look into the sump for whatever jammed it",
+      "detail": "Shine a flashlight into the round sump opening. You are looking for anything hard that does not belong: glass chips, a cherry pit, the plastic shank of a produce label, a screw, a shard of crockery. Pick debris out with your fingers or needle-nose pliers rather than pushing it further in. Glass is the most common find and the most likely to cut you, so look before you reach.",
+      "minutes": 10,
+      "tools": "Flashlight, needle-nose pliers",
+      "warning": "Assume broken glass until you have looked. Breaker off before you put a hand in the sump."
+    },
+    {
+      "name": "Turn the impeller by hand",
+      "detail": "With the breaker off, reach into the sump and turn the impeller a full revolution with a finger or the handle of a wooden spoon. It should move with light, even resistance and keep spinning a little after you let go. Gritty resistance, a hard stop, or a scraping sound means something is still in there or a bearing has gone. Free resistance and a clean spin means the mechanical side is fine.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": "Breaker off. The motor can be energized by the control at any point in a cycle."
+    },
+    {
+      "name": "Check the motor connector under the toe kick",
+      "detail": "With the breaker still off, take the toe kick off, which is two to four Phillips screws across the bottom front. The circulation motor is the cylinder on the side of the sump body. Find its plug, pull it apart, and look for green corrosion, water, or a pin that has pushed back into the housing. Clean corrosion off with a fiberglass pen or fine abrasive, push the connector firmly back together until it clicks, and check the harness for chafe where it passes the frame.",
+      "minutes": 18,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Mains voltage. Breaker off and verified off before touching any connector."
+    },
+    {
+      "name": "Run a test cycle and listen",
+      "detail": "Put the filter and toe kick back, restore power, and start a rinse-only cycle with the machine empty. Stand there for the first two minutes. A healthy wash motor comes up to a steady whirr you can hear from a few feet away, and you can hear water hitting the spray arms. A buzz or hum with no water movement means it is still jammed. Complete silence at the wash step means the motor is getting no power or has failed.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the impeller spins freely, the connector is clean and tight and LE comes back on the next cycle, you are into motor and control territory, and the costs step up. Work it in this order. First, settle what the motor actually does at the wash step, because that single observation divides the remaining possibilities. A hum or buzz with no water movement means something is still binding mechanically, and the next move is removing the sump cover screws to get at the impeller and chopper properly rather than peering past the filter. People find glass embedded in the chopper blade that is invisible from above. Second, complete silence means no power is reaching the motor or the motor is dead. Check the harness end to end for a chafed or pinched section where it crosses the frame, which happens on machines that have been pulled in and out of the cabinet. Third, if the harness is sound, the circulation motor is the likely part. On LG's inverter direct drive models this is a sealed assembly rather than a rebuildable motor, so it is a replacement rather than a repair, usually in the $120 to $260 range for the part, and it means pulling the machine out and laying it on its back to split the sump. That is a confident DIY job or a technician job depending on how you feel about disconnecting plumbing. Fourth, only after the motor and harness are ruled out should anyone mention the main control board. It is the most expensive part in the machine and it is the least common cause of LE, so be wary of a quote that leads with it. One useful sanity check before you spend anything: if the dishwasher is over about ten years old and needs a motor plus labor, add it up against a new machine before you commit, because fitted motor replacements on older units frequently land within a hundred dollars of a new mid-range dishwasher.",
+  "reset_procedure": "Switch the dishwasher off at the breaker, wait five minutes, and switch it back on. The five minutes matters because the board holds residual charge and a quick off-and-on often leaves the stored fault in place. Start a rinse-only cycle to test rather than a full wash. If LE returns within the first minute or two, the motor is failing to start rather than failing partway through, which usually points at a mechanical jam or a dead motor rather than a marginal connection.",
+  "model_notes": "LG's documentation groups LE with CE and describes both as a problem with the motor or the wiring harness between the motor and the control board. In practice CE tends to be reported as a motor current or communication fault and LE as a rotation-sensing fault, but the diagnostic path is the same and so is the parts list. On LG's Inverter Direct Drive dishwashers the circulation motor is a sealed brushless assembly, so winding resistance checks tell you less than they do on an older brushed motor, and the mechanical check and the harness check carry more weight. Do not apply LG washing machine LE advice here; on a washer LE is a locked drum motor and the hardware is entirely different.",
+  "parts": [
+    {
+      "name": "Circulation wash motor assembly",
+      "cost": "$120 to $260",
+      "difficulty": "hard",
+      "note": "Sealed unit on direct drive models; means laying the machine on its back"
+    },
+    {
+      "name": "Sump gasket kit",
+      "cost": "$20 to $50",
+      "difficulty": "hard",
+      "note": "Usually replaced at the same time as the motor, since the sump is already apart"
+    },
+    {
+      "name": "Motor wiring harness",
+      "cost": "$30 to $80",
+      "difficulty": "moderate",
+      "note": "Only when a section is chafed, melted or corroded beyond cleaning"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $320",
+      "difficulty": "technician only",
+      "note": "Last resort. Rule out the motor and harness first"
+    }
+  ],
+  "when_to_call": "Call a technician if the impeller turns freely, the connector is clean and the motor is silent at the wash step, because the next move involves mains wiring tests on a live machine and, if the motor is condemned, splitting the sump with the plumbing disconnected. Call sooner if you can smell burning, if the breaker trips when the cycle reaches the wash step, or if there is any sign of scorching on the motor connector, because those point at a short rather than a sensing fault and the machine should stay off at the breaker until someone has looked at it. Ask for the diagnosis in terms of what was measured before agreeing to a control board; LE is rarely the board.",
+  "faqs": [
+    {
+      "q": "Can I still use my LG dishwasher with an LE code?",
+      "a": "No. The machine stops the cycle because the wash motor is not confirmed to be running, so nothing gets washed. There is no fire risk in leaving the code on the display, but if the breaker trips when the cycle reaches the wash step, or you smell anything burning, switch it off at the breaker and leave it off until someone has checked the motor."
+    },
+    {
+      "q": "What does LE actually mean on an LG dishwasher?",
+      "a": "The control board asked the circulation motor to run and could not confirm rotation. LG's documentation describes it, along with CE, as a motor or wiring harness fault. In the field it is most often something jamming the impeller or a corroded motor connector rather than a dead motor, which is why the mechanical and connector checks come first."
+    },
+    {
+      "q": "Is LE on an LG dishwasher the same as LE on an LG washer?",
+      "a": "No, and advice for one does not transfer. On an LG washing machine, LE is a locked rotor on the drum motor, usually from an overloaded drum or a hall sensor fault. On a dishwasher it is the circulation motor that drives the spray arms. Same two letters, entirely different hardware and different parts."
+    },
+    {
+      "q": "Why did LE appear suddenly?",
+      "a": "Usually one object. A glass chip, a cherry pit or a snapped-off produce label going into the sump in a single load can stall the impeller instantly, which is why the code arrives without warning. The other sudden trigger is a power cut or brown-out, which can latch the fault even though nothing is wrong; a five-minute breaker reset settles that question."
+    },
+    {
+      "q": "Will a reset fix an LE error?",
+      "a": "Sometimes, and it is always worth trying first because it costs five minutes. Cut power at the breaker for five full minutes and restart. If the code was latched by a momentary stall or a power glitch it will clear and stay cleared. If it comes back on the next cycle, the fault is real and the reset has at least told you that."
+    },
+    {
+      "q": "How much does it cost to fix an LE error on an LG dishwasher?",
+      "a": "Nothing if it is debris in the sump or a connector that needed pushing home, which covers a good share of them. A replacement circulation motor is roughly $120 to $260 for the part, and $200 to $450 fitted by a technician. On a machine over about ten years old, price that against a new one before committing."
+    },
+    {
+      "q": "Is an LG dishwasher with an LE code worth repairing?",
+      "a": "If it is debris or wiring, absolutely, because the fix is free or cheap. If it needs a circulation motor and the machine is under about eight years old, a fitted motor is usually still the better value. Past ten years, a motor plus labor often lands close to the price of a new mid-range dishwasher with a warranty."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The wash motor, its harness and the board that watches it",
+    "labels": {
+      "display": "LE",
+      "c1": "Breaker off five minutes",
+      "c2": "Clear debris from the sump",
+      "c3": "Spin the impeller by hand",
+      "c4": "Motor connector, clean and tight"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dishwasher error codes, including motor and wiring harness faults",
+      "publisher": "LG support help library",
+      "url": null
+    },
+    {
+      "title": "LG inverter direct drive dishwasher circulation motor service notes",
+      "publisher": "LG service literature supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Field diagnosis of LE motor-rotation faults on LG dishwashers",
+      "publisher": "Appliance repair trade guides and parts supplier technical notes",
+      "url": null
+    },
+    {
+      "title": "Reported LE causes, impeller jams and harness corrosion",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "CE",
+    "AE",
+    "OE",
+    "IE",
+    "HE",
+    "bE"
+  ]
+}

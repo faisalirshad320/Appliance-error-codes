@@ -1,0 +1,124 @@
+{
+  "title": "Maytag Oven F5 Error Code: Door Latch Fault and Fix",
+  "meta_description": "Maytag F5 is the door latch code, usually the self-clean lock motor or its switches. Never force a door that locked during a clean cycle while it is hot.",
+  "h1": "Maytag oven F5 error code: what it means and how to fix it",
+  "answer": "F5 is the door latch code. The control told the motorized lock to move and did not get the confirmation it expected back from the latch switches, so it stopped. It shows up most often around a self-clean cycle, either because the door would not lock at the start or because it will not release at the end. The part at fault is usually the latch assembly itself, its motor, or one of the small switches that tells the control where the latch has got to. If the door is locked shut right now after a clean cycle, the first thing to do is nothing: let the oven cool completely before you touch it.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to diagnose, 1 to 2 hours to replace the latch",
+  "cost_estimate": { "diy": "$40 to $120", "technician": "$160 to $320" },
+  "safety_warning": "A self-clean cycle takes the cavity far above normal cooking temperature and the door stays locked for a reason. Never force, pry or disassemble a locked oven door while it is hot, and never bypass or defeat the latch switches to make the oven run. Let it cool fully first, and switch off at the breaker before any panel comes off.",
+  "causes": [
+    {
+      "cause": "The door lock motor or latch assembly has failed",
+      "frequency": "most cases",
+      "confirm": "Start a self-clean and listen at the top of the door within the first minute. A working latch gives a clear motor whirr and a solid clunk as the hook travels. A motor that buzzes without moving, or silence where the whirr should be, puts the fault in the latch assembly."
+    },
+    {
+      "cause": "A latch position switch is not reporting",
+      "frequency": "common",
+      "confirm": "The latch visibly travels and locks, and F5 appears anyway. The motor is fine but the small switch that confirms the hook arrived is not closing, so the control never gets its confirmation. This is the version where everything looks right and the code comes up regardless."
+    },
+    {
+      "cause": "The oven is still too hot to unlock",
+      "frequency": "common",
+      "confirm": "The code arrived at the end of a self-clean and the oven is still warm. Many ovens hold the door locked until the cavity drops below a safe temperature, so a door that will not open an hour after a clean may be behaving exactly as designed. Give it two or three hours and try again."
+    },
+    {
+      "cause": "The latch is obstructed or out of alignment",
+      "frequency": "occasional",
+      "confirm": "Look along the top edge of the door frame at the slot the hook passes through. Baked-on spill, a piece of foil, or a door that has dropped slightly on its hinges will stop the hook completing its travel. The hook will often show a bright rub mark where it is catching."
+    },
+    {
+      "cause": "A wiring or control fault in the latch circuit",
+      "frequency": "occasional",
+      "confirm": "The latch motor and switches check out, nothing is obstructed, and the code persists. Check the connector at the latch for a pin backed out or heat-browned plastic before concluding the control board is at fault, because that connector lives in a hot part of the oven."
+    }
+  ],
+  "steps": [
+    {
+      "name": "If the door is locked and hot, wait",
+      "detail": "A door that locked for a self-clean stays locked until the cavity cools, and that can take two or three hours after the cycle ends. This is a safety interlock doing its job, not a failure. Do not pry at it, do not lever the handle, and do not take the door apart to get it open. Leave the oven alone, let it come down to room temperature, and then try the unlock.",
+      "minutes": 180,
+      "tools": null,
+      "warning": "Never force or dismantle a locked oven door while the cavity is hot. Self-clean temperatures will burn you badly and the door glass can fail if it is levered."
+    },
+    {
+      "name": "Photograph the full code",
+      "detail": "Note whether the display shows a bare F5 or a two-part code such as F5-E1. The suffix tells you which half of the latch circuit the control is complaining about, and it is the first thing a technician or a parts desk will ask for. Take a picture rather than trusting your memory of the digits.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Power cycle at the breaker",
+      "detail": "With the oven cool, switch it off at its circuit breaker for five minutes and back on. Some latch faults are a one-off where the motor stalled mid-travel and the control gave up, and a reset lets it retry from a known position. Give it the full five minutes, since the control holds charge and a quick flick often leaves the stored code in place.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Listen to the latch try to move",
+      "detail": "With the oven cool and empty, start a self-clean cycle and stand with your ear near the top of the door for the first minute, then cancel. You are listening for a motor whirr followed by a clunk as the hook seats. A clear travel sound with F5 appearing anyway points at the switches. A buzz without movement, or silence, points at the motor or the assembly.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Cancel the clean cycle before the oven heats. Running a full self-clean to test a latch cooks the whole oven for three hours for no reason."
+    },
+    {
+      "name": "Look for an obstruction at the latch slot",
+      "detail": "Open the door and look along the top edge of the frame where the hook passes through into the door. Scrape out any baked-on spill with a plastic scraper, remove any foil, and check the hook for a bright rub mark showing where it is catching. Then check the door sits square: lift gently at the handle and see whether it has dropped on its hinges, which shifts the slot out of line with the hook.",
+      "minutes": 15,
+      "tools": "Flashlight, plastic scraper",
+      "warning": null
+    },
+    {
+      "name": "Reach the latch assembly and check its connector",
+      "detail": "Switch off at the breaker. The latch sits above the oven cavity and is reached by removing the top panel on a freestanding range, or through the front frame or rear panel on a wall oven. Find the connector feeding the latch motor and switches, unplug it, and look for a pin backed out of the housing or a shell browned by heat. That connector lives in a hot spot and heat damage there is a common and cheap find.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off before any panel comes off. Oven wiring is mains voltage, and the latch circuit stays live at the control even with the oven switched off at the panel."
+    },
+    {
+      "name": "Replace the latch assembly if the motor will not drive it",
+      "detail": "The latch comes out as a unit, usually two or three screws into the oven frame plus the one connector. Note which way round it sits before it comes out. Fit the new assembly, check by hand that the hook swings freely through its slot before you refit the panel, then restore power and run a short self-clean to confirm it locks and releases properly.",
+      "minutes": 75,
+      "tools": "Nut driver, Phillips screwdriver, replacement door latch assembly",
+      "warning": "Never modify, pack out or bypass the latch switches to make a reluctant door lock. They are what stops the oven running a clean cycle with the door open."
+    }
+  ],
+  "still_showing": "If the oven is cool, nothing is obstructing the hook and F5 keeps coming back, work through it in this order before anyone orders a control board. First, settle whether the latch is moving at all, because that single observation splits the job in two and costs nothing but a minute of listening. A latch that travels and locks while the code still appears means the motor is good and a position switch is not reporting, and on many models those switches come as part of the latch assembly rather than separately, so you may be buying the whole unit either way. A latch that buzzes or stays silent means the motor or the mechanism, same part, different reason. Second, check the connector at the latch before you accept a board diagnosis. That plug sits in one of the hottest parts of the oven and browned, brittle plastic there makes intermittent contact that tests fine cold and fails once the cavity warms up. If your F5 only shows up during or after a clean cycle and never during normal baking, suspect the connector first. Third, check the door itself. A door that has dropped on worn hinges moves the slot out of line with the hook, and the latch then stalls partway through its travel and reports a fault. Hinges are a separate and often cheaper repair than the latch, and you can see the problem by looking at whether the door sits square against the frame along its whole top edge. Fourth, the cost jumps at the control board, and that is the point to stop and ask for the quote in writing. One thing worth saying plainly: if the door is stuck locked and the oven is cold, do not reach for tools. There is a manual release on some models and a procedure a technician knows for the rest, but prying at a locked door breaks the glass, the trim or the latch, and turns a one-part repair into three.",
+  "reset_procedure": "With the oven cool, switch it off at its circuit breaker for a full five minutes and then back on. This lets the control retry the latch from a known position, which clears the F5 codes caused by a motor that stalled mid-travel. Cancelling at the panel usually leaves the stored code in place. If the door is locked and the oven is still warm, do not reset anything yet: wait for it to cool, because the interlock will hold the door regardless of what the control is told.",
+  "model_notes": "Maytag has been part of the Whirlpool group since 2006, so F5 behaves like the equivalent Whirlpool and KitchenAid door latch codes. Published sources agree more closely on F5 than on the other Maytag oven codes, consistently placing it at the door latch assembly or its switches. Newer ovens use a two-part code such as F5-E1, and the suffix distinguishes which part of the latch circuit failed, which the bare code does not. Note also that the panel button controlling the lock is not labeled consistently across Maytag ranges, so look for the padlock icon on your display rather than hunting for a button with a particular name.",
+  "parts": [
+    { "name": "Door latch assembly with motor and switches", "cost": "$40 to $120", "difficulty": "moderate", "note": "Usually supplied as one unit including the switches" },
+    { "name": "Latch wiring connector or pigtail", "cost": "$12 to $30", "difficulty": "moderate", "note": "For a plug browned by heat rather than a failed latch" },
+    { "name": "Oven door hinges", "cost": "$50 to $130", "difficulty": "hard", "note": "If the door has dropped and pulled the slot out of line" },
+    { "name": "Oven control board", "cost": "$160 to $350", "difficulty": "technician only", "note": "Last resort, and only once the latch and its wiring are proven good" }
+  ],
+  "when_to_call": "Call a technician if the door is locked shut on a cold oven and will not release, because the way in differs by model and prying at it breaks the glass or the trim and turns one part into three. Call as well if the latch and its wiring check out and F5 persists, since the next step is diagnosing a live control circuit. Call sooner for a gas range, where reaching the back brings you alongside the supply line and gas work is licensed only. And never ask anyone, yourself included, to bypass the latch switches so the oven will run; that interlock is what keeps a self-clean cycle from happening with the door open.",
+  "faqs": [
+    { "q": "My Maytag oven door is locked and showing F5. How do I open it?", "a": "If the oven is still warm, wait. The interlock holds the door until the cavity cools, which can take two or three hours after a self-clean, and that is the design working rather than failing. Once it is cold, try a five-minute breaker reset. If it still will not release, call a technician rather than prying at it." },
+    { "q": "Can I still use the oven with an F5 code?", "a": "Normal baking sometimes still works, but you should treat the oven as out of action until the latch is fixed. The control uses that latch to guarantee the door is shut before a self-clean, and a latch it cannot trust is a safety feature it cannot rely on. Do not run a clean cycle with F5 showing." },
+    { "q": "Why did F5 appear during self-clean?", "a": "Because that is when the latch gets used hardest. The motor has to drive the hook through its full travel and hold it there for hours at high temperature, and a mechanism that copes with normal use fails under that load. Heat also affects the connector at the latch, which is why many F5 codes show up during or just after a clean." },
+    { "q": "Can I bypass the door latch switch to make the oven work?", "a": "No. Those switches are what stop the oven running a self-clean cycle with the door open, and defeating them removes the only thing preventing a 900-degree cavity from being open to the room. No reputable technician will do it either. Replace the latch assembly instead, which is a modest part on most models." },
+    { "q": "Is F5 the latch or the control board?", "a": "Almost always the latch assembly or its switches, which is the one Maytag oven code the sources broadly agree on. The control board is a distant last resort and should only be considered after the latch has been shown to move properly, its switches report, and its connector is clean and undamaged." },
+    { "q": "Is an F5 repair worth it?", "a": "Usually yes. The latch assembly is a modest part and the job is an hour or two, which is easy to justify on an oven in otherwise good condition. It only becomes marginal if the diagnosis lands on the control board, or if worn hinges need doing at the same time, since those two together start to approach replacement money." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "The Maytag oven latch, its switches and where it jams",
+    "labels": {
+      "display": "F5",
+      "c1": "Latch motor above the cavity",
+      "c2": "Hook travel through the slot",
+      "c3": "Position switches reporting back",
+      "c4": "Heat-browned latch connector"
+    }
+  },
+  "sources": [
+    { "title": "Maytag oven and range error code references", "publisher": "Maytag owner support documentation", "url": null },
+    { "title": "Maytag and Whirlpool range service literature, door lock and self-clean interlock", "publisher": "Whirlpool group service documentation", "url": null },
+    { "title": "Field notes on F5 latch failures around self-clean cycles", "publisher": "Appliance repair trade references and technician forums", "url": null }
+  ],
+  "related_codes": ["F5-E1", "F1", "F3", "F4"]
+}

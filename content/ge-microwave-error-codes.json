@@ -1,0 +1,137 @@
+{
+  "title": "GE Microwave Error Codes: What Each F Code Means",
+  "meta_description": "GE microwave codes are an F and a digit. F3 is a shorted touchpad and is by far the most common. Here is how to read yours and what is safe to check.",
+  "h1": "GE microwave error codes: how to read them and what to do",
+  "answer": "GE microwave codes are an F followed by a single digit, and they split into three groups: the touchpad, the temperature sensing inside the cavity, and the accessory temperature probe. F3 is the one most people are looking at, and it means the control has seen a key on the touchpad shorted or held for far longer than a real press, so it stops cooking. Almost everything you can safely do about any of these codes is done from outside the case, because the high-voltage capacitor inside a microwave holds a lethal charge even after it is unplugged.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 to 30 minutes to check from outside",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $300" },
+  "safety_warning": "Do not open the cabinet of a microwave oven. The high-voltage capacitor stores a charge that can kill you, it holds that charge after the oven is unplugged, and it does not reliably bleed off on its own. Every step on this page is done from outside the case, and that is deliberate. Never run a microwave with the cabinet removed, never interfere with a door interlock switch, and stop using the oven immediately if it arcs, smokes, smells of burning, or runs with the door open.",
+  "causes": [
+    {
+      "cause": "The touchpad or its ribbon connection",
+      "frequency": "most cases",
+      "confirm": "F3 is the code, and it means the control board is reading a key as shorted or held for a sustained period rather than pressed. Grease, steam or a worn membrane under the panel all do this. Press each key in turn: the one that does nothing, or behaves differently from its neighbours, is the one the control is stuck on."
+    },
+    {
+      "cause": "The cavity temperature sensor, or thermistor",
+      "frequency": "common",
+      "confirm": "F1 and F2 point here, as an open circuit and a short circuit respectively on the same sensor. The oven usually refuses to start rather than cooking badly. Nothing outside the case will confirm it, which is itself the diagnosis: a clean panel and a reset that changes nothing points at the sensor rather than the keypad."
+    },
+    {
+      "cause": "The accessory temperature probe or its socket",
+      "frequency": "occasional",
+      "confirm": "F6 relates to the probe, the meat thermometer that plugs into the cavity wall on models that have one. Unplug it and store it elsewhere, then try the oven. A code that clears with the probe removed is telling you the probe or its jack is the fault and not the oven."
+    },
+    {
+      "cause": "The humidity or steam sensor on sensor-cook models",
+      "frequency": "occasional",
+      "confirm": "F4 and F5 are associated with this group. The giveaway is an oven that runs perfectly on manual time-and-power settings and fails only when you pick a sensor-cook or auto program, because those are the only cycles that read the sensor."
+    },
+    {
+      "cause": "A control lock or a non-fault message",
+      "frequency": "common",
+      "confirm": "Not every message is a fault. Look for a padlock symbol somewhere on the display: that is the control lock and it disables the keypad until it is released. A showroom demo mode and a clock that needs setting also stop an oven responding, and none of these needs a repair."
+    },
+    {
+      "cause": "A one-off control glitch after a power event",
+      "frequency": "occasional",
+      "confirm": "The code arrived after a power cut, a surge or a breaker trip, on an oven that had been fine. Unplug it for five minutes. If it never comes back, that was the whole story, and a fair share of single F codes behave exactly this way."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down the exact code and what the oven does",
+      "detail": "Note the code, whether the display is otherwise normal, and whether the oven refuses to start at all or stops partway through a cook. Note too whether it fails on every program or only on sensor and auto cycles. Those three observations narrow a GE microwave code further than anything else you can do without opening it, and a technician will ask for all of them.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug it for five minutes",
+      "detail": "Pull the plug at the wall rather than opening the door and hoping, and leave it out for five minutes so the control fully loses power and re-reads its inputs at start-up. On an over-the-range model where the plug is hidden in the cabinet above, use the breaker instead. Plug it back in and see whether the code returns on its own or only when you press something.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean and dry the touchpad properly",
+      "detail": "Wipe the panel with a barely damp cloth, then dry it with a second cloth, paying attention to the edges where the membrane meets the trim. Never spray cleaner directly at the panel; spray the cloth, because liquid runs down behind the membrane and causes exactly the fault you are trying to clear. Give it ten minutes to dry before testing.",
+      "minutes": 12,
+      "tools": "Two soft cloths",
+      "warning": null
+    },
+    {
+      "name": "Press every key one at a time",
+      "detail": "Work across the panel pressing each key separately and watching the display. You are hunting for the odd one out: a key that produces no response, one that triggers the wrong function, or one that needs noticeably harder pressure than the rest. That key is what the control is reading as held, and knowing which one turns a vague repair into a specific one.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check for a control lock",
+      "detail": "Look for a padlock icon on the display. GE puts the control lock on different keys across its ranges, so rather than naming a button, find the key with a padlock printed on or under it and hold it for a few seconds until the icon clears. If nothing on the panel carries a padlock, check the model number against GE's support site for your panel layout.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Remove the temperature probe if your model has one",
+      "detail": "Unplug the probe from its socket in the cavity wall and set it aside, then close the door and try a short manual cook at a low power level. If the code clears with the probe out, the probe or its jack is at fault rather than the oven, and that is a cheap accessory to replace rather than a repair. Check the socket for food debris while you are there.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the door closes squarely",
+      "detail": "Close the door and look along the gap between door and frame; it should be even top to bottom. Check the plastic latch hooks on the door edge for cracks or a missing piece, and make sure nothing is stuck in the latch openings on the frame. Do not probe inside those openings with anything, and do not try to make the oven run with the door open.",
+      "minutes": 6,
+      "tools": "Flashlight",
+      "warning": "Never interfere with a door latch or interlock switch. They are what stop the oven radiating with the door open."
+    },
+    {
+      "name": "Decide whether this is worth repairing",
+      "detail": "If the code returns straight after a reset with a clean, dry panel and no stuck key, the repair needs the cabinet off and that means a technician. Weigh the quote against the oven: a countertop GE microwave often costs less to replace than to repair, while a built-in or over-the-range unit is usually worth fixing because the replacement cost and the install are both significant.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the panel is clean and dry, a five minute unplug has not held, and no key is obviously stuck, the honest answer is that you have reached the edge of what can be done from outside the case, and that edge matters more on a microwave than on any other appliance in the house. The high-voltage capacitor holds a lethal charge after the oven is unplugged, so the remaining diagnosis belongs to someone with the training and the discharge tool. What you can still do usefully is narrow it for them, and that is worth ten minutes. If the oven fails only on sensor-cook or auto programs and runs fine on manual time and power, say so, because that points at the humidity sensing group rather than the keypad. If pulling the temperature probe clears the code, the probe is a cheap accessory and you may not need a visit at all. If one specific key is dead while the rest work, the touchpad is the part and a technician can confirm it quickly, usually by disconnecting the keypad ribbon from the control board and seeing whether the code clears: if it does, the keypad is at fault, and if it does not, the board is. Ask them to do exactly that test rather than quoting a board off the code. Then weigh the cost. A touchpad or control board on a GE microwave is typically $120 to $300 fitted, which is more than a replacement countertop oven is worth and comfortably less than replacing a built-in or over-the-range unit, where the appliance and the installation both have to be paid for again. That calculation, rather than the code, is usually what decides it.",
+  "reset_procedure": "Unplug the oven at the wall for five minutes, or switch off its breaker if it is an over-the-range model with the plug hidden in the cabinet above. That drains the control rather than just interrupting it, and the panel re-reads every key at power-up. Watch what happens when power returns: a code that reappears on its own within seconds points at a failed key or sensor, while one that only comes back when you press a particular key has told you which key to mention when you book a repair.",
+  "model_notes": "GE does not publish a single public code list covering its whole microwave range, so most of what circulates comes from service charts and trade experience, and it is not unanimous. F3 is the clearest case: most sources, and the repairs people actually report completing, describe it as a shorted keypad, while one widely syndicated page calls it a humidity or temperature sensor fault instead. The keypad reading has far more support. The temperature codes are described consistently as an open and a shorted cavity thermistor, and the probe code as the accessory probe circuit. Codes also vary between countertop, over-the-range and built-in models, so check yours against GE's support site using the model number from the sticker inside the door frame before buying any part.",
+  "parts": [
+    { "name": "Touchpad and control panel assembly", "cost": "$60 to $180", "difficulty": "technician only", "note": "Ask for the ribbon disconnect test before this is quoted" },
+    { "name": "Accessory temperature probe", "cost": "$20 to $50", "difficulty": "easy", "note": "The one part on this list you can fit yourself, because it plugs in from inside the cavity" },
+    { "name": "Cavity thermistor", "cost": "$25 to $70", "difficulty": "technician only", "note": "Behind the cabinet, so not a homeowner job on a microwave" },
+    { "name": "Main control board", "cost": "$80 to $220", "difficulty": "technician only", "note": "Last resort, after the keypad has been ruled out properly" }
+  ],
+  "when_to_call": "Call a technician once a reset and a clean panel have not cleared it, because everything past that point is inside a cabinet nobody should open without training and a capacitor discharge tool. Before you book, decide whether the repair makes sense: a countertop microwave is frequently cheaper to replace than to fix, while an over-the-range or built-in unit is usually worth repairing because you are otherwise paying for an appliance and an installation. Stop using the oven immediately and unplug it, whatever the code says, if it arcs inside, smokes, smells of burning, gets hot on the outside, or appears to run with the door open.",
+  "faqs": [
+    { "q": "What does F3 mean on a GE microwave?", "a": "F3 means the control board is reading a key on the touchpad as shorted or held down continuously rather than pressed and released. Grease, moisture or a worn membrane are the usual causes. Clean and dry the panel, unplug the oven for five minutes, then press each key in turn to find the one that no longer responds like the others." },
+    { "q": "Can I still use my GE microwave with an F code showing?", "a": "Generally no, because most F codes stop the oven starting or halt it mid-cook, which is the control protecting itself. Do not try to work around it. If the oven does still run but shows a code, stop using it anyway until you know which code it is, since some of them relate to temperature sensing and a microwave that mis-senses heat is not one to gamble on." },
+    { "q": "Is it safe to open a microwave and fix it myself?", "a": "No. The high-voltage capacitor inside stores a charge capable of killing you, it stays charged after the oven is unplugged, and it does not reliably discharge on its own. This is the one household appliance where the standard advice is genuinely absolute. Everything on this page is done from outside the case for that reason." },
+    { "q": "Will unplugging the microwave clear the error code?", "a": "Often, if the cause was a one-off glitch after a power cut or surge. Unplug it for five minutes so the control fully loses power and re-reads its inputs at start-up. If the code reappears on its own within seconds of plugging back in, the fault is real and resetting it repeatedly will not change that." },
+    { "q": "Why did my GE microwave show a code right after I cleaned it?", "a": "Because cleaning spray got behind the membrane. Microwave touchpads sit under a thin plastic layer, and liquid running down the panel bridges the contacts underneath, which the control reads as a key held permanently. Spray the cloth and not the panel in future. Dry it thoroughly, leave it ten minutes and reset before assuming anything has broken." },
+    { "q": "Is a GE microwave error code worth repairing?", "a": "It depends entirely on which oven you have. A countertop model usually costs more to repair than to replace, so a $120 to $300 quote rarely makes sense. An over-the-range or built-in unit is a different calculation, because replacing it means buying the appliance and paying for the installation, and a touchpad or board is cheap against that." },
+    { "q": "What should I tell the repair technician when I book?", "a": "Give them the exact code, the model number from the sticker inside the door frame, and three observations: whether the oven refuses to start or stops partway, whether it fails on every program or only on sensor and auto cycles, and whether any single key has stopped responding. Those four things frequently turn a diagnostic visit into a repair visit." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The three things GE microwave F codes are reporting on",
+    "labels": {
+      "display": "F3",
+      "c1": "Touchpad key reading as held",
+      "c2": "Cavity thermistor open or shorted",
+      "c3": "Accessory probe and its socket",
+      "c4": "Never open the cabinet yourself"
+    }
+  },
+  "sources": [
+    { "title": "GE range, oven and microwave service fault code charts", "publisher": "Appliance service documentation reproduced by parts retailers", "url": null },
+    { "title": "F3 shorted keypad diagnosis and repair reports on GE microwaves", "publisher": "Appliance parts retailer repair forums", "url": null },
+    { "title": "Field guidance on microwave capacitor hazards and what is safe from outside the case", "publisher": "Appliance repair trade forums", "url": null }
+  ],
+  "related_codes": ["F1", "F2", "F3", "F4", "F5", "F6"]
+}

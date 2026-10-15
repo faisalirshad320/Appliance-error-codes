@@ -1,0 +1,193 @@
+{
+  "title": "GE Oven F2 Error Code: Causes and Fix",
+  "meta_description": "GE oven F2 means the control read a runaway oven temperature and cut the heat. Usually the oven temperature sensor.",
+  "h1": "GE oven F2 error code: what it means and how to fix it",
+  "answer": "F2 means the control measured an oven temperature well above anything it should ever see and shut the heat off to protect itself and your kitchen. It is an over-temperature fault, not a thermostat setting you can adjust. Most of the time the oven was not actually that hot: the oven temperature sensor, a thin probe that hangs into the cavity on the back wall, is reading high and lying to the board. The second possibility is more serious, which is a relay on the control board stuck closed so the element really did keep heating.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to test, 1 hour to replace a sensor",
+  "cost_estimate": {
+    "diy": "$20 to $50 for a sensor",
+    "technician": "$180 to $450"
+  },
+  "safety_warning": "An F2 can mean the oven genuinely overheated and is still able to. Switch the oven off at the breaker, not just at the panel, until you know which of the two causes you have. Everything behind the rear panel of an electric oven runs at 240 volts, and on a gas range the burner, valve and igniter are not DIY parts. Never wedge, bypass or remove a thermal cut-out to stop the code appearing.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor is reading high or has drifted",
+      "frequency": "most cases",
+      "confirm": "Unplug the sensor at the connector behind the oven and measure across its two pins with a multimeter. A sensor that reads far above the room-temperature figure in your model's service sheet, or that jumps around when you wiggle the lead, is the fault. The sheet is usually folded inside the storage drawer or taped behind the lower panel."
+    },
+    {
+      "cause": "A relay on the control board has welded closed",
+      "frequency": "common",
+      "confirm": "The oven really did overheat. Tell-tale signs are enamel discolored past the usual, a smell of scorched insulation, or an element that glows the instant power is restored with no cycle selected. If the broil or bake element heats with the oven switched off, stop and kill the breaker."
+    },
+    {
+      "cause": "Damaged sensor wiring or a loose connector at the rear",
+      "frequency": "common",
+      "confirm": "Pull the oven out and remove the rear access panel. The sensor plugs into a two-wire connector a few inches in from the cavity. Look for a pin backed out of the housing, melted insulation where the wire crosses the cavity flange, or a connector that falls apart in your hand."
+    },
+    {
+      "cause": "Heat damage left over from a self-clean cycle",
+      "frequency": "common",
+      "confirm": "The F2 appeared during a self-clean or on the first bake after one. Self-clean runs the cavity far hotter than any cooking cycle, and it is the single biggest killer of oven sensors, door latches and control boards. If the code arrived in that window, the self-clean is the reason even though the sensor is still the part that failed."
+    },
+    {
+      "cause": "The control board itself has failed",
+      "frequency": "occasional",
+      "confirm": "Sensor measures correctly, harness is sound, and F2 still appears, sometimes even with the oven cold and unused. A board that throws the code on a cold oven is not responding to real heat at all."
+    },
+    {
+      "cause": "An element shorted to the oven cabinet",
+      "frequency": "rare",
+      "confirm": "A bake or broil element with a visible blister, split or bright burn mark where it passes through the rear wall. This usually trips the breaker as well as throwing a code, so an F2 plus a breaker that will not stay in points here."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Kill the power at the breaker, not the panel",
+      "detail": "Find the double breaker for the range or wall oven and switch it off. A touch panel that says the oven is off does not mean the relay inside has opened, and the whole point of F2 is that the control may have lost authority over the heat. Leave it off for five minutes, which also serves as the reset.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Do not rely on the oven's own power button. Use the breaker."
+    },
+    {
+      "name": "Restore power and see whether the code comes back cold",
+      "detail": "Switch the breaker back on and leave the oven alone for ten minutes without selecting anything. If F2 appears on a cold, idle oven, the control is generating the fault on its own and the sensor is not the issue. If the display is clean and the code only returns when you bake, the sensor circuit is the place to look.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check that nothing obvious cooked the oven",
+      "detail": "Open the door and look at the bake element at the floor of the cavity and the broil element at the roof. You want a smooth, even surface. A blister, a split, or a bright silver burn where it enters the back wall means the element is the problem rather than the sensor. Also check that no foil or stone is laid across the oven floor, which traps heat against the sensor.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Find the sensor and unplug it",
+      "detail": "The oven temperature sensor is the thin metal probe, usually a few inches long, mounted through the upper left or upper rear of the cavity. Its connector sits just behind the rear access panel. Pull the oven forward, undo the rear panel screws with a quarter-inch nut driver, and separate the two-pin plug. Check both halves for corrosion or melted plastic before you measure anything.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off before the rear panel comes off. Wall ovens carry 240 volts to the terminal block even when the oven is idle."
+    },
+    {
+      "name": "Measure the sensor with a multimeter",
+      "detail": "Set the meter to ohms and put a probe on each pin of the sensor side of the connector. The reading should sit close to the room-temperature value printed in the service sheet for your model, which lives inside the machine rather than in the owner's manual. An infinite or open reading means a broken probe. A reading far above the sheet figure explains an over-temperature code exactly, because the board reads higher resistance as higher heat.",
+      "minutes": 10,
+      "tools": "Multimeter, service sheet for your model",
+      "warning": null
+    },
+    {
+      "name": "Replace the sensor if it fails the test",
+      "detail": "The probe is held by two screws inside the cavity. Undo them, feed the old lead out through the hole in the rear wall, and pull the new one through from inside, taking care not to let the connector drop into the insulation. Fit the screws, clip the plug together, refit the rear panel and restore power. Run a bake at a moderate setting for twenty minutes before you trust it with food.",
+      "minutes": 40,
+      "tools": "Nut driver, replacement oven temperature sensor",
+      "warning": "Breaker stays off until the rear panel is back on."
+    },
+    {
+      "name": "Stop using self-clean on this oven",
+      "detail": "Self-clean is the reason a large share of oven sensors, door lock motors and control boards die. It drives the cavity to a temperature every other component is only just rated for and holds it there for hours. Scrape the oven with a plastic blade and a paste of baking soda and water instead. If you have already replaced a part because of an F2, this is the single change that stops you doing it again.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sensor measures correctly and F2 keeps coming back, work through it in this order. First, do the wiggle test: with the breaker off and the rear panel off, hold the meter on the sensor pins and flex the harness along its length, especially where it passes the cavity flange. A reading that jumps is a broken conductor inside intact-looking insulation, and that is a harness job rather than a sensor job. Second, decide whether the oven is actually overheating. Put an oven thermometer on the center rack, set a bake at a moderate temperature, and watch it. If the thermometer climbs straight past the set point and keeps going, the board is not switching the element off and you must cut the breaker immediately: that is a stuck relay and the oven is unsafe to use until the board is replaced. If the thermometer settles roughly where it should and F2 still appears, the oven is fine and the control is misreading. Third, the cost jump. A sensor is a $20 to $50 part. A control board on a GE wall oven or slide-in range is typically $200 to $400 for the part alone, plus labor, and on an oven over ten years old that is a real conversation about replacing the appliance. Before you commit to a board, have a technician confirm it, because an F2 caused by a chafed harness and an F2 caused by a dead board look identical from the front panel. One last thing: if this oven is a double, check whether the code names an upper or lower cavity, because each has its own sensor and they are not interchangeable in diagnosis.",
+  "reset_procedure": "Switch the oven off at its breaker, wait a full five minutes, then switch it back on. Five minutes matters because the control board holds charge and a quick flick of the breaker often leaves the stored fault in place. On a gas range you can unplug the cord at the wall instead. A reset clears a one-off F2 caused by a glitch, but if the code returns within a cycle or two the fault is real and resetting it again just delays the diagnosis.",
+  "model_notes": "GE has used F2 for over-temperature across decades of ranges and wall ovens, but newer boards report the same condition as F20 and split it by cavity, so a double oven may show F20 for the upper and a different number for the lower. On older electromechanical GE ranges with a mechanical oven thermostat rather than an RTD sensor, F2 instead points at the thermostat and the ERC. Check the code list in the service sheet inside your own machine when a generic chart disagrees with what the panel is showing.",
+  "parts": [
+    {
+      "name": "Oven temperature sensor, also called the RTD probe",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "Two screws inside the cavity and one plug at the back"
+    },
+    {
+      "name": "Sensor wiring harness or pigtail",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Only if the wire tests broken; often sold with the sensor"
+    },
+    {
+      "name": "Bake or broil element",
+      "cost": "$30 to $90",
+      "difficulty": "moderate",
+      "note": "Only if visibly blistered or shorted to the cabinet"
+    },
+    {
+      "name": "Oven control board, often listed as the ERC",
+      "cost": "$200 to $400",
+      "difficulty": "technician only",
+      "note": "Confirm the sensor and harness are good before ordering"
+    }
+  ],
+  "when_to_call": "Call someone the same day if an element glows when no cycle is running, if the oven climbs past its set point on a thermometer, or if you smell scorched insulation. That combination means the control has lost the ability to turn the heat off, and the oven should stay on a dead breaker until it is fixed. Call a licensed gas technician for anything on a gas range beyond the sensor itself, because the burner, valve and safety circuit are not homeowner parts and an improvised repair there is a different order of risk. Otherwise, a technician is worth calling once you have measured the sensor and it reads correctly, since the next step is board-level diagnosis on a live 240 volt appliance.",
+  "faqs": [
+    {
+      "q": "What does F2 mean on a GE oven?",
+      "a": "The control read an oven temperature far above anything it should see and shut off the heat. It is an over-temperature fault. In most cases the oven was not really that hot and the temperature sensor is reading high, but a relay stuck closed on the control board produces the same code and does mean genuine overheating, so treat it seriously until you know which one you have."
+    },
+    {
+      "q": "Can I still use my GE oven with an F2 code?",
+      "a": "No. An F2 either means the oven overheated or means the control cannot trust its own temperature reading, and neither is something to cook around. Leave the breaker off until you have tested the sensor or had it looked at. The cooktop on a range is on a separate circuit path and is usually unaffected, so you can still use the burners."
+    },
+    {
+      "q": "Why did F2 appear right after self-cleaning?",
+      "a": "Self-clean is the hardest thing an oven ever does to itself. It holds the cavity hundreds of degrees above any cooking temperature for hours, and that heat is what finishes off sensors, door latch motors and control boards that were already aging. A large share of F2, F3 and door lock faults show up during or just after a clean cycle."
+    },
+    {
+      "q": "How much does it cost to fix a GE oven F2 code?",
+      "a": "If it is the temperature sensor, $20 to $50 for the part and about an hour of your time, or roughly $180 to $280 with a technician. If it is the control board, expect $200 to $400 for the part plus labor, so $350 to $600 fitted. Test the sensor first, because it is the cheap answer and the common one."
+    },
+    {
+      "q": "Is F2 the same as F20 on a GE oven?",
+      "a": "On most models yes, in substance. Newer GE controls report the same over-temperature or sensor circuit condition as F20, often split out by cavity on double ovens. The diagnosis is identical: measure the sensor, check the harness, then suspect the board. Older ranges show the shorter F2 instead."
+    },
+    {
+      "q": "Can I just reset the oven and keep using it?",
+      "a": "You can reset it at the breaker, and a one-off F2 from a power glitch will stay away. But if the code comes back within a cycle or two, the fault is real and resetting repeatedly is how people end up cooking on an oven whose control cannot switch the element off. Test the sensor rather than clearing the code again."
+    },
+    {
+      "q": "Does F2 mean I need a new control board?",
+      "a": "Usually not. The temperature sensor and its wiring account for most F2 codes and cost a fraction of a board. Only suspect the board once the sensor measures correctly against the service sheet, the harness passes a wiggle test, and the oven still reports the fault, especially if it reports it while cold and idle."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "What the control reads when it calls an over-temperature, and where to check it",
+    "labels": {
+      "display": "F2",
+      "c1": "Breaker off before any panel",
+      "c2": "Temperature sensor in the cavity",
+      "c3": "Two-pin plug behind rear panel",
+      "c4": "Stuck relay on the control board"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE range and wall oven fault code descriptions and diagnostic steps",
+      "publisher": "GE Appliances service literature and mini-manual supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "GE oven F2 over-temperature code, sensor resistance testing",
+      "publisher": "iFixit community repair wiki",
+      "url": null
+    },
+    {
+      "title": "Field reports on F2 causes, stuck relays and post-self-clean failures",
+      "publisher": "AppliancePartsPros technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F20",
+    "F3",
+    "F4",
+    "F96",
+    "F97",
+    "F76"
+  ]
+}

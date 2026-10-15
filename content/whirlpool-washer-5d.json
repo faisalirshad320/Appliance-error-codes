@@ -1,0 +1,124 @@
+{
+  "title": "Whirlpool Washer 5D Error Code: Causes and Fix",
+  "meta_description": "Whirlpool 5D means too much suds. The machine is foam-locked and cannot rinse or drain. Cut the detergent, run two rinses, and here is how to stop it.",
+  "h1": "Whirlpool washer 5D error code: what it means and how to fix it",
+  "answer": "5D means your Whirlpool washer has detected too much suds and has stopped to deal with it. It is a detergent problem, not a broken part. The machine responds by pausing, adding rinse water and trying to break the foam down, which is why a cycle showing 5D can run half an hour longer than usual before it either finishes or gives up. The cure is almost always to use far less detergent than you think: roughly a tablespoon of HE liquid for a normal load in a front loader.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 2 hours, mostly waiting",
+  "cost_estimate": { "diy": "$0", "technician": "$120 to $200" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Too much detergent for the load",
+      "frequency": "most cases",
+      "confirm": "Look at the glass near the end of the wash. A white head standing above the water that does not collapse when the drum stops is over-dosing, full stop. The cap on most detergent bottles holds several times what a Whirlpool front loader actually needs."
+    },
+    {
+      "cause": "Non-HE detergent, or pods, in an HE machine",
+      "frequency": "most cases",
+      "confirm": "Check the bottle for the HE symbol. Standard detergent is formulated to foam in a machine that uses three times the water. Pods are a near-constant cause because the dose is fixed and sized for an average load, so a small or lightly soiled load is automatically an overdose."
+    },
+    {
+      "cause": "Soft water, which makes any dose go further",
+      "frequency": "common",
+      "confirm": "Suds problems that started after a water softener was installed or after moving house. Soft water needs roughly half the detergent of hard water to do the same job, and the other half turns straight into foam."
+    },
+    {
+      "cause": "Detergent residue built up in the dispenser and the tub",
+      "frequency": "common",
+      "confirm": "Pull the dispenser drawer right out. A slimy blue or gray sludge in the drawer housing or the siphon cap means old detergent is being flushed into every wash on top of whatever you just poured in."
+    },
+    {
+      "cause": "Items that are already full of soap going into the drum",
+      "frequency": "occasional",
+      "confirm": "The code appears when you wash bedding, towels, or anything hand-washed or pre-treated, and never on ordinary loads. Fabric holds detergent from the last cycle and releases it into this one."
+    },
+    {
+      "cause": "A partly restricted drain, so normal suds never clear",
+      "frequency": "occasional",
+      "confirm": "5D showing alongside, or followed by, F21 or F9 E1. A machine that drains slowly leaves foam standing between cycles instead of flushing it, so a normal detergent dose starts reading as excessive."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Let the machine finish its own suds routine first",
+      "detail": "When a Whirlpool washer sees 5D it stops agitating, adds water and runs extra rinses to knock the foam down on its own. Give it thirty minutes before you intervene. Roughly half the time the code clears by itself and the cycle completes, just late. Cancelling early and restarting puts more fresh detergent-soaked water through the pump and makes it worse.",
+      "minutes": 30,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run Rinse and Spin twice with nothing added",
+      "detail": "If the code is still there, cancel, leave the laundry in and select Rinse and Spin with no detergent at all. Run it, then run it a second time. Two clean rinses clear the foam out of the tub, the pump and the sump on almost every machine. Watch through the glass on the second one: the water should look like water, not a bubble bath.",
+      "minutes": 40,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Measure your detergent instead of pouring it",
+      "detail": "For a normal load in a Whirlpool front loader, use about a tablespoon of HE liquid. Use a measuring spoon rather than the bottle cap, which is sized for machines that use far more water. Halve even that if you have soft water or the load is small. Clothes get clean on this amount; the extra you were using was never doing any work and was going into foam instead.",
+      "minutes": 5,
+      "tools": "Measuring spoon",
+      "warning": null
+    },
+    {
+      "name": "Pull out the dispenser drawer and clean it properly",
+      "detail": "Most Whirlpool drawers release with a tab or a press-point in the middle of the softener compartment, then slide out. Take the siphon cap off the softener section too. Soak the lot in hot water, scrub the sludge out with an old toothbrush, and reach into the empty housing with a cloth to clear the roof of the cavity, which is where the worst of it hides. Dry it and refit.",
+      "minutes": 20,
+      "tools": "Old toothbrush, cloth",
+      "warning": null
+    },
+    {
+      "name": "Clean the drain pump filter",
+      "detail": "Unplug the machine. Behind the lower front panel is a round filter cap. Drain the machine first through the small tube clipped next to it, into a shallow tray, then turn the cap anticlockwise and pull the filter out. Soap scum and lint in here hold foam in the sump between cycles. Rinse it, check the impeller spins freely, and refit the cap hand tight.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug at the wall before reaching into the pump housing."
+    },
+    {
+      "name": "Run the Clean Washer cycle empty",
+      "detail": "With the drum empty and no detergent in the dispenser, run Clean Washer with Affresh, or with the machine cleaner Whirlpool recommends for your model. This strips the film of old detergent off the drum and the outer tub, which is the reservoir that keeps feeding foam into otherwise normal loads. Doing this monthly keeps 5D from coming back.",
+      "minutes": 90,
+      "tools": "Washing machine cleaner tablet",
+      "warning": null
+    }
+  ],
+  "still_showing": "If two rinses and a lighter dose have not stopped 5D coming back, work through this in order. First, change detergent entirely rather than just using less of it. Some cheaper HE liquids and almost all pods foam far more than the dose suggests, and the only way to test it is to buy a different HE liquid and run a week of washing on a measured tablespoon. Second, check whether the machine is actually draining. Foam that is produced normally but never leaves the sump reads as excess suds, so clean the drain filter, check the drain hose for kinks and make sure it is not pushed deep into the standpipe. If you have also seen F21 or F9 E1 on this machine, the drain is the real fault and the suds code is a symptom; fix the drain first. Third, consider your water. A softener installed since the machine was new halves the detergent you need, and nobody ever adjusts for it. Fourth, if none of that applies and the machine shows 5D on a cycle run with no detergent at all, the fault has moved from the laundry to the hardware. A pressure sensor reading the foam level incorrectly, or a sensor air hose with soap scum in it, will make a clean machine report suds. That hose runs from a port low on the outer tub up to the sensor; pull it off, check it for a split or a plug, and blow it clear. That is the point where a technician becomes worth the money, and it should cost $120 to $200 rather than a part bill.",
+  "reset_procedure": "Press Pause or Cancel twice and then Power once to clear a displayed 5D on most Whirlpool models. If the code reappears straight away, unplug the machine for five minutes rather than pressing buttons at it, then run Rinse and Spin to test. Note that the code often comes back on the next wash rather than immediately, because the cause is in the detergent rather than the control.",
+  "model_notes": "The same suds condition appears as Sd on many Whirlpool panels and as Sud on Maytag and Amana machines built on the same platforms. On a seven-segment display a figure 5 and a letter S are drawn identically, so 5D and Sd are frequently the same code read two different ways, and our SD page covers how to tell which you are looking at. Top-load Cabrio and Vertical Modular models also use Sd, but they hold far more water, so the suds routine on those can add an hour to a cycle before the code appears at all.",
+  "parts": [
+    { "name": "HE liquid detergent, measured by the tablespoon", "cost": "$10 to $20", "difficulty": "easy", "note": "Switching brands fixes more 5D codes than any part on this list" },
+    { "name": "Washing machine cleaner tablets", "cost": "$10 to $18", "difficulty": "easy", "note": "Monthly Clean Washer cycle stops residue building back up" },
+    { "name": "Dispenser drawer and siphon cap", "cost": "$25 to $60", "difficulty": "easy", "note": "Only if the siphon cap is cracked or missing; otherwise just clean it" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "Last resort, and usually just needs clearing rather than replacing" }
+  ],
+  "when_to_call": "Call a technician if 5D appears on a cycle you ran with no detergent in a clean machine, because at that point the control is misreading the water and foam level rather than responding to real suds, and diagnosing the pressure sensor and its hose is fiddly work on a machine that has to be partly dismantled. Also call if 5D is arriving together with a drain code every cycle and you have already cleaned the filter and the hose, since the pump may be moving water too slowly to clear normal foam. Do not pay anyone to tell you to use less detergent; try a measured tablespoon for a fortnight first, because that is the fix in most houses and it costs nothing.",
+  "faqs": [
+    { "q": "What does 5D mean on a Whirlpool washer?", "a": "Excess suds. The washer has detected more foam than it can rinse or pump, so it pauses the cycle and runs extra rinses to break it down. It is a detergent dosing message rather than a breakdown, and on most machines the cycle will eventually finish on its own, just much later than the timer promised." },
+    { "q": "Is 5D the same as SD on a Whirlpool washer?", "a": "Almost always yes. On a seven-segment display the letter S and the number 5 use the same shape, so the suds code Sd reads as 5d to most people. If your panel is a dot-matrix or LCD type that can draw real letters, Sd and 5D could in principle be distinct, so check the code list in your manual for that model." },
+    { "q": "How much detergent should I actually use?", "a": "About a tablespoon of HE liquid for a normal load in a Whirlpool front loader, and less than that for a small load or if you have soft water. Measure it with a spoon rather than the bottle cap. The amount that looks right is roughly four times what the machine needs, which is exactly why 5D is so common." },
+    { "q": "Can I still use my washer when it shows 5D?", "a": "Yes, though the cycle will take longer while the machine rinses the foam away. There is no risk to the machine from one sudsy load. Repeated suds-locking is worth stopping, because foam in the sump leaves residue that feeds the next load and can push a slow drain into a full F21 or F9 E1 fault." },
+    { "q": "Why did 5D start happening when I have used the same detergent for years?", "a": "Something changed in the water or the dispenser rather than the bottle. A water softener installed, a mains repair, or years of detergent film building up inside the tub and dispenser will all tip a dose that used to be fine into one that foams. Run Clean Washer and clean the drawer before blaming the detergent." },
+    { "q": "Do laundry pods cause 5D?", "a": "Often, yes. A pod is a fixed dose sized for an average load, so every small, lightly soiled or soft-water wash is an overdose with no way to cut it back. If you get 5D regularly and you use pods, switch to a measured HE liquid for a few weeks and see whether the code disappears." },
+    { "q": "Will 5D damage my washing machine?", "a": "Not directly. The risk is indirect: foam carries detergent into places water would flush out, leaving residue in the sump, the pump and the drain hose. Over time that slows the drain, which produces real drain faults. Clearing the suds and cutting the dose protects the machine more than any part you could buy." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "Why foam stalls a Whirlpool washer, and the four things that end it",
+    "labels": {
+      "display": "5D",
+      "c1": "Foam stalls the drain pump",
+      "c2": "Two rinse and spin cycles",
+      "c3": "One tablespoon of HE liquid",
+      "c4": "Clean dispenser and filter"
+    }
+  },
+  "sources": [
+    { "title": "Suds detection and Sd error messages on washers", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "HE detergent dosing guidance for front load washers", "publisher": "Whirlpool use and care guide", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field reports on suds lock and extended cycle times", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["SD", "F21", "F9 E1", "Sud", "F8 E1", "rL"]
+}

@@ -1,0 +1,144 @@
+{
+  "title": "Maytag Dishwasher Error Codes: What They Mean and Fixes",
+  "meta_description": "Maytag dishwasher F and E codes explained, how to count them off the Clean light, and the filter, drain and drip tray checks that clear most of them.",
+  "h1": "Maytag dishwasher error codes: reading the blinks and fixing the fault",
+  "answer": "Maytag dishwashers report faults as a two-part code written F then a number, E then a number, such as F8E4. If your model has no display, the Clean light blinks it: count the first group of flashes for the F number, pause, count the second group for the E number, then the sequence repeats after a longer gap. Two codes account for most of what owners actually see. F9E1 is a long drain, meaning the machine could not empty in time, and the first move is washing the filter in the floor of the tub. F8E4 means water has been detected in the drip tray in the base, which means the dishwasher is leaking and should not keep running.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to read the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $80 for the common codes", "technician": "$150 to $350 for a typical service call" },
+  "safety_warning": "Switch the dishwasher off at its breaker before the lower access panel or toe kick comes off. Most dishwashers are hard wired rather than plugged in, and the junction box, heating element terminals and motor connections all sit directly behind that panel at mains voltage. Never bypass the door latch switch to run a cycle with the door open. Let the tub cool before reaching into the sump after a hot cycle, and wear gloves because broken glass collects there.",
+  "causes": [
+    {
+      "cause": "Drain fault, shown as F9E1",
+      "frequency": "most cases",
+      "confirm": "Water standing in the bottom of the tub when the cycle ends. Maytag describes this one as a long drain and puts cleaning the filter under running water as the first step. Lift the lower rack out and look at the filter: grease and food packed into the mesh, or debris in the sump recess beneath it, confirms it."
+    },
+    {
+      "cause": "Water in the drip tray, shown as F8E4",
+      "frequency": "common",
+      "confirm": "Maytag reads this as water detected in the drip tray in the base, which means something upstream is leaking. Pull the toe kick and look at the shallow tray: wet, or stained with dried mineral tracks, confirms it. Maytag's own checks are to empty the tray, confirm the float switch is connected, and inspect the water connections."
+    },
+    {
+      "cause": "Water fill and float faults, the F6 group",
+      "frequency": "common",
+      "confirm": "The cycle starts, you hear nothing entering, and it stops early. Check the supply shutoff under the sink is fully open and the braided line is not kinked behind the machine. The overfill float in the front corner of the tub floor also lives in this group, and a float stuck up on detergent scum reports the same way as a real overfill."
+    },
+    {
+      "cause": "Stuck button or user interface fault, the F2 group",
+      "frequency": "common",
+      "confirm": "The panel ignores you, starts a cycle unprompted, or throws a code the moment power comes back. Run a fingertip along each key and feel for one that stays pressed in or a soft swollen patch where water has worked behind the membrane. A breaker reset that fixes it for one cycle and no longer points the same way."
+    },
+    {
+      "cause": "Heating and water temperature faults, the F8 group other than E4",
+      "frequency": "occasional",
+      "confirm": "Dishes come out cool and wet, or the cycle runs far longer than it used to before quitting. The control is not seeing the water reach temperature in the time allowed. Run the kitchen hot tap for a minute first: if your house is slow to deliver hot water to that sink, the dishwasher is waiting on exactly the same supply."
+    },
+    {
+      "cause": "Motor and wash pump faults, the F7 group",
+      "frequency": "occasional",
+      "confirm": "It fills, but you cannot hear spray arms turning, or there is a hum with no water movement. Open the door part way through and feel the upper arm: it should be wet and spin freely by hand. A utensil fallen through the rack and jamming the chopper is far more common than a failed motor."
+    },
+    {
+      "cause": "Control board and communication faults, the F1 group",
+      "frequency": "rare",
+      "confirm": "Erratic panel behavior, a different code after each power cycle, or a dead machine with the breaker on. These do not respond to cleaning or resets, and this is the point at which the repair bill starts to compete with the price of a new dishwasher."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Count the Clean light carefully",
+      "detail": "On a model without a display, watch one full sequence and note two numbers. First group of flashes, short pause, second group of flashes, then roughly five seconds of nothing before it repeats. Maytag's own example is seven flashes, pause, one flash, which is F7E1. Watch it through twice before you act, because being one flash out sends you to a completely different repair.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cancel the cycle and let it drain",
+      "detail": "Press Cancel or Cancel/Drain and shut the door. The machine runs a drain of roughly two minutes and resets the cycle. If water is still sitting in the tub afterwards you have confirmed a drain problem whatever the code said. Bail out what is left with a cup and soak up the rest with a sponge, because you cannot work in a flooded sump.",
+      "minutes": 10,
+      "tools": "Cup, sponge, towels",
+      "warning": null
+    },
+    {
+      "name": "Wash the filter, which is Maytag's own first step",
+      "detail": "Pull out the lower rack. In the tub floor sits a cylindrical filter that releases with about a quarter turn anticlockwise, and a flat mesh screen underneath that lifts straight out. Rinse both under hot running water and work a soft brush over the mesh with a little dish soap to cut the grease film that water alone leaves behind. Refit the cylinder and turn it until it locks, or it will rattle and leak debris back into the sump.",
+      "minutes": 15,
+      "tools": "Soft brush",
+      "warning": "Let the tub cool first if a hot cycle has just finished."
+    },
+    {
+      "name": "Clear the sump and check for glass",
+      "detail": "With the filter out, run a gloved hand all the way round the sump recess and shine a flashlight into it. Glass chips, fruit pits, bits of soaked-off label, bread tags and the occasional screw all collect here and are exactly what stops a drain pump. Pick debris out with fingers or needle-nose pliers rather than flushing it further in.",
+      "minutes": 15,
+      "tools": "Rubber gloves, flashlight, needle-nose pliers",
+      "warning": "Wear gloves. Cut fingers are the usual injury on this job."
+    },
+    {
+      "name": "Check the drain hose and the disposer connection",
+      "detail": "Look under the sink. The drain hose should rise into a high loop under the counter or go through an air gap on the sink deck; a hose lying flat lets sink water run back into the dishwasher. If a garbage disposer was fitted recently, shine a light into its dishwasher spigot: these ship with a solid knockout plug that must be punched out, and installers forget it regularly. A dishwasher behind an intact plug has never been able to drain.",
+      "minutes": 20,
+      "tools": "Flashlight, hammer and screwdriver if a knockout needs punching",
+      "warning": null
+    },
+    {
+      "name": "Reset at the breaker for five minutes",
+      "detail": "Switch the dishwasher off at its breaker in the electrical panel, not just at the door, and leave it for a full five minutes before switching back on. The control holds residual charge and stores the fault, so a machine you have already fixed will carry on showing the code until you do this. Test with a short or rinse cycle rather than a full wash so you learn the answer in ten minutes.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Pull the toe kick and check the tray if you have F8E4",
+      "detail": "Turn the breaker off first. Take out the screws along the bottom of the toe kick panel and lift it clear. Look at the shallow tray in the base: standing water or dried mineral staining confirms a leak. Check the float switch down there is still plugged in, then trace upward to the hose clamps at the pumps, the sump gasket and the bottom corners of the door seal. Dry the tray completely before you test again, or you will chase a fault you already fixed.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Breaker off before the toe kick comes off. Mains terminals and the junction box sit immediately behind it."
+    },
+    {
+      "name": "Get the tech sheet before ordering anything",
+      "detail": "A folded service data sheet lives inside the machine, normally behind the toe kick panel and sometimes taped inside the door frame on the right. It carries the code list for your exact model. This matters because the public code tables for these machines disagree with each other on several combinations, while the sheet in your dishwasher does not. Photograph it while it is out.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the sump is clear and a five-minute breaker reset has not helped, go in this order. First, read the code again. Three more full sequences, written down each time. Being one flash out on the Clean light is the single most common reason people spend an afternoon on the wrong system. Second, if you are in the drain family and water is still standing, stop looking at the dishwasher and look under the sink, because the two faults that strand people here are both out there: a drain hose lying flat instead of rising into a high loop or air gap, which lets the sink drain backwards into the machine, and a garbage disposer whose dishwasher knockout plug was never punched out. Put a flashlight into the disposer spigot and actually look. Third, with those ruled out and the sump clear, the drain pump is next. Breaker off, toe kick off, and you can usually see it at the base of the sump; a pump that hums without moving water has something wound around the impeller, and a replacement is roughly $50 to $120. Fourth, if your code is F8E4 and the tray keeps filling after you have dried it, the leak is live and the machine should stay off until it is found, because water running under a cabinet quietly destroys the floor and the units long before it troubles the dishwasher. Work upward from the tray: hose clamps at the drain and circulation pumps first, then the sump gasket, then the lower corners of the door seal, which perish and go hard with age. Fifth, for fill and float codes that survive everything, clean the overfill float in the front corner of the tub floor and check it drops freely, because detergent scum holding it up costs nothing to fix and reads exactly like a real overfill. The cost jumps at the control board, $200 to $400 fitted, which on a machine over about eight years old is worth weighing against replacement. Before any of that, find the tech sheet behind the toe kick: it is the only code list written for your actual model.",
+  "reset_procedure": "For a minor stoppage, press Cancel or Cancel/Drain and close the door; the machine runs a two-minute drain and resets the cycle. For a stored fault code you need a full power reset, which means switching the dishwasher off at its breaker in the electrical panel and leaving it off for five full minutes before switching it back on. Most dishwashers are hard wired, so the breaker is the only genuine isolation point, and the control board holds residual charge, which is why a quick off-and-on often leaves the code in place. Test with a short or rinse cycle, not a full wash. If the code returns on that cycle, the underlying fault is still present and the reset has told you as much.",
+  "model_notes": "Maytag dishwashers share their control platform with Whirlpool, KitchenAid and JennAir, so the F and E code structure and most of the meanings are common across those brands. That is useful when researching a code, because official documentation from a sibling brand usually transfers. Two things to watch. Older Maytag dishwashers predating this scheme blink a single repeating count on the Clean light instead of a two-part code, so seven flashes on an older machine is not F7 and belongs to a different list entirely. And models with a hidden control panel along the top edge of the door put the status lights where you have to open the door to see them blinking, which is why some owners never realize their machine is reporting anything. Published third-party tables also contradict one another on several specific combinations, including F8E4, which Maytag's own documentation gives as water in the drip tray while some repair sites describe as a drain pump failure. The service data sheet behind your toe kick settles it.",
+  "parts": [
+    { "name": "Filter assembly, cylinder and flat mesh screen", "cost": "$20 to $50", "difficulty": "easy", "note": "Replace only if cracked or torn; nearly all just need washing" },
+    { "name": "Drain pump", "cost": "$50 to $120", "difficulty": "moderate", "note": "After the sump, drain hose and disposer knockout are all ruled out" },
+    { "name": "Float switch and overfill float", "cost": "$15 to $45", "difficulty": "easy", "note": "Often just needs cleaning; check it is still plugged in after any tray work" },
+    { "name": "Door seal or tub gasket", "cost": "$25 to $70", "difficulty": "moderate", "note": "A common F8E4 leak source on older machines; the lower corners go first" },
+    { "name": "Control board or user interface panel", "cost": "$200 to $400 fitted", "difficulty": "technician only", "note": "Last resort, once the mechanical causes and harness are proven good" }
+  ],
+  "when_to_call": "Call an appliance technician once the filter is washed, the sump is clear, the drain hose and disposer connection are confirmed open and a proper breaker reset has not helped, because what remains means testing the pump, valve and harness live under a counter. Call promptly for F8E4 if the tray refills after you dry it and you cannot find the source, and stop using the machine in the meantime, since a slow leak under a cabinet does far more damage than a dishwasher that will not run. Call rather than continue if you find scorch marks, melted insulation or a burning smell near the junction box behind the toe kick. And if the dishwasher trips the breaker when you switch it back on, leave it off and get a technician or an electrician out, because that is a fault to earth inside a wet appliance and not something to keep resetting.",
+  "faqs": [
+    { "q": "What does F9E1 mean on a Maytag dishwasher?", "a": "It means a long drain: the dishwasher could not empty the tub within the time the control allows. Maytag's own first step is removing the filter and cleaning it under running water. After that, feel round the sump for glass or food debris, then check the drain hose and whether a newly fitted garbage disposer still has its knockout plug blocking the connection." },
+    { "q": "What does F8E4 mean and can I keep using the dishwasher?", "a": "It means water has been detected in the drip tray in the base, so the machine is leaking and has stopped itself. Do not keep running it. Maytag's checks are to empty the tray, confirm the float switch is connected and inspect the water connections. Work upward from the tray through the hose clamps, sump gasket and lower door seal." },
+    { "q": "How do I read a Maytag dishwasher code with no display?", "a": "Count the Clean light. The first group of flashes gives the F number, a short pause follows, then the second group gives the E number, and a gap of about five seconds separates each full repeat. Maytag's own example is seven flashes, pause, one flash, meaning F7E1. Watch it twice, because one miscounted flash points at a different repair." },
+    { "q": "Why does my Maytag dishwasher show a code immediately on power up?", "a": "Most often a stuck key, which sits in the F2 group. Run a fingertip over every button and feel for one that stays depressed or a soft swollen area where water has got behind the panel membrane. Try a five-minute breaker reset first. A code that comes straight back every single time means the panel itself, not the dishwasher." },
+    { "q": "Are Maytag and Whirlpool dishwasher error codes the same?", "a": "Largely, because Maytag, Whirlpool, KitchenAid and JennAir dishwashers of the same generation share a control platform and the same two-part code structure. Official documentation from any of them is usually transferable. The caveat is that third-party tables disagree on specific combinations, so the service data sheet behind your toe kick is the authority for your model." },
+    { "q": "Where is the tech sheet on a Maytag dishwasher?", "a": "Folded and tucked behind the toe kick panel at the bottom front on most models, and taped inside the door frame along the right edge on some. Switch the breaker off before removing the toe kick. It lists the fault codes for your exact model number, which beats any online chart, and it is worth photographing while you have it out." },
+    { "q": "Is a Maytag dishwasher error code worth repairing?", "a": "Usually. The common faults are the filter, a blocked drain path, a sticking float, an inlet valve or a drain pump, which run from free to about $120 in parts. The exception is a control board at $200 to $400 fitted, which on a machine over about eight years old competes with replacing it outright. Get a diagnosis before deciding." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "The sump, filter and drip tray, where most Maytag codes start.",
+    "labels": {
+      "display": "F8E4",
+      "c1": "Count the Clean light blinks",
+      "c2": "Filter washed, sump cleared",
+      "c3": "Overfill float drops freely",
+      "c4": "Base drip tray dry, no leak"
+    }
+  },
+  "sources": [
+    { "title": "Dishwasher error codes and reading the Clean light flash sequence", "publisher": "Maytag product help documentation", "url": null },
+    { "title": "Dishwasher error code list for the shared Whirlpool brand platform", "publisher": "Whirlpool and KitchenAid product help documentation", "url": null },
+    { "title": "Service data sheet listing fault codes for the specific model", "publisher": "Tech sheet supplied inside the dishwasher behind the toe kick", "url": null },
+    { "title": "Field reports on drain codes, disposer knockout plugs and drip tray leaks", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F9E1", "F8E4", "F7E1", "F6E4", "F2E1"]
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Frigidaire Oven F10 Error Code: Runaway Temperature",
+  "meta_description": "F10 on a Frigidaire oven is a runaway temperature alarm. Shut it off at the breaker first, because a stuck relay can keep the element heating regardless.",
+  "h1": "Frigidaire oven F10: the control thinks the oven is overheating",
+  "answer": "F10 on a Frigidaire oven is a runaway temperature fault: the control board has read a temperature far above what the cycle called for. Shut the oven off at the breaker before you do anything else, because in one of the two common failure modes the relay that feeds the heating element has welded shut, and the oven can keep heating even with the code on the display and the controls dead. The two causes are a failed RTD temperature sensor feeding the board a false high reading, and a stuck relay actually overheating the oven. Whether the oven is hot tells you which one you have.",
+  "severity": "stop-using-it",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to make safe, 1 to 2 hours to diagnose",
+  "cost_estimate": { "diy": "$30 to $120", "technician": "$180 to $450" },
+  "safety_warning": "Treat F10 as a live overheating risk until proven otherwise. Switch the oven off at the circuit breaker, not at the control panel, because a welded relay keeps the element powered no matter what the panel says. An oven is a 240V appliance and on gas models there is a gas valve involved as well; anything beyond the sensor at the back wall is licensed technician work.",
+  "causes": [
+    {
+      "cause": "The RTD oven temperature sensor has failed",
+      "frequency": "most cases",
+      "confirm": "The oven is not actually hot, or no hotter than the cycle should have made it, but the control is reporting runaway. The sensor is feeding a false high reading. This is the common and comparatively cheap version of F10, and it is the one that is safe to work on yourself."
+    },
+    {
+      "cause": "A relay on the control board has welded shut",
+      "frequency": "most cases",
+      "confirm": "The oven is genuinely too hot, keeps heating, or the element still glows after you cancel the cycle. This is the dangerous version. Kill the breaker immediately and leave it off; do not keep testing it to see what happens, because the oven has lost its ability to stop heating."
+    },
+    {
+      "cause": "The sensor's wiring or connector has failed",
+      "frequency": "common",
+      "confirm": "With power off, pull the oven out and find the sensor plug behind the rear panel. A pin pushed back out of its housing, a chafed wire against the metal, or heat damage at the connector produces the same false reading a dead sensor does, and costs nothing to put right."
+    },
+    {
+      "cause": "The sensor has drifted rather than failed outright",
+      "frequency": "occasional",
+      "confirm": "Food has been burning or cooking unevenly for weeks and the oven reads hotter than an oven thermometer on the shelf says it is. The code is the end point of a slow drift that has been showing up in your cooking for a while."
+    },
+    {
+      "cause": "The sensor is touching the oven wall or an element",
+      "frequency": "occasional",
+      "confirm": "Look at the probe where it projects into the cavity. It should stand clear in open air. A probe bent back against the liner or sitting near a rack support reads the metal rather than the air, which skews it high during preheat."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch the oven off at the breaker",
+      "detail": "Go to the panel and switch off the oven's breaker, which on most electric ranges is a double-pole 240V breaker. Do not rely on the Cancel button or the control panel. If a relay has welded, the element stays live regardless of what the display shows, and the breaker is the only thing that reliably stops it. Leave it off until you know which failure mode you have.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Do not use the control panel as your isolation. A welded relay ignores it."
+    },
+    {
+      "name": "Work out whether the oven is actually hot",
+      "detail": "This single observation splits the whole page. Open the door and judge the cavity: if it is roughly as hot as the cycle should have made it, or cool, the sensor is lying and the oven is not running away. If it is far hotter than it should be, the element was still glowing when you cancelled, or you can smell scorching, the oven genuinely overheated and the control board is the problem.",
+      "minutes": 5,
+      "tools": "Oven thermometer",
+      "warning": "Do not reach into a cavity that is hotter than normal. Judge it from the open door and let it cool."
+    },
+    {
+      "name": "Let it cool fully, then restore power and watch",
+      "detail": "With the breaker still off, leave the oven to cool to room temperature, which takes an hour or more after a hot cycle. Then switch the breaker back on without starting a cycle and watch the display for five minutes. F10 appearing immediately on a cold oven with nothing running points firmly at the sensor circuit rather than at genuine overheating.",
+      "minutes": 70,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find and inspect the oven temperature sensor",
+      "detail": "With the breaker off, look inside the cavity at the upper rear, usually the left or right corner. The RTD sensor is a thin metal probe a few inches long on a small bracket held by two screws. Check that it stands clear in open air rather than resting against the liner or a rack support, and that the probe is not bent, crushed or discolored at the tip.",
+      "minutes": 10,
+      "tools": "Flashlight, nut driver or Phillips #2 screwdriver",
+      "warning": "Breaker off before reaching into the cavity to handle the sensor."
+    },
+    {
+      "name": "Test the sensor by watching it change, not by its value",
+      "detail": "With the breaker off, pull the range out, remove the rear access panel, and unplug the sensor connector. Measure resistance across the two sensor pins at room temperature and write it down. Then warm the probe inside the cavity with a hairdryer for a minute and measure again. A healthy RTD sensor's resistance rises steadily and noticeably as it warms. A reading that does not move, or an open or shorted circuit, condemns the sensor, and this works without knowing the correct figure for your model.",
+      "minutes": 30,
+      "tools": "Multimeter, Phillips #2 screwdriver, nut driver, hairdryer",
+      "warning": "Breaker off and verified off. Do not take the rear panel off a powered oven; this is a 240V appliance."
+    },
+    {
+      "name": "Check the connector and the harness run",
+      "detail": "While the rear panel is off, follow the sensor's two wires from the probe to the control. Look for insulation that has gone brittle or browned near the oven cavity, a wire chafed against a sheet metal edge, and pins at the plug that are discolored, loose or backed out. Push the connector firmly home until it latches. A bad connection and a dead sensor look identical to the control board.",
+      "minutes": 15,
+      "tools": "Flashlight, multimeter",
+      "warning": "Breaker off. Heat-damaged insulation near a 240V element is a reason to stop and call someone."
+    }
+  ],
+  "still_showing": "Where you go next depends entirely on the hot-or-not question, so settle that before spending anything. If the oven was not actually overheating and the sensor tests bad, replace it. The RTD sensor is a $30 to $70 part on most Frigidaire ovens, it is held by two screws at the rear wall of the cavity, and the connector is usually reachable just behind it or through the rear panel. That is a genuine DIY repair with the breaker off. If the sensor tests good and the connector is clean, and the oven still throws F10 on a cold start, the fault is on the control board side: either the board is misreading a good circuit or a relay is stuck. Both are board replacements, which on a Frigidaire oven means the EOC, and you should expect $120 to $300 for the part plus labor. If the oven was genuinely overheating, stop and treat the whole thing differently. A welded relay means the oven has lost its ability to stop heating, which is a fire risk rather than an inconvenience. Leave the breaker off, do not use the oven for anything including the cooktop if they share a control, and get a technician out. Do not test it by running another cycle to see whether it does it again, which is the single most common mistake with this code. Two other things worth knowing before you commit money. First, replacing the sensor on an oven that was genuinely running away does not fix it and does not make it safe, because the problem is downstream of the sensor. Second, if you have a gas model, the gas valve and anything connected to it is licensed technician work with no DIY path, full stop. Finally, on a range over about twelve years old, an EOC plus a sensor plus labor frequently comes within reach of a new range, so get the fitted price in writing first.",
+  "reset_procedure": "Press Cancel or Clear Off first. If the code stays, switch the oven off at its breaker for five minutes and back on. The board holds the stored fault and a quick off-and-on often leaves it in place. Do not treat a successful reset as a repair: if the underlying sensor, wiring or relay fault is still there, F10 returns, usually within a cycle or two. If the oven was genuinely overheating, do not reset and retry at all; leave the breaker off and call someone.",
+  "model_notes": "Frigidaire uses F-codes where the number identifies the circuit, and F10 is the runaway temperature fault across the range. Related numbers in the same family cover other temperature and sensor conditions, so an F10 paired with another F3x code generally points at the sensor circuit rather than the relay. Sources agree on the meaning of F10 but differ on how often the control board rather than the sensor is at fault, and none publish a resistance curve you can trust across models, which is why the test on this page is based on watching the resistance change rather than matching a number. On gas models the overheating path involves the gas valve, and that moves the whole diagnosis to a licensed technician.",
+  "parts": [
+    { "name": "RTD oven temperature sensor", "cost": "$30 to $70", "difficulty": "easy", "note": "Two screws at the rear cavity wall and one connector" },
+    { "name": "Oven sensor wiring harness", "cost": "$25 to $60", "difficulty": "moderate", "note": "Only when insulation is heat-damaged or a wire is chafed through" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "technician only", "note": "The answer when a relay has welded; not a guess-first part" }
+  ],
+  "when_to_call": "Call a technician immediately, and leave the breaker off while you wait, if the oven was genuinely hotter than it should have been, if the element stayed glowing after you cancelled, or if you smelled scorching. That is a welded relay until proven otherwise and the oven cannot be trusted to stop heating. Call as well if the sensor tests good and the code persists, because the next part is the control board and that is not a part to fit on a hunch. On a gas range, call for anything beyond checking the sensor position: the gas valve and its safety circuits are licensed work. And if you find browned or brittle insulation on the harness near the cavity, stop there and get someone out rather than patching it.",
+  "faqs": [
+    { "q": "Can I still use my oven with an F10 code?", "a": "No. Switch it off at the breaker. In one of the two common causes, a relay on the control board has welded shut and the oven keeps heating regardless of what the panel says, which is a fire risk rather than an inconvenience. Even in the harmless version, a false temperature reading means the oven cannot cook to a set temperature." },
+    { "q": "What does runaway temperature actually mean?", "a": "The control board has read a cavity temperature far above what the cycle asked for. Either the oven really is that hot, because something is keeping the element powered, or the temperature sensor is feeding the board a false high reading. Those are very different problems, and whether the oven feels genuinely overheated tells you which one you have." },
+    { "q": "Is F10 usually the sensor or the control board?", "a": "The sensor is the more common cause and the cheaper one, at roughly $30 to $70 for the part. The control board becomes the suspect when the oven was genuinely overheating, when the sensor tests good, or when the code appears on a cold oven with a clean sensor circuit. Do not replace the board as a first guess." },
+    { "q": "How do I test an oven temperature sensor without the right resistance value?", "a": "Measure it at room temperature, write the number down, then warm the probe with a hairdryer for a minute and measure again. A healthy RTD sensor's resistance rises steadily as it heats. One that does not move, or reads open or shorted, has failed. This avoids relying on a published figure that may be wrong for your model." },
+    { "q": "Why did F10 appear in the middle of cooking?", "a": "Because that is when the oven is hot and the fault has something to act on. A sensor that has drifted reads increasingly wrong as the temperature climbs, and a relay that is close to failing tends to weld under load rather than when idle. Many people notice uneven or burnt cooking for weeks before the code finally appears." },
+    { "q": "Can I just replace the sensor and see if it works?", "a": "Only if the oven was not genuinely overheating. If it was, a new sensor changes nothing, because the fault is downstream of it, and you will have an oven that still cannot stop heating. Settle the hot-or-not question first; it costs nothing and it is the difference between a cheap fix and a fire risk." },
+    { "q": "Is a Frigidaire oven with F10 worth repairing?", "a": "If it is the sensor, easily. That is a $30 to $70 part and two screws. A control board at $120 to $300 plus labor is worth it on a newer range and marginal on one over about twelve years old, where the fitted cost starts approaching a replacement. Get the quote in writing before deciding." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The two paths behind F10: a lying sensor or a welded relay",
+    "labels": {
+      "display": "F10",
+      "c1": "Breaker off, not the panel",
+      "c2": "Is the oven genuinely hot?",
+      "c3": "RTD sensor at the rear wall",
+      "c4": "Resistance rises as it warms"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven F-code descriptions", "publisher": "Frigidaire service literature summaries", "url": null },
+    { "title": "Runaway temperature diagnosis: RTD sensor versus welded control relay", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "Field reports on F10, sensor drift and control boards that keep elements powered", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F11", "F30", "F31", "F90", "F13"]
+}

@@ -1,0 +1,204 @@
+{
+  "title": "Kenmore Washer F21 Code: Long Drain Causes and Fix",
+  "meta_description": "F21 on a Kenmore washer means the drain took too long. It is a Whirlpool code, so your machine is a 110 model and the Whirlpool fixes apply.",
+  "h1": "Kenmore washer F21 error code: what it means and how to fix it",
+  "answer": "F21 means the washer ran its drain pump for the whole window it allows and the tub was still not empty, so it stopped with the water in it. It is a Whirlpool code: a Kenmore showing F21 was built by Whirlpool, its model number starts with 110, and it is mechanically a Duet. The restriction is in the pump filter or the short hose feeding the pump far more often than anywhere else, because that is where coins, hair clips and underwires collect. Excess detergent foam is the other big cause, so if you have also seen 5D or Sud on this machine, deal with the suds first.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes to 90 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$140 to $320"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The pump filter or coin trap is blocked",
+      "frequency": "most cases",
+      "confirm": "Open it and look. Coins, hair, a felted gray mat of lint and pet hair, a hair clip, a chewed underwire. If it has never been cleaned since the machine was new, this is the fault regardless of what else you find."
+    },
+    {
+      "cause": "Too much detergent foam",
+      "frequency": "most cases",
+      "confirm": "Foam visible through the glass well after the wash stage, and usually 5D or Sud appearing before the F21. A pump handling foam instead of water never clears the tub in time, so the control calls a long drain."
+    },
+    {
+      "cause": "A sock or garment is stuck in the hose between tub and pump",
+      "frequency": "common",
+      "confirm": "Filter clean, but the pump strains or buzzes at the drain stage instead of running smoothly. Something is blocking upstream of the filter, in the thick bellows hose from the bottom of the tub."
+    },
+    {
+      "cause": "The drain hose is kinked or pushed too far into the standpipe",
+      "frequency": "common",
+      "confirm": "Pull the machine out and look. A flat spot where the cabinet has been shoved back against the hose, or a hose end buried deep in the standpipe, which siphons and then blocks."
+    },
+    {
+      "cause": "The household drain or standpipe is partly blocked",
+      "frequency": "occasional",
+      "confirm": "Pour a jug of water into the standpipe. If it backs up, the washer is fine and your plumbing is not. Machines that drain into a laundry tub show this as the tub filling faster than it empties."
+    },
+    {
+      "cause": "The drain pump has failed or its impeller is damaged",
+      "frequency": "occasional",
+      "confirm": "With the filter out, turn the impeller with a fingertip: it should spin freely with a faint magnetic notch. A snapped blade, a thread wound tight on the shaft, or complete silence at the drain stage when the pump should be running."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug, then work out which filter arrangement you have",
+      "detail": "Unplug the washer at the wall. Look at the bottom front of the cabinet. Later Kenmore Elite front loaders have a small flip-down door hiding a screw-out round filter and a short drain tube. Earlier Duet-based machines have no door: the whole lower access panel comes off, usually three hex-head screws along the bottom edge, and the filter is part of the pump behind it. Knowing which you have before you start saves a lot of prying at a panel that does not open.",
+      "minutes": 8,
+      "tools": "Flashlight, 1/4 inch nut driver or Phillips #2",
+      "warning": "Unplug at the wall before any panel comes off."
+    },
+    {
+      "name": "Get the water out before you open anything",
+      "detail": "There is a full tub of water behind that filter and it will find your floor. Lay towels along the front and slide a shallow tray or roasting tin under the opening. If your machine has the small drain tube beside the filter, pull it from its clip, hold it over the tray and remove the plug; it runs slowly and you will empty the tray several times. If there is no tube, you siphon through the pump itself and will need more towels than you think.",
+      "minutes": 20,
+      "tools": "Shallow tray, several towels",
+      "warning": "Water from a hot wash can scald. Give it time to cool if the cycle stopped recently."
+    },
+    {
+      "name": "Open the filter and clear everything out",
+      "detail": "Turn the round filter cap anticlockwise and draw it out, or on the panel-off type, release the pump's filter cover. Expect more water even after draining. Pull out every coin, clip and wad of hair, rinse the filter under a tap and scrub the mesh with an old toothbrush. Run a finger around the inside of the housing and feel for anything sitting at the back of it. Check the cap seal for splits before you refit, and seat it fully or it will leak on the next cycle.",
+      "minutes": 15,
+      "tools": "Old toothbrush, gloves, flashlight",
+      "warning": "Sharp items hide in the filter housing. Underwires and broken glass are both common finds."
+    },
+    {
+      "name": "Check the impeller spins",
+      "detail": "With the filter out, reach in and turn the pump impeller with a fingertip. It should rotate freely, with a faint magnetic click every so often as the magnets pass. If it will not move, something is wrapped around the shaft, and long hair is the usual culprit: pick it off with needle-nose pliers and turn it again. A blade that is snapped or worn down to a stub means the pump is finished, however clean the housing is.",
+      "minutes": 8,
+      "tools": "Needle-nose pliers, flashlight",
+      "warning": "Machine unplugged. Impeller edges are sharp."
+    },
+    {
+      "name": "Check the drain hose and the standpipe",
+      "detail": "Pull the washer out and follow the hose all the way to the wall. Straighten any kink, especially the squashed section behind the cabinet. The hose should sit a few inches into the standpipe, no further, and must not be taped or packed in, because the air gap stops it siphoning. Pour a jug of water into the standpipe and watch: if it backs up at you, the blockage is in the house plumbing and the washer has been reporting it correctly.",
+      "minutes": 15,
+      "tools": "Jug, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clear a suds build-up with empty rinses",
+      "detail": "Run a rinse and spin with no detergent and nothing in the drum, and watch the glass. If foam appears, the machine is still carrying a detergent build-up and needs two or three more empty rinses to get rid of it. Then cut to about a tablespoon of HE liquid for a normal load. Most people use several times what a front loader needs, and the excess never rinses out, so F21 keeps coming back.",
+      "minutes": 25,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset and test with a rinse and spin",
+      "detail": "Press Pause or Cancel twice to clear the code, then unplug the machine for five minutes, plug it in and run a rinse and spin with the drum empty. Stand and listen at the drain stage: a healthy pump gives a steady hum and a rush of water, a blocked one strains or buzzes, and a dead one is silent. Those three sounds point at three different repairs, so it is worth the two minutes.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter was clean, the impeller spins and the standpipe takes a jug of water without backing up, work through the rest in this order. First, go by sound at the drain stage, because it splits the problem in half. A pump that strains, buzzes or hums without moving water has power and is obstructed upstream of the filter, and the usual answer is a sock or a wad of lint jammed in the thick bellows hose that runs from the bottom of the tub to the pump housing. Getting at it means the lower panel off, a tray under the hose and releasing the spring clamp with pliers; expect a surprising amount of water, and check the hose inside with a flashlight before you put it back. Second, a pump that is completely silent when it should be running is not getting power, which moves the problem to the connector, the harness or the control board rather than the pump. Unplug the machine, pull the connector off the pump and look for corrosion or a pushed-back pin, then measure across the pump terminals with a multimeter: an open circuit means the winding has gone and the pump is dead. Compare against the figure on the tech sheet inside the machine rather than a number from a forum. Third, if the pump runs properly and the tub still will not empty in time, suspect the air dome or pressure hose on the tub, since the control decides the tub is still full based on that reading and will throw F21 on a machine that has actually drained. The thin hose is cheap and often blocked with detergent sludge. Fourth, if F21 arrives together with 5D or Sud every time, treat it as a detergent problem rather than a mechanical one and run the empty rinses properly before you buy anything, because fitting a new pump to a sudsy machine changes nothing. A replacement drain pump on these machines is typically $45 to $120 and an hour or so of work, which is still sensible DIY. Past that, a main control board runs a few hundred dollars, so get a second opinion before ordering one.",
+  "reset_procedure": "Press Pause or Cancel twice to clear the stored code, then unplug the washer at the wall for five full minutes before plugging it back in. The control keeps F21 until it is cleared, so a machine you have just unblocked will still display it and look unfixed. Test with a rinse and spin on an empty drum rather than a full cycle, so you hear the drain stage within a couple of minutes.",
+  "model_notes": "F21 is a Whirlpool code, so it appears on Kenmore washers with model numbers starting 110, which are Duet-platform front loaders. On many of these machines the same long-drain fault is also shown as F9 E1 on later control generations, and some displays show it as F21 only after the machine has retried the drain several times. Older Kenmore Elite HE3t machines use F02 for a blocked drain instead, with the same causes and the same checks. The filter access differs by model year: later machines have a flip-down door and a screw-out filter, earlier ones need the whole lower access panel removed. A Kenmore with a 796 model number is an LG and shows OE for the same fault.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$45 to $120",
+      "difficulty": "moderate",
+      "note": "Order against the Whirlpool part number for your model, not the Kenmore one"
+    },
+    {
+      "name": "Tub-to-pump bellows hose",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Replace if it is perished or split after clearing a blockage"
+    },
+    {
+      "name": "Pump filter cap and seal",
+      "cost": "$15 to $45",
+      "difficulty": "easy",
+      "note": "Only if the cap no longer tightens or the seal is split"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Worth replacing if it holds a permanent kink"
+    },
+    {
+      "name": "Pressure sensor hose",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "Cheap, and the real fix when the tub is empty but the control disagrees"
+    }
+  ],
+  "when_to_call": "Call a technician when the pump is silent at the drain stage and its connector is clean, because the next step is tracing the harness back to the control board with a meter on a machine that has to be partly live. Call a plumber rather than an appliance engineer if a jug of water backs up out of the standpipe, since the washer is doing its job and your drain is not. Call either way if water is coming out of the cabinet rather than out of the filter, because a split tub hose dumps the entire load on the floor and the water damage quickly outruns the repair. On an older machine where the quote includes a control board, price a replacement washer first.",
+  "faqs": [
+    {
+      "q": "Why does my Kenmore washer show a Whirlpool code like F21?",
+      "a": "Because Whirlpool built it. Kenmore is a Sears badge rather than a factory, and model numbers starting 110 are Whirlpool machines, usually on the Duet platform, with Kenmore trim. The F-code set is Whirlpool's throughout, which is why you see F21, F35 and LF rather than the two-letter LG codes."
+    },
+    {
+      "q": "Is Kenmore F21 the same as the LG OE code?",
+      "a": "Same fault, different platform. Both mean the pump ran and the tub did not empty in the time allowed, and in both cases the filter is the first thing to check. The hardware is completely different though: a 796 Kenmore is an LG with LG parts and a flip-down filter door, while a 110 Kenmore is a Whirlpool, so use the page that matches your model prefix."
+    },
+    {
+      "q": "Can I still use the washer with an F21 code?",
+      "a": "No. The drum is holding a full load of water the machine cannot shift, so starting another cycle just adds to it. Drain it through the filter or the drain tube first. Leaving standing water in the tub for days also produces the smell people later blame on the machine itself."
+    },
+    {
+      "q": "I cleaned the filter and F21 came back. What now?",
+      "a": "Listen to the pump at the drain stage. A straining or buzzing pump has power and is blocked upstream of the filter, usually by a sock in the thick hose between the tub and the pump. Silence means it is getting no power at all, which points at the connector, the harness or the board rather than a blockage."
+    },
+    {
+      "q": "Does F21 mean I need a new drain pump?",
+      "a": "Usually not. Most F21 codes are a blocked filter, trapped debris or detergent foam, all of which are free to fix. Only replace the pump once you have confirmed the impeller is damaged or the winding reads open on a multimeter, because a new pump fitted to a blocked hose throws the same code on its first cycle."
+    },
+    {
+      "q": "Why does F21 keep coming back every few weeks?",
+      "a": "Almost always detergent. Too much HE liquid leaves foam that the pump cannot move, so the drain times out even with a clean filter. Run two or three empty rinses with no detergent, then cut down to about a tablespoon per load. The other repeat cause is a drain hose pushed too far into the standpipe."
+    },
+    {
+      "q": "What is the difference between F21 and F9 E1?",
+      "a": "They are the same long-drain fault shown by different control generations. Later Kenmore and Whirlpool machines display a two-part code like F9 E1, where F9 is the system and E1 the specific fault, while earlier ones display F21. The checks, the parts and the repair are identical."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-drain-filter",
+    "caption": "Where F21 comes from on a Kenmore built by Whirlpool",
+    "labels": {
+      "display": "F21",
+      "c1": "Filter cap, turn anticlockwise",
+      "c2": "Drain tube, empty tray first",
+      "c3": "Impeller must spin freely",
+      "c4": "Bellows hose, check for a sock"
+    }
+  },
+  "sources": [
+    {
+      "title": "Whirlpool front load washer long drain fault code guidance",
+      "publisher": "Whirlpool service literature for the equivalent Duet model",
+      "url": null
+    },
+    {
+      "title": "Kenmore front load washer will not drain repair article",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Tech sheet behind the lower access panel, drain system fault codes",
+      "publisher": "Whirlpool service sheet supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on F21, pump blockages and detergent-driven repeats",
+      "publisher": "r/appliancerepair and Appliantology threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F9 E1",
+    "5D",
+    "LF",
+    "OE",
+    "F02",
+    "F35"
+  ]
+}

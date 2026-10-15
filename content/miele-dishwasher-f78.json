@@ -1,0 +1,180 @@
+{
+  "title": "Miele Dishwasher F78 Error Code: Causes and Fix",
+  "meta_description": "Miele F78 is a circulation pump fault, usually a jammed impeller or the pump's own frequency converter. Here is how to tell which.",
+  "h1": "Miele dishwasher F78: circulation pump fault explained",
+  "answer": "F78 means your Miele's control has lost proper drive or feedback from the circulation pump, the pump that throws water up through the spray arms during a wash. Two things cause most of them: something hard jamming the impeller, or a failure in the frequency converter that drives the pump. The first is free to fix if you are lucky and the debris is reachable from the sump. The second usually means the pump is replaced as an assembly, because on modern Miele machines the converter is built into the pump and is not sold separately.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "45 minutes to check, then likely a technician",
+  "cost_estimate": {
+    "diy": "$0 to $20",
+    "technician": "$400 to $800"
+  },
+  "safety_warning": "The circulation pump on these machines is driven by mains-powered electronics, and on many models that converter is part of the pump itself. Switch the dishwasher off at its breaker before you take the filter out or reach into the sump, and leave it off while you work. Do not open the pump housing or the electronics to inspect them. If a surge or a burning smell is part of the story, stop and call a technician.",
+  "causes": [
+    {
+      "cause": "A hard object is jamming the circulation pump impeller",
+      "frequency": "most cases",
+      "confirm": "The wash phase is silent or makes a brief buzz before the code appears, and the last few loads had weak spray or food left on the upper rack. A chip of glass, a fruit stone, a bone fragment or a piece of broken crockery is the usual object, and it got past a filter that was out or badly seated."
+    },
+    {
+      "cause": "The frequency converter that drives the pump has failed",
+      "frequency": "most cases",
+      "confirm": "The sump is clear, the impeller turns freely by hand, and the pump still does nothing when the wash phase starts. On machines where the converter is integrated into the pump, this is the failure that makes the whole pump a replacement rather than a repair."
+    },
+    {
+      "cause": "A connector or harness fault between the electronics and the pump",
+      "frequency": "common",
+      "confirm": "The fault is intermittent rather than constant, or it started after the machine was pulled out for other work. Damp, corrosion and a pushed-back pin in the pump connector all produce the same symptom as a dead pump and cost nothing to put right."
+    },
+    {
+      "cause": "The pump motor windings or bearings have failed",
+      "frequency": "occasional",
+      "confirm": "A grinding or rumbling noise from under the tub in the weeks before the code appeared, or an impeller that turns but feels rough and gritty rather than smooth. Expect this on high-mileage machines rather than young ones."
+    },
+    {
+      "cause": "A surge or supply voltage problem damaged the drive electronics",
+      "frequency": "rare",
+      "confirm": "The fault began the same day as a storm, a power cut or electrical work in the house, and other appliances also misbehaved. Worth noting for an insurance claim, and worth mentioning to the technician so they check the control electronics as well as the pump."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut the power at the breaker",
+      "detail": "Switch the machine off at the on/off button, then turn its breaker off and leave it off. The drain and circulation pumps can both be energised by the control at any moment, and you are about to put your fingers into the sump where both of them live. The breaker, not the on/off button: a dishwasher that is switched off at the panel is still a live appliance.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Breaker off before any sump work. The pumps can start without warning."
+    },
+    {
+      "name": "Bail out the tub and remove the filter",
+      "detail": "Take the lower basket out, scoop any standing water into a bucket with a mug and sponge the last of it dry. Then turn the handle of the cylindrical coarse filter anticlockwise to unlock it and lift the whole filter assembly out of the tub floor. Rinse it and scrub the mesh with a brush while it is out, because a grease-filmed filter is both a cause of debris reaching the pump and a reason flow stays poor afterwards.",
+      "minutes": 15,
+      "tools": "Mug, bucket, sponge, washing-up brush",
+      "warning": null
+    },
+    {
+      "name": "Search the sump for debris, carefully",
+      "detail": "Put a rubber glove on and shine a flashlight into the open sump. Feel around the whole floor of it, the walls and the recess the filter sat in. You are looking for glass chips, seeds, stones, bone fragments and bits of broken plate. Pick anything hard out with needle-nose pliers rather than fingers. Broken glass in a wet sump is invisible and this is how people cut themselves on an appliance repair.",
+      "minutes": 15,
+      "tools": "Rubber glove, flashlight, needle-nose pliers",
+      "warning": "Assume there is glass in there. Glove on, and never sweep the sump blindly with bare fingers."
+    },
+    {
+      "name": "Check the spray arms turn freely and the jets are clear",
+      "detail": "Lift the lower spray arm off its spindle and unscrew the upper arm at its center nut. Hold each one up to a light and check every jet, clearing blocked ones with a toothpick, then rinse them through under a tap. Spin each arm by hand after refitting: it should turn with almost no resistance. An arm fouled on a tall item is a common way to overload a circulation pump in the first place.",
+      "minutes": 15,
+      "tools": "Toothpick, washing-up brush",
+      "warning": null
+    },
+    {
+      "name": "Refit everything and run the shortest program",
+      "detail": "Seat the filter assembly properly and turn the handle clockwise until it locks down, or the next load sends more debris straight at the pump. Restore power at the breaker and start the shortest or rinse program rather than a full wash. Stand with the machine through the wash phase and listen: a healthy circulation pump is a steady whirr with water audibly hitting the tub walls.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note what the pump does before you call anyone",
+      "detail": "Write down what you hear during the wash phase and how many minutes in the code appears. Complete silence, a short buzz then silence, and a pump that runs then cuts out are three different stories pointing at the converter, a jam and a failing motor respectively. Photograph the model and serial number from the door edge at the same time. A technician charging by the hour will spend less of it rediscovering this.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sump is clear, the filter is clean, the spray arms turn freely and the pump still does nothing when the wash phase starts, the fault is in the pump or its drive, and the realistic outcomes narrow to three. First and cheapest, the connector at the pump. Damp kitchens corrode those terminals over ten or fifteen years, and a green crusted pin or one pushed back in its housing gives exactly this symptom for nothing. It is behind the kickplate or under the machine depending on the model, so ask the technician to look there first and say that you want it checked before any part is ordered. Second, the impeller may be jammed by something that is not reachable from the sump. Miele's circulation pump housing can be opened by a technician with the machine out, and if a glass chip is the whole story then you pay labor and no parts, which is the good outcome. Third and most likely on an older machine, the frequency converter that drives the pump has failed. On modern Miele dishwashers that converter is integrated into the pump assembly, so it is not sold or replaced separately: the whole pump goes. Expect $200 to $420 for the pump and $400 to $800 for the job finished. This is the point where Miele owners usually get a shock, and it is worth saying plainly. Miele parts cost materially more than the Bosch, Whirlpool or GE equivalents, authorized call-outs run $150 to $250 before any work at all, and fewer independents stock the parts so there may be a wait. A machine built for twenty years is not a machine that is cheap to repair in year twelve. The honest counterweight: the rest of a Miele does not wear out on the same schedule as its pump, so $600 spent at year ten frequently buys another eight or nine years of a machine that still washes better than a new mid-range unit. Under about twelve years and otherwise sound, repair it. Over fifteen, or with a second major fault alongside it, think hard and get the quote in writing first.",
+  "reset_procedure": "Switch the machine off at the on/off button and cut the power at its breaker for five minutes. A single F78 after a power cut or a surge does occasionally clear for good, so this is worth one attempt. Restart on the shortest program and listen through the wash phase. If the code returns at the same point, the pump or its drive has genuinely failed and repeat resets will not change that. Do not keep rerunning programs on a machine that is throwing F78: if the impeller is jammed, you are heating a stalled motor each time.",
+  "model_notes": "F78 is reported as a circulation pump fault across Miele dishwasher generations, but what fails and what gets replaced depends on the age of the machine. Newer models use a brushless pump with the frequency converter built into the pump assembly, which means a converter failure takes the whole pump with it and there is no cheaper component to swap. Some older machines separate the drive electronics from the pump, where a board-level repair is at least possible. Published descriptions of F78 split between a converter fault and a mechanically jammed pump, which is not a contradiction: both produce the same code because the control sees the same loss of expected pump behavior.",
+  "parts": [
+    {
+      "name": "Circulation pump with integrated frequency converter",
+      "cost": "$200 to $420",
+      "difficulty": "technician only",
+      "note": "The usual repair on newer models. The converter is not sold separately, so the whole pump goes"
+    },
+    {
+      "name": "Pump wiring harness or connector",
+      "cost": "$30 to $90",
+      "difficulty": "technician only",
+      "note": "The cheap outcome. Worth having checked before any pump is ordered"
+    },
+    {
+      "name": "Triple filter assembly, coarse filter and fine filter plate",
+      "cost": "$45 to $90",
+      "difficulty": "easy",
+      "note": "Replace if the mesh is torn, since a damaged filter is how debris reached the pump"
+    },
+    {
+      "name": "Electronic unit",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "Only on models where the drive electronics are separate from the pump"
+    }
+  ],
+  "when_to_call": "Call once you have cleared the sump, cleaned the filter, freed the spray arms and the pump still will not run, because everything past that is under the tub with the machine out of its housing. Give the technician what you observed: silence, a buzz, or a pump that starts and cuts out, plus the model and serial number from the door edge. Ask two specific questions when you book. First, will they check the pump connector and harness before ordering a pump, since corrosion there costs nothing to fix and produces the same code. Second, what is the call-out charge and is it credited against the work. Expect higher numbers than you would be quoted for a mass-market brand, and get anything over $400 in writing.",
+  "faqs": [
+    {
+      "q": "Can I still use the dishwasher with an F78 code?",
+      "a": "No. Without the circulation pump nothing reaches the spray arms, so the machine cannot wash at all and the control stops the program. Do not keep restarting it either: if the impeller is jammed, every attempt heats a stalled motor and risks turning a free debris fix into a pump replacement."
+    },
+    {
+      "q": "What is the frequency converter and why does it make the repair expensive?",
+      "a": "It is the small drive electronics that control the speed of the brushless circulation pump. On newer Miele dishwashers it is built into the pump assembly rather than supplied as a separate part, so when it fails the entire pump is replaced. That design choice is why a converter fault costs $400 to $800 instead of the price of a component."
+    },
+    {
+      "q": "Can I clear the jam myself?",
+      "a": "Sometimes. Debris sitting in the sump or at the pump inlet is reachable once the filter is out, and that is a free fix worth half an hour of your time. Anything inside the pump housing is not: on a built-in Miele that means disconnecting the water, waste and power and bringing the machine out, which is a technician job."
+    },
+    {
+      "q": "Why did F78 happen suddenly?",
+      "a": "Usually a single hard object. A chip off a wine glass or a cherry stone goes through once and jams the impeller on that cycle, which is why it feels instant. The slower version is a grinding noise and weak spray for weeks beforehand as the bearings go, so think back to whether the machine had been getting noisier."
+    },
+    {
+      "q": "Is a Miele circulation pump worth replacing?",
+      "a": "Usually yes under about twelve years old. A Miele is built for roughly twenty years of use, so a $600 pump job at year ten commonly buys another eight or nine years, which a new mid-range dishwasher will not deliver. Past fifteen years, or with a second major fault alongside, replacement becomes the sensible call."
+    },
+    {
+      "q": "Why are Miele parts so much more expensive than Bosch or Whirlpool?",
+      "a": "Because they are built and priced as premium components and there is no aftermarket to undercut them. A Miele circulation pump runs roughly double the mass-market equivalent, authorized call-outs are commonly $150 to $250 before work starts, and fewer independents keep stock so you may wait for an order. Owners are routinely shocked, and the reaction is fair."
+    },
+    {
+      "q": "Could this be caused by hard water or scale?",
+      "a": "Scale contributes rather than causes. A heavily scaled machine runs its pump against more resistance and wears bearings faster, and in hard water areas Miele machines with the salt reservoir left empty show it. It will not jam an impeller on its own, but it shortens the life of the pump that eventually does fail."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The circulation pump, and the four things to check before you call",
+    "labels": {
+      "display": "F78",
+      "c1": "Filter out, scrub the mesh",
+      "c2": "Sump debris, glove and pliers",
+      "c3": "Spray arms spin free, jets clear",
+      "c4": "Pump connector and converter"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher fault code tables, circulation pump group",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher fault codes, F78 circulation pump and frequency converter",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Owner and technician reports on integrated pump converters on Miele G-series machines",
+      "publisher": "Appliance repair forums including klusidee.nl and r/appliancerepair",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F11",
+    "F24",
+    "F14",
+    "F70",
+    "F13"
+  ]
+}

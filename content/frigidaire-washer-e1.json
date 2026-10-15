@@ -1,0 +1,202 @@
+{
+  "title": "Frigidaire Washer E1 Error Code: Causes and Fix",
+  "meta_description": "Frigidaire E1 on a top loader means a long fill: water is arriving too slowly or not at all. Usually a part-closed tap or a clogged inlet screen.",
+  "h1": "Frigidaire washer E1 error code: what it means and how to fix it",
+  "answer": "E1 on a Frigidaire top load washer is the long fill code: the machine asked for water and did not get enough of it within the time it allows, so it stopped waiting. It is a water supply problem far more often than a washer problem. Start with the two taps behind the machine, which need to be fully open, and then the fine mesh screens set into the inlet ports where the hoses screw on, which clog with grit and scale and are the most common single cause. Frigidaire also asks you to confirm the lid is properly closed, because the washer will not fill with the lid up.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "20 to 40 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $25",
+    "technician": "$130 to $280"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A supply tap is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Reach behind the machine and turn both taps anticlockwise until they stop. A quarter-turn lever valve must sit in line with the pipe, not across it. If the washer was recently moved, serviced, or had a leak scare, somebody turned one down and nobody turned it back."
+    },
+    {
+      "cause": "The inlet mesh screens are clogged",
+      "frequency": "most cases",
+      "confirm": "Close the taps and undo both hoses at the machine end. There is a fine mesh screen set into each inlet port. If it looks brown, furred or scaled rather than bright metal, that is your fault and it costs nothing to fix."
+    },
+    {
+      "cause": "A supply hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Pull the machine out and run both hoses through your hands. A hose squashed against the wall behind the cabinet passes enough water to drip but not enough to fill in time. In an unheated garage or along an outside wall, a hose that feels rigid and very cold in winter is frozen solid."
+    },
+    {
+      "cause": "The lid is not registering as closed",
+      "frequency": "common",
+      "confirm": "Press the lid down firmly and listen for the lock to click within a few seconds of pressing Start. No click, or a flashing lid indicator, means the washer never gets permission to fill. Lint packed around the strike and a hinge that has sagged so the catch misses are the usual reasons."
+    },
+    {
+      "cause": "Water pressure at the tap is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "Put the loose end of a disconnected hose into a bucket and open the tap for five seconds. You want a strong jet that puts a good amount in the bucket. A weak dribble means the restriction is upstream in your plumbing, and the washer is reporting it accurately."
+    },
+    {
+      "cause": "The water inlet valve has failed",
+      "frequency": "occasional",
+      "confirm": "Both taps open, both screens clean, strong flow into a bucket, lid locking properly, and E1 still appears. The solenoid on the valve is open circuit or the valve is mechanically stuck. This is the point at which a part is genuinely needed."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps fully",
+      "detail": "Reach behind the machine and turn the hot and cold taps anticlockwise until they will not go further. A lever valve has to sit in line with the pipe rather than across it. This clears the code more often than every other cause put together, so do it before you move anything or undo anything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Close the lid properly and watch for the lock",
+      "detail": "Press the lid down firmly and start a cycle. Within a few seconds you should hear the lock click. If the lid indicator flashes instead, or nothing happens, the washer has not confirmed the lid is shut and will not fill at all. Clear any lint packed around the strike and check the hinges have not dropped so the catch sits off center.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet mesh screens",
+      "detail": "Close both taps. Put a towel and a shallow tray down, then unscrew the hoses from the machine end by hand or with pliers; expect a cupful of water from each. Inside each inlet port is a fine mesh screen. Lift it out with needle-nose pliers, rinse it, scrub it with an old toothbrush and push it back in squarely. Do both hot and cold even if only one looks dirty.",
+      "minutes": 15,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close both taps before undoing a hose. A washer hose is at full mains pressure."
+    },
+    {
+      "name": "Test the flow into a bucket",
+      "detail": "With a hose still off the machine, put the loose end in a bucket and open that tap for five seconds. You want a strong jet. A weak dribble means the problem is upstream of the washer, in the house plumbing or a partly closed isolation valve, and the fix is a plumbing one. Do this on both hot and cold, because a failed hot supply alone produces the code on warm cycles only.",
+      "minutes": 8,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Follow both hoses for kinks and crushed sections",
+      "detail": "Pull the machine out far enough to see behind it and run each hose from the tap to the machine through your hands. Straighten any tight bend, check for a flat spot where the cabinet has been pushed back onto it, and leave a hand's width of clearance behind the washer when you slide it back so you are not undoing your own work.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Thaw a frozen hose if the machine is in an unheated space",
+      "detail": "Close the taps and disconnect the hose at both ends. Lay it somewhere warm, or wrap it in towels soaked in hot tap water and swap them as they cool. Give it twenty minutes and try again. Never use a heat gun, a blowtorch or boiling water on a rubber or braided hose, because it will split and you will discover that at mains pressure.",
+      "minutes": 25,
+      "tools": "Towels",
+      "warning": "No open flame and no boiling water on a supply hose."
+    },
+    {
+      "name": "Reset and test on a short cycle",
+      "detail": "Unplug the washer for five full minutes, then plug it back in and start a Rinse and Spin rather than a full wash. The control holds the fault state until it is properly cleared, so a machine with a now perfectly good water supply will keep showing E1 if you skip this. A short cycle tells you in minutes instead of an hour.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If both taps are open, both screens are clean, the hoses are straight, the lid locks with a click and a bucket test gives you a strong jet, the supply side is cleared and the fault is inside the machine. Work in this order. First, check the connector at the water inlet valve, which sits at the back of the cabinet where the hoses enter. Unplug the washer, take the back panel off, pull the plug off each solenoid and look for green corrosion or a terminal backed out of its housing, which is common in damp laundry rooms and costs nothing to put right. Second, measure each solenoid across its two terminals with a multimeter on ohms. A healthy coil reads a few hundred ohms; an open circuit reads infinite and condemns the valve. Use the figure on the service sheet inside your machine rather than a number off a chart, because it varies. A valve assembly is $30 to $70 and takes about half an hour with two screws and a connector. Third, if the solenoids read correctly but never energize when the cycle calls for water, the fault is in the harness or the control, and that is where the cost jumps to a few hundred dollars. Two things worth ruling out before you spend anything. If your model fills through a hot and a cold inlet and the hot supply is off, isolated, or fed from a water heater that is cold, the washer will throw E1 on a warm cycle while running a cold one perfectly, so try a cold-only cycle as a test. And check the water level pressure sensing hose, the thin tube running from the bottom of the outer tub up to the sensor: if it is blocked with soap scum, the control cannot see the level rising and will time out even while water is pouring in. Pulling it off and blowing it clear is free and it explains the E1 codes where you can plainly hear the machine filling.",
+  "reset_procedure": "Unplug the washer at the wall, or switch off its breaker, and leave it for a full five minutes before restoring power. The control board holds residual charge, so a quick off and on usually leaves the stored fault in place and the code will still be there even after you have fixed the supply. Start a Rinse and Spin to test rather than a full cycle, so you find out in ten minutes instead of fifty. If E1 comes straight back on a machine that is visibly filling, the problem is the fill rate or the level sensing rather than the water supply.",
+  "model_notes": "E1 is a Frigidaire top load washer code and means a long fill, with the control giving up after a lengthy wait rather than after a few minutes, which is why some owners report the machine sitting there for the best part of an hour before the code appears. Frigidaire front loaders report the same family of fault with two-digit codes in the E1x group, where E10 is the water inlet fault and E11 is specifically the fill taking too long; the diagnosis is identical even though the display is not. Be careful with generic cross-brand code charts here, because some other manufacturers use E1 for a drain fault, which sends you to the opposite end of the machine.",
+  "parts": [
+    {
+      "name": "Inlet hose mesh filter screens",
+      "cost": "$5 to $12 a pair",
+      "difficulty": "easy",
+      "note": "Only needed if a screen is torn; most just need cleaning"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "Two screws and a connector, about 30 minutes"
+    },
+    {
+      "name": "Braided stainless supply hoses",
+      "cost": "$15 to $30 a pair",
+      "difficulty": "easy",
+      "note": "Worth replacing rubber hoses over five years old regardless"
+    },
+    {
+      "name": "Lid lock and switch assembly",
+      "cost": "$40 to $90",
+      "difficulty": "moderate",
+      "note": "If the lock never clicks, the washer never starts filling"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "For an E1 on a machine you can hear filling; usually just needs clearing"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if the bucket test gives a weak dribble, because that fault is in your house plumbing and an appliance engineer will charge a call-out to tell you exactly that. Call an appliance technician once the flow into a bucket is strong, both screens are clean and the solenoids read correctly on a meter, since the next step is diagnosing the harness and the control with the machine live. If the washer is leaking from anywhere while this is going on, close both taps and stop: a supply-side leak at mains pressure does far more damage than a washer that will not fill.",
+  "faqs": [
+    {
+      "q": "What does E1 mean on a Frigidaire washer?",
+      "a": "On a top loader it is the long fill code: the washer asked for water and did not get enough of it in the time it allows. It is a supply problem most of the time rather than a broken washer. Check that both taps are fully open, that the lid locks when you press Start, and that the inlet mesh screens are clean."
+    },
+    {
+      "q": "How long does a Frigidaire washer wait before showing E1?",
+      "a": "Longer than people expect. The control allows a generous fill window before giving up, so a machine filling very slowly can sit there for a long stretch before the code appears, which is why owners often describe it as happening out of nowhere. A washer that fills in the usual few minutes will never see this code."
+    },
+    {
+      "q": "Where are the inlet screens on a Frigidaire washer?",
+      "a": "Set into the inlet ports at the back of the machine, where the hoses screw on. Close both taps, undo each hose over a towel and shine a light into the port: you will see a fine mesh disc. Lift it out with needle-nose pliers, rinse and scrub it, and push it back in squarely before refitting the hose."
+    },
+    {
+      "q": "Can a lid switch cause E1?",
+      "a": "Yes, on a top loader. The washer will not start filling until it has confirmed the lid is closed and locked, so a lock that never clicks produces a machine that sits there doing nothing and eventually reports a fill fault. Listen for the click in the first few seconds of a cycle before you go looking at the water supply."
+    },
+    {
+      "q": "Is E1 the same as E10 on a Frigidaire washer?",
+      "a": "They are the same family of fault displayed differently by machine type. Top loaders show E1 for a long fill; front loaders use the two-digit E1x group, where E10 is the water inlet fault and E11 is the fill taking too long. Every check on this page applies to both. Some other brands use E1 for a drain fault, so do not trust cross-brand charts."
+    },
+    {
+      "q": "Why did E1 appear suddenly when nothing changed?",
+      "a": "Inlet screens clog gradually and then cross a threshold, so the failure looks sudden even though it has been building for months. The other common trigger is plumbing work elsewhere in the house: a stopcock turned down, a meter change, or a mains repair that stirs up sediment and lands it in your screens within a week."
+    },
+    {
+      "q": "My washer is filling but still shows E1. What now?",
+      "a": "It is filling too slowly, or the control cannot see the level rising. Clean both inlet screens and confirm both taps are fully open, since a part-closed tap fills but not fast enough. If it fills at a normal rate and the code still appears, check the thin air hose from the bottom of the outer tub to the pressure sensor for soap scum."
+    },
+    {
+      "q": "Can a frozen hose cause E1?",
+      "a": "Yes, and it is the standard winter cause for machines in garages, outbuildings or anywhere plumbed along an outside wall. The giveaway is a hose that feels rigid and very cold. Thaw it with warm towels rather than any kind of flame or boiling water, and lag the pipework before the next cold snap."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Where a Frigidaire top loader draws water, and the four things that stop it",
+    "labels": {
+      "display": "E1",
+      "c1": "Both taps fully open",
+      "c2": "Mesh screens in the inlet ports",
+      "c3": "Lid must lock before it fills",
+      "c4": "Bucket test for weak pressure"
+    }
+  },
+  "sources": [
+    {
+      "title": "Top loading washer displaying error code E1, long fill time",
+      "publisher": "Frigidaire owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Water supply connection, hose and screen maintenance",
+      "publisher": "Frigidaire use and care guide supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on E1 and E10 fill faults and inlet valve testing",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E10",
+    "E11",
+    "E4",
+    "E20",
+    "E21"
+  ]
+}

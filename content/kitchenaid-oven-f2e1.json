@@ -1,0 +1,123 @@
+{
+  "title": "KitchenAid Oven F2E1 Error Code: Stuck Key on the Panel",
+  "meta_description": "F2E1 on a KitchenAid oven means the control sees a button held down. Usually grease or steam behind the touch panel rather than a failed board.",
+  "h1": "KitchenAid oven F2E1: the control thinks a button is being held",
+  "answer": "F2E1 on a KitchenAid oven means the control board has seen a key on the touch panel held down continuously for longer than it allows, which on this platform is a couple of minutes. Most of the time nothing is physically pressing it: grease, steam or spilled liquid has worked behind the membrane and is bridging a key contact. Cut the power at the breaker, clean and dry the panel, and let it sit, which clears a large share of them. If the code comes back the instant power is restored with nothing touching the panel, the membrane or its ribbon connector is shorted and needs replacing.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 minutes to try, 1 to 2 hours if the panel needs work",
+  "cost_estimate": { "diy": "$0 to $180", "technician": "$170 to $400" },
+  "safety_warning": "An oven is a 240V appliance. Switch it off at the breaker, not the control panel, before removing any trim or touching the control panel wiring. On gas models the gas valve and its safety circuits are licensed technician work.",
+  "causes": [
+    {
+      "cause": "Grease or steam has bridged a key contact behind the membrane",
+      "frequency": "most cases",
+      "confirm": "The oven sits below or beside a cooktop that gets used hard, and the panel feels slightly tacky. Nothing is touching the buttons, yet the control insists one is held. Cleaning and a long dry-out clears it, which both confirms the cause and fixes it."
+    },
+    {
+      "cause": "Something is physically leaning on the panel",
+      "frequency": "most cases",
+      "confirm": "Look before you dismantle anything: a kettle pushed back against a slide-in range's controls, a cookbook propped on the panel, a magnetic rack, or a child who found the buttons. Move everything off and away and see whether the code clears on the next power cycle."
+    },
+    {
+      "cause": "Spilled liquid has got behind the overlay",
+      "frequency": "common",
+      "confirm": "Something boiled over or was wiped across the panel with a soaking cloth shortly before the code appeared. You may see a faint tide mark or a lifted edge on the overlay. This version often clears after a day or two of drying with the breaker off."
+    },
+    {
+      "cause": "The membrane switch or its ribbon has failed",
+      "frequency": "common",
+      "confirm": "The code returns within seconds of power being restored, with a clean dry panel and nothing near the buttons. Another tell is a key that no longer responds at all, or a different key triggering when pressed, which means the layers have broken down rather than being dirty."
+    },
+    {
+      "cause": "The ribbon connector at the control board is corroded or loose",
+      "frequency": "occasional",
+      "confirm": "With the breaker off and the panel open, look at the flat ribbon where it plugs into the board. A ribbon not seated square, a tarnished contact strip, or a crease across the conductors mimics a shorted key exactly, and reseating it costs nothing."
+    },
+    {
+      "cause": "The control board itself has failed",
+      "frequency": "rare",
+      "confirm": "A known-good panel still produces the code, or the display misbehaves in other ways too. This is the diagnosis of exclusion and the most expensive answer, so it comes last rather than first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clear everything away from the panel",
+      "detail": "Before touching any tools, look at what is near the controls. On a slide-in range the panel sits right where people push a kettle or a utensil crock back against the wall. Move everything at least a hand's width clear, including anything magnetic stuck to the oven front, then see whether the code survives a power cycle.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Switch off at the breaker for five minutes",
+      "detail": "Turn the oven off at its breaker, which on an electric range is a double-pole 240V breaker, and leave it a full five minutes. The board holds residual charge and a quick off-and-on frequently leaves the stored fault in place. Restore power and watch the display for the first thirty seconds without touching anything at all.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The Cancel button does not isolate the control."
+    },
+    {
+      "name": "Clean the panel properly",
+      "detail": "With the breaker off, wipe the whole control panel with a cloth dampened with warm water and a little dish soap, then go round every key edge with a cotton swab to lift the grease that collects in the seams. Finish with a second cloth wrung out in clean water, then dry thoroughly. Never spray cleaner directly at the panel; spray the cloth, because liquid driven into a seam is what causes this in the first place.",
+      "minutes": 15,
+      "tools": "Soft cloths, cotton swabs, mild dish soap",
+      "warning": "Breaker off. Do not spray any liquid directly onto the control panel."
+    },
+    {
+      "name": "Press every key in turn and note what happens",
+      "detail": "With power restored, work along the panel pressing each key once and watching the display respond. You are looking for a key that does nothing, a key that needs unusual pressure, a key that feels spongy compared to its neighbours, or one that triggers a different function. Any of those localises the fault to the membrane rather than the board, and tells a technician exactly where to look.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Dry it out for longer than feels necessary",
+      "detail": "If anything was spilled, leave the breaker off for 24 hours with a fan blowing across the panel from a foot away. Moisture trapped between the overlay layers takes far longer to leave than the surface suggests, and people give up after an hour and buy a panel they did not need. This step costs a day and nothing else.",
+      "minutes": 60,
+      "tools": "Small fan",
+      "warning": null
+    },
+    {
+      "name": "Reseat the ribbon connector at the board",
+      "detail": "Switch off at the breaker. Remove the screws along the rear of the control panel, or the trim strip on a wall oven, and tilt the panel forward, supporting it so it does not hang on its wiring. Find the flat ribbon cable from the keypad to the board, release its latch, pull it straight out, check the contact strip for tarnish or a crease, and push it back in square until the latch closes.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, nut driver, flashlight",
+      "warning": "Breaker off and verified off before the panel comes apart. Element circuits share this compartment."
+    }
+  ],
+  "still_showing": "If the panel is clean and dry, nothing is leaning on it, and F2E1 returns within seconds of power coming back, the fault is electrical rather than physical and the choice is between the keypad membrane and the control board. The cheap test that separates them is the key response walk: press every key and note which ones work. A panel where one specific key is dead, spongy or triggers the wrong function is telling you the membrane layers have broken down, and the membrane or the keypad and overlay assembly is the part. A panel where every key responds normally and the code still appears, or where the display itself is also misbehaving, points at the board. On most KitchenAid ovens the keypad is sold either as a membrane overlay on its own or as a complete control panel assembly with the board attached, and the price difference between those two is large, so make sure you are ordering the right one for your model number rather than the first result for the code. Three cautions worth the paragraph. First, the ribbon connector is genuinely worth checking before you buy anything, because a crease or a tarnished contact strip produces an identical symptom and costs nothing to reseat. Second, if the oven is otherwise usable, understand what the code is doing: a control that believes a key is held will usually refuse to start a cycle, so this is not a fault you can work around by ignoring it. Third, if the code started after a self-clean cycle, consider heat as the cause rather than grease, since self-clean temperatures are hard on the panel adhesive and the ribbon, and that version tends not to recover with cleaning. Finally, on a range over about twelve years old, a full control panel assembly plus labor can approach the price of a replacement, so get the fitted quote before committing.",
+  "reset_procedure": "Switch the oven off at its breaker for five full minutes, then restore power. The five minutes matters because the board holds residual charge and a quick cycle leaves the stored fault in place. Watch the display for thirty seconds without touching the panel. A code that stays away while you keep your hands off, then returns when you use a particular key, localises the fault to that key rather than to the board.",
+  "model_notes": "KitchenAid ovens are built on the Whirlpool platform, so these two-part codes read as a failure group followed by a specific condition: F2 is the user interface group and E1 the stuck or shorted key condition within it. Sources agree on the stuck-key reading and most describe the trigger as a key held for roughly two minutes, though that threshold comes from repair references rather than from Whirlpool directly. One paywalled reference instead describes F2E1 as the board detecting a shorted keypad and points at the harness or control board, which is the same fault seen from the electrical side rather than a contradiction. If your panel is clean and dry and the code is instant, treat that shorted reading as the live one.",
+  "parts": [
+    { "name": "Keypad membrane or touch panel overlay", "cost": "$70 to $200", "difficulty": "moderate", "note": "Check whether your model sells the membrane separately before ordering the full assembly" },
+    { "name": "Control panel assembly with board", "cost": "$180 to $450", "difficulty": "technician only", "note": "Much dearer than the membrane alone; confirm which part your model needs" },
+    { "name": "Keypad ribbon cable", "cost": "$20 to $60", "difficulty": "moderate", "note": "Only when the ribbon is creased or its contacts are tarnished" }
+  ],
+  "when_to_call": "Call a technician if the panel is clean and dry, the ribbon is seated, and the code returns instantly, and you would rather not guess between a membrane and a full control assembly, because those parts differ in price by a factor of three and ordering the wrong one is an expensive mistake. Call as well if you are not comfortable opening the control panel on a 240V appliance, which is a reasonable place to stop. On a gas range, leave anything behind the panel to a licensed technician, since the gas valve and its safety circuits share that space. If the panel shows any sign of scorching or a burnt smell, switch off at the breaker and do not restore power.",
+  "faqs": [
+    { "q": "What does F2E1 mean on a KitchenAid oven?", "a": "The control has seen a key on the touch panel held down continuously for longer than it allows, which repair references put at around two minutes. Usually nothing is physically pressing it: grease, steam or spilled liquid behind the membrane is bridging a contact. Cleaning the panel and drying it out clears a large share of these." },
+    { "q": "Can I still use my oven with an F2E1 code?", "a": "Generally not, because a control that believes a button is held will refuse to start a cycle. There is no fire risk in leaving the code displayed, so it is not an emergency. Switch the oven off at the breaker while you work on it, both for safety and because the power cycle is part of the fix." },
+    { "q": "How do I clean the panel without making it worse?", "a": "Spray the cloth, never the panel. Use a cloth dampened with warm water and a little dish soap, go round every key edge with a cotton swab, wipe again with a clean damp cloth and dry thoroughly. Liquid driven into a seam by a spray bottle is one of the main ways this fault starts." },
+    { "q": "Why did F2E1 appear suddenly?", "a": "Grease and steam accumulate behind the overlay for months and then bridge a contact at one particular moment, so a slow build-up looks like a sudden failure. The other sudden version is something leaning on the panel, which is worth ruling out first because it takes ten seconds and happens more often than people admit." },
+    { "q": "Do I need a new keypad or a new control board?", "a": "Press every key and note what happens. A specific key that is dead, spongy or triggers the wrong function means the membrane has broken down, so the keypad is the part. Every key responding normally while the code persists, or a display misbehaving in other ways, points at the board instead." },
+    { "q": "Will unplugging the oven fix F2E1?", "a": "It clears the stored code and sometimes that is all you need, particularly if something had been leaning on the panel. Switch off at the breaker for a full five minutes rather than tapping it off and on. If the code comes back within seconds with a clean panel and your hands nowhere near it, the fault is real." },
+    { "q": "Can a self-clean cycle cause F2E1?", "a": "It can. Self-clean runs the cavity far hotter than any cooking cycle, and that heat stresses the panel adhesive and the ribbon connector above it. A code that first appears right after a self-clean tends not to recover with cleaning, because the cause is heat damage rather than grease, and usually needs the panel replaced." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where a stuck key comes from: membrane, ribbon and board",
+    "labels": {
+      "display": "F2E1",
+      "c1": "Nothing leaning on the panel",
+      "c2": "Clean every key seam",
+      "c3": "Press each key, note response",
+      "c4": "Ribbon seated at the board"
+    }
+  },
+  "sources": [
+    { "title": "Whirlpool platform oven fault code structure and F2 group descriptions", "publisher": "Appliance parts retailer service documentation", "url": null },
+    { "title": "KitchenAid oven error code reference, user interface faults", "publisher": "Appliance repair trade reference listings", "url": null },
+    { "title": "Alternative reading of F2E1 as a shorted keypad circuit", "publisher": "Appliance repair reference, cited for the disagreement", "url": null },
+    { "title": "Field reports on grease ingress behind touch panels", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F1E0", "F1E1", "F8E0", "F2E0", "F3E0"]
+}

@@ -1,0 +1,123 @@
+{
+  "title": "Maytag Oven F3 Error Code: Temperature Sensor Fault",
+  "meta_description": "Maytag F3 points at the oven temperature sensor circuit. Test the probe at the back of the cavity with a meter before you suspect the control board.",
+  "h1": "Maytag oven F3 error code: what it means and how to fix it",
+  "answer": "F3 means the control cannot get a usable reading out of the oven temperature sensor, so it has stopped rather than heat blind. The sensor is a thin metal probe about the length of a finger, mounted through the back wall of the oven cavity, usually in an upper corner. Most of the time the probe itself has failed open or its plug behind the oven has worked loose. You can settle which in about fifteen minutes with a multimeter and no reference value, because an open circuit and a dead short both read unmistakably.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "20 minutes to test, about an hour to replace the sensor",
+  "cost_estimate": { "diy": "$25 to $60", "technician": "$150 to $300" },
+  "safety_warning": "The sensor plug sits behind the oven alongside mains wiring and, on a gas range, the gas line. Switch the oven off at its breaker before pulling it out or removing the back panel, and never work on it live to save time.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has failed open",
+      "frequency": "most cases",
+      "confirm": "Unplug the sensor at the rear and put a meter across its two pins. An open circuit, shown as OL or infinite on most meters, means the probe or its internal lead is broken. This is unambiguous and needs no reference value for your model."
+    },
+    {
+      "cause": "The sensor plug behind the oven is loose or corroded",
+      "frequency": "common",
+      "confirm": "Pull the two halves of the connector apart and look at them. A pin pushed back into its housing, green furring, or a browned shell from heat all break the circuit while looking perfectly connected from outside. Costs nothing to find and nothing to fix."
+    },
+    {
+      "cause": "The harness between the sensor and the control is damaged",
+      "frequency": "occasional",
+      "confirm": "Follow the two wires from the sensor connector back toward the control. Look for a section pinched behind the oven against the wall, rubbed through on a sharp edge, or scorched where it has rested against something hot. A wire broken inside intact insulation reads open at the plug but the probe tests fine."
+    },
+    {
+      "cause": "The sensor is good and the control cannot read it",
+      "frequency": "occasional",
+      "confirm": "The probe gives a sensible steady resistance that rises when you warm it in your hand, the connector is clean, the harness is sound, and F3 still comes back. At that point the sensing circuit on the board is the remaining suspect."
+    },
+    {
+      "cause": "On some Maytag generations F3 is a control fault rather than a sensor fault",
+      "frequency": "occasional",
+      "confirm": "The sensor tests perfectly, nothing in the harness is wrong, and the code appears the instant you power up rather than when the oven tries to heat. Check whether your display shows a suffix such as F3-E1, because the suffix narrows it where the bare code does not."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down the full code, suffix included",
+      "detail": "Look at the display and note whether it shows a bare F3 or something longer like F3-E1 or F3 E1. The suffix matters because Maytag uses it to narrow which part of the sensing circuit the control is unhappy with, and a service technician will ask for it. Photograph the display rather than trusting your memory of it.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Power cycle at the breaker",
+      "detail": "Switch the oven off at its circuit breaker for five minutes, then back on. A genuine sensor failure returns immediately, so this costs you five minutes and occasionally saves the whole job by clearing a stored fault from a one-off glitch or a brownout. If the code comes straight back, you have learned something useful and can stop resetting it.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the sensor inside the oven cavity",
+      "detail": "Open the door and look at the back wall of the oven, usually the upper left or upper right corner. The sensor is a thin stainless probe two to four inches long, standing out from the wall on a small bracket held by two screws. Make sure it is not bent against the wall or touching a rack, because a probe pressed against hot metal reads the wall rather than the air.",
+      "minutes": 5,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Cut the power and reach the sensor plug",
+      "detail": "Switch off the breaker feeding the oven. On a freestanding range, pull it forward and take off the rear access panel, usually a dozen screws around the edge. On a wall oven, the connector is reached either by sliding the unit out of its cabinet or through the rear panel. The sensor's two wires run back to a small white or brown two-pin connector a few inches behind the cavity wall.",
+      "minutes": 20,
+      "tools": "Nut driver or Phillips screwdriver, flashlight",
+      "warning": "Breaker off before the back panel comes off. Oven wiring is mains voltage and some terminals stay live at the panel even with the oven switched off at its own controls."
+    },
+    {
+      "name": "Test the sensor without needing a reference value",
+      "detail": "Unplug the two-pin connector and set a multimeter to ohms across the sensor side only. Three outcomes tell you everything. Open circuit, shown as OL, means the probe or its lead is broken and the sensor is dead. A reading of almost zero means it is shorted. A steady sensible reading means the probe is alive, and you can confirm it is working by warming the tip in your hand or with a hair dryer on low and watching the number climb. An oven sensor is a resistance element that rises as it heats, so a reading that climbs when warmed is a healthy one.",
+      "minutes": 15,
+      "tools": "Multimeter",
+      "warning": "Only test with the oven dead at the breaker, and only across the sensor side of the unplugged connector, never across the control side."
+    },
+    {
+      "name": "Inspect the connector and the harness",
+      "detail": "With the plug apart, look into both halves. Push gently on each pin to check none has backed out of its housing, and look for green corrosion or a browned, brittle shell from years of heat. Then run the two wires back toward the control looking for a pinch behind the oven, a rub mark on a sharp edge, or scorching. A heat-damaged connector is a common find and a cheap fix.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Replace the sensor if it tested open or shorted",
+      "detail": "Two screws hold the bracket inside the cavity. Undo them, feed the old probe and its lead back through the hole toward the rear, and pull the new one through the same way. Seat the bracket flat so the probe stands clear of the wall and cannot touch a rack. Reconnect the plug until it clicks, refit the back panel, restore power and run a bake cycle at a middling temperature to confirm it holds.",
+      "minutes": 45,
+      "tools": "Nut driver, Phillips screwdriver, replacement oven temperature sensor",
+      "warning": "Breaker off for the whole job, and back on only once the rear panel is refitted."
+    }
+  ],
+  "still_showing": "If the sensor tests healthy and F3 keeps coming back, work through this before anyone orders a control board, because the board is the expensive end and it is blamed far more often than it fails. First, retest the sensor at the control end rather than at the sensor. Unplug the connector, put the meter across the two pins on the harness side and have someone wiggle the loom where it passes behind the oven: a reading that flickers between a value and open circuit means a broken conductor inside intact insulation, which is invisible and cheap to fix once you know. Second, check the probe is physically positioned right. A sensor bent so it touches the cavity wall or sits against a rack reads metal temperature rather than air, and that can produce a sensing fault as well as bad cooking results; bending it back clear costs nothing. Third, consider heat damage at the connector itself, which is the single most common thing a technician finds after the sensor has already been changed. A connector that has cooked brown over the years makes intermittent contact that tests fine cold on the bench and fails at temperature, so if your F3 only appears once the oven is hot, suspect the plug rather than the probe. Fourth, if all of that is sound, the sensing circuit on the control board is what is left, and that is where the cost jumps to a few hundred dollars once labor is added. Before you approve it, weigh it against the oven: a control board on a range over ten years old is usually most of the way to a replacement. One thing to check first, because it is free: confirm whether the code carries a suffix. Maytag's bare F3 and its suffixed variants are not documented identically, and on some generations the bare code points at the control rather than the sensor, which changes who you should be calling.",
+  "reset_procedure": "Switch the oven off at its circuit breaker for five minutes and back on, rather than using the cancel button. The control holds the stored fault and cancelling at the panel often leaves the code on the display after the problem is fixed. A real sensor failure re-posts F3 within seconds of power returning, so a code that comes straight back has told you the fault is still live and there is no point resetting it again.",
+  "model_notes": "Maytag has been part of the Whirlpool group since 2006 and the oven code sets reflect that, so a Maytag F3 behaves like its Whirlpool and KitchenAid equivalents. Published sources do not fully agree on what the bare F3 means: most describe it as the oven temperature sensor circuit, which matches what technicians find, but some repair references list it as a main control board or wiring fault instead. Newer Maytag ovens use a two-part code such as F3-E1, and the suffix narrows the fault where the bare code does not. The sensor test on this page is worth doing whichever reading applies, because it settles the question in fifteen minutes and costs nothing.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $60", "difficulty": "easy", "note": "Two screws and a plug; the most likely part by a distance" },
+    { "name": "Sensor connector or wiring pigtail", "cost": "$12 to $30", "difficulty": "moderate", "note": "For a connector cooked brown by years of heat" },
+    { "name": "Oven control board", "cost": "$160 to $350", "difficulty": "technician only", "note": "Last resort, and only after the sensor and harness are proven good" }
+  ],
+  "when_to_call": "Call a technician if the sensor and harness both test good and F3 persists, because the next step is diagnosing the sensing circuit on a live control board and that is not a job to improvise behind a range. Call sooner if you are not comfortable pulling a range out and taking the back off, which on a gas model means working near the supply line, and gas connections are a licensed job. And get a quote in writing before agreeing to a control board on an oven over ten years old, because with labor added it usually lands close enough to a new range that replacing it is the better use of the money.",
+  "faqs": [
+    { "q": "Can I still use the oven with an F3 code?", "a": "No, and you should not try. The control has lost its temperature reading, so it either refuses to heat or cannot regulate what it does produce. An oven heating without a working sensor is a fire risk rather than an inconvenience. Switch it off at the breaker and leave it off until the sensor circuit is sorted out." },
+    { "q": "Where is the oven temperature sensor on a Maytag?", "a": "Inside the oven cavity, on the back wall, usually in an upper corner. It is a thin stainless probe two to four inches long on a small bracket held by two screws. Its two wires pass through the wall and run to a plug behind the oven, which is where you test it and where it most often fails." },
+    { "q": "How do I test the sensor without knowing the right resistance?", "a": "You do not need the reference value. Unplug the sensor and read across its two pins: open circuit means it is broken, near zero means it is shorted, and either answer is conclusive. If you get a sensible steady reading, warm the tip in your hand and watch the number climb, which confirms the probe responds to heat." },
+    { "q": "Why did F3 appear suddenly when the oven was fine yesterday?", "a": "Oven sensors tend to fail outright rather than drift, so the symptom really is sudden. The lead inside the probe breaks from years of heating and cooling, or a connector that has slowly cooked brown finally stops making contact. Self-clean cycles accelerate both, so F3 showing up just after a clean is a common story." },
+    { "q": "Is F3 the sensor or the control board?", "a": "Usually the sensor, but the published sources split on it and some Maytag generations use F3 for a control fault. The meter test settles it in fifteen minutes without needing to know which documentation applies to your model, which is why it is worth doing before anyone quotes you for a board." },
+    { "q": "Is an F3 repair worth it?", "a": "If it is the sensor, clearly yes: a $25 to $60 part and an hour of work on an appliance worth far more. If the sensor tests good and the control board is the remaining suspect, think harder. A board plus labor on a range over ten years old generally comes close to the cost of replacing the whole thing." }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "Testing the Maytag oven temperature probe at its plug",
+    "labels": {
+      "display": "F3",
+      "c1": "Probe on the cavity back wall",
+      "c2": "Two-pin plug behind the oven",
+      "c3": "Meter on ohms across the pins",
+      "c4": "Warm the tip, reading should rise"
+    }
+  },
+  "sources": [
+    { "title": "Maytag oven and range error code references", "publisher": "Maytag owner support documentation", "url": null },
+    { "title": "Maytag and Whirlpool range service literature, oven temperature sensor circuit", "publisher": "Whirlpool group service documentation", "url": null },
+    { "title": "Field notes on F3 and F4 oven sensor codes and connector heat damage", "publisher": "Appliance repair trade references and technician forums", "url": null }
+  ],
+  "related_codes": ["F3-E1", "F4", "F1", "F5"]
+}

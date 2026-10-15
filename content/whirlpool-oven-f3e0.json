@@ -1,0 +1,118 @@
+{
+  "title": "Whirlpool Oven F3 E0 Error Code: Sensor Out of Range",
+  "meta_description": "Whirlpool F3 E0 means the oven sensor is reading outside the range the control accepts. Usually a failed probe or its wiring. Here is the meter test.",
+  "h1": "Whirlpool oven F3 E0 error code: what it means and how to fix it",
+  "answer": "F3 E0 means your Whirlpool oven's control is getting a temperature reading it treats as impossible, so it stops rather than heat blind. The F3 half identifies the oven temperature sensing circuit and the E0 half says the reading is outside the acceptable range, which in practice means the sensor has gone open circuit, shorted, or lost its connection somewhere between the probe and the board. The part itself is a slim metal probe inside the cavity held by two screws, costing $20 to $60, which makes this one of the cheaper oven faults to put right. Pull it out, read across it with a meter, and warm it with a hair dryer: a reading that climbs means the probe is fine and the fault is in its wiring instead.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes to 1 hour",
+  "cost_estimate": { "diy": "$20 to $60", "technician": "$150 to $300" },
+  "safety_warning": "An oven runs on a 240 volt circuit and a built-in is often hardwired with no plug, so the breaker is the only disconnect. Switch it off there and confirm it is dead before reaching into the cavity or opening the console. Let the oven cool completely first, and test the sensor disconnected rather than with power on. On a gas range, the gas valve, safety valve and igniter go to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor probe has failed",
+      "frequency": "most cases",
+      "confirm": "Remove the probe and read across its terminals with a multimeter on ohms. Infinite resistance means it has gone open circuit, which is the commonest way these fail, and a reading near zero means it has shorted. Either confirms the part."
+    },
+    {
+      "cause": "The sensor leads have been cooked by heat, usually from self-clean",
+      "frequency": "most cases",
+      "confirm": "The probe reads sensibly and climbs when warmed, so it is fine, yet the code persists. Look where the two leads pass through the rear of the liner: brown, stiff insulation that cracks when flexed, or a lead rubbed bare on the metal, reads exactly like a dead sensor."
+    },
+    {
+      "cause": "The sensor connector at the control board is loose or corroded",
+      "frequency": "common",
+      "confirm": "Everything from the probe back tests good. With the breaker off, open the console and find where the sensor circuit lands on the board. A connector backed partly out, or greened contacts, interrupt the circuit just as effectively as a broken probe."
+    },
+    {
+      "cause": "The connector behind the oven liner has worked apart",
+      "frequency": "common",
+      "confirm": "The short lead from the probe ends in a plug sitting just behind the cavity wall. On ovens that have been moved, serviced or had the liner disturbed, that plug is sometimes half seated or has a terminal pushed back into its housing."
+    },
+    {
+      "cause": "The control board has failed on its sensor input",
+      "frequency": "occasional",
+      "confirm": "New probe, sound leads, a clean and firmly seated connector at the board, and F3 E0 still showing. The answer of exclusion and the expensive one, so it belongs last rather than first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Confirm you have both halves of the code",
+      "detail": "Watch the display through two full cycles of the message. Whirlpool alternates the halves about once a second, so a glance gives you F3 and nothing else, and a plain F3 on an older oven is a slightly different code with its own page. You want to see F3, then E0, then F3 again. Film it on your phone and pause the video if it cycles too quickly to be sure.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Switch off at the breaker and let the oven cool",
+      "detail": "Go to the panel and switch the oven's breaker fully off, both halves if it is a double pole, then confirm the oven is dead. Its own power button does not isolate it and a hardwired wall oven has no plug to pull. Give the cavity time to cool completely, because you are about to reach inside and an oven holds useful heat long after the display goes dark.",
+      "minutes": 10,
+      "tools": "Torch",
+      "warning": "Breaker off and verified dead before anything else."
+    },
+    {
+      "name": "Remove the sensor probe from the cavity",
+      "detail": "Look at the upper left or upper rear of the cold cavity for a slim metal probe a few inches long on a bracket with two screws. Undo the screws and draw the probe forward into the oven, feeding its short lead through gently rather than pulling on it. The lead ends in a connector just behind the liner; separate that so the probe is isolated and you can test it on its own.",
+      "minutes": 20,
+      "tools": "Nut driver set, Phillips #2 screwdriver, torch",
+      "warning": "Breaker off. Feed the lead rather than dragging it, or you will damage the thing you are trying to test."
+    },
+    {
+      "name": "Meter the probe, then warm it and watch the reading",
+      "detail": "Put a multimeter on ohms across the probe's two terminals. Infinite or OL means open circuit, near zero means shorted, and a sensible mid-range number means it may be healthy. Confirm with heat: warm the metal tip with a hair dryer for a minute and the reading should climb steadily, because this sensor type rises in resistance as it heats. A number that will not move condemns it. The exact figure for your model is on the service sheet supplied with the appliance, and this test needs no figure at all.",
+      "minutes": 15,
+      "tools": "Multimeter, hair dryer",
+      "warning": "Test with the probe disconnected and the breaker off. Never meter a sensor on a live oven."
+    },
+    {
+      "name": "Check the leads and both connectors if the probe is healthy",
+      "detail": "Flex each lead gently along its length where it passes through the back of the liner. Insulation that is brown and stiff, or that cracks and flakes, has been cooked and needs replacing rather than taping. Then reseat the connector behind the liner, and with the console open check where the sensor circuit lands on the control board for a backed-out terminal or green corrosion. Clean, reseat, retest before ordering anything.",
+      "minutes": 25,
+      "tools": "Nut driver set, torch",
+      "warning": "Breaker off throughout. The console carries mains voltage on the board's relay side."
+    },
+    {
+      "name": "Fit the new probe and prove it under heat",
+      "detail": "Thread the new sensor's lead back through the liner, couple the connector firmly, and screw the bracket back so the probe stands clear of the rack runners and does not touch the cavity wall. Restore power, reset the control at the breaker if the code is still displayed, then set a moderate bake temperature and let it run a full fifteen minutes. A cold display proves nothing; an oven that holds temperature does.",
+      "minutes": 25,
+      "tools": "Nut driver set, Phillips #2 screwdriver",
+      "warning": "Breaker off while fitting. A probe touching the liner reads wrong and brings the code straight back."
+    }
+  ],
+  "still_showing": "If a new probe has not cleared F3 E0, the fault was never in the part you replaced, and what remains is cheap to work through. The leads are the first suspect and the one people skip. They run from the connector behind the liner into the hottest wiring space in the appliance, and after enough heat cycles the insulation goes brown and brittle and either cracks open or lets a conductor touch the metal. Both read on a meter exactly like a dead sensor, which is how ovens end up with two new probes fitted and the same code. Flex every inch of both leads and replace any that crumbles. Next, follow the circuit to the control board with the breaker off, find where the sensor pair lands, and check for a terminal that has backed out of its housing or a green bloom across the contacts; reseating that is free and fixes a real share of these. If the probe is good, the leads are supple and the board connector is clean and tight, the sensor input on the control board is what is left, and at $120 to $400 for the part plus labor on a built-in that is worth having confirmed by someone with a meter rather than bought on a hunch. Two notes on the background. Ask when the oven last ran a self-clean, because that cycle is the leading cause of cooked sensor leads and drifted probes, and a fault dated within a week of one almost always traces back to it. And treat the specific temperature cut-offs quoted for this code on repair sites as third-party estimates of what the control considers out of range rather than measurements from Whirlpool, because that is what they are, and nothing in the repair depends on the exact numbers.",
+  "reset_procedure": "Switch the oven off at its circuit breaker, leave it five minutes, then switch it back on. The control stores the fault, so a freshly fitted sensor will keep showing F3 E0 until the board has been reset properly. The oven's own cancel and power buttons do not reset the control and do not isolate the appliance. Test afterwards by setting a moderate bake temperature and giving it fifteen minutes, rather than trusting a display that merely looks clear.",
+  "model_notes": "F3 E0 belongs to Whirlpool's two-part code system, where the F half names the system and the E half names the specific fault within it. On older ovens the same family of sensor faults appears as a plain F3, sometimes paired with F4, so if your display shows no second half you are on the older code set and our F3 page covers it. Within the F3 group the E half matters a great deal: E0 is the sensor reading out of range, while F3 E2 is an over-temperature warning and a more urgent problem. The published descriptions of E0 vary between an open sensor, a shorted sensor and a reading beyond fixed limits, and the specific limit figures quoted online come from third-party repair references rather than the manufacturer. The same code appears on KitchenAid, Maytag and Amana ovens built on the Whirlpool platform.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$20 to $60", "difficulty": "easy", "note": "Two screws inside the cavity and a connector; the usual answer" },
+    { "name": "Sensor lead and connector block", "cost": "$15 to $45", "difficulty": "moderate", "note": "For brown, stiff or chafed leads where the probe tests healthy" },
+    { "name": "Electronic oven control board", "cost": "$120 to $400", "difficulty": "technician only", "note": "Only after probe, leads and board connector have all been cleared" }
+  ],
+  "when_to_call": "This is one of the more approachable oven repairs, so the reasons to call are specific. Call a technician when a new probe and sound wiring have not cleared the code, because the remaining suspect is the control board and testing it means working behind an open console on a live 240 volt circuit. Call as well on a built-in wall oven where the sensor connector cannot be reached from inside the cavity, since getting behind it usually means pulling the oven out of its cabinet and that is a two-person lift on a heavy appliance. On a gas range, the sensor itself is the same easy part, but anything touching the gas valve, the safety valve or the igniter goes to a licensed technician.",
+  "faqs": [
+    { "q": "What does F3 E0 mean on a Whirlpool oven?", "a": "The oven temperature sensing circuit is giving the control a reading it treats as impossible, so the oven stops rather than heat without knowing how hot it is. F3 identifies the sensing circuit and E0 says the reading is out of range, which usually means the probe has failed open or its wiring has broken somewhere." },
+    { "q": "Is F3 E0 the same as a plain F3?", "a": "They are the same family of fault on two generations of control. Older Whirlpool ovens use single codes, so a sensor problem shows as F3 or F4. Newer ovens split codes into a system half and a fault half, giving F3 E0. The diagnosis and the part are the same, so every check here applies to both." },
+    { "q": "How do I test the oven sensor myself?", "a": "Switch off at the breaker, let the oven cool, and unscrew the probe from inside the cavity. Unplug it and read across the two terminals with a multimeter on ohms. Then warm the tip with a hair dryer: the reading should climb, since this sensor type rises in resistance with heat. No movement or an open circuit means replace it." },
+    { "q": "Can I still use the oven with F3 E0 showing?", "a": "No, and it will generally refuse to heat anyway. The control has lost its only trustworthy measure of cavity temperature, and heating without it is not something the oven will do or should do. It is a cheap repair rather than a long outage, so there is little reason to try to work around it." },
+    { "q": "Why did F3 E0 appear suddenly?", "a": "Oven sensors fail by going open circuit, which happens in an instant rather than gradually, so a perfectly normal oven becomes a dead one between one bake and the next. The other common story is lead insulation that has been slowly cooking for years and finally cracks through, which also presents as a sudden failure." },
+    { "q": "Did self-clean cause this?", "a": "Often, yes. Self-clean holds the cavity far hotter than any cooking does, for hours at a time, and the probe and its leads sit right in that heat. Cooked insulation and drifted probes are standard outcomes. A sensor fault that first appeared during or within a week of a clean cycle has usually been caused by it." },
+    { "q": "What does it cost to fix F3 E0?", "a": "The sensor is $20 to $60 and the job takes under an hour with a nut driver, which makes this one of the cheapest oven repairs available. A technician doing the same work charges $150 to $300 including the part. Only a control board fault goes beyond that, and it is not the usual outcome." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The oven sensor circuit and the four places F3 E0 comes from",
+    "labels": {
+      "display": "F3 E0",
+      "c1": "Probe, two screws in the cavity",
+      "c2": "Meter it, then warm it",
+      "c3": "Cooked leads behind the liner",
+      "c4": "Sensor connector at the board"
+    }
+  },
+  "sources": [
+    { "title": "Oven temperature sensor error codes on ranges and wall ovens", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool oven technical sheet, sensor circuit and resistance table", "publisher": "Service sheet supplied with the appliance", "url": null },
+    { "title": "Third-party readings of F3 E0 range limits and connector locations", "publisher": "Appliance repair trade reference sites", "url": null },
+    { "title": "Field method for testing an oven sensor without a reference value", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F3", "F3 E2", "F2", "F1", "E1", "F9 E0"]
+}

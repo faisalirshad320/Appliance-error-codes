@@ -1,0 +1,146 @@
+{
+  "title": "LG Dishwasher Error Codes: What Each One Means",
+  "meta_description": "Every LG dishwasher error code explained: AE leak, OE drain, IE fill, LE motor, bE foam, CL child lock. What each means and the first thing to check.",
+  "h1": "LG dishwasher error codes: what the letters mean and where to start",
+  "answer": "LG dishwasher codes are two characters, almost always a letter followed by E for error, and they show up where the time remaining normally sits. The letter tells you which system failed: I for inlet, O for outlet, A for a leak in the base, L and C for the motor, H and t for heating, b for foam, F for overfill. Two of the most searched are not faults at all: CL is the child lock and CD is a cool-and-dry phase after a quick cycle. Before chasing any of them, cut power at the breaker for five minutes, then open the door and look at what is actually in the tub, because water, foam or a dry tub narrows the list faster than any code chart.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to identify, 30 minutes to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $150", "technician": "$130 to $450" },
+  "safety_warning": "Any check that involves removing the toe kick, the door panel or any connector starts with switching the dishwasher off at the breaker, not at the control panel. The panel's Power button does not isolate the machine.",
+  "causes": [
+    {
+      "cause": "Drain faults, shown as OE",
+      "frequency": "most cases",
+      "confirm": "Water sitting in the bottom of the tub when the cycle stops. The filter, the drain hose, the sink air gap and the garbage disposal knockout plug cover the large majority of these, and almost none of them need a part."
+    },
+    {
+      "cause": "Water supply and fill faults, shown as IE or FE",
+      "frequency": "most cases",
+      "confirm": "IE means not enough water got in and the tub is dry or barely wet. FE is the opposite, too much water, and the drain pump will usually be running on its own. For IE, check the shut-off valve under the sink before anything else."
+    },
+    {
+      "cause": "Leak detection, shown as AE",
+      "frequency": "common",
+      "confirm": "Take the toe kick off and look into the shallow metal tray under the tub. Water in that tray has lifted a foam float and tripped the machine's flood protection. This one means stop using it until you find the drip."
+    },
+    {
+      "cause": "Detergent and foam faults, shown as bE or 6E",
+      "frequency": "common",
+      "confirm": "Foam around the tub opening or suds on the water. Caused by hand dish soap, over-dosed rinse aid or a machine that has dropped out of level. The machine stops because foam pushes water past the door seal."
+    },
+    {
+      "cause": "Motor and drive faults, shown as LE or CE",
+      "frequency": "occasional",
+      "confirm": "The cycle stops at the wash step and you never hear the steady whirr of the circulation motor. LG's documentation groups both codes as a motor or wiring harness problem. Debris jamming the impeller is more common than a failed motor."
+    },
+    {
+      "cause": "Heating faults, shown as HE or tE",
+      "frequency": "occasional",
+      "confirm": "The cycle runs but dishes come out cold and wet, or the machine stops partway through the main wash. The water is not reaching temperature, which points at the heating element, its thermistor or the control that drives it."
+    },
+    {
+      "cause": "Displays that are not faults at all, such as CL, CD and CR",
+      "frequency": "common",
+      "confirm": "The machine is not stopping with a beep and an interrupted cycle. CL means the child lock is on, CD is a cool-and-dry phase after a quick cycle, and CR means the machine is in a test mode. None of them need a repair."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly and note when it appeared",
+      "detail": "Take a photo of the display. Note whether the code appeared in the first few minutes, at the drain step at the end, or partway through the wash, because the timing tells you as much as the letters do. A code in the first two minutes is a fill or leak problem; a code at the end is nearly always drainage.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the breaker for five minutes",
+      "detail": "Switch the dishwasher off at the breaker rather than at the panel and leave it five full minutes so the control board loses its residual charge. Restore power and start a rinse-only cycle. A surprising share of one-off codes are latched by a power dip or a momentary stall and never come back. If the code returns, you have learned that the fault is real.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the door and look at what is in the tub",
+      "detail": "This single look splits the whole code list. Standing water means a drain fault. Foam means a detergent fault. A bone-dry tub means the machine never filled. Water on the floor in front of the machine means a door seal or a leak. Soak up any water on the floor now rather than later, before it gets under the cabinet.",
+      "minutes": 5,
+      "tools": "Old towels",
+      "warning": null
+    },
+    {
+      "name": "Clean the filter, whatever the code says",
+      "detail": "Pull the lower rack out, twist the cylindrical filter in the tub floor anticlockwise about a quarter turn and lift it out, then lift the flat mesh screen beneath it. Rinse both under hot water and scrub the mesh with an old toothbrush. A clogged filter causes drain codes directly and makes heating and motor faults worse, and it is free to rule out.",
+      "minutes": 12,
+      "tools": "Dish brush or old toothbrush",
+      "warning": null
+    },
+    {
+      "name": "Check the water in and the water out",
+      "detail": "Under the sink, confirm the shut-off valve on the dishwasher's supply line is fully open, with a quarter-turn lever in line with the pipe rather than across it. Then follow the drain hose: it should rise in a high loop near the underside of the countertop before dropping to the disposal or standpipe, with no crushed section behind a bin. Two minutes here resolves a lot of IE and OE codes.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Take the toe kick off and look into the base",
+      "detail": "The toe kick across the bottom front is held by two to four Phillips screws. With the breaker off, take it off and shine a flashlight into the shallow metal tray under the tub. You are looking for standing water, a wet hose joint, or a foam float that has been lifted. This is also where you see the inlet valve and the drain pump, so it is the single most useful five minutes of any dishwasher diagnosis.",
+      "minutes": 10,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Breaker off before the toe kick comes off. The inlet valve and pump connectors behind it are live when the circuit is on."
+    },
+    {
+      "name": "Get the model number before you buy anything",
+      "detail": "The model number is on a sticker on the inner edge of the door or along the top of the door, visible with the door open. Write it down. LG uses the same codes across very different hardware, so parts, filter design and even the child lock button combination vary by model, and a part ordered off a code rather than a model number is a part you will be sending back.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide whether this is yours to fix",
+      "detail": "Filters, hoses, air gaps, detergent problems, the child lock and levelling are all straightforward DIY. Anything that needs the machine laid on its back with the plumbing disconnected, or any live electrical test, is where most people should stop. If the breaker trips, you smell burning, or water is reaching the cabinet or the floor underneath, switch it off at the breaker and call someone.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code survives a breaker reset and the obvious check for its system, use this order of escalation, which holds for nearly every LG dishwasher fault. First, confirm you are reading the code correctly. LG panels draw a lowercase b and a 6 almost identically, and an O and a 0 the same way, so bE and 6E are the same bubble error, and 0E and OE are both the drain code. Photograph the display and zoom in rather than squinting at it in a dark kitchen. Second, deal with anything in the water path before you believe the code at face value, because a clogged filter can produce drain, heating and motor symptoms that look like three different problems. Third, check connectors before condemning parts. The inlet valve, drain pump and circulation motor connectors all sit in the dampest part of the machine, and corrosion or a backed-out pin there mimics a dead component exactly. With the breaker off, unplug each connector you can reach, look for green crust, and push them firmly home. Fourth, work out whether the next step requires the machine on its back. Splitting the sump to reach the pump or the motor is where this goes from an evening job to a half day with the plumbing disconnected, and that is a reasonable place to call someone. Fifth, before agreeing to a control board, ask what was actually measured. The board is the most expensive part in a dishwasher and the least common cause of any of these codes, and a quote that leads with the board rather than with a test result is worth a second opinion. Finally, do the arithmetic honestly on an older machine. A pump, motor or sump repair with labour on a dishwasher over about eight years old frequently lands within a hundred dollars of a new mid-range unit with a fresh warranty.",
+  "reset_procedure": "The reset is the same for every LG dishwasher code. Press Power to cancel the cycle, switch the machine off at the breaker, wait five full minutes, and switch it back on. The five minutes matters because the board holds residual charge and a quick off-and-on often leaves the stored fault in place. Test with a rinse-only cycle rather than a full wash so you find out in minutes instead of hours. A code that returns immediately on power-up is reporting a condition that is still present, such as water in the base tray or a raised float, rather than a stored memory.",
+  "model_notes": "The codes themselves are consistent across LG's dishwasher range, but the hardware behind them is not. Filter design changed from a one-piece lift-out filter on older models to a twist-out cylinder plus a flat mesh screen on most models since the mid 2010s. The child lock button combination varies by model line. Models with LG's Inverter Direct Drive use a sealed brushless circulation motor, so the diagnostic path for LE and CE leans on mechanical and harness checks rather than winding resistance. Machines paired with the ThinQ app can also generate cloud-side alerts prefixed SmDg, which are notifications derived from the machine's data rather than codes shown on the panel.",
+  "parts": [
+    { "name": "Sump filter set", "cost": "$15 to $35", "difficulty": "easy", "note": "Most filters only need cleaning; replace a torn mesh" },
+    { "name": "Drain pump assembly", "cost": "$40 to $95", "difficulty": "moderate", "note": "The usual part behind a persistent OE" },
+    { "name": "Water inlet valve", "cost": "$25 to $70", "difficulty": "moderate", "note": "The usual part behind a persistent IE" },
+    { "name": "Door perimeter gasket", "cost": "$25 to $60", "difficulty": "moderate", "note": "Common cause of AE and of water on the floor" },
+    { "name": "Circulation wash motor", "cost": "$120 to $260", "difficulty": "hard", "note": "Behind LE and CE once debris and wiring are ruled out" }
+  ],
+  "when_to_call": "Call a technician when the next step requires the machine on its back with the plumbing disconnected, when a live electrical test is needed, or when you have cleared the mechanical and supply side of a code and it still returns. Call immediately, and switch the machine off at the breaker first, if it trips the breaker, if anything smells like burning plastic, or if water has reached the cabinet floor or the subfloor, because water damage outruns the cost of the repair quickly. Call a plumber rather than an appliance technician when the kitchen sink is also draining slowly or the shut-off valve under the sink will not turn, since the fault is in the house plumbing. And get a quote in writing before accepting any repair involving the control board, the sump or the circulation motor on a machine older than about eight years.",
+  "faqs": [
+    { "q": "How do I reset an LG dishwasher?", "a": "Press Power to cancel the cycle, then switch the machine off at the breaker for a full five minutes before restoring power. The board holds residual charge, so a quick off-and-on frequently leaves the stored code in place. Test with a rinse-only cycle. If the code reappears within seconds, the condition that caused it is still present." },
+    { "q": "Which LG dishwasher codes mean I should stop using the machine?", "a": "AE above all, because it means water has reached the base tray and there is a live leak. Any code that comes with a tripping breaker or a burning smell also means stop and switch off at the breaker. OE and IE will refuse to run, and bE should wait until you have flushed the foam out rather than pushing more suds onto the floor." },
+    { "q": "Why do LG dishwasher codes use letters instead of numbers?", "a": "The letter identifies the system and the E stands for error, so I is inlet, O is outlet, A is a water alarm in the base, H is heating, b is bubbles. It is more useful than a number once you know the pattern, because you can usually work out which half of the machine to look at before you look anything up." },
+    { "q": "Is CL an error code on an LG dishwasher?", "a": "No. CL is the child lock, which LG also calls Control Lock, and the machine is working fine. Hold the two buttons marked with the small padlock icon for about three seconds to switch it off. The pair varies by model, so look at the panel markings or the label inside the door edge rather than guessing." },
+    { "q": "Does my LG dishwasher have a diagnostic or test mode?", "a": "Most do, and some models display CR while they are in it. The entry sequence varies by model and it is documented on the service sheet rather than in the owner's manual, so look it up against your exact model number. It is more useful to a technician than to an owner, since it reports component states rather than plain-language faults." },
+    { "q": "Where is the model number on an LG dishwasher?", "a": "Open the door and look at the sticker on the inner edge of the door, usually on the right-hand side, or along the top edge of the door. That number, not the error code, is what determines which filter, pump, valve and even which child lock combination your machine uses, so write it down before ordering any part." },
+    { "q": "How much do LG dishwasher repairs usually cost?", "a": "Most codes cost nothing because the fix is a filter, a hose, a detergent change or a valve someone turned off. When a part is needed, inlet valves and drain pumps run roughly $25 to $95 and a door gasket $25 to $60. A technician visit lands around $130 to $450 fitted, depending on the part and your area." },
+    { "q": "Is it worth repairing an older LG dishwasher?", "a": "Up to about eight years, usually yes, especially for pumps, valves and gaskets. Past that, price a fitted repair against a new machine before committing: a circulation motor or sump job with labour often comes within a hundred dollars of a new mid-range dishwasher that carries a fresh warranty." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The diagnostic order that works for any LG dishwasher code",
+    "labels": {
+      "display": "LG",
+      "c1": "Photograph the code exactly",
+      "c2": "Breaker off five minutes",
+      "c3": "Open the door and look",
+      "c4": "Filter, supply valve, drain hose"
+    }
+  },
+  "sources": [
+    { "title": "Dishwasher error codes and what they indicate", "publisher": "LG support help library", "url": null },
+    { "title": "How to use the control lock feature on an LG dishwasher", "publisher": "LG support help library", "url": null },
+    { "title": "LG dishwasher owner's manual troubleshooting section", "publisher": "LG owner documentation supplied with the appliance", "url": null },
+    { "title": "LG dishwasher error code reference and parts cross-reference", "publisher": "LG parts distributor technical listings", "url": null },
+    { "title": "Field reports on which LG dishwasher codes turn out to be what", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["AE", "OE", "IE", "LE", "bE", "CL"]
+}

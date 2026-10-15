@@ -1,0 +1,204 @@
+{
+  "title": "Samsung Dryer HC Code: Overheating, and How to Fix It",
+  "meta_description": "HC on a Samsung dryer means it detected an unsafe exhaust temperature and shut the heat off. Nearly always a blocked vent.",
+  "h1": "Samsung dryer HC error code: what it means and how to fix it",
+  "answer": "HC means your Samsung dryer measured an exhaust temperature above what it considers safe and cut the heat to protect itself. Nine times out of ten the cause is airflow: a lint screen that has not been washed, a crushed or packed exhaust duct, or an outside vent flap that no longer opens. The dryer is not broken, it is telling you the hot air has nowhere to go. Treat it as urgent rather than annoying, because the same restriction that trips HC is the condition that starts dryer fires. Clear the whole vent path before you run another load.",
+  "severity": "serious",
+  "can_diy": "usually",
+  "time_estimate": "45 minutes to 2 hours for a full vent clean",
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$120 to $350"
+  },
+  "safety_warning": "A restricted dryer vent is a fire risk, not just a performance problem. Do not keep running the dryer to see whether the code comes back; clear the vent first. Unplug the dryer at the outlet or switch off its breaker before removing any panel. On a gas dryer, leave the burner, the gas valve and the gas line to a licensed technician.",
+  "causes": [
+    {
+      "cause": "The lint screen is clogged, or coated with invisible fabric softener film",
+      "frequency": "most cases",
+      "confirm": "Pull the screen out and hold it under a running tap. Water should pour straight through. If it beads up and sits on the mesh, dryer sheets and liquid softener have laid down a film you cannot see, and the screen is choking airflow even though it looks clean. Scrub it with hot water and a little dish soap."
+    },
+    {
+      "cause": "The exhaust duct is packed with lint or crushed behind the machine",
+      "frequency": "most cases",
+      "confirm": "Pull the dryer out and disconnect the duct at the back. If you can see a gray mat of lint inside, or the flexible hose is folded flat where the machine was pushed against the wall, that is your fault. Run the dryer for a minute with the duct off and feel the air coming out of the machine: it should be a strong warm blast."
+    },
+    {
+      "cause": "The outside vent hood flap is stuck, blocked or has a bird nest behind it",
+      "frequency": "common",
+      "confirm": "Go outside with the dryer running and look at the hood. The flap should swing open and you should feel a steady push of warm air. A flap painted shut, jammed with lint, screened over with mesh, or occupied by a nest will trip HC with a perfectly clean duct inside the house."
+    },
+    {
+      "cause": "The vent run is too long, has too many bends, or uses ribbed foil hose",
+      "frequency": "common",
+      "confirm": "Trace the whole route. Flexible ribbed foil catches lint at every corrugation and sags into traps; a long run with several elbows does the same. If the dryer has always taken two cycles to dry a load and now throws HC, the installation was marginal from day one rather than something having broken."
+    },
+    {
+      "cause": "The exhaust thermistor is reading high",
+      "frequency": "occasional",
+      "confirm": "The vent is genuinely clear end to end, airflow out of the hood is strong, and HC still appears, often early in the cycle before the dryer could realistically get hot. The sensor is telling the control a temperature that is not happening. This is the first real part on the list."
+    },
+    {
+      "cause": "A failed thermostat, a grounded heating element or a stuck heater relay",
+      "frequency": "rare",
+      "confirm": "The dryer actually is too hot to touch inside, clothes come out scorched, or the heat stays on even when the cycle should be cooling. A heating element that has sagged and is arcing to its housing, or a relay on the control welded closed, heats regardless of what the control asks for. Stop using the dryer and get it looked at."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Wash the lint screen, not just empty it",
+      "detail": "Clear the lint off, then hold the screen under a running tap. If water pools on the mesh instead of pouring through, scrub both sides with hot water, dish soap and a soft brush, rinse, and let it dry fully before refitting. Fabric softener and dryer sheets build an invisible film that blocks air while the screen looks spotless. Do this every few months.",
+      "minutes": 10,
+      "tools": "Soft brush, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Vacuum out the lint screen housing",
+      "detail": "With the screen out, push a vacuum crevice tool or a long flexible lint brush right down into the slot it sits in. Lint that slips past the screen collects in there and in the duct immediately behind it, and it is the one spot most people never clean. Expect to pull out more than you would like.",
+      "minutes": 10,
+      "tools": "Vacuum with crevice tool, long flexible lint brush",
+      "warning": "Unplug the dryer before pushing anything into the lint housing."
+    },
+    {
+      "name": "Pull the dryer out and disconnect the exhaust duct",
+      "detail": "Switch off and unplug the machine, then walk it out far enough to reach behind. Loosen the clamp and pull the duct off the dryer outlet. Look inside both the duct and the dryer's own outlet port. Check whether the duct has been crushed flat by the machine being pushed back; leave several inches of clearance when you reinstall it so it cannot happen again.",
+      "minutes": 15,
+      "tools": "Nut driver or screwdriver for the clamp",
+      "warning": "Unplug the dryer first. On a gas dryer, move it gently and do not strain the flexible gas connector."
+    },
+    {
+      "name": "Clean the entire duct run with a brush kit",
+      "detail": "Push a rotary dryer vent brush on flexible rods through from the dryer end, working it in and out to break up the mat of lint, then pull everything back and vacuum up what falls out. Do the run from both ends if you can get to the outside hood. A kit costs about $20 to $40 and is the single most useful thing you can own if your dryer vents through a wall.",
+      "minutes": 40,
+      "tools": "Dryer vent brush kit, vacuum, drill for a rotary kit",
+      "warning": null
+    },
+    {
+      "name": "Check the outside vent hood",
+      "detail": "Go outside and look at the hood with the dryer running on a short cycle. The flap should swing freely and push a strong stream of warm air out. Clear lint from behind the flap, remove any insect screen or mesh someone has fitted, and check for a nest. If the flap is painted shut or the louvers are broken, replace the hood; they are cheap and the restriction they cause is significant.",
+      "minutes": 20,
+      "tools": "Screwdriver, gloves",
+      "warning": null
+    },
+    {
+      "name": "Replace ribbed foil hose with rigid or semi-rigid duct",
+      "detail": "If the connection behind the dryer uses the thin ribbed foil type, change it. Every corrugation catches lint and the hose sags into low spots that fill up. Semi-rigid aluminium or smooth rigid duct holds its shape, sheds lint and dramatically reduces how often this happens. Keep the run as short and as straight as the room allows, and never use plastic.",
+      "minutes": 30,
+      "tools": "Semi-rigid or rigid duct, clamps, nut driver, foil tape",
+      "warning": "Do not use screws through the duct; they catch lint. Use clamps and foil tape."
+    },
+    {
+      "name": "Run a timed cycle and feel the airflow",
+      "detail": "Restore power, run a timed cycle with the drum empty, and go outside to the hood. You want a strong steady push of warm air you can feel from a foot away, not a weak drift. If the airflow is good and HC does not return, you have fixed it. If it comes back with strong airflow, the vent is no longer the problem and the exhaust thermistor is next.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the lint screen is washed, the duct is clear end to end and the outside hood is pushing a strong warm stream, airflow is ruled out and the fault has moved inside the machine. Work in this order. First, check where the dryer actually lives. A dryer in a closet or a small laundry room with the door shut can starve itself of make-up air, so it recirculates its own hot exhaust and overheats with a perfectly clean vent. Run a load with the door propped open and see whether HC stays away; if it does, the fix is a louvered door or a vent in the room rather than any part. Second, consider the thermistor. The exhaust thermistor is what the control reads to decide the dryer is too hot, and one that drifts high reports an overheat that is not happening. The giveaway is HC appearing early in a cycle, before the machine has had time to get hot. It is a modest part and a competent technician can test it against its specification, which is on the service documentation for your model rather than something to guess at. Third, if the dryer genuinely is running too hot, with clothes coming out scorched or the drum uncomfortably hot to touch, stop using it. A cycling thermostat stuck closed, a high-limit thermostat that has failed, a heating element sagged against its housing and arcing, or a heater relay welded shut on the control board will all keep the heat on regardless of what the cycle asks for. That is a genuine fire risk and not a wait-and-see situation. Fourth, if HC keeps returning within weeks of a thorough vent clean, the installation is the problem rather than the maintenance. A run over about twenty-five feet of equivalent length, counting each elbow as several feet, will clog faster than you can clean it. Rerouting a vent costs real money but it is cheaper than replacing a dryer every few years, and it eliminates the fire risk rather than postponing it.",
+  "reset_procedure": "Turn the dryer off with the Power button, then unplug it or switch off its breaker for at least two minutes before restoring power. The control stores the overheat event and may hold the code even after the machine has cooled. Do not use the reset as the fix: if you reset HC without clearing the vent, the dryer will go straight back to overheating, and that condition is what starts fires. Clear the airflow first, then reset, then test with a short timed cycle.",
+  "model_notes": "Samsung sometimes appends a digit to this code on certain models, so you may see HC with a number after it; the trailing digit relates to how the overheat was detected or how many times it has happened, and the vent work is the same either way. Samsung's own support documentation groups HC together with the hE heating codes under a single heating category, which is why some model manuals describe them in the same breath even though HC is about too much heat and hE is about a fault in the heater circuit. On gas models, heat-related codes can also involve the burner and igniter, and that is licensed work rather than a home repair.",
+  "parts": [
+    {
+      "name": "Dryer vent brush kit",
+      "cost": "$20 to $40",
+      "difficulty": "easy",
+      "note": "The most useful thing you can buy for this code, and it lasts for years"
+    },
+    {
+      "name": "Semi-rigid or rigid aluminium duct and clamps",
+      "cost": "$15 to $45",
+      "difficulty": "easy",
+      "note": "Replace ribbed foil hose; it traps lint at every corrugation"
+    },
+    {
+      "name": "Exterior vent hood",
+      "cost": "$15 to $50",
+      "difficulty": "easy",
+      "note": "Replace if the flap is painted shut or the louvers are broken"
+    },
+    {
+      "name": "Exhaust thermistor",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Only after airflow is genuinely ruled out"
+    },
+    {
+      "name": "Heating element or thermostat assembly",
+      "cost": "$45 to $150",
+      "difficulty": "hard",
+      "note": "Mains voltage work; a grounded element can heat with no call for heat"
+    }
+  ],
+  "when_to_call": "Call a technician if HC returns after a thorough vent clean with strong airflow at the outside hood, because the next steps involve testing the thermistor, thermostats and heater circuit at mains voltage inside the machine. Call immediately, and stop using the dryer, if clothes come out scorched or smelling burnt, if the cabinet is too hot to touch, or if the drum stays hot during what should be the cool-down. For a gas dryer, anything involving the burner, the igniter or the gas valve goes to a licensed technician with no exceptions. A vent cleaning service is $120 to $250 in most areas and is worth it if your run goes through a wall or a roof you cannot reach safely.",
+  "faqs": [
+    {
+      "q": "What does HC mean on a Samsung dryer?",
+      "a": "The dryer measured an exhaust temperature above its safe limit and shut off the heat. It is an overheat protection message. In the large majority of cases the cause is restricted airflow rather than a broken part: a filmed-up lint screen, a lint-packed or crushed exhaust duct, or an outside vent flap that will not open properly."
+    },
+    {
+      "q": "Is a Samsung dryer HC code dangerous?",
+      "a": "Treat it as urgent. The restriction that causes HC is the same condition behind most dryer fires, and the code means the machine has already reached a temperature it is unhappy with. The protection worked this time. Clear the entire vent path before running another load rather than resetting the code and hoping it stays away."
+    },
+    {
+      "q": "What is the difference between HC and hE on a Samsung dryer?",
+      "a": "HC is about too much heat: the exhaust got hotter than allowed, usually from blocked airflow. hE is about a fault in the heating circuit itself, typically a dryer that will not heat properly. Samsung's own documentation files them under one heating category, so some manuals blur them, but the diagnosis is different for each."
+    },
+    {
+      "q": "Can I still use my dryer with an HC code?",
+      "a": "You should not. Even if it lets you start a cycle, you would be running a machine that has already overheated once, through a vent that has not been cleared. The fire risk is real and the cost of waiting an hour to clean the duct is nothing by comparison. Clear the airflow, reset the power, then test with an empty timed cycle."
+    },
+    {
+      "q": "I cleaned the vent and HC came back. What now?",
+      "a": "Check where the dryer lives before buying parts. A machine in a closed closet or a small room can starve for make-up air and recirculate its own exhaust. If propping the door open stops the code, the fix is ventilation in the room. If not, the exhaust thermistor is the next suspect, particularly if HC appears early in the cycle."
+    },
+    {
+      "q": "How often should I clean a dryer vent?",
+      "a": "Clean the lint screen every load and wash it with soap and water every few months to clear the softener film. Clean the full duct run at least once a year, and twice a year if you dry heavily, have a long run with bends, or use dryer sheets. A brush kit costs about $20 to $40 and does the job in under an hour."
+    },
+    {
+      "q": "How much does it cost to fix an HC code?",
+      "a": "Usually nothing but your time, because clearing the vent is the fix in most cases. A brush kit is $20 to $40 and a professional vent cleaning runs $120 to $250. If the fault turns out to be the exhaust thermistor, expect $20 to $60 for the part. Heating element and thermostat work is more, and on a gas dryer it is a technician job."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Follow the air from the drum to the outside wall. HC is a blockage somewhere on it.",
+    "labels": {
+      "display": "HC",
+      "c1": "Wash the lint screen film off",
+      "c2": "Vacuum the screen housing",
+      "c3": "Brush the whole duct run",
+      "c4": "Outside flap opens freely"
+    }
+  },
+  "sources": [
+    {
+      "title": "Samsung dryer displays an error code, heating error guidance",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Common Samsung dryer error codes and their meaning",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung dryer owner's manual, venting requirements and maintenance",
+      "publisher": "Samsung owner's manual supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Field reports on HC overheat codes, vent restriction and thermistor drift",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "hE",
+    "HE",
+    "CL9",
+    "tC",
+    "dC",
+    "C80"
+  ]
+}

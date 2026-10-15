@@ -1,0 +1,129 @@
+{
+  "title": "Samsung Washer DC Error Code: Causes and Fix",
+  "meta_description": "DC on a Samsung washer means the door is not being sensed as shut and locked. Usually laundry caught in the seal or a worn latch. Here is how to fix it.",
+  "h1": "Samsung washer DC error code: what it means and how to fix it",
+  "answer": "DC means the washer could not confirm that the door is closed and locked, so it stopped rather than start or continue a cycle. The commonest cause is the simplest one: a corner of a towel or a sleeve trapped in the seal, holding the door a couple of millimeters off the strike. After that it is a worn latch hook, a sagging door, or a failed door lock assembly. DC is the newer display for the fault older Samsung machines show as DE, and the two are the same thing.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $110", "technician": "$150 to $320" },
+  "safety_warning": "The door lock assembly is a mains-voltage component wired into the machine's interlock circuit. Unplug the washer at the wall before removing any panel or disconnecting the lock, and never bypass, tape over or jam the interlock to make the machine run with the door open.",
+  "causes": [
+    {
+      "cause": "Laundry is caught between the door and the seal",
+      "frequency": "most cases",
+      "confirm": "Open the door and run a finger all the way around the rubber. A sock toe or a shirt cuff poking out anywhere on the circumference is enough to hold the door off the strike by the millimeter the switch needs. Check the bottom of the seal, which is where things hide."
+    },
+    {
+      "cause": "The door was not pushed shut hard enough",
+      "frequency": "most cases",
+      "confirm": "Close it again and listen. A properly shut Samsung door gives a distinct click as the hook drops into the latch. A soft thud with no click means it is resting on the seal rather than latched, which is easy to do when the drum is full and the seal is pushing back."
+    },
+    {
+      "cause": "The latch hook or strike is worn, bent or gummed up",
+      "frequency": "common",
+      "confirm": "Look at the metal or plastic hook on the door edge and the slot it drops into. A hook rounded off at the tip, or a slot packed with lint and detergent scum, stops the latch seating fully. Compare it with how crisply it clicked when the machine was new."
+    },
+    {
+      "cause": "The door has sagged on its hinge",
+      "frequency": "occasional",
+      "confirm": "With the door open, lift the free edge gently and feel for play at the hinge. A door that has dropped even slightly presents the hook a fraction low, so it catches the lip of the slot instead of dropping in. Common on machines where the open door gets leaned on or sat on."
+    },
+    {
+      "cause": "The door lock assembly has failed",
+      "frequency": "occasional",
+      "confirm": "The door closes with a clean click, nothing is trapped, and the machine still reports DC. Listen on start-up for the solenoid: a working lock gives a firm clunk within a second or two of pressing Start. Silence points at the lock itself."
+    },
+    {
+      "cause": "Wiring to the lock, or the control board",
+      "frequency": "rare",
+      "confirm": "A new lock behaves exactly like the old one. Check the connector behind the lock for green corrosion or a pushed-back pin, and look for chafed wire where the harness passes the cabinet edge, before anyone talks about a board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clear the door seal and close it properly",
+      "detail": "Open the door and sweep a finger right around the rubber seal, including the bottom where water collects. Pull out any fabric, hair or coins sitting on the lip. Then close the door with a firm push on the edge nearest the latch, not on the glass, until you hear it click. Press Start again.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Take some laundry out",
+      "detail": "An overfilled drum pushes against the door from the inside and stops the hook from seating. If the drum is packed to the roof, pull a third of the load out, close the door and try again. This is also why the code often appears on bedding loads and never on half loads of shirts.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset the machine",
+      "detail": "Press Power to cancel, unplug at the wall for five minutes, then plug it back in and start a short cycle. The control latches the fault, so a door that now closes perfectly will keep reporting DC until the stored code is cleared. This step is also how you tell a one-off glitch from a real fault.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect and clean the latch hook and strike",
+      "detail": "Look closely at the hook on the door edge and the slot it enters in the cabinet. Clean out lint and detergent scum from the slot with a cotton bud and warm water. Check the hook for a rounded tip, a crack at its base, or sideways play. Work the hook with a finger: it should move crisply against its spring and snap back.",
+      "minutes": 10,
+      "tools": "Cotton buds, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Check the hinge for sag",
+      "detail": "Open the door fully and lift its free edge. More than the smallest amount of movement at the hinge means the door has dropped and is presenting the hook low. Tighten the hinge screws through the inside edge of the door if your model has accessible ones. Do not hang anything on an open washer door, which is how most of them sag.",
+      "minutes": 12,
+      "tools": "Torx or Phillips screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Listen for the lock engaging",
+      "detail": "With the drum empty and the door shut, press Start and put your ear near the latch. Within a second or two you should hear a solid clunk as the interlock engages, after which the door will not open. No clunk at all, with no laundry in the way and a clean click from the latch, points firmly at the door lock assembly.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Replace the door lock assembly",
+      "detail": "Unplug the machine at the wall first. Peel the outer spring band off the front of the door boot with a flat screwdriver, fold the seal back off the front panel edge, and the lock sits behind it held by two screws. Note which connector goes where before unplugging them, fit the new lock, and refit the seal and band squarely so it does not leak.",
+      "minutes": 50,
+      "tools": "Flat screwdriver, Torx or Phillips screwdriver, phone camera",
+      "warning": "Unplug at the wall before you touch the lock. It carries mains voltage. Never bypass or jam the interlock to run the machine with the door open."
+    }
+  ],
+  "still_showing": "If nothing is trapped, the door clicks crisply, the latch is clean and you have reset the machine, the next question is whether the lock is engaging at all. Stand with your ear by the latch and press Start on an empty drum. A clear clunk within a second or two means the lock is working and the fault is in the signal back to the control, not in the lock mechanism. No clunk means the lock is not being driven or has failed internally, and a replacement is a $40 to $110 part that most people can fit in under an hour with the door seal folded back. Before you buy one, unplug the machine, get the seal off and look at the connector on the back of the lock: damp laundry rooms corrode spade terminals green, and a pin that has backed out of its housing produces exactly this fault for nothing. If a new lock behaves identically to the old one, follow the harness from the lock towards the control and look for chafing where it passes a sheet metal edge, which is the next most likely thing and is repairable. Only then is the main board a sensible suspect, and that is where the cost climbs past two hundred dollars and past the point of guessing. Two other things worth ruling out. First, if the code appears only when the drum is full, the problem is the door being pushed off the strike by the load rather than anything electrical, and the answer is smaller loads. Second, if your machine is one of the models where dC means an unbalanced load rather than a door fault, none of this applies: the giveaway is that the door is clearly shut and locked and the code appears at the spin rather than at the start. Check your model's code list before spending anything.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full five minutes, then plug it back in and start a short cycle. The board stores the door fault, so DC stays on the display after you have freed the trapped sock until it is cleared. If the code returns immediately on a visibly closed door, the fault is real rather than stored.",
+  "model_notes": "DC is the newer display, used from roughly 2017 onward; earlier Samsung washers show the same door fault as DE. Variants with a trailing digit, such as dC1 or dC3, narrow the fault down within the same door and lid circuit rather than meaning something unrelated, so the checks here still apply. One genuine exception is worth knowing about: on a minority of Samsung models, chiefly some top loaders, dC is used for an unbalanced load rather than a door fault. If the lid is plainly shut and the code appears at the spin stage, treat it as a balance problem and check the load and the leveling instead.",
+  "parts": [
+    { "name": "Door lock and interlock assembly", "cost": "$40 to $110", "difficulty": "moderate", "note": "Under an hour once the door seal band is off; unplug the machine first" },
+    { "name": "Door latch hook and striker", "cost": "$15 to $45", "difficulty": "easy", "note": "Only if the hook is cracked, rounded off or loose on the door" },
+    { "name": "Door hinge assembly", "cost": "$25 to $70", "difficulty": "moderate", "note": "For a door that has visibly sagged and will not present the hook squarely" },
+    { "name": "Main control board", "cost": "$180 to $320", "difficulty": "technician only", "note": "Last resort, and only after the lock and the harness are both ruled out" }
+  ],
+  "when_to_call": "Call someone if the door closes with a clean click, nothing is trapped, a reset does not help and you would rather not peel the door seal off to reach the lock, because refitting that seal badly turns a door fault into a leak. Call sooner if the door has locked shut with water inside and will not release after a reset, since getting a loaded drum open without damaging the lock is a job worth paying for. Do not, under any circumstances, let anyone talk you into bypassing the interlock so the machine will run: it is the device that stops a drum spinning with the door open, and defeating it is both dangerous and the kind of thing that voids everything.",
+  "faqs": [
+    { "q": "Is DC the same as DE on a Samsung washer?", "a": "Yes. They are the same door fault shown on different model generations, with DE on older machines and DC from roughly 2017 onward. Samsung's own support pages describe them together. Every check on this page applies to both, and variants with a trailing digit like dC1 or dE1 sit in the same door and lid circuit." },
+    { "q": "The door looks completely shut. Why is it still showing DC?", "a": "Looking shut and being latched are different things. The hook has to drop fully into the strike and the interlock has to engage after that. A sock corner in the seal, a packed drum pushing the door outward, or a slightly sagged hinge all leave a gap too small to see. Push the door firmly at the latch edge and listen for the click." },
+    { "q": "Can I still use the washer with a DC code?", "a": "No, and you should not try to work around it. The machine refuses to run because it cannot confirm the door is locked, which is the safety check that stops a drum spinning open. Fix the latch or the lock. Never jam, tape or bypass the interlock to force a cycle, whatever a video online suggests." },
+    { "q": "How do I open the door if it is locked shut with water inside?", "a": "Get the water out first. Unplug the machine, open the access panel at the bottom front, and drain the tub through the small hose beside the pump filter into a shallow tray. Once the level is down and you reset the machine, the control releases the lock. Some models also have a manual release cord behind that panel." },
+    { "q": "Is DC ever an unbalanced load rather than a door fault?", "a": "On a minority of Samsung models, yes, mostly some top loaders. The way to tell is when the code appears. A door fault shows up at the start of a cycle or as soon as you press Start. An unbalance shows up at the spin, with the lid plainly shut. Check your model's code list before buying a door lock." },
+    { "q": "Why did DC appear suddenly on a machine that was fine?", "a": "Latch parts wear gradually and then stop seating. The plastic hook rounds off over thousands of closes, and detergent scum builds in the strike slot until the hook no longer drops fully in. The other common trigger is a change in loading habit, since a fuller drum pushes the door outward just enough to break the contact." },
+    { "q": "Is a door lock worth replacing myself?", "a": "For most people, yes. The part is moderate, and the job is two screws and a connector once the door seal band is peeled back. The part that catches people out is refitting the seal, which has to sit squarely in its channel or the machine leaks. Take a photo before you start and work slowly around the circumference." }
+  ],
+  "diagram": {
+    "kind": "washer-door-latch",
+    "caption": "What has to line up before a Samsung washer will accept the door as shut",
+    "labels": {
+      "display": "DC",
+      "c1": "Latch hook, check for wear",
+      "c2": "Door lock assembly, listen for the clunk",
+      "c3": "Clear the seal, push until it clicks"
+    }
+  },
+  "sources": [
+    { "title": "How to fix a DE or DC error on a Samsung washing machine", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, door lock circuit and interlock faults", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on Samsung door lock failures and latch wear", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["DE", "UB", "UR", "SC", "4C"]
+}

@@ -1,0 +1,208 @@
+{
+  "title": "GE Washer Error Codes: Full List and How to Read Them",
+  "meta_description": "GE washers report faults three ways: a number, a letter code, or a pattern of lit status lights you add up. Here is how to read yours and what it means.",
+  "h1": "GE washer error codes: how to read them, including the flashing light patterns",
+  "answer": "GE washers report faults in three different ways depending on the model. Machines with a digital display show a number, usually somewhere between 1 and 99, or a short letter code. Machines with no display spell the same number out using the cycle status lights: each lit light carries a value, you add the lit values together, and the total is the fault number. The oldest top loaders just blink a single light a set number of times, so you count the blinks between pauses. In all three cases the control also stores a list of recent faults that you can read back in service mode, which is far more useful than whatever is on the panel right now.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes to decode, then 30 minutes to a few hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $120",
+    "technician": "$130 to $400"
+  },
+  "safety_warning": "Unplug the washer at the wall before removing the control console, the top panel or the rear panel. The control board, the motor and the motor control all carry line voltage, and the motor control can hold a charge after the machine is unplugged.",
+  "causes": [
+    {
+      "cause": "Drain faults: the machine asked for a pump-out and the water did not leave in time",
+      "frequency": "most cases",
+      "confirm": "Open the lid at the end of a cycle. Water standing above the bottom of the basket, or clothes that come out soaked rather than spun, means the code you are looking at is a drain code regardless of what number it is."
+    },
+    {
+      "cause": "Out-of-balance faults: the load bunched up and the basket could not reach spin speed",
+      "frequency": "most cases",
+      "confirm": "The machine filled and washed normally, then spent several minutes refilling, sloshing and retrying before it quit. One heavy item, a mat, or a single pair of jeans alone in the drum is the usual trigger."
+    },
+    {
+      "cause": "Lid lock or door lock faults",
+      "frequency": "common",
+      "confirm": "You can hear the lock buzz or click repeatedly at the start of a cycle, or the machine never locks at all and stops before filling. On top loaders the lid strike is often just bent or the lock plunger is gummed up."
+    },
+    {
+      "cause": "Fill and water-level faults",
+      "frequency": "common",
+      "confirm": "The cycle starts but the water either never arrives, arrives far too slowly, or keeps coming until the machine shuts itself off. Check both taps and both inlet screens before you blame the pressure sensor."
+    },
+    {
+      "cause": "Motor and motor control faults",
+      "frequency": "occasional",
+      "confirm": "The basket does not turn at all, or it grinds, hums and stops. On belt-drive machines look for a belt off its pulley. On direct-drive models, a basket that spins freely by hand but not under power points at the motor control."
+    },
+    {
+      "cause": "Control board, wiring harness and communication faults",
+      "frequency": "rare",
+      "confirm": "The code makes no physical sense: a drain fault with a dry tub, a lid fault with the lid clearly locked, or a code that changes every cycle. Inspect every connector for corrosion before condemning a board."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down exactly what the panel is doing before you touch anything",
+      "detail": "If you have a display, note the characters. If you have lights only, note which lights are lit and in what order, or count the blinks between pauses. Take a photo with your phone. The pattern often clears when you open the lid or press a button, and if you lose it you have to run the machine to failure again to get it back.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Find your model number and the tech sheet inside the machine",
+      "detail": "The model number is on a label inside the lid on top loaders, or on the door frame on front loaders. GE ships a folded service tech sheet inside most machines, usually tucked into the control console, under the top panel, or behind the lower front panel. That sheet carries the code table for your exact model, which is the only table that is guaranteed to be right.",
+      "minutes": 10,
+      "tools": "Phillips #2 screwdriver",
+      "warning": "Unplug the washer before opening the console or removing any panel to look for the tech sheet."
+    },
+    {
+      "name": "Decode the light pattern into a number",
+      "detail": "On a model with no display, the lit status lights are a binary number. Read them in order along the row, with each position worth double the one next to it: 1, 2, 4, 8, 16, 32. Add the values of the lit lights together and the total is the fault number. Four lights worth 1, 2, 4 and 8 lit together, for example, means fault 15. Which end of the row carries the 1 and which lights are used varies by model, so match the row on the tech sheet before you trust the total.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Put the washer into service mode and read the stored fault list",
+      "detail": "Most GE washers hold the last several faults in memory and will play them back in order, most recent first. On many 27-inch top loaders you enter service mode by holding the Start button for about ten seconds, then turning the cycle knob to advance through the numbered tests; test 1 is the fault list. When the list ends, or when there are no stored faults, the machine flashes a pair of dashes. The exact entry sequence differs by model, so use the one printed on your tech sheet.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Exit service mode the way the tech sheet describes rather than pulling the plug mid-test."
+    },
+    {
+      "name": "Rule out the three physical faults behind most codes",
+      "detail": "Before you go near a part, do these. Pull the drain hose out of the standpipe and check it is not kinked or pushed down more than a few inches into the pipe. Open the drain pump filter if your model has one behind the lower front panel and clear the lint, coins and hair. Then rebalance the load by hand and run a spin-only cycle. These three account for a large share of the codes people search for.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug the washer before opening the lower panel. Expect standing water if the machine failed to drain."
+    },
+    {
+      "name": "Clear the stored codes and run a short cycle to see which one returns",
+      "detail": "A stored fault list is a history, not a diagnosis. Half the codes in there may be from a one-off overload two years ago. Clear the list using the procedure on the tech sheet, then run a rinse-and-spin and read the list again. Whatever comes back is the live fault, and that is the one worth spending money on.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power cycle the machine properly",
+      "detail": "Unplug the washer at the wall, or switch off its breaker, and leave it off for five full minutes. The control holds residual charge and a quick off-and-on frequently does not clear a latched fault. Plug it back in and start a rinse-and-spin so you find out in three minutes instead of an hour.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have decoded the pattern and the washer still will not run, work through it in this order rather than guessing at parts. First, decide which family the code belongs to from the symptom rather than the number, because GE reuses numbers across model families and a table you found for a different machine will send you the wrong way: no water out is a drain fault, no water in is a fill fault, a basket that will not turn is a motor or balance fault, and a machine that stops before filling is almost always a lid or door lock. Second, test the cheap end of that family. For a drain fault that means the hose, the standpipe, the filter and the pump impeller, which together cost nothing and clear most of them. For a balance fault it means leveling the machine with a spirit level across the top, since a washer that rocks on an uneven floor will throw a balance code with a perfectly normal load. For a lid fault it means the strike and the plunger. Third, if the cheap end is clean, the part is the next step: a lid lock assembly, a drain pump or a water-level pressure sensor are each in the $25 to $120 range and most are a half-hour job. Fourth, if the code points at the motor control or the main board, stop and price the repair against the machine. A control board plus a call-out on a washer over eight years old often costs more than half what a new one does. One more thing worth checking before you spend anything: if the same code appears on every cycle at exactly the same point, the fault is real and repeatable. If it appears at random points on random cycles, suspect a connector rather than a component, and go over every plug on the control and the motor for green corrosion or a pin that has backed out of its housing.",
+  "reset_procedure": "Press Start or Power to cancel, then unplug the washer at the wall or switch off its breaker for five full minutes. Plug it back in and start a rinse-and-spin. If the machine is in service mode, exit it the way the tech sheet describes before cutting power. Note that a power cycle clears the latched code on the display but does not clear the stored fault history, which has to be cleared from service mode.",
+  "model_notes": "Three generations behave differently. Older Hydrowave top loaders have no display and signal with a single light blinking a count between pauses. Later top loaders and front loaders without a display use the binary status-light pattern described above. GTW and GFW machines with a digital display show the fault number or letter code directly and also hold a stored fault list in service mode. Numbers are not portable between these families: the same two-digit number can mean an out-of-balance spin on one machine and something unrelated on another, which is why the tech sheet for your exact model matters more than any list online.",
+  "parts": [
+    {
+      "name": "Lid lock or door lock assembly",
+      "cost": "$40 to $120",
+      "difficulty": "moderate",
+      "note": "Common failure on top loaders, usually under the top panel"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$40 to $110",
+      "difficulty": "moderate",
+      "note": "Clear the filter and impeller first; many pumps are replaced unnecessarily"
+    },
+    {
+      "name": "Water level pressure sensor and its air hose",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "The clear air hose splits or fills with sludge more often than the sensor fails"
+    },
+    {
+      "name": "Suspension rods or dampers",
+      "cost": "$50 to $130 a set",
+      "difficulty": "moderate",
+      "note": "Behind repeat balance codes on machines over five years old"
+    },
+    {
+      "name": "Main control board or motor control",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and check the harness connectors first"
+    }
+  ],
+  "when_to_call": "Call someone when the code points at the motor control or the main board, when the drain path is clear but the pump still will not run with the machine live, or when you would have to work inside the console with power on to go any further. That is live-voltage diagnosis and it is not worth a shock to save a call-out. Call sooner if the machine is leaking, if it smells of burning, or if the motor hums and will not turn, because running a stalled motor repeatedly can take the motor control with it. And before you authorize any board replacement on a machine over eight years old, ask for the part price up front and weigh it against a new washer.",
+  "faqs": [
+    {
+      "q": "Where can I find the GE washer fault code list as a PDF?",
+      "a": "The only list that is reliably correct for your machine is the tech sheet GE folded up and left inside it, usually in the control console or behind the lower front panel. GE also publishes technical service guides per model series. Generic PDFs that circulate online mix codes from several model families together, which is how people end up replacing the wrong part."
+    },
+    {
+      "q": "What does error code 26 mean on a GE washer?",
+      "a": "On the 27-inch top loaders it is logged when an out-of-balance load ended the final spin, so the machine gave up trying to rebalance. Redistribute the load, level the machine, and run a spin-only cycle. Check it against your tech sheet first, because the same two-digit numbers carry different meanings across GE model families."
+    },
+    {
+      "q": "How do I read the flashing lights if my washer has no display?",
+      "a": "Treat the lit lights as a binary number. Each light position is worth double the one next to it, running 1, 2, 4, 8, 16 and 32, and you add the values of the lit lights to get the fault number. The tech sheet inside your machine shows which lights are used and which end carries the value of 1."
+    },
+    {
+      "q": "Can I keep using the washer while a code is showing?",
+      "a": "It depends on the family. A balance code is harmless and the machine will usually finish on a lower spin speed. A drain code is not: running cycle after cycle against a blocked drain can overheat the pump and leaves dirty water sitting in the tub. Stop using it for any code involving water that will not leave, a leak or a motor that hums."
+    },
+    {
+      "q": "Why did a code appear suddenly when nothing changed?",
+      "a": "Most of these build slowly and then cross a threshold. A drain filter clogs over months, suspension rods wear gradually until one bad load trips a balance code, and a lid strike bends a fraction at a time. The genuinely sudden ones are a power cut, a tripped breaker, or something hard getting into the pump in one wash."
+    },
+    {
+      "q": "Does clearing the stored fault codes fix anything?",
+      "a": "No, but it makes the next diagnosis honest. The stored list is a history going back a long way, and old entries from a single overload years ago will mislead you. Clear it, run a rinse-and-spin, and read it again. Only a code that comes back is worth spending money on."
+    },
+    {
+      "q": "Is a GE washer with a control board fault worth repairing?",
+      "a": "Usually not past about eight years. A main control or motor control plus a technician's time commonly lands between $300 and $450 fitted, which is a large share of the price of a new machine. Under five years old, and especially if the rest of the machine is sound, it is normally worth doing."
+    },
+    {
+      "q": "My washer shows no code at all but will not start. What now?",
+      "a": "Check power first: the outlet, the breaker, and whether the lid or door is actually latching. A machine that is completely dark has a supply or power-board problem rather than a fault code. If the panel lights up but nothing happens when you press Start, go into service mode and read the stored fault list, which will often name the fault the panel never displayed."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "How a GE washer tells you what is wrong, and where to read it",
+    "labels": {
+      "display": "26",
+      "c1": "Note the lit lights or blink count",
+      "c2": "Tech sheet inside the console",
+      "c3": "Add the lit light values",
+      "c4": "Service mode test 1, stored faults"
+    }
+  },
+  "sources": [
+    {
+      "title": "Technical service guide, GE 27-inch top load washer, service mode and fault code section",
+      "publisher": "GE Appliances technical service literature",
+      "url": null
+    },
+    {
+      "title": "Understanding the binary chart and fault code list",
+      "publisher": "GE technical service manual supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "GE top load and front load washer error code references",
+      "publisher": "Sears PartsDirect repair guides",
+      "url": null
+    },
+    {
+      "title": "Field reports on GE flash-code decoding and model-specific code differences",
+      "publisher": "Appliance repair technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E2",
+    "UE",
+    "26",
+    "Ub",
+    "LE",
+    "dL"
+  ]
+}

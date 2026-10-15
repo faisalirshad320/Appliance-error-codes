@@ -1,0 +1,132 @@
+{
+  "title": "Kenmore Washer F51 Code: Rotor Sensor Fault and Fix",
+  "meta_description": "F51 on a Kenmore Elite Oasis washer is a motor rotor position sensor fault. A Whirlpool code. Reseat the sensor connector before replacing anything.",
+  "h1": "Kenmore washer F51 error code: what it means and how to fix it",
+  "answer": "F51 means the control lost track of where the motor's rotor is, so it stopped the cycle. It is a Whirlpool code used on Kenmore Elite Oasis top loaders, which are Cabrio machines underneath, with model numbers starting 110. The part it points at is the rotor position sensor, a small sensor mounted on the motor at the bottom of the machine. Before you buy one, two free checks fix a large share of F51 codes: take some washing out, because these machines throw F51 on overloaded tubs, and unplug and reseat the sensor connector several times to clean its contacts.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to test, 1 to 2 hours to replace the sensor",
+  "cost_estimate": { "diy": "$30 to $80", "technician": "$150 to $350" },
+  "safety_warning": "The motor, stator and sensor are at the base of the machine next to mains wiring, and getting to them means tipping the washer back. Unplug at the wall first, turn the taps off, and have someone hold the cabinet while it is tilted.",
+  "causes": [
+    {
+      "cause": "The tub is overloaded",
+      "frequency": "most cases",
+      "confirm": "F51 appearing on big loads, usually bedding, towels or a jammed-full tub, and not on small ones. Take half out and run again. If it completes, the machine was telling you the load was more than the drive could manage."
+    },
+    {
+      "cause": "The rotor position sensor connector is loose or corroded",
+      "frequency": "most cases",
+      "confirm": "Unplug the washer, tip it back and look at the small multi-wire plug on the sensor. Dull or green pins, a pin backed out of the housing, or a plug that lifts off with no resistance. Reseating it three times fixes a surprising number of these."
+    },
+    {
+      "cause": "Something is caught between the wash basket and the outer tub",
+      "frequency": "common",
+      "confirm": "Turn the basket by hand with the machine unplugged: it should spin freely and coast. A scrape, a hard stop or a metallic click at one point means a sock, a coin or a bra wire has worked past the basket edge."
+    },
+    {
+      "cause": "The rotor bolt has loosened or the rotor is rubbing",
+      "frequency": "common",
+      "confirm": "With the machine tipped back, check the large center bolt holding the rotor to the shaft. A rotor that rocks, ticks or shows bright scoring where it has touched the stator will report as a position fault."
+    },
+    {
+      "cause": "The rotor position sensor itself has failed",
+      "frequency": "common",
+      "confirm": "Load reduced, connector clean and reseated, basket turning freely, rotor bolt tight, and F51 still appears on every cycle. This is the point where the part is worth buying, and it is a modest one."
+    },
+    {
+      "cause": "The main control board has failed",
+      "frequency": "rare",
+      "confirm": "A new sensor, a clean connector and a free basket, with F51 unchanged. Plenty of people have replaced the board first and still had the code, so make this the last thing you try rather than the first."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Take half the load out and retry",
+      "detail": "Open the lid and pull out enough that the tub is no more than about two thirds full with the washing pushed down. These machines throw F51 on heavy loads because the drive has to work harder to get a packed basket moving, and bedding is the usual trigger. This costs nothing, takes a minute, and clears a large share of F51 codes before anybody touches a tool.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clear the code and run a test cycle",
+      "detail": "Press Pause or Cancel twice, then unplug the washer at the wall for five full minutes and plug it back in. Run a rinse and spin with a light, evenly spread load. The control stores F51, so a machine you have just unloaded will still display it and look unfixed. Note whether the code comes back at the start of the spin or during the wash, because that tells you how hard the drive was working when it failed.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Turn the basket by hand and listen",
+      "detail": "With the machine unplugged, reach in and spin the wash basket slowly through a couple of full turns each way. It should move freely and keep coasting. A grinding noise, a point where it jams, or a metallic click at the same spot every rotation means something has worked past the basket edge into the outer tub. Note where in the rotation it happens, which helps when you go looking for it.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": "Unplug at the wall before putting your hands in the tub."
+    },
+    {
+      "name": "Unplug, turn the taps off and tip the machine back",
+      "detail": "Unplug the washer at the wall, close both taps and disconnect the hoses into a bucket. Pull the machine out and tip it backwards onto a sheet of cardboard, with someone holding it or braced against a wall. The motor, the stator and the rotor position sensor are all at the base of the cabinet underneath. Do not lay it on its front or side unless the service literature for your model says to, because that can displace the suspension.",
+      "minutes": 20,
+      "tools": "Bucket, cardboard, a second pair of hands",
+      "warning": "Unplug and turn off the water first. A washer is heavy and top-loaders tip awkwardly; do not do this alone."
+    },
+    {
+      "name": "Reseat the rotor position sensor connector three times",
+      "detail": "Find the small multi-wire plug on the sensor at the motor. Pull it off and push it back on until it clicks, then do it twice more. Repeated insertion scrapes oxide off the pins and is a long-standing fix for this code among people who do it for a living. While the plug is off, look for green corrosion, a pin pushed back out of the housing, and any chafing where the harness runs along the base of the machine.",
+      "minutes": 15,
+      "tools": "Flashlight, contact cleaner",
+      "warning": "Machine unplugged at the wall throughout."
+    },
+    {
+      "name": "Check the rotor bolt and the rotor face",
+      "detail": "Look at the large center bolt holding the rotor to the drive shaft and check it is tight; a loose one lets the rotor wobble out of alignment, which reads to the control as a lost position signal. Inspect the rotor face for bright scoring where it has contacted the stator, and the magnet ring for cracks or missing segments. Wipe metal dust off the magnets while you are there, since it accumulates and drags.",
+      "minutes": 20,
+      "tools": "Socket set, clean rag, flashlight",
+      "warning": "Machine unplugged. Do not attempt to energise the motor with the cabinet tipped."
+    },
+    {
+      "name": "Fit a new rotor position sensor",
+      "detail": "If the connector was clean, the basket turns freely and the rotor bolt is tight, the sensor is the part to change. It is usually sold as a small kit and mounts to the stator with screws, with the one connector to transfer. Note how the old one is oriented before removing it, because fitting it the wrong way round brings the same code straight back. Stand the machine up, reconnect everything and test on a rinse and spin before loading it.",
+      "minutes": 60,
+      "tools": "Socket set, Phillips #2, flashlight",
+      "warning": "Unplug at the wall for the whole job and stand the machine up before plugging it back in."
+    }
+  ],
+  "still_showing": "If the load is light, the basket turns freely, the connector has been reseated and a new rotor position sensor has not fixed it, go through the remaining possibilities in a sensible order rather than jumping to the board. First, look again at the harness between the sensor and the control, running it through your fingers along its whole length, especially where it passes the base of the cabinet and anywhere it enters a clip. A wire broken inside its insulation gives exactly this symptom and is invisible from the outside; flexing each section while a helper watches for an intermittent reading on a meter is how you find it. Second, check the rotor and stator as a pair rather than individually: a rotor that is tight but sitting fractionally out of true, usually because of a damaged shaft or a worn hub, keeps the gap uneven and defeats the sensor no matter how new the sensor is. Scoring on the stator laminations is the telltale. Third, think about what the machine was doing when it faulted. F51 during the spin on heavy loads, with everything else checking out, often means the basket is dragging rather than the electronics are failing, and the usual culprits are a failing basket bearing or a wash plate with something jammed under it. Lift the wash plate and look underneath, because socks and coins collect there on these top loaders and the fix is free. Fourth, only now does the main control board become a reasonable suspect, and it deserves a word of caution: owners regularly report fitting a board for F51 and getting the identical code back, because the fault was in the sensor circuit all along. A board on these machines runs a few hundred dollars and is not returnable once fitted, so get a second opinion or have someone run the machine's diagnostic mode, using the button sequence on the tech sheet inside the console, before ordering one. On an Oasis that is now well over a decade old, price the board against a replacement washer before you commit.",
+  "reset_procedure": "Press Pause or Cancel twice to clear the stored code, then unplug the washer at the wall for five full minutes before plugging it back in. Test on a rinse and spin with a light, evenly spread load rather than the load that caused it. If F51 returns within the first minute, the fault is live rather than stored, and no amount of resetting will help.",
+  "model_notes": "F51 belongs to Whirlpool-built Kenmore top loaders, model numbers starting 110, on the platform sold as Kenmore Elite Oasis and as the Whirlpool Cabrio and Maytag Bravos. It does not appear on Kenmore front loaders and it does not appear on LG-built Kenmores at all; a machine with a 796 model number shows LE for a comparable locked or unreadable motor fault, with completely different hardware. On the same Oasis and Cabrio platform you will also see uL for an unbalanced load, Ld for a long drain and LF for a long fill, which share some symptoms with F51 but are separate faults. Sensor mounting and the exact kit supplied vary across model years, so check your full model number before ordering.",
+  "parts": [
+    { "name": "Rotor position sensor kit", "cost": "$30 to $80", "difficulty": "moderate", "note": "The usual part. Note the orientation of the old one before removing it" },
+    { "name": "Motor wiring harness", "cost": "$30 to $90", "difficulty": "moderate", "note": "Worth it when a wire has chafed through at the base of the cabinet" },
+    { "name": "Rotor assembly", "cost": "$90 to $250", "difficulty": "hard", "note": "Only when magnets are cracked or the face is badly scored" },
+    { "name": "Basket bearing or drive assembly", "cost": "$120 to $300", "difficulty": "technician only", "note": "When the basket drags rather than turning freely" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "Last resort. Owners frequently replace this and still get F51" }
+  ],
+  "when_to_call": "Call a technician if tipping a top loader back onto its cabinet with the water disconnected is not something you want to do, because that is the first physical step and there is no way around it. Call if the basket drags or grinds when turned by hand, since that is a bearing or drive job rather than a sensor one. Call before anyone orders a control board, because boards for these machines are expensive, not returnable once fitted, and frequently replaced for nothing on this specific code. If the washer is an older Oasis and the quote includes a board or a drive assembly, price a new machine first; these are at an age where the arithmetic often favours replacement.",
+  "faqs": [
+    { "q": "What does F51 mean on a Kenmore Elite Oasis washer?", "a": "The control could not read the position of the motor's rotor, so it stopped the cycle. It points at the rotor position sensor on the motor, but the sensor itself is often fine and the real problem is an overloaded tub, a dirty connector or something jammed in the basket. Check those three before buying anything." },
+    { "q": "Can overloading cause F51?", "a": "Yes, and it is the most common trigger. A packed tub, especially bedding or towels, makes the drive work far harder to get the basket moving, and the control calls a fault when the rotor does not respond as expected. Take half the load out, run a rinse and spin, and see whether it completes normally." },
+    { "q": "Why does my Kenmore show a Whirlpool code?", "a": "Because Whirlpool built it. Kenmore is a Sears badge rather than a manufacturer, and model numbers beginning 110 are Whirlpool machines with Kenmore trim. The Oasis top loader is the same machine as the Whirlpool Cabrio and the Maytag Bravos, which is why Cabrio repair information applies to it directly." },
+    { "q": "Is F51 the same as the LG LE code?", "a": "Same kind of fault, different platforms. LE on an LG-built Kenmore with a 796 model number is a locked motor error, often caused by the equivalent hall sensor, and F51 on a Whirlpool-built 110 machine is a rotor position sensor fault. The logic of the diagnosis matches, but the parts, connectors and access are entirely different." },
+    { "q": "Should I replace the control board for F51?", "a": "Not until everything else has been eliminated. Owners regularly report fitting an expensive board and getting the same code back, because the fault was in the sensor, its connector or the harness. Boards are not returnable once installed, so prove the sensor circuit first, ideally with the machine's own diagnostic mode." },
+    { "q": "Can I still use the washer with an F51 code?", "a": "Not usefully. The machine stops the cycle, and repeatedly restarting it with a drive the control cannot read puts heat into the motor for nothing. Leaving the code displayed is not a hazard, but there is no point running cycle after cycle hoping it clears. Reduce the load and test properly instead." },
+    { "q": "How much does an F51 repair cost?", "a": "Nothing if it was the load or the connector, which covers a good share of them. A rotor position sensor kit is typically $30 to $80 as a part, with an hour or two of work including tipping the machine. A technician doing the same job usually lands between $150 and $350. A control board pushes it well past that." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The motor position circuit behind an F51 on a Kenmore Oasis",
+    "labels": {
+      "display": "F51",
+      "c1": "Rotor position sensor on the motor",
+      "c2": "Reseat its connector three times",
+      "c3": "Rotor center bolt tight",
+      "c4": "Basket must turn freely by hand"
+    }
+  },
+  "sources": [
+    { "title": "Whirlpool Cabrio, Maytag Bravos and Kenmore Oasis fault code list including motor RPS failure", "publisher": "Whirlpool service literature for the equivalent Cabrio model", "url": null },
+    { "title": "Kenmore Oasis washer F51 repair discussion threads", "publisher": "Appliance Parts Pros forum and fixitnow.com", "url": null },
+    { "title": "Tech sheet inside the console, diagnostic mode entry and motor circuit checks", "publisher": "Whirlpool service sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on F51, connector reseating and unnecessary control board replacements", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["uL", "Ld", "LF", "5D", "LE", "F21"]
+}

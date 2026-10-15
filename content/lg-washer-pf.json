@@ -1,0 +1,129 @@
+{
+  "title": "LG Washer PF Code: Power Failure Meaning and Fix",
+  "meta_description": "PF on an LG washer means the power was interrupted mid-cycle. Restart the wash. If it keeps happening, the plug, outlet or breaker is the thing to check.",
+  "h1": "LG washer PF code: what it means and how to fix it",
+  "answer": "PF means power failure. Your LG washer lost its electrical supply partway through a cycle and is telling you the wash did not finish, not that anything inside the machine is broken. If the lights flickered or the power went out, restart the cycle and carry on; many LG models resume by themselves. PF that keeps coming back when the rest of the house is fine is the useful version of this code, and it points at a loose plug, a tired outlet, a nuisance-tripping breaker or an extension cord that should not be there.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "2 to 30 minutes",
+  "cost_estimate": { "diy": "$0 to $30", "technician": "$150 to $350 for an electrician" },
+  "safety_warning": "If the outlet or the plug is warm to the touch, discoloured, scorched or smells of hot plastic, stop using it, switch the circuit off at the breaker and get an electrician. A connection heating up under load is a fire risk and it will not fix itself. Do not keep resetting a breaker that trips repeatedly on the same circuit.",
+  "causes": [
+    {
+      "cause": "A genuine power cut or brownout",
+      "frequency": "most cases",
+      "confirm": "The clocks on the microwave and the oven are flashing, or other things in the house restarted too. A brief dip is enough; the washer does not need a full outage, just a momentary sag below what the control needs to stay alive."
+    },
+    {
+      "cause": "The plug is not fully seated, or the outlet is worn",
+      "frequency": "common",
+      "confirm": "Push the plug home and wiggle it gently. Any looseness, or a plug that falls out under its own weight, means the contacts inside the outlet have lost their grip. The classic pattern is PF only during the spin or a heated wash, which is when the machine draws the most current."
+    },
+    {
+      "cause": "The breaker or GFCI is tripping",
+      "frequency": "common",
+      "confirm": "Go and look at the panel. A breaker sitting between on and off, or a GFCI with its reset button popped out, confirms it. A GFCI that trips only on wash cycles with a heater is pointing at moisture or a failing heating element rather than at the supply."
+    },
+    {
+      "cause": "The machine is on an extension cord or power strip",
+      "frequency": "occasional",
+      "confirm": "Look behind the machine. A washer draws heavily and most extension leads and strips are not built for it; the voltage sags under load, the contacts heat up, and the control browns out. A washer belongs in a wall outlet of its own, with nothing shared on it."
+    },
+    {
+      "cause": "A loose connection inside the machine",
+      "frequency": "occasional",
+      "confirm": "PF at the same point in every cycle, on a sound outlet with nothing else on the circuit, and often a slight vibration-related pattern: it happens when the spin speeds up. A spade terminal that has backed off at the mains filter or the control feed will do this and nothing outside the machine will show it."
+    },
+    {
+      "cause": "The mains filter or the control board has failed",
+      "frequency": "rare",
+      "confirm": "The outlet tests good with another appliance, the plug is tight, nothing is shared on the circuit, and the washer still drops out at random. At that point the supply is proven and the fault is inside, which means the noise filter module or the board's power supply section."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Restart the cycle",
+      "detail": "Press Power, select your program again and press Start. On models with Auto Restart the machine may pick up where it left off once power returns. If the wash was interrupted during the rinse, run Rinse and Spin rather than the whole program again, which saves an hour and gets the same result.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check whether the rest of the house lost power",
+      "detail": "Look at the microwave clock, the oven clock and any plug-in timer. All flashing means the supply dipped and the washer is reporting it correctly, so there is nothing to fix. Only the washer affected means the problem is on that circuit or in that machine, and that is the version worth chasing.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Push the plug fully home and feel the outlet",
+      "detail": "Pull the washer forward, unplug it, and look at both the plug pins and the outlet face for discolouration or pitting. Put the plug back in firmly; it should take a positive push and should not fall out when you let go. Put a hand on the outlet after a spin cycle: it should be at room temperature. Any warmth at all means the connection is resistive and needs an electrician.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "A warm, browned or scorched outlet is a fire risk. Switch the circuit off at the breaker and stop using it."
+    },
+    {
+      "name": "Get rid of any extension cord or power strip",
+      "detail": "Plug the washer directly into a wall outlet, with nothing else sharing it. Extension leads and strips have thinner conductors and springier contacts than a wall socket, and a washer pulling hard during a heated wash or a spin drops enough voltage across them to reset the control. If the only reachable outlet needs a lead, the right answer is a new outlet rather than a better lead.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the breaker and the GFCI",
+      "detail": "Find the breaker for the laundry circuit and look at its position; a tripped one sits between on and off and needs pushing fully off before it will reset on. Check any GFCI outlet on the circuit, including ones in other rooms, and press Reset. If either trips again within a cycle or two, stop resetting it and get an electrician, because something is drawing fault current.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Do not repeatedly reset a breaker that keeps tripping. It is doing its job and something on the circuit is faulty."
+    },
+    {
+      "name": "Test the outlet with a different appliance",
+      "detail": "Plug a kettle, a heater or a vacuum into the same outlet and run it for a few minutes. Something that draws real current will expose a weak connection that a phone charger never would. If the test appliance cuts out, flickers or makes the outlet warm, the outlet is the fault and the washer has been innocent all along.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note exactly when it drops out",
+      "detail": "Run a cycle and write down what the machine was doing when PF appeared: filling, heating, tumbling or spinning up. A drop-out that always happens at the same high-current moment points at the supply or a loose terminal. One that happens at random points on a proven outlet points at the machine. That single observation saves a technician half their diagnostic time.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If PF keeps appearing and the rest of the house never flickers, treat it as an electrical problem and work from the wall inwards. First, prove the outlet. Plug something that draws heavy current into it, run it, and then feel the outlet face. Warmth, browning or a plug that is loose in the socket all mean the outlet has lost its grip and is heating up under load, which is both the cause of your PF and a genuine fire risk; replacing an outlet is a modest electrician's job in the region of $150 to $350 and should not wait. Second, take everything off the circuit that does not need to be there, especially extension leads, strips and anything with a motor that starts and stops. Third, watch the pattern. PF that arrives reliably at the spin, or whenever the heater kicks in, is a voltage problem under load. PF at random points on a proven outlet is not. Fourth, if the supply is proven good, the fault is inside the machine, and the two candidates are a mains terminal that has vibrated loose and the noise filter module where the cord enters the cabinet. Both are behind the rear or top panel, both are at mains potential, and both are worth handing to a technician rather than probing yourself. The main board's power supply section is the last suspect and the most expensive one. One more thing worth ruling out free of charge: if the machine shares a circuit with a freezer, a garage door opener or a sump pump, the surge when that motor starts can be enough to drop the washer's control, and moving one of them to another circuit fixes a fault that otherwise looks like a dead board.",
+  "reset_procedure": "PF clears by itself as soon as a cycle completes normally. Press Power, reselect the program and press Start. If the display is unresponsive, unplug the washer at the wall for a minute and plug it back in. There is no held fault code to clear and no button sequence to learn; the message exists only to tell you the last wash did not finish.",
+  "model_notes": "Most LG washers have an Auto Restart function that resumes the interrupted program by itself when power comes back, which is why some owners see PF and a running machine at the same time. Where that feature can be turned off, it is usually a button-hold on the panel, and with it off the machine just sits on PF until you restart it manually. The code means the same thing on LG front loaders and top loaders. On some models the same event is logged as PS or a power-interruption entry in the service record rather than shown as PF.",
+  "parts": [
+    { "name": "Replacement wall outlet, fitted by an electrician", "cost": "$150 to $350 including labour", "difficulty": "technician only", "note": "The right fix for an outlet that runs warm or will not grip the plug" },
+    { "name": "Mains noise filter module", "cost": "$25 to $70", "difficulty": "hard", "note": "Inside the cabinet at mains potential; for a proven-good supply only" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort, after the outlet and the internal wiring are ruled out" }
+  ],
+  "when_to_call": "Call an electrician, not an appliance technician, if the outlet is warm after a cycle, the plug is loose in the socket, or the breaker trips more than once. Those are supply problems and an appliance engineer will charge a call-out to tell you so. Call an appliance technician instead when the outlet has been proven good with a heavy test load, nothing shares the circuit, no extension lead is involved, and the washer still drops out mid-cycle, because the fault is then inside the cabinet at mains voltage. Stop using the machine entirely and switch the circuit off if you smell hot plastic or see scorching anywhere around the plug, the outlet or the cord.",
+  "faqs": [
+    { "q": "Does PF mean my LG washer is broken?", "a": "Usually not. PF records that the power was interrupted during a cycle, which most often means the supply dipped rather than the machine failed. Restart the wash and see whether it happens again. It only becomes a fault worth chasing when it repeats on a circuit where nothing else in the house is affected." },
+    { "q": "Can I still use my LG washer after a PF code?", "a": "Yes. Restart the cycle and it will run normally. If the interruption happened during a rinse, run Rinse and Spin rather than the whole program, which saves an hour. The only time to stop using it is if the outlet or plug is warm or discoloured, which is an electrical hazard rather than an appliance problem." },
+    { "q": "Why does PF keep appearing when the power has not gone out?", "a": "Because the washer is losing supply at the outlet rather than at the street. A plug that has lost its grip, a worn socket, or an extension lead all drop enough voltage under the heavy load of a spin or a heated wash to reset the control. Feel the outlet after a cycle; it should be at room temperature." },
+    { "q": "Will my LG washer finish the cycle after a power cut?", "a": "On most models, yes. LG fits an Auto Restart function that picks the program back up when power returns, so you may find the machine running with PF showing. If it does not resume, nothing has been lost; press Power, choose the same program and start it again, or run Rinse and Spin if it was already past the wash." },
+    { "q": "Can an extension cord cause a PF code?", "a": "Yes, and it is one of the most common avoidable causes. Washers draw heavily, and most leads and power strips have thinner conductors and weaker contacts than a wall socket, so the voltage sags and the control browns out. A washing machine should go straight into a wall outlet with nothing else sharing it." },
+    { "q": "Should I worry if the outlet feels warm?", "a": "Yes, and act on it rather than noting it. A warm outlet means the connection has resistance, and resistance under load makes heat, which makes the connection worse. That is how outlets scorch and occasionally start fires. Switch the circuit off at the breaker, stop using the socket, and get an electrician to replace it." },
+    { "q": "What is the difference between PF and the washer just turning off?", "a": "PF is the machine telling you it noticed. A washer that dies silently and comes back dead has lost power and never regained it, or has an internal supply fault. A washer showing PF regained power, remembered it had been interrupted, and is reporting that the last cycle did not complete. The second one is the easier problem." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Tracking down why an LG washer keeps losing power",
+    "labels": {
+      "display": "PF",
+      "c1": "Restart the cycle first",
+      "c2": "Plug tight, outlet cool to touch",
+      "c3": "No extension lead or power strip",
+      "c4": "Check the breaker and any GFCI"
+    }
+  },
+  "sources": [
+    { "title": "PF error code on a washing machine, power failure", "publisher": "LG support documentation", "url": null },
+    { "title": "LG washer installation requirements, dedicated outlet and extension cords", "publisher": "LG owner's manual supplied with the machine", "url": null },
+    { "title": "Field experience on worn outlets and voltage drop causing control resets", "publisher": "Appliance repair trade forums", "url": null }
+  ],
+  "related_codes": ["CL", "CE", "UE", "OE", "dE", "tCL"]
+}

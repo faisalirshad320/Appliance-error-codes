@@ -1,0 +1,121 @@
+{
+  "title": "Frigidaire Freezer H1 Error Code: What It Means",
+  "meta_description": "H1 on a Frigidaire freezer is a high temperature alarm. Check it is actually getting colder before you accept that nothing is wrong.",
+  "h1": "Frigidaire freezer H1 error code: what it means and what to check",
+  "answer": "H1 is a high temperature alarm. The freezer went above the temperature the control is prepared to accept and lit the alarm to tell you. It is a report, not a diagnosis: the same alarm appears whether the door was left ajar for an hour or the compressor has stopped for good. Before you decide which, put a thermometer in there and find out whether the cabinet is actually coming back down.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to check, 2 hours to be sure",
+  "cost_estimate": { "diy": "$0 in most cases", "technician": "$150 to $450, more if the sealed system is involved" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The door was left open or did not latch",
+      "frequency": "most cases",
+      "confirm": "A packet wedged against the seal, a drawer not pushed fully home, or a door that bounced back off a full shelf. Frost on the inside of the door seal is the giveaway that it has been open a while."
+    },
+    {
+      "cause": "A power cut while nobody was watching",
+      "frequency": "most cases",
+      "confirm": "Other clocks in the house are flashing, or the alarm was there when you came home. The freezer is often perfectly healthy and simply recording what happened."
+    },
+    {
+      "cause": "Warm food loaded in bulk",
+      "frequency": "common",
+      "confirm": "You filled it after a shop or put something still warm in. The cabinet temperature rises, the alarm trips, and it settles by itself over a few hours."
+    },
+    {
+      "cause": "The condenser coils are choked with dust",
+      "frequency": "occasional",
+      "confirm": "The grille at the back or underneath is furred with dust and pet hair, and the cabinet runs almost continuously without getting properly cold."
+    },
+    {
+      "cause": "The evaporator fan has stopped",
+      "frequency": "occasional",
+      "confirm": "Put your ear to the cabinet with the door shut. A compressor humming with no fan noise behind the rear panel means cold is being made and not moved."
+    },
+    {
+      "cause": "A defrost or sealed-system failure",
+      "frequency": "rare",
+      "confirm": "The cabinet never comes back down over several hours, or the rear panel is a solid block of ice. This is the branch where the alarm is telling you something real."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check the door first",
+      "detail": "Open it, clear anything wedged against the seal, make sure every drawer and basket is pushed fully home, and close it firmly. Then run a sheet of paper round the seal: close the door on it and pull, and anywhere it slides out with no drag is a gap. This is the cause more often than everything below put together.",
+      "minutes": 5,
+      "tools": "A sheet of paper",
+      "warning": null
+    },
+    {
+      "name": "Find out whether it is recovering",
+      "detail": "This is the step that decides everything else. Put a thermometer in the freezer, or stand a glass of water in there, note the time, and leave it two hours without opening the door. Coming down means the alarm is history and you are done. Still warm after two hours means the freezer is not cooling and the alarm is live.",
+      "minutes": 10,
+      "tools": "Thermometer, or a glass of water",
+      "warning": null
+    },
+    {
+      "name": "Clear the alarm and watch it",
+      "detail": "On most Frigidaire freezers the alarm clears by pressing the alarm or reset button on the control panel, and on models without one it clears itself once the cabinet is back in range. Clear it and see whether it comes back. An alarm that stays gone was a door or a power cut; one that returns within hours is a real fault.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser coils",
+      "detail": "Unplug the freezer, find the coils behind the rear panel or under the front grille, and take a vacuum brush and a coil brush to them. A coil blanketed in dust cannot shed heat, so the compressor runs and runs without getting the cabinet down. On a freezer in a garage or a kitchen with pets this is worth doing yearly whether or not you have an alarm.",
+      "minutes": 25,
+      "tools": "Vacuum with a brush head, coil brush",
+      "warning": "Unplug it at the wall before reaching behind or underneath."
+    },
+    {
+      "name": "Listen for the fan",
+      "detail": "With the door shut, put your ear against the cabinet. You should hear a low hum from the compressor and a lighter whirr from the evaporator fan behind the rear wall inside. Compressor running with no fan means the cold is being made and not circulated, which produces exactly this alarm with a cabinet that never quite gets there.",
+      "minutes": 4,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check for a wall of ice at the back",
+      "detail": "Take out the baskets and look at the rear interior panel. Light frost is normal. A solid sheet of ice covering it means the automatic defrost has stopped working, air can no longer pass over the coil, and the cabinet will keep alarming until that is fixed. Defrosting it manually will buy weeks, not a cure.",
+      "minutes": 6,
+      "tools": "Torch",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the two-hour test showed the cabinet is not coming back down, stop treating this as an alarm and start treating it as a failure, and move the food now rather than after the diagnosis. Work in this order. First, confirm the compressor is actually running: a hum and warmth at the pipework underneath means it is, silence and a cold cabinet exterior means it is not, and a compressor that will not start points at the start relay or overload, a part in the $20 to $60 range that is a common and inexpensive failure. Second, if the compressor runs but the rear panel is solid ice, the defrost system has failed, and that is a heater, thermostat or timer at $60 to $180 in parts. Third, if the compressor runs, the coils are clean, there is no ice wall and the fan turns, but the cabinet still will not get cold, you are into the sealed refrigerant system, and that is where the cost jumps to several hundred dollars and becomes licensed-technician work. On a freezer more than about eight years old, get the quote in writing before agreeing to sealed-system work, because it frequently approaches the price of replacing the appliance. One thing worth checking before any of that, because it costs nothing and catches people out: if this is a chest or upright freezer in an unheated garage, some models stop running properly when the room around them drops near freezing, because the thermostat reads the room as cold enough and never calls for the compressor. A freezer alarming in a cold garage in winter may need a garage-ready model rather than a repair.",
+  "reset_procedure": "Press the alarm or reset button on the control panel if your model has one. Models without a dedicated button clear the alarm by themselves once the cabinet returns to temperature. If pressing it clears the alarm and it returns within a few hours, that is useful information rather than a failed reset: it means the cabinet is not holding temperature and the alarm is doing its job.",
+  "model_notes": "Frigidaire labels this alarm differently across its range: H1 on some panels, H or HI on others, and the words High Temp on models with a text display. They are the same alarm. Standalone freezers differ from the freezer side of a fridge-freezer in one respect worth knowing: there is no second compartment to compare against, so you cannot use the fridge section as a clue, which makes the thermometer test more important rather than less.",
+  "parts": [
+    { "name": "Door gasket", "cost": "$40 to $120", "difficulty": "moderate", "note": "Only if the paper test fails along a whole section" },
+    { "name": "Compressor start relay and overload", "cost": "$20 to $60", "difficulty": "moderate", "note": "Common failure, cheap, worth checking before anything expensive" },
+    { "name": "Evaporator fan motor", "cost": "$50 to $120", "difficulty": "moderate", "note": "If the compressor runs but no air moves" },
+    { "name": "Defrost heater or thermostat", "cost": "$60 to $180", "difficulty": "hard", "note": "For the solid-ice-at-the-back case" }
+  ],
+  "when_to_call": "Call someone if the cabinet has not started falling after two hours with the door shut, the coils are clean and the compressor is running, because the next steps need refrigerant equipment and a licence. Call sooner if the compressor is silent and the cabinet is at room temperature, since every hour costs you food. Do not call at all until you have done the thermometer test: a technician arriving to find a healthy freezer that recorded a power cut will charge you a call-out to tell you nothing was wrong, and that is the most common wasted visit on this alarm.",
+  "faqs": [
+    { "q": "Is the food in my freezer still safe?", "a": "Food that has stayed at or below freezing is fine. A full freezer holds temperature for roughly 48 hours unopened, and a half-full one about 24. Judge by the food, not the clock: anything still containing ice crystals can be refrozen, while anything that has warmed above 40F for more than two hours should be thrown out." },
+    { "q": "Can I just clear the H1 alarm and ignore it?", "a": "Only once you know the freezer is recovering. Clearing it without checking removes the one signal telling you the cabinet is warming, and people discover the failure days later by the smell. Clear it, then confirm with a thermometer that the temperature is falling, and if the alarm returns treat that as the answer." },
+    { "q": "Why did H1 appear overnight with the door shut?", "a": "Almost always a power cut you slept through. The freezer logs the high temperature, lights the alarm, and carries on normally once power returns. Check whether other clocks in the house are flashing. If the cabinet is cold and getting colder, the alarm is a record of something that already ended." },
+    { "q": "How cold should a freezer actually be?", "a": "Zero Fahrenheit, or around minus eighteen Celsius, is the standard target for long-term storage. Anywhere up to about five degrees above that is still safe, though food keeps less well. The alarm threshold is set by the control for your model and sits well above those figures, so by the time H1 appears the cabinet has drifted meaningfully warm." },
+    { "q": "The freezer is in my garage and alarms every winter. Why?", "a": "Many freezers are not rated for cold surroundings. The thermostat senses the room rather than only the cabinet, decides no cooling is needed, and the compressor stops running often enough to hold temperature. The fix is a garage-ready model rather than a repair, so do not pay anyone to diagnose a healthy appliance." },
+    { "q": "Will defrosting it manually fix H1?", "a": "It will help if the rear panel is a solid sheet of ice, because that ice is blocking airflow over the coil. But manual defrosting treats the symptom: if the automatic defrost system has failed, the ice returns within weeks. Use the manual defrost to buy time and to confirm the diagnosis, not as the repair." }
+  ],
+  "diagram": {
+    "kind": "refrigerator-sensor",
+    "caption": "What to check on a Frigidaire freezer showing a high temperature alarm",
+    "labels": {
+      "c1": "Cabinet sensor, reports the alarm",
+      "c2": "Door seal, check with paper",
+      "c3": "Evaporator fan, listen for it",
+      "c4": "Coils and defrost at the back"
+    }
+  },
+  "sources": [
+    { "title": "High temperature alarm guidance for freezers and refrigerators", "publisher": "Frigidaire support documentation", "url": null },
+    { "title": "Food safety after a freezer warms: the ice crystal test", "publisher": "USDA Food Safety and Inspection Service guidance", "url": null },
+    { "title": "Field reports on high temperature alarms and their causes", "publisher": "Appliance repair community threads", "url": null }
+  ],
+  "related_codes": ["H", "HI", "High Temp", "SY EF", "SY CF"]
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Samsung Oven AP Code: Wi-Fi Pairing, Not a Fault",
+  "meta_description": "AP on a Samsung oven is almost certainly access point mode for Wi-Fi setup, not a fault. If the oven still heats normally, nothing is broken.",
+  "h1": "Samsung oven AP code: what it means and how to clear it",
+  "answer": "AP on a Samsung appliance means access point mode: the appliance has put itself into Wi-Fi pairing so a phone can connect to it during SmartThings setup. Samsung documents this on its connected refrigerators and dishwashers, where AP shows during setup and clears once pairing finishes or times out. Worth saying plainly: AP does not appear in Samsung's published range and wall oven code tables, so the oven-specific documentation is thin. The test that settles it costs nothing. If the oven still heats and cooks normally, this is the pairing indicator and nothing is broken. If the oven will not heat, you have a different problem that happens to be showing an unfamiliar display.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "10 minutes",
+  "cost_estimate": { "diy": "$0", "technician": "$0 in most cases" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The oven is in access point mode for Wi-Fi setup",
+      "frequency": "most cases",
+      "confirm": "AP appeared after someone opened SmartThings, tried to connect the oven, or pressed and held a Wi-Fi or connectivity button on the panel. The oven still heats normally. Pairing modes also time out on their own, so leaving it twenty minutes and watching the display clear confirms it."
+    },
+    {
+      "cause": "Pairing was triggered by accident",
+      "frequency": "common",
+      "confirm": "Nobody meant to set up Wi-Fi, but a connectivity button was held down during cleaning, or a child pressed something. The oven otherwise behaves exactly as it always has. This is the same condition as deliberate pairing, reached by accident."
+    },
+    {
+      "cause": "The oven re-entered pairing after a power cut or a router change",
+      "frequency": "common",
+      "confirm": "AP turned up after an outage, or after you changed broadband provider, replaced a router, or changed the Wi-Fi password. The oven has lost the network it knew and is advertising itself for setup again."
+    },
+    {
+      "cause": "Something other than pairing, with the display misread",
+      "frequency": "occasional",
+      "confirm": "The oven will not heat, or another symptom came with it. Look closely at the panel: Samsung oven codes often use a hyphen or a leading character, and a segment display can make unfamiliar combinations hard to read. Photograph it and compare against the code list for your model."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Test whether the oven still works",
+      "detail": "Set it to bake at a moderate temperature and give it ten minutes. If it preheats normally and holds temperature, you do not have a fault, you have a connectivity indicator, and everything below is about tidying it up rather than repairing anything. If the oven will not heat, stop treating this as an AP question and look up what your model's panel is actually displaying.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Photograph the display carefully",
+      "detail": "Take a clear picture of the panel. Note whether the characters really are A and P, whether there is a hyphen, a leading dash, or a digit alongside. Samsung uses formats like Pr E and S-01 on ovens, and a segment display makes some character combinations ambiguous. A photo lets you compare against the list for your model rather than relying on a glance.",
+      "minutes": 3,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Either finish the Wi-Fi setup or let it time out",
+      "detail": "If you want the oven connected, open SmartThings on your phone, add the device, and follow it through; the display clears when pairing completes. If you do not want it connected, leave the oven alone for twenty minutes or so, because pairing modes drop out on their own when nothing connects. Doing nothing is a legitimate fix here.",
+      "minutes": 20,
+      "tools": "Phone with the SmartThings app",
+      "warning": null
+    },
+    {
+      "name": "Power cycle at the breaker if it stays",
+      "detail": "Switch the oven off at its circuit breaker for five minutes, then back on. This drops the oven out of pairing mode along with any stored state. Give it the full five minutes rather than a quick flick, since the control holds residual charge. The oven should come back to its normal clock or standby display.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Stop it happening again",
+      "detail": "If AP keeps returning, find the connectivity or Wi-Fi control on your panel and check nothing is holding it, such as a cleaning cloth left against the fascia or a key that sticks. If it reappears after every power cut, that usually means the oven never successfully joined your network, so either complete the setup properly or leave the connectivity feature unused.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If AP will not clear, work through it in this order, and keep in mind that the cheapest outcome is by far the most likely. First, confirm the oven cooks. Ten minutes on bake answers the only question that really matters, because a Samsung oven that heats and holds temperature is not broken regardless of what the display is showing. Second, complete the pairing rather than fighting it. Even if you have no interest in a connected oven, running through SmartThings once gives the oven a network to join and stops it dropping back into advertising mode after every power cut, which is the usual reason this keeps coming back. Third, do a proper five-minute breaker reset rather than a quick flick, since the control holds charge and a short interruption often leaves it exactly where it was. Fourth, if the display persists through all of that and the oven is otherwise fine, the honest answer is that it is cosmetic and not worth a service call. Now the part worth being straight about: AP is not listed in Samsung's published range and wall oven code tables. Samsung documents it on connected refrigerators and dishwashers as access point mode, and the behavior described there matches what oven owners report, which is why this page leads with that reading. One third-party blog instead claims AP on a Samsung stove means auto program, but it cites no Samsung documentation and nothing else supports it. So if your oven genuinely will not heat while showing AP, do not accept either explanation from a web page including this one: photograph the display, get the model number off the door frame, and check it against the code list for your specific model or ask Samsung support directly. An unfamiliar display on a working oven is a curiosity. The same display on an oven that will not cook is a different problem wearing the same letters, and it deserves a proper identification rather than a guess.",
+  "reset_procedure": "Leave the oven alone for twenty minutes first, because pairing modes time out by themselves when nothing connects, and that is the least disruptive fix. If it persists, switch the oven off at its circuit breaker for a full five minutes and restore power, which drops it out of pairing along with any stored state. Completing the SmartThings setup once also clears it and stops it recurring after power cuts, which a reset alone will not do.",
+  "model_notes": "Samsung's published range and wall oven information code lists do not include AP. Samsung does document AP as access point mode on its connected refrigerators and dishwashers, where it appears during Wi-Fi setup and clears when pairing completes or times out, and that behavior matches what oven owners describe. Beyond that, the only source specifically addressing AP on a Samsung cooking appliance is a third-party blog claiming it stands for auto program, which cites no Samsung documentation. The honest summary is that this is a connectivity indicator on a connected model rather than a fault code, and that the oven-specific documentation is thin enough that an oven which will not heat while displaying AP should be identified from its own manual rather than from any general list.",
+  "parts": [],
+  "when_to_call": "You should not need anyone for AP alone. If the oven heats and cooks normally, there is no fault to repair and no part to fit, and a service call will cost you a visit fee to be told the oven is connected to nothing. The exception is an oven that will not heat while showing AP, which is a real problem that has been misfiled under an unfamiliar display. In that case photograph the panel, get the model number from the door frame, and contact Samsung support with both, since they can identify what your specific model is actually reporting rather than guessing from a general list.",
+  "faqs": [
+    { "q": "What does AP mean on a Samsung oven?", "a": "Access point mode, which is the Wi-Fi pairing state a connected Samsung appliance enters so your phone can find it during SmartThings setup. Samsung documents this on its refrigerators and dishwashers. It is not a fault, nothing is broken, and the display clears when pairing completes or when the mode times out on its own." },
+    { "q": "Can I still use the oven while it shows AP?", "a": "Yes, in almost every case. Access point mode affects connectivity, not cooking, so the oven should preheat and hold temperature normally. Run a ten-minute bake to confirm. If the oven will not heat while showing AP, that is a separate fault rather than a consequence of pairing mode, and it needs identifying properly." },
+    { "q": "How do I get rid of the AP display?", "a": "Three options, cheapest first. Leave it twenty minutes and let the pairing mode time out. Complete the SmartThings setup, which clears it and stops it recurring. Or switch the oven off at its breaker for five minutes and back on. Completing setup is the only one that prevents it returning after the next power cut." },
+    { "q": "Why does AP keep coming back after a power cut?", "a": "Because the oven has never successfully joined your network, so it advertises itself for setup again each time it restarts. The same thing happens after you change router, broadband provider or Wi-Fi password. Running the SmartThings setup through once gives it a network to remember and stops the cycle." },
+    { "q": "Is AP in Samsung's official oven code list?", "a": "No, and that is worth knowing. Samsung's published range and wall oven information code tables do not include it, so the reading on this page comes from how Samsung documents AP on its connected refrigerators and dishwashers. The behavior matches, but if your oven is misbehaving, check your own model's manual rather than relying on a general list." },
+    { "q": "I do not want a connected oven. Does AP matter?", "a": "Not really. You can ignore it, let it time out, or clear it with a breaker reset, and the oven cooks exactly the same either way. The only nuisance is that it may reappear after power cuts, since the oven keeps offering to be set up. Running the setup once is the simplest way to stop it asking." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Checking whether a Samsung AP display is a fault at all",
+    "labels": {
+      "display": "AP",
+      "c1": "Ten-minute bake, does it heat",
+      "c2": "Photograph the exact characters",
+      "c3": "Finish or time out the pairing",
+      "c4": "Breaker off five full minutes"
+    }
+  },
+  "sources": [
+    { "title": "Access point mode on connected Samsung appliances during SmartThings setup", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Information codes on Samsung ovens, which do not list AP", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Third-party claim that AP on a Samsung stove means auto program, uncited", "publisher": "Independent appliance blog", "url": null }
+  ],
+  "related_codes": ["Pr E", "S-01", "dC"]
+}

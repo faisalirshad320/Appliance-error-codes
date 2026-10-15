@@ -1,0 +1,198 @@
+{
+  "title": "Maytag Dryer F3 E3 Code: Inlet Thermistor Fault",
+  "meta_description": "F3 E3 on a Maytag dryer means the inlet thermistor reads open or shorted. Usually a failed sensor or a disconnected wire.",
+  "h1": "Maytag dryer F3 E3 code: the inlet thermistor, and how to check it",
+  "answer": "F3 E3 on a Maytag dryer means the control is getting a reading from the inlet thermistor that cannot be real, so the circuit is either open or shorted. The inlet thermistor is the small temperature sensor that tells the board how hot the air entering the drum is, and without it the dryer cannot regulate heat properly. Do a full five minute power reset first, because a one-off reading sometimes latches the code. If it comes back, the fault is almost always the sensor itself or the connector on it, and the part is cheap.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to reset, 1 to 2 hours to test and replace the sensor",
+  "cost_estimate": {
+    "diy": "$15 to $50",
+    "technician": "$180 to $350"
+  },
+  "safety_warning": "Do not keep running the dryer with F3 E3 unresolved. The inlet thermistor is one of the sensors the control uses to keep the heater in check, and with it reading nonsense the machine has lost a layer of overheating protection. Unplug the dryer at the wall or switch off both halves of its breaker before any panel comes off, and verify with a non-contact tester that it is dead. On a gas dryer, close the shutoff valve behind the machine and leave the burner, the gas valve and the gas line to a licensed technician. Never bypass a thermal cut-out to get a cycle to run.",
+  "causes": [
+    {
+      "cause": "The inlet thermistor has failed open or shorted",
+      "frequency": "most cases",
+      "confirm": "With the dryer unplugged, unplug the sensor and measure across its two terminals with a multimeter on ohms. A healthy thermistor reads a sensible resistance at room temperature and changes as it warms in your hand. Infinite resistance means open, near zero means shorted, and either one is the fault. Check the tech sheet inside the dryer for the exact figure for your model."
+    },
+    {
+      "cause": "A loose, corroded or backed-out connector on the thermistor",
+      "frequency": "common",
+      "confirm": "The sensor measures fine on the bench but F3 E3 returns in the machine. Look at the plug for green corrosion, a terminal that has crept back out of its housing, or a connector that was never clicked fully home after an earlier repair. Damp laundry rooms make this common and it costs nothing to fix."
+    },
+    {
+      "cause": "A broken or chafed wire between the sensor and the control board",
+      "frequency": "common",
+      "confirm": "F3 E3 comes and goes rather than appearing on every cycle, or appears only once the dryer has been running and warmed up. Follow the harness from the sensor and look for a wire rubbed through where it crosses a sheet metal edge, or one pinched under a panel refitted carelessly after a previous job."
+    },
+    {
+      "cause": "A one-off reading that latched after a power event",
+      "frequency": "occasional",
+      "confirm": "F3 E3 appeared once, often after a power dip or an interrupted cycle, and a full five minute power cut clears it. If the dryer then runs normally for a week with no repeat, there was nothing to replace. This is why the reset comes first."
+    },
+    {
+      "cause": "A restricted vent cooking the sensor circuit",
+      "frequency": "occasional",
+      "confirm": "F3 E3 shows up on a dryer that was already drying slowly or running very hot, and the duct is packed with lint. Sustained high temperatures age thermistors and their connectors. Clearing the vent will not clear the code, but if you replace the sensor without clearing the vent you will be back here."
+    },
+    {
+      "cause": "The main control board is misreading a good sensor",
+      "frequency": "rare",
+      "confirm": "The thermistor measures correctly, the connector is clean and seated, the harness has continuity end to end, and F3 E3 still appears on every cycle. Only then is the board the suspect, and that is where the cost jumps from a cheap part to a service call."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Do a proper five minute power reset",
+      "detail": "Unplug the dryer at the wall or switch off both halves of its breaker, and leave it a full five minutes rather than a quick off and on. The board holds residual charge and a short interruption often leaves the fault latched. Restore power and run a short timed heated cycle with a few damp towels. If F3 E3 does not return, you are done and it cost nothing.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the vent before you open anything",
+      "detail": "Pull the lint screen, wash the mesh in warm soapy water, vacuum the housing below it, then pull the dryer out and check the transition duct and the outside wall cap. A restricted vent is not the cause of F3 E3, but it cooks sensors and connectors over time, and fixing one without the other just buys you a few months.",
+      "minutes": 30,
+      "tools": "Vacuum with crevice tool, vent brush, soft brush",
+      "warning": null
+    },
+    {
+      "name": "Find the tech sheet and the sensor location",
+      "detail": "Maytag folds a service tech sheet inside the console or tapes it behind the lower front panel on most dryers. It gives the sensor locations and the expected resistance for your exact model, which is the figure you want rather than a generic number off a chart. Photograph it before you put it back, because you will want it again.",
+      "minutes": 15,
+      "tools": "Phillips #2, nut driver, phone camera",
+      "warning": "Unplug at the wall before removing any panel."
+    },
+    {
+      "name": "Get to the inlet thermistor",
+      "detail": "With the dryer unplugged and confirmed dead, open the cabinet as the tech sheet directs; on most Maytag models that means releasing the top panel and then the lower front panel. The inlet thermistor sits in the air path where heated air enters the drum, near the heater housing rather than at the exhaust end. Photograph everything before disconnecting anything.",
+      "minutes": 30,
+      "tools": "Phillips #2, nut driver, putty knife, non-contact voltage tester, flashlight",
+      "warning": "240 volts inside the cabinet on an electric dryer. Unplug and verify dead before reaching in."
+    },
+    {
+      "name": "Measure the thermistor",
+      "detail": "Pull the connector off the sensor and put a multimeter on ohms across its two terminals. You want a steady, sensible reading that drifts as the sensor warms when you cup it in your hand. Infinite resistance means the element is open; a reading close to zero means it is shorted. Compare against the figure on the tech sheet rather than any value from a generic chart.",
+      "minutes": 15,
+      "tools": "Multimeter",
+      "warning": null
+    },
+    {
+      "name": "Check the connector and the harness back to the board",
+      "detail": "If the sensor measures correctly, the fault is between it and the control. Inspect the plug for green corrosion and for terminals that have backed out of the housing. Then, with the dryer still unplugged, check continuity along each wire from the sensor plug to the corresponding pin at the control board. A break or a high resistance joint here produces the same code as a dead sensor.",
+      "minutes": 25,
+      "tools": "Multimeter, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Fit the new sensor and test properly",
+      "detail": "Thermistors are usually held by a single screw or a clip and one connector, so the swap takes minutes once the panel is off. Seat the new connector until it clicks. Reassemble in reverse, restore power, and run a full heated cycle with damp towels, watching for the code and checking that the clothes come out dry and the cabinet is warm rather than hot.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips #2",
+      "warning": null
+    }
+  ],
+  "still_showing": "If F3 E3 is still there after a reset and a new thermistor, the sensor was never the problem and you should stop buying parts. Work in this order. First, prove the new sensor is actually connected: pull the plug and measure across the sensor again in place, because a connector that looks seated but sits one click proud is the most common reason a part swap changes nothing. Second, check the harness end to end with the dryer unplugged, meter on continuity, one probe at the sensor plug and the other at the matching pin on the control board. You are looking for an open circuit or a joint that reads high, typically where the loom crosses a sheet metal edge behind the drum or where it was pinched under a panel during an earlier repair. Wiggle the harness while you watch the meter, because an intermittent break will only show under movement. Third, consider whether you have the right sensor. Maytag dryers carry more than one temperature sensor, and the inlet thermistor is not the exhaust thermistor; they look similar and sit in different places. Swapping the wrong one is a common and expensive mistake, so check the tech sheet position rather than going by appearance. Fourth, if the sensor is good, seated and wired through cleanly, the fault is the control board reading it. That is where the cost jumps: expect $150 to $300 for the board and $250 to $450 fitted, which on a dryer over ten years old is worth weighing against replacement. One more thing to rule out for free before you get that far: a dryer with a badly restricted vent runs hot enough to drive readings out of range and will throw temperature codes on perfectly good sensors, so if you have not brushed the full duct run to the outside wall cap, do that first.",
+  "reset_procedure": "Unplug the dryer at the wall or switch off both halves of its breaker and leave it a full five minutes. The wait matters: the board holds residual charge and a quick off-and-on often leaves the fault latched, which is why so many people believe the reset failed when they never really did one. Restore power and run a short timed heated cycle with damp towels rather than a full load, so a repeat shows up in ten minutes instead of an hour.",
+  "model_notes": "Maytag dryers are built on the Whirlpool control platform, so F3 E3 carries the same meaning on Whirlpool, Amana and KitchenAid dryers of the same generation. The same fault appears as F3E3 without a space on some displays. Be careful with the neighboring codes: F3 E1 and F3 E2 in this family cover other parts of the sensing group, including the moisture sensor bars and the exhaust thermistor, and third-party code charts disagree about which is which. The tech sheet inside your own machine is the only reference that is definitely right for your model, so use that rather than a generic chart before ordering a part.",
+  "parts": [
+    {
+      "name": "Inlet thermistor, sold as a temperature sensor",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Order against your model number; the inlet and exhaust sensors are different parts"
+    },
+    {
+      "name": "Thermistor wiring harness or connector kit",
+      "cost": "$15 to $40",
+      "difficulty": "moderate",
+      "note": "For a chafed wire or a corroded terminal, which is the cheaper find"
+    },
+    {
+      "name": "Thermal cut-off and high limit kit",
+      "cost": "$20 to $45",
+      "difficulty": "moderate",
+      "note": "Worth checking together if the dryer has been overheating on a blocked vent"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, only after the sensor and harness are proven good"
+    }
+  ],
+  "when_to_call": "Call an appliance technician if you are not comfortable working inside a cabinet fed by 240 volts, or if F3 E3 survives a reset, a new sensor and a continuity check on the harness, because the next step is board level diagnosis with the machine live. Call a licensed gas technician for anything involving the burner, the gas valve or the gas line on a gas dryer, full stop. Stop using the dryer and get someone out the same week if the cabinet is too hot to rest a hand on, if clothes come out scorched, or if you smell burning, because those are overheating symptoms and the sensor that would normally catch them is the one reporting a fault.",
+  "faqs": [
+    {
+      "q": "What does F3 E3 mean on a Maytag dryer?",
+      "a": "The control is reading something impossible from the inlet thermistor, the sensor that measures the temperature of air entering the drum. The circuit is either open or shorted. In most cases the sensor itself has failed, but a corroded connector or a broken wire between the sensor and the board produces exactly the same code."
+    },
+    {
+      "q": "Can I still use my dryer with an F3 E3 code?",
+      "a": "You should not. The inlet thermistor is part of how the control keeps the heater in check, so running without it means a layer of overheating protection is missing. Most machines stop the cycle anyway. If yours will still run, treat that as a reason to fix it quickly rather than a reason to keep using it."
+    },
+    {
+      "q": "How much does it cost to fix F3 E3?",
+      "a": "Nothing if a five minute reset clears it, which happens with a fair number of one-off codes. If the sensor has failed, the part runs roughly $15 to $45 and the job is a panel and one screw. A technician doing the same work typically charges $180 to $350 including the call-out and the part."
+    },
+    {
+      "q": "Is the inlet thermistor the same as the exhaust thermistor?",
+      "a": "No, and mixing them up is the most expensive mistake on this repair. The inlet thermistor reads air entering the drum near the heater housing; the exhaust thermistor reads air leaving it. They look similar and are sold as separate parts. Use the tech sheet inside your dryer to confirm which sensor the code refers to before ordering."
+    },
+    {
+      "q": "Why did F3 E3 appear suddenly?",
+      "a": "Thermistors fail without a gradual warning, so there is rarely a symptom beforehand. Age and heat do most of it, and a dryer that has been running on a restricted vent cooks its sensors and connectors faster. A power dip can also latch the code once without anything actually being wrong, which is why a reset is the first move."
+    },
+    {
+      "q": "Will replacing the thermistor definitely fix it?",
+      "a": "Only if the thermistor is actually the failed part, which is why measuring it first matters. Roughly a third of these codes come from the connector or the harness rather than the sensor. Measure across the sensor with a multimeter, then check continuity back to the control board, and replace what the readings point at rather than guessing."
+    },
+    {
+      "q": "Where do I find the resistance value for my model?",
+      "a": "On the service tech sheet, which Maytag folds inside the console or tapes behind the lower front panel on most dryers. That figure is model specific, and generic values from code charts are often wrong for a given machine. Photograph the sheet while you have it out, because you will want it again on the next repair."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-thermistor",
+    "caption": "The inlet thermistor reads air entering the drum; the fault is the sensor, its plug or its wire.",
+    "labels": {
+      "display": "F3 E3",
+      "c1": "Five minute power cut first",
+      "c2": "Inlet thermistor at the heater end",
+      "c3": "Measure across its two terminals",
+      "c4": "Check the harness back to the board"
+    }
+  },
+  "sources": [
+    {
+      "title": "F3 E3 dryer error code, inlet thermistor",
+      "publisher": "Whirlpool product help documentation for the shared dryer platform",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer technical sheet, sensor locations and expected resistance values",
+      "publisher": "Service tech sheet supplied inside the dryer",
+      "url": null
+    },
+    {
+      "title": "Troubleshooting guidance for F3E3 on Maytag dryers",
+      "publisher": "AppliancePartsPros repair guides",
+      "url": null
+    },
+    {
+      "title": "Field reports on how often F3E3 is the sensor versus the harness",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F3E2",
+    "F2E1",
+    "AF",
+    "F01",
+    "PF",
+    "LOC"
+  ]
+}
