@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://applianceerrorcodes.example/sitemap.xml
+Sitemap: https://appliancecodex.com/sitemap.xml
