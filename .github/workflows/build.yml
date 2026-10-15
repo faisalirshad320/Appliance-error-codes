@@ -31,10 +31,16 @@ jobs:
         run: python3 tools/validate_content.py
 
       - name: Build the static site
-        run: python3 site/build.py
+        # PUBLISH_ALL ignores the release schedule, so every page is built, linked and
+        # checked here even when it is weeks away from going live. Releasing is a
+        # separate workflow; this one is purely the quality gate.
+        run: PUBLISH_ALL=1 python3 site/build.py
 
       - name: Check internal links and structured data
         run: python3 tools/qa.py
+
+      - name: Check the release schedule covers every page exactly once
+        run: python3 tools/check_schedule.py
 
       - name: Reconcile page map, batch assignments and content
         run: python3 tools/coverage.py
@@ -49,24 +55,3 @@ jobs:
           path: dist/
           retention-days: 14
 
-  publish:
-    # Pushes the built site to a deploy branch whose root IS the document root,
-    # which is the shape Cloudways git deployment expects.
-    needs: build
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: python3 site/build.py
-      - name: Push dist/ to the deploy branch
-        run: |
-          cd dist
-          git init -q
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "Build from ${GITHUB_SHA::8}"
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:deploy

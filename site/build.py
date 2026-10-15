@@ -5,7 +5,7 @@ Static site build. Reads data/pagemap.json plus content/*.json and writes dist/.
 No framework, no runtime, no database. Output is plain HTML that an Apache or Nginx
 document root serves directly, which is what the Cloudways PHP app will host.
 """
-import json, pathlib, re, html, sys, datetime, collections
+import json, pathlib, re, html, sys, os, datetime, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "site" / "lib"))
@@ -595,12 +595,39 @@ ErrorDocument 404 /404.html
 
 # ----------------------------------------------------------------- main
 
+def released(today=None):
+    """Slugs whose release wave is due, and the waves themselves.
+
+    Returns (due_slugs, waves_due, waves_total). A missing schedule releases
+    everything, so the build still works for anyone who just cloned the repo.
+    Set PUBLISH_ALL=1 to ignore the schedule and build the whole site, which is what
+    CI does when it validates content and checks for duplicate prose.
+    """
+    f = ROOT/"pipeline"/"release-schedule.json"
+    if os.environ.get("PUBLISH_ALL") == "1" or not f.exists():
+        return None, 0, 0
+    sched = json.loads(f.read_text())
+    launch = datetime.date.fromisoformat(sched["launch_date"])
+    today = today or datetime.date.today()
+    due, n = set(), 0
+    for w in sched["waves"]:
+        if launch + datetime.timedelta(days=w["offset_days"]) <= today:
+            due |= set(w["slugs"]); n += 1
+    if not n:
+        # launch_date is still in the future. Ship the seed wave anyway: whatever is on
+        # the deploy branch is what the document root serves, and an empty site is a
+        # worse outcome than starting the drip a few days early.
+        due, n = set(sched["waves"][0]["slugs"]), 1
+    return due, n, len(sched["waves"])
+
+
 def main():
     pages = json.loads((ROOT/"data"/"pagemap.json").read_text())
     content_dir = ROOT/"content"
     dist = ROOT/"dist"
+    due, waves_due, waves_total = released()
 
-    loaded, problems = {}, []
+    loaded, problems, held = {}, [], 0
     for p in pages:
         f = content_dir/f'{p["slug"]}.json'
         if not f.exists(): continue
@@ -610,6 +637,10 @@ def main():
             problems.append(f'{p["slug"]}: invalid JSON ({e})'); continue
         errs = pschema.validate(d, p["slug"])
         if errs: problems.extend(errs); continue
+        # Validate every page even when it is not due, so a broken file fails the
+        # build that writes it rather than the one three weeks later that releases it.
+        if due is not None and p["slug"] not in due:
+            held += 1; continue
         loaded[p["slug"]] = d
 
     idx = Index(pages, built=set(loaded))
@@ -733,6 +764,9 @@ def main():
                '<p><a class="btn" href="/find-your-code/">Search every code</a></p></div>'))
 
     print(f"built {len(loaded)}/{len(pages)} code pages, {len(urls)} urls total -> dist/")
+    if held:
+        print(f"release schedule: wave {waves_due}/{waves_total} live, "
+              f"{held} pages not due yet (PUBLISH_ALL=1 builds all of them)")
     if problems:
         print(f"\n{len(problems)} content problems (those pages were skipped):")
         for pr in problems[:40]: print("  -", pr)
