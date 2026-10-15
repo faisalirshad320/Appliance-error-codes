@@ -38,7 +38,7 @@
   "steps": [
     {
       "name": "Reset at the breaker for five minutes",
-      "detail": "Switch the oven's breaker off, leave it a full five minutes, then switch it back on. This clears a control that has locked up after a power cut or a brownave, and it is the only thing that silences the constant beeping on models that do that. The oven's own cancel button does not reset the board, and a hardwired built-in has no plug to pull.",
+      "detail": "Switch the oven's breaker off, leave it a full five minutes, then switch it back on. This clears a control that has locked up after a power cut or a brownout, and it is the only thing that silences the constant beeping on models that do that. The oven's own cancel button does not reset the board, and a hardwired built-in has no plug to pull.",
       "minutes": 7,
       "tools": null,
       "warning": "Use the breaker. Switching the oven off at its own controls does not isolate it."
