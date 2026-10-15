@@ -143,7 +143,7 @@
     },
     {
       "q": "Is F2 the same as F20 on a GE oven?",
-      "a": "On most models yes, in substance. Newer GE controls report the same over-temperature or sensor circuit condition as F20, often split out by cavity on double ovens. The diagnosis is identical: measure the sensor, check the harness, then suspect the board. Older ranges simply show the shorter F2."
+      "a": "On most models yes, in substance. Newer GE controls report the same over-temperature or sensor circuit condition as F20, often split out by cavity on double ovens. The diagnosis is identical: measure the sensor, check the harness, then suspect the board. Older ranges show the shorter F2 instead."
     },
     {
       "q": "Can I just reset the oven and keep using it?",

@@ -91,7 +91,8 @@ def main():
     else:
         print("nothing to normalize")
     if short:
-        print(f"\n{len(short)} description(s) under {META_SHORT} chars, worth lengthening:")
+        print(f"\n{len(short)} description(s) under {META_SHORT} chars, worth lengthening "
+              f"(advice, not a failure):")
         for x in short: print("   ", x)
     if needs_rewrite:
         print(f"\n{len(needs_rewrite)} file(s) need a human rewrite, not a trim:")

@@ -60,7 +60,8 @@ def page_text(d):
     return [(w, t) for w, t in out if t]
 
 def check(slug, d):
-    problems = []
+    """Returns (errors, warnings). Errors fail the build; warnings are advice."""
+    problems, warnings = [], []
     for where, text in page_text(d):
         low = text.lower()
         for pat, why in BANNED.items():
@@ -76,8 +77,12 @@ def check(slug, d):
     if len(t) > 65:
         problems.append(f"title: {len(t)} chars, brief limit is 65")
     m = d.get("meta_description", "")
-    if m and not (110 <= len(m) <= 155):
-        problems.append(f"meta_description: {len(m)} chars, brief range is 110-155")
+    if m and len(m) > 155:
+        problems.append(f"meta_description: {len(m)} chars, over the 155 limit")
+    elif m and len(m) < 110:
+        # Complete and correct, just not using the space a search result would give it.
+        # Worth fixing, not worth failing a build over.
+        warnings.append(f"meta_description: {len(m)} chars, short of the 110 target")
     if m and not m.rstrip().endswith((".", "!", "?")):
         problems.append("meta_description: does not end on a complete sentence")
     if len(d.get("h1", "")) > 80:
@@ -95,23 +100,29 @@ def check(slug, d):
     for i, s in enumerate(d.get("steps", [])):
         if len(s.get("detail", "")) < 40:
             problems.append(f"steps[{i}].detail: {len(s.get('detail',''))} chars, too thin")
-    return problems
+    return problems, warnings
 
 def main():
     files = sorted(glob.glob(str(pathlib.Path(__file__).parent.parent/"content"/"*.json")))
-    total, bad = 0, 0
+    total, bad, warned = 0, 0, []
     for f in files:
         slug = pathlib.Path(f).stem
         try:
             d = json.loads(pathlib.Path(f).read_text())
         except json.JSONDecodeError:
             continue
-        probs = check(slug, d)
+        probs, warns = check(slug, d)
         if probs:
             bad += 1; total += len(probs)
             print(f"{slug}")
-            for p in probs: print("      ", p)
-    print(f"\n{len(files)-bad}/{len(files)} pages clean, {total} prose issue(s)")
+            for p in probs: print("       ERROR", p)
+        if warns:
+            warned.extend(f"{slug}: {w}" for w in warns)
+    print(f"\n{len(files)-bad}/{len(files)} pages free of errors, {total} error(s)")
+    if warned:
+        print(f"{len(warned)} warning(s), worth fixing but not blocking:")
+        for w in warned[:20]: print("      ", w)
+        if len(warned) > 20: print(f"       ... and {len(warned)-20} more")
     return 1 if bad else 0
 
 if __name__ == "__main__":

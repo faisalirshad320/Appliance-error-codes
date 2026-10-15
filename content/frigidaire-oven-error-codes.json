@@ -1,0 +1,138 @@
+{
+  "title": "Frigidaire Oven Error Codes: List and What They Mean",
+  "meta_description": "Frigidaire oven error codes read by circuit: F1x is the control, F3x the temperature probe, F9x the door latch. Start with a breaker reset.",
+  "h1": "Frigidaire oven error codes: the full list and what each one means",
+  "answer": "Frigidaire oven codes are an F followed by a number, and the number tells you which circuit failed rather than what the oven was doing at the time. The first digit is the group: F1x codes are the control and the user interface, F3x codes are the oven temperature probe, and F9x codes are the door latch motor. Learn those three groups and most codes place themselves. Two useful outliers sit outside the pattern: F10 is a runaway temperature, meaning the oven got hotter than it should have, and some models print four characters, so F050 and F50 are the same door and latch code. Before diagnosing anything, cut power at the double breaker for five minutes, because that clears a real share of these outright.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to identify, 30 minutes to 3 hours to fix",
+  "cost_estimate": { "diy": "$0 to $250", "technician": "$170 to $480" },
+  "safety_warning": "The rear of an electric Frigidaire range carries 240 volts at the terminal block whether or not the oven is switched on at the panel, and the control boards behind the fascia are live. Switch off the double breaker before any panel comes off and confirm the oven is dead before putting your hands in. On a gas range the burners, gas valve and igniter circuit are licensed trade work. Never defeat a door lock switch or a thermal cut-out to make an oven run.",
+  "causes": [
+    {
+      "cause": "Control and user interface faults, the F1x group",
+      "frequency": "most cases",
+      "confirm": "The oven cancels what it was doing, the display behaves oddly, or a code appears before anything mechanical has happened. F11 is a keypad key read as stuck down, F16 is the control and display boards failing to communicate. These are the most common group and the one most likely to clear with a proper reset."
+    },
+    {
+      "cause": "Oven temperature probe faults, the F3x group",
+      "frequency": "most cases",
+      "confirm": "The oven refuses to heat, or heats and then stops, and the code appears during preheat rather than at power-up. F30 and F31 are the two directions of the same sensor circuit fault. The probe is a thin stainless rod through the back wall of the cavity, and it is one of the cheaper oven parts."
+    },
+    {
+      "cause": "Door latch and lock faults, the F9x group plus F050",
+      "frequency": "common",
+      "confirm": "The code appears when self-clean is selected, or the lock motor runs when it should not. F96 is a door detected open during self-clean. F050, also written F50, means the board cannot read whether the door is open, closed or locked. Do not run self-clean with any of these present."
+    },
+    {
+      "cause": "Runaway temperature, shown as F10",
+      "frequency": "common",
+      "confirm": "The oven overshot its set temperature, usually badly, and the control shut it down. Unlike the F3x codes this means the sensor reading was believable but the heat kept coming, which points at a welded relay on the control rather than at the probe. Treat it as a reason to stop using the oven."
+    },
+    {
+      "cause": "Memory and self-check faults, such as F13",
+      "frequency": "occasional",
+      "confirm": "A code at power-up with no cooking attempted and no obvious symptom. These are the control checking itself and finding its stored settings corrupt. A full breaker reset is the first and sometimes the only treatment; a code that returns every power-up means the control."
+    },
+    {
+      "cause": "Codes your model lists and the general pattern does not",
+      "frequency": "occasional",
+      "confirm": "The code is not in any general chart, or the chart contradicts itself. Frigidaire's published descriptions are inconsistent across model generations and several codes have no public description at all. The service data sheet inside your own range beats any general guide including this one."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the code down exactly as it appears",
+      "detail": "Note whether there is a leading zero and how many characters the display shows, because F050 and F50 are the same code rendered by panels with different character counts and searching for only one will miss half the useful material. Take a photo if the code flashes or alternates with something else.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note when the code appeared",
+      "detail": "This narrows things faster than the code number. At power-up with nothing asked of the oven points at the control group. During preheat points at the temperature probe. When self-clean was selected points at the door latch. After the oven got very hot points at wiring that opens as it expands. Write it down before you reset anything.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Read the first digit and place the code",
+      "detail": "F1x is the control and user interface, F3x is the oven temperature probe, F9x is the door latch motor. That single step tells you whether you are looking at a board, a cheap sensor or a lock assembly, and the difference between those is the difference between thirty dollars and three hundred.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the double breaker for five minutes",
+      "detail": "Switch the range off at the breaker in the consumer panel, not at the oven's own controls, and leave it a full five minutes so the boards discharge and restart together. Turning the oven off at the panel leaves the control powered and resets nothing. This clears a meaningful share of control-group codes outright.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Watch the first thirty seconds after power-up",
+      "detail": "Stand back and touch nothing. A display that comes up clear and stays clear means the code was transient and you can carry on. A code that reappears within seconds with nobody near the panel means the fault is live. That distinction decides whether you spend the afternoon on this or go and do something else.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the service data sheet inside your own range",
+      "detail": "Frigidaire tucks a service data sheet inside the range, commonly behind the bottom storage drawer or behind the rear panel. It carries the code list that actually applies to your model, which matters because the public descriptions conflict. Pull the drawer right out and look underneath before assuming it is not there.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Stop using self-clean until any latch code is resolved",
+      "detail": "If the code is in the F9x group or is F050, do not run self-clean as a test. That cycle depends on the oven knowing its door is locked, which is exactly the thing it has lost track of. Normal baking may still be fine on some models, but the cleaning cycle is the one to leave alone.",
+      "minutes": 1,
+      "tools": null,
+      "warning": "Never bypass, tape or jam a door lock switch to make an oven run."
+    },
+    {
+      "name": "Price the part before you book the labor",
+      "detail": "Get the full model number off the tag inside the oven door frame and look it up on a parts site. An oven temperature probe is one of the cheapest repairs on the range. A combined control and keypad assembly can be most of the way to a new range on an older appliance. Knowing which you are facing changes the decision.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the code is not in any chart you can find, or the charts contradict each other, that is a known problem with Frigidaire oven codes rather than a sign you are looking in the wrong place. Several have no public manufacturer description at all, and the secondary references disagree in places. Work it this way. First, find your own range's service data sheet, usually behind the bottom storage drawer or the rear panel, because that is the only document written for your exact model and it settles arguments that no general chart can. Second, go by behavior rather than by number. Does the oven heat at all? Does it overshoot? Does the display respond to the keys? Does the latch motor run when self-clean is selected? Four observations place almost any oven fault regardless of what the panel says. Third, use the group convention as a sanity check on anything you read: a source telling you an F1x code is a temperature sensor fault is contradicting the numbering, and that is a reason to distrust the source rather than the convention. Fourth, where two codes cover the two directions of one circuit, as F30 and F31 do, do not let the number route you to a part. Measure instead, and for a temperature probe you can do that with no reference chart at all: read it cold, warm it in your hand, and confirm the resistance climbs. Finally, a technician can read the control's stored fault history, which records what the board logged rather than what reached the display. On an intermittent or undocumented code that is frequently worth the call-out on its own, and it is the one thing you cannot get at from the outside.",
+  "reset_procedure": "The same reset applies to every code on the range. Switch the range off at the double breaker in the consumer panel, leave it a full five minutes so the boards discharge and restart together, then switch it back on and watch the first thirty seconds. Turning the oven off at its own controls does not reset anything, because the control stays powered.",
+  "model_notes": "Frigidaire's published code descriptions are inconsistent across model generations and some codes have no public description at all, which is why general charts for this brand contradict each other more than they do for most manufacturers. The group convention of F1x for control, F3x for the probe and F9x for the latch holds up well and is the most reliable thing to reason from. Character count varies too: the same door and latch fault appears as F050 on panels that show four characters and F50 on those that show three. Kenmore ranges and wall ovens whose model number begins 790 are built by Frigidaire and show these same codes, so this page applies to those as well.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $70", "difficulty": "easy", "note": "For the F3x group; two screws and a plug, and the cheapest oven repair there is" },
+    { "name": "Touch panel or keypad membrane", "cost": "$60 to $180", "difficulty": "moderate", "note": "For F11, where your model lists it separately from the control" },
+    { "name": "Motorized door lock assembly", "cost": "$70 to $200", "difficulty": "hard", "note": "For the F9x group and F050; covers the motor, cam and position switches" },
+    { "name": "User interface or display board", "cost": "$90 to $250", "difficulty": "hard", "note": "For F16 on models with two boards; try before the main control" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "hard", "note": "Last by elimination on any code; often bonded to the keypad as one assembly" }
+  ],
+  "when_to_call": "Call a technician for anything in the latch group or an F10 runaway temperature, because the first means the oven cannot confirm its own door is locked and the second means it kept heating when it should have stopped. Both are reasons to get the range out of service rather than keep resetting it. Call for any code that survives a proper breaker reset and whose group points at a board, since which board is at fault usually cannot be settled from the outside. The F3x sensor group is the clear exception and is well within reach of most people. On a gas range, every code here is on the electrical side and the same advice holds, but the burners, gas valve and igniter are licensed trade work regardless of what the display says.",
+  "faqs": [
+    { "q": "How do I read a Frigidaire oven error code?", "a": "Read the first digit after the F, because it names the circuit. F1x is the control and user interface, F3x is the oven temperature probe, and F9x is the door latch motor. The rest of the number narrows it within that group. F10 sits outside the pattern and means a runaway temperature, which is the one to stop using the oven over." },
+    { "q": "Will turning the oven off and on clear the code?", "a": "Only if you do it at the breaker. Switching the oven off at its own controls leaves the control board powered, so nothing resets. Kill the double breaker in the consumer panel for a full five minutes, then restore it. That clears a real share of control-group codes, and whether it holds tells you if the fault is live." },
+    { "q": "Why do different websites give different meanings for the same code?", "a": "Because Frigidaire does not publish descriptions for all of them and the ones it does publish have changed across model generations. Several codes, F16 and F050 among them, have no public manufacturer description, so sites infer from field experience. Use the group convention as a sanity check and your own range's service data sheet as the final word." },
+    { "q": "Where is the service data sheet on a Frigidaire range?", "a": "Usually inside the range itself rather than with the paperwork. Pull the bottom storage drawer right out and look on the underside of the oven or on the back wall of the drawer cavity. On wall ovens it is more often behind the rear panel. It carries the code list written for your exact model." },
+    { "q": "Which Frigidaire oven codes can I fix myself?", "a": "The F3x temperature probe group is the realistic DIY one: a cheap part, two screws through the cavity wall and a plug behind the rear panel. Keypad and latch jobs are doable if you are comfortable working behind a panel with the breaker off. Board-level faults and anything after an F10 runaway are worth handing over." },
+    { "q": "Can I still use the oven while a code is showing?", "a": "It depends on the group. A control-group code that cleared with a reset and has not returned is usually fine to live with. A latch code means no self-clean under any circumstances. An F10 runaway means stop, because the oven has already demonstrated it can overheat, and that is not a fault to keep testing." },
+    { "q": "Is F050 the same as F50?", "a": "Yes, they are one code shown on panels with different character counts. Both mean the board cannot read whether the door is open, closed or locked. If you are searching for model-specific information, try both spellings, because references list it inconsistently and you will miss half the material using only one." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "The breaker reset that comes before diagnosing any Frigidaire oven code",
+    "labels": {
+      "display": "F--",
+      "c1": "Double breaker off, not the oven controls",
+      "c2": "Wait the full five minutes",
+      "c3": "Watch the first thirty seconds after power-up"
+    }
+  },
+  "sources": [
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Newer Frigidaire range fault codes reference", "publisher": "ApplianceAid technician reference", "url": null },
+    { "title": "Frigidaire self-cleaning range error codes", "publisher": "Sears PartsDirect repair guides", "url": null },
+    { "title": "Field reports on conflicting Frigidaire code descriptions across model generations", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F11", "F16", "F31", "F050", "F10", "F30"]
+}

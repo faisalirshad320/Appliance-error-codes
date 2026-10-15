@@ -1,0 +1,191 @@
+{
+  "title": "Panasonic Microwave H98 Error Code: What It Means",
+  "meta_description": "H98 on a Panasonic microwave points at the inverter or magnetron circuit, though Panasonic also groups it with a cavity-overheat warning.",
+  "h1": "Panasonic microwave H98 error code: what it means and what to do",
+  "answer": "H98 on a Panasonic microwave is a self-diagnostic code from the circuit that actually generates the microwaves, which on these models means the inverter board and the magnetron. Be aware that the documentation here is genuinely split: third-party repair references describe H98 as an inverter or magnetron failure, while Panasonic's own troubleshooting page groups H97 and H98 with a condition where the cavity is too hot from previous use to accept an automatic program. Those are very different problems and one simple test separates them, which is whether the oven will still cook on a manual time and power setting. This is not a code to open the cabinet for, whichever it turns out to be.",
+  "severity": "serious",
+  "can_diy": "no",
+  "time_estimate": "20 minutes to work out which fault you have",
+  "cost_estimate": {
+    "diy": "$0, this is not a DIY repair",
+    "technician": "$150 to $350, often close to replacement cost"
+  },
+  "safety_warning": "Do not open a microwave cabinet. The high-voltage capacitor inside stores a charge that can kill, and it holds that charge after the oven is unplugged, sometimes for a long time. There is no step on this page that requires removing the outer case, and there should not be: discharging that capacitor safely needs the right tool and the knowledge of where to put it. Microwave repair is one of the few appliance jobs where the standard advice to have a go yourself does not apply. Unplug the oven when you are not testing it, and if the cabinet, the door or the door seal is damaged, stop using it entirely.",
+  "causes": [
+    {
+      "cause": "A fault in the inverter board or the magnetron circuit",
+      "frequency": "most cases",
+      "confirm": "The oven runs but the food stays cold, or it starts and then stops within seconds and puts the code back up. Run the water test: a mug of cold tap water on full power for a minute should come out noticeably warm. If it is still cold, the microwave generating side is not working and this is the reading that applies."
+    },
+    {
+      "cause": "The cavity is too hot from previous use to accept an automatic program",
+      "frequency": "common",
+      "confirm": "Panasonic's own troubleshooting material groups this code with that condition. The test is whether you can still cook by setting a time and a power level by hand. If manual cooking works normally and only the sensor or auto programs are refused, nothing is broken. Let the oven stand with the door open for half an hour and try the auto program again."
+    },
+    {
+      "cause": "Blocked ventilation causing a genuine overheat",
+      "frequency": "common",
+      "confirm": "The oven is built into a cabinet, pushed back against a wall, or has its vents covered by something sitting on top. Look at the grilles on the back, sides and top for dust or obstruction. An oven that cooks fine when cold and throws the code after ten minutes of use is being cooked by its own waste heat."
+    },
+    {
+      "cause": "A failed cooling fan or a hot-running magnetron thermal cut-out",
+      "frequency": "occasional",
+      "confirm": "You can hear no fan noise at all during a cycle, or the oven runs for a short time and quits repeatedly, each time lasting less than the one before. A magnetron that is overheating because it is not being cooled will trip its protection sooner each cycle as the heat accumulates."
+    },
+    {
+      "cause": "A control board fault raising the code without a real hardware failure",
+      "frequency": "rare",
+      "confirm": "The water test shows the oven heating perfectly well, the cavity is cold, the vents are clear, and H98 appears anyway. That combination rules out the three readings above and leaves the control, which is uncommon but does happen."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Unplug the microwave and let it stand",
+      "detail": "Pull the plug rather than using the stop button, and leave the oven with its door open for at least thirty minutes. If the cavity-overheat reading applies, this is the entire fix. It also clears a transient control fault, and it costs nothing but time. Do not skip it because it seems too easy: on this code it resolves a real share of cases.",
+      "minutes": 35,
+      "tools": null,
+      "warning": "Unplug at the socket. Do not remove the outer case at any point: the high-voltage capacitor inside holds a lethal charge even unplugged."
+    },
+    {
+      "name": "Note whether the oven had been working hard",
+      "detail": "Think back to what happened just before the code. A long run, several meals back to back, a high-power defrost followed immediately by a cook, or a browning or grill function on a combination model all leave the cavity hot. If the code arrived after heavy use rather than out of the blue on a cold oven, that is a strong pointer toward the overheat reading rather than a hardware failure.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Try a manual cook rather than an auto program",
+      "detail": "This is the test that separates the two published readings. Plug the oven back in and set a short cook by hand: choose a time and a power level directly rather than using a sensor, popcorn, reheat or any other automatic program. If manual cooking runs normally and only the auto programs refuse, the oven is working and the control is declining to run a program it cannot judge on a hot cavity. If manual cooking also fails, you are on the hardware side.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run the cup-of-water heat test",
+      "detail": "Put a microwave-safe mug with about a cup of cold tap water in the center of the turntable and run it on full power for one minute. Water absorbs microwaves efficiently, so it should come out clearly warm. Cold water after a full minute means the oven is not generating microwaves at all, which points firmly at the inverter and magnetron reading. Never run the oven empty to test it, because with nothing to absorb the energy you can damage the magnetron.",
+      "minutes": 8,
+      "tools": "Microwave-safe mug",
+      "warning": "Never run a microwave empty. Always have water or food inside when it is operating."
+    },
+    {
+      "name": "Check every vent is clear",
+      "detail": "Look at the grilles on the back, the sides and the top of the cabinet. Vacuum dust out of them with a brush attachment, and make sure nothing is stored on top of the oven and that there is a clear gap behind and around it. A built-in or over-range installation needs its specified clearances, which are in the installation instructions, and a microwave starved of airflow will keep doing this.",
+      "minutes": 15,
+      "tools": "Vacuum with brush attachment",
+      "warning": null
+    },
+    {
+      "name": "Listen for the cooling fan during a cycle",
+      "detail": "With a cup of water inside and a short cook running, stand close and listen. You should hear a steady fan note alongside the turntable motor. Silence from the fan while the oven runs means the magnetron is not being cooled, which will keep tripping protection and eventually damages it. That is a repair, not an adjustment, and it is inside the cabinet.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Stop there and get a quote",
+      "detail": "If manual cooking fails, the water stays cold, or the fan is silent, the remaining work is all behind the case and involves the high-voltage side. Note your full model number from the sticker inside the door frame or on the back, and get a repair quote before committing. Compare it against the price of a replacement, because on many domestic Panasonic models the two numbers are uncomfortably close.",
+      "minutes": 15,
+      "tools": null,
+      "warning": "Do not open the cabinet to look. There is nothing you can safely diagnose in there without the training and the discharge tool."
+    }
+  ],
+  "still_showing": "If letting the oven cool did not help and manual cooking fails the water test, the fault is in the microwave generating circuit and the decision in front of you is economic rather than technical. Here is the honest position. The parts involved are the inverter board and the magnetron, typically $100 to $250 and $70 to $180 respectively, and a technician cannot tell which has failed without opening the cabinet and testing the high-voltage side. Add a call-out and labor and a repair commonly lands between $150 and $350. A comparable new Panasonic inverter microwave is often in the same range, which is why many technicians will tell you on the phone that it is not worth bringing out for a countertop model. The calculation changes for a built-in or over-range unit, where replacement means matching a cabinet opening and paying for installation, and there a $250 repair against a $600 replacement plus fitting is clearly worth doing. Two things to do before deciding. Check the warranty: magnetrons on Panasonic microwaves often carry a longer parts warranty than the rest of the oven, sometimes several years beyond the general cover, so find your purchase date and the warranty terms before paying for anything. And ask the technician to confirm the fault before ordering parts rather than fitting an inverter board on the strength of the code, because H97 and H98 are not separated by any documentation I can find and the code alone does not identify which component failed. If the oven is out of warranty, is a countertop model, and the quote is over about half the price of a new one, replacing it is the rational answer and no technician will argue with you.",
+  "reset_procedure": "Unplug the microwave at the socket, leave it for at least five minutes and plug it back in. Leave the door open while it stands so the cavity cools at the same time, which covers both the stored-fault case and the overheat case in one go. If the code returns immediately on a cold oven with nothing running, it is a hardware fault and further resets will not change it. A reset is worth one attempt here, and after that the water test tells you more than anything else you can do without opening the cabinet.",
+  "model_notes": "No source I could find separates H97 from H98 for Panasonic microwaves, and that is worth knowing before anyone quotes you a specific component off the code alone. Third-party repair references describe both in nearly identical terms, as a magnetron or inverter circuit failure found by the self-diagnostic system, while Panasonic's own troubleshooting page lists H97 and H98 among a group associated with a cavity that is too hot from previous use to accept an automatic program. Those readings are not compatible, and the gap may come down to model generation or to context. Treat the operating manual for your exact model, and Panasonic customer service with your model number in hand, as more reliable than any code chart. Note also that Panasonic air conditioners use H97 and H98 for completely unrelated faults, so make sure any chart you are reading is for microwaves.",
+  "parts": [
+    {
+      "name": "Inverter board",
+      "cost": "$100 to $250",
+      "difficulty": "technician only",
+      "note": "High-voltage component; never attempt this yourself"
+    },
+    {
+      "name": "Magnetron",
+      "cost": "$70 to $180",
+      "difficulty": "technician only",
+      "note": "Check the warranty first, these often carry extended parts cover"
+    },
+    {
+      "name": "Cooling fan motor",
+      "cost": "$40 to $100",
+      "difficulty": "technician only",
+      "note": "Still inside the cabinet, so still not a DIY job"
+    },
+    {
+      "name": "Control board",
+      "cost": "$80 to $200",
+      "difficulty": "technician only",
+      "note": "Rare on this code, and only after the heating side is cleared"
+    }
+  ],
+  "when_to_call": "Call as soon as the water test fails, because everything beyond that point is inside the cabinet and on the high-voltage side. Give the technician your full model number and tell them the oven failed a cup-of-water test, since that is the single most useful thing you can report and it saves them a diagnostic step. Ask for the quote before parts are ordered. Check your warranty first, particularly the magnetron, which often carries longer cover than the rest of the oven. And stop using the microwave entirely, rather than waiting for a repair date, if the door does not close squarely, the door seal is damaged, or you can see arcing inside the cavity.",
+  "faqs": [
+    {
+      "q": "What does H98 mean on a Panasonic microwave?",
+      "a": "It is a self-diagnostic code pointing at the circuit that generates the microwaves, meaning the inverter board and magnetron. Panasonic's own material also groups it with a cavity that is too hot to accept an automatic program, which is a completely different situation. Try a manual cook and a cup-of-water test to find out which applies to you."
+    },
+    {
+      "q": "What is the difference between H97 and H98?",
+      "a": "No source I could find distinguishes them for microwaves. Third-party references describe both in nearly identical terms, and Panasonic's own troubleshooting page lists them together. Treat them as the same investigation rather than assuming one points at a specific part, and be wary of anyone quoting you for a component on the strength of the code alone."
+    },
+    {
+      "q": "Can I fix an H98 error myself?",
+      "a": "No, and this is one of the few appliance faults where that answer is absolute. The high-voltage capacitor inside a microwave holds a charge capable of killing you, and it keeps that charge after the oven is unplugged. Everything beyond letting it cool and running a water test is behind the case and belongs to someone with the right tools."
+    },
+    {
+      "q": "Can I still use the microwave with an H98 code?",
+      "a": "If manual cooking works normally and only automatic programs are refused, the oven is functioning and you can use it while the cavity cools. If it fails the cup-of-water test, it is not heating and there is nothing to use. Stop using it altogether if the door is damaged or you see arcing inside."
+    },
+    {
+      "q": "Why did H98 appear suddenly?",
+      "a": "Magnetrons and inverter boards tend to fail abruptly rather than fading. The other common trigger is heat: a run of back-to-back meals, or vents blocked by dust or by something stored on top of the oven, pushes the cavity and the components past where the self-diagnostics are happy. Check the vents before assuming a part has died."
+    },
+    {
+      "q": "Is an H98 repair worth paying for?",
+      "a": "On a countertop model, often not. Parts and labor commonly land between $150 and $350, which is close to a comparable new inverter microwave. On a built-in or over-range unit it usually is worth it, because replacement means matching a cabinet opening and paying for installation. Check the magnetron warranty before deciding either way."
+    },
+    {
+      "q": "Does running the microwave empty cause this?",
+      "a": "It can damage the magnetron, yes. With nothing inside to absorb the energy, it reflects back into the components that generated it. Never run a microwave empty, including when testing it after a fault. Always put a cup of water in first, which is why the water test is the right way to check whether it heats."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Two published readings of H98, and the test that tells them apart.",
+    "labels": {
+      "display": "H98",
+      "c1": "Let the cavity cool, door open",
+      "c2": "Manual cook versus auto program",
+      "c3": "Cup of water heat test",
+      "c4": "Case stays shut, call a tech"
+    }
+  },
+  "sources": [
+    {
+      "title": "Troubleshooting an error code appears in the microwave display window",
+      "publisher": "Panasonic North America support help library",
+      "url": null
+    },
+    {
+      "title": "Panasonic microwave operating manual, troubleshooting section",
+      "publisher": "Panasonic owner's manual supplied with the oven",
+      "url": null
+    },
+    {
+      "title": "Panasonic microwave H97 and H98 code references",
+      "publisher": "Third-party appliance repair reference sites",
+      "url": null
+    },
+    {
+      "title": "Guidance on microwave high-voltage capacitor hazards",
+      "publisher": "Appliance service safety material and technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "H97",
+    "F34",
+    "U14",
+    "H95"
+  ]
+}

@@ -118,7 +118,7 @@
       "note": "Last resort, once the sensor and harness measure good at the board"
     }
   ],
-  "when_to_call": "Call a technician if the sensor and harness both measure correctly and F3 is still there, because the next step is board-level work on a live 240 volt appliance, and on a wall oven that means pulling the unit out of its cabinet. Call a licensed gas technician for anything on a gas range other than the sensor itself. It is also reasonable to call simply because the oven is a built-in wall oven and lifting it out single-handed is how people end up with a damaged cabinet. An F3 is not dangerous to leave sitting, since the oven refuses to heat rather than overheating, so there is no urgency beyond wanting your oven back.",
+  "when_to_call": "Call a technician if the sensor and harness both measure correctly and F3 is still there, because the next step is board-level work on a live 240 volt appliance, and on a wall oven that means pulling the unit out of its cabinet. Call a licensed gas technician for anything on a gas range other than the sensor itself. It is also reasonable to call because the oven is a built-in wall oven, since lifting one out single-handed is how people end up with a damaged cabinet. An F3 is not dangerous to leave sitting, since the oven refuses to heat rather than overheating, so there is no urgency beyond wanting your oven back.",
   "faqs": [
     {
       "q": "What does F3 mean on a GE oven?",
