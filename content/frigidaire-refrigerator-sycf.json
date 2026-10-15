@@ -1,12 +1,15 @@
 {
   "title": "Frigidaire Refrigerator SY CF Code: Communication Fault",
-  "meta_description": "SY CF on a Frigidaire refrigerator means the main control board and the display board have stopped talking. Start with a five-minute power cycle, then the harness.",
+  "meta_description": "SY CF on a Frigidaire refrigerator is a communication fault between the control boards, not a cooling failure. Start with a power cycle.",
   "h1": "Frigidaire refrigerator SY CF: the two boards have stopped talking",
   "answer": "SY CF on a Frigidaire refrigerator is a system communication failure: the main control board and the user interface board in the door or dispenser are no longer exchanging data. The refrigerator often keeps cooling normally while this is displayed, because the compressor runs from the main board and the fault is in the link to the display. Cut the power for five minutes first, since a surprising share of these are a one-off glitch after a power event. If it comes straight back, the next suspect is the harness between the two boards, not the boards themselves.",
   "severity": "moderate",
   "can_diy": "sometimes",
   "time_estimate": "10 minutes to reset, 1 to 2 hours to trace the harness",
-  "cost_estimate": { "diy": "$0 to $180", "technician": "$150 to $400" },
+  "cost_estimate": {
+    "diy": "$0 to $180",
+    "technician": "$150 to $400"
+  },
   "safety_warning": null,
   "causes": [
     {
@@ -83,18 +86,51 @@
   "reset_procedure": "Unplug the refrigerator at the wall, or switch off its breaker, and leave it for five full minutes before restoring power. Five minutes matters because the boards hold residual charge and a quick off-and-on frequently leaves the stored fault in place. If SY CF clears and stays clear for several days, treat it as a power-event glitch. If it returns within minutes, the communication link has a real fault and a reset will not hold it.",
   "model_notes": "SY is Frigidaire's prefix for a system-level fault rather than a single component, and CF is read by most repair sources as a communication failure between the main control board and the user interface board, detected when the unit powers up. One widely circulated quick-reference table instead lists SY CF as a condenser fan fault, which does not match the rest of the sources and does not fit the SY prefix. If your unit is cooling normally and only the display is affected, the communication reading is almost certainly the right one. If the unit is also running hot and cooling poorly, it is worth checking the condenser fan at the back anyway, because that check is free and settles the question.",
   "parts": [
-    { "name": "User interface or display board", "cost": "$60 to $180", "difficulty": "moderate", "note": "Usually the cheaper of the two boards and the more common failure" },
-    { "name": "Display communication harness", "cost": "$25 to $70", "difficulty": "moderate", "note": "Worth checking the hinge run before buying either board" },
-    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Last resort. Ask what was measured before agreeing to this" }
+    {
+      "name": "User interface or display board",
+      "cost": "$60 to $180",
+      "difficulty": "moderate",
+      "note": "Usually the cheaper of the two boards and the more common failure"
+    },
+    {
+      "name": "Display communication harness",
+      "cost": "$25 to $70",
+      "difficulty": "moderate",
+      "note": "Worth checking the hinge run before buying either board"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort. Ask what was measured before agreeing to this"
+    }
   ],
   "when_to_call": "Call a technician if the power cycle did not hold, both connectors are clean and seated, and you cannot tell which board is at fault, because the next step is testing the communication line on a live machine. Call sooner if the refrigerator is also failing to cool, since that moves the problem out of display territory and the two faults together need diagnosing as one job. If the quote leads with the main control board, ask what was measured to get there; a board swap on a hunch is an expensive way to find out it was the harness. On a unit over about ten years old, get the fitted price in writing before agreeing.",
   "faqs": [
-    { "q": "What does SY CF mean on a Frigidaire refrigerator?", "a": "It is a system communication failure. The main control board and the user interface board in the door or dispenser have stopped exchanging data, usually detected when the unit powers up. The refrigerator often carries on cooling normally, because the compressor is run by the main board and the broken link is to the display." },
-    { "q": "Can I still use the refrigerator with SY CF showing?", "a": "Usually yes, provided it is still cooling. Check with a thermometer in a glass of water rather than by feel. You may lose control of the display, the temperature settings and the dispenser while the fault is present, but the cooling side generally keeps working. If the cabinet is warming, treat it as a cooling fault instead." },
-    { "q": "Will unplugging the refrigerator fix SY CF?", "a": "Often, and it is always the first thing to try. Unplug it for a full five minutes rather than switching it straight back on, because the boards hold residual charge. A good share of these codes are a one-off glitch after a power cut or a surge. If it returns within minutes, the fault is real and a reset will not hold." },
-    { "q": "Which board do I replace for SY CF?", "a": "Neither, until you have checked the harness. If you do have to choose, the display board fails more often and costs less, and it gives itself away by being dark, partly lit, scrambled or unresponsive. A display that looks perfectly normal apart from the code points more toward the harness or the main board." },
-    { "q": "Why did SY CF appear suddenly?", "a": "Most often a power event. An outage, a surge during a storm or a brownout can leave the two boards out of step, and the code appears the next time the unit starts up. The other common trigger is gradual: a harness flexing in the door hinge finally breaks a conductor after years of the door being opened." },
-    { "q": "Is a Frigidaire with SY CF worth repairing?", "a": "If it turns out to be a connector or a harness, absolutely, since that is often free or under $70. A display board at $60 to $180 fitted is usually worth it too. A main control board on a unit over about ten years old is the point to stop and price a replacement refrigerator before committing." }
+    {
+      "q": "What does SY CF mean on a Frigidaire refrigerator?",
+      "a": "It is a system communication failure. The main control board and the user interface board in the door or dispenser have stopped exchanging data, usually detected when the unit powers up. The refrigerator often carries on cooling normally, because the compressor is run by the main board and the broken link is to the display."
+    },
+    {
+      "q": "Can I still use the refrigerator with SY CF showing?",
+      "a": "Usually yes, provided it is still cooling. Check with a thermometer in a glass of water rather than by feel. You may lose control of the display, the temperature settings and the dispenser while the fault is present, but the cooling side generally keeps working. If the cabinet is warming, treat it as a cooling fault instead."
+    },
+    {
+      "q": "Will unplugging the refrigerator fix SY CF?",
+      "a": "Often, and it is always the first thing to try. Unplug it for a full five minutes rather than switching it straight back on, because the boards hold residual charge. A good share of these codes are a one-off glitch after a power cut or a surge. If it returns within minutes, the fault is real and a reset will not hold."
+    },
+    {
+      "q": "Which board do I replace for SY CF?",
+      "a": "Neither, until you have checked the harness. If you do have to choose, the display board fails more often and costs less, and it gives itself away by being dark, partly lit, scrambled or unresponsive. A display that looks perfectly normal apart from the code points more toward the harness or the main board."
+    },
+    {
+      "q": "Why did SY CF appear suddenly?",
+      "a": "Most often a power event. An outage, a surge during a storm or a brownout can leave the two boards out of step, and the code appears the next time the unit starts up. The other common trigger is gradual: a harness flexing in the door hinge finally breaks a conductor after years of the door being opened."
+    },
+    {
+      "q": "Is a Frigidaire with SY CF worth repairing?",
+      "a": "If it turns out to be a connector or a harness, absolutely, since that is often free or under $70. A display board at $60 to $180 fitted is usually worth it too. A main control board on a unit over about ten years old is the point to stop and price a replacement refrigerator before committing."
+    }
   ],
   "diagram": {
     "kind": "control-board",
@@ -108,10 +144,32 @@
     }
   },
   "sources": [
-    { "title": "Frigidaire refrigerator system fault code descriptions", "publisher": "Appliance repair trade reference listings", "url": null },
-    { "title": "Communication failure between main control and user interface boards at power-on reset", "publisher": "Appliance service documentation summaries", "url": null },
-    { "title": "Conflicting quick-reference listing SY CF as a condenser fan fault", "publisher": "Appliance repair guides, cited for the disagreement", "url": null },
-    { "title": "Field reports on hinge harness breaks and display board failures", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Frigidaire refrigerator system fault code descriptions",
+      "publisher": "Appliance repair trade reference listings",
+      "url": null
+    },
+    {
+      "title": "Communication failure between main control and user interface boards at power-on reset",
+      "publisher": "Appliance service documentation summaries",
+      "url": null
+    },
+    {
+      "title": "Conflicting quick-reference listing SY CF as a condenser fan fault",
+      "publisher": "Appliance repair guides, cited for the disagreement",
+      "url": null
+    },
+    {
+      "title": "Field reports on hinge harness breaks and display board failures",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["SY EF", "H1", "d1 SP", "5Y CE", "SY CE"]
+  "related_codes": [
+    "SY EF",
+    "H1",
+    "d1 SP",
+    "5Y CE",
+    "SY CE"
+  ]
 }

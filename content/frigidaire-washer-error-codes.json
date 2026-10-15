@@ -1,0 +1,215 @@
+{
+  "title": "Frigidaire Washer Error Codes: E10, E20 and the Rest",
+  "meta_description": "Frigidaire washer codes are numbered, not lettered. The digit after the E tells you which circuit failed: E1x is fill, E2x is drain, E4x is the door.",
+  "h1": "Frigidaire washer error codes: how the E numbers are organized",
+  "answer": "Frigidaire washers use a numbered code system rather than the letter codes you see on LG and Samsung, and the number is the useful part. On a front loader the code is an E followed by two digits: the first digit says which circuit or function failed and the second says how. E1x is water coming in, E2x is water going out, E3x is the water level sensing, E4x is the door and its lock, E5x is the motor and drive. So E10 is a fill fault and E20 is a drain fault, and those two are by far the most common codes in the family. Frigidaire top loaders use a shorter single-digit set that does not line up with the front loader codes, which is the single biggest source of confusion.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "5 minutes to read the code, 20 minutes to 2 hours to fix",
+  "cost_estimate": {
+    "diy": "$0 to $90 for the common codes",
+    "technician": "$150 to $350 for a typical visit"
+  },
+  "safety_warning": "Close both supply taps before undoing any hose at the machine, because a washer hose carries full mains pressure and will not wait for you to get out of the way. Unplug the washer at the wall before opening the lower access panel, reaching into the pump housing or taking any panel off, and bail standing water out of the drum before you tip the machine. Never force or defeat a door lock on a front loader that still has water in it.",
+  "causes": [
+    {
+      "cause": "E1x, the water coming in: E10, E11, E13, E14",
+      "frequency": "most cases",
+      "confirm": "The drum stays empty or fills far too slowly and the cycle stalls early. Check that both taps behind the machine are fully open, then close them, undo the hoses at the machine end and look at the mesh screens set into the inlet ports. A screen that is brown, scaled or furred rather than bright metal is the usual answer."
+    },
+    {
+      "cause": "E2x, the water going out: E20, E21, E23, E24",
+      "frequency": "most cases",
+      "confirm": "Water standing in the drum at the end of a cycle, a door that will not unlock, and no spin. Open the lower access panel at the front, drain the machine through the small tube beside the filter, then turn the filter cap anticlockwise and look at what comes out with it."
+    },
+    {
+      "cause": "E3x, the water level sensing: E31, E35 and neighbours",
+      "frequency": "common",
+      "confirm": "Behavior that makes no sense, such as a machine that overfills, one that reports water when the drum is empty, or one that fills and drains in a loop. The control reads the level through a thin air hose from the outer tub to a pressure sensor, and soap scum or a split in that hose produces exactly this."
+    },
+    {
+      "cause": "E4x, the door and its lock: E41 through E45, and E4A",
+      "frequency": "common",
+      "confirm": "The cycle will not start, or the door stays locked after the cycle ends. Push the door firmly and listen for the lock to click within a few seconds of pressing Start. No click means the lock is the fault. Lint packed around the strike and a hinge that has dropped are the cheap causes."
+    },
+    {
+      "cause": "E5x, the motor and drive",
+      "frequency": "occasional",
+      "confirm": "The drum will not turn, turns only one way, or the machine makes a loud grinding or screeching on spin. These codes cover the motor, its speed feedback and the control's motor relays, and they are where a Frigidaire repair stops being cheap."
+    },
+    {
+      "cause": "E9x and the control group",
+      "frequency": "rare",
+      "confirm": "A code on a machine that has not been used, a panel that will not respond, or a washer that behaves differently every cycle. This group covers configuration and communication between the boards, and it is the one where a proper power reset is genuinely the right first move."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Read the code properly, both digits",
+      "detail": "Take a photo of the display. Both digits matter and transposing them sends you to the opposite end of the machine: E10 is water failing to come in and E20 is water failing to go out. On some models the panel abbreviates and the full stored code is only visible in the service display, so note whether the drum is full or empty as well, because that alone separates a fill fault from a drain fault.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Work out whether you have a front loader or a top loader",
+      "detail": "This matters more on Frigidaire than on any other brand. Front loaders use the two-digit E codes described here. Frigidaire top loaders use a shorter set where E1 means a long fill and E4 means an out-of-balance load, and those do not map onto the front loader numbers at all. A top loader showing E4 is not reporting a door lock fault.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Do a full power reset",
+      "detail": "Unplug the washer at the wall, or switch off its breaker, and leave it for five full minutes. The control board holds residual charge, so a quick off and on often leaves the stored fault in place. Plug it back in and run a Rinse and Spin rather than a full wash, so a test takes ten minutes instead of an hour.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "For any E1x code, check the water supply",
+      "detail": "Turn both taps anticlockwise until they stop. Then close them, put a towel and a tray down, and unscrew both hoses at the machine end; expect a cupful of water. Pick the mesh screen out of each inlet port with needle-nose pliers, rinse it, scrub it with an old toothbrush and push it back in squarely. Do both hot and cold even if only one looks dirty.",
+      "minutes": 25,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close both taps before undoing a hose or you will take mains pressure in the face."
+    },
+    {
+      "name": "For any E2x code, open the drain filter",
+      "detail": "Unplug the machine. Behind the lower front access panel is a round filter cap with a small drain tube clipped beside it. Pull the tube out, hold it over a shallow tray and let the machine empty, swapping trays as they fill; expect a few liters. Then turn the filter cap anticlockwise, pull the filter out, clear the coins, hair and lint, and check the impeller behind it spins freely.",
+      "minutes": 30,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug at the wall before reaching into the pump housing."
+    },
+    {
+      "name": "Check the installation while the machine is out",
+      "detail": "Look at the drain hose: it should rise, not be crushed behind the cabinet, and should go into the standpipe a few inches only, never taped airtight. A hose pushed in too deep siphons, so the washer drains as fast as it fills and throws fill and level codes with nothing wrong inside it. Check the machine is level and the shipping bolts were removed, which causes E4 codes on top loaders.",
+      "minutes": 20,
+      "tools": "Flashlight, spirit level, wrench",
+      "warning": null
+    },
+    {
+      "name": "Find the model number and the code list for your machine",
+      "detail": "The sticker is on the door frame of a front loader, under the lid on a top loader, or on the back of the cabinet. Frigidaire has used several control platforms over the years and the same number does not always mean the same thing across them, so the manual for your actual model settles arguments that a generic chart cannot.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Decide which of these is yours to fix",
+      "detail": "Inlet screens, drain filters, hoses, levelling and load balance are all straightforward with hand tools and account for most codes in the E1x and E2x groups. A drain pump or a door lock is a reasonable afternoon. Motor and drive faults in the E5x group and anything in the control group are where a technician is the cheaper route on a machine that is already several years old.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If a code survives a five minute power reset and the obvious check for its group, use the structure to narrow it rather than guessing at parts. Start by asking what the drum looks like, because that one observation separates the two biggest families. Water standing in the drum with an E1x code showing means the code is wrong or you misread it, since a fill fault cannot leave the machine full. An empty drum with an E2x code means the machine has in fact drained and the control does not believe it, which moves the fault from the pump to the pressure sensing circuit in the E3x group. That air hose runs from a port low on the outer tub up to the sensor, and soap scum plugging it or a hairline split in it makes a healthy machine report nonsense; pulling it off, checking it and blowing it clear costs nothing and resolves a stubborn share of these. Next, treat an intermittent code differently from a repeatable one. A code that appears at the same point in every cycle is a genuine component fault and the number is telling you the truth. A code that changes between cycles, or comes and goes, is nearly always a connection: with the machine unplugged, take the top panel off and work along the harness looking for a terminal backed out of a connector, green corrosion in a damp laundry room, and insulation chafed through where a wire crosses a sheet metal edge. People replace three parts chasing intermittent codes and fix nothing. Finally, know where the cost jumps. A drain pump is $45 to $110, a door lock assembly $50 to $120, an inlet valve $30 to $70, and all of those are sensible repairs on any machine. A motor control board or a main control board is $180 to $400 fitted, and a drum bearing job on a Frigidaire front loader runs higher than that again. On a washer over eight years old, either of those is the point to get a quote and compare it honestly against a new machine before committing.",
+  "reset_procedure": "Unplug the washer at the wall, or switch off its breaker, and leave it for a full five minutes before restoring power. The wait is the part people skip and it matters, because the control board holds residual charge and a quick off and on often leaves the stored fault in place. Test with a Rinse and Spin rather than a full cycle. On many Frigidaire front loaders you can also cancel a cycle by holding the Cancel or Pause button for a few seconds and then turning the machine off at the panel, but that clears the display rather than the stored fault, so the unplug is the one that counts. A code that comes back on the next cycle is real, and resetting again just delays the diagnosis.",
+  "model_notes": "Frigidaire is part of the Electrolux group and its front load washers use the Electrolux E-number scheme, which is why the same codes turn up on Electrolux-badged machines. The grouping by first digit holds well across that platform, but the exact meaning of an individual second digit has shifted between control generations, so a code chart found online can be right about the family and wrong about the detail. The bigger difference is between machine types: Frigidaire top loaders use a short single-digit set, where E1 is a long fill and E4 is an out-of-balance load during spin, and those numbers do not correspond to the front loader codes beginning with the same digit. Always check which machine you have before looking a code up, and treat the manual for your model number as the authority over any general list.",
+  "parts": [
+    {
+      "name": "Drain pump assembly",
+      "cost": "$45 to $110",
+      "difficulty": "moderate",
+      "note": "The common part behind a persistent E2x code"
+    },
+    {
+      "name": "Door lock and interlock assembly",
+      "cost": "$50 to $120",
+      "difficulty": "moderate",
+      "note": "For E4x codes once lint and hinge alignment are ruled out"
+    },
+    {
+      "name": "Water inlet valve assembly",
+      "cost": "$30 to $70",
+      "difficulty": "moderate",
+      "note": "For E1x codes, after the taps and screens are cleared"
+    },
+    {
+      "name": "Pressure sensor air hose",
+      "cost": "$10 to $25",
+      "difficulty": "moderate",
+      "note": "Behind most E3x codes, and usually just needs clearing"
+    },
+    {
+      "name": "Main or motor control board",
+      "cost": "$180 to $400",
+      "difficulty": "technician only",
+      "note": "Last resort, once the harness and connectors are proved good"
+    }
+  ],
+  "when_to_call": "Call a plumber rather than an appliance technician if a gallon of water poured into the standpipe backs up, because the washer is reporting your house drain correctly and an appliance engineer will charge a call-out to confirm it. Call an appliance technician when a code survives a correct power reset and the obvious check for its group, since the next step is testing components with a meter inside a wet machine. Call sooner for anything in the motor and drive group, for a machine that trips its breaker, and for a front loader whose drum knocks or grinds on spin, because that is a bearing job rather than an afternoon. If the machine is leaking while showing any code, close the taps and stop.",
+  "faqs": [
+    {
+      "q": "What does E10 mean on a Frigidaire washer?",
+      "a": "E10 is in the water fill group: the washer asked for water and did not get enough of it in the time allowed. Check that both taps are fully open, then clean the mesh screens in the inlet ports where the hoses attach, which is the single most common cause. A kinked supply hose and genuinely low house pressure are the next two."
+    },
+    {
+      "q": "What is the difference between E10 and E20 on a Frigidaire washer?",
+      "a": "They are opposite ends of the machine and easy to transpose. E10 is water failing to come in, so the drum stays empty and the cycle stalls early. E20 is water failing to go out, so the drum is full, the door stays locked and there is no spin. Look at the drum before you start work: it tells you which you actually have."
+    },
+    {
+      "q": "How do I reset a Frigidaire washer?",
+      "a": "Unplug it at the wall, or switch off its breaker, and wait a full five minutes before restoring power. The wait matters because the control board holds residual charge and a quick off and on usually leaves the stored fault in place. Test with a Rinse and Spin rather than a full wash so you know within ten minutes whether it worked."
+    },
+    {
+      "q": "Why are Frigidaire codes numbers instead of letters?",
+      "a": "Because Frigidaire is part of the Electrolux group and uses the Electrolux numbering scheme rather than the letter codes LG and Samsung use. It is actually more informative once you know the structure: the first digit after the E names the circuit that failed, so you can place an unfamiliar code in the right family before looking anything up."
+    },
+    {
+      "q": "Do Frigidaire top loaders use the same codes as front loaders?",
+      "a": "No, and assuming they do is the commonest mistake with this brand. Top loaders use a short single-digit set where E1 is a long fill and E4 is an out-of-balance load during spin. Those do not correspond to the two-digit front loader codes starting with the same digit. Check which machine you have before looking the code up."
+    },
+    {
+      "q": "Can I still use my Frigidaire washer with an error code?",
+      "a": "It depends which group. A fill or drain code stops the cycle because the machine physically cannot continue, so no. A balance code just needs the load spread out. A door lock code prevents starting at all. The one to stop using immediately is any code on a machine that is leaking, tripping its breaker or grinding on spin."
+    },
+    {
+      "q": "Where is the drain filter on a Frigidaire front load washer?",
+      "a": "Behind the lower access panel at the front, usually a round cap you turn anticlockwise, with a short drain tube clipped beside it. Pull that tube out first and empty the machine into a shallow tray before opening the cap, because several liters will come out otherwise. Unplug the washer before you start."
+    },
+    {
+      "q": "How much do Frigidaire washer repairs usually cost?",
+      "a": "Most codes in the fill and drain families cost nothing to fix, because a clogged screen or a blocked filter is free. A drain pump is $45 to $110 as a part, a door lock $50 to $120, an inlet valve $30 to $70. A control board is $180 to $400 fitted, and a drum bearing job on a front loader costs more than that, which is where replacing the machine enters the conversation."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How Frigidaire numbers its faults, and the order that costs least",
+    "labels": {
+      "display": "E20",
+      "c1": "First digit names the circuit",
+      "c2": "E1x in, E2x out, E4x door",
+      "c3": "Unplug for five full minutes",
+      "c4": "Front and top loaders differ"
+    }
+  },
+  "sources": [
+    {
+      "title": "Washer alarms and error codes, and top load washer code articles",
+      "publisher": "Frigidaire owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Electrolux and Frigidaire E-series code structure across shared platforms",
+      "publisher": "Appliance repair trade references, compared",
+      "url": null
+    },
+    {
+      "title": "Front load washer service mode and stored fault retrieval",
+      "publisher": "Frigidaire service literature supplied inside the machine",
+      "url": null
+    },
+    {
+      "title": "Field reports on which E codes are common and which are misread",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E10",
+    "E20",
+    "E21",
+    "E4",
+    "E1",
+    "E4A"
+  ]
+}

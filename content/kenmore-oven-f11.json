@@ -1,0 +1,125 @@
+{
+  "title": "Kenmore Oven F11 Error Code: What It Means and Fixes",
+  "meta_description": "F11 on a Kenmore oven is documented inconsistently. When the code appears tells you which fault it is. Here is the test that routes you to the right one.",
+  "h1": "Kenmore oven F11 error code: what it means and how to fix it",
+  "answer": "F11 on a Kenmore oven is one of the least consistently documented codes on the badge. Reputable sources describe it three different ways: a short in the touch control panel, a bake or broil element circuit shorting to ground, and a general fault raised by the control board's own self-check. The useful thing is that when the code appears tells you which one you have. A code that shows at idle or on a keypress is the control panel side, a code that only appears once an element energizes is the element side, and a code present the instant power is restored is the board.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to route it, 1 to 2 hours to fix",
+  "cost_estimate": { "diy": "$0 to $90", "technician": "$170 to $400" },
+  "safety_warning": "An element shorting to ground is one of the readings of this code, and that means a live conductor finding the oven chassis. Switch the range off at the circuit breaker rather than at the keypad, and leave it off while you work. The rear panel sits inches from an uninsulated 240 volt terminal block. On a gas model, close the gas shutoff behind the range before you move it, and leave the burner, the safety valve and the igniter to a licensed technician.",
+  "causes": [
+    {
+      "cause": "A shorted or stuck key in the touch control panel",
+      "frequency": "most cases",
+      "confirm": "The code appears with the oven cold and idle, or the moment you press a pad, and nothing has been heating. Press each key in turn and feel for one that stays down, feels mushy, or does not click like its neighbors. Grease or spilled liquid tracking under the membrane does the same thing and shows as a sticky or discolored patch around a key."
+    },
+    {
+      "cause": "A bake or broil element circuit shorting to ground",
+      "frequency": "common",
+      "confirm": "The oven is fine until you start a bake or broil, and the code lands within seconds or minutes of the element energizing. Look at the element itself for a blistered, swollen or split section, which is where the internal conductor has broken through to the sheath. Sometimes you will also have tripped the breaker at the same moment."
+    },
+    {
+      "cause": "Moisture or grease under the keypad membrane",
+      "frequency": "common",
+      "confirm": "Steam cleaning, a boil-over, or wiping the panel with a wet cloth preceded the code by a day or two. The panel may work normally when cold and start throwing F11 once the console warms up during a bake, because the moisture expands and bridges the contacts."
+    },
+    {
+      "cause": "The control board's own self-check has failed",
+      "frequency": "occasional",
+      "confirm": "The code is there the instant you restore power at the breaker, before the oven has been touched or anything set. Nothing you press changes it. That timing rules out both the keypad and the element, because neither has had a chance to be involved yet."
+    },
+    {
+      "cause": "You are reading an F11 off the wrong Kenmore platform",
+      "frequency": "occasional",
+      "confirm": "Kenmore ranges were built by several different manufacturers and their code charts do not agree. Find the three-digit prefix before the decimal in your model number and check you have a manual for that builder. A good share of the disagreement between sources on F11 is simply different companies using the same number for different things."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Note exactly when the code appears",
+      "detail": "This is the step that saves you the most time, and it costs nothing. Write down whether F11 shows with the oven cold and untouched, only after you press a key, only once a bake or broil has started and the element has had time to heat, or immediately when power is restored at the breaker. Each of those four points at a different fault, and guessing wrong here sends you after the wrong part.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the breaker and let everything cool",
+      "detail": "Switch off the double breaker feeding the range at the panel. If one of the readings of this code is an element shorting to ground, the keypad is not a reliable way to stop anything. Let the oven come down to room temperature before you touch the cavity or the console. On a gas model, close the gas shutoff behind the range too.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Breaker off, not Cancel. Confirm the range is dead before any panel comes off."
+    },
+    {
+      "name": "Clean around every key and check for a stuck one",
+      "detail": "With power off, wipe the whole console with a barely damp cloth and a little dish soap, working around each key rather than flooding the panel, then dry it thoroughly. Press each key in turn and feel for one that stays down, feels soft, or does not give the same click as the others. A key held down by grease under the membrane is the commonest version of this fault and it costs nothing to fix.",
+      "minutes": 20,
+      "tools": "Soft cloth, dish soap",
+      "warning": null
+    },
+    {
+      "name": "Leave it powered off overnight if moisture is the suspect",
+      "detail": "If the code followed a boil-over, a steam clean, or someone wiping the panel with a wet cloth, give the console a full night with the breaker off and the kitchen dry. Moisture that has wicked under a membrane keypad takes far longer to leave than the surface suggests. This is free, and it resolves a real share of keypad-side F11 codes without any part at all.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect both elements for a short to ground",
+      "detail": "With the breaker off, look along the bake element at the bottom of the cavity and the broil element at the top. You are looking for a section that is blistered, swollen, split, or has a bright pitted spot. That is where the resistance wire inside has burned through to the outer sheath, which puts mains onto the chassis. A damaged element is usually obvious once you know to look along its whole length rather than glancing at it.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "Do not run the oven to see whether the element glows. If it is grounding, that is the condition you are trying to avoid repeating."
+    },
+    {
+      "name": "Disconnect the keypad ribbon to split the fault",
+      "detail": "With the breaker off, take the rear console cover off and find the flat ribbon cable running from the touch panel to the control board. Release the connector latch and unplug it. Restore power briefly and watch the display. If F11 is gone with the keypad disconnected, the panel is at fault. If it is still there, the keypad is innocent and the board is the suspect. This is the single test that separates two of the three readings.",
+      "minutes": 25,
+      "tools": "Nut driver, Phillips screwdriver",
+      "warning": "Breaker off while the console is open. Restore power only with the cover refitted and your hands clear, and switch it off again before touching anything."
+    },
+    {
+      "name": "Reset and test in the order the symptom suggests",
+      "detail": "Restore power with everything reconnected and try the oven in stages: idle for five minutes, then a few keypresses, then a low bake with an independent thermometer. Running it in that order tells you whether the fault has actually gone or has only moved out of the first thing you tested. Do not use a self-clean cycle as a test.",
+      "minutes": 30,
+      "tools": "Independent oven thermometer",
+      "warning": null
+    }
+  ],
+  "still_showing": "If cleaning the panel and drying it out did not help, use the ribbon test to cut the problem in half before spending anything, because the three published readings of F11 split cleanly on that one result. With the breaker off, unplug the keypad ribbon from the control board, refit the cover, restore power and watch the display. Code gone means the touch panel is the fault, and that is a keypad or console assembly at roughly $70 to $200 depending on the platform. Code still showing with the keypad disconnected means the panel is not involved at all, and you are looking at the element side or the board. To split those two, keep the keypad unplugged and check the elements with a meter: with the breaker off and one element lead disconnected, measure between either element terminal and bare oven chassis metal. A good element reads open to ground. Any continuity at all to the chassis means the element is grounding and that is your fault, at $25 to $70 for a part that comes out with two screws and two spade terminals. If both elements read open to ground, the keypad is disconnected, and the code is still there, the control board is what is left, and that is where the cost jumps to $180 to $400 fitted. One thing to settle before buying any of it: find the three-digit prefix of your model number and confirm which company actually built your range. The published disagreement about what F11 means is largely several manufacturers using the same number differently, and a part ordered off the wrong chart fits nothing and fixes nothing.",
+  "reset_procedure": "Switch the range off at the circuit breaker, leave it for five minutes and switch it back on. Watch the display carefully as power comes back. If F11 is present immediately on a cold oven with nothing touched, the fault is in the control itself and resetting will not shift it. If the code only reappears later, when you press a key or start a bake, note which, because that timing is the most useful diagnostic information this code gives you.",
+  "model_notes": "F11 is the clearest example on this badge of why Kenmore codes need checking against the actual manufacturer. Sources variously define it as a shorted touch panel, a bake or broil element circuit shorting to ground, and a general control board self-diagnostic fault, and they are probably all correct for different platforms rather than contradicting each other. The three-digit prefix before the decimal in your model number identifies the builder, and that company's manual is the one to trust over any generic Kenmore chart, this page included. Where a platform uses F11 for the element circuit, there is often a neighboring code for the opposite failure of the same circuit, so read your chart as a family rather than looking up one number in isolation.",
+  "parts": [
+    { "name": "Touch panel or keypad membrane", "cost": "$70 to $200", "difficulty": "hard", "note": "Only after the ribbon test points at the panel; often sold with the console" },
+    { "name": "Bake element", "cost": "$25 to $70", "difficulty": "moderate", "note": "Two screws and two spade terminals; fit if it reads continuity to chassis" },
+    { "name": "Broil element", "cost": "$30 to $80", "difficulty": "moderate", "note": "Same test and same job as the bake element, at the top of the cavity" },
+    { "name": "Electronic oven control board", "cost": "$120 to $280", "difficulty": "technician only", "note": "Last resort, once the keypad and both elements are cleared" }
+  ],
+  "when_to_call": "Call a technician if the ribbon test leaves the code showing and both elements read open to ground, because what remains is board-level work on a live 240 volt appliance. Call if the breaker has tripped at the same time as the code appeared, since that combination points at a genuine short to ground and is worth someone confirming properly. Call a licensed gas technician for anything involving the burner, safety valve or igniter on a gas range. And if you are not confident identifying which company built your Kenmore, a technician will read the model prefix and the service sheet in two minutes, which is often cheaper than ordering the wrong part once.",
+  "faqs": [
+    { "q": "Why do sources disagree about what F11 means on a Kenmore oven?", "a": "Because Kenmore is a badge rather than a factory. Ranges sold under it were built by several different manufacturers, each with its own code chart, and the same number was assigned to different faults. The three-digit prefix before the decimal in your model number tells you which company built yours, and that chart is the one that applies." },
+    { "q": "Can I still use my Kenmore oven with an F11 code?", "a": "No, and one of the possible causes is the reason why. If the code is coming from an element shorting to ground, you have a live conductor touching the chassis, which is worth taking seriously. Switch the range off at the breaker until you have established which of the three faults you actually have." },
+    { "q": "How do I tell a keypad fault from an element fault?", "a": "Note when the code appears. At idle or on a keypress with nothing heating points at the touch panel. Only after a bake or broil has started and the element has energized points at the element circuit. Immediately on restoring power, before anything is touched, points at the control board's own self-check." },
+    { "q": "Can cleaning the control panel really fix F11?", "a": "Often, yes, when the fault is on the keypad side. Grease working under the membrane or moisture from a boil-over or a wet cloth bridges the contacts and reads as a held-down key. Wipe around each key with a barely damp cloth, dry it thoroughly, and leave the breaker off overnight before deciding it needs a part." },
+    { "q": "What is the ribbon test and why does it matter?", "a": "With power off, you unplug the flat cable running from the touch panel to the control board, then restore power and watch the display. If F11 disappears, the panel is at fault. If it remains, the panel is innocent. It splits three possible causes into two groups in about twenty minutes and costs nothing." },
+    { "q": "Is an F11 repair worth doing?", "a": "It depends entirely on which fault it turns out to be. An element at $25 to $70 or a clean-and-dry at nothing are both easy decisions. A touch panel at $70 to $200 or a control board at $180 to $400 fitted is the point to weigh against the age of the range, which is why routing the fault before buying anything matters so much here." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Three published meanings, and the two tests that tell them apart.",
+    "labels": {
+      "display": "F11",
+      "c1": "Touch panel and keypad ribbon",
+      "c2": "Control board self-check",
+      "c3": "Bake and broil element circuits",
+      "c4": "Note when the code appears"
+    }
+  },
+  "sources": [
+    { "title": "Understanding Kenmore range error codes", "publisher": "Sears Home Services support material", "url": null },
+    { "title": "Kenmore range service sheet and wiring diagram for the relevant platform", "publisher": "Service sheet supplied inside the range", "url": null },
+    { "title": "Conflicting published definitions of Kenmore oven F11", "publisher": "Appliance repair reference sites", "url": null },
+    { "title": "Field reports on keypad ribbon testing to split control faults", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["F10", "F30", "F31", "F2", "F3"]
+}

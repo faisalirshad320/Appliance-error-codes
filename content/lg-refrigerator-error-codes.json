@@ -149,7 +149,7 @@
     },
     {
       "q": "My LG refrigerator is not cooling but shows no error code. What now?",
-      "a": "Check for OF F or OFF on the display first, because that is demo mode and cooling is switched off deliberately. If not, confirm the appliance has power and is not simply in a long defrost cycle, then look at the condenser coils and the condenser fan. Some models only show a stored code when you call it up with a button combination rather than displaying it automatically."
+      "a": "Check for OF F or OFF on the display first, because that is demo mode and cooling is switched off deliberately. If not, confirm the appliance has power and is not just partway through a long defrost cycle, then look at the condenser coils and the condenser fan. Some models only show a stored code when you call it up with a button combination rather than displaying it automatically."
     },
     {
       "q": "Which LG refrigerator codes can I fix myself?",
