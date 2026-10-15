@@ -6,7 +6,10 @@
   "severity": "moderate",
   "can_diy": "sometimes",
   "time_estimate": "15 minutes to identify, 1 to 3 hours to repair",
-  "cost_estimate": { "diy": "$0 to $180", "technician": "$200 to $450" },
+  "cost_estimate": {
+    "diy": "$0 to $180",
+    "technician": "$200 to $450"
+  },
   "safety_warning": "An oven that runs without its cooling fan puts heat into the cabinetry and the control electronics rather than out of the vent. Stop using it until this is settled. Any work behind the panels means mains wiring, and on a gas model the supply line, so switch off at the breaker first and leave gas connections to a licensed technician.",
   "causes": [
     {
@@ -83,19 +86,57 @@
   "reset_procedure": "Switch the oven off at its circuit breaker for a full five minutes, then restore it. Thermador controls hold residual charge, so a quick off and on frequently leaves the stored code showing even after the underlying condition has gone. This reset clears a code left by a one-off fan stall or a power glitch. If F34 returns as soon as the oven starts heating, the condition is live and resetting again will not help.",
   "model_notes": "Thermador publishes less about its fault codes than most brands, and F34 is a clear example of the consequences. Several independent references describe it as the upper oven cooling fan failing to be confirmed within a set time after it should have started, and one of them frames it specifically as an air switch circuit not completing. A separate widely read repair source describes the same code as a cleaning door lock problem where the latch motor spins without engaging. Both readings appear in sources that look authoritative, and nothing public settles it. On double ovens the code is generally associated with the upper cavity. Treat the number as a pointer to the fan and lock circuits rather than a precise diagnosis, and use the tech sheet inside your own unit as the authority.",
   "parts": [
-    { "name": "Oven cooling fan or blower motor", "cost": "$90 to $220", "difficulty": "hard", "note": "Access varies a lot by model; often means sliding the oven out of its cabinet" },
-    { "name": "Door latch assembly", "cost": "$70 to $180", "difficulty": "moderate", "note": "Only if the listening test points at the lock rather than the fan" },
-    { "name": "Fan or latch wiring connector", "cost": "$15 to $40", "difficulty": "moderate", "note": "For a plug browned by heat rather than a failed component" },
-    { "name": "Oven control board", "cost": "$250 to $600", "difficulty": "technician only", "note": "Last resort on a Thermador, and expensive; get the quote in writing" }
+    {
+      "name": "Oven cooling fan or blower motor",
+      "cost": "$90 to $220",
+      "difficulty": "hard",
+      "note": "Access varies a lot by model; often means sliding the oven out of its cabinet"
+    },
+    {
+      "name": "Door latch assembly",
+      "cost": "$70 to $180",
+      "difficulty": "moderate",
+      "note": "Only if the listening test points at the lock rather than the fan"
+    },
+    {
+      "name": "Fan or latch wiring connector",
+      "cost": "$15 to $40",
+      "difficulty": "moderate",
+      "note": "For a plug browned by heat rather than a failed component"
+    },
+    {
+      "name": "Oven control board",
+      "cost": "$250 to $600",
+      "difficulty": "technician only",
+      "note": "Last resort on a Thermador, and expensive; get the quote in writing"
+    }
   ],
   "when_to_call": "Call a Thermador-authorized technician for anything beyond the listening test and clearing an obstruction, and say up front which way the test came out, because that saves them an hour and you the money. Insist they work from the service documentation for your model rather than a general code list, since the public sources contradict each other on what F34 means and you are paying for a diagnosis, not a guess. Call immediately rather than continuing to cook if no air comes out of the vent while the oven is hot, because the heat that should be leaving through the vent is going into the cabinet and the electronics instead. And on a gas model, leave anything near the supply line to a licensed technician.",
   "faqs": [
-    { "q": "What does F34 mean on a Thermador oven?", "a": "The sources disagree. Most describe it as a cooling fan or airflow fault, where the control cannot confirm the fan is moving air after the oven starts heating. One widely read source describes it as a self-clean door lock fault instead. Running the oven ten minutes and feeling for air at the vent tells you which one you have." },
-    { "q": "Can I still use the oven with F34 showing?", "a": "Not until you know whether the cooling fan is running. If it is not, every hour of use pushes heat into the surrounding cabinetry and the control electronics rather than out of the vent, which turns a fan repair into a much more expensive one. Do the vent test first and leave the oven off in the meantime." },
-    { "q": "Where is the cooling fan on a Thermador oven?", "a": "Behind the control area, venting through the slot above the door. It is a separate fan from the convection fan inside the cavity, and its job is to keep the electronics and the surrounding cabinetry cool rather than to circulate cooking air. Reaching it usually means removing a rear panel or sliding the unit out of its cabinet." },
-    { "q": "Why does the fan keep running after I turn the oven off?", "a": "That is normal and not related to the fault. The cooling fan runs on after a cycle until the cavity and the electronics have cooled, which can be twenty minutes or more after a high-temperature bake. A fan that runs on is a working fan, which is useful information if you are trying to decide which reading of F34 applies." },
-    { "q": "Why is Thermador documentation on this code so thin?", "a": "Thermador publishes far less fault code information publicly than mass-market brands, so most of what circulates comes from repair companies compiling their own lists, and those lists disagree. The authoritative document for your oven is the tech sheet supplied inside the unit, which a technician will work from and which outranks any published list." },
-    { "q": "Is an F34 repair worth it?", "a": "On a Thermador, usually yes, because these are expensive appliances that are generally worth maintaining. The cost depends entirely on which way the diagnosis falls: an obstruction is free, a latch is modest, a cooling fan is a few hundred with labor, and a control board is the one worth getting in writing before you approve it." }
+    {
+      "q": "What does F34 mean on a Thermador oven?",
+      "a": "The sources disagree. Most describe it as a cooling fan or airflow fault, where the control cannot confirm the fan is moving air after the oven starts heating. One widely read source describes it as a self-clean door lock fault instead. Running the oven ten minutes and feeling for air at the vent tells you which one you have."
+    },
+    {
+      "q": "Can I still use the oven with F34 showing?",
+      "a": "Not until you know whether the cooling fan is running. If it is not, every hour of use pushes heat into the surrounding cabinetry and the control electronics rather than out of the vent, which turns a fan repair into a much more expensive one. Do the vent test first and leave the oven off in the meantime."
+    },
+    {
+      "q": "Where is the cooling fan on a Thermador oven?",
+      "a": "Behind the control area, venting through the slot above the door. It is a separate fan from the convection fan inside the cavity, and its job is to keep the electronics and the surrounding cabinetry cool rather than to circulate cooking air. Reaching it usually means removing a rear panel or sliding the unit out of its cabinet."
+    },
+    {
+      "q": "Why does the fan keep running after I turn the oven off?",
+      "a": "That is normal and not related to the fault. The cooling fan runs on after a cycle until the cavity and the electronics have cooled, which can be twenty minutes or more after a high-temperature bake. A fan that runs on is a working fan, which is useful information if you are trying to decide which reading of F34 applies."
+    },
+    {
+      "q": "Why is Thermador documentation on this code so thin?",
+      "a": "Thermador publishes far less fault code information publicly than mass-market brands, so most of what circulates comes from repair companies compiling their own lists, and those lists disagree. The authoritative document for your oven is the tech sheet supplied inside the unit, which a technician will work from and which outranks any published list."
+    },
+    {
+      "q": "Is an F34 repair worth it?",
+      "a": "On a Thermador, usually yes, because these are expensive appliances that are generally worth maintaining. The cost depends entirely on which way the diagnosis falls: an obstruction is free, a latch is modest, a cooling fan is a few hundred with labor, and a control board is the one worth getting in writing before you approve it."
+    }
   ],
   "diagram": {
     "kind": "dryer-vent-path",
@@ -109,10 +150,28 @@
     }
   },
   "sources": [
-    { "title": "Thermador oven and range fault code references, cooling fan reading", "publisher": "Appliance repair trade code references", "url": null },
-    { "title": "Thermador oven fault code references, door lock reading", "publisher": "Appliance repair company code guide", "url": null },
-    { "title": "Thermador service documentation and the tech sheet supplied inside the unit", "publisher": "Thermador service literature", "url": null },
-    { "title": "Technician discussion of Thermador F34 on double ovens", "publisher": "Appliance Parts Pros community forum", "url": null }
+    {
+      "title": "Thermador oven and range fault code references, cooling fan reading",
+      "publisher": "Appliance repair trade code references",
+      "url": null
+    },
+    {
+      "title": "Thermador oven fault code references, door lock reading",
+      "publisher": "Appliance repair company code guide",
+      "url": null
+    },
+    {
+      "title": "Thermador service documentation and the tech sheet supplied inside the unit",
+      "publisher": "Thermador service literature",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of Thermador F34 on double ovens",
+      "publisher": "Appliance Parts Pros community forum",
+      "url": null
+    }
   ],
-  "related_codes": ["F7", "F34 upper", "F1"]
+  "related_codes": [
+    "F7"
+  ]
 }

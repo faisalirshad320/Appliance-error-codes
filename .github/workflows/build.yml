@@ -19,8 +19,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Normalize presentational field lengths
-        run: python3 tools/normalize_content.py
+      - name: Normalize spelling and presentational field lengths
+        run: |
+          python3 tools/fix_spelling.py
+          python3 tools/normalize_content.py
 
       - name: Lint prose against the writer brief
         run: python3 tools/lint_prose.py

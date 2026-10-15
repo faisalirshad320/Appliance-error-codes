@@ -6,7 +6,10 @@
   "severity": "serious",
   "can_diy": "no",
   "time_estimate": "5 minutes to try the reset, then a service call",
-  "cost_estimate": { "diy": "$0", "technician": "$180 to $450" },
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$180 to $450"
+  },
   "safety_warning": "A microwave's high-voltage capacitor can hold a charge capable of killing you for a long time after the unit is unplugged, and it does not need to be plugged in or switched on to do it. Do not remove the cabinet, do not probe inside, and do not follow a video that tells you to discharge it with a screwdriver. The breaker reset below is the only step on this page you should perform yourself.",
   "causes": [
     {
@@ -71,18 +74,51 @@
   "reset_procedure": "Switch off the circuit feeding the microwave at the breaker, leave it off for a full minute, and switch it back on. Whirlpool's own guidance for this code is a power reset of about this length. Then run a mug of water for thirty seconds to give the control a real load and see whether the code stays away. A code that returns immediately is live and repeating the reset will not change it. Do not treat the breaker being off as making the inside safe to open; it does not.",
   "model_notes": "Whirlpool's own product help pages give different causes for F1 E4 depending on the product line. The over-the-range microwave page describes the control being unable to execute the function and points at the appliance control board or its wiring. The built-in microwave and wall oven pages point instead at the microwave appliance manager or the microwave power relay. These are not contradictory so much as line-specific, which means your model number decides which explanation applies rather than anything you can observe from outside. The same F1 E4 code also appears on Whirlpool wall ovens and hoods, so check you are reading the right appliance's documentation. Third-party sites variously describe it as a relay failure or a keypad fault; those are less reliable than Whirlpool's own pages.",
   "parts": [
-    { "name": "Appliance control board", "cost": "$130 to $320", "difficulty": "technician only", "note": "The cause Whirlpool names for over-the-range models" },
-    { "name": "Microwave power relay or appliance manager", "cost": "$90 to $250", "difficulty": "technician only", "note": "The cause Whirlpool names for built-in and combination models" },
-    { "name": "Internal wiring harness or connector", "cost": "$20 to $60", "difficulty": "technician only", "note": "The cheap outcome, and more likely on an intermittent fault" }
+    {
+      "name": "Appliance control board",
+      "cost": "$130 to $320",
+      "difficulty": "technician only",
+      "note": "The cause Whirlpool names for over-the-range models"
+    },
+    {
+      "name": "Microwave power relay or appliance manager",
+      "cost": "$90 to $250",
+      "difficulty": "technician only",
+      "note": "The cause Whirlpool names for built-in and combination models"
+    },
+    {
+      "name": "Internal wiring harness or connector",
+      "cost": "$20 to $60",
+      "difficulty": "technician only",
+      "note": "The cheap outcome, and more likely on an intermittent fault"
+    }
   ],
   "when_to_call": "Call as soon as the code survives a breaker reset, because everything past that point is inside a cabinet that is genuinely dangerous to open. There is no intermediate step you can safely take and nothing is gained by waiting. Call immediately, and switch the circuit off at the breaker rather than just stopping using it, if you also smell burning, see scorching around the vents, or hear arcing, since those point at something beyond a control fault. And on an over-the-range unit, factor in that the repair may approach the price of replacement, so get the written quote before agreeing to the work.",
   "faqs": [
-    { "q": "Can I fix a Whirlpool F1 E4 myself?", "a": "Only the reset. Switching the breaker off for a minute and back on is safe and clears the codes caused by a power glitch. Beyond that the repair is inside the cabinet, where the high-voltage capacitor can hold a lethal charge long after the unit is unplugged. That is a technician's job regardless of how handy you are." },
-    { "q": "Is it safe to use the microwave with F1 E4 showing?", "a": "No. The control is reporting that it could not carry out a function, which means it is not reliably in charge of a machine that generates thousands of volts internally. Stop using it, take the food out, and if it is an over-the-range model stop using the vent hood function too until it has been looked at." },
-    { "q": "Why does Whirlpool give two different causes for this code?", "a": "Because the documentation is product-line specific. Whirlpool's over-the-range microwave page names the appliance control board, while its built-in microwave and wall oven pages name the microwave appliance manager or the power relay. Your model number decides which applies. Give it to the technician when you book, since it narrows the diagnosis before they arrive." },
-    { "q": "Why did F1 E4 appear after a power cut?", "a": "A brownout or surge can leave a stored fault in the control without anything actually breaking. That is the one version of this code that costs nothing. Cut the breaker for a full minute, restore it, and run a mug of water for thirty seconds. If it heats normally and the code stays away, you are done." },
-    { "q": "Can I discharge the capacitor myself to work on it safely?", "a": "No, and please do not try. The technique circulating in videos, shorting the terminals with a screwdriver, injures people regularly and does not reliably leave the circuit safe. Microwave capacitors need the right tool and the knowledge of where every stored-energy component sits. This is the clearest line on this site between DIY and not." },
-    { "q": "Is an F1 E4 repair worth it?", "a": "It depends on the unit. On an over-the-range microwave, a control board plus labor can reach half the cost of a new one, so get the written quote and compare. On a built-in or a microwave and oven combination the repair is almost always worth doing, because the appliance is matched to the cabinetry and replacing it is a far bigger job." }
+    {
+      "q": "Can I fix a Whirlpool F1 E4 myself?",
+      "a": "Only the reset. Switching the breaker off for a minute and back on is safe and clears the codes caused by a power glitch. Beyond that the repair is inside the cabinet, where the high-voltage capacitor can hold a lethal charge long after the unit is unplugged. That is a technician's job regardless of how handy you are."
+    },
+    {
+      "q": "Is it safe to use the microwave with F1 E4 showing?",
+      "a": "No. The control is reporting that it could not carry out a function, which means it is not reliably in charge of a machine that generates thousands of volts internally. Stop using it, take the food out, and if it is an over-the-range model stop using the vent hood function too until it has been looked at."
+    },
+    {
+      "q": "Why does Whirlpool give two different causes for this code?",
+      "a": "Because the documentation is product-line specific. Whirlpool's over-the-range microwave page names the appliance control board, while its built-in microwave and wall oven pages name the microwave appliance manager or the power relay. Your model number decides which applies. Give it to the technician when you book, since it narrows the diagnosis before they arrive."
+    },
+    {
+      "q": "Why did F1 E4 appear after a power cut?",
+      "a": "A brownout or surge can leave a stored fault in the control without anything actually breaking. That is the one version of this code that costs nothing. Cut the breaker for a full minute, restore it, and run a mug of water for thirty seconds. If it heats normally and the code stays away, you are done."
+    },
+    {
+      "q": "Can I discharge the capacitor myself to work on it safely?",
+      "a": "No, and please do not try. The technique circulating in videos, shorting the terminals with a screwdriver, injures people regularly and does not reliably leave the circuit safe. Microwave capacitors need the right tool and the knowledge of where every stored-energy component sits. This is the clearest line on this site between DIY and not."
+    },
+    {
+      "q": "Is an F1 E4 repair worth it?",
+      "a": "It depends on the unit. On an over-the-range microwave, a control board plus labor can reach half the cost of a new one, so get the written quote and compare. On a built-in or a microwave and oven combination the repair is almost always worth doing, because the appliance is matched to the cabinetry and replacing it is a far bigger job."
+    }
   ],
   "diagram": {
     "kind": "control-board",
@@ -96,9 +132,21 @@
     }
   },
   "sources": [
-    { "title": "F1 E4 error code, over-the-range microwave", "publisher": "Whirlpool product help documentation", "url": null },
-    { "title": "F1 E4 error code, built-in microwave and wall oven", "publisher": "Whirlpool product help documentation", "url": null },
-    { "title": "Microwave oven high-voltage capacitor safety practice", "publisher": "Appliance service training references", "url": null }
+    {
+      "title": "F1 E4 error code, over-the-range microwave",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "F1 E4 error code, built-in microwave and wall oven",
+      "publisher": "Whirlpool product help documentation",
+      "url": null
+    },
+    {
+      "title": "Microwave oven high-voltage capacitor safety practice",
+      "publisher": "Appliance service training references",
+      "url": null
+    }
   ],
-  "related_codes": ["F1E1", "F1E2", "F2E1", "F7E1"]
+  "related_codes": []
 }

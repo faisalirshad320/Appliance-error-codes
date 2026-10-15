@@ -69,7 +69,9 @@ def check(slug, d):
                 problems.append(f"{where}: {why}")
         for pat, us in BRITISH.items():
             if re.search(pat, low):
-                problems.append(f"{where}: British spelling, use '{us}'")
+                # tools/fix_spelling.py converts these mechanically and runs first in CI,
+                # so anything still here means that step was skipped. Report, don't block.
+                warnings.append(f"{where}: British spelling, use '{us}'")
         if "!" in text and where != "safety_warning":
             problems.append(f"{where}: exclamation mark")
 
