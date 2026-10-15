@@ -1,0 +1,174 @@
+{
+  "title": "GE Oven F96 Error Code: Causes and Fix",
+  "meta_description": "GE oven F96 means the control sees the cooling fan running too slowly or not at all. Stop using the oven, check the vents, then look at the fan motor and board.",
+  "h1": "GE oven F96 error code: what it means and how to fix it",
+  "answer": "F96 means the control is watching the cooling fan above the oven cavity and does not see it turning at the speed it expects. That fan is what keeps the electronics, the cabinet and the surrounding kitchen units from cooking, so the control raises the fault rather than carrying on. Stop using the oven while F96 is showing. The usual causes are a fan motor that has seized or slowed with age, a blocked vent path that is loading the fan, or a wiring fault between the fan and the board.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "20 minutes to check the vents, 2 hours or more for a fan motor",
+  "cost_estimate": {
+    "diy": "$60 to $180 for a fan motor",
+    "technician": "$250 to $600"
+  },
+  "safety_warning": "The cooling fan is a safety component, not a comfort feature. Running a built-in oven without it lets heat build around the control board and inside the surrounding cabinet, so do not keep cooking with F96 showing and never disable the code. Switch the oven off at its breaker before any panel comes off; an electric oven carries 240 volts at the terminal block even when idle. On a gas model, nothing past the gas shutoff is homeowner work.",
+  "causes": [
+    {
+      "cause": "The cooling fan motor is failing or has seized",
+      "frequency": "most cases",
+      "confirm": "Run the oven for ten minutes and listen at the vent slot above the door. You should hear a steady rush of air. Silence, a grinding noise, or a fan that starts then stops are all the motor. Bearings dry out from years of hot air passing through them, and this is the ordinary end of a cooling fan's life."
+    },
+    {
+      "cause": "The vent path above the door is blocked",
+      "frequency": "common",
+      "confirm": "Look along the slot above the oven door with a flashlight. Grease, foil, crumbs or a cooking sheet stored flat on top of a wall oven can throttle the airflow enough that the fan labors and slows. Clear it, run the oven again and see whether the fan sounds stronger."
+    },
+    {
+      "cause": "A loose connector or chafed wire in the fan circuit",
+      "frequency": "common",
+      "confirm": "The fan runs sometimes and not others, or the code is intermittent. The fan's plug sits near the motor above the cavity. A pin backed out of the housing, or insulation worn through where the harness crosses a bracket, makes the speed signal drop out without the fan necessarily being dead."
+    },
+    {
+      "cause": "Damage from repeated self-clean cycles",
+      "frequency": "common",
+      "confirm": "The code appeared during or shortly after a self-clean. The fan runs flat out for the whole of a clean cycle, in the hottest conditions it ever sees, so a motor that was marginal dies then. If the timing matches, that is your trigger even though the motor is still the part to replace."
+    },
+    {
+      "cause": "The control board is not reading the fan's speed signal",
+      "frequency": "occasional",
+      "confirm": "The fan is clearly spinning at full speed and the vent is clear, yet the oven still raises F96. At that point the fan is doing its job and the board is not seeing it, which moves the fault to the control or the feedback circuit rather than the motor."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Stop cooking and switch off at the breaker",
+      "detail": "Turn the oven off at its double breaker rather than the panel, and leave it off for five minutes. This clears the stored fault and takes the heat source away from an oven whose cooling is in doubt. If the oven is built into a run of cabinets, open the doors either side and let the surrounding space cool down too.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "Do not keep using a built-in oven with an active cooling fan fault."
+    },
+    {
+      "name": "Clear the vent slot above the door",
+      "detail": "The cooling air leaves through the slot across the top of the oven door, or on some wall ovens through a grille in the trim above it. Shine a flashlight in and look for baked-on grease, a sheet of foil, or anything stored on top of the unit that has slumped over the outlet. Vacuum it with a crevice tool and wipe the slot with a degreaser on a cloth.",
+      "minutes": 15,
+      "tools": "Vacuum with crevice tool, degreaser, cloth",
+      "warning": null
+    },
+    {
+      "name": "Listen for the fan with the oven running",
+      "detail": "Restore power, set a moderate bake and stand close for ten minutes. A healthy cooling fan is audible as a steady rush from the vent slot within the first few minutes and stays running after you switch the oven off, often for ten or twenty minutes. Silence means the motor is not turning. A rhythmic grinding or a rising and falling note means it is turning badly.",
+      "minutes": 12,
+      "tools": null,
+      "warning": "Switch the oven off at the breaker again as soon as you have your answer."
+    },
+    {
+      "name": "Check for a clearance problem around a built-in oven",
+      "detail": "A wall oven fitted into a cabinet that is too tight, or one sitting on a shelf that blocks the lower air intake, makes the fan recirculate its own hot air and work harder for less effect. Check that the gaps specified in the installation instructions are actually there and that nothing is packed behind or under the oven. This is a surprisingly common cause after a kitchen refit.",
+      "minutes": 15,
+      "tools": "Flashlight, tape measure",
+      "warning": null
+    },
+    {
+      "name": "Inspect the fan and its connector",
+      "detail": "With the breaker off, remove the trim or top panel to reach the fan housing above the cavity. Turn the fan blade by hand: it should spin freely and coast for a turn or two. A blade that is stiff, gritty or rubbing on the shroud condemns the motor. Check the plug at the motor for a backed-out pin, corrosion or heat-browned plastic before you order anything.",
+      "minutes": 30,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off and confirmed dead. The area above the cavity carries mains wiring to the control board."
+    },
+    {
+      "name": "Decide whether this one is yours",
+      "detail": "Clearing the vent and checking clearances is straightforward and fixes a real share of these. Replacing the cooling fan motor on a wall oven usually means lifting the whole appliance out of the cabinet, which is a two-person job on a heavy unit with a live terminal block behind it. If that is more than you want to take on, you have already done the useful diagnostic work and a technician can take it from there.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the vents are clear, the clearances are right and F96 is still there, the question is whether the fan is turning properly, because that splits the repair into a cheap path and an expensive one. With the breaker off and the top trim removed, spin the fan blade by hand. A motor with dry bearings feels gritty or stiff and will not coast; that motor is the fault and a replacement is typically $60 to $180 as a part. If the blade spins freely, restore power briefly, run the oven and look at the fan directly: if it is clearly turning at full speed and the control still raises F96, the motor is doing its job and the board is not seeing the speed signal it expects. That points at the feedback wiring first and the control board second. Check the connector at the motor and the harness run between the fan and the board, unplugging and remating the connector a few times to scrape the contacts, before you accept a board diagnosis. The cost jump is here: a GE oven control board is typically $200 to $400 for the part alone, and on a built-in wall oven the labor to get at it means pulling the unit out of the cabinet, so $450 to $700 fitted is realistic. People have replaced the fan and the board on these and still had the code, so get a technician to confirm which of the two is actually failing before spending, rather than buying in sequence. In the meantime, do not use the oven. A cooling fan fault on a built-in appliance is the one oven code where continuing to cook is a genuinely bad idea rather than just an inconvenience.",
+  "reset_procedure": "Switch the oven off at its breaker, wait a full five minutes and switch it back on. The wait matters because the control holds residual charge and a quick off-on leaves the stored fault in place. A one-off F96 after a storm or a brownout sometimes never returns. If the code reappears on the next cycle, the fan circuit has a real fault and resetting it repeatedly means running the oven with its cooling in doubt, which is the one thing not to do here.",
+  "model_notes": "F96 is used on GE wall ovens and built-in ranges that have a monitored cooling fan, which is most of the Profile, Cafe and Monogram range and many standard built-ins; freestanding ranges with a simpler cooling arrangement do not use it. On double wall ovens F96 refers to the upper cooling fan, and some models have a second fan reported under a different code. GE service literature describes F96 and the neighbouring F97 as a pair covering fan speed outside the expected window in each direction, and different sources disagree about which is which, so on a model where both appear, test the fan rather than reading the number too literally.",
+  "parts": [
+    {
+      "name": "Oven cooling fan motor assembly",
+      "cost": "$60 to $180",
+      "difficulty": "hard",
+      "note": "Usually sold with the blade and shroud; wall ovens must come out of the cabinet"
+    },
+    {
+      "name": "Cooling fan wiring harness or connector",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "For an intermittent code where the fan itself spins freely"
+    },
+    {
+      "name": "Oven control board",
+      "cost": "$200 to $400",
+      "difficulty": "technician only",
+      "note": "Only after the fan is proved to be running at full speed"
+    }
+  ],
+  "when_to_call": "Call a technician for this one sooner than you would for a sensor code. The fan sits above the cavity behind the trim, the wiring beside it feeds the control board at mains voltage, and on a built-in wall oven the unit has to come out of the cabinet to reach it, which is a two-person lift with a live terminal block at the back. There is also a diagnostic trap: the fan motor and the control board both produce F96 and both are expensive, and people have replaced one and then the other. Paying for an hour of diagnosis is cheaper than guessing. Call a licensed gas technician for any gas model fault beyond clearing the vent slot.",
+  "faqs": [
+    {
+      "q": "What does F96 mean on a GE oven?",
+      "a": "The control is not seeing the cooling fan above the oven cavity turning at the speed it expects. That fan protects the electronics and the surrounding cabinetry from the oven's own heat, so the control flags it rather than ignoring it. The usual causes are a worn fan motor, a blocked vent slot above the door, or a wiring fault in the fan circuit."
+    },
+    {
+      "q": "Can I still use my oven with an F96 code?",
+      "a": "No, and this is one of the few oven codes where that answer is firm. The cooling fan is what stops heat building around the control board and inside the cabinet a built-in oven sits in. Using the oven without it risks damaging the control, the door seal and the surrounding units. Switch it off at the breaker until it is fixed."
+    },
+    {
+      "q": "Where is the cooling fan on a GE wall oven?",
+      "a": "Above the oven cavity, behind the top trim, blowing air out through the slot across the top of the oven door. You can usually hear it from the front within a few minutes of switching the oven on, and it keeps running after you turn the oven off until the cavity has cooled. That run-on is normal and not a fault."
+    },
+    {
+      "q": "Why did F96 appear during a self-clean cycle?",
+      "a": "Self-clean is when the cooling fan works hardest, for the longest, in the hottest conditions it ever sees. A motor with dry bearings that coped with ordinary baking will often fail during a clean cycle. The same heat is hard on the control board and the door latch, which is why skipping self-clean extends the life of the whole oven."
+    },
+    {
+      "q": "How much does it cost to fix F96?",
+      "a": "Clearing a blocked vent slot costs nothing. A cooling fan motor is typically $60 to $180 as a part, but on a built-in wall oven the labor to reach it pushes a professional repair to $250 to $600. If the control board turns out to be the fault instead, expect $450 to $700 fitted, which on an older oven is worth weighing against replacement."
+    },
+    {
+      "q": "What is the difference between F96 and F97?",
+      "a": "Both are cooling fan speed faults on the same circuit, raised when the speed the board reads falls outside the window it expects. Sources disagree about which code covers which direction, and in practice the diagnosis is the same: check the vent path, check that the fan spins freely, then check the wiring and the board. Do not read the number too literally."
+    },
+    {
+      "q": "Can a dirty oven cause F96?",
+      "a": "Indirectly, yes. Grease baked into the vent slot above the door and on the grille restricts the airflow, which loads the fan and drops its speed. Vacuuming and degreasing the slot is the first thing to try and it costs nothing. It will not rescue a motor whose bearings have already gone, but it is the cheapest possible test."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The cooling fan circuit behind F96 and the four things to check",
+    "labels": {
+      "display": "F96",
+      "c1": "Vent slot above the oven door",
+      "c2": "Cooling fan above the cavity",
+      "c3": "Fan connector and harness",
+      "c4": "Control board reads fan speed"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE wall oven and built-in range fault codes, cooling fan diagnostics",
+      "publisher": "GE Appliances service mini-manual supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "GE oven F96 and F97 cooling fan speed fault reports and repairs",
+      "publisher": "AppliancePartsPros and JustAnswer technician threads",
+      "url": null
+    },
+    {
+      "title": "Oven cooling fan function and clearance requirements",
+      "publisher": "GE Appliances installation instructions for built-in wall ovens",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F97",
+    "F2",
+    "F20",
+    "F3",
+    "F76"
+  ]
+}

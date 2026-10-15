@@ -1,0 +1,136 @@
+{
+  "title": "GE Washer E2 Error Code: What It Means and How to Fix",
+  "meta_description": "E2 on a GE washer almost always means it could not drain in the time allowed. Clear the pump filter and drain hose first. Here is the full check, in order.",
+  "h1": "GE washer E2 error code: what it means and how to fix it",
+  "answer": "E2 on a GE washer means the machine ran its drain pump for the time it allows and still found water in the tub when it checked. It is a drain fault, and the water is usually being held back by a clogged pump filter, a kinked drain hose or a standpipe pushed too full. Worth knowing up front: E2 is not one of GE's universal codes, and a handful of model series use it for a water temperature sensor circuit fault instead, so if your tub is bone dry and the machine still says E2, check the tech sheet inside your machine before buying a pump.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 90 minutes",
+  "cost_estimate": { "diy": "$0 to $110", "technician": "$140 to $330" },
+  "safety_warning": "Unplug the washer at the wall before removing the lower access panel or opening the pump. The pump and the motor control carry line voltage and the motor control can hold a charge after the machine is unplugged.",
+  "causes": [
+    {
+      "cause": "The drain pump filter is clogged with lint, coins and hair",
+      "frequency": "most cases",
+      "confirm": "Open the lower front access panel and unscrew the filter cap. If it has never been cleaned since the machine was installed, you will pull out a grey felt plug with hardware in it. A filter that looks like that was absolutely restricting the flow."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or pushed too far into the standpipe",
+      "frequency": "most cases",
+      "confirm": "Pull the machine out and follow the hose. A flat spot where the washer has been shoved back against it, or a hose rammed a foot down the standpipe so it seals and airlocks, both drain slowly enough to time out with nothing actually blocking them."
+    },
+    {
+      "cause": "Something hard is jammed against the pump impeller",
+      "frequency": "common",
+      "confirm": "You can hear the pump try and buzz, grind or rattle instead of running with a steady whir. Underwires, hair clips, coins and bits of plastic get past the filter on machines where the filter has been left out or fitted loose."
+    },
+    {
+      "cause": "The standpipe or house drain is partly blocked",
+      "frequency": "common",
+      "confirm": "Water backs up out of the standpipe when the washer pumps, or the nearby sink gurgles during a drain. In that case the washer is pumping perfectly well into a pipe that will not take it, and the fix is plumbing rather than appliance."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "occasional",
+      "confirm": "Silence from the bottom of the machine during the drain portion of the cycle, with the filter clean and the hose clear. Put your ear to the lower front panel: you should hear a clear motor note for a minute or so."
+    },
+    {
+      "cause": "The water level pressure sensor or its air hose is faulty",
+      "frequency": "occasional",
+      "confirm": "The tub is visibly empty and the machine still reports water present. The usual culprit is the thin clear air hose from the tub to the sensor, which splits at a bend or fills with soap sludge and stops passing pressure."
+    },
+    {
+      "cause": "A water temperature sensor circuit fault, on the model series that use E2 that way",
+      "frequency": "rare",
+      "confirm": "The washer drains perfectly, the tub empties, and E2 appears anyway, often with washes that come out cold when you selected warm. Confirm against the tech sheet for your exact model before acting on this one."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and listen to one drain attempt",
+      "detail": "Cancel, then start a drain-and-spin and stand beside the machine with your ear near the lower front panel. A steady motor whir with the water level visibly dropping means the pump is working and the blockage is downstream. A buzz, a grind or silence tells you the pump or something jammed in it is the problem, and that changes where you start.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the drain hose and the standpipe",
+      "detail": "Pull the washer forward and follow the hose from the machine to the wall. Straighten any kink and check the hose is not crushed between the machine and the wall. At the standpipe end, it should go in only a few inches, just far enough to stay put. A hose pushed deep enough to seal against the pipe wall creates an airlock and will time out every cycle.",
+      "minutes": 12,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean the drain pump filter",
+      "detail": "Unplug the machine. Lay towels and a shallow tray in front of it, because the tub still holds water. Open the lower front access panel, usually two or three screws or a snap-off cover, and turn the filter cap anticlockwise slowly, letting water out in stages rather than all at once. Expect a couple of litres. Pull the filter, clear it out, rinse it and screw it back in firmly by hand.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels",
+      "warning": "Unplug at the wall first. Open the cap slowly or you will flood the floor in one go."
+    },
+    {
+      "name": "Check the pump impeller",
+      "detail": "With the filter out, shine a flashlight into the opening and look at the impeller behind it. Turn it with a finger. It should spin freely with a little resistance from the magnets. Anything wedged against a blade, a coin, an underwire or a shard of plastic, comes out now. If it will not turn at all and nothing is jammed, the pump is seized.",
+      "minutes": 10,
+      "tools": "Flashlight",
+      "warning": "Machine unplugged. Watch for sharp metal and glass; use a cloth rather than bare fingers."
+    },
+    {
+      "name": "Test whether the pump can move water at all",
+      "detail": "Pull the drain hose out of the standpipe, hold the open end into a bucket on the floor below the level of the washer drum, and run a drain-and-spin. A strong pulsed flow into the bucket means the pump and the machine are fine and the restriction is in the standpipe or house drain. A trickle or nothing means the fault is inside the machine.",
+      "minutes": 10,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Check the pressure sensor air hose",
+      "detail": "Unplug the machine and remove the top panel, usually two screws at the back, sliding it rearward. Find the thin clear hose running from the bottom of the tub up to a small sensor on the frame or the control housing. Pull it off at both ends, look for a split at the bends, and blow through it. Sludge or a crack in that hose makes the control believe there is water in a tub that is empty.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver, flashlight",
+      "warning": "Unplug at the wall before removing any panel. Do not rely on the power button."
+    },
+    {
+      "name": "Reset and run a drain-and-spin",
+      "detail": "Plug the washer back in, or restore the breaker, and run a drain-and-spin rather than a full cycle so you find out in three minutes instead of an hour. The control latches the fault, so a machine whose drain you have already cleared will keep showing E2 until it has been reset.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the impeller turns and the hose is straight, work through the rest in this order. First, settle whether the pump can move water at all with the bucket test: hose out of the standpipe, open end into a bucket below drum level, run a drain. Strong pulsed flow means the washer is healthy and the blockage is in the standpipe or the house drain, which is a plumber's job and not worth an appliance call-out. Second, a trickle or nothing with the hose in a bucket puts the restriction inside the machine, so check the short corrugated section between the tub outlet and the pump, where a slug of lint and fat collects out of sight of the filter. Third, if that is clear and the pump still will not shift water, the pump is the part: a $40 to $110 item and roughly an hour with the machine tipped back or pulled out. Fourth, if the tub visibly empties and the control still insists there is water, the fault is in the water level pressure sensor or its clear air hose. The hose is the cheap end and splits more often than the sensor fails, so pull it, check it for cracks at the bends, and blow it clear before ordering anything. Fifth, if the pump is commanded but never runs, and the pump itself tests good, the harness or the main control is next and the cost jumps to the $200 to $400 range fitted. Before you go there, go over every connector on the pump and the control for green corrosion or a pin backed out of its housing, which costs nothing and is a surprisingly common answer in a damp laundry room. And if the tub is genuinely dry every time the code appears, stop treating it as a drain fault; look up E2 on the tech sheet inside your own machine, because a few GE model series use it for a water temperature sensor circuit instead.",
+  "reset_procedure": "Cancel the cycle, then unplug the washer at the wall or switch off its breaker for five full minutes. The control holds residual charge and a quick off-and-on often leaves the fault latched. Plug it back in and run a drain-and-spin to test. If your model stores a fault history, clear that from service mode as well, otherwise old entries will confuse the next diagnosis.",
+  "model_notes": "E-prefixed codes appear mainly on GE front loaders; the equivalent fault on top loaders and on models without a display is reported as a number or as a pattern of lit status lights instead. GE does not use E2 for the same thing across its whole range, and while the drain timeout reading covers the large majority of machines, a small number of model series use E2 for a water temperature sensor circuit that is open or shorted. The tech sheet folded inside your machine, usually in the control console or behind the lower front panel, is the only table guaranteed to be right for your model.",
+  "parts": [
+    { "name": "Drain pump", "cost": "$40 to $110", "difficulty": "moderate", "note": "Clear the impeller first; plenty of pumps are replaced for a jammed coin" },
+    { "name": "Drain pump filter", "cost": "$15 to $35", "difficulty": "easy", "note": "Only if the cap thread or seal is damaged; most just need cleaning" },
+    { "name": "Pressure sensor air hose", "cost": "$10 to $25", "difficulty": "easy", "note": "Splits at the bends; check this before replacing the sensor" },
+    { "name": "Water level pressure sensor", "cost": "$25 to $70", "difficulty": "moderate", "note": "Only after the air hose has been ruled out" },
+    { "name": "Drain hose", "cost": "$20 to $40", "difficulty": "moderate", "note": "Replace rather than straighten a hose that has been crushed flat" }
+  ],
+  "when_to_call": "Call a plumber, not an appliance technician, if the bucket test gives a strong flow but the standpipe backs up, because the blockage is in your waste pipe. Call an appliance technician when the pump is clear, the hose is clear and the machine still will not drain, since the next step is checking whether the pump is being commanded with the machine live. Stop running cycles while you wait: driving a pump against a blockage over and over is how a free fix turns into a pump replacement, and a tub of standing water goes sour in a couple of days. Call straight away if the machine is leaking or smells of burning.",
+  "faqs": [
+    { "q": "What does E2 mean on a GE washer?", "a": "On the large majority of machines it means the washer could not drain within the time the control allows, so it stopped the cycle with water still in the tub. It reports that water did not leave, not why. A small number of GE model series use E2 for a water temperature sensor circuit fault instead, which is worth checking if your tub drains fine." },
+    { "q": "Can I still use the washer with an E2 code?", "a": "No. Every cycle you start drives the pump against whatever is blocking it, which heats the pump and shortens its life, and a tub of dirty water left standing smells within a day or two. Bail or pump the water out, leave the lid open, and clear the drain path before you run another load." },
+    { "q": "How do I get the water out before I open the filter?", "a": "Drop the drain hose off the standpipe and lay the open end in a bucket on the floor; gravity will empty most of the tub without the pump. Keep the bucket below the level of the drum and swap buckets as they fill. Do that first and the filter job goes from a flood to a tray of water." },
+    { "q": "Why did E2 appear suddenly when nothing changed?", "a": "Drain filters clog gradually and then cross a threshold, so a months-long problem shows up as a sudden failure. The genuinely sudden triggers are something hard getting past the filter into the pump in one wash, or the machine being pushed back against its own drain hose after someone cleaned behind it." },
+    { "q": "Does E2 mean I need a new drain pump?", "a": "Usually not. Most are cleared by the filter, the hose or the standpipe at no cost. Only replace the pump after the bucket test shows the machine cannot move water with the drain line clear and the impeller turning freely, because a new pump fitted to a blocked line throws the same code on its first cycle." },
+    { "q": "The tub is empty and it still shows E2. What now?", "a": "Two possibilities. Either the water level pressure sensor or its thin clear air hose is reporting water that is not there, which is a cheap fix starting with the hose. Or your model is one of the series that uses E2 for a water temperature sensor circuit. Check the tech sheet inside your machine before spending anything." },
+    { "q": "Is a GE washer with a drain fault worth repairing?", "a": "Almost always, if it comes down to the pump. The part is modest and the job is around an hour, which is a small fraction of a new machine even with a technician doing it. The calculation only changes if the main control board turns out to be at fault on a machine that is already eight or more years old." }
+  ],
+  "diagram": {
+    "kind": "washer-drain-pump",
+    "caption": "The drain path on a GE washer, and the four places E2 comes from",
+    "labels": {
+      "display": "E2",
+      "c1": "Pump filter behind the lower panel",
+      "c2": "Pump impeller, turn it by hand",
+      "c3": "Drain hose and standpipe depth",
+      "c4": "Pressure sensor air hose"
+    }
+  },
+  "sources": [
+    { "title": "GE washer drain system diagnosis and fault code descriptions", "publisher": "GE Appliances technical service literature", "url": null },
+    { "title": "Washer fault code table for this model series", "publisher": "GE service tech sheet supplied inside the machine", "url": null },
+    { "title": "Field reports on GE E2 drain timeouts and the model series that use E2 differently", "publisher": "Appliance repair technician forums", "url": null }
+  ],
+  "related_codes": ["UE", "26", "Ub", "E3", "LE"]
+}

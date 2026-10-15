@@ -57,13 +57,47 @@ inventing a mechanism.
 Where a code's meaning genuinely differs across model generations, say so in `model_notes`.
 Where it does not, set `model_notes` to null rather than padding.
 
+## When the sources disagree, or there are none
+
+These rules came out of the first run and are now standard. They are the difference between
+a page a technician would respect and one that just sounds confident.
+
+1. **Two live readings of a code: write the test, not the verdict.** If reputable sources
+   split on what a code means, do not pick one. Cover both and lead with the cheap
+   observation that separates them. Samsung OE is read as an overflow by some and a level
+   sensor fault by others, so that page leads with the dry-tub test, which settles it in five
+   minutes. Whirlpool's own consumer page describes F5 E2 and F5 E3 interchangeably, so that
+   page routes on symptom: cycle will not start means the lock side, cycle finished and the
+   door will not open means the unlock side, same part either way.
+2. **Say in the page where the documentation is thin.** A reader who cross-checks and finds
+   contradictions should learn that from you first, otherwise they conclude your page is the
+   wrong one. `model_notes` is the place for it.
+3. **A number only secondary sources assert is an estimate, not a measurement.** Every page
+   claiming "D80 means 80 percent blocked" is quoting another blog. Write it as what the
+   sensor estimates, not what it measured.
+4. **Replace an unsourceable reference value with a test that works without one.** Do not
+   print a thermistor resistance you cannot source. Tell the reader to measure cold, warm the
+   sensor, and confirm the resistance falls. That diagnoses the part with no reference value
+   at all, and it cannot be wrong for their model.
+5. **Do not name a control the manufacturer assigns inconsistently.** Whirlpool and Maytag put
+   the control lock on different buttons across ranges, so the page says to find the padlock
+   icon rather than naming a button that is wrong on half the panels.
+6. **A non-fault gets a short page.** Child lock, control lock, a maintenance reminder and a
+   power-failure notice are not faults. Say so in the first sentence and keep the page short.
+   Padding a non-fault into a fault page is worse than brevity.
+7. **Codes that look identical on the display need saying so.** On a seven-segment display a
+   lowercase b and a 6 are nearly the same glyph, and S and 5 are the same glyph. Where two
+   codes on a brand collide that way, say it plainly.
+
 ## Output
 
 One file per page at `content/<slug>.json`, matching the schema in `site/lib/schema.py`
 exactly. Field notes:
 
 - `title` max 65 chars, leads with brand + appliance + code.
-- `meta_description` max 158 chars, states the meaning and the top fix.
+- `meta_description` 110 to 155 chars, states the meaning and the top fix, and **must end on
+  a complete sentence**. It is user-facing search text, so a trailing fragment reads as
+  broken. Write it to fit rather than relying on the normalizer to trim it.
 - `answer` 2 to 4 sentences, self-contained, no "as mentioned above".
 - `severity` one of minor / moderate / serious / stop-using-it.
 - `can_diy` one of yes / usually / sometimes / no.

@@ -1,0 +1,146 @@
+{
+  "title": "LG Refrigerator Error Codes: Full List and What to Do",
+  "meta_description": "How LG refrigerator error codes work, what the two letters before the E mean, and which codes you can fix yourself. Includes the demo mode trap and warranty advice.",
+  "h1": "LG refrigerator error codes: how to read them and what to do next",
+  "answer": "LG refrigerators report faults as two characters, a space, and the letter E for Error: FF E, CF E, CL E and so on. The two characters name the part or the circuit, and the E just says it is a fault rather than a temperature. Older LG panels write the same codes as Er FF or E FF, and some newer ones put the E first, so FF E, E FF and Er FF are all the same thing. Before you chase any code, check two things: whether the appliance is actually still cooling, and whether the display says OF F, because that is demo mode and it means cooling has been switched off deliberately rather than failed.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to identify the code, then anything from 20 minutes to a technician visit",
+  "cost_estimate": { "diy": "$0 to $100 for the fan and airflow faults", "technician": "$150 to $350 for most repairs, $400 and up for sealed-system work" },
+  "safety_warning": "Unplug the refrigerator at the wall before removing any interior or rear panel. Two codes on this list, CL E and CH E, point at the sealed refrigerant circuit: that is licensed-technician work and there is no legitimate home repair for it. Never chip ice off an evaporator coil with anything hard or sharp, because the tubing behind it is part of that same sealed circuit.",
+  "causes": [
+    {
+      "cause": "Airflow and fan faults: FF E, rF E, CF E, IF E",
+      "frequency": "most cases",
+      "confirm": "A fan code names which motor stopped. FF E is the evaporator fan behind the rear freezer panel, rF E a second fresh food fan on twin-evaporator models, CF E the condenser fan at the base by the compressor, IF E the small ice compartment fan. Most of these turn out to be a blade jammed by ice or dust rather than a dead motor, and they are the cheapest codes on the appliance."
+    },
+    {
+      "cause": "Defrost failures that ice the evaporator over",
+      "frequency": "most cases",
+      "confirm": "The telltale is a freezer evaporator buried in a solid slab of ice instead of light, even frost with the fins visible. It usually surfaces as a fan code, because the ice stops the fan long before anyone notices the defrost cycle quit. If a fan code returns within weeks of a manual defrost, the defrost circuit is the real fault."
+    },
+    {
+      "cause": "Sealed-system faults: CL E and CH E",
+      "frequency": "common",
+      "confirm": "CL E is the low side, near the evaporator; CH E is the high side, near the condenser and compressor. The supporting symptom is a compressor running almost continuously while neither compartment gets properly cold and the condenser stays barely warm. If the appliance is cooling normally, a persistent sealed-system code is far more likely to be a sensing fault than a real leak."
+    },
+    {
+      "cause": "Sensor and thermistor faults",
+      "frequency": "common",
+      "confirm": "Codes naming a sensor position, such as the freezer or fresh food defrost sensors. The giveaway is a compartment running at a wildly wrong temperature while the hardware all works: a freezer that will not stop running, or one that barely runs at all, because the board is being told the wrong number. These are cheap parts but awkward to reach."
+    },
+    {
+      "cause": "Ice maker faults",
+      "frequency": "common",
+      "confirm": "Codes covering the ice maker mold, its sensor or its fan, with the rest of the appliance cooling perfectly. Almost always traced back to water: a fill tube that drips between cycles, a seeping inlet valve, or an ice compartment flap that will not close and lets humid kitchen air in."
+    },
+    {
+      "cause": "Communication and control board faults",
+      "frequency": "occasional",
+      "confirm": "A code reporting that the main board and the display have stopped talking, or a panel that is dark, frozen or showing nonsense. Check the ribbon cable and connectors at the display before accepting a board diagnosis, because a loose connector looks exactly like a dead board and costs nothing."
+    },
+    {
+      "cause": "Not a fault at all: demo mode or a stored code after a power cut",
+      "frequency": "occasional",
+      "confirm": "OF F or OFF on the display means retail demo mode, where lights and the panel work but cooling is switched off on purpose. Separately, a power cut or surge can leave a code stored on an appliance that is running perfectly. Both are free to fix and both get mistaken for expensive faults every day."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write down exactly what the display says",
+      "detail": "Photograph the panel. Note the characters in order and whether the E comes before or after, because FF E and E FF are the same code but CL E and CH E are not, and they point at opposite ends of the system. If the panel is on the dispenser, check the interior panel too on models that have both. Get this right before anything else: every mistake further down starts with misreading two characters.",
+      "minutes": 4,
+      "tools": "Phone camera",
+      "warning": null
+    },
+    {
+      "name": "Check whether the refrigerator is still cooling",
+      "detail": "Put a glass of water in the middle of the fresh food compartment and leave it four hours, and check whether ice cream in the freezer is hard or soft. This single observation reframes every code on this list. A refrigerator holding both set temperatures does not have a serious sealed-system or compressor problem whatever the panel claims, and you can take your time. One that is warming needs food moved now.",
+      "minutes": 10,
+      "tools": "Thermometer if you have one",
+      "warning": null
+    },
+    {
+      "name": "Rule out demo mode before you do anything else",
+      "detail": "If the display reads OF F or OFF, or if the interior lights and panel work perfectly while nothing gets cold, the appliance is in the showroom demo mode that disables cooling. On most LG models you exit it by opening a fresh food door and holding the Refrigerator and Ice Plus buttons together for about five seconds. The exact pair varies by model, so check the panel for a labelled combination. This catches out a genuinely surprising number of people after a house move or a delivery.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Reset the code and watch for a few days",
+      "detail": "Unplug at the wall or trip the breaker, wait five minutes and restore power. On many models you can also open the right-hand fresh food door and press the refrigerator and freezer temperature buttons together three times. Then leave it alone and use it normally. A code that never returns was a glitch after a power interruption. A code that comes straight back is a live fault, and now you know which.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the condenser and check the airflow basics",
+      "detail": "Unplug and pull the appliance out. Vacuum the condenser coils, which sit behind the lower rear panel on most LG models and behind the toe grille on a few, and brush between the fins until you stop pulling out gray felt. Inside, check the vents in both compartments are not blocked by packed food, that no drawer is holding a door ajar, and that the gaskets grip a dollar bill all the way round. None of this is glamorous and it clears or improves a real share of codes.",
+      "minutes": 35,
+      "tools": "Vacuum with crevice tool, coil brush, Phillips #2 screwdriver",
+      "warning": "Unplug the refrigerator before reaching behind it. The compressor and condenser stay hot for a while after the power is off."
+    },
+    {
+      "name": "Look behind the rear freezer panel if the code names a fan or defrost",
+      "detail": "With the appliance unplugged and the freezer emptied, remove the flat panel on the freezer back wall, usually four or five Phillips screws with plastic caps. What you want to know is whether the evaporator carries light, even frost with the fins visible, or a solid white block. That one look separates a fan that happened to jam from a defrost system that died weeks ago, and it changes the repair entirely.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, flashlight, towels",
+      "warning": "Unplug first. Never chip or pry ice off the coil: the tubing is part of the sealed refrigerant circuit and a puncture ends the repair."
+    },
+    {
+      "name": "Find the model and serial, and check what warranty you hold",
+      "detail": "The rating sticker is on the inside left wall of the fresh food compartment, behind the crisper drawers, or along the top of the door opening. Photograph it, then call LG and ask what coverage remains on the compressor and the sealed system specifically. On LG refrigerators with linear and inverter compressors that coverage frequently runs years beyond the standard whole-appliance warranty, and owners routinely pay for repairs they were entitled to have done free. Terms vary by market and by when the unit was sold, so ask about your serial rather than trusting any figure online.",
+      "minutes": 20,
+      "tools": "Phone camera, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Run the app diagnosis if the model supports it",
+      "detail": "On ThinQ models, LG's app reads the stored fault straight out of the appliance by listening to a diagnostic tone through the phone's microphone while you hold it to the panel. It takes a few minutes and gives LG support a code they trust more than a description over the phone, which is often the difference between a technician arriving with the right part and arriving twice.",
+      "minutes": 15,
+      "tools": "Smartphone with the LG ThinQ app",
+      "warning": null
+    }
+  ],
+  "still_showing": "If you have identified the code, reset it, cleaned the condenser and it is still there, the useful question is which of three groups it falls into, because they have very different answers. The airflow group, meaning the fan codes and anything downstream of a failed defrost, is where most LG refrigerator faults live and where almost all of the DIY-friendly repairs are. Fan motors run from roughly $25 to $100, they are two screws, a push-fit blade and a connector, and the main trap is ordering by appearance instead of model number: LG's brushless fans report their speed back to the board, so a physically identical motor from another series throws the same code on its first run. If a fan code returns within a few weeks of a manual defrost, stop replacing fans; the defrost heater, bimetal thermostat or defrost sensor has failed and that is what keeps burying the coil in ice. The sensor and ice maker group is next: cheap parts, fiddly access, and the diagnosis usually hinges on finding where water or humid air is getting somewhere it should not be rather than on the electrical part itself. The sealed-system group, CL E and CH E, is the one to treat differently. There is no home repair for a sealed refrigerant circuit, the automotive top-up and stop-leak cans will contaminate it and will not fix a leak, and a technician who finds one in there may refuse the job. But before you accept a four-figure quote on either of those codes, check two things. First, is the appliance actually cooling? A refrigerator holding both set temperatures does not have a meaningful loss of refrigerant, so a persistent sealed-system code on a cold appliance is far more likely to be sensing or control, which is a much cheaper repair. Second, is the condenser fan running? A stopped condenser fan overheats the high side and can produce a sealed-system code that clears once the fan is fixed for under a hundred dollars. Then, before paying for anything in that group, make the warranty call. LG compressor and sealed-system coverage on these refrigerators often extends well past the first year, the terms depend on your market and your serial number, and that one phone call is the difference between a free repair and several hundred dollars. If coverage has lapsed and the appliance is past about eight years old, a sealed-system quote is the point at which replacement becomes a reasonable decision rather than giving up.",
+  "reset_procedure": "Two methods, and both are worth knowing. The universal one: unplug the refrigerator at the wall or trip its breaker, wait a full five minutes, then restore power. A quick off-and-on often leaves the stored fault in place, and the compressor will deliberately hold off for several minutes before restarting, which is normal rather than a second fault. The panel method on many LG models: open the right-hand fresh food door and press the refrigerator temperature and freezer temperature buttons together three times in succession. Button labels and combinations vary across generations, so check your panel. Either way, understand what a reset is for. It clears the display, not the fault. Its only real value is as a test: a code that stays away for a week was a transient after a power cut, and a code that comes straight back is telling you something real.",
+  "model_notes": "The display convention changed over the years and across markets. Older LG panels prefix codes with Er, as in Er FF or Er CF. Some put the E first, as in E CL. Newer ones put it last, as in CL E. They all mean the same faults. Where the code appears also varies: dispenser models usually show it on the dispenser panel, models without a dispenser show it on the interior control panel, and on some models a stored code only appears when you call it up with a button combination, commonly the freezer temperature and express freeze buttons held together for a few seconds. Twin-evaporator models have a second fresh food fan and so can produce rF E, which single-evaporator models never will. Models without an automatic ice maker never produce the ice maker codes. Treat any code list you find online, including this one, as a guide rather than gospel, and confirm against the tech sheet for your actual model.",
+  "parts": [
+    { "name": "Evaporator or condenser fan motor", "cost": "$25 to $100", "difficulty": "moderate", "note": "The most commonly replaced part on these refrigerators; order by model number" },
+    { "name": "Defrost heater, thermostat or sensor", "cost": "$15 to $70", "difficulty": "hard", "note": "Cheap parts, but a meter and the tech sheet tell you which of the three failed" },
+    { "name": "Temperature or defrost thermistor", "cost": "$15 to $50", "difficulty": "moderate", "note": "Inexpensive; most of the cost is reaching it" },
+    { "name": "Water inlet valve", "cost": "$40 to $110", "difficulty": "moderate", "note": "Behind most ice maker codes where the compartment keeps icing up" },
+    { "name": "Main control board", "cost": "$150 to $350", "difficulty": "technician only", "note": "Check every connector and harness first; a loose plug looks exactly like a dead board" }
+  ],
+  "when_to_call": "Call a technician for anything that reaches the sealed system or the compressor, meaning CL E, CH E, or any code where the appliance has stopped cooling despite good airflow and a clean condenser. That work is licensed only and there is no home version of it. Call for a defrost circuit fault too, unless you are comfortable with a multimeter and the tech sheet, because telling the heater, the thermostat and the sensor apart is the whole job and buying all three is a poor substitute. Do not call before you have identified the code, checked whether the appliance is cooling, ruled out demo mode and cleaned the condenser, because those four steps take an hour and settle a meaningful share of cases for nothing. And on any cooling fault, make the warranty call to LG with your model and serial before you book a paid repair, because the compressor coverage on these refrigerators is frequently longer than owners expect and you only find out by asking about your own unit.",
+  "faqs": [
+    { "q": "What does the E mean in LG refrigerator error codes?", "a": "It stands for Error, and nothing more. The information is in the two characters beside it, which name the part or circuit at fault. FF is the freezer fan, CF the condenser fan, IF the ice compartment fan, CL and CH the low and high sides of the sealed system. Older panels write the same codes with an Er prefix instead, such as Er FF." },
+    { "q": "My LG refrigerator is not cooling but shows no error code. What now?", "a": "Check for OF F or OFF on the display first, because that is demo mode and cooling is switched off deliberately. If not, confirm the appliance has power and is not simply in a long defrost cycle, then look at the condenser coils and the condenser fan. Some models only show a stored code when you call it up with a button combination rather than displaying it automatically." },
+    { "q": "Which LG refrigerator codes can I fix myself?", "a": "The airflow ones, mostly. Fan codes are often just a jammed blade, and even a replacement motor is a sub-$100 part with a straightforward swap. Ice maker codes usually come down to finding a drip or an air leak. Sensor codes are cheap parts in awkward places. The sealed-system codes, CL E and CH E, have no DIY version at all." },
+    { "q": "How do I get my LG refrigerator to show its error code?", "a": "On many models the code appears on its own on the dispenser or interior panel. Where it does not, a button combination calls up the stored code, commonly the freezer temperature and express freeze buttons held together for a few seconds. The combination varies by generation, so check your manual. ThinQ models can also report the fault through LG's app." },
+    { "q": "Does a code mean my refrigerator is ruined?", "a": "Usually not. The most common LG refrigerator codes are fan and airflow faults, which are among the cheapest repairs on the appliance and often cost nothing but an afternoon. Only the sealed-system codes carry a serious bill, and even those are frequently covered by compressor warranty terms that run longer than owners assume." },
+    { "q": "Is the LG compressor warranty really longer than one year?", "a": "On many LG refrigerators, yes, and substantially so. Models with linear and inverter compressors have carried compressor and sealed-system coverage well beyond the standard whole-appliance warranty, with parts and labor sometimes treated differently. The exact terms depend on your market and when the unit was sold, so take the model and serial off the sticker inside the fresh food compartment and ask LG directly." },
+    { "q": "Will unplugging the refrigerator clear the code permanently?", "a": "Only if there was nothing wrong. Unplugging for five minutes clears the stored fault from the display, and if the cause was a power cut or a one-off stall, it stays gone. If the cause is still there, the code returns on the next cooling cycle. Use the reset as a diagnostic test rather than treating it as a repair." },
+    { "q": "Why do the same codes appear written in different orders?", "a": "Because LG changed the display convention over the years and across markets. Er FF, E FF and FF E are all the freezer fan. The one place order genuinely matters is telling CL and CH apart, since those are the low and high sides of the sealed system and point at opposite ends of the appliance, so read those two characters carefully." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How to read an LG refrigerator code and what to check first",
+    "labels": {
+      "display": "__ E",
+      "c1": "Read the two characters and order",
+      "c2": "Is it still cooling? Check first",
+      "c3": "OF F means demo mode, not a fault",
+      "c4": "Reset, then watch for a week"
+    }
+  },
+  "sources": [
+    { "title": "LG refrigerator digital and analog error codes", "publisher": "LG support help library", "url": null },
+    { "title": "LG refrigerator error code list and demo mode instructions", "publisher": "LG support help library", "url": null },
+    { "title": "Refrigerator CL E and CH E sealed-system error code guidance", "publisher": "LG support help library", "url": null },
+    { "title": "Field experience of common LG refrigerator failures and diagnosis", "publisher": "Appliantology and r/appliancerepair technician forums", "url": null },
+    { "title": "Model-specific tech sheet supplied inside the appliance", "publisher": "LG service literature", "url": null }
+  ],
+  "related_codes": ["FF E", "CF E", "IF E", "CL E", "CH E", "rF E"]
+}
