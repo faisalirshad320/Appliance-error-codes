@@ -1,0 +1,130 @@
+{
+  "title": "Kenmore Oven Error Codes: Who Actually Built Yours",
+  "meta_description": "Kenmore does not build ovens. The model number prefix names the real manufacturer, and that is whose code list your display is speaking.",
+  "h1": "Kenmore oven error codes: find who built it, then read the code",
+  "answer": "Kenmore has never built an oven. Sears sold ranges and wall ovens made by other manufacturers under the Kenmore badge, so the code on your display belongs to whichever company actually built the appliance, not to Kenmore. The model number prefix is what tells you: a Kenmore range whose model starts 790 is built by Frigidaire, which is why those show Frigidaire F-codes like F11, F31 and F050. Range prefixes are documented less consistently than washer ones, so if yours is not 790, the reliable move is to search the full model number on a parts site and see whose parts and service sheet come back.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "15 minutes to identify the builder, then as the real code requires",
+  "cost_estimate": { "diy": "$0 to $250", "technician": "$170 to $480" },
+  "safety_warning": "The rear of an electric range carries 240 volts at the terminal block whether or not the oven is switched on at the panel, and the control boards behind the fascia are live. Switch off the double breaker before any panel comes off and confirm the oven is dead before putting your hands in. On a gas range the burners, gas valve and igniter circuit are licensed trade work. Never defeat a door lock switch or a thermal cut-out to make an oven run.",
+  "causes": [
+    {
+      "cause": "Control and keypad faults, usually shown as F1x on a Frigidaire-built range",
+      "frequency": "most cases",
+      "confirm": "The oven cancels what it was doing, the display misbehaves, or a code appears at power-up before anything mechanical has happened. On a 790 range this is the F1x group, with F11 a keypad key read as stuck down and F16 the control and display boards losing communication."
+    },
+    {
+      "cause": "Oven temperature probe faults, usually F3x on a Frigidaire-built range",
+      "frequency": "most cases",
+      "confirm": "The oven will not heat, or heats then stops, and the code appears during preheat rather than at power-up. The probe is a thin stainless rod through the back wall of the cavity and it is the cheapest real repair on any oven, whoever built it."
+    },
+    {
+      "cause": "Door latch and self-clean faults",
+      "frequency": "common",
+      "confirm": "The code appears when self-clean is selected, or the lock motor runs when it should not. On a 790 range that is the F9x group plus F050. Whatever the badge, do not run self-clean while a latch code is present, because that cycle depends on the oven knowing its door is locked."
+    },
+    {
+      "cause": "Runaway temperature, where the oven overshot and shut itself down",
+      "frequency": "common",
+      "confirm": "The oven got far hotter than it was set to before the code appeared, often with a smell of burning. On a Frigidaire-built range this is F10. This is the one group to stop using the oven over rather than resetting and carrying on, whichever manufacturer made it."
+    },
+    {
+      "cause": "A code that belongs to a different manufacturer's system entirely",
+      "frequency": "occasional",
+      "confirm": "The code does not fit the F-plus-number pattern at all, or an F-code chart for Frigidaire gives a meaning that makes no sense for what your oven is doing. That means your range was not built by Frigidaire, and you need the right manufacturer's chart rather than a better reading of the wrong one."
+    },
+    {
+      "cause": "No code at all, because the oven predates electronic controls",
+      "frequency": "occasional",
+      "confirm": "An older Kenmore range with mechanical dials, a clockwork timer and no digital display has no fault codes to show. If something is wrong with one of those it shows up as behavior rather than a code, and the diagnosis is the thermostat, the element or the igniter rather than anything on a screen."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the model number and read the prefix",
+      "detail": "On a freestanding range the model tag is usually on the frame behind the door, visible with the door open, or on the back of the console. On a wall oven it is commonly on the side of the frame, visible when the door is open. The number reads like 790.xxxxxxxxx. Only the digits before the dot matter at this stage.",
+      "minutes": 8,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Translate the prefix into a manufacturer",
+      "detail": "A prefix of 790 means Frigidaire, which covers a large share of Kenmore ranges and wall ovens and means the Frigidaire F-code pages on this site apply to you directly. Range prefixes are documented less consistently than washer ones, so if yours is something else, do not guess from a washer prefix chart because the numbering does not carry across appliance types.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "If the prefix is not 790, look the full model up on a parts site",
+      "detail": "Type the complete model number, dot and all, into a major appliance parts retailer's search. Look at the brand shown on the parts that come back, particularly the control board and the oven sensor. Whoever's parts fit your oven is who built it, and that is whose fault code chart you want. This works for any prefix, documented or not.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Write the code down exactly as the display shows it",
+      "detail": "Note the character count and whether there is a leading zero, because F050 and F50 are the same code on panels with different numbers of character zones, and searching for only one will miss half the useful material. Photograph the display if the code flashes or alternates with the time.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note when in the cycle the code appeared",
+      "detail": "At power-up with nothing asked of the oven points at the control group. During preheat points at the temperature probe. When self-clean was selected points at the door latch. After the oven ran very hot points at wiring that opens as it expands. This narrows things faster than the code number on any manufacturer's system.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power at the double breaker for five minutes",
+      "detail": "Switch the range off at the breaker in the consumer panel, not at the oven's own controls, and leave it a full five minutes so the boards discharge and restart together. Turning the oven off at the panel leaves the control powered and resets nothing. This clears a real share of control-group codes on every manufacturer's ovens.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Use the breaker. The oven control stays live when the oven is off at the panel."
+    },
+    {
+      "name": "Find the service data sheet inside the range",
+      "detail": "Manufacturers tuck a service data sheet inside the appliance, commonly behind the bottom storage drawer or behind the rear panel. It carries the code list for your exact model, which settles arguments no general chart can, and it will also confirm the builder, since it carries their name rather than the Kenmore badge.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the prefix is not 790 and you cannot establish who built the oven, do not fall back on a Kenmore washer prefix chart: the numbering does not carry across appliance types and a prefix that means one manufacturer on a washer means nothing on a range. Three approaches work instead. First, the parts lookup, which is the most reliable: put the full model number into a major parts retailer and look at the brand on the control board and the oven sensor that come back. Those two parts are manufacturer-specific and they will not be ambiguous. Second, the service data sheet inside the range itself, usually behind the bottom storage drawer or the rear panel. It is printed by whoever built the appliance and carries their name and their code list for your exact model, which beats any general guide including this one. Third, the shape of the code itself is a hint: an F followed by two digits with a group convention behind it looks like Frigidaire, while codes built from two parts, or two-letter codes, point elsewhere. Treat that as a hint rather than proof. Once you know the builder, go to that manufacturer's chart and stop thinking about Kenmore entirely, because from that point on the badge is irrelevant to the diagnosis and to the parts you buy. One boundary that holds whoever made your oven: a latch or self-clean code means no self-clean until it is fixed, and a runaway temperature code means stop using the oven rather than resetting it and trying again. Those two are not worth working around on any brand. And if the oven has mechanical dials and no digital display, there is no code to find: the diagnosis there is the thermostat, the element or the igniter, and it is done by behavior rather than by a number.",
+  "reset_procedure": "The reset is the same whoever built the oven. Switch the range off at the double breaker in the consumer panel, leave it a full five minutes so the boards discharge and restart together, then switch it back on and watch the first thirty seconds. Turning the oven off at its own controls does not reset anything, because the control stays powered.",
+  "model_notes": "The prefix rule is the whole game, but it is less well documented for ranges and wall ovens than it is for Kenmore washers. The one that is solidly established is 790, which is Frigidaire, also sold as Electrolux, and covers a large share of Kenmore ranges and wall ovens. Other prefixes exist and this site does not list them, because the sources that cover them conflict and a wrong manufacturer sends you to the wrong code chart and the wrong parts. Do not borrow prefixes from a Kenmore washer chart, since the numbering is specific to each appliance type. Older Kenmore ranges with mechanical controls have no fault codes at all.",
+  "parts": [
+    { "name": "Oven temperature sensor probe", "cost": "$25 to $70", "difficulty": "easy", "note": "The cheapest oven repair on any badge; two screws and a plug" },
+    { "name": "Touch panel or keypad membrane", "cost": "$60 to $180", "difficulty": "moderate", "note": "Available separately on some models and bonded to the control on others" },
+    { "name": "Motorized door lock assembly", "cost": "$70 to $200", "difficulty": "hard", "note": "For latch and self-clean codes; covers the motor, cam and position switches" },
+    { "name": "Electronic oven control board", "cost": "$120 to $300", "difficulty": "hard", "note": "Order by the real manufacturer's part, not by the Kenmore badge" }
+  ],
+  "when_to_call": "Call a technician for a runaway temperature code or anything in the door latch group, because the first means the oven kept heating when it should have stopped and the second means it cannot confirm its own door is locked. Neither is worth resetting and retrying. Call for any code that survives a proper breaker reset and points at a board, since which board is at fault rarely settles from the outside. Have the full model number ready when you call, because the first thing any competent technician needs to know about a Kenmore is who actually built it, and that one piece of information changes the parts, the labor estimate and sometimes whether they will take the job at all.",
+  "faqs": [
+    { "q": "Who makes Kenmore ovens?", "a": "Several manufacturers, never Kenmore itself. Sears sold other companies' ranges and wall ovens under the badge, so the builder depends on the model. The prefix before the dot in the model number identifies it, and 790 means Frigidaire, which covers a large share of Kenmore ranges and wall ovens and explains the F-codes on those displays." },
+    { "q": "Where do I find the model number on a Kenmore range?", "a": "On a freestanding range, open the oven door and look at the frame behind it, or check the back of the console. On a wall oven it is usually on the side of the frame, visible with the door open. The number reads like 790 followed by a dot and more digits. The prefix before the dot is what identifies the builder." },
+    { "q": "My prefix is not 790. How do I find out who built it?", "a": "Put the complete model number into a major appliance parts retailer's search and look at the brand on the parts that come back, especially the control board and the oven sensor. Those are manufacturer-specific. The service data sheet inside the range, usually behind the bottom drawer, carries the builder's name too." },
+    { "q": "Can I use a Kenmore washer prefix chart for my oven?", "a": "No. The prefixes are specific to each appliance type, so a number that identifies a manufacturer on a washer means nothing on a range. Using the wrong chart sends you to the wrong fault code list and, worse, to the wrong parts. Look the full oven model number up directly rather than translating from another appliance." },
+    { "q": "Does my Kenmore oven use the same codes as a Frigidaire?", "a": "If the model number starts 790, yes, exactly the same, because Frigidaire built it. The F-code groups apply directly: F1x for the control and keypad, F3x for the temperature probe and F9x for the door latch. If the prefix is something else, you need the chart belonging to whoever actually built your oven." },
+    { "q": "Why does my Kenmore oven show a code no chart lists?", "a": "Usually because you are reading the wrong manufacturer's chart. Confirm the builder from the model number first, then use their list. Beyond that, some manufacturers do not publish descriptions for every code, so the service data sheet inside your own range is the document that settles it when the general charts come up short." },
+    { "q": "My old Kenmore range has dials and no display. Where is the code?", "a": "There is not one. Ranges with mechanical dials and a clockwork timer have no electronic control to report a fault, so problems show up as behavior instead: an oven that will not reach temperature, a burner that will not light, an element that stays cold. The diagnosis there is the thermostat, the element or the igniter." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Identify the builder first, then read the code it is actually speaking",
+    "labels": {
+      "display": "F--",
+      "c1": "Model tag on the door frame",
+      "c2": "Prefix before the dot names the builder",
+      "c3": "Service data sheet behind the bottom drawer"
+    }
+  },
+  "sources": [
+    { "title": "Kenmore range and wall oven model prefix to manufacturer listings", "publisher": "Sears PartsDirect model pages", "url": null },
+    { "title": "How to identify who made your Kenmore appliance", "publisher": "iFixit repair wiki", "url": null },
+    { "title": "Frigidaire range and wall oven fault code descriptions", "publisher": "Frigidaire service data sheet supplied with the range", "url": null },
+    { "title": "Field reports on Kenmore-badged ovens taking Frigidaire control boards", "publisher": "AppliancePartsPros community answers", "url": null }
+  ],
+  "related_codes": ["F11", "F16", "F31", "F050", "F10"]
+}

@@ -85,7 +85,21 @@ a page a technician would respect and one that just sounds confident.
 6. **A non-fault gets a short page.** Child lock, control lock, a maintenance reminder and a
    power-failure notice are not faults. Say so in the first sentence and keep the page short.
    Padding a non-fault into a fault page is worse than brevity.
-7. **Codes that look identical on the display need saying so.** On a seven-segment display a
+7. **A reassuring answer needs the observation that proves it applies.** This is the rule
+   that catches what the others miss. A wrong note gets caught because it contradicts the
+   sources. A note that is correct but unconditional contradicts nothing, so nothing flags
+   it, and it quietly fails for the subset of readers it does not fit. Frigidaire H1 really
+   is usually a door left ajar, and saying so without a gate would have failed exactly the
+   readers whose refrigerator had actually died. So put the cheap test in front of the
+   reassurance: a thermometer in a glass of water for two hours, cold and falling means it
+   is history, still warm means a live fault.
+
+   The danger is sharpest where a serious fault looks healthy from the front. A stopped
+   evaporator fan gives a cold freezer, a running compressor and a warm fresh food section:
+   everything sounds right and the food is going off. Never tell someone their appliance is
+   fine on the strength of a general truth.
+
+8. **Codes that look identical on the display need saying so.** On a seven-segment display a
    lowercase b and a 6 are nearly the same glyph, and S and 5 are the same glyph. Where two
    codes on a brand collide that way, say it plainly.
 
