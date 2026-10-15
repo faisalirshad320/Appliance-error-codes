@@ -1,6 +1,6 @@
 {
   "title": "LG Refrigerator IF E Error Code: Ice Fan Fault & Reset",
-  "meta_description": "IF E on an LG refrigerator means the ice compartment fan is not turning, usually jammed by ice.",
+  "meta_description": "IF E on an LG refrigerator means the ice compartment fan is not turning, usually jammed by ice. Not the freezer fan, and not the condenser fan.",
   "h1": "LG refrigerator IF E error code: how to reset it and fix the cause",
   "answer": "IF E means the board told the small fan that feeds the ice compartment to run and never got the speed signal back from it. That fan is not the one in the freezer and not the one at the base by the compressor: it is a separate motor whose only job is pushing cold air into the ice maker housing. Nine times out of ten the blade is jammed by ice that has built up around it, usually after a slow leak from the fill tube or a door that has been sitting ajar. Unplug the refrigerator for five minutes to reset the code, then take the ice bin out and look at the fan, because the reset will not hold if the ice is still there.",
   "severity": "moderate",

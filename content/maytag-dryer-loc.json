@@ -1,0 +1,136 @@
+{
+  "title": "Maytag Dryer LOC Code: Control Lock On, Not a Fault",
+  "meta_description": "LOC on a Maytag dryer means the control lock is on and the buttons are disabled.",
+  "h1": "Maytag dryer LOC: it means control lock, not a breakdown",
+  "answer": "LOC on a Maytag dryer is not an error code. It means Control Lock is switched on, which disables the buttons so a cycle cannot be started or changed. Hold the button carrying the small padlock icon for about three seconds and LOC clears. On most Maytag dryers that button is marked Control Lock or shares a key with Wrinkle Control or Drum Light, so look along the panel for the padlock symbol rather than guessing.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "1 to 5 minutes",
+  "cost_estimate": {
+    "diy": "$0",
+    "technician": "$130 to $280 only if the control panel has genuinely failed"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Control Lock was switched on, usually by accident",
+      "frequency": "most cases",
+      "confirm": "LOC shows in the display and no button except Power does anything. Everything else is normal: the door works, the drum light comes on, and the dryer behaves perfectly once the lock is released. Wiping the panel with a cloth is enough to hold a button long enough to set it."
+    },
+    {
+      "cause": "You are pressing the wrong button, or not holding it long enough",
+      "frequency": "most cases",
+      "confirm": "You have tried what you think is the lock button and nothing happened. Look again with a flashlight for a tiny padlock printed below a key rather than on it. Short taps do nothing by design, so hold for a full three seconds and count rather than estimating."
+    },
+    {
+      "cause": "The lock survived a power cut, as it is meant to",
+      "frequency": "common",
+      "confirm": "You unplugged the dryer or flipped the breaker and LOC was still there when power came back. That is deliberate. If a power cycle released the lock, a child could defeat it by switching the machine off and on, so Maytag stores the setting."
+    },
+    {
+      "cause": "A stuck button or a failed user interface board",
+      "frequency": "rare",
+      "confirm": "You are certain you have the right button, you have held it for five seconds, and nothing on the panel responds at all, including after a five minute power cut. A key that feels mushy or stays depressed, or a dead patch on the touch panel, points at the interface board rather than the lock setting."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Find the padlock symbol on the panel",
+      "detail": "Scan the whole console with a flashlight, not just the obvious buttons. On Maytag dryers the control lock is often a secondary function printed as a small padlock directly under or beside a key, commonly Wrinkle Control, Drum Light or End of Cycle Signal. Some panels have a key labelled Control Lock outright. The icon is usually smaller than you expect.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Hold that button for three full seconds",
+      "detail": "With the dryer powered on, press and hold and count to three out loud instead of guessing. You should hear a beep and see LOC disappear. Quick presses do nothing at all, which is the entire point of the feature and the reason most people decide the button is broken when it is working exactly as designed.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the manual for your exact model",
+      "detail": "Which button carries the lock genuinely moves around between Maytag dryer series, so thirty seconds with the manual beats pressing everything in turn. The model number is on a sticker around the rim inside the door opening. Search Maytag support for that number and look up Control Lock in the control panel section of the owner's guide.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Cut power for five minutes if the panel is unresponsive",
+      "detail": "Switch the dryer off at its breaker or unplug it, leave it five minutes, then restore power and try the hold again. This will not turn the lock off by itself, because the setting survives a power cut deliberately, but it does clear a frozen control that is simply not registering presses. If the hold now works, you had a hung panel rather than a hardware fault.",
+      "minutes": 7,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If LOC will not clear, first find out whether the panel is responding at all, because that splits the problem cleanly in two and costs nothing. With the dryer on, press any other key, a cycle selector or a temperature button, and watch the display. If other buttons work and only the lock will not release, you are on the wrong key: go back with a flashlight, look for the padlock icon printed between or beneath keys, and hold each candidate for a full five seconds rather than three. If nothing on the panel responds, cut power at the breaker for five minutes and try once more, since a hung user interface board is common and a proper power cut often brings it back when a quick off-and-on will not. If the panel is still dead after that, the fault is the user interface board or a cracked ribbon connection behind it rather than the lock setting, and that is the point where the job stops being free: roughly $90 to $200 for the part, or $200 to $350 fitted. Before spending anything, check that the display really says LOC and not a code that resembles it on your panel's font, because an F-series fault code will not respond to any button hold.",
+  "reset_procedure": "A power reset does not clear the control lock. Maytag keeps the setting through a power cut so that switching the dryer off cannot defeat it, which is the whole point of a child lock. Hold the button carrying the padlock icon for about three seconds instead. A five minute power cut at the breaker is still worth doing if the entire panel has stopped responding, because it clears a frozen control, but it will not release the lock on its own.",
+  "model_notes": "Which key carries the control lock varies more across Maytag dryer series than almost anything else on the panel. Some models have a key labelled Control Lock, others print a small padlock under Wrinkle Control, Drum Light or the signal button, and a few need two adjacent keys held together. The display also varies: LOC, L0C with a zero, a plain padlock icon, or the word Loc. Maytag washers use the same feature and the same wording, so on a stacked laundry pair check which unit is actually showing it. The behavior is identical everywhere: the panel is disabled and the setting survives a power cut.",
+  "parts": [
+    {
+      "name": "User interface control board",
+      "cost": "$90 to $200",
+      "difficulty": "technician only",
+      "note": "Only if the entire panel is dead after a five minute power cut"
+    }
+  ],
+  "when_to_call": "There is almost never a reason to call anyone for LOC. The one exception is a console where no button does anything at all after a full five minute power cut at the breaker, which points at the user interface board rather than the lock setting. Get a quote before agreeing to that repair, because with the part and labor it usually lands between $200 and $350, which is worth weighing against the age of the dryer. If the machine is showing a genuine fault code alongside the lock, deal with that first; it is the real problem and LOC is only a setting.",
+  "faqs": [
+    {
+      "q": "Is LOC an error code on a Maytag dryer?",
+      "a": "No. LOC means Control Lock is switched on, which disables the panel buttons so the cycle cannot be started or changed. Nothing is broken and no part is needed. Hold the button with the small padlock icon for about three seconds to release it. A cycle already running will finish normally while the lock is on."
+    },
+    {
+      "q": "Which button turns off the control lock on a Maytag dryer?",
+      "a": "Look for a small padlock symbol printed on or just under a key. Some Maytag dryers have a key labelled Control Lock; on others the padlock sits under Wrinkle Control, Drum Light or the end-of-cycle signal button. Hold it for a full three seconds and listen for the beep. Your manual names the exact key for your model."
+    },
+    {
+      "q": "Why does LOC stay on after I unplug the dryer?",
+      "a": "By design. Maytag stores the control lock setting through a power cut, so switching the dryer off at the wall or the breaker will not clear it. If a power cycle released it, a child could defeat the feature just by turning the machine off and on. The only way out is the button hold on the panel."
+    },
+    {
+      "q": "Why did LOC come on by itself?",
+      "a": "Something held the lock key down long enough to register. Wiping the console with a cloth is the usual culprit, followed by a child, a pet, or a stacked washer vibrating against the panel. There is no fault condition that switches control lock on, so it is worth a quiet word with whoever did the last clean."
+    },
+    {
+      "q": "What if holding the button does nothing at all?",
+      "a": "Check whether any other button on the panel responds. If they do, you are holding the wrong key, so look again for the padlock icon and try five seconds. If nothing responds anywhere, cut power at the breaker for five minutes and retry. A panel that is still dead after that has a failed user interface board, not a lock problem."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "LOC is a setting on the console, not a fault inside the dryer.",
+    "labels": {
+      "display": "LOC",
+      "c1": "Find the small padlock icon",
+      "c2": "Hold that key three full seconds",
+      "c3": "Check the manual for your model",
+      "c4": "Power cut only frees a hung panel"
+    }
+  },
+  "sources": [
+    {
+      "title": "Using the control lock feature on Maytag laundry appliances",
+      "publisher": "Maytag product help documentation",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer use and care guide, control panel and control lock section",
+      "publisher": "Maytag owner's manual supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Field reports on which key carries control lock across Maytag dryer series",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "AF",
+    "PF",
+    "F01",
+    "F2E1",
+    "F3E3",
+    "F3E2"
+  ]
+}

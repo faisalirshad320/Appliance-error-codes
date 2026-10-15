@@ -1,0 +1,118 @@
+{
+  "title": "Whirlpool Dryer F2 E1 Code: Stuck Button Fix",
+  "meta_description": "F2 E1 on a Whirlpool dryer means the control sees a button held down. Press every key in turn, clean the panel, and the code usually clears for free.",
+  "h1": "Whirlpool dryer F2 E1 error code: a stuck key on the control panel",
+  "answer": "F2 E1 means the control has seen a button held down for longer than it should ever be pressed, so it stops and reports a stuck key. In Whirlpool's two-part code system the F is the function that failed and the E is the specific fault: F2 is the user interface, E1 is a key stuck closed. The usual cause is physical, not electronic, and the usual fix is free. Press every button on the panel firmly one at a time to free whichever one has stuck, then wipe the panel dry and restart.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "5 to 30 minutes",
+  "cost_estimate": { "diy": "$0, or $90 to $220 if the console board is needed", "technician": "$180 to $380" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A button is physically stuck down or sticky",
+      "frequency": "most cases",
+      "confirm": "Run a finger across the panel. One key sits lower than its neighbors, feels tacky, or does not click back up when you press and release it. Detergent, fabric softener and sticky hands over a few years are enough to glue a membrane key down."
+    },
+    {
+      "cause": "Liquid or cleaner has got behind the membrane panel",
+      "frequency": "common",
+      "confirm": "Someone recently sprayed cleaner directly on the console, or a laundry bottle leaked onto the top. Spray on a panel wicks under the edge of the membrane and shorts a key permanently closed. The code usually appears hours or a day later, which disguises the cause."
+    },
+    {
+      "cause": "Something is resting against the panel",
+      "frequency": "common",
+      "confirm": "A laundry basket, a detergent bottle or a stack of folded towels leaning on the console, or on a stacked unit, something wedged between the dryer console and a shelf above. The dryer reads steady pressure on a key as a stuck key, correctly."
+    },
+    {
+      "cause": "The user interface board or its membrane has failed",
+      "frequency": "occasional",
+      "confirm": "You have pressed every key, cleaned the panel and done a full power-down, and F2 E1 comes back within seconds every time. If one specific button also no longer works in normal use, that narrows it to the console assembly."
+    },
+    {
+      "cause": "Moisture inside the console from a damp room",
+      "frequency": "rare",
+      "confirm": "A dryer in a basement, garage or unheated porch with condensation visible on the panel in the morning. Damp inside the console bridges the key contacts in exactly the same way a stuck button does, and the code often comes and goes with the weather."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press every button on the panel once",
+      "detail": "Go along the console pressing each key firmly and releasing it, including the cycle selector, the modifiers and the power button. You are trying to pop whichever one has stuck down back up. Pay attention to how each feels: the stuck one is usually tacky, mushy or silent where the rest click. This single step clears a good share of F2 E1 codes.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check nothing is leaning on the console",
+      "detail": "Move the laundry basket, the detergent bottles and anything stacked on or against the dryer. On a stacked laundry center, look for something wedged between the dryer controls and a shelf or cabinet above. Steady pressure on a key for several minutes looks exactly like a stuck key to the control, because that is what it is.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the panel properly",
+      "detail": "Unplug the dryer or switch off its breaker. Dampen a microfiber cloth with warm water and a drop of dish soap, wring it out so it is barely moist, and wipe the whole console including around the edges of each key. Never spray cleaner at the panel; spray the cloth instead. Dry it thoroughly with a second cloth and leave it an hour before restoring power.",
+      "minutes": 15,
+      "tools": "Two microfiber cloths, dish soap",
+      "warning": "Liquid sprayed directly at the console is how most of these faults start. Spray the cloth, not the dryer."
+    },
+    {
+      "name": "Power down and restart",
+      "detail": "Switch the dryer's breaker off for five minutes, or leave it unplugged, so the control fully discharges and drops the stored fault. Restore power and wait ten seconds before touching anything; pressing keys during the control's power-up delay can set other codes. Then run a timed dry so you find out in two minutes whether the code is gone.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Dry out a damp console",
+      "detail": "If the dryer lives somewhere cold and damp and the panel is condensing, leave the machine unplugged with the room warm and a fan pointed at the console for a few hours. That is a diagnosis as much as a fix: if F2 E1 clears after drying and comes back the next cold morning, you know the problem is moisture in the console rather than a dead board.",
+      "minutes": 30,
+      "tools": "Fan",
+      "warning": null
+    },
+    {
+      "name": "Identify the failed key before buying anything",
+      "detail": "With the code cleared, work through the whole panel using each button in normal use. A key that needs a hard press, has to be hit off-center, or does nothing at all tells you the console assembly is failing and lets you order the right part with confidence. If every button works properly and the code never returns, you are done and it cost nothing.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If F2 E1 returns within seconds after you have pressed every key, cleaned the panel and done a five minute power-down, the fault is inside the console rather than on its surface, and the order of work changes. First, rule out moisture properly: unplug the dryer and leave it somewhere warm and dry for a full day with a fan on the console, then try again. Damp in the console mimics a stuck key exactly, and this costs nothing but patience. Second, with the breaker off, open the console and look at the back of the membrane panel and the ribbon tail where it enters the user interface board. Water staining, a white crusty deposit, or a ribbon that has lifted at the connector are all visible answers. Reseat the ribbon connector carefully; it is a friction fit and a slightly withdrawn tail produces a permanent phantom key press. Third, if the console is clean and dry and the code persists, the user interface assembly has failed and that is the part to order, typically $90 to $220 depending on model. On most Whirlpool dryers it comes out with the console: a few screws along the top rear edge, the panel tips forward, the ribbon unplugs, the new assembly goes in the same way. Allow an hour, photograph everything first. Fourth, do not jump to the main control board. F2 is the user interface function by definition, so a main control is the wrong part for this code unless a technician has specifically traced it there. Where the cost jumps is a technician visit, roughly $180 to $380 fitted, which on a dryer over eight years old is worth weighing against about $550 to $900 for a new machine. One last check before you spend anything: if the dryer is in a garage or basement and the code appears on cold mornings and clears by afternoon, you have a condensation problem rather than a component failure, and a small dehumidifier is a cheaper answer than a console.",
+  "reset_procedure": "Press every button on the panel once to free a stuck key, then switch the dryer's breaker off for five minutes, or unplug it, so the control discharges and drops the stored fault. Restore power and wait ten seconds before selecting anything. Test with a timed dry cycle rather than an automatic one so the answer arrives in two minutes.",
+  "model_notes": "F2 E1 belongs to Whirlpool's two-part code system, used on dryers from roughly the 2012 generation onward and shared with Maytag, Amana and KitchenAid machines built on the same controls. The same fault family appears as a plain F2 on older Cabrio-era dryers, where it also means the user interface. A companion code, F2 E2, means the user interface has become disconnected from the main control rather than a key being stuck. On models with a touch-sensitive rather than membrane panel, the same code can be triggered by a cracked panel or by moisture under the glass instead of a physically depressed button.",
+  "parts": [
+    { "name": "User interface or console assembly", "cost": "$90 to $220", "difficulty": "moderate", "note": "Includes the keypad membrane on most models; order by exact model number" },
+    { "name": "Keypad or membrane switch panel", "cost": "$45 to $130", "difficulty": "moderate", "note": "Available separately on some models, which is the cheaper route if yours is one of them" },
+    { "name": "Console ribbon cable", "cost": "$15 to $40", "difficulty": "moderate", "note": "Only if the tail is torn or the contacts are corroded; reseating is usually enough" }
+  ],
+  "when_to_call": "Call a technician if F2 E1 returns immediately after you have cleaned, dried and reset the machine and reseated the ribbon, because at that point the console assembly needs replacing and it is worth confirming before buying a part. Call sooner if the panel is cracked or has had liquid poured into it, since a damaged panel will not be fixed by cleaning. And if the quote comes in near $350 on a dryer over eight years old, price a new machine at the same time before agreeing to the work.",
+  "faqs": [
+    { "q": "What does F2 E1 mean on a Whirlpool dryer?", "a": "A stuck key. The control has seen a button held down longer than any genuine press and has stopped the cycle. In Whirlpool's two-part system F2 identifies the user interface and E1 identifies the stuck key fault. The cause is usually physical, a sticky or depressed button, rather than an electronic failure." },
+    { "q": "How do I fix a stuck key error without paying anyone?", "a": "Press every button on the panel firmly once, which pops a stuck key back up. Move anything leaning against the console. Then wipe the panel with a barely damp cloth, never a sprayed cleaner, dry it fully, and power the dryer down at the breaker for five minutes. That sequence clears most F2 E1 codes at no cost." },
+    { "q": "Why did F2 E1 appear after I cleaned the dryer?", "a": "Because cleaner sprayed at the console wicks under the edge of the membrane panel and shorts a key closed. The code often appears hours later, which hides the connection. Unplug the dryer, let the console dry out somewhere warm for a day with a fan on it, and try again before assuming the panel is ruined." },
+    { "q": "Can I still use the dryer with F2 E1 showing?", "a": "No. The control stops the cycle because it cannot tell a genuine button press from the stuck one, and running on would mean obeying a command nobody gave. There is no hazard in leaving the dryer sitting there, but it will not start a cycle until the stuck key is released or the console is replaced." },
+    { "q": "Is F2 E1 the same as the old F2 code?", "a": "Same family. Older Cabrio-era dryers show a plain F2 for user interface faults, and the two-part system splits it so F2 names the interface and E1 names the stuck key specifically. A related code, F2 E2, means the user interface has lost its connection to the main control rather than a key being held down." },
+    { "q": "Do I need a new control board for F2 E1?", "a": "If anything, you need the console or user interface assembly, not the main control board. F2 is the user interface function by definition, so a main board is the wrong part for this code unless a technician has specifically traced it there. The console assembly runs $90 to $220 and is a realistic DIY swap." },
+    { "q": "Why does F2 E1 come and go with the weather?", "a": "Condensation. A dryer in a cold garage or basement collects moisture on and inside the console overnight, and damp across the key contacts looks identical to a stuck button. If the code appears on cold mornings and clears by afternoon, a small dehumidifier in the room is a cheaper fix than any part." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "Where F2 E1 comes from: the console, not the machine",
+    "labels": {
+      "display": "F2 E1",
+      "c1": "Press every key to free it",
+      "c2": "Nothing leaning on the panel",
+      "c3": "Wipe panel with a damp cloth only",
+      "c4": "Reseat the console ribbon"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing, F and E two-part code reference", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool dryer technical sheet, user interface fault codes", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "Whirlpool dryer error code guide, F2 E1 stuck key", "publisher": "HomeServe appliance troubleshooting guide", "url": null },
+    { "title": "Field reports on stuck key codes after console cleaning", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F2 E2", "F6 E1", "F70", "F1 E1", "F01"]
+}
