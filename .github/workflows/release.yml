@@ -54,6 +54,7 @@ jobs:
           rsync -a --delete --exclude='.git' dist/ deploy-wc/
 
       - name: Commit and push, but only when the output actually changed
+        id: publish
         working-directory: deploy-wc
         run: |
           git config user.name  "github-actions[bot]"
@@ -61,6 +62,7 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "No change in the built site. Nothing to publish today."
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           PAGES=$(find . -name index.html -not -path './.git/*' | wc -l)
@@ -68,3 +70,43 @@ jobs:
                         -m "Built from ${GITHUB_SHA::8}."
           git push origin deploy
           echo "Published ${PAGES} pages."
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      # Cloudways does not watch the branch. Updating `deploy` puts the new build on
+      # GitHub; this is what gets it onto the server. Without it a wave lands in the
+      # repository and never reaches the live site until someone clicks Pull/Deploy.
+      #
+      # Skipped cleanly when the secrets are absent, so the release itself never fails
+      # over a hosting credential.
+      - name: Tell Cloudways to pull the new build
+        if: steps.publish.outputs.published == 'true'
+        env:
+          CW_EMAIL:  ${{ secrets.CLOUDWAYS_EMAIL }}
+          CW_KEY:    ${{ secrets.CLOUDWAYS_API_KEY }}
+          CW_SERVER: ${{ vars.CLOUDWAYS_SERVER_ID }}
+          CW_APP:    ${{ vars.CLOUDWAYS_APP_ID }}
+        run: |
+          if [ -z "$CW_EMAIL" ] || [ -z "$CW_KEY" ]; then
+            echo "::notice::CLOUDWAYS_EMAIL / CLOUDWAYS_API_KEY not set — skipping the pull."
+            echo "The deploy branch is updated. Until the secrets exist, the server picks"
+            echo "it up only when you click Pull/Deploy in the Cloudways panel."
+            exit 0
+          fi
+          : "${CW_SERVER:=1680067}"   # from phpstack-1680067-6730149.cloudwaysapps.com
+          : "${CW_APP:=6730149}"
+
+          TOKEN=$(curl -sS --fail-with-body -X POST \
+            https://api.cloudways.com/api/v1/oauth/access_token \
+            -d "email=${CW_EMAIL}" -d "api_key=${CW_KEY}" \
+            | python3 -c 'import sys,json; print(json.load(sys.stdin)["access_token"])')
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Could not get a Cloudways access token."; exit 1
+          fi
+
+          # deploy_path empty => public_html itself, matching the branch-root layout.
+          RESP=$(curl -sS --fail-with-body -X POST \
+            https://api.cloudways.com/api/v1/git/pull \
+            -H "Authorization: Bearer ${TOKEN}" \
+            -d "server_id=${CW_SERVER}" -d "app_id=${CW_APP}" \
+            -d "branch_name=deploy" -d "deploy_path=")
+          echo "Cloudways responded: ${RESP}"

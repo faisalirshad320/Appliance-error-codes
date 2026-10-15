@@ -22,21 +22,49 @@ exactly the shape Cloudways' git deployment expects. You connect once, and after
 site updates itself: a daily workflow releases each wave of pages on its scheduled day
 (see `RELEASE.md`). You do not need to push, and your machine does not need to be on.
 
-1. In the Cloudways panel open the application, then **Deployment via Git**.
-2. Click **Generate SSH Keys** if you have not already, and copy the public key.
-3. In GitHub go to `faisalirshad320/Appliance-error-codes` → **Settings → Deploy keys →
-   Add deploy key**. Paste the key, name it `cloudways`, and leave write access off.
-4. Back in Cloudways, set:
-   - **Git Remote Address**: `git@github.com:faisalirshad320/Appliance-error-codes.git`
-   - **Branch**: `deploy`
-   - **Deployment Path**: leave empty, so it deploys to `public_html` itself
-5. Click **Start Deployment**.
-6. For later updates, use **Pull/Deploy** in the same screen, or set up the auto-deploy
-   webhook Cloudways offers on that page.
+### 1. Point Cloudways at the repository
 
-To publish on demand at any point, run the workflow manually from the **Actions** tab
-(`Release due pages` → **Run workflow**). It will never publish a wave early — it only
-ever ships what the schedule says is due.
+Cloudways' git deployment needs SSH, even though this repository is public. There is no
+HTTPS shortcut.
+
+1. Application → **Deployment via Git**.
+2. Click **Generate SSH Keys** if you have not already, then copy the public key.
+3. In GitHub: `faisalirshad320/Appliance-error-codes` → **Settings → Deploy keys →
+   Add deploy key**. Paste it, name it `cloudways`, and leave **write access off**.
+4. Back in Cloudways:
+   - **Git Remote Address**: `git@github.com:faisalirshad320/Appliance-error-codes.git`
+   - Click **Authenticate**, which fetches the branch list
+   - **Branch**: `deploy`
+   - **Deployment Path**: **leave empty**
+5. **Start Deployment**.
+
+If pages 404 after this, the deployment path is one directory too deep. The document root
+must contain `index.html` directly, not a `dist` folder.
+
+### 2. Make it pull by itself
+
+**This step is not optional if you want the drip to work.** Cloudways does not watch the
+branch. Without it, each wave lands on `deploy` and sits there until someone clicks
+**Pull/Deploy** by hand — which defeats the whole schedule.
+
+`.github/workflows/release.yml` already calls the Cloudways API after every successful
+publish. It needs two secrets:
+
+1. Cloudways → your account menu → **API Key**. Copy the key and the account email.
+2. GitHub → repository **Settings → Secrets and variables → Actions → New repository
+   secret**, twice:
+   - `CLOUDWAYS_EMAIL` — your Cloudways account email
+   - `CLOUDWAYS_API_KEY` — the key from step 1
+
+The server and application IDs default to `1680067` and `6730149`, read from the
+application URL `phpstack-1680067-6730149.cloudwaysapps.com`. If yours differ, set
+repository **variables** `CLOUDWAYS_SERVER_ID` and `CLOUDWAYS_APP_ID` in the same screen.
+
+Until those secrets exist the workflow still publishes to `deploy` and simply logs that it
+skipped the pull, so nothing breaks — the site just will not update on its own.
+
+To check it works: **Actions → Release due pages → Run workflow**. The log ends with
+either the Cloudways response or the "secrets not set" notice.
 
 ## The deploy branch holds only what is released
 
