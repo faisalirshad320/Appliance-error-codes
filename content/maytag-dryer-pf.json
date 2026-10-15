@@ -1,0 +1,193 @@
+{
+  "title": "Maytag Dryer PF Code: Power Failure, and What to Check",
+  "meta_description": "PF on a Maytag dryer means power was interrupted mid-cycle. Press Start to resume, and here is what to check if it keeps happening.",
+  "h1": "Maytag dryer PF code: power failure mid-cycle, and what it is telling you",
+  "answer": "PF means your Maytag dryer lost electrical power part way through a cycle and noticed when power came back. It is a record of what happened, not a broken component. Press Start to pick the cycle up where it stopped, or press Power to cancel and clear the display. A one-off PF after a storm or a tripped breaker needs nothing else; a PF that appears several times a week is telling you something in the supply is intermittent, and that is worth finding.",
+  "severity": "minor",
+  "can_diy": "usually",
+  "time_estimate": "2 minutes for a one-off, 30 to 60 minutes to chase a repeat",
+  "cost_estimate": {
+    "diy": "$0 to $40",
+    "technician": "$130 to $300, or an electrician at $150 to $400 for supply work"
+  },
+  "safety_warning": "The parts of this job past the plug involve 240 volt wiring. Unplug the dryer at the wall or switch off both halves of its breaker before you remove the terminal block cover at the back of the machine, and check with a non-contact tester that it is dead before you touch anything. If the outlet itself is scorched, loose in the wall or warm to the touch, stop and call an electrician rather than a dryer technician, because that is a wiring fault and it is the kind that starts fires.",
+  "causes": [
+    {
+      "cause": "A genuine power cut or a momentary dip in the supply",
+      "frequency": "most cases",
+      "confirm": "Clocks elsewhere in the house are flashing, or the outage lined up with a storm, a utility fault or someone switching a big load on. PF shows once, Start resumes the cycle, and it does not come back. Nothing is wrong with the dryer."
+    },
+    {
+      "cause": "A tripped or failing breaker, or one leg of the double breaker dropping out",
+      "frequency": "common",
+      "confirm": "Look at the dryer breaker in the panel. A tripped double breaker often sits slightly off centre rather than fully down. If the drum turns but there is no heat, one leg has gone while the other is still live, which is the classic half-tripped breaker symptom and will also throw PF when it finally lets go."
+    },
+    {
+      "cause": "A loose or burnt connection at the terminal block behind the dryer",
+      "frequency": "common",
+      "confirm": "Unplug the dryer and take the small cover off the lower back panel. A screw that turns a quarter turn before it bites, a wire that lifts out, or brown and black discoloration around a terminal all mean you have found it. Heat marks and a faint burnt smell are the giveaway."
+    },
+    {
+      "cause": "A worn outlet or a damaged power cord",
+      "frequency": "occasional",
+      "confirm": "Wiggle the plug gently in the outlet with the dryer running and see whether it cuts out. A plug that feels slack, a receptacle that has lost its grip, or a cord with a flattened or cracked section near the strain relief will all drop the supply intermittently. A warm or discolored plug face confirms it."
+    },
+    {
+      "cause": "Someone opened the door or hit Pause and the cycle sat too long",
+      "frequency": "occasional",
+      "confirm": "PF appeared with no outage anywhere else in the house, and the dryer had been paused or left with the door open for a long stretch. Some models log a power event when the control drops out of a paused state. Restarting cleanly and watching for a repeat sorts this one out."
+    },
+    {
+      "cause": "A failing main control board or a chafed internal harness",
+      "frequency": "rare",
+      "confirm": "PF appears repeatedly on a dryer whose breaker, outlet, cord and terminal block have all been checked and are sound, and no other appliance in the house is affected. At that point the dryer is losing its own supply internally, and that is a service call."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Press Start to resume, or Power to clear",
+      "detail": "A single press of Start picks the cycle up from where it stopped, which saves you restarting a nearly finished load. If you would rather start over, press Power to cancel, which clears PF from the display. If that is the end of it and PF does not return over the next week, there was nothing wrong with the dryer and you can stop here.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Work out whether the whole house lost power",
+      "detail": "Check for flashing clocks on the microwave, the oven and any bedside radios, and check whether anyone else on your street lost supply. A house-wide outage explains PF completely. A dryer that threw PF while every other clock in the house kept perfect time means the interruption was local to the dryer circuit, which is the version worth chasing.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the breaker properly, both halves",
+      "detail": "Open the panel and find the double breaker for the dryer. Push it firmly all the way to off, then back to on; a breaker that has tripped often sits in a middle position that still looks on at a glance. If it trips again during a cycle, or feels warm, or the handle is spongy, stop using the dryer and have an electrician replace it rather than resetting it repeatedly.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "If the breaker trips repeatedly, stop resetting it. A breaker that keeps tripping is doing its job and something upstream needs fixing."
+    },
+    {
+      "name": "Inspect the plug, the cord and the outlet",
+      "detail": "Unplug the dryer and look at the face of the plug and the receptacle. Browning, melted plastic, pitted blades or a receptacle that no longer grips the plug firmly all cause intermittent dropouts. Run your hand along the cord for flat spots and cracks, especially where it leaves the back of the machine. Replace a damaged cord; have an electrician replace a damaged receptacle.",
+      "minutes": 10,
+      "tools": null,
+      "warning": "Unplug at the wall first. A warm or scorched outlet is an electrician's job, not a dryer repair."
+    },
+    {
+      "name": "Check the terminal block connections",
+      "detail": "With the dryer unplugged and the breaker off, remove the small access cover on the lower rear panel, usually one or two screws. Verify with a non-contact voltage tester that nothing is live. Then check each terminal screw for tightness with a nut driver, and look for discoloration or a wire strand that has escaped the clamp. Retighten anything loose and reassemble.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips #2, non-contact voltage tester",
+      "warning": "240 volt connections. Unplug and switch off both halves of the breaker, and confirm the terminals are dead before touching them."
+    },
+    {
+      "name": "Do a full five minute power reset",
+      "detail": "Unplug the dryer or switch off its breaker, wait a full five minutes, then restore power. A quick off and on often leaves the stored event in place because the control board holds residual charge. Restart with a short timed cycle and a few damp towels so you find out quickly rather than at the end of a full load.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Run a test load and watch for a repeat",
+      "detail": "Run a normal load and note exactly when PF appears if it does: at the start, on heat-up, during tumbling, or at the end. A PF that lands every time the heater kicks in points at a supply that cannot hold up under load, usually a loose terminal or a tired breaker. A random PF with no pattern points at the cord, the plug or the outlet.",
+      "minutes": 50,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If PF keeps coming back after a reset, treat it as a supply problem until proven otherwise, and work from the cheapest end. First, establish whether the dryer is alone in this. Plug a lamp or a radio into a nearby outlet on a different circuit and watch it during a dryer cycle. If the lamp flickers at the same moment PF appears, the problem is upstream of the dryer in the house wiring and you want an electrician, not an appliance technician. Second, check the connections you can reach: the plug face, the receptacle grip and the terminal block screws behind the lower rear cover, all with the breaker off. Loose and lightly burnt terminal screws are the single most common repeatable cause of PF on a dryer that is otherwise healthy, and tightening them costs nothing. Third, note the timing. PF that lands reliably as the heater energizes means the circuit is sagging under load, which is a breaker, a terminal or a shared neutral problem rather than anything inside the dryer. PF that lands at random moments, including while the drum is just tumbling cold, points at a mechanical connection: the plug, the cord, or a harness inside the cabinet chafed through where it passes sheet metal. Fourth, if the supply checks out completely, clean and sound at every point, and no other appliance is affected, then the dryer is dropping its own power internally. That is where the cost jumps: a main control board on a Maytag dryer typically runs $150 to $300 for the part plus labor, and on a machine over eight years old it is worth weighing against replacement. One thing worth ruling out before you spend anything: a dryer sharing a circuit it should not share, or an extension lead, which no dryer should ever be run on. Both produce exactly this symptom and both are free to fix.",
+  "reset_procedure": "Press Start to resume the interrupted cycle, or Power to cancel and clear PF from the display. If the panel is frozen or PF will not clear, unplug the dryer at the wall or switch off both halves of its breaker and wait a full five minutes before restoring power. The wait matters because the control board holds residual charge and a quick off-and-on often leaves the stored event in place. Test with a short timed cycle and damp towels.",
+  "model_notes": "Maytag dryers share the Whirlpool control platform, so PF behaves the same way on Whirlpool, Amana and KitchenAid dryers of the same generation. Some models in the family report the same condition as F1E1 or as a scrolling power failure message rather than the two letters PF. On a Bravos or Bravos XL the resume-on-Start behavior is standard; on some front loaders the cycle is abandoned rather than resumed and you have to start again. Gas and electric models both show PF, but on a gas dryer the supply in question is still the 120 volt electrical feed, not the gas.",
+  "parts": [
+    {
+      "name": "Dryer power cord, three or four wire to match your outlet",
+      "cost": "$20 to $40",
+      "difficulty": "easy",
+      "note": "Match the existing outlet; never adapt a four wire outlet to a three wire cord"
+    },
+    {
+      "name": "Terminal block",
+      "cost": "$15 to $45",
+      "difficulty": "moderate",
+      "note": "Needed if a terminal has burnt rather than just worked loose"
+    },
+    {
+      "name": "Double pole circuit breaker",
+      "cost": "$15 to $50",
+      "difficulty": "technician only",
+      "note": "Electrician work, not appliance work"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $300",
+      "difficulty": "technician only",
+      "note": "Last resort, after the whole supply path is proven good"
+    }
+  ],
+  "when_to_call": "Call an electrician rather than an appliance technician if the outlet is warm, discolored or loose in the wall, if the breaker trips more than once, or if lights elsewhere in the house dim when the dryer heats. Those are supply faults and an appliance engineer will charge you a call-out to tell you the same thing. Call an appliance technician when the breaker, outlet, cord and terminal block have all been checked and are sound and PF still appears on most cycles, because the next step is tracing the internal harness and the control with the machine live. Stop using the dryer entirely and get someone out immediately if you smell burning plastic or see scorch marks around the plug or terminal block.",
+  "faqs": [
+    {
+      "q": "What does PF mean on a Maytag dryer?",
+      "a": "Power failure. The dryer lost its electrical supply during a cycle and logged it when power returned. It is a record of an event rather than a component fault. Press Start to resume the cycle from where it stopped, or Power to cancel and clear the display. A single PF after a storm or outage needs no further action."
+    },
+    {
+      "q": "How do I clear the PF code?",
+      "a": "Press Start to resume the interrupted cycle, or press Power to cancel it. Either clears PF from the display. If the panel will not respond, unplug the dryer or switch off its breaker for five minutes, then restore power. Resetting clears the message but does nothing about a supply problem, so watch whether it returns."
+    },
+    {
+      "q": "Why does PF keep coming back on my Maytag dryer?",
+      "a": "Because something in the supply is cutting out intermittently. The usual suspects, in order, are a loose or burnt terminal screw behind the lower rear cover, a tired breaker, and a worn plug or outlet that no longer grips. Check each with the breaker off. A repeat PF is a real problem even though a single one is not."
+    },
+    {
+      "q": "Can a PF code damage my dryer or my clothes?",
+      "a": "No. The dryer simply stops and waits. Clothes left in a warm drum will wrinkle and, if left overnight while damp, can start to smell, but nothing is harmed. The risk sits elsewhere: whatever is interrupting the power repeatedly, particularly a loose or overheating connection, is worth finding before it gets worse."
+    },
+    {
+      "q": "My dryer tumbles but will not heat, and shows PF. What is wrong?",
+      "a": "That combination usually means one half of the double breaker has dropped out. An electric dryer takes both legs of a 240 volt supply for the heater but runs the motor and control on one leg, so losing a leg gives you a turning drum with cold air. Push the breaker fully off and back on, and replace it if it recurs."
+    },
+    {
+      "q": "Can I run my dryer on an extension cord?",
+      "a": "No. A dryer draws far more current than any ordinary extension lead is built for, and the voltage drop along it produces exactly this fault along with real overheating risk at the connections. If the dryer cannot reach its outlet, have an electrician move or add one. This is one of the few absolute rules in appliance installation."
+    },
+    {
+      "q": "Is PF the same as F1E1 on a Maytag dryer?",
+      "a": "They are closely related but not identical. PF specifically logs a power interruption during a cycle. F1E1 on the same platform reports a main control board fault. Some Maytag models display a scrolling power failure message instead of PF. Check your exact code against the tech sheet for your model before ordering any part."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "PF records a supply interruption; the fault, if there is one, is on the path to the dryer.",
+    "labels": {
+      "display": "PF",
+      "c1": "Press Start to resume the cycle",
+      "c2": "Check both halves of the breaker",
+      "c3": "Inspect the plug, cord and outlet",
+      "c4": "Tighten the terminal block screws"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dryer error codes and the power failure message",
+      "publisher": "Maytag product help documentation",
+      "url": null
+    },
+    {
+      "title": "Maytag dryer installation instructions, electrical requirements and terminal block wiring",
+      "publisher": "Maytag installation guide supplied with the dryer",
+      "url": null
+    },
+    {
+      "title": "Field reports on repeating PF codes and terminal block failures on Whirlpool platform dryers",
+      "publisher": "r/appliancerepair and appliance technician forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F01",
+    "AF",
+    "F2E1",
+    "F3E3",
+    "F3E2",
+    "LOC"
+  ]
+}

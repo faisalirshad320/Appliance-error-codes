@@ -1,0 +1,123 @@
+{
+  "title": "Samsung Dishwasher SC Code: Drain Error and How to Fix",
+  "meta_description": "Samsung SC is the drain error, the same fault as 5C and 5E. Clean the filter, clear the air gap, and check the disposal knockout plug before buying parts.",
+  "h1": "Samsung dishwasher SC error code: what it means and how to fix it",
+  "answer": "SC is Samsung's drain error. The machine ran its pump, the water did not leave within the time allowed, and the cycle stopped with the tub still full. It is the same fault that other Samsung models display as 5C, 5E or SE, and the number five on a panel segment display is easy to read as a letter S. The blockage is almost always in the path out: the filter, the drain hose, the countertop air gap, or the connection at the garbage disposal. Only a small share of these turn out to be a failed pump.",
+  "severity": "moderate",
+  "can_diy": "yes",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": { "diy": "$0 to $30", "technician": "$130 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The filter in the tub floor is clogged",
+      "frequency": "most cases",
+      "confirm": "Twist the filter out and look at the mesh. A clean one lets light through everywhere. A grey or brown film, or a soft mat on the underside, is the fault. This is the single most common cause and the one most people have never cleaned in the life of the machine."
+    },
+    {
+      "cause": "The garbage disposal knockout plug was never removed",
+      "frequency": "common",
+      "confirm": "Applies where the dishwasher drains into a disposal installed at the same time or later. Pull the drain hose off the disposal inlet and look into the port: you should see an open hole into the grinding chamber. A solid plastic disc in there has been blocking the drain since the day it was fitted."
+    },
+    {
+      "cause": "The drain hose is kinked, crushed or packed with grease",
+      "frequency": "common",
+      "confirm": "Pull the machine forward and follow the hose. A flat spot where the dishwasher was shoved back, or a tight bend behind a leveling leg, slows the flow enough to time the drain out. A hose that feels heavy and soft when you squeeze it is full of standing water and sludge."
+    },
+    {
+      "cause": "The countertop air gap is packed with debris",
+      "frequency": "common",
+      "confirm": "Lift the chrome cap off the small cylinder beside the faucet and pull the plastic cover underneath. Food sludge in there is unmistakable. The other giveaway is water spitting out of the air gap onto the counter while the machine is draining."
+    },
+    {
+      "cause": "The drain pump impeller is jammed or the pump has failed",
+      "frequency": "occasional",
+      "confirm": "Filter clean, hose clear, air gap empty, and during the drain phase you hear a flat hum from under the machine with nothing moving. Silence instead of a hum means the pump is not being driven, which is a wiring or control problem rather than a pump problem."
+    },
+    {
+      "cause": "The sink drain or trap is partly blocked",
+      "frequency": "rare",
+      "confirm": "The sink next to the dishwasher also drains slowly, or gurgles when the machine pumps out. If both fixtures are sluggish the blockage is in your house plumbing and the dishwasher is reporting it correctly."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cancel the cycle and bail out the tub",
+      "detail": "End the program and scoop the standing water out with a plastic cup into a bucket, then soak up the remainder with a sponge or an old towel. You need the sump empty to see what you are doing, and leaving a few quarts of greasy food water in there just means you spill it on the floor later.",
+      "minutes": 12,
+      "tools": "Plastic cup, bucket, sponge",
+      "warning": null
+    },
+    {
+      "name": "Clean the filter and the sump",
+      "detail": "Twist the filter assembly in the floor of the tub counterclockwise and lift it out, along with any flat screen under it. Scrub both under a hot tap with a dish brush until the mesh passes light across its whole area, paying attention to the underside where the grease mat forms. Then look into the empty sump with a flashlight, put a glove on, and pick out pits, labels, bone and glass with needle-nose pliers.",
+      "minutes": 15,
+      "tools": "Dish brush, needle-nose pliers, work glove, flashlight",
+      "warning": "Look into the sump with a light before reaching in. Broken glass ends up down there and you will not feel it coming."
+    },
+    {
+      "name": "Clear the air gap",
+      "detail": "Find the small chrome cylinder on the countertop behind the faucet, twist the cap off and lift away the plastic cover beneath it. Clear out the packed sludge with a paper towel and a bottle brush, rinse the cover, and put it back. The whole job takes a few minutes and accounts for a surprising number of drain faults in kitchens where nobody knew what that little chrome thing was.",
+      "minutes": 8,
+      "tools": "Bottle brush, paper towel",
+      "warning": null
+    },
+    {
+      "name": "Check the disposal connection and the knockout plug",
+      "detail": "Put a shallow pan under the connection, loosen the clamp at the disposal inlet with a nut driver, and pull the drain hose off. Expect a cup of dirty water. Look into the spigot: you want a clear open hole into the grinding chamber. A solid plastic disc has to be driven out with a screwdriver and a tap from a hammer, and the loose disc then fished out of the disposal before you reconnect.",
+      "minutes": 15,
+      "tools": "Nut driver, shallow pan, flat screwdriver, hammer",
+      "warning": null
+    },
+    {
+      "name": "Walk the drain hose end to end",
+      "detail": "Pull the machine forward and follow the hose from the pump outlet to wherever it ends. Straighten any kink and free it from behind a leveling leg. Confirm it rises to just under the countertop before dropping to the disposal or trap, because a hose lying flat lets water sit in it. If it feels heavy and soft, disconnect both ends over a bucket and flush it through with hot water until it runs clear.",
+      "minutes": 20,
+      "tools": "Bucket, nut driver, jug of hot water",
+      "warning": null
+    },
+    {
+      "name": "Reset and listen to a drain test",
+      "detail": "Slide the machine back leaving a hand's width behind it so you do not crush the hose again, cut the breaker for five minutes to clear the stored fault, then restore power and start the shortest program. Stand there for the first two minutes with your ear near the kickplate: a working drain rises to a whine and finishes with a slurp as the sump empties.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the filter is clean, the air gap is clear, the hose is straight and open and the disposal port is drilled through, the path is ruled out and the pump end is next. Start by listening, because the sound tells you which branch you are on. A steady hum with no water moving means the pump has power but cannot shift water, and the usual reason is debris jammed against the impeller rather than a dead pump, so get the filter out and look into the pump opening in the sump floor with a flashlight before ordering anything. A shard of glass or a fruit pit wedged beside a vane is free to remove. If the impeller turns freely by hand and the pump still only hums, the pump is worn out, and that is a $45 to $110 part and an hour or so of work with the machine pulled forward. Total silence during the drain phase is a different story: nothing is reaching the pump, so check its connector under the kickplate for green corrosion or a pin backed out of the housing, which is common under a machine that has had a leak and costs nothing to fix. If the connector is clean and the pump still never runs, the fault is in the harness or the control board, and that is where the bill jumps past the point of sense on an older machine. One test worth doing before any of that: fill the sink, pull the plug and run the disposal. If the sink itself is slow or gurgles, the blockage is in your kitchen plumbing and nothing you do to the dishwasher will fix it.",
+  "reset_procedure": "Cancel the program, then switch the dishwasher off at its breaker for five minutes and back on. Five minutes matters because the control holds the stored fault, so a machine that now drains perfectly can still show SC after a quick off-on. Test with the shortest program available, since the drain runs in the first couple of minutes of any cycle and you will know almost immediately.",
+  "model_notes": "Samsung groups this fault under 5C, 5E, SC and SE depending on the model and the panel, and they all mean the same thing: the machine could not drain in time. On a seven-segment display a 5 and an S are nearly identical, which is why owners report it both ways. Samsung's own guidance for the 5C and 5E family lists a blocked or frozen drain hose, a faulty drain pump and a clogged filter as the causes, which matches the field order on this page.",
+  "parts": [
+    { "name": "Filter assembly", "cost": "$20 to $45", "difficulty": "easy", "note": "Replace only if the mesh is torn; most just need scrubbing" },
+    { "name": "Corrugated drain hose", "cost": "$15 to $35", "difficulty": "moderate", "note": "If it is crushed flat or split rather than just dirty" },
+    { "name": "Air gap body and cap", "cost": "$10 to $20", "difficulty": "easy", "note": "Usually only needs cleaning out" },
+    { "name": "Drain pump", "cost": "$45 to $110", "difficulty": "moderate", "note": "Only after a hum with no flow and a free impeller" }
+  ],
+  "when_to_call": "Call an appliance technician if the drain path is clear and the pump makes no sound at all during the drain phase with a clean connector, because the next step is tracing a live circuit back to the control board. Call a plumber instead if the kitchen sink is slow or gurgles when the dishwasher pumps out, since that fault is in your branch drain and an appliance engineer will charge a call-out to tell you so. And treat a drain hose lying flat on the floor with no high loop as an installation fault worth correcting properly, because it will keep producing this code no matter how often you clean the filter.",
+  "faqs": [
+    { "q": "Is SC the same as 5C on a Samsung dishwasher?", "a": "Yes. Samsung lists 5C, 5E, SC and SE together as the drain error, and on a segment display the figure five and the letter S look almost identical. Whichever way your panel renders it, the meaning is the same: the machine tried to pump the water out and it did not leave within the time allowed." },
+    { "q": "Why is there water left in the bottom of my Samsung dishwasher?", "a": "Because the drain timed out, which is exactly what SC reports. A thin film of water in the sump well is normal and keeps the seals from drying. Water standing above the filter and across the tub floor is not, and it means something between the filter and your sink drain is blocking the way out." },
+    { "q": "Can I still use the dishwasher with an SC code?", "a": "No, because the water from the last stage is still sitting in the tub and another cycle just adds to it. You would get dirty dishes standing in old water. There is no safety risk in leaving it, but bail the tub out rather than leaving it full, since warm food water turns foul within a day or two." },
+    { "q": "Do I have to remove the knockout plug on a new garbage disposal?", "a": "Yes, and skipping it is one of the most common reasons a dishwasher has never drained properly since installation. Disposals ship with a solid plastic disc sealing the dishwasher inlet so the port cannot leak when nothing is attached. It has to be knocked out with a screwdriver and the loose piece retrieved from inside." },
+    { "q": "Why did SC appear suddenly when nothing changed?", "a": "Filters and hoses clog gradually and then cross a threshold, so the failure looks instant after months of building. The other common trigger is one small hard item going down the sump: a fruit pit, a bottle label or a shard of glass can block the pump inlet in a single load after years of trouble-free running." },
+    { "q": "Will a dishwasher cleaner clear an SC code?", "a": "Rarely. A degreasing cleaner helps slightly with a greasy filter mesh and is good maintenance, but it does nothing about a kinked hose, a packed air gap, a knockout plug or a pit in the pump inlet. Clear the blockage by hand first and use a cleaner afterward to keep the filter from matting up again." }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The route water takes out of a Samsung dishwasher",
+    "labels": {
+      "display": "SC",
+      "c1": "Filter twisted out and scrubbed",
+      "c2": "Air gap cleared on the counter",
+      "c3": "Disposal inlet and knockout plug",
+      "c4": "Drain hose high loop and kinks"
+    }
+  },
+  "sources": [
+    { "title": "What 5C, 5E, 4C, 4E, LC and LE mean on a dishwasher", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Common Samsung dishwasher error codes and their meaning", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung dishwasher service literature, drain system and pump", "publisher": "Samsung service documentation", "url": null },
+    { "title": "Field reports on Samsung drain faults and disposal knockout plugs", "publisher": "r/appliancerepair and appliance technician forums", "url": null }
+  ],
+  "related_codes": ["5C", "5E", "OC", "LC", "4C"]
+}

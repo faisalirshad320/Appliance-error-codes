@@ -1,0 +1,191 @@
+{
+  "title": "Kenmore Washer UE Code: Unbalanced Load, Fixed",
+  "meta_description": "UE on a Kenmore washer is LG's unbalanced load error: the drum would not balance for the spin. Usually one heavy item on one side.",
+  "h1": "Kenmore washer UE error code: what it means and how to fix it",
+  "answer": "UE means the washer tried to balance the drum before spinning, could not get it even, and gave up. It is LG's unbalanced load error, so a Kenmore showing UE was built by LG and its model number starts with 796. The load itself is the cause the large majority of the time: one heavy item like a bath mat, a comforter or a pair of jeans that has slid to one side. Open the door, spread the washing evenly around the drum by hand, and run a spin-only cycle.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 to 20 minutes for most, up to an hour if the machine needs leveling",
+  "cost_estimate": {
+    "diy": "$0 to $60",
+    "technician": "$130 to $300"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The load is bunched to one side of the drum",
+      "frequency": "most cases",
+      "confirm": "Open the door and look. Everything in a wet rope down one side, or one bath mat, hoodie or towel holding most of the water. Spread it out and spin again; if it goes, that was it."
+    },
+    {
+      "cause": "A single heavy item washed on its own",
+      "frequency": "most cases",
+      "confirm": "One comforter, one rug, one pair of work jeans. There is nothing in the drum for it to balance against, so it rides on one side at every speed the machine tries. Add two or three towels and it spins."
+    },
+    {
+      "cause": "The machine is not level or is sitting on a soft floor",
+      "frequency": "common",
+      "confirm": "Push a top corner of the cabinet: it should not rock at all. A machine that tips onto one foot, or one standing on floorboards that flex, cannot find a balance the control will accept even with a reasonable load."
+    },
+    {
+      "cause": "The shipping bolts were never removed, or feet are loose",
+      "frequency": "occasional",
+      "confirm": "Look at the back panel for four bolts with plastic spacers still fitted, which only applies to a recently delivered machine. Otherwise check each foot locknut is tight against the cabinet; a foot that has wound itself loose lets the machine walk."
+    },
+    {
+      "cause": "Worn suspension: shock absorbers, springs or the counterweight bolts",
+      "frequency": "occasional",
+      "confirm": "Push the empty drum down firmly and let go. It should settle in one movement without bouncing. A drum that keeps bobbing, or thuds against the cabinet at speed, has lost its damping."
+    },
+    {
+      "cause": "Failed bearings, or an over-sudsed load the machine reads as unbalanced",
+      "frequency": "rare",
+      "confirm": "Bearings: a roar that builds with spin speed for weeks beforehand, and a drum that grinds when turned by hand. Suds: foam visible through the glass and UE appearing alongside or just after a Sud code."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open the door and redistribute the load by hand",
+      "detail": "Pull everything out, shake out anything that has rolled into a rope, then put it back loosely so it lines the drum evenly rather than sitting in one lump. Pay attention to heavy items: a bath mat, a hoodie or a pair of jeans holds several pounds of water and needs to be opposite something, not on top of it. Close the door and run spin only, which tests the fix in three minutes.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Add companions to a single bulky item",
+      "detail": "If you are washing one comforter, rug or sleeping bag, put two or three bath towels in with it. One large item alone cannot balance, no matter how carefully you fold it, because all its mass stays in one place once it is soaked. Equally, do not fill the drum to the top: a load that cannot tumble cannot be rebalanced either, so stop at about two thirds full with the washing pushed down.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the machine is level and solid",
+      "detail": "Push down on each top corner of the cabinet in turn. If it rocks, the machine is not sitting on all four feet. Wind the short foot down with a wrench until the rocking stops, then tighten its locknut up against the cabinet. Put a spirit level across the top in both directions and adjust until it reads level. Lower the machine as far as it will go rather than leaving it standing tall, since a low machine is far more stable.",
+      "minutes": 20,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Rule out shipping bolts on a newly delivered machine",
+      "detail": "If this washer arrived in the last few weeks, look at the back panel for three or four bolts with large plastic collars. They hold the drum rigid for transport and must come out before the machine runs. A machine still bolted will bang hard and throw UE on the first spin. Unplug it, unscrew them with a wrench and fit the plastic blanking caps that came in the bag with the hoses.",
+      "minutes": 15,
+      "tools": "Wrench or socket set",
+      "warning": "Unplug the washer before working at the back panel."
+    },
+    {
+      "name": "Test the suspension with the bounce test",
+      "detail": "With the machine unplugged and empty, open the door, push the front of the drum straight down firmly and let go. A healthy drum drops and settles in a single movement. One that bounces two or three times has worn shock absorbers, and that is why the control cannot find a balance even with a sensible load. Check the shocks visually from underneath or through the rear panel for oil leaks and snapped mounting pins.",
+      "minutes": 15,
+      "tools": "Flashlight",
+      "warning": "Unplug at the wall before reaching inside or removing a panel."
+    },
+    {
+      "name": "Run a rinse and spin with no detergent",
+      "detail": "If you have seen foam through the glass, or a Sud code around the same time, run an empty rinse and spin with no detergent at all and watch the window. Foam cushions the drum and confuses the balance routine, so a sudsy machine throws UE on perfectly reasonable loads. Two or three empty rinses clear a build-up, then cut down to about a tablespoon of HE liquid per load.",
+      "minutes": 20,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the load is spread evenly, the machine does not rock and UE still appears on load after load, go in this order. First, rule out suds properly, because foam is the cause people never suspect: run two empty rinse-and-spin cycles with no detergent and watch the glass each time, and if you see foam on the second one, the machine is still carrying a detergent build-up and the balance sensing will keep misreading. Second, check the floor rather than the machine. A washer on suspended floorboards, on vinyl over plywood, or on a pedestal that is not bolted down will pass the rocking test when it is still and still fail at 1,000 rpm, and the fix is a sheet of plywood under it or moving it to a solid corner rather than any part. Third, do the bounce test on the drum and look at the shock absorbers with a flashlight: oil staining down the body of a shock, a snapped plastic mounting pin, or a drum that keeps bobbing all point at worn damping, and shocks are usually sold in pairs for a modest amount and replaced from underneath or through the rear panel in an hour or two. Fourth, check the counterweights, which are large concrete blocks bolted to the tub; a bolt that has backed off makes a distinct knock and will defeat the balance routine entirely, and tightening it is free. Fifth, grab the drum at the twelve o'clock position and try to move it in and out: real play, or a grinding noise when you rotate it, means the bearings have gone, and on most Kenmore front loaders that job means splitting the tub and frequently costs more than the washer is worth. One more pattern worth knowing: if UE only ever appears on the final high-speed spin and never on the slower ones, the machine is working correctly and telling you the load genuinely cannot be spun that fast, which is normal behavior for towels, mats and anything with a rubber backing.",
+  "reset_procedure": "Press Power to cancel, open the door, redistribute the load and start a spin-only cycle. UE rarely needs a full power cycle because the machine clears it as soon as it manages a balanced spin. If the code stays on the display with the door open and the machine will not accept any new cycle, unplug it at the wall for five minutes and then start spin only with a light, evenly spread load.",
+  "model_notes": "UE is an LG code, so it belongs to Kenmore washers built by LG, with model numbers starting 796. On LG-built machines a lowercase uE is different from a capital UE: lowercase means the machine has noticed the imbalance and is still trying to fix it by itself, usually by adding water and tumbling, and it often sorts itself out if you leave it alone for a few minutes. Capital UE means it has given up. Kenmore washers with a 110 model number are Whirlpool-built and show uL or an F-code for the same situation, with a different suspension design. LG-built top loaders throw UE more readily than front loaders because the load can pile against one side of a vertical drum far more easily.",
+  "parts": [
+    {
+      "name": "Shock absorbers or damper set",
+      "cost": "$30 to $90 a pair",
+      "difficulty": "moderate",
+      "note": "Always replace in pairs, never one side only"
+    },
+    {
+      "name": "Suspension springs",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Less common than shocks, but check for a stretched or detached spring"
+    },
+    {
+      "name": "Leveling feet and locknuts",
+      "cost": "$10 to $30",
+      "difficulty": "easy",
+      "note": "Needed when a foot thread is stripped and will not hold"
+    },
+    {
+      "name": "Anti-vibration pads",
+      "cost": "$15 to $35",
+      "difficulty": "easy",
+      "note": "Helps on a flexing wooden floor, but does not fix a worn suspension"
+    }
+  ],
+  "when_to_call": "Call a technician if the drum has real in-and-out play at the front or grinds when you turn it by hand, because that is a bearing fault and no amount of load juggling will fix it. Call if the machine bangs hard enough to move across the floor on every spin even with shocks that look intact, since something in the suspension or the counterweight mounting has failed and a banging drum damages the outer tub. Otherwise this is the one code most people genuinely can clear themselves, and paying a call-out charge to be told the comforter needs a couple of towels with it is an expensive lesson. On an older machine quoted for bearings, price a replacement washer first.",
+  "faqs": [
+    {
+      "q": "Why does my Kenmore washer keep saying UE on every load?",
+      "a": "Either the loads are consistently wrong for the machine, or something structural is off. Single bulky items, overstuffed drums and towels with rubber backings all trigger it legitimately. If careful loading does not help, check that the machine does not rock, run two empty rinses to rule out detergent foam, and then test the drum suspension with the bounce test."
+    },
+    {
+      "q": "What is the difference between UE and uE on a Kenmore washer?",
+      "a": "Case matters on LG-built machines. Lowercase uE means the washer has detected an imbalance and is still working on it by adding water and retumbling, which often resolves without you doing anything. Capital UE means the rebalancing attempts have failed and the cycle has stopped. Leave a uE alone for a few minutes before intervening."
+    },
+    {
+      "q": "Can I still use the washer with a UE code?",
+      "a": "Yes. The wash itself completes, the machine just will not spin the load dry, so your clothes come out soaking rather than damp. There is no safety problem and nothing is being damaged. Redistribute the load and run a spin-only cycle and you will usually get the water out on the second attempt."
+    },
+    {
+      "q": "Does UE mean my washer is broken?",
+      "a": "Usually not. In most cases the control is doing its job: it will not spin a drum that is dangerously out of balance, because that is what wrecks bearings and sends machines walking across the floor. Treat it as a warning rather than a fault until careful loading and a level cabinet have been ruled out."
+    },
+    {
+      "q": "Why did UE start suddenly on loads that were fine before?",
+      "a": "Three usual triggers. The machine has shifted on its feet, often after being pulled out for cleaning or a plumbing job. Detergent build-up has reached the point where foam cushions the drum. Or a shock absorber has worn past the point where the suspension damps properly, which happens gradually and shows up first on heavy loads."
+    },
+    {
+      "q": "Is Kenmore UE the same as an LG UE code?",
+      "a": "Identical, because the machine is an LG. A Kenmore model number starting 796 is an LG washer with Kenmore badging, so the code set, the suspension design and the repair procedure are all LG's. Whirlpool-built Kenmores, with 110 model numbers, show uL instead for the same situation."
+    },
+    {
+      "q": "Will leveling the washer actually fix UE?",
+      "a": "Often, yes, and it is free. A cabinet that rocks on three feet has nothing solid to react against, so the balance routine fails on loads it would otherwise handle. Wind the feet down until the machine does not move when you push a top corner, tighten each locknut against the cabinet, and keep the machine as low as it will go."
+    }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "Why a Kenmore throws UE, and the four things that fix it",
+    "labels": {
+      "display": "UE",
+      "c1": "Load bunched on one side",
+      "c2": "Add towels to one bulky item",
+      "c3": "All four feet solid, no rocking",
+      "c4": "Bounce test the drum suspension"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG washing machine UE and uE unbalanced load guidance",
+      "publisher": "LG support documentation for the equivalent LG model",
+      "url": null
+    },
+    {
+      "title": "Kenmore washer will not spin and shows UE repair article",
+      "publisher": "Sears PartsDirect",
+      "url": null
+    },
+    {
+      "title": "Installation instructions covering leveling and shipping bolt removal",
+      "publisher": "Kenmore and LG installation literature supplied with the washer",
+      "url": null
+    },
+    {
+      "title": "Field reports on UE, suspension wear and detergent-related balance faults",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "uE",
+    "LE",
+    "OE",
+    "dE",
+    "CL",
+    "5D"
+  ]
+}

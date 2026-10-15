@@ -1,0 +1,117 @@
+{
+  "title": "Whirlpool Dryer LF Code: Lint Filter Not Seated",
+  "meta_description": "LF on a Whirlpool dryer means a lint filter is missing or not pushed fully home, usually the second HybridCare filter. Reseat it and the code clears.",
+  "h1": "Whirlpool dryer LF code: the lint filter is out or not seated",
+  "answer": "LF stands for lint filter. The dryer has detected that a filter is missing or not pushed all the way into its running position, and it will not run a cycle without one. It shows up on Whirlpool HybridCare and Duet Hybrid ventless dryers, which have a second filter behind a door below the drum as well as the usual screen in the door opening. Nine times out of ten someone cleaned the second filter and did not push it fully home. Seat it until it stops and the code clears.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "2 to 15 minutes",
+  "cost_estimate": { "diy": "$0, or $25 to $70 for a replacement filter", "technician": "$130 to $260" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The second filter is in place but not pushed fully home",
+      "frequency": "most cases",
+      "confirm": "Open the lower filter door and push the filter in with the flat of your hand. If it moves even a quarter inch, it was not seated. These filters stop short on a wedge of trapped lint and feel seated when they are not."
+    },
+    {
+      "cause": "A filter was taken out for cleaning and left out",
+      "frequency": "most cases",
+      "confirm": "Check both locations: the screen in the door opening and the filter behind the lower access door. A HybridCare dryer has two, and the second one is easy to forget because it is cleaned far less often than the first."
+    },
+    {
+      "cause": "The filter is warped, torn or the wrong part",
+      "frequency": "occasional",
+      "confirm": "It pushes in but will not sit flush, or it sits flush and LF still shows. A filter frame that has been through a hot wash and distorted, or an aftermarket part that is a near-miss on dimensions, will not reach its running position."
+    },
+    {
+      "cause": "Lint or debris in the filter housing stopping it short",
+      "frequency": "occasional",
+      "confirm": "Take the filter out completely and shine a light into the empty slot. A ridge of packed lint at the back, or something that has fallen into the channel, keeps the filter from traveling the last half inch where the dryer expects it."
+    },
+    {
+      "cause": "The switch or sensor that detects the filter has failed",
+      "frequency": "rare",
+      "confirm": "Both filters are clean, undamaged and seated solidly, the housings are clear, and LF still shows after a power-down reset. Only at this point is the detection circuit a reasonable suspect, and it is a service call rather than a part you guess at."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Check the door filter first",
+      "detail": "Pull the lint screen out of the door opening, clear the lint off it and push it back in until it stops and sits flush with the surrounding surface. This is the filter everyone remembers, so it is rarely the cause of LF, but it takes thirty seconds to rule out and the dryer checks for both.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Open the lower filter door and find the second filter",
+      "detail": "On HybridCare and Duet Hybrid models there is a hinged access door low on the front of the machine, below the drum. Open it and you will find the second filter, a flat cartridge that slides out sideways or forward. This is the one causing LF in most cases, because it only needs cleaning every few months and gets put back in a hurry.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the filter and the empty housing",
+      "detail": "Pull the filter right out and strip the lint mat off both faces by hand, then rinse it under a warm tap if it is the washable type and let it dry completely before it goes back. A damp filter goes back in heavier and seats worse. With it out, shine a flashlight into the empty slot and clear any ridge of packed lint at the back of the channel with a vacuum crevice tool.",
+      "minutes": 10,
+      "tools": "Vacuum with crevice tool, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Seat the filter firmly and confirm it has gone all the way",
+      "detail": "Slide the filter in square rather than at an angle, then push with the flat of your hand until it stops moving. The front face should finish flush with its frame, with no gap at one corner. If it will go in another quarter inch when you lean on it, it was not seated, and that quarter inch is the whole fault. Close the access door until it latches.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Power down and restart",
+      "detail": "Press POWER to clear the display and start a cycle. If LF is still showing with the filter properly seated, switch the dryer's breaker off for a minute, restore power, wait ten seconds and try again. The code normally clears as soon as the dryer sees the filter in position, so a reset is only needed when the display has latched.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Inspect the filter for damage if it still will not clear",
+      "detail": "Lay the filter on a flat surface and look along it. A frame that has bowed, a split in the mesh, or a crushed corner stops it reaching its running position no matter how hard you push. Compare it against the shape of the housing. A replacement filter for these models typically runs $25 to $70, which is a lot cheaper than a service call.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If both filters are clean, undamaged and seated solidly and LF is still on the display, work through this before you call anyone. First, take the lower filter out again and look at the back of the empty channel with a flashlight rather than by feel. A compacted ridge of lint at the very back of the slot is invisible from the front and stops the filter about half an inch short, which is exactly the distance the dryer is measuring. Vacuum it out properly with a crevice tool. Second, put the filter on a flat table and sight along its edge. These filter frames warp if they are washed in hot water and put back damp, and a frame with a bow in it will sit flush at three corners and stand proud at the fourth. A replacement is $25 to $70 and is the most likely paid fix. Third, check you have the right part. Aftermarket filters for these dryers are often a couple of millimeters off, which is enough to miss the detection position entirely. If yours was bought online rather than from a parts supplier matched to your model number, that is a strong suspect. Fourth, do a proper reset: breaker off for a full minute, power back, ten seconds before you touch anything. Only when all of that is ruled out is the detection switch itself a fair suspect, and that is where it becomes a service call, usually $130 to $260 depending on what it turns out to be. One last thing worth checking: if your machine is a stacked laundry center rather than a HybridCare dryer, make sure you are reading the dryer display and not the washer's, because LF on the washer side means a long fill and has nothing to do with lint.",
+  "reset_procedure": "Seating the filter normally clears LF on its own. If the display has latched, press POWER to turn the dryer off, then switch its breaker off for one minute, restore power, and wait ten seconds before selecting a cycle. Test with a short timed cycle rather than a full load so you know within a couple of minutes whether the code is gone.",
+  "model_notes": "LF belongs to Whirlpool's ventless dryers, the HybridCare heat pump models and the Duet Hybrid range, which use a second filter behind a lower access door in addition to the screen at the door opening. Whirlpool's own documentation describes LF as the filter having been removed or not properly seated. Conventional vented Whirlpool dryers do not normally use this code, so if LF appears on a vented machine, check whether you are reading the washer display on a stacked laundry center, where LF means a long fill on the water side. Compact heat pump models flag the same condition as a door filter message rather than the two letters LF.",
+  "parts": [
+    { "name": "Secondary lint filter for HybridCare or Duet Hybrid", "cost": "$25 to $70", "difficulty": "easy", "note": "Order by exact model number; aftermarket copies are often a fraction out of true" },
+    { "name": "Door lint screen", "cost": "$15 to $40", "difficulty": "easy", "note": "Only if the mesh is torn or the frame is cracked" }
+  ],
+  "when_to_call": "Call a technician if both filters are clean, flat, correct for your model and firmly seated, the housings are clear, and LF survives a proper breaker reset. At that point the detection switch or its wiring is the suspect and it needs testing rather than guessing. Call sooner if the lower access door will not latch or the filter housing is damaged, because forcing a filter into a broken channel turns a free fix into a parts order.",
+  "faqs": [
+    { "q": "What does LF mean on a Whirlpool dryer?", "a": "Lint filter. The dryer has detected that a filter is missing or has not been pushed into its running position, and it stops rather than running without one. It appears on HybridCare and Duet Hybrid ventless models, which have a second filter behind a lower access door as well as the screen at the door opening." },
+    { "q": "How do I clear the LF code?", "a": "Seat the filter properly and the code normally clears by itself. Push the lower filter in square with the flat of your hand until it stops and sits flush. If the display has latched, press POWER, switch the breaker off for a minute, restore power and wait ten seconds before selecting a cycle." },
+    { "q": "Which filter is the dryer complaining about?", "a": "Usually the second one, behind the hinged access door low on the front of the machine. The screen in the door opening gets cleaned every load and is rarely the problem. The lower filter is cleaned every few months, which means it is the one most often left out or pushed back in a hurry and not fully seated." },
+    { "q": "Can I run the dryer with the lint filter out?", "a": "No, and the dryer is right to stop you. Without a filter, lint goes straight into the condenser and the heat pump, where it packs into the coil fins and strangles the airflow permanently. On a ventless dryer that is an expensive cleaning job and a real heat build-up risk, so the lockout is doing you a favor." },
+    { "q": "Why does LF keep coming back after I reseat the filter?", "a": "Most often a ridge of packed lint at the back of the empty filter channel is stopping the filter half an inch short. Take the filter right out and vacuum the slot with a crevice tool. The second most common reason is a warped filter frame, which happens after a hot wash, and that needs replacing at $25 to $70." },
+    { "q": "I have a vented Whirlpool dryer and it shows LF. What now?", "a": "Check which display you are reading. LF is a ventless-dryer code, and on a stacked laundry center the washer side uses LF to mean a long fill, which is a water supply problem rather than a lint one. If it genuinely is the dryer display on a vented machine, note the exact model number and check the code list that came with it." },
+    { "q": "Does LF mean something is broken?", "a": "Almost never. In the large majority of cases nothing has failed at all, the filter is simply not where the dryer expects it. The only failure worth considering is the switch that detects the filter, and that comes a long way down the list, after the filter, the housing and a proper reset have all been ruled out." }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "Both filters in the air path, and why the lower one triggers LF",
+    "labels": {
+      "display": "LF",
+      "c1": "Door lint screen, push flush",
+      "c2": "Lower access door below drum",
+      "c3": "Second filter, seat until it stops",
+      "c4": "Clear lint from empty housing"
+    }
+  },
+  "sources": [
+    { "title": "LF error code on HybridCare dryers, filter removed or not seated", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "HybridCare and ventless dryer use and care guide, filter cleaning and LF display", "publisher": "Whirlpool use and care manual supplied with the dryer", "url": null },
+    { "title": "Door filter error code on compact heat pump dryers", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Field reports on LF caused by an unseated secondary filter", "publisher": "Appliance repair Q and A sites and r/appliancerepair threads", "url": null }
+  ],
+  "related_codes": ["AF", "F9 E2", "PF", "F3 E2"]
+}

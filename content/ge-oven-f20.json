@@ -1,0 +1,193 @@
+{
+  "title": "GE Oven F20 Error Code: Causes and Fix",
+  "meta_description": "GE oven F20 means the temperature sensor circuit is out of range, which the control reads as runaway heat. Usually the sensor or its wiring.",
+  "h1": "GE oven F20 error code: what it means and how to fix it",
+  "answer": "F20 is GE's newer way of saying the oven temperature sensor circuit is out of range, which the control treats as a runaway heat condition and responds to by shutting the heating off. On double ovens and ranges with two cavities it points at the upper oven specifically. Nine times out of ten the oven is not really that hot and the sensor or its wiring is feeding the board a resistance it does not believe. The exception is a control board relay stuck closed, where the oven really is heating with nothing telling it to stop.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to test, about an hour to replace a sensor",
+  "cost_estimate": {
+    "diy": "$20 to $50 for a sensor",
+    "technician": "$180 to $450"
+  },
+  "safety_warning": "Treat F20 as a possible overheat until you have proved otherwise. Switch the oven off at the breaker rather than the control panel, because a board that cannot read temperature correctly may also be unable to switch the element off. Everything behind the rear panel of an electric oven is at 240 volts. On a gas model, the burner, gas valve and safety circuit are licensed trade work and nothing on this page covers them.",
+  "causes": [
+    {
+      "cause": "The oven temperature sensor has failed or drifted out of range",
+      "frequency": "most cases",
+      "confirm": "Unplug the sensor at its connector behind the rear panel and measure across its two pins on the ohms setting. Compare the reading against the room-temperature figure in the service sheet inside your machine. Anything far above it, or an open circuit, is your answer."
+    },
+    {
+      "cause": "A broken or chafed wire between the sensor and the control",
+      "frequency": "common",
+      "confirm": "The sensor measures fine on its own but the code returns. Hold the meter on the pins and flex the harness along its run. A reading that jumps as you bend it means the conductor is broken inside insulation that still looks perfect."
+    },
+    {
+      "cause": "A loose or corroded connector at the rear of the cavity",
+      "frequency": "common",
+      "confirm": "Separate the two-pin plug behind the rear access panel and look inside. A pin pushed back into the housing, a green crust on the terminals, or plastic softened by heat all break the circuit intermittently and produce exactly this code."
+    },
+    {
+      "cause": "Damage from a self-clean cycle",
+      "frequency": "common",
+      "confirm": "F20 showed up during self-clean or on the next bake after one. Self-clean holds the cavity far hotter than any cooking cycle for several hours, and oven sensors, latch motors and boards fail in that window more than at any other time."
+    },
+    {
+      "cause": "A stuck relay on the control board, so the oven really did overheat",
+      "frequency": "occasional",
+      "confirm": "Put an oven thermometer on the center rack and set a moderate bake. If the needle sails past the set point and keeps climbing, cut the breaker. The element is being fed with nothing switching it off, and this one is urgent."
+    },
+    {
+      "cause": "The control board has failed outright",
+      "frequency": "occasional",
+      "confirm": "F20 appears on a cold oven that has not been used, often after a power cut or a storm. A control generating the code with no heat anywhere near the cavity is not reacting to a real measurement."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Cut power at the breaker and leave it off for five minutes",
+      "detail": "Switch off the double breaker feeding the range or wall oven. Do not just press the oven's power button, because the whole premise of F20 is that the control may not have authority over the heat. Five minutes also clears the board's stored fault, so this doubles as the reset.",
+      "minutes": 6,
+      "tools": null,
+      "warning": "The control panel power button is not an isolator. Use the breaker."
+    },
+    {
+      "name": "Restore power and watch a cold, idle oven",
+      "detail": "Switch the breaker back on and leave the oven alone for ten minutes with nothing selected. If F20 comes back on a stone cold oven, the board is producing the fault rather than reacting to heat, and the sensor is probably not your problem. If the display stays clean until you bake, the sensor circuit is where to look.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note which cavity the code names",
+      "detail": "On a double oven or a range with a second cavity, F20 is tied to the upper oven. Each cavity has its own sensor, its own harness and sometimes its own board, so the lower oven may bake perfectly while the upper throws the code. Work out which one before you order anything, because the parts are not interchangeable and the model sticker lists them separately.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Get to the sensor connector behind the rear panel",
+      "detail": "Pull the range forward or slide the wall oven out of its cabinet, then remove the rear access panel with a quarter-inch nut driver. The two-wire sensor plug sits a few inches in from where the probe passes through the cavity wall. Before touching the meter, look at both halves of the connector for a backed-out pin, corrosion or heat-softened plastic.",
+      "minutes": 20,
+      "tools": "Nut driver, Phillips screwdriver, flashlight",
+      "warning": "Breaker off before the panel comes off. A wall oven's terminal block is live at 240 volts even when the oven is idle."
+    },
+    {
+      "name": "Measure the sensor and flex the harness",
+      "detail": "With the meter on ohms, put one probe on each pin of the sensor side. Compare the reading with the room-temperature value on the service sheet inside your machine rather than a figure off the internet, because it differs between GE platforms. Then hold the probes in place and bend the harness along its length. A steady reading in spec means the sensor is good; a jumping one means a broken wire.",
+      "minutes": 12,
+      "tools": "Multimeter, service sheet for your model",
+      "warning": null
+    },
+    {
+      "name": "Fit a new sensor if it fails",
+      "detail": "Two screws inside the cavity hold the probe. Undo them, feed the old lead out through the rear wall, and draw the new one through from inside so the connector does not disappear into the insulation. Screw the probe back, mate the plug, refit the rear panel, restore power and run a twenty minute bake with an oven thermometer on the rack before you cook anything real.",
+      "minutes": 45,
+      "tools": "Nut driver, replacement oven temperature sensor, oven thermometer",
+      "warning": "Keep the breaker off until the rear panel is screwed back on."
+    },
+    {
+      "name": "Give up on the self-clean cycle",
+      "detail": "If this oven has ever been self-cleaned, that is very likely how it got here. The cycle bakes the cavity hundreds of degrees above cooking temperature for hours and takes the sensor, door lock and board with it over time. Clean the oven with a plastic scraper and a baking soda paste instead. It takes longer and it will not cost you a control board.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sensor reads in spec, the harness is steady under flexing and F20 is still there, three things are left and they diverge sharply in cost. The first is whether the oven is genuinely overheating. Put an oven thermometer on the center rack, set a moderate bake and watch it for fifteen minutes. If it overshoots the set point and keeps rising, switch the breaker off and stop: a welded relay means the element gets power whatever the control wants, and the oven is unsafe to use until the board is replaced. The second is the connector and harness route, which is where intermittent faults hide. With the breaker off, unplug and remate the sensor connector a few times to scrape the contacts clean, and check the full length of the harness where it passes the cavity flange and any sheet metal edge, because the insulation chafes there first. People replace sensors twice before finding this. The third is the board. On a GE wall oven or slide-in range, a replacement oven control is typically $200 to $400 for the part before labor, and installing one on a double oven can mean pulling the whole unit out of the cabinet. On an appliance over ten years old, that total is worth weighing against replacing it, particularly if the door seal is tired or the self-clean latch has already been apart. Before you commit, have a technician confirm the board, because a chafed wire and a dead control produce an identical display and only one of them is a $30 fix.",
+  "reset_procedure": "Switch the oven off at its breaker, wait five full minutes, then switch it back on. The wait matters, because the control holds residual charge and a quick off-on often leaves the stored fault in place. On a plug-in gas range you can pull the cord at the wall instead. A single F20 after a storm or a power cut frequently never comes back. One that returns within a cycle or two is a real fault, and resetting it a third time is just postponing the diagnosis.",
+  "model_notes": "GE uses both F2 and F20 for what is substantially the same over-temperature and sensor circuit condition, with the shorter F2 on older ranges and F20 on newer controls. The newer code is cavity-specific, so on a double oven it names the upper oven and the lower cavity reports separately. Some GE service literature describes F20 strictly as a sensor circuit resistance fault and some describes it as an over-temperature trip; in practice the diagnostic path is identical. Where a generic code chart disagrees with the sheet inside your own machine, trust the sheet.",
+  "parts": [
+    {
+      "name": "Oven temperature sensor, the RTD probe",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "The common fix; two screws and a plug"
+    },
+    {
+      "name": "Sensor harness or pigtail connector",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "For a wire that fails the flex test rather than a dead probe"
+    },
+    {
+      "name": "Oven control board",
+      "cost": "$200 to $400",
+      "difficulty": "technician only",
+      "note": "Only after the sensor and harness are proved good"
+    },
+    {
+      "name": "Oven thermometer",
+      "cost": "$8 to $20",
+      "difficulty": "easy",
+      "note": "Worth owning; it tells you whether the oven is really overheating"
+    }
+  ],
+  "when_to_call": "Call immediately, and leave the breaker off in the meantime, if an element glows with no cycle running or an oven thermometer shows the cavity climbing past its set point. That is a control that cannot turn the heat off and it is not something to live with for a week. Call a licensed gas technician for any gas range fault beyond the temperature sensor, because the valve, burner and safety circuit are trade work. Otherwise, bring someone in once the sensor measures correctly and the harness is sound, since the remaining work is board-level diagnosis on a live 240 volt appliance and a wall oven that has to come out of its cabinet.",
+  "faqs": [
+    {
+      "q": "What does F20 mean on a GE oven?",
+      "a": "The control is seeing a temperature sensor reading outside the range it accepts and has treated it as runaway heat, so it has shut the heating off. On a double oven it refers to the upper cavity. Most of the time the oven is not actually overheating and the sensor or its wiring is at fault, but a stuck control relay gives the same code and does mean real heat."
+    },
+    {
+      "q": "Is F20 the same as F2 on a GE oven?",
+      "a": "Effectively yes. F2 is the older short form of the same over-temperature and sensor circuit fault, and F20 is what newer GE controls display, with the advantage that it identifies which cavity is complaining. The test sequence is identical: measure the sensor, flex the harness, then suspect the board."
+    },
+    {
+      "q": "Can I use the lower oven while the upper shows F20?",
+      "a": "Usually yes on a true double oven, because each cavity has its own sensor and heating circuit. Run the lower oven once with a thermometer on the rack to confirm it holds temperature properly. If the code is on a single oven, or the lower cavity also behaves oddly, switch the whole appliance off at the breaker instead."
+    },
+    {
+      "q": "Why did F20 appear after a self-clean cycle?",
+      "a": "Self-clean drives the cavity hundreds of degrees above any cooking temperature and holds it there for hours, which is harder on the sensor, door latch and control board than years of normal baking. A disproportionate share of GE oven faults, this one included, appear during or just after a clean cycle. Scrape the oven by hand instead."
+    },
+    {
+      "q": "How much does an F20 repair cost?",
+      "a": "A temperature sensor is $20 to $50 as a part and roughly an hour of work, or about $180 to $280 with a technician. A control board is $200 to $400 for the part plus labor, so figure $350 to $600 fitted. Test the sensor before ordering anything, because the cheap answer is also the usual one."
+    },
+    {
+      "q": "Will unplugging the oven clear F20 permanently?",
+      "a": "Only if the code came from a one-off glitch such as a power cut. Switch off at the breaker for five minutes and see. If F20 returns within a cycle or two the fault is physically present, and clearing it again only hides a sensor circuit problem that is going to stop the oven heating anyway."
+    },
+    {
+      "q": "Can a bad sensor make the oven cook at the wrong temperature?",
+      "a": "Yes, and that is often the warning sign before the code arrives. A sensor drifting high makes the oven run cool, because the board thinks it has reached the set point early. If your baking has been coming out underdone for months and now the panel shows F20, those are the same fault at two stages."
+    }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The sensor circuit F20 is reporting, and the four places it breaks",
+    "labels": {
+      "display": "F20",
+      "c1": "Breaker off, five minute reset",
+      "c2": "Sensor probe in the upper cavity",
+      "c3": "Rear connector and harness run",
+      "c4": "Oven control board relay"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE range and wall oven fault codes, sensor circuit diagnostics",
+      "publisher": "GE Appliances service mini-manual supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "GE oven F2 and F20 over-temperature code guidance",
+      "publisher": "iFixit community repair wiki",
+      "url": null
+    },
+    {
+      "title": "F20 field reports on GE ranges and wall ovens",
+      "publisher": "AppliancePartsPros technician forum threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F2",
+    "F3",
+    "F4",
+    "F76",
+    "F96",
+    "F97"
+  ]
+}

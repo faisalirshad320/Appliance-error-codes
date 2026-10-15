@@ -1,0 +1,131 @@
+{
+  "title": "Whirlpool Dryer F70 Code: Boards Not Talking",
+  "meta_description": "F70 on a Whirlpool dryer means the console and main control board have lost communication. Reset at the breaker, then check the harness between them.",
+  "h1": "Whirlpool dryer F70 error code: the two control boards have stopped talking",
+  "answer": "F70 means the user interface board behind the console and the main control board in the machine are no longer communicating. Neither board has necessarily failed; the message between them is not getting through. It shows up most on Duet-era Whirlpool dryers. Cut power at the breaker for a few minutes first, because a surge or a brownout can leave the two boards out of step and a full power-down often puts them back in sync. If it returns, the connector or the harness between the boards is the next suspect, well before either board.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "10 minutes to reset, 1 to 2 hours to check the harness",
+  "cost_estimate": { "diy": "$0 to $220 depending on which board", "technician": "$250 to $500" },
+  "safety_warning": "The console and the main control sit on a 240 volt circuit and board capacitors can hold a charge after power is cut. Switch off the dryer's breaker and unplug it before removing any panel, and never probe a live board. On a gas model, close the gas shutoff valve before moving the machine.",
+  "causes": [
+    {
+      "cause": "A loose, corroded or partly unplugged connector at one end of the link",
+      "frequency": "most cases",
+      "confirm": "Unplug the dryer, open the console and the main control cover, and work the connector at each end of the harness off and back on. One that lifts away with no resistance, shows green crust, or has a pin pushed back into its housing is the answer. This is both the most common cause and the cheapest."
+    },
+    {
+      "cause": "A control left out of step by a surge, outage or brownout",
+      "frequency": "common",
+      "confirm": "F70 appeared the day after a storm or a power cut and a five minute breaker reset clears it for good. If the dryer then runs normally for a week, nothing is broken."
+    },
+    {
+      "cause": "The harness between the boards is chafed or broken",
+      "frequency": "common",
+      "confirm": "Run the harness through your fingers along its full length, especially where it passes over a cabinet edge or through a grommet. A flattened section, a nick through the sheath, or a wire that moves oddly under the insulation means a broken core. Vibration over years does this."
+    },
+    {
+      "cause": "The user interface board has failed",
+      "frequency": "occasional",
+      "confirm": "The connectors and harness check out, and the console behaves oddly in other ways: dead segments on the display, buttons that need a hard press, or a panel that lights up but never responds. The console side is the more common of the two boards to go."
+    },
+    {
+      "cause": "The main control board has failed",
+      "frequency": "occasional",
+      "confirm": "Connectors clean, harness sound, console behaving normally, and F70 still appears on every power-up. This is the expensive answer and should be the last one reached, not the first one guessed."
+    },
+    {
+      "cause": "Moisture or insects bridging tracks inside the console",
+      "frequency": "rare",
+      "confirm": "A dryer in a damp basement or garage, with water staining, white powdery corrosion on a board, or a nest inside the console. Both interfere with low-voltage signaling between boards long before they stop anything else working."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Power the dryer down completely",
+      "detail": "Switch the dryer's breaker off, or unplug it at the wall, and leave it for five minutes. Some technicians recommend longer, up to half an hour, on Duet machines so the boards fully discharge. Restore power, wait ten seconds before pressing anything, then start a timed dry. A clean restart puts two out-of-step boards back in sync surprisingly often.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Note whether the console works at all",
+      "detail": "With power on, press a few buttons and watch the display. A console that lights, beeps and changes cycles is talking to itself but not to the main control, which points at the harness. A console that is dim, dead in places, or unresponsive points at the user interface board. Write down which it is, because it halves the diagnosis.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Unplug and open the console",
+      "detail": "Breaker off and plug out. On most Duet-style dryers the console comes free after two or three screws along the top rear edge, then tips forward or lifts off its tabs. Photograph every connector and the harness routing before you disturb anything. The display ribbon is short, so lift the panel only as far as it comfortably goes.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, nut driver set, phone camera",
+      "warning": "Unplug at the wall or kill the breaker first, and give the boards a few minutes before touching them."
+    },
+    {
+      "name": "Reseat the connectors at both ends of the link",
+      "detail": "Touch the bare cabinet to discharge static. Pull the harness connector off the user interface board and push it back until it clicks, then do the same at the main control board end. Look into each housing for green corrosion or a terminal that has backed out, and gently nudge any proud pin back into place with a small screwdriver. Reseating alone fixes a large share of F70s.",
+      "minutes": 20,
+      "tools": "Flashlight, small flat screwdriver",
+      "warning": null
+    },
+    {
+      "name": "Follow the harness and look for damage",
+      "detail": "Trace the loom from the console to the main control with your fingers and a flashlight. Pay attention where it crosses a sheet metal edge, passes through a grommet, or runs near the drum where it gets warm. A flat spot, a nick in the sheath, or melted insulation means the harness is the fault and no new board will help. Reroute and protect anything rubbing.",
+      "minutes": 25,
+      "tools": "Flashlight",
+      "warning": null
+    },
+    {
+      "name": "Clean out damp, corrosion or a nest",
+      "detail": "If the console shows water staining or white crusty deposits, blow it out with canned air, clean the area with isopropyl alcohol on a cotton bud and let it dry for a couple of hours before power goes back on. Remove any insect nest completely. Low-voltage communication between boards is the first thing contamination breaks, so this is a real fix rather than a long shot.",
+      "minutes": 30,
+      "tools": "Isopropyl alcohol, cotton buds, canned air",
+      "warning": null
+    },
+    {
+      "name": "Reassemble and run a timed dry",
+      "detail": "Put everything back exactly as photographed, make sure the harness is clear of any sharp edge, and refit the console screws before restoring power. Run a timed dry rather than an automatic cycle so you get an answer in two minutes. If F70 is gone, run one more full load before declaring victory, because an intermittent connector often behaves for the first few minutes.",
+      "minutes": 20,
+      "tools": "Phillips #2 screwdriver",
+      "warning": null
+    }
+  ],
+  "still_showing": "If F70 survives a full power-down and a connector reseat, the question is which end of the link has failed, and the cheap checks come first. Start with the harness, not a board. Unplug the machine, disconnect the loom at both ends and look into every cavity of both connector housings with a flashlight: a single terminal that has backed out a couple of millimeters breaks communication perfectly while looking plugged in. Then run the harness through your fingers along its whole length, especially where it crosses a cabinet edge or passes close to the drum, feeling for a flat spot or a nick. A chafed harness is the fault that keeps coming back after people have fitted two boards. Next, use the console's own behavior to pick the suspect. If the display is dim, has dead segments, or needs a hard press to register a button, the user interface board is the likely failure, and that part runs $90 to $220. If the console lights and responds normally but the dryer never does anything, the main control is more likely, at $150 to $320. Many technicians replace the console board first on F70 simply because it is the cheaper half and the more common failure, which is a reasonable gamble if you are doing the work yourself but an expensive one at a shop's parts markup. The cost jumps here: a technician diagnosing and fitting a board on an F70 generally lands between $250 and $500 once the call-out and labor are in, against roughly $550 to $900 for a comparable new dryer. On a machine over eight years old, get that comparison before you authorize the work. And if a new board clears F70 for a few weeks and then it returns, stop buying boards; something is wrong with the harness or with the supply, and a third board will go the same way.",
+  "reset_procedure": "Switch the dryer's breaker off, or unplug it, and leave it a full five minutes; on Duet models some technicians use half an hour to be sure both boards have discharged. Restore power and wait ten seconds before touching the controls. Test with a timed dry cycle so you find out immediately rather than waiting out an automatic one.",
+  "model_notes": "F70 is the three-character style used on Duet-era Whirlpool dryers and the Kenmore and Maytag machines built alongside them. On models using the two-part function-and-fault system the same communication failure reads F6 E1, and on some ranges a companion code F71 points at the same link from the other board's point of view. All of them mean the same thing: the console and the main control cannot hear each other. Whirlpool's published guidance for F70 is a power reset, with no part named, which is itself a hint that the cause is often not a failed board at all.",
+  "parts": [
+    { "name": "User interface or console board", "cost": "$90 to $220", "difficulty": "moderate", "note": "The more common of the two boards to fail, and the cheaper half" },
+    { "name": "Main electronic control board", "cost": "$150 to $320", "difficulty": "moderate", "note": "Order by exact model number; boards look alike across a range and are not interchangeable" },
+    { "name": "Console to main control wiring harness", "cost": "$25 to $80", "difficulty": "moderate", "note": "The fix that stops F70 coming back after two new boards" },
+    { "name": "Connector terminal repair kit", "cost": "$12 to $35", "difficulty": "moderate", "note": "For a backed-out or corroded terminal, far cheaper than condemning a board" }
+  ],
+  "when_to_call": "Call a technician if the harness and connectors are sound and you are being asked to choose between two boards on a guess, because an hour of diagnosis is cheaper than the wrong $220 part. Call one if F70 returns after a board has already been replaced, since something else is breaking the link. Call a licensed gas technician for anything touching the gas valve wiring on a gas model. And if the dryer is over eight years old and the quote comes in near $450, price a new machine alongside it before saying yes.",
+  "faqs": [
+    { "q": "What does F70 mean on a Whirlpool dryer?", "a": "The user interface board behind the console and the main control board inside the machine have lost communication with each other. It is a link failure rather than proof that either board is dead. The connector and harness between them are the most common cause, which is why a reset and a reseat are the first two things to try." },
+    { "q": "How do I reset a Whirlpool dryer with an F70 code?", "a": "Switch the dryer's breaker off for five full minutes, or unplug it; on Duet models some technicians leave it half an hour so both boards fully discharge. Restore power, wait ten seconds, then run a timed dry. If a surge or outage knocked the boards out of step, this clears it for good." },
+    { "q": "Does F70 mean I need a new control board?", "a": "Not necessarily, and assuming so is how people end up spending $300 unnecessarily. The commonest cause by a distance is a loose or corroded connector at one end of the harness, followed by the harness itself chafing on a cabinet edge. Check both of those before anyone names a board." },
+    { "q": "Which board should I replace if I have to guess?", "a": "The console or user interface board is both the more common failure and the cheaper half, at $90 to $220 against $150 to $320 for the main control. If the display is dim, has dead segments, or needs a hard press to register, that confirms it. If the console behaves perfectly and the dryer does nothing, the main control is the likelier suspect." },
+    { "q": "Can I still use the dryer with F70 showing?", "a": "No. With the two boards out of communication the dryer will not run a cycle, and there is nothing to be gained by trying repeatedly. There is no hazard in leaving it unplugged while you work out the fix, which is the sensible thing to do if the laundry is going to wait a few days." },
+    { "q": "Why did F70 appear right after a power cut?", "a": "Surges, outages and brownouts leave the two boards out of step with each other, which is exactly what F70 reports. This is the best version of the code to get, because a full power-down for five minutes often puts them back in sync at no cost. If the surge actually damaged a board, the code returns immediately." },
+    { "q": "Is F70 the same as F6 E1?", "a": "Yes, in substance. F70 is the older single-code style and F6 E1 is the same communication failure on models using the two-part function-and-fault system. Some ranges also use F71 for the same link seen from the other board. The diagnosis and the parts list are identical whichever way it is displayed." }
+  ],
+  "diagram": {
+    "kind": "control-board",
+    "caption": "The link F70 is complaining about, and the four places it breaks",
+    "labels": {
+      "display": "F70",
+      "c1": "Breaker off five minutes first",
+      "c2": "Console board connector",
+      "c3": "Harness chafe along cabinet edge",
+      "c4": "Main control board connector"
+    }
+  },
+  "sources": [
+    { "title": "Dryer error code listing and reset guidance for F70", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Duet dryer technical sheet, communication fault codes between control and interface", "publisher": "Service sheet supplied inside the dryer console", "url": null },
+    { "title": "F70 diagnosis threads, harness and connector findings before board replacement", "publisher": "Appliance technician Q and A sites and repair forums", "url": null },
+    { "title": "Field reports on F70 recurring after board replacement", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F6 E1", "F01", "F1", "F2 E1", "PF"]
+}

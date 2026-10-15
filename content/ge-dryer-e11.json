@@ -1,0 +1,202 @@
+{
+  "title": "GE Dryer E11 Error Code: What It Means and How to Fix",
+  "meta_description": "GE dryer E11 is a heating fault: the drum never got as hot as the control expected. Usually a blocked vent, a failed element or a tripped cut-out.",
+  "h1": "GE dryer E11 error code: what it means and how to fix it",
+  "answer": "E11 on a GE dryer is a heating fault. The control turned the heat on, watched the temperature in the drum, and did not see it climb the way it expects, so it stopped the cycle rather than tumbling cold clothes for an hour. The usual physical cause is not the control at all: it is restricted airflow that has already opened a thermal fuse, an electric element that has burned open, or on a 240-volt machine the loss of one leg of the supply. GE does not publish a single public definition of E11 across its dryer range, so treat it as a heating-circuit fault and work the heat path from the cheapest end.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "30 minutes to check airflow, 1 to 2 hours for the heat circuit",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$160 to $400"
+  },
+  "safety_warning": "An electric dryer runs on a 240-volt circuit and the heater terminals stay dangerous even when the drum is cold. Unplug the dryer, or switch off and lock out its breaker, before removing any panel. On a gas dryer, shut the gas valve as well, and leave burner, valve and gas line work to a licensed technician.",
+  "causes": [
+    {
+      "cause": "A blocked lint screen or exhaust vent has overheated the dryer and opened a thermal fuse or thermal cut-off",
+      "frequency": "most cases",
+      "confirm": "The drum turns and the cycle runs but nothing gets warm, and the vent run has not been cleaned in years. Pull the duct off the back of the dryer and look at the inside; a layer of packed lint you can scrape with a fingernail is enough to cause this. Outside, the wall cap flap should swing wide open while the dryer runs. If it barely lifts, the duct is the problem and the fuse is only the symptom."
+    },
+    {
+      "cause": "The heating element has burned open on an electric dryer",
+      "frequency": "common",
+      "confirm": "Everything else works, the air coming out of the vent is room temperature, and a continuity check across the element terminals with the dryer unplugged reads open. A broken element coil is usually visible as a bright break or a sagged, fused loop when you pull the element can out and look along the coil."
+    },
+    {
+      "cause": "One leg of the 240-volt supply is missing",
+      "frequency": "common",
+      "confirm": "This is the classic no-heat pattern: the drum spins, the light and the panel work normally, and nothing heats, because the motor and controls run on 120 volts while the element needs both legs. Reset the double-pole breaker firmly off and back on. If this is a new installation or the dryer has just been moved, a loose or wrongly made cord connection at the terminal block does the same thing."
+    },
+    {
+      "cause": "The inlet thermistor or temperature sensor is reading wrong",
+      "frequency": "occasional",
+      "confirm": "The dryer actually does get hot, sometimes very hot, but still stops with E11, or it throws the code within the first few minutes every time regardless of load. Some GE model lines use E11 specifically for a temperature-sensor fault rather than a heater fault, so a dryer that clearly heats and still shows E11 is pointing at the sensor or its wiring."
+    },
+    {
+      "cause": "On a gas dryer, the igniter or gas valve coils are not lighting the burner",
+      "frequency": "occasional",
+      "confirm": "Watch the burner through the inspection port with the dryer running. The igniter should glow bright orange, then the flame should light within a few seconds. An igniter that glows and glows and never produces a flame means the valve coils are failing. No glow at all means the igniter or the circuit feeding it."
+    },
+    {
+      "cause": "The harness to the heater or sensor, or the main control board",
+      "frequency": "rare",
+      "confirm": "The element measures good, the supply is good, the sensor measures good, and the heater still never energizes when the cycle calls for it. Check every connector in the heat circuit for a burned, browned or pushed-back terminal before anyone condemns a board; heater connectors run hot and are a far more common failure than the board behind them."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Clean the lint screen and the area under it",
+      "detail": "Pull the screen, clear the lint mat off it, then wash it under a hot tap with a little dish soap and a brush. Fabric softener leaves an invisible film that blocks air even on a screen that looks clean. Hold it up and pour water through it: if the water sits on the mesh rather than running straight through, it is blocked. Then vacuum the slot the screen drops into with a narrow crevice tool.",
+      "minutes": 10,
+      "tools": "Vacuum with crevice tool, soft brush",
+      "warning": null
+    },
+    {
+      "name": "Pull the dryer out and clear the whole exhaust duct",
+      "detail": "Unplug the dryer. Undo the clamp at the back and pull the duct off. Run a dryer vent brush or a vacuum hose through the full length, then go outside and open the wall cap and clear the flap, which is where nests and matted lint collect. Replace any white vinyl or thin foil flexible duct with rigid or semi-rigid metal, and keep the run as short and straight as you can. This one job fixes more no-heat dryers than every part on the parts list combined.",
+      "minutes": 45,
+      "tools": "Vent brush kit, vacuum, nut driver or screwdriver",
+      "warning": "Unplug the dryer before moving it. On a gas dryer do not strain or twist the flexible gas connector while pulling the machine out."
+    },
+    {
+      "name": "Reset the breaker properly and check the cord",
+      "detail": "At the panel, push the dryer's double-pole breaker firmly to Off until it clicks, then back to On. A half-tripped breaker still looks like it is on and still feeds 120 volts, which is exactly enough to spin the drum with no heat. If the dryer was recently installed or moved, check that the power cord is landed correctly at the terminal block behind the small cover on the back panel and that nothing has worked loose.",
+      "minutes": 10,
+      "tools": "Nut driver",
+      "warning": "Unplug the dryer or switch off its breaker before removing the terminal block cover. The terminal block is live at 240 volts with the dryer plugged in."
+    },
+    {
+      "name": "Power cycle the dryer and retest",
+      "detail": "With the vent clear, unplug the dryer for five minutes, plug it back in and run a timed cycle with a couple of damp towels in it. The control holds the fault until it is cleared, so a dryer whose vent you have just fixed may still throw E11 on the first start. Put a hand in the exhaust airflow outside after five minutes: it should be noticeably warm and moving with force.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test the thermal fuse and the heating element",
+      "detail": "Unplug the dryer and take the back panel off. The thermal fuse is a small white or black plastic block mounted on the blower housing or the heater can, with two wires on it. With the wires off one end, a multimeter on continuity should beep through it; if it is silent, the fuse is blown and the vent is why. Test the element the same way across its two terminals. Note both results before buying anything, because a blown fuse with a good element means the real repair is the duct.",
+      "minutes": 35,
+      "tools": "Nut driver, Phillips screwdriver, multimeter",
+      "warning": "Unplug the dryer at the wall before removing any panel. Do not bypass, jumper or defeat a thermal fuse or high-limit thermostat; it is the device that stops a lint fire."
+    },
+    {
+      "name": "Check the temperature sensor if the dryer does heat",
+      "detail": "If the drum clearly gets hot and E11 still appears, the fault is in what the control is being told rather than in the heat. Find the inlet thermistor on the blower housing or the heater inlet, unplug its connector and measure across the two terminals with the dryer unplugged and cold. It should read a sensible, stable resistance rather than open or dead short. Look up the exact figure for your model on the tech sheet folded inside the dryer, usually behind the kickplate or the control panel, instead of trusting a generic number.",
+      "minutes": 30,
+      "tools": "Nut driver, multimeter",
+      "warning": "Unplug the dryer before touching any sensor or connector."
+    },
+    {
+      "name": "Inspect every connector in the heat circuit",
+      "detail": "Before anyone talks about a control board, look at the spade terminals on the element, the thermal fuse, the high-limit thermostat and the sensor. Heater connections run hot for years and the usual failure is a terminal that has browned, loosened and started arcing rather than a component that has died. A discolored connector or a terminal you can wiggle with light finger pressure is your fault, and the fix is a new terminal crimped on, not a board.",
+      "minutes": 20,
+      "tools": "Flashlight, needle-nose pliers",
+      "warning": "Dryer unplugged. Any sign of melted insulation or charred plastic in the heat circuit means stop and get a technician in."
+    }
+  ],
+  "still_showing": "If the vent is genuinely clear, the breaker has been cycled and E11 is still there, work in this order because the cost steps up at each stage. First, establish whether the dryer heats at all. Run it for five minutes and feel the air at the outside vent cap. Warm air plus E11 is a completely different fault from cold air plus E11, and getting this wrong sends you to the wrong half of the machine. Second, with cold air, unplug and test the thermal fuse. A blown fuse is a $10 to $25 part, but replacing it and nothing else just means it will blow again, so fit it only after the duct is clear. Third, test the element across its terminals. An open element is $40 to $90 on an electric dryer and is a realistic job for anyone comfortable taking the back off, though the heater can usually needs the drum belt released. On a gas machine this stage is the burner instead: watch the igniter through the port, and if it glows but never lights, stop and call a technician, because the gas valve and its coils are not a DIY part. Fourth, with warm air and a persistent code, you are looking at the inlet thermistor and its harness. The sensor is typically $20 to $50. Fifth, if the element, fuse, sensor and supply all check good and the heater still never energizes, check every spade terminal in the circuit for browning and arcing before replacing the main control board, which is the only genuinely expensive part in this fault and the least likely to be the problem. One more thing worth knowing: GE's published code tables are not consistent about E11 across model lines, and some lines use it for a temperature sensor fault rather than a heater fault. The tech sheet folded inside your own dryer is the only definition that is certainly right for your machine, and it is worth five minutes to find it before you spend money.",
+  "reset_procedure": "Press Power to cancel, unplug the dryer at the wall or switch off its breaker, wait five minutes, then restore power. The control stores the heating fault and will show it again on the next start even if the vent is now clear, so the reset is not optional once you have fixed something. Test with a timed cycle and a small damp load rather than an auto-dry cycle, because auto-dry decides when to stop by reading moisture and will muddy the result.",
+  "model_notes": "GE has used several different code systems across its dryer range, and E-prefixed codes appear mainly on the newer front-load and UltraFresh style machines with a digital display. Older GE dryers signal faults with blinking lights or by entering a service mode instead and never show E11 at all. More importantly, the published tables disagree about E11 itself: some describe it as a heating fault where the temperature did not rise as expected, others as an inlet thermistor or temperature sensor fault. Both readings point at the same circuit from opposite ends, which is why the first test on this page is simply whether the dryer gets hot. Check the tech sheet inside your own machine for the definition that applies to your model, and treat any generic chart, including this one, as a starting point rather than gospel.",
+  "parts": [
+    {
+      "name": "Thermal fuse",
+      "cost": "$10 to $25",
+      "difficulty": "easy",
+      "note": "Never fit one without clearing the vent that blew it"
+    },
+    {
+      "name": "Heating element and can assembly (electric)",
+      "cost": "$40 to $90",
+      "difficulty": "moderate",
+      "note": "Check the element alone first; the can is often reusable"
+    },
+    {
+      "name": "Inlet thermistor or temperature sensor",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "The part to look at when the dryer does heat but still codes"
+    },
+    {
+      "name": "High-limit thermostat",
+      "cost": "$15 to $35",
+      "difficulty": "moderate",
+      "note": "Often sold with the thermal fuse as a kit; same airflow cause"
+    },
+    {
+      "name": "Main control board",
+      "cost": "$150 to $350",
+      "difficulty": "technician only",
+      "note": "Last resort, and only after every heat-circuit connector has been inspected"
+    }
+  ],
+  "when_to_call": "Call a technician if this is a gas dryer and the igniter glows but the burner never lights, because the gas valve and its coils are not a part to experiment with, and any smell of gas means shut the valve, open a window, leave and phone it in rather than troubleshooting. On an electric machine, call if you find melted insulation, charred plastic or a burned terminal block, since that is a wiring repair rather than a parts swap. Call too if the element, fuse, sensor and supply all test good and the heater still does nothing, because the next step is measuring a live 240-volt circuit under load and that is not a sensible first multimeter job. Finally, if the dryer is in an apartment or a shared laundry where you cannot access the full vent run, report it rather than clearing what you can reach; most of these ducts are blocked in the part you cannot see.",
+  "faqs": [
+    {
+      "q": "Can I still use my GE dryer with an E11 code?",
+      "a": "No, and you should not try to force it. The control stops the cycle because it cannot confirm the heat is behaving, and the most common reason behind that is a blocked vent, which is a genuine fire risk rather than an inconvenience. Clear the lint screen and the exhaust duct before running the dryer again, even if the code clears on its own."
+    },
+    {
+      "q": "Why does my GE dryer run but not heat?",
+      "a": "On a 240-volt electric dryer the drum motor runs on half the supply, so losing one leg at the breaker or the cord gives you a dryer that tumbles perfectly and never warms up. The other two usual causes are an element that has burned open and a thermal fuse that has blown because the exhaust vent is clogged. Check the breaker and the vent before buying parts."
+    },
+    {
+      "q": "Will replacing the thermal fuse fix E11 for good?",
+      "a": "Only if you also fix what blew it. A thermal fuse is a one-shot safety device that opens when the dryer overheats, and the overheating almost always comes from restricted airflow. Fit a new fuse into a blocked vent and it will blow again, sometimes on the first load. Clear the full duct run and the outside wall cap first, then fit the fuse."
+    },
+    {
+      "q": "Why did E11 appear suddenly when the dryer was fine yesterday?",
+      "a": "Vents clog gradually and then cross a threshold, so months of buildup look like a single overnight failure. Thermal fuses behave the same way: they survive borderline airflow for a long time and then open all at once. A heating element can also fail instantly, with no warning, which is why a dryer that was fine yesterday can be stone cold today."
+    },
+    {
+      "q": "Does E11 mean the same thing on every GE dryer?",
+      "a": "No, and that is the honest answer. GE's published code tables are not consistent about E11 between model lines: some define it as a heating fault and others as a temperature sensor fault. Both sit in the same circuit, so the diagnostic path is similar, but the tech sheet inside your own dryer is the only definition guaranteed to match your machine."
+    },
+    {
+      "q": "Is a GE dryer with E11 worth repairing?",
+      "a": "Usually yes. The most common fixes are free or cheap: cleaning the vent costs nothing, a thermal fuse is $10 to $25 and an element is $40 to $90. Even with a technician the bill is normally well under the price of a new dryer. Replacement only makes sense if the answer turns out to be a main control board on a machine already near ten years old."
+    },
+    {
+      "q": "Is my Hotpoint or GE Profile dryer the same machine?",
+      "a": "Closely related. Hotpoint and GE Profile are both GE Appliances brands in the United States, and the laundry platforms, parts and service literature overlap heavily. A code on one often means the same thing on the other, and parts counters look them up through the same GE system. Always confirm against the tech sheet for your exact model number rather than assuming."
+    }
+  ],
+  "diagram": {
+    "kind": "dryer-vent-path",
+    "caption": "The heat path on a GE dryer, and where E11 usually starts.",
+    "labels": {
+      "display": "E11",
+      "c1": "Lint screen and its slot",
+      "c2": "Full exhaust duct run",
+      "c3": "Thermal fuse on blower housing",
+      "c4": "Outside wall cap flap"
+    }
+  },
+  "sources": [
+    {
+      "title": "GE dryer troubleshooting and error code guidance",
+      "publisher": "GE Appliances owner support documentation",
+      "url": null
+    },
+    {
+      "title": "Dryer tech sheet supplied inside the machine, heating circuit diagnostics",
+      "publisher": "GE Appliances service literature",
+      "url": null
+    },
+    {
+      "title": "Conflicting published definitions of E11 across GE dryer model lines",
+      "publisher": "Appliance parts and repair reference sites",
+      "url": null
+    },
+    {
+      "title": "Field reports on no-heat GE dryers and blocked vent runs",
+      "publisher": "Appliance repair community forums",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "E12",
+    "E60",
+    "HE",
+    "E1"
+  ]
+}

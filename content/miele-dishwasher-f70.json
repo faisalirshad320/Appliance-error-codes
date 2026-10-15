@@ -1,0 +1,203 @@
+{
+  "title": "Miele Dishwasher F70 Error Code: Causes and Fix",
+  "meta_description": "Miele F70 means the float in the base tray has lifted or its switch is faulty. Usually a real leak the Waterproof system caught.",
+  "h1": "Miele dishwasher F70: float and water level fault explained",
+  "answer": "F70 means the water-level float in the base of your Miele dishwasher is reading high, or the switch that watches it is not reading correctly. Most of the time there is genuinely water in the base tray and the machine has locked itself out on purpose: that is Miele's Waterproof system doing its job, not a glitch. The code is a symptom, and the leak that filled the tray is the actual fault. Find and fix the leak, dry the tray, and the code clears.",
+  "severity": "serious",
+  "can_diy": "sometimes",
+  "time_estimate": "1 to 3 hours to find the leak",
+  "cost_estimate": {
+    "diy": "$0 to $90",
+    "technician": "$250 to $600"
+  },
+  "safety_warning": "There is water sitting in the base of the machine, inches from mains wiring, the heater circuit and the pump motors. Switch the dishwasher off at its breaker before you remove the kickplate or reach underneath, and close the water supply valve. Never disconnect, wedge or bypass the float to get the machine running: it is the only thing standing between a slow leak and a flooded kitchen floor.",
+  "causes": [
+    {
+      "cause": "A real leak has filled the base tray and lifted the float",
+      "frequency": "most cases",
+      "confirm": "Take the kickplate off and shine a flashlight into the base. Standing water, or a dark tide line across the tray floor, confirms it. The drain pump often runs continuously, even with the program cancelled, because the control is trying to empty the tray."
+    },
+    {
+      "cause": "Oversudsing pushed water out of the tub and into the base",
+      "frequency": "common",
+      "confirm": "Someone put hand dishwashing liquid, laundry detergent or too much rinse aid in the machine. You will find foam residue around the door seal or in the base tray, and the problem started on the very next cycle after whoever did it."
+    },
+    {
+      "cause": "The door seal or the door itself is leaking down the front",
+      "frequency": "common",
+      "confirm": "Run the machine and watch the bottom of the door during the main wash. Water tracking down the inside of the door and over the lip, or a seal that is hard, split or has food packed into the channel, puts the water straight into the base."
+    },
+    {
+      "cause": "A hose clip, sump gasket or spray arm feed is weeping",
+      "frequency": "occasional",
+      "confirm": "The tray refills slowly over several cycles rather than all at once. Dry the base completely, lay a sheet of white paper towel across it, run a short program and look at where the paper wets first. That tells you which side of the machine the drip comes from."
+    },
+    {
+      "cause": "The float switch or its wiring has failed with a dry tray",
+      "frequency": "occasional",
+      "confirm": "The base is bone dry, there is no tide line anywhere, and F70 appears the instant the machine is powered on rather than part way through a cycle. Check the connector at the switch for corrosion before condemning anything."
+    },
+    {
+      "cause": "The machine was tipped, moved or recently installed",
+      "frequency": "rare",
+      "confirm": "F70 started within a day or two of the machine being pulled out, laid back, or fitted. Water left in the sump runs into the tray when a dishwasher is tilted, and there is no leak to find at all. Dry the tray and the code does not come back."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Kill the power and close the water supply",
+      "detail": "Switch the dishwasher off at its breaker, not just at the on/off button, and close the supply valve under the sink or behind the machine. If the drain pump is running continuously it will keep running until you cut the power, which is normal for a Waterproof lockout. Do both before you touch anything else, because the next step puts your hands under a machine with water in it.",
+      "minutes": 5,
+      "tools": null,
+      "warning": "Mains wiring and the heating circuit sit in the base of the machine. Breaker off, not just the on/off button."
+    },
+    {
+      "name": "Remove the kickplate and look into the base",
+      "detail": "The plinth panel across the bottom front is held by screws along its top or bottom edge, usually Torx or Phillips. Take them out, lift the panel away and shine a flashlight into the base tray. You are looking for standing water, a dried tide mark, or rust and mineral staining that tells you water has been there repeatedly. Photograph what you see before you dry it, because the pattern tells you where it came from.",
+      "minutes": 15,
+      "tools": "Torx and Phillips screwdrivers, flashlight",
+      "warning": null
+    },
+    {
+      "name": "Dry the tray out completely",
+      "detail": "Soak the water up with a cloth, or draw it out with a turkey baster or a wet-and-dry vacuum if the tray is deep. Get it properly dry, not damp, then dry the float itself if you can see it and check that it sits down flat and moves up and down freely when you lift it with a fingertip. A float gummed up with soap scum can stick in the raised position even after the water has gone.",
+      "minutes": 20,
+      "tools": "Cloths, turkey baster or wet-and-dry vacuum",
+      "warning": "Do not remove, wedge or disconnect the float. It is the flood protection, and a machine running without it can empty your supply pipe onto the floor."
+    },
+    {
+      "name": "Rule out suds before you hunt for a leak",
+      "detail": "Ask everyone in the house whether anything other than dishwasher detergent went in. Hand dish soap foams enormously in a dishwasher and pushes water straight over the tub edge, and one capful will do it. If that is what happened, run two or three rinse-only programs with no detergent at all to flush the foam out, dry the tray again, and treat it as solved rather than chasing a leak that does not exist.",
+      "minutes": 15,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the leak with a paper towel trace",
+      "detail": "With the tray dry and the kickplate still off, lay white paper towel across the base floor from side to side. Restore power, run a short program and watch from the front with a flashlight. Check the towel after the fill, after the main wash and after the drain. The first patch to wet tells you whether the water is coming from the door at the front, the sump and pump in the middle, or the inlet and valve at the back.",
+      "minutes": 40,
+      "tools": "White paper towel, flashlight",
+      "warning": "Keep your hands out of the base while the machine is running. Watch, do not reach."
+    },
+    {
+      "name": "Check the door seal and the door lip",
+      "detail": "Run a finger all the way round the door gasket. It should be soft and springy. Hard, flattened, split or food-packed means it is letting water past, and a seal is a press-fit part most people can change in twenty minutes. Also check that the machine is level front to back and side to side: a dishwasher tipped forward sends wash water down the inside of the door rather than back into the tub.",
+      "minutes": 20,
+      "tools": "Spirit level, adjustable wrench for the feet",
+      "warning": null
+    },
+    {
+      "name": "Check the inlet connection at the back",
+      "detail": "With the water still off, look at the point where the supply hose meets the machine and where it meets the valve under the sink. Miele's Waterproof inlet hose has a sheath over it and a valve at the tap end, so a weep inside the sheath can run down to the machine and show up in the base tray with nothing visible from outside. Feel the full length of the hose for a damp or swollen section.",
+      "minutes": 15,
+      "tools": "Flashlight, cloth",
+      "warning": null
+    }
+  ],
+  "still_showing": "If the tray is dry, the float moves freely and F70 is still there the moment you power up, you are no longer looking for a leak and the order changes. First, check the float switch connector itself. On most Miele dishwashers the switch sits at the front of the base tray with a two-wire plug, and damp laundry-room air corrodes those terminals over years. Green deposits or a pin pushed back in the housing is a free fix and it is worth ten minutes before you spend anything. Second, confirm the tray is actually dry under the insulation mat rather than just on top of it; water wicks into the sound insulation and keeps a float wet long after the tray looks clear, and that is the single most common reason a cleared F70 comes straight back. Third, if the switch and the wiring are good, the fault is in the switch itself or in the electronic unit, and that is the point where the price jumps. A float switch is a modest part, often under $80, but reaching it means laying the machine on its back, which on a built-in Miele means disconnecting the water, the waste and the power and pulling it out of a tight housing. An authorized Miele call-out alone commonly runs $150 to $250 before any work, and the finished job with a switch is usually $250 to $400. If it turns out to be the electronic unit, expect $450 to $800, and be aware that Miele parts and labor both run materially higher than Bosch, Whirlpool or GE. That is worth saying plainly because Miele owners expect the opposite: a machine built to last twenty years is not a machine that is cheap to repair in year twelve. Before authorizing anything over $500, get it in writing, ask whether the call-out is credited against the work, and weigh it against the fact that a sound Miele cabinet often has another decade in it.",
+  "reset_procedure": "F70 will not reset while the float is up, and that is the point of it. Dry the base tray completely, make sure the float drops, then switch the machine off at its breaker for five minutes and back on. If the drain pump was running continuously, cutting the breaker is the only way to stop it. Run the shortest program you have as a test and stay in the room for the first fill. If the code returns during that fill, water is still getting into the base and you have not found the leak yet.",
+  "model_notes": "Every Miele dishwasher of the last few decades has the Waterproof system in some form: a float in the base tray, a safety valve at the inlet hose, and a control that pumps out and locks the machine when water is detected where it should not be. What varies is the reporting. Some generations show F70 on the display, some older machines with no display signal the same condition by flashing the inlet and drain indicators together and running the pump continuously, and the full Waterproof trip on some models also shuts the inlet valve at the tap end so the machine will not fill at all. The fix is the same in every case: find the water, not the code.",
+  "parts": [
+    {
+      "name": "Door seal or gasket",
+      "cost": "$40 to $110",
+      "difficulty": "easy",
+      "note": "Press fit into a channel. One of the few Miele parts that is genuinely a quick home job"
+    },
+    {
+      "name": "Float switch assembly",
+      "cost": "$45 to $120",
+      "difficulty": "hard",
+      "note": "Cheap part, awkward access. The machine usually has to come out and go on its back"
+    },
+    {
+      "name": "Sump gasket or hose clips",
+      "cost": "$15 to $60",
+      "difficulty": "hard",
+      "note": "Only reachable with the machine out of its housing"
+    },
+    {
+      "name": "Waterproof inlet hose with safety valve",
+      "cost": "$80 to $190",
+      "difficulty": "moderate",
+      "note": "Replaced as a complete assembly. Several times the price of a plain braided hose, and there is no generic substitute"
+    },
+    {
+      "name": "Electronic unit",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "Only after the float, the wiring and the tray have all been proved good"
+    }
+  ],
+  "when_to_call": "Call a technician if you find water in the base tray and cannot see where it is coming from after a paper-towel trace, because the next step is running the machine out of its housing with panels off and water flowing, which is awkward and wet work next to live circuits. Call sooner, not later, if the tray refills within one cycle of being dried: that is a fast leak and the Waterproof system is the only thing containing it. Stop using the machine entirely and call if you see water on the kitchen floor, under the adjacent cabinet, or staining the floor in front of the plinth, since at that point the containment has been overwhelmed and the damage to cabinetry will cost more than the repair. On Miele, ask for the call-out charge and whether it is credited against the work before you book, and get anything over $500 quoted in writing.",
+  "faqs": [
+    {
+      "q": "What is the Miele Waterproof system and is F70 the same thing?",
+      "a": "The Waterproof system is Miele's flood protection: a float in the base tray, a safety valve in the inlet hose, and a control that pumps out and locks the machine when it detects water in the base. F70 is the float reporting. They are related but not identical, because F70 can also appear with a dry tray when the switch or its wiring has failed."
+    },
+    {
+      "q": "How is this different from a simple blocked drain?",
+      "a": "A drain block leaves dirty water inside the tub, above the filter, where you can see it. F70 is about water underneath the tub, in the sealed base tray, where it should never be. A blocked drain is usually a free fix in the sump. F70 almost always means something is leaking, which is a different and more serious search."
+    },
+    {
+      "q": "Can I still use the dishwasher with F70 showing?",
+      "a": "No, and you should not try. The machine locks itself out deliberately and the drain pump may run continuously until you cut the breaker. Forcing it past a float trip means running a leaking machine with its flood protection ignored, which is how a slow drip becomes a ruined floor and a kitchen full of swollen cabinets."
+    },
+    {
+      "q": "Why did F70 appear right after the dishwasher was moved?",
+      "a": "Because tipping a dishwasher runs the water left in its sump straight into the base tray. The float lifts, the machine locks, and there is no leak at all. Dry the tray out, let the float drop, power cycle at the breaker and run a short program. If it stays clear for three or four cycles, that was all it was."
+    },
+    {
+      "q": "Can too much detergent cause F70?",
+      "a": "Hand dish soap or laundry detergent will, reliably and quickly. They foam far more than dishwasher detergent, and the foam carries water over the tub edge into the base. Regular dishwasher detergent in a sensible dose will not. Run two or three rinse-only cycles to flush the foam, dry the tray, and it usually does not recur."
+    },
+    {
+      "q": "Is F70 worth repairing on an older Miele?",
+      "a": "Usually yes if it is a seal, a hose or a float switch, and it needs thought if it is the electronic unit. A sealed-up Miele of twelve or fifteen years is often only halfway through its life, which changes the math against a mass-market machine. Weigh a $400 repair against a replacement that will not last as long."
+    },
+    {
+      "q": "Why is the drain pump running even though the program is cancelled?",
+      "a": "That is the Waterproof system responding, not a fault in the pump. When the float lifts, the control runs the drain pump continuously to clear whatever water it can and keep the base from filling further. It will not stop at the on/off button. Switch the machine off at its breaker to stop it, then deal with the water."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-sump-float",
+    "caption": "Where the float sits, and the four places the water comes from",
+    "labels": {
+      "display": "F70",
+      "c1": "Base tray float, must drop freely",
+      "c2": "Door seal leaking down the front",
+      "c3": "Sump and hose clips weeping",
+      "c4": "Inlet hose and Waterproof valve"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher operating instructions, Waterproof system description",
+      "publisher": "Miele owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher fault code tables and base tray float diagnostics",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher fault codes and their field causes",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Technician reports on F70, base tray leaks and float switch failures",
+      "publisher": "Appliantology and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F11",
+    "F78",
+    "F13",
+    "F24",
+    "F14"
+  ]
+}

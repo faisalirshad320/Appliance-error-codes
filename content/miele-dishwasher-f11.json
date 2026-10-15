@@ -1,0 +1,203 @@
+{
+  "title": "Miele Dishwasher F11 Error Code: Causes and Fix",
+  "meta_description": "Miele F11 means the dishwasher could not pump out in time. Usually debris in the sump or something jammed in the drain pump.",
+  "h1": "Miele dishwasher F11: what it means and how to clear it",
+  "answer": "F11 means your Miele ran its drain phase and the water did not leave the tub within the time it allows. It is a blocked drain, not a dead machine, in the large majority of cases. Open the door and you will almost always find dirty water standing over the filter. The obstruction is nearly always in the sump: sludge under the filter, or something hard wedged in the drain pump impeller beneath the non-return valve.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "30 to 60 minutes",
+  "cost_estimate": {
+    "diy": "$0 to $20",
+    "technician": "$200 to $450"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Food debris and grease packed into the filter and sump",
+      "frequency": "most cases",
+      "confirm": "Lift the filter assembly out. If the mesh is coated in a grey film, or the sump floor holds a layer of sludge, grit, seeds and soaked-off label paper, that is your fault. Water sitting level with the filter rim at the end of a cycle is the giveaway."
+    },
+    {
+      "cause": "Something hard jammed in the drain pump impeller",
+      "frequency": "most cases",
+      "confirm": "During the drain phase you hear the pump hum or buzz for a few seconds and then give up, with no sound of water moving. A chip of glass, a cherry stone, a shard of a broken plate or a small bone is the usual object."
+    },
+    {
+      "cause": "Blocked or kinked drain hose, or a disposal knockout plug still in place",
+      "frequency": "common",
+      "confirm": "The pump sounds completely healthy and runs its full time, but the water level barely drops. If the dishwasher or the kitchen sink was installed in the last few weeks, suspect the knockout plug in the disposal inlet, which has to be punched out before the hose is connected."
+    },
+    {
+      "cause": "The non-return valve in the sump floor is clogged or stuck",
+      "frequency": "occasional",
+      "confirm": "The tub drains, then you open the door hours later to find dirty water back in it. The flap is held part open by debris or has gone stiff with scale, so waste water runs back down the hose into the machine."
+    },
+    {
+      "cause": "The drain pump has failed",
+      "frequency": "occasional",
+      "confirm": "Total silence from the sump during the drain phase with a clean, freely spinning impeller, or a pump that hums steadily but shifts nothing with the sump completely clear. This is the point at which a part is needed."
+    },
+    {
+      "cause": "Wiring to the pump, or the electronic unit",
+      "frequency": "rare",
+      "confirm": "Everything mechanical checks out, the impeller spins, the hose is clear, and the pump is simply dead. Rule out every blockage before you let anyone sell you electronics, because on a Miele that is where the bill stops being reasonable."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Switch the machine off and cut the power",
+      "detail": "Press the on/off button to shut the machine down. If it will not respond, or the drain pump keeps running on its own, turn the dishwasher off at its breaker instead. Leave the power off for the whole of the sump work that follows. The drain pump can be switched on by the control at any point, and you are about to put your fingers where the impeller is.",
+      "minutes": 3,
+      "tools": null,
+      "warning": "Power off at the breaker before you reach into the sump. The pump can start without warning."
+    },
+    {
+      "name": "Bail the standing water out of the tub",
+      "detail": "Pull the lower basket out. Scoop the water out with a mug or a small jug into a bucket until you are down to the last inch, then soak the rest up with a sponge and squeeze it into the bucket. Expect two to four quarts depending on where in the cycle it stopped. Get the tub properly dry at the bottom or you cannot see what is in the sump.",
+      "minutes": 10,
+      "tools": "Mug or jug, bucket, sponge",
+      "warning": null
+    },
+    {
+      "name": "Remove and clean the triple filter",
+      "detail": "In the tub floor is Miele's filter assembly: a cylindrical coarse filter with a handle, sitting in a flat fine filter plate. Turn the handle anticlockwise to unlock it, then lift the whole assembly straight up and out. Separate the parts, rinse them under hot running water, and work the mesh over with a washing-up brush until you can see light through it evenly. Grease films look clean and still block flow, so scrub rather than rinse.",
+      "minutes": 12,
+      "tools": "Washing-up brush",
+      "warning": null
+    },
+    {
+      "name": "Check the non-return valve and the drain pump impeller",
+      "detail": "With the filter out, look at the sump floor. The non-return valve is a plastic flap or cap set into it and lifts or unclips out by hand. Underneath sits the drain pump impeller. Put a glove on, feel around the whole sump for fragments, and turn the impeller with a fingertip. It should rotate freely with a little magnetic resistance and stop with no grinding. Pull out anything wedged in the vanes, then refit the valve the way it came out.",
+      "minutes": 15,
+      "tools": "Rubber glove, flashlight, needle-nose pliers",
+      "warning": "Broken glass hides in the sump and you will not see it under dirty water. Wear a glove and do not sweep blindly with bare fingers."
+    },
+    {
+      "name": "Check the drain hose and the sink connection",
+      "detail": "Pull the machine forward out of its housing far enough to follow the corrugated drain hose. Look for a flat spot where the machine has been pushed back onto it, and make sure the hose rises in a loop before it drops to the waste connection, or the tub siphons out and the pump cycles pointlessly. At the sink end, check the disposal inlet for an intact knockout plug and the counter air gap, if you have one, for a crust of debris.",
+      "minutes": 15,
+      "tools": "Flashlight, bucket, towels",
+      "warning": null
+    },
+    {
+      "name": "Test whether the problem is the dishwasher at all",
+      "detail": "Run the kitchen sink hard for thirty seconds and watch it. If it drains slowly, gurgles, or backs up when the disposal runs, the blockage is in the kitchen waste pipe and your dishwasher is reporting it correctly. That is a plumbing job and no amount of filter cleaning will fix it. A dishwasher that shares a blocked waste will also push water back up into the tub between cycles.",
+      "minutes": 5,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Restore power and run the shortest program",
+      "detail": "Refit the filter, turning the handle clockwise until it seats and locks, or the machine will throw debris straight into the pump you just cleared. Restore power at the breaker, switch the machine on and run the shortest or rinse program you have rather than a full wash, so you find out in ten minutes instead of two hours. Stand and listen through the drain phase: a healthy Miele pump is a steady whirr, not a buzz.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If the sump is clean, the impeller spins, the hose is clear and the sink drains fine, work through this in order, because the cost steps up hard at the end. First, go back to the non-return valve and take it right out rather than lifting the flap. Debris lodged underneath it is easy to miss and it is the single most common thing people leave behind on a second attempt. Second, disconnect the drain hose at the sink end into a bucket and run the drain program: a strong pulsing flow out of the hose means the pump is good and the restriction is in the waste connection, while a dribble or nothing at all puts the fault back in the machine. That one test costs nothing and tells you which half of the problem you have. Third, if the pump is silent with a clear sump, you are into parts. A Miele drain pump is roughly $120 to $260 against $50 to $130 for the equivalent Bosch or Whirlpool part, and this is where people get a shock: Miele parts and Miele labor both run materially higher than mass-market brands, and an authorized Miele call-out alone is commonly $150 to $250 before anything is replaced. Expect $200 to $450 all in for a drain pump fitted. Fourth, if the pump itself tests good and still never runs, the fault is in the harness or the electronic unit, and that is $450 and up. Before agreeing to electronics on a machine over ten years old, get the quote in writing and weigh it against a new machine. The honest counterweight is that a well-kept Miele often has another decade in it, which the same money will not buy you in a new mid-range dishwasher.",
+  "reset_procedure": "Switch the machine off at the on/off button, then turn it off at its breaker for five minutes and back on. The control holds the stored fault, so a machine whose sump you have just cleared can still show F11 until the power has been properly cycled. Restart with the shortest program available rather than a full wash. If F11 reappears within the first drain, the blockage is still there and no amount of resetting will move it.",
+  "model_notes": "F11 has meant a drain fault across Miele dishwasher generations, from the older G 600 and G 800 series through the G 4000, G 5000, G 6000 and G 7000 machines, and the sump layout is broadly the same on all of them: filter assembly out first, non-return valve under it, drain pump under that. What changes is access to the pump housing itself, which is easier on newer models. Do not confuse this with F11 on a Miele washing machine, which is also a drain fault but a completely different machine, pump and filter.",
+  "parts": [
+    {
+      "name": "Triple filter assembly, coarse filter and fine filter plate",
+      "cost": "$45 to $90",
+      "difficulty": "easy",
+      "note": "Almost always only needs cleaning. Replace only if the mesh is torn or the plastic has warped"
+    },
+    {
+      "name": "Non-return valve",
+      "cost": "$25 to $60",
+      "difficulty": "easy",
+      "note": "Push fit, no tools, two minutes once the filter is out"
+    },
+    {
+      "name": "Drain pump",
+      "cost": "$120 to $260",
+      "difficulty": "moderate",
+      "note": "The equivalent mass-market pump is $50 to $130. The gap is the Miele premium, not a markup you can shop around"
+    },
+    {
+      "name": "Corrugated drain hose",
+      "cost": "$60 to $140",
+      "difficulty": "moderate",
+      "note": "Only if it is split or crushed. Clearing one is usually enough"
+    },
+    {
+      "name": "Electronic unit",
+      "cost": "$300 to $600",
+      "difficulty": "technician only",
+      "note": "Last resort on a drain fault, and rarely the real cause"
+    }
+  ],
+  "when_to_call": "Call someone when the sump is clear, the impeller spins freely, the hose runs clean into a bucket and the pump still will not move water, because the next step is testing a live circuit inside the machine. Call a plumber rather than an appliance technician if the kitchen sink is slow or gurgles when the dishwasher pumps out, since that fault is in your waste pipe and a Miele engineer will charge a full call-out to tell you so. On Miele specifically, decide before you book who you are calling: an authorized Miele technician will have the correct parts and the service data but charges the most, while a good independent will be cheaper and may still have to order Miele parts at Miele prices. Ask for the call-out fee and the hourly rate on the phone, and ask whether the call-out is credited against the repair.",
+  "faqs": [
+    {
+      "q": "Can I still use the dishwasher with an F11 code?",
+      "a": "No. The machine stops the program and will not run another one while water is sitting in the tub, which is the correct behavior. There is no safety hazard in leaving it a day or two, but the standing water will start to smell within about forty-eight hours. Bail it out even if you cannot deal with the blockage yet."
+    },
+    {
+      "q": "Why did F11 appear suddenly when nothing changed?",
+      "a": "Sump blockages build for months and then cross a threshold, so the failure looks instant when it was gradual. The other pattern is a single hard object: a chip off a wine glass or a fruit stone goes through the filter once and jams the impeller that same cycle. If it was truly sudden mid-wash, look for an object rather than sludge."
+    },
+    {
+      "q": "Is a Miele drain pump worth replacing or should I buy a new dishwasher?",
+      "a": "Worth replacing on almost any Miele under fifteen years old. A pump fitted runs $200 to $450, which is high against other brands but low against the machine. Miele dishwashers are built for roughly twenty years of use, so the economics are different from a mass-market unit where a $300 repair on a $450 machine makes no sense."
+    },
+    {
+      "q": "Why are Miele dishwasher repairs so much more expensive?",
+      "a": "Parts and labor both run higher. A Miele drain pump costs roughly double the Bosch or Whirlpool equivalent, authorized call-outs are commonly $150 to $250 before any work, and fewer independents stock the parts so you often wait for an order. Owners are frequently shocked by quotes because the build quality suggests cheap ownership, and that is only true until something breaks."
+    },
+    {
+      "q": "Do I need to clean the filter if the machine seems to be draining fine?",
+      "a": "Yes, monthly. The filter is the single thing that decides whether a Miele dishwasher reaches twenty years without a drain fault. A grease-filmed mesh looks clean, passes almost no water, and quietly loads the pump until something jams. Lift it out, scrub it with a brush under hot water and put it back, five minutes a month."
+    },
+    {
+      "q": "How do I get the last of the water out of the tub?",
+      "a": "Scoop down to the last inch with a mug, then use a sponge and squeeze it into a bucket. A wet-and-dry vacuum does it faster if you have one. Do not tip the machine to empty it, because the water will run into the base tray and trip the float, which hands you an F70 on top of the F11."
+    },
+    {
+      "q": "The filter was clean and I still have F11. What is next?",
+      "a": "Take the non-return valve fully out instead of lifting the flap, and check underneath it. That is the most commonly missed spot. After that, disconnect the drain hose at the sink into a bucket and run the drain phase: strong flow means the pump is fine and the blockage is in your waste pipe, no flow means the pump or its wiring."
+    }
+  ],
+  "diagram": {
+    "kind": "dishwasher-drain",
+    "caption": "The Miele drain path, and the four places F11 starts",
+    "labels": {
+      "display": "F11",
+      "c1": "Triple filter, lift and scrub",
+      "c2": "Non-return valve, remove fully",
+      "c3": "Drain pump impeller, turn by hand",
+      "c4": "Hose loop and disposal knockout"
+    }
+  },
+  "sources": [
+    {
+      "title": "Miele dishwasher operating instructions, filter cleaning and drain fault guidance",
+      "publisher": "Miele owner documentation supplied with the machine",
+      "url": null
+    },
+    {
+      "title": "Miele G-series dishwasher fault code tables",
+      "publisher": "Miele service literature and authorized service references",
+      "url": null
+    },
+    {
+      "title": "Miele dishwasher common fault codes, field causes and fixes",
+      "publisher": "Domex UK appliance repair guidance",
+      "url": null
+    },
+    {
+      "title": "Technician discussion of Miele sump, non-return valve and drain pump access",
+      "publisher": "Appliantology and r/appliancerepair threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "F70",
+    "F78",
+    "F13",
+    "F24",
+    "F14"
+  ]
+}

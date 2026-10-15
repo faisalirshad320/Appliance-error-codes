@@ -1,0 +1,169 @@
+{
+  "title": "LG Washer tCL Code: Tub Clean Reminder, Not a Fault",
+  "meta_description": "tCL on an LG washer is a maintenance reminder, not an error. It is asking you to run the Tub Clean cycle, and here is how to clear it.",
+  "h1": "LG washer tCL code: what it means and how to clear it",
+  "answer": "tCL is a reminder, not a fault. Your LG washer counts wash cycles and puts tCL on the display after about thirty of them to tell you it is time to run the Tub Clean program. Empty the drum completely, add an oxygen-based washing machine cleaner, select Tub Clean and let it run to the end; the message clears itself and the counter starts again. Nothing is broken, the machine will carry on washing normally if you ignore it, and the only thing you lose by doing so is a tub that starts to smell.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "5 minutes of work, about 2 hours of cycle",
+  "cost_estimate": {
+    "diy": "$0 to $20",
+    "technician": "Not a service call"
+  },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The wash counter has reached its reminder point",
+      "frequency": "most cases",
+      "confirm": "tCL appeared at the end of a perfectly normal wash on a machine with no other symptoms. LG sets the reminder at roughly thirty cycles, so on a family machine it comes round every month or two and on a single person's machine maybe twice a year."
+    },
+    {
+      "cause": "A previous reminder was dismissed rather than acted on",
+      "frequency": "common",
+      "confirm": "You remember seeing tCL before and pressing a button to make it go away. Dismissing the message does not reset the counter on most models, so it reappears at the end of the next wash and keeps doing so until the Tub Clean cycle actually runs to completion."
+    },
+    {
+      "cause": "The Tub Clean cycle was started but not finished",
+      "frequency": "common",
+      "confirm": "You ran Tub Clean, opened the door partway through or cancelled it because of the time, and tCL is still there. The counter resets on completion, not on starting, so a cycle stopped at any point leaves the reminder exactly where it was."
+    },
+    {
+      "cause": "The machine genuinely needs it",
+      "frequency": "common",
+      "confirm": "A musty smell from the door seal, grey or black specks on light-coloured washing, or a visible film inside the gasket fold. Short cold cycles with generous detergent and fabric softener leave a residue that feeds mould, and this is precisely the condition the reminder exists for."
+    },
+    {
+      "cause": "You are reading CL rather than tCL",
+      "frequency": "occasional",
+      "confirm": "Look at the display in good light. If there is no small t in front, the code is CL, which is the Child Lock indicator and a completely different thing: it means the control panel is locked and needs the Child Lock button held for three seconds."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Empty the drum completely",
+      "detail": "Take every item out, including the stray sock in the fold of the gasket. Tub Clean runs hot and agitates hard, and anything left in there both blocks the cleaning and gets cooked. Check the drum by eye and by hand before you start, because the cycle runs for a couple of hours and you will not want to stop it.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Add an oxygen-based machine cleaner",
+      "detail": "Use a washing machine cleaner tablet or powder at the dose on its packaging. On most LG front loaders it goes straight into the empty drum; some models take it in the main wash compartment of the dispenser drawer instead, and the panel or the lid label will say which. Do not use chlorine bleach or an acidic descaler in this cycle, as either can discolour or corrode parts inside the machine.",
+      "minutes": 2,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Select Tub Clean and start it",
+      "detail": "Find the Tub Clean button or program, press Start, and leave it. The cycle runs hot and takes roughly one and a half to two hours depending on model. It must reach the end for the reminder counter to reset, so do not open the door or cancel partway through, however tempting it is when you need the machine.",
+      "minutes": 110,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Wipe out the gasket and the door glass",
+      "detail": "When the cycle finishes, pull the rubber gasket back at the bottom with a finger and wipe inside the fold with a damp cloth. That fold holds water, hair and soap residue, and it is where the smell actually lives. A cloth and plain water is enough; if there are black spots, a weak solution of washing-up liquid and a scrubbing brush gets most of them.",
+      "minutes": 8,
+      "tools": "Cloth, soft brush",
+      "warning": null
+    },
+    {
+      "name": "Pull the dispenser drawer and clean it",
+      "detail": "Most LG drawers come right out, usually by pulling them fully open and pressing a release tab in the middle of the softener section. Wash it in hot water, scrub the softener siphon cap where the gel builds up, and wipe out the cavity it slides into with a cloth wrapped round a finger. Dry it before you put it back.",
+      "minutes": 10,
+      "tools": "Cloth, old toothbrush",
+      "warning": null
+    },
+    {
+      "name": "Leave the door ajar between washes",
+      "detail": "A front loader with the door shut stays damp inside and grows mould whatever cleaning cycle you run. Leave the door open an inch and pull the dispenser drawer out a little when you are not using the machine. This alone does more for the smell than any product, and it means the next tCL is just a reminder rather than a rescue.",
+      "minutes": 1,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "If tCL is still on the display after a Tub Clean cycle, the most likely explanation is that the cycle did not actually finish. The counter resets on completion, so a cycle interrupted by opening the door, a power blip, or someone pressing Power because it was taking too long leaves the reminder in place. Run it again and let it go all the way through. If a complete Tub Clean still does not clear the message, try the usual reset: press Power, unplug the machine at the wall for a minute, plug it back in and run one normal short cycle, which on most models is enough for the control to update the display. Worth checking at this point that you are reading the code correctly: tCL with a small t is the tub clean reminder, while CL on its own is Child Lock and will never clear by washing anything. If the message genuinely persists after a completed cycle and a reset, it is a display or control quirk rather than a fault with any mechanical part; the machine will keep washing perfectly and the only consequence is a nag on the panel. That is not worth a service call on its own. It is worth mentioning to a technician if one is coming out for something else, and it is worth noting if your machine is still in warranty, since a control board replaced for free is a different calculation from one you pay for.",
+  "reset_procedure": "There is no fault to reset. tCL clears when the Tub Clean cycle runs from start to finish, which resets the wash counter. On most models you can also dismiss the message temporarily by pressing Power, but it comes back at the end of the next wash and will keep coming back until the cycle has actually been completed.",
+  "model_notes": "LG sets the reminder at about thirty wash cycles across most of the range, and the same two letters appear on front loaders, top loaders and the compact washers. Where the cleaner goes differs: most front loaders take it loose in the drum, while some models want it in the main wash compartment of the dispenser drawer. Top loaders generally run a longer Tub Clean because they fill with far more water. If your machine has no Tub Clean button at all, run the hottest cycle it has with an empty drum and a machine cleaner, which achieves the same thing even though it will not reset the counter.",
+  "parts": [
+    {
+      "name": "Oxygen-based washing machine cleaner",
+      "cost": "$8 to $20 for a pack of several",
+      "difficulty": "easy",
+      "note": "Avoid chlorine bleach and acidic descalers in the Tub Clean cycle"
+    },
+    {
+      "name": "Door gasket, front load",
+      "cost": "$50 to $120",
+      "difficulty": "hard",
+      "note": "Only if the seal is already mouldy beyond cleaning or torn"
+    }
+  ],
+  "when_to_call": "Nobody needs to be called for tCL. It is a maintenance reminder and the entire fix is a cleaning cycle you run yourself. The only circumstance worth a conversation with a technician is a door gasket so badly colonised with mould that scrubbing does nothing, which is a replacement rather than a clean and runs $50 to $120 in parts plus labour. If the machine also smells of drains rather than mould, that is a different problem: look at the drain pump filter and the standpipe, since standing water in either produces a smell that no amount of tub cleaning will touch.",
+  "faqs": [
+    {
+      "q": "Is tCL an error code on an LG washer?",
+      "a": "No. It is a maintenance reminder that appears after roughly thirty wash cycles to prompt you to run the Tub Clean program. The machine is working normally and will keep washing if you ignore it. The only penalty for ignoring it is residue and smell building up inside the tub where ordinary cycles never reach."
+    },
+    {
+      "q": "How do I get rid of the tCL message?",
+      "a": "Run the Tub Clean cycle with the drum completely empty and an oxygen-based machine cleaner, and let it finish. The counter resets on completion, not on starting, so a cycle you cancel halfway leaves the reminder exactly where it was. On most models you can dismiss the message temporarily, but it returns after the next wash."
+    },
+    {
+      "q": "What is the difference between tCL and CL on an LG washer?",
+      "a": "tCL, with a small t, is the tub clean reminder. CL on its own is the Child Lock indicator, meaning the control panel is locked and buttons do nothing. They look similar on a small display in a dark room. Child Lock clears by holding the Child Lock button for three seconds; tCL clears only by running a Tub Clean cycle."
+    },
+    {
+      "q": "Can I use bleach for the LG Tub Clean cycle?",
+      "a": "LG advises against chlorine-based and acidic cleaners in this cycle because they can discolour or corrode parts inside the machine. Use an oxygen-based washing machine cleaner instead, in tablet or powder form, at the dose on the packet. If you have nothing to hand, running the cycle with plain hot water is still better than skipping it."
+    },
+    {
+      "q": "Can I still use my washer with tCL showing?",
+      "a": "Yes, completely normally. It is a reminder, not a lockout, and nothing about the machine's behaviour changes. That said, if you are also getting a musty smell from the door seal or grey specks on pale washing, the reminder is telling you something real and the cycle takes two hours of the machine's time and five minutes of yours."
+    },
+    {
+      "q": "How often should I run Tub Clean on an LG washer?",
+      "a": "Whenever tCL appears, which works out at about every thirty washes, so roughly monthly on a busy family machine. If you wash mostly on cold short cycles, use fabric softener, or keep the door shut between loads, lean towards monthly regardless of the reminder, because those are the conditions that grow residue fastest."
+    },
+    {
+      "q": "Why does my washer still smell after a Tub Clean cycle?",
+      "a": "Because the smell usually lives in the gasket fold and the dispenser drawer, not in the tub. After the cycle, peel the rubber seal back at the bottom and wipe inside it, pull the drawer out and scrub the softener siphon, and clean the drain pump filter. Then leave the door ajar between washes, which matters more than any product."
+    }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "Clearing the tub clean reminder on an LG washer",
+    "labels": {
+      "display": "tCL",
+      "c1": "Drum completely empty",
+      "c2": "Oxygen cleaner, no bleach",
+      "c3": "Let Tub Clean run to the end",
+      "c4": "Wipe the gasket fold afterwards"
+    }
+  },
+  "sources": [
+    {
+      "title": "LG front loader: how to clean the tub, and the tcL reminder",
+      "publisher": "LG support documentation",
+      "url": null
+    },
+    {
+      "title": "Automatic tub clean notification interval on LG washers",
+      "publisher": "LG product help pages",
+      "url": null
+    },
+    {
+      "title": "Owner and technician experience on gasket mould and dispenser residue",
+      "publisher": "Appliance repair community threads",
+      "url": null
+    }
+  ],
+  "related_codes": [
+    "CL",
+    "SUD",
+    "OE",
+    "UE",
+    "FE",
+    "dE"
+  ]
+}

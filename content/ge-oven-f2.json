@@ -1,12 +1,15 @@
 {
   "title": "GE Oven F2 Error Code: Causes and Fix",
-  "meta_description": "GE oven F2 means the control read a runaway oven temperature and cut the heat. Usually the oven temperature sensor. Here is how to test it before buying parts.",
+  "meta_description": "GE oven F2 means the control read a runaway oven temperature and cut the heat. Usually the oven temperature sensor.",
   "h1": "GE oven F2 error code: what it means and how to fix it",
   "answer": "F2 means the control measured an oven temperature well above anything it should ever see and shut the heat off to protect itself and your kitchen. It is an over-temperature fault, not a thermostat setting you can adjust. Most of the time the oven was not actually that hot: the oven temperature sensor, a thin probe that hangs into the cavity on the back wall, is reading high and lying to the board. The second possibility is more serious, which is a relay on the control board stuck closed so the element really did keep heating.",
   "severity": "serious",
   "can_diy": "sometimes",
   "time_estimate": "30 minutes to test, 1 hour to replace a sensor",
-  "cost_estimate": { "diy": "$20 to $50 for a sensor", "technician": "$180 to $450" },
+  "cost_estimate": {
+    "diy": "$20 to $50 for a sensor",
+    "technician": "$180 to $450"
+  },
   "safety_warning": "An F2 can mean the oven genuinely overheated and is still able to. Switch the oven off at the breaker, not just at the panel, until you know which of the two causes you have. Everything behind the rear panel of an electric oven runs at 240 volts, and on a gas range the burner, valve and igniter are not DIY parts. Never wedge, bypass or remove a thermal cut-out to stop the code appearing.",
   "causes": [
     {
@@ -95,20 +98,61 @@
   "reset_procedure": "Switch the oven off at its breaker, wait a full five minutes, then switch it back on. Five minutes matters because the control board holds charge and a quick flick of the breaker often leaves the stored fault in place. On a gas range you can unplug the cord at the wall instead. A reset clears a one-off F2 caused by a glitch, but if the code returns within a cycle or two the fault is real and resetting it again just delays the diagnosis.",
   "model_notes": "GE has used F2 for over-temperature across decades of ranges and wall ovens, but newer boards report the same condition as F20 and split it by cavity, so a double oven may show F20 for the upper and a different number for the lower. On older electromechanical GE ranges with a mechanical oven thermostat rather than an RTD sensor, F2 instead points at the thermostat and the ERC. Check the code list in the service sheet inside your own machine when a generic chart disagrees with what the panel is showing.",
   "parts": [
-    { "name": "Oven temperature sensor, also called the RTD probe", "cost": "$20 to $50", "difficulty": "moderate", "note": "Two screws inside the cavity and one plug at the back" },
-    { "name": "Sensor wiring harness or pigtail", "cost": "$20 to $60", "difficulty": "moderate", "note": "Only if the wire tests broken; often sold with the sensor" },
-    { "name": "Bake or broil element", "cost": "$30 to $90", "difficulty": "moderate", "note": "Only if visibly blistered or shorted to the cabinet" },
-    { "name": "Oven control board, often listed as the ERC", "cost": "$200 to $400", "difficulty": "technician only", "note": "Confirm the sensor and harness are good before ordering" }
+    {
+      "name": "Oven temperature sensor, also called the RTD probe",
+      "cost": "$20 to $50",
+      "difficulty": "moderate",
+      "note": "Two screws inside the cavity and one plug at the back"
+    },
+    {
+      "name": "Sensor wiring harness or pigtail",
+      "cost": "$20 to $60",
+      "difficulty": "moderate",
+      "note": "Only if the wire tests broken; often sold with the sensor"
+    },
+    {
+      "name": "Bake or broil element",
+      "cost": "$30 to $90",
+      "difficulty": "moderate",
+      "note": "Only if visibly blistered or shorted to the cabinet"
+    },
+    {
+      "name": "Oven control board, often listed as the ERC",
+      "cost": "$200 to $400",
+      "difficulty": "technician only",
+      "note": "Confirm the sensor and harness are good before ordering"
+    }
   ],
   "when_to_call": "Call someone the same day if an element glows when no cycle is running, if the oven climbs past its set point on a thermometer, or if you smell scorched insulation. That combination means the control has lost the ability to turn the heat off, and the oven should stay on a dead breaker until it is fixed. Call a licensed gas technician for anything on a gas range beyond the sensor itself, because the burner, valve and safety circuit are not homeowner parts and an improvised repair there is a different order of risk. Otherwise, a technician is worth calling once you have measured the sensor and it reads correctly, since the next step is board-level diagnosis on a live 240 volt appliance.",
   "faqs": [
-    { "q": "What does F2 mean on a GE oven?", "a": "The control read an oven temperature far above anything it should see and shut off the heat. It is an over-temperature fault. In most cases the oven was not really that hot and the temperature sensor is reading high, but a relay stuck closed on the control board produces the same code and does mean genuine overheating, so treat it seriously until you know which one you have." },
-    { "q": "Can I still use my GE oven with an F2 code?", "a": "No. An F2 either means the oven overheated or means the control cannot trust its own temperature reading, and neither is something to cook around. Leave the breaker off until you have tested the sensor or had it looked at. The cooktop on a range is on a separate circuit path and is usually unaffected, so you can still use the burners." },
-    { "q": "Why did F2 appear right after self-cleaning?", "a": "Self-clean is the hardest thing an oven ever does to itself. It holds the cavity hundreds of degrees above any cooking temperature for hours, and that heat is what finishes off sensors, door latch motors and control boards that were already aging. A large share of F2, F3 and door lock faults show up during or just after a clean cycle." },
-    { "q": "How much does it cost to fix a GE oven F2 code?", "a": "If it is the temperature sensor, $20 to $50 for the part and about an hour of your time, or roughly $180 to $280 with a technician. If it is the control board, expect $200 to $400 for the part plus labor, so $350 to $600 fitted. Test the sensor first, because it is the cheap answer and the common one." },
-    { "q": "Is F2 the same as F20 on a GE oven?", "a": "On most models yes, in substance. Newer GE controls report the same over-temperature or sensor circuit condition as F20, often split out by cavity on double ovens. The diagnosis is identical: measure the sensor, check the harness, then suspect the board. Older ranges simply show the shorter F2." },
-    { "q": "Can I just reset the oven and keep using it?", "a": "You can reset it at the breaker, and a one-off F2 from a power glitch will stay away. But if the code comes back within a cycle or two, the fault is real and resetting repeatedly is how people end up cooking on an oven whose control cannot switch the element off. Test the sensor rather than clearing the code again." },
-    { "q": "Does F2 mean I need a new control board?", "a": "Usually not. The temperature sensor and its wiring account for most F2 codes and cost a fraction of a board. Only suspect the board once the sensor measures correctly against the service sheet, the harness passes a wiggle test, and the oven still reports the fault, especially if it reports it while cold and idle." }
+    {
+      "q": "What does F2 mean on a GE oven?",
+      "a": "The control read an oven temperature far above anything it should see and shut off the heat. It is an over-temperature fault. In most cases the oven was not really that hot and the temperature sensor is reading high, but a relay stuck closed on the control board produces the same code and does mean genuine overheating, so treat it seriously until you know which one you have."
+    },
+    {
+      "q": "Can I still use my GE oven with an F2 code?",
+      "a": "No. An F2 either means the oven overheated or means the control cannot trust its own temperature reading, and neither is something to cook around. Leave the breaker off until you have tested the sensor or had it looked at. The cooktop on a range is on a separate circuit path and is usually unaffected, so you can still use the burners."
+    },
+    {
+      "q": "Why did F2 appear right after self-cleaning?",
+      "a": "Self-clean is the hardest thing an oven ever does to itself. It holds the cavity hundreds of degrees above any cooking temperature for hours, and that heat is what finishes off sensors, door latch motors and control boards that were already aging. A large share of F2, F3 and door lock faults show up during or just after a clean cycle."
+    },
+    {
+      "q": "How much does it cost to fix a GE oven F2 code?",
+      "a": "If it is the temperature sensor, $20 to $50 for the part and about an hour of your time, or roughly $180 to $280 with a technician. If it is the control board, expect $200 to $400 for the part plus labor, so $350 to $600 fitted. Test the sensor first, because it is the cheap answer and the common one."
+    },
+    {
+      "q": "Is F2 the same as F20 on a GE oven?",
+      "a": "On most models yes, in substance. Newer GE controls report the same over-temperature or sensor circuit condition as F20, often split out by cavity on double ovens. The diagnosis is identical: measure the sensor, check the harness, then suspect the board. Older ranges simply show the shorter F2."
+    },
+    {
+      "q": "Can I just reset the oven and keep using it?",
+      "a": "You can reset it at the breaker, and a one-off F2 from a power glitch will stay away. But if the code comes back within a cycle or two, the fault is real and resetting repeatedly is how people end up cooking on an oven whose control cannot switch the element off. Test the sensor rather than clearing the code again."
+    },
+    {
+      "q": "Does F2 mean I need a new control board?",
+      "a": "Usually not. The temperature sensor and its wiring account for most F2 codes and cost a fraction of a board. Only suspect the board once the sensor measures correctly against the service sheet, the harness passes a wiggle test, and the oven still reports the fault, especially if it reports it while cold and idle."
+    }
   ],
   "diagram": {
     "kind": "control-board",
@@ -122,9 +166,28 @@
     }
   },
   "sources": [
-    { "title": "GE range and wall oven fault code descriptions and diagnostic steps", "publisher": "GE Appliances service literature and mini-manual supplied inside the appliance", "url": null },
-    { "title": "GE oven F2 over-temperature code, sensor resistance testing", "publisher": "iFixit community repair wiki", "url": null },
-    { "title": "Field reports on F2 causes, stuck relays and post-self-clean failures", "publisher": "AppliancePartsPros technician forum threads", "url": null }
+    {
+      "title": "GE range and wall oven fault code descriptions and diagnostic steps",
+      "publisher": "GE Appliances service literature and mini-manual supplied inside the appliance",
+      "url": null
+    },
+    {
+      "title": "GE oven F2 over-temperature code, sensor resistance testing",
+      "publisher": "iFixit community repair wiki",
+      "url": null
+    },
+    {
+      "title": "Field reports on F2 causes, stuck relays and post-self-clean failures",
+      "publisher": "AppliancePartsPros technician forum threads",
+      "url": null
+    }
   ],
-  "related_codes": ["F20", "F3", "F4", "F96", "F97", "F76"]
+  "related_codes": [
+    "F20",
+    "F3",
+    "F4",
+    "F96",
+    "F97",
+    "F76"
+  ]
 }

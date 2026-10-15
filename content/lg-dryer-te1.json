@@ -1,6 +1,6 @@
 {
   "title": "LG Dryer tE1 Error Code: Thermistor Fault and Fixes",
-  "meta_description": "tE1 on an LG dryer is a thermistor fault: the control is reading an impossible temperature. Try a reset, check the vent, then test the sensor and its",
+  "meta_description": "tE1 on an LG dryer is a thermistor fault, meaning the control is reading an impossible temperature. Reset it, check the vent, then test the sensor.",
   "h1": "LG dryer tE1 error code: what it means and how to fix it",
   "answer": "tE1 means the control board is reading a temperature from the dryer's thermistor that it does not believe. The thermistor is the small temperature sensor that tells the board how hot the air in the dryer is, and tE1 is raised when that reading is out of range, usually because the sensor has gone open circuit or its wiring has come loose. Start with a power reset, because LG says a reset clears a fair number of these, then check the exhaust vent for restriction before you open anything up. If it comes back, the sensor and its connector are the parts to test.",
   "severity": "moderate",

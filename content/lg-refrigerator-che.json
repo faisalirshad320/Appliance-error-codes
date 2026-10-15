@@ -1,6 +1,6 @@
 {
   "title": "LG Refrigerator CH E Error Code: High-Side Fault",
-  "meta_description": "CH E on an LG refrigerator points at the high-pressure side of the sealed system, near the condenser. A licensed technician job. Check your LG compressor",
+  "meta_description": "CH E on an LG refrigerator points at the high-pressure side of the sealed system, near the condenser. This one is a licensed technician job.",
   "h1": "LG refrigerator CH E error code: what it means and what to do",
   "answer": "CH E means the control has detected a problem on the high-pressure side of the sealed cooling system, the part that runs from the compressor through the condenser. In practice that means a refrigerant leak or a restriction at the condenser end, and sometimes a compressor that is no longer pumping. It is the high-side counterpart to CL E, which reports the same kind of trouble on the low side near the evaporator. There is nothing in this circuit you can open, clean or replace at home, so the useful work is confirming the code is real, clearing the obvious things that make cooling look worse than it is, and finding out what warranty you still hold before you pay anyone.",
   "severity": "serious",

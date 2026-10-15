@@ -1,0 +1,130 @@
+{
+  "title": "Samsung Washer NF Error Code: Causes and Fix",
+  "meta_description": "nF on a Samsung washer means no fill: it did not get enough water in time. Check both taps and the inlet mesh screens. nF1 usually means swapped hoses.",
+  "h1": "Samsung washer NF error code: what it means and how to fix it",
+  "answer": "nF means no fill. The washer called for water, watched the level, and did not see it rise enough within the time it allows, so it stopped. It is a water supply fault far more often than a machine fault, and it belongs to the same family as the 4E and 4C codes on other Samsung models. Check both taps are fully open and clean the fine mesh screens where the hoses screw into the machine. If you are seeing nF1 rather than plain nF, that is a different problem: it usually means the hot and cold hoses are on the wrong taps.",
+  "severity": "minor",
+  "can_diy": "yes",
+  "time_estimate": "15 to 40 minutes",
+  "cost_estimate": { "diy": "$0 to $60", "technician": "$120 to $250" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "A supply tap is closed or only part open",
+      "frequency": "most cases",
+      "confirm": "Turn both taps anticlockwise until they stop. A quarter-turn lever valve must sit in line with the pipe, not across it. If anyone has worked on the plumbing, moved the machine or reacted to a leak, one tap has usually been left turned down and never turned back."
+    },
+    {
+      "cause": "The inlet mesh filter screens are clogged",
+      "frequency": "most cases",
+      "confirm": "Close the taps, undo a hose at the machine end and look into the inlet port. There is a fine mesh screen set into it. Brown, scaled or furred instead of bright metal is your answer, and it is the single most common mechanical cause of a slow fill."
+    },
+    {
+      "cause": "The hot and cold hoses are on the wrong taps",
+      "frequency": "common",
+      "confirm": "This is the classic nF1 case rather than plain nF. Feel both hoses a minute into a warm cycle. If the one on the inlet marked cold is hot, they are crossed. It shows up right after an installation, a move or a kitchen refit."
+    },
+    {
+      "cause": "A supply hose is kinked, crushed or frozen",
+      "frequency": "common",
+      "confirm": "Pull the machine out and follow both hoses. A hose flattened against the wall behind the machine drips but will not fill. In winter, a run through a garage or along an outside wall freezes solid and feels rigid and very cold."
+    },
+    {
+      "cause": "Water pressure at the tap is genuinely too low",
+      "frequency": "occasional",
+      "confirm": "Put the loose hose end in a bucket and open the tap for five seconds. You want a strong jet. A weak dribble means the restriction is upstream in your house plumbing and the washer is reporting the problem correctly."
+    },
+    {
+      "cause": "The water inlet valve or the level sensor has failed",
+      "frequency": "occasional",
+      "confirm": "Taps open, screens clean, hoses sound, strong flow at the bucket, and still nF. Either the valve is not opening, or the machine is filling but the level sensor is not registering it. Watch through a cycle: water visibly entering the drum and still an nF points at the sensor rather than the valve."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Open both taps fully and reset",
+      "detail": "Reach behind the machine and turn both taps anticlockwise until they stop. Then press Power to cancel, unplug for five minutes and plug back in, because the control holds the fault and will keep showing nF even once water is available. Start a rinse cycle to test rather than a full wash.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the hoses are on the right taps",
+      "detail": "Trace each hose from tap to machine. The inlet ports are marked hot and cold, and so are most taps. If your machine is cold-fill only, it must be on the cold tap. Crossed hoses are the standard cause of nF1 and they usually date from an installation or a move, so check this before you take anything apart.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Walk the length of both hoses",
+      "detail": "Pull the machine out and follow each hose end to end. Look for a tight bend, a flat spot where the cabinet has been pushed back onto it, and in winter a rigid, very cold section. Straighten any kink and leave a hand's width of clearance behind the machine when you push it back into place.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Clean the inlet mesh screens",
+      "detail": "Close both taps. Put a towel and a shallow tray down, then unscrew each hose at the machine end; expect a cupful of water. Pick the mesh screen out of the inlet port with needle-nose pliers, rinse it, scrub it with an old toothbrush and push it back in squarely. Do both inlets even if only one looks dirty.",
+      "minutes": 14,
+      "tools": "Pliers, old toothbrush, towel, shallow tray",
+      "warning": "Close the taps before undoing a hose or you take mains pressure in the face."
+    },
+    {
+      "name": "Bucket test the flow at the tap",
+      "detail": "With a hose still off the machine, put the loose end in a bucket and open that tap for five seconds. You should get a strong jet filling a good part of the bucket. A weak dribble means the restriction is upstream of the washer, in your plumbing or a partly shut isolation valve, and nothing you do to the machine will help.",
+      "minutes": 5,
+      "tools": "Bucket",
+      "warning": null
+    },
+    {
+      "name": "Watch whether the drum actually fills",
+      "detail": "Start a cycle and watch through the glass or lift the lid. If you can see water going in and the machine still calls nF, the valve is working and the problem is the level sensing rather than the supply. If nothing enters at all with good pressure at the tap, the valve or its wiring is the suspect. This one observation splits the remaining possibilities.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the inlet valve electrically",
+      "detail": "Unplug the machine. Take the top panel off, usually two screws at the back on a front loader or clips on a top loader, and slide it rearward. Pull the connector off a solenoid and measure across its terminals on the ohms range. An open circuit means a dead valve. Check the service sheet inside the machine for the right figure for your model rather than any number from the internet.",
+      "minutes": 22,
+      "tools": "Phillips screwdriver, multimeter",
+      "warning": "Unplug at the wall before removing any panel. Do not rely on the power button."
+    }
+  ],
+  "still_showing": "The question that narrows this down fastest is whether water is physically entering the drum. Start a cycle and watch. If water goes in and nF still appears, stop working on the supply side entirely: the valve is fine and the machine is not registering the level it has reached. That points at the water level sensor circuit, and the usual culprit is the thin pressure hose running from the tub to the sensor, which blocks with detergent sludge or splits where it pushes on. Pulling it off, blowing it through and refitting it costs nothing and fixes a decent share of these. If no water enters at all and the bucket test at the tap gives a strong jet, the supply is proven and the fault is the valve or its wiring. Unplug the machine, get the top panel off and check the connector at the valve for green corrosion or a terminal backed out of its housing, which damp laundry rooms produce routinely and which costs nothing to put right. Then measure each solenoid across its terminals; an open circuit confirms a dead valve, and the part is a $25 to $60 item that takes about half an hour to fit with a couple of screws and a connector. If the solenoids read correctly but never energize when the cycle calls for water, the fault is in the harness or the main control board, and that is where the cost jumps. One free thing worth ruling out before any of it: if your machine has both hot and cold inlets and the hot supply is isolated, drained or fed by a water heater that has been switched off, the washer throws nF on a warm cycle while running a cold one perfectly. Run a cold-only wash. If it fills normally, the washer is fine and your hot supply is not.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full five minutes, then plug it back in. The control stores the fault, so a machine that now has a perfectly good water supply will keep displaying nF until it is cleared. Test with a rinse cycle rather than a full wash so you find out quickly.",
+  "model_notes": "nF is used on a range of older Samsung washers and means the same thing as 4E on other models of the same era and 4C on machines from roughly 2017 onward: not enough water arrived in time. The trailing digit changes the meaning rather than the severity. nF1 points at the water temperature or the hot and cold connections rather than a plain shortage of water, and in practice it is nearly always hoses fitted to the wrong taps after an installation or a move. If your display shows nF1, check the hose routing before you clean anything.",
+  "parts": [
+    { "name": "Inlet hose mesh filter screens", "cost": "$5 to $12 a pair", "difficulty": "easy", "note": "Only if a screen is torn; most just need cleaning" },
+    { "name": "Braided stainless supply hoses", "cost": "$15 to $30 a pair", "difficulty": "easy", "note": "Worth fitting on any machine over five years old regardless of the code" },
+    { "name": "Water inlet valve assembly", "cost": "$25 to $60", "difficulty": "moderate", "note": "Two screws and a connector, about 30 minutes" },
+    { "name": "Water level pressure hose", "cost": "$10 to $25", "difficulty": "moderate", "note": "For the case where the drum visibly fills but nF still appears" }
+  ],
+  "when_to_call": "Call an appliance technician if the bucket test gives strong flow, both screens are clean, water will not enter the drum and the valve solenoids read correctly, because the next step is diagnosing the harness and the board with the machine live. Call a plumber instead if the bucket test is weak, since that fault is in your house plumbing and an appliance engineer will charge a call-out to tell you exactly that. If anything is leaking while you work, close both taps and stop: a supply-side leak at mains pressure does far more damage to a house than a washer that will not fill.",
+  "faqs": [
+    { "q": "What does nF mean on a Samsung washer?", "a": "No fill. The washer asked for water, watched the level, and did not see it rise enough within the time allowed, so it stopped the cycle. It is a water supply fault in most cases rather than a broken machine. The same condition appears as 4E on some Samsung models and as 4C on machines made from roughly 2017 onward." },
+    { "q": "What is the difference between nF and nF1?", "a": "They are different faults. Plain nF means not enough water arrived. nF1 points at the water temperature and the hot and cold connections instead, and in practice it almost always means the two supply hoses have been fitted to the wrong taps. Check the hose routing first if you see the digit, before cleaning any screens." },
+    { "q": "Is nF the same as 4E or 4C?", "a": "In meaning, yes. All three mean the washer did not receive enough water in time, and the checks are the same: taps fully open, mesh screens clean, hoses straight and sound, strong flow at a bucket test. Which code your machine shows depends on its model and generation rather than on anything different happening inside it." },
+    { "q": "Can I still use the washer with an nF code?", "a": "Not for a normal wash, because the machine stops rather than run without enough water. There is no safety risk in leaving it. If only the hot supply has failed, a cold-only cycle will often run perfectly, which is a quick way to confirm where the problem lies while you arrange the repair." },
+    { "q": "Water goes into the drum but it still shows nF. Why?", "a": "Because the machine is not registering the water it is getting. That moves the fault from the supply to the level sensing, and the usual cause is the thin pressure hose between the tub and the water level sensor blocking with detergent sludge or splitting at an end. Clearing that hose costs nothing and is worth trying before buying parts." },
+    { "q": "Why did nF appear suddenly when nothing changed?", "a": "Inlet screens silt up gradually and then cross a threshold, so months of buildup looks like a sudden failure. The other frequent trigger is plumbing work elsewhere in the house: a stopcock left part closed, a meter change, or a mains repair that stirs up sediment which lands in your screens within a week." }
+  ],
+  "diagram": {
+    "kind": "washer-inlet-valve",
+    "caption": "Where a Samsung washer draws water, and why an nF code appears",
+    "labels": {
+      "display": "nF",
+      "c1": "Hot inlet valve and mesh screen",
+      "c2": "Cold inlet valve and mesh screen",
+      "c3": "Both taps fully open",
+      "c4": "Check hoses are not crossed"
+    }
+  },
+  "sources": [
+    { "title": "Washing machine will not fill and shows a water supply information code", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, fill circuit and water level sensing", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "How to fix an nF error on a Samsung washer", "publisher": "AppliancePartsPros repair guides", "url": null },
+    { "title": "Field reports on nF and nF1 causes, including reversed supply hoses", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["4E", "4C", "nF1", "nd", "SE"]
+}

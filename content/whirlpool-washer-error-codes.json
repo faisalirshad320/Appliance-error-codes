@@ -1,0 +1,138 @@
+{
+  "title": "Whirlpool Washer Error Codes: What Each One Means",
+  "meta_description": "Whirlpool washer error codes explained: how the two-part F and E system works, what each code group means, and which faults you can fix yourself.",
+  "h1": "Whirlpool washer error codes: how to read them and what each one means",
+  "answer": "Whirlpool washers report faults as a two-part code: an F number that names the system that failed, and an E number that names the specific fault inside that system. F9 E1 means the drain system (F9) did not empty the tub in time (E1); change the second half and you have a different drain problem, not a different machine. The two halves alternate on the small display, so you see F9 flash, then E1, and it is easy to think you are looking at two unrelated codes, which is why the first thing to do is write both halves down. Older machines, broadly the Duet generation and earlier, use a single two-digit code instead, like F21 or F02, and top loaders mix in plain letter codes such as uL, Ld, dL and Sd.",
+  "severity": "moderate",
+  "can_diy": "sometimes",
+  "time_estimate": "5 minutes to identify the code, then it depends",
+  "cost_estimate": { "diy": "$0 to $150 for most parts", "technician": "$120 to $450 for most washer repairs" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "Water not leaving the machine: the F9 group, plus F21, F02 and Ld",
+      "frequency": "most cases",
+      "confirm": "The cycle stops with water visible in the drum and the door stays locked. This is the single largest category of Whirlpool washer codes, and the drain pump filter behind the lower front panel is where most of them end."
+    },
+    {
+      "cause": "Door and lid lock problems: the F5 group, plus dL and F26",
+      "frequency": "most cases",
+      "confirm": "Either the cycle will not start at all, or it has finished and the door will not open. The F5 group splits by which half of the job failed: E1 is the door switch, E2 is failing to lock, E3 is failing to unlock."
+    },
+    {
+      "cause": "Water not coming in: the F8 group, plus LF and H2O",
+      "frequency": "common",
+      "confirm": "The machine sits with the drum turning in almost no water, or times out early in the cycle. Nearly always the supply taps, the inlet mesh screens where the hoses meet the machine, or a kinked fill hose."
+    },
+    {
+      "cause": "Too much detergent: Sd, 5D and Sud",
+      "frequency": "common",
+      "confirm": "A head of foam standing above the water line that does not collapse when the drum stops. The machine pauses and adds rinses on its own, which is why a suds cycle runs far longer than the timer promised."
+    },
+    {
+      "cause": "Load, balance and drive faults: the F7 group, plus uL and oL",
+      "frequency": "common",
+      "confirm": "The drum will not spin up, or the machine stops before the spin with the load slumped on one side. On a recently delivered machine, check the back panel for shipping bolts before assuming anything mechanical."
+    },
+    {
+      "cause": "Heating and temperature sensing: the F3 group",
+      "frequency": "occasional",
+      "confirm": "Cycles that run cold when they should be warm, or that stop partway through a heated wash. These point at a temperature sensor or a heater circuit rather than anything you can see from the front."
+    },
+    {
+      "cause": "Control, communication and power: the F1 group and user interface faults",
+      "frequency": "occasional",
+      "confirm": "Codes that appear before a cycle ever begins, buttons that stop responding, or a display showing a fault with nothing physically wrong. These are the expensive end and the least likely, so do not start here."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Write the whole code down, both halves",
+      "detail": "Stand and watch the display through two full cycles of the message. You want both halves: F9 and E1, not just F9. The F number alone narrows the fault to a system and no further, and searching for it on its own will send you down the wrong path. If the display alternates quickly, film it on your phone and pause the video.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find your model number",
+      "detail": "On a front loader the sticker is inside the door opening, usually on the rim of the cabinet or on the edge of the door itself. On a top loader, look under the lid or on the back of the console. Whirlpool reuses code numbers differently across platforms, so the model number is what turns a generic answer into the right one, and you will need it to order any part anyway.",
+      "minutes": 5,
+      "tools": "Torch, phone camera",
+      "warning": null
+    },
+    {
+      "name": "Power the machine down properly before anything else",
+      "detail": "Unplug the washer at the wall for a full five minutes rather than switching it off at the panel. The control stores the fault and will keep reporting a code you have already fixed. Five minutes also lets the board fully discharge, which clears a reasonable share of one-off codes caused by a brownout or an interrupted cycle. Plug it back in and run Rinse and Spin to test, not a full wash.",
+      "minutes": 8,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check the three things behind most codes",
+      "detail": "Before you diagnose anything, rule out the common ground. Are both supply taps fully open and the fill hoses free of kinks? Is the drain pump filter behind the lower front access panel clean, and the drain hose straight and only a couple of inches into the standpipe? Is the rubber door boot clear of trapped laundry all the way round, including underneath? These three cover a large share of every code on this page.",
+      "minutes": 25,
+      "tools": "Phillips #2 screwdriver, shallow tray, towels, torch",
+      "warning": "Unplug the washer before opening the lower access panel or reaching near the drain pump."
+    },
+    {
+      "name": "Match the F number to the system and work inside it",
+      "detail": "Use the F half to decide where to spend your time: F5 is the door lock, F7 is the motor and drive, F8 is water coming in, F9 is water going out, F3 is temperature sensing, F1 is the control. Then use the E half to narrow it within that system. Working this way stops you replacing a drain pump because the code happened to appear during a drain.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Test the suspect system on its own",
+      "detail": "Do not run a full wash to find out whether your fix worked. Rinse and Spin exercises the fill, the drain and the spin in under ten minutes, so a fill fault shows in the first minute and a drain fault in the fourth. For a door lock code, you only need the first thirty seconds, because the lock attempt happens before anything else.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Find the technical sheet if you need to go further",
+      "detail": "Whirlpool tucks a folded technical sheet inside the machine, usually behind the lower front access panel or under the top panel depending on the model. It carries the full code table for your exact control, the diagnostic entry sequence and the wiring diagram. It is the one document that beats anything you will find online, and it is already in your house. Unplug the machine before going looking for it.",
+      "minutes": 15,
+      "tools": "Phillips #2 screwdriver, torch",
+      "warning": "Unplug at the wall before removing any panel."
+    }
+  ],
+  "still_showing": "If you cannot find your code on this page or anywhere sensible online, three things usually explain it. First, you may have only half of it. A Whirlpool display alternates F9 and E1 about once a second, and a code written down as just F9 matches nothing useful, because F9 on its own only says the drain system. Go back and watch for both halves, or film the display. Second, your machine may not use the two-part system at all. Duet-era and earlier front loaders use single codes like F21, F02 and F35, and top-load Cabrio and Vertical Modular machines use letter codes like uL for unbalanced, oL for overloaded, Ld for a long drain, dL for the door lock and Sd for suds. Those will never appear as F-and-E pairs no matter how long you wait. Third, your model may have no digital display, in which case the fault is reported as a pattern of lit and blinking status lights above the cycle selector, and only the technical sheet inside the machine translates that pattern. That sheet is behind the lower front panel or under the top panel on most models, and it also lists the button sequence to put your particular control into diagnostic mode, which is model-specific enough that it is not worth guessing at. If you have the full code and the fix did not hold, the useful question is whether the code returns at the same point in every cycle. A code that lands at exactly the same moment each time is a real hardware fault in whatever the machine was doing at that point. A code that wanders about, appearing at different stages or clearing for a week at a time, is more often a connector gone green in a damp laundry room or a control board with a cracked solder joint, and that is where a technician with a meter saves you from buying parts on a guess.",
+  "reset_procedure": "Unplug the washer at the wall and leave it for five minutes, then plug it back in. This is the reset that actually works on Whirlpool machines, because the control stores the fault state and a quick switch off and on does not clear it. On most models you can also clear a displayed code by pressing Pause or Cancel twice and then Power once. Neither resets the control lock, which is a stored setting rather than a fault, and neither fixes anything physical: if the cause is still there, the code comes straight back on the next cycle.",
+  "model_notes": "Whirlpool has used three code systems and you need to know which one you are reading. Current front loaders, stacked laundry centers and most recent top loaders use the two-part F and E codes described above. Duet-era front loaders, broadly up to the early 2010s, use a single two-digit F code: F21 is the long drain fault that later became F9 E1, and F02 means the same thing again. Cabrio and Vertical Modular top loaders use plain letter codes alongside F codes, with uL for an unbalanced load, oL for an overload, Ld for a long drain, dL for the door or lid lock and Sd for suds. Because Whirlpool also builds Maytag and Amana washers on the same platforms, the same codes and the same parts turn up under those badges with identical meanings. Older machines with no digital display report faults as patterns of blinking status lights, which only the technical sheet inside the machine decodes.",
+  "parts": [
+    { "name": "Drain pump assembly", "cost": "$35 to $90", "difficulty": "moderate", "note": "The most commonly replaced part across the F9 and F21 codes" },
+    { "name": "Door lock and switch assembly", "cost": "$60 to $150", "difficulty": "moderate", "note": "Fixes most genuine F5 E2 and F5 E3 faults" },
+    { "name": "Water inlet valve assembly", "cost": "$30 to $80", "difficulty": "moderate", "note": "For F8 fill codes, after the taps and inlet screens have been cleared" },
+    { "name": "Drive belt", "cost": "$20 to $45", "difficulty": "moderate", "note": "Belt-driven front loaders showing F7 motor speed codes" },
+    { "name": "Main control board", "cost": "$180 to $350", "difficulty": "technician only", "note": "The last answer for any code, and rarely the right one first" }
+  ],
+  "when_to_call": "Pay someone when the diagnosis needs the machine running with panels off, which means anything involving the motor control board, the main control board or the wiring between them. That is live mains work in a wet room and it is the point where a meter in experienced hands is worth more than another part bought on a guess. Expect $120 to $450 for most Whirlpool washer repairs including the part. It is also worth a call before you commit to a drum bearing job, which runs $300 to $600 fitted and frequently costs more than an older machine is worth. On the other side, do not call anyone for a code that clears with a filter clean, a straightened hose, a lighter detergent dose or a five-minute power down, and never call for LOC, which is the control lock and comes off with a button held for three seconds.",
+  "faqs": [
+    { "q": "What do the F and E numbers mean on a Whirlpool washer?", "a": "The F number names the system that failed and the E number names the specific fault within it. F5 is the door lock, F7 the motor and drive, F8 water coming in, F9 water going out, F3 temperature sensing and F1 the control. So F9 E1 is the drain system failing to empty in time. You need both halves to identify anything." },
+    { "q": "Why does my washer show F9 and then E1 separately?", "a": "Because the display is too small to show both at once, so the control alternates them about once a second. They are one code, not two. Write down whichever appears first as the F half and the second as the E half. Searching for just the F half will find you a whole system's worth of faults and no answer." },
+    { "q": "How do I reset a Whirlpool washer?", "a": "Unplug it at the wall for a full five minutes, then plug it back in. A switch off at the panel is not enough, because the control holds the stored fault. On most models you can also clear a displayed code by pressing Pause or Cancel twice then Power once. Neither clears the control lock, which is a setting rather than a fault." },
+    { "q": "My washer has no display. How do I find the error code?", "a": "Machines without digits report faults as a pattern of lit and blinking status lights above the cycle selector. Only the technical sheet inside your machine translates that pattern, and it is usually folded behind the lower front access panel or under the top panel. Unplug the washer before going to look for it." },
+    { "q": "Which Whirlpool washer error codes can I fix myself?", "a": "Most of the common ones. Drain codes like F9 E1 and F21 usually come down to the pump filter, suds codes like Sd and 5D come down to detergent, F8 fill codes come down to taps and inlet screens, and LOC is just the control lock. The ones to hand over are F1 control faults, F7 motor control faults and anything involving a bearing." },
+    { "q": "Are Whirlpool, Maytag and Amana washer codes the same?", "a": "Largely yes, because they are built on shared platforms under one parent company. F9 E1, F5 E2 and F7 E1 mean the same thing across all three, and the parts are often identical. The wording on the consumer support pages differs slightly and some displays show Sud where a Whirlpool shows Sd, but the diagnosis does not change." },
+    { "q": "Where is the model number on a Whirlpool washer?", "a": "On a front loader, inside the door opening on the cabinet rim or on the door edge itself. On a top loader, under the lid or on the back of the console. You need it before ordering any part, and it is the difference between a generic answer and the right one, because code tables vary between platforms." },
+    { "q": "The code came back after I fixed it. What now?", "a": "Ask whether it returns at the same point in every cycle. A code that lands at exactly the same moment is a real hardware fault in whatever the machine was doing then. A code that wanders, or clears for days at a time, is usually a corroded connector or a failing board, and that needs a meter rather than another part." }
+  ],
+  "diagram": {
+    "kind": "generic-reset",
+    "caption": "How to read a Whirlpool washer code before you fix anything",
+    "labels": {
+      "display": "F9 E1",
+      "c1": "F number names the system",
+      "c2": "E number names the exact fault",
+      "c3": "Model sticker inside the door",
+      "c4": "Tech sheet behind lower panel"
+    }
+  },
+  "sources": [
+    { "title": "Error codes in front load and top load washers", "publisher": "Whirlpool product help documentation", "url": null },
+    { "title": "Whirlpool washer technical sheets, F-code and E-code tables", "publisher": "Service sheet supplied inside the machine", "url": null },
+    { "title": "Whirlpool washing machine error code reference", "publisher": "iFixit community repair wiki", "url": null },
+    { "title": "Field discussion of Whirlpool code generations and diagnostic modes", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["F9 E1", "F21", "5D", "F5 E2", "F7 E1", "LOC"]
+}

@@ -1,6 +1,6 @@
 {
   "title": "Maytag Dryer AF Code: Restricted Airflow, and the Fix",
-  "meta_description": "AF on a Maytag dryer means restricted airflow. Almost always lint in the screen, the transition duct or the outside wall cap. Here is how to clear the",
+  "meta_description": "AF on a Maytag dryer means restricted airflow. Almost always lint in the screen, the transition duct or the outside wall cap.",
   "h1": "Maytag dryer AF code: restricted airflow, and how to clear it",
   "answer": "AF means your Maytag dryer has decided the exhaust path is choked and air is not leaving the drum fast enough. It is an airflow warning, not a broken part, and the restriction is lint in nine cases out of ten: in the screen, in the flexible duct behind the machine, or at the flap on the outside wall cap. The dryer will usually keep tumbling, but loads take two or three cycles to dry and the cabinet runs hot. Clear the whole duct run from the lint screen to the outside, not just the easy end.",
   "severity": "moderate",

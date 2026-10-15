@@ -1,6 +1,6 @@
 {
   "title": "Kenmore Washer LE Code: Locked Motor Error and Fix",
-  "meta_description": "LE on a Kenmore washer is LG's locked motor error: the drum would not turn. Usually an overloaded drum or a loose motor connector. How to tell which, and",
+  "meta_description": "LE on a Kenmore washer is LG's locked motor error: the drum would not turn. Usually an overloaded drum or a loose motor connector.",
   "h1": "Kenmore washer LE error code: what it means and how to fix it",
   "answer": "LE means the control told the drum to turn, did not see it turn, and shut the cycle down. It is LG's locked motor error, which tells you something useful before you touch anything: your Kenmore was built by LG and its model number starts with 796. The usual cause is not a dead motor but a drum packed too full, or one sodden heavy item like a comforter that the motor cannot get moving. Take half the load out, unplug the machine for five minutes and run a spin-only cycle; most LE codes do not come back.",
   "severity": "moderate",

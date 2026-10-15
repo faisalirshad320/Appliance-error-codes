@@ -1,0 +1,122 @@
+{
+  "title": "Samsung Washer U6 Error Code: What It Means and Fix",
+  "meta_description": "U6 on a Samsung washer is a spin balance fault, and on many panels it is actually Ub. Redistribute the load and level the machine before buying parts.",
+  "h1": "Samsung washer U6 error code: what it means and how to fix it",
+  "answer": "U6 on a Samsung washer points at a spin balance problem: the drum would not balance, so the machine would not spin it. It is worth saying plainly that U6 is poorly documented. It does not appear in Samsung's published washer code list, and a good share of the time what is on the display is actually Ub, the standard unbalanced load code, with the b read as a 6 on a small seven-segment panel. Either way the first moves are the same: redistribute the load by hand, then check the machine is level on all four feet.",
+  "severity": "moderate",
+  "can_diy": "usually",
+  "time_estimate": "10 minutes for a load problem, up to 3 hours for suspension",
+  "cost_estimate": { "diy": "$0 to $160", "technician": "$180 to $400" },
+  "safety_warning": null,
+  "causes": [
+    {
+      "cause": "The code is actually Ub, the unbalanced load fault",
+      "frequency": "most cases",
+      "confirm": "Look at the character straight on and in good light, ideally with a phone photo zoomed in. A lower-case b and a 6 are nearly the same shape on a seven-segment display. If the top of the character is open rather than closed, it is a b. Either reading leads to the same checks, so this costs you nothing to establish."
+    },
+    {
+      "cause": "One heavy item, or a load tangled into a single mass",
+      "frequency": "most cases",
+      "confirm": "Open the door. A soaked bath mat, hoodie or duvet cover sitting in a lump on one side with everything else flat against the drum wall. Wet, that one item outweighs the whole rest of the wash and the drum cannot be balanced around it."
+    },
+    {
+      "cause": "The machine is not level, or the feet have worked loose",
+      "frequency": "common",
+      "confirm": "Push each top corner down in turn. If the machine rocks on a diagonal, two feet are carrying it and two are not. Check each lock nut as well: a correctly set foot will unwind itself over a year or two of spinning if the nut was never tightened against the cabinet."
+    },
+    {
+      "cause": "Worn shock absorbers or suspension rods",
+      "frequency": "common",
+      "confirm": "The code appears on every load including small mixed ones, with a knock from inside the cabinet at spin-up. Push the empty drum down sharply by hand: one controlled drop is healthy, two or three rebounds means the damping is gone."
+    },
+    {
+      "cause": "The floor flexes under the machine",
+      "frequency": "occasional",
+      "confirm": "Stand beside it during spin-up. If the floor moves under your feet or a glass rattles on a nearby counter, the machine is feeding its own vibration into a suspended timber floor and the sensor reads it as imbalance."
+    },
+    {
+      "cause": "A code specific to your model that does not match the general case",
+      "frequency": "rare",
+      "confirm": "Your machine's own code list, in the user manual or on the service sheet inside the cabinet, shows U6 as something unrelated to balance. Because this code is not well documented across the range, your model's own list beats any general guide including this one."
+    }
+  ],
+  "steps": [
+    {
+      "name": "Photograph the display and zoom in",
+      "detail": "Take a close photo of the code with your phone and enlarge it. You are checking whether the second character is a 6 or a lower-case b, because Ub is the standard Samsung unbalanced load code and the two look almost identical on a seven-segment panel. Knowing which you have makes every search you do afterwards more accurate.",
+      "minutes": 3,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Check your model's own code list",
+      "detail": "Find the model number on the sticker inside the door opening or on the back of the cabinet, then look up that exact model's code list in the user manual or on the service sheet tucked inside the machine. For a poorly documented code this is worth more than any general guide, and it takes a few minutes.",
+      "minutes": 10,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Redistribute the load by hand",
+      "detail": "Pause the cycle and wait for the drum to stop so the door releases. Pull everything out, shake each item loose and untwist anything that has roped together. Put it back spread evenly around the drum rather than dropped in as one lump, then run Spin or Rinse and Spin. This clears most balance codes on its own.",
+      "minutes": 8,
+      "tools": null,
+      "warning": "Wait for the drum to come to a complete stop before reaching in."
+    },
+    {
+      "name": "Run an empty spin",
+      "detail": "Take everything out and run Spin only on a completely empty drum. An empty machine has nothing to unbalance, so this cleanly separates a loading problem from a machine problem. Smooth and quiet to full speed means the machine is fine. The same code on an empty drum means the fault is mechanical and you can stop rearranging laundry.",
+      "minutes": 12,
+      "tools": null,
+      "warning": null
+    },
+    {
+      "name": "Level the machine and lock the feet",
+      "detail": "Put a spirit level across the top both ways, push each corner down to find the rocking diagonal, and adjust the feet until the cabinet sits solid everywhere. Then hold each foot and tighten its lock nut firmly against the underside of the cabinet with a wrench. Check the drain hose is not trapped behind a foot, which quietly lifts one corner off the floor.",
+      "minutes": 20,
+      "tools": "Adjustable wrench, spirit level",
+      "warning": null
+    },
+    {
+      "name": "Bounce test the suspension",
+      "detail": "With the machine empty and switched off, grip the top edge of the drum, push it down firmly and let go. A healthy front loader drops and stops in one controlled movement. Two or three rebounds means the shock absorbers have lost their damping, or on a top loader that the suspension rods are spent.",
+      "minutes": 6,
+      "tools": null,
+      "warning": null
+    }
+  ],
+  "still_showing": "Because U6 is not a well-documented code, the single most useful thing you can do before spending money is pin down what your particular machine means by it. Find the model number on the sticker inside the door opening and look up that model's own code list in the manual or on the service sheet inside the cabinet, and if that list disagrees with this page, believe the list. Assuming it is the balance fault that the evidence points to, work in order of cost. First the free checks: level the machine on all four corners while it is loaded and wet rather than empty, tighten every lock nut, free the drain hose from behind any foot, and feel whether the floor itself moves during spin-up. A front loader on a springy timber floor throws balance codes it would never throw on concrete, and plywood screwed across the joists underneath is the cheapest genuine fix there is. Second, clean the pump debris filter, because a machine that drains slowly leaves water sloshing in the outer drum and that imitates an unbalanced load exactly. Third, the suspension: a pair of dampers for a front loader is $30 to $90 and a couple of hours with the front panel off, while a top loader's suspension rods are a set of four, cost more, and must go in as a complete set or the imbalance simply moves. Fourth, listen during the spin-up with the drum empty. A knock is suspension; a rumble that rises and falls with drum speed is bearings, and on an older machine that is usually where repair stops being worth it. If after all of this the code is still there and your model's own documentation does not explain it, get a technician who can read the machine's stored fault history rather than guessing from the display, because that is the one thing you cannot do from the outside.",
+  "reset_procedure": "Press Power to cancel, unplug the washer at the wall for a full five minutes, then plug it back in. Redistribute the load by hand before restarting, and use Spin or Rinse and Spin rather than a full wash so you see within a couple of minutes whether the drum now balances. A reset on its own does nothing if the laundry is still bunched to one side.",
+  "model_notes": "U6 is not listed in Samsung's general washer code documentation, and third-party sources disagree about it: most treat it as an unbalanced load, a few describe it as a door-open condition, and several point out that it is frequently a misread Ub. That disagreement is itself the honest answer, and it is why this page leads with checking the character on the display and your own model's code list. If your panel really does show Ub, use the UB page, which covers the same ground with no ambiguity. If it shows a door code such as dC or dE instead, that is a different circuit entirely.",
+  "parts": [
+    { "name": "Shock absorber or damper pair, front loader", "cost": "$30 to $90 a pair", "difficulty": "hard", "note": "Always replace as a pair; the front panel has to come off" },
+    { "name": "Suspension rod set, top loader", "cost": "$60 to $160 a set", "difficulty": "hard", "note": "Replace all four together or the imbalance moves to another corner" },
+    { "name": "Leveling feet and lock nuts", "cost": "$10 to $25", "difficulty": "easy", "note": "Only if a foot is bent, seized or has lost its rubber pad" }
+  ],
+  "when_to_call": "Call someone if the code survives an empty spin on a properly levelled machine, or if your model's own code list does not list U6 at all and you have run out of things to check from the outside. A technician can read the machine's stored fault history and see what the control actually recorded, which is the one piece of information a display will not give you and the main reason a call-out is worth paying for on an ambiguous code. Call sooner if the machine bangs hard enough during spin to walk across the floor, since running it like that damages the tub and bearings. Ask for the diagnosis in writing before agreeing to any part, because on a code this poorly documented it is easy to be sold a guess.",
+  "faqs": [
+    { "q": "What does U6 mean on a Samsung washer?", "a": "In practice it points at a spin balance problem: the drum would not balance so the machine stopped. It is worth being honest that U6 is not in Samsung's published washer code list, and sources disagree about it. Most treat it as an unbalanced load, which matches what owners actually find, and the balance checks are cheap enough to be worth doing first." },
+    { "q": "Is U6 actually the Ub code?", "a": "Very often, yes. On a seven-segment display a lower-case b and a 6 are almost the same shape, and Ub is Samsung's standard unbalanced load code. Take a close photo and zoom in to check. It barely matters for the fix, since both lead to the same checks, but knowing which you have makes any further research far more reliable." },
+    { "q": "Can I still use the washer showing U6?", "a": "You can wash, but you are unlikely to get a proper spin, so clothes come out wet. There is no safety risk in running it, though a machine that bangs hard during spin is steadily damaging its own suspension and bearings. Redistribute the load and run a spin again rather than accepting cycle after cycle that ends soaking." },
+    { "q": "How do I find out what my specific model means by U6?", "a": "Get the model number from the sticker inside the door opening or on the back of the cabinet, then check that model's code list in the user manual or on the service sheet folded inside the machine. For a code this poorly documented, your model's own list is worth more than any general guide, including this one." },
+    { "q": "Does U6 mean I need new shock absorbers?", "a": "Not as a first conclusion. Worn dampers do cause persistent balance codes, but so does one heavy towel in a small load, which is much more common. Run a spin on a completely empty drum. If that is smooth and quiet, the suspension is fine and the problem is loading. If the code appears on an empty drum, then look at the dampers." },
+    { "q": "Why do different websites give different meanings for U6?", "a": "Because Samsung does not document it in its general washer code list, so sites are filling the gap with inference. Most settle on unbalanced load, a few say door open, and several note it is a misread Ub. Treat any confident single answer with suspicion and go by your own model's documentation and the empty spin test." }
+  ],
+  "diagram": {
+    "kind": "washer-unbalanced-load",
+    "caption": "The balance checks worth doing before you trust any reading of U6",
+    "labels": {
+      "display": "U6",
+      "c1": "Heavy item bunched on one side",
+      "c2": "Level the feet, lock the nuts",
+      "c3": "Empty spin separates load from machine",
+      "c4": "Springy floor amplifies the wobble"
+    }
+  },
+  "sources": [
+    { "title": "Samsung washing machine information and error codes, general code list", "publisher": "Samsung support documentation", "url": null },
+    { "title": "Samsung washer service literature, spin balance detection and stored fault history", "publisher": "Samsung service sheet supplied inside the machine", "url": null },
+    { "title": "Conflicting third-party accounts of the U6 code and its relationship to Ub", "publisher": "Independent appliance repair field guides", "url": null },
+    { "title": "Owner reports of U6 and Ub on Samsung washers", "publisher": "r/appliancerepair community threads", "url": null }
+  ],
+  "related_codes": ["UB", "UE", "UR", "dC", "SC"]
+}
