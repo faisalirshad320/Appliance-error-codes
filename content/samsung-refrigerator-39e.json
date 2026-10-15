@@ -6,7 +6,10 @@
   "severity": "moderate",
   "can_diy": "sometimes",
   "time_estimate": "1 to 3 hours including defrost time",
-  "cost_estimate": { "diy": "$0 to $260", "technician": "$190 to $450" },
+  "cost_estimate": {
+    "diy": "$0 to $260",
+    "technician": "$190 to $450"
+  },
   "safety_warning": "Unplug the refrigerator at the wall before any panel or cover comes off. The ice maker harness carries mains-derived power behind the liner, and a wet ice compartment and live wiring are a bad combination. Never defeat a door switch to keep the fan or the lights running while you work.",
   "causes": [
     {
@@ -91,24 +94,65 @@
       "warning": null
     }
   ],
-  "still_showing": "If the assembly is thawed, the arm turns freely by hand and the connector is clean and dry, the question becomes whether the ice maker is failing to run or failing to report that it ran, and those lead different places. Work it this way. First, watch a full cycle with the bucket out and a flashlight on the assembly. An ice maker that visibly drives the arm round and ejects properly, and still throws 39E, is completing the job but not confirming it, which points at the position sensor inside the assembly or at the harness back to the board. An ice maker that does nothing at all when the cycle is called, with no motor noise, points at the motor or at power not reaching it. Second, deal with the fill before you buy anything, because a tray that never gets a proper charge of water produces a batch the assembly cannot harvest cleanly, and that looks exactly like a mechanical failure. Hollow or undersized cubes mean a restricted supply: check the line behind the fridge for a kink, and change the water filter if it is more than six months old, which is the single most overlooked cause of bad ice on these. Third, if the mechanism is dead, the ice maker assembly is the part, and on most Samsung models the motor, gearbox and sensor are not sold separately, so it is one unit at one price. Look your full model number up before ordering, because ice makers vary a great deal across side-by-side, French-door and four-door Flex layouts and they are not interchangeable. Only when a new assembly behaves identically does the board come into it. One thing worth accepting: an ice maker that has jammed once because the household uses little ice will jam again, and the fix for that is using the ice or switching the ice maker off, not a new part. Nothing here touches the sealed refrigerant circuit.",
+  "still_showing": "If the assembly is thawed, the arm turns freely by hand and the connector is clean and dry, the question becomes whether the ice maker is failing to run or failing to report that it ran, and those lead different places. Watch a full cycle with the bucket out and a flashlight on the assembly. An ice maker that visibly drives the arm round and ejects properly, and still throws 39E, is completing the job but not confirming it, which points at the position sensor inside the assembly or at the harness back to the board. An ice maker that does nothing at all when the cycle is called, with no motor noise, points at the motor or at power not reaching it. Next, deal with the fill before you buy anything, because a tray that never gets a proper charge of water produces a batch the assembly cannot harvest cleanly, and that looks exactly like a mechanical failure. Hollow or undersized cubes mean a restricted supply: check the line behind the fridge for a kink, and change the water filter if it is more than six months old, which is the single most overlooked cause of bad ice on these. If the mechanism is genuinely dead, the ice maker assembly is the part, and on most Samsung models the motor, gearbox and sensor are not sold separately, so it is one unit at one price. Look your full model number up before ordering, because ice makers vary across side-by-side, French-door and four-door Flex layouts and they are not interchangeable. Only when a new assembly behaves identically does the board come into it. One thing worth accepting: an ice maker that jammed because the household uses little ice will jam again, and the fix for that is using the ice or switching the ice maker off, not a new part.",
   "reset_procedure": "Unplug the refrigerator at the wall for five minutes, then plug it back in. The control stores the fault, so 39E will keep showing after you have cleared a jam until it is reset. Then leave the fridge alone for a full day with the bucket in place, because a single successful harvest does not prove an intermittent fault has gone.",
   "model_notes": "Samsung's published list gives 39E as an ice maker function error, and the same fault appears as 39C on newer models, since Samsung changed the code suffix from E to C partway through the range. Some secondary sources describe 39E more narrowly as an optical or position sensor fault, which is a component inside the assembly rather than a different fault, so the diagnosis is the same either way. Ice maker design varies considerably between side-by-side, French-door and four-door Flex models, including whether the assembly sits in the freezer, in the fridge compartment or in a door, so check your full model number before ordering parts.",
   "parts": [
-    { "name": "Ice maker assembly", "cost": "$90 to $260", "difficulty": "moderate", "note": "Motor, gearbox and sensor usually come as one unit; not interchangeable across layouts" },
-    { "name": "Ice bucket or auger assembly", "cost": "$50 to $150", "difficulty": "easy", "note": "Only where the bucket itself is cracked or its auger is stripped" },
-    { "name": "Water inlet valve", "cost": "$40 to $110", "difficulty": "moderate", "note": "For a fill that is too weak or will not shut off cleanly" },
-    { "name": "Water filter", "cost": "$25 to $60", "difficulty": "easy", "note": "The most overlooked cause of undersized cubes; change it if over six months old" }
+    {
+      "name": "Ice maker assembly",
+      "cost": "$90 to $260",
+      "difficulty": "moderate",
+      "note": "Motor, gearbox and sensor usually come as one unit; not interchangeable across layouts"
+    },
+    {
+      "name": "Ice bucket or auger assembly",
+      "cost": "$50 to $150",
+      "difficulty": "easy",
+      "note": "Only where the bucket itself is cracked or its auger is stripped"
+    },
+    {
+      "name": "Water inlet valve",
+      "cost": "$40 to $110",
+      "difficulty": "moderate",
+      "note": "For a fill that is too weak or will not shut off cleanly"
+    },
+    {
+      "name": "Water filter",
+      "cost": "$25 to $60",
+      "difficulty": "easy",
+      "note": "The most overlooked cause of undersized cubes; change it if over six months old"
+    }
   ],
   "when_to_call": "Call someone if the mechanism is clear and free but the assembly does not move when a cycle is called, and you would rather not work out whether power is reaching it. Call sooner if you find water pooling in the fridge or running down inside a door, because an overflowing fill is a leak as well as an ice fault. There is no urgency here, since 39E does not affect cooling, so take the time to rule out a jam, a bad fill and an old filter before paying for anything. Nothing in a 39E repair touches the sealed refrigerant circuit, and any quote that mentions the compressor or refrigerant for this code deserves a second opinion.",
   "faqs": [
-    { "q": "What does 39E mean on a Samsung refrigerator?", "a": "It is the ice maker function error. The control called for an ice cycle and did not get confirmation that it completed, so it has flagged the whole assembly rather than one component. The most common reason is ice jamming the harvest arm. Cooling is unaffected, so the fridge and freezer carry on working normally." },
-    { "q": "Is 39E the same as 39C?", "a": "Yes. Samsung moved its refrigerator code suffix from E to C partway through the range, so older models show 39E and newer ones 39C for the identical fault. The checks and parts are the same. Search both when looking for information about your specific model, because most write-ups only cover one of the two." },
-    { "q": "Can I still use the fridge with a 39E code?", "a": "Yes. The sealed system and the cooling are not involved, so food is safe and both compartments keep working. What you lose is ice. If the assembly has jammed with the tray full of water, check the bottom of the compartment occasionally for drips while you work out the repair." },
-    { "q": "Why does my ice keep freezing into one big lump?", "a": "Because the household is not using enough of it. Cubes sitting in the bucket partly melt and refreeze into a block, which backs up into the ice maker and stalls the harvest. It is the usual cause on second fridges and over winter. Either use the ice, empty the bucket periodically, or switch the ice maker off." },
-    { "q": "Do I need a whole new ice maker or just the motor?", "a": "On most Samsung models the motor, gearbox and position sensor come as one assembly and are not sold separately, so it is one part at one price. Check your full model number on a parts site to confirm. Clear every jam and rule out a bad fill first, because both imitate a dead mechanism." },
-    { "q": "Could a dirty water filter cause 39E?", "a": "Indirectly, yes, and it is worth ruling out early. A restricted filter gives a weak fill, which makes hollow or undersized cubes that the harvest cycle cannot eject cleanly. That stalls the cycle and the control reports a function error. A filter older than about six months is cheap to change and a common fix." },
-    { "q": "Is a 39E repair worth it on an older fridge?", "a": "Often not, if it comes down to a new ice maker assembly on a fridge already several years old. The part is one of the dearer ones in the cabinet and the repair buys you ice rather than cooling. Plenty of people clear the jam, switch the ice maker off and live with it, which is a legitimate choice here." }
+    {
+      "q": "What does 39E mean on a Samsung refrigerator?",
+      "a": "It is the ice maker function error. The control called for an ice cycle and did not get confirmation that it completed, so it has flagged the whole assembly rather than one component. The most common reason is ice jamming the harvest arm. Cooling is unaffected, so the fridge and freezer carry on working normally."
+    },
+    {
+      "q": "Is 39E the same as 39C?",
+      "a": "Yes. Samsung moved its refrigerator code suffix from E to C partway through the range, so older models show 39E and newer ones 39C for the identical fault. The checks and parts are the same. Search both when looking for information about your specific model, because most write-ups only cover one of the two."
+    },
+    {
+      "q": "Can I still use the fridge with a 39E code?",
+      "a": "Yes. The sealed system and the cooling are not involved, so food is safe and both compartments keep working. What you lose is ice. If the assembly has jammed with the tray full of water, check the bottom of the compartment occasionally for drips while you work out the repair."
+    },
+    {
+      "q": "Why does my ice keep freezing into one big lump?",
+      "a": "Because the household is not using enough of it. Cubes sitting in the bucket partly melt and refreeze into a block, which backs up into the ice maker and stalls the harvest. It is the usual cause on second fridges and over winter. Either use the ice, empty the bucket periodically, or switch the ice maker off."
+    },
+    {
+      "q": "Do I need a whole new ice maker or just the motor?",
+      "a": "On most Samsung models the motor, gearbox and position sensor come as one assembly and are not sold separately, so it is one part at one price. Check your full model number on a parts site to confirm. Clear every jam and rule out a bad fill first, because both imitate a dead mechanism."
+    },
+    {
+      "q": "Could a dirty water filter cause 39E?",
+      "a": "Indirectly, yes, and it is worth ruling out early. A restricted filter gives a weak fill, which makes hollow or undersized cubes that the harvest cycle cannot eject cleanly. That stalls the cycle and the control reports a function error. A filter older than about six months is cheap to change and a common fix."
+    },
+    {
+      "q": "Is a 39E repair worth it on an older fridge?",
+      "a": "Often not, if it comes down to a new ice maker assembly on a fridge already several years old. The part is one of the dearer ones in the cabinet and the repair buys you ice rather than cooling. Plenty of people clear the jam, switch the ice maker off and live with it, which is a legitimate choice here."
+    }
   ],
   "diagram": {
     "kind": "refrigerator-sensor",
@@ -122,9 +166,27 @@
     }
   },
   "sources": [
-    { "title": "Samsung refrigerator error codes, 39E and 39C ice maker function error", "publisher": "Samsung support documentation", "url": null },
-    { "title": "Samsung refrigerator service literature, ice maker cycle and position sensing", "publisher": "Samsung service data sheet supplied with the appliance", "url": null },
-    { "title": "Field reports on Samsung ice maker jams, gearbox wear and fill problems", "publisher": "r/appliancerepair community threads", "url": null }
+    {
+      "title": "Samsung refrigerator error codes, 39E and 39C ice maker function error",
+      "publisher": "Samsung support documentation",
+      "url": null
+    },
+    {
+      "title": "Samsung refrigerator service literature, ice maker cycle and position sensing",
+      "publisher": "Samsung service data sheet supplied with the appliance",
+      "url": null
+    },
+    {
+      "title": "Field reports on Samsung ice maker jams, gearbox wear and fill problems",
+      "publisher": "r/appliancerepair community threads",
+      "url": null
+    }
   ],
-  "related_codes": ["39C", "33E", "40E", "5E", "OF OF"]
+  "related_codes": [
+    "39C",
+    "33E",
+    "40E",
+    "5E",
+    "OF OF"
+  ]
 }
