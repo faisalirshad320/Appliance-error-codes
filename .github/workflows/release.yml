@@ -40,6 +40,11 @@ jobs:
       - name: Check the partial site for broken links and bad structured data
         run: python3 tools/qa.py
 
+      # Uses only coreutils. An earlier version used rsync here and the sync silently
+      # failed to land for five days: the clone kept its old content, git correctly
+      # reported "no change", and the step went green every morning while the site
+      # stood still. Hence the assertion below — a sync that does not land must be a
+      # red build, never a quiet one.
       - name: Sync the build into a working copy of the deploy branch
         run: |
           git clone --depth 1 --branch deploy \
@@ -51,7 +56,17 @@ jobs:
                 deploy-wc
               cd deploy-wc && git checkout --orphan deploy && git rm -rqf . && cd ..
             }
-          rsync -a --delete --exclude='.git' dist/ deploy-wc/
+          find deploy-wc -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a dist/. deploy-wc/
+
+      - name: Assert the working copy is byte-identical to the build
+        run: |
+          if ! diff -rq dist deploy-wc --exclude=.git; then
+            echo "::error::deploy-wc does not match dist after the sync. Refusing to"
+            echo "::error::publish, because pushing a stale tree would look like success."
+            exit 1
+          fi
+          echo "Sync verified: $(find dist -type f | wc -l) files match."
 
       - name: Commit and push, but only when the output actually changed
         id: publish
@@ -61,10 +76,18 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
+            # Cross-check the claim. If the tree really matches HEAD then the sitemap
+            # must too; if it does not, the comparison is lying and we want to know.
+            if ! git show HEAD:sitemap.xml 2>/dev/null | diff -q - sitemap.xml >/dev/null; then
+              echo "::error::git reports no change, but sitemap.xml differs from HEAD."
+              echo "::error::The change detection is unreliable; not trusting it."
+              exit 1
+            fi
             echo "No change in the built site. Nothing to publish today."
             echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          echo "Changed files: $(git diff --cached --name-only | wc -l)"
           PAGES=$(find . -name index.html -not -path './.git/*' | wc -l)
           git commit -q -m "Release $(date -u +%Y-%m-%d): ${PAGES} pages live" \
                         -m "Built from ${GITHUB_SHA::8}."
