@@ -115,8 +115,12 @@ jobs:
             echo "it up only when you click Pull/Deploy in the Cloudways panel."
             exit 0
           fi
-          : "${CW_SERVER:=1680067}"   # from phpstack-1680067-6730149.cloudwaysapps.com
-          : "${CW_APP:=6730149}"
+          # App 6748004 is "www.appliancecodex.com" on 2027 Server. The earlier default
+          # pointed at 6730149, a different application on the same server, so a pull
+          # would have deployed to the wrong place. Override with repository variables
+          # if either ever changes.
+          : "${CW_SERVER:=1680067}"
+          : "${CW_APP:=6748004}"
 
           TOKEN=$(curl -sS --fail-with-body -X POST \
             https://api.cloudways.com/api/v1/oauth/access_token \
