@@ -216,6 +216,20 @@ jobs:
           echo "urls in live sitemap: $(curl -fsS --max-time 30 "${SITE}/sitemap.xml" 2>/dev/null | grep -c '<loc>' || echo 'unreadable')"
           echo "urls in this build  : $(grep -c '<loc>' dist/sitemap.xml)"
           echo "homepage <title>    : $(curl -fsS --max-time 30 "${SITE}/" 2>/dev/null | grep -o '<title>[^<]*' | head -1 || echo 'unreadable')"
+          # Probe paths only this build produces. A placeholder app that answers every
+          # path returns 200 for all of them, so compare the bodies, not the codes:
+          # if the key file does not contain exactly the key, our files are not in the
+          # document root whatever the status code says.
+          KEY=$(python3 -c "import json;print(json.load(open('site/config.json'))['indexnow_key'])")
+          BODY=$(curl -fsS --max-time 30 "${SITE}/${KEY}.txt" 2>/dev/null | head -c 64 || echo '<unreachable>')
+          if [ "$BODY" = "$KEY" ]; then
+            echo "key file            : correct - our files ARE in the document root"
+          else
+            echo "key file            : WRONG - got '${BODY:0:40}'"
+            echo "                      our files are NOT in the document root"
+          fi
+          curl -sS -o /dev/null -w "assets/main.css     : HTTP %{http_code}\n" \
+            --max-time 30 "${SITE}/assets/main.css" || true
           echo "----------------------------------------------"
           echo "::error::If the live sitemap is missing or the title is not this site,"
           echo "::error::Deployment via Git is not set up on the Cloudways application."
