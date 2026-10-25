@@ -7,5 +7,6 @@
   "theme_color": "#1b4fd8",
   "lead_cta_url": "/find-a-technician/",
   "parts_cta_url": "/parts/",
-  "build_note": "site_url drives canonicals, Open Graph and the sitemap. Release pacing lives in pipeline/release-schedule.json, not here."
+  "build_note": "site_url drives canonicals, Open Graph and the sitemap. Release pacing lives in pipeline/release-schedule.json. indexnow_key is published at /<key>.txt and proves ownership to IndexNow; changing it breaks submission until the new file is live.",
+  "indexnow_key": "63a45718af2292c4fe5ec1e79e52fd90"
 }
