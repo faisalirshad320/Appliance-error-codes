@@ -101,8 +101,11 @@ jobs:
       #
       # Skipped cleanly when the secrets are absent, so the release itself never fails
       # over a hosting credential.
+      # Also on a manual run: that is the button for recovering a server that has
+      # fallen behind, and a pull is the only thing that can fix it. Verifying
+      # without pulling would just report a problem it refused to act on.
       - name: Tell Cloudways to pull the new build
-        if: steps.publish.outputs.published == 'true'
+        if: steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch'
         env:
           CW_EMAIL:  ${{ secrets.CLOUDWAYS_EMAIL }}
           CW_KEY:    ${{ secrets.CLOUDWAYS_API_KEY }}
