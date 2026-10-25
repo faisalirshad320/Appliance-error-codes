@@ -106,13 +106,19 @@ jobs:
         env:
           CW_EMAIL:  ${{ secrets.CLOUDWAYS_EMAIL }}
           CW_KEY:    ${{ secrets.CLOUDWAYS_API_KEY }}
+          CW_TOKEN:  ${{ secrets.CLOUDWAYS_ACCESS_TOKEN }}
           CW_SERVER: ${{ vars.CLOUDWAYS_SERVER_ID }}
           CW_APP:    ${{ vars.CLOUDWAYS_APP_ID }}
         run: |
-          if [ -z "$CW_EMAIL" ] || [ -z "$CW_KEY" ]; then
-            echo "::notice::CLOUDWAYS_EMAIL / CLOUDWAYS_API_KEY not set — skipping the pull."
-            echo "The deploy branch is updated. Until the secrets exist, the server picks"
-            echo "it up only when you click Pull/Deploy in the Cloudways panel."
+          # Two ways in. CLOUDWAYS_ACCESS_TOKEN is used as a Bearer token directly;
+          # it is the newer scheme and the one to use when the account has hit its
+          # access-token limit and an existing token has to be reused. Otherwise the
+          # legacy email + API key pair is exchanged for a short-lived token below.
+          if [ -z "$CW_TOKEN" ] && { [ -z "$CW_EMAIL" ] || [ -z "$CW_KEY" ]; }; then
+            echo "::notice::No Cloudways credentials set — skipping the pull."
+            echo "Set CLOUDWAYS_ACCESS_TOKEN, or CLOUDWAYS_EMAIL + CLOUDWAYS_API_KEY."
+            echo "The deploy branch is updated either way; without them the server"
+            echo "picks it up only when you click Pull/Deploy in the Cloudways panel."
             exit 0
           fi
           # App 6748004 is "www.appliancecodex.com" on 2027 Server. The earlier default
@@ -122,12 +128,18 @@ jobs:
           : "${CW_SERVER:=1680067}"
           : "${CW_APP:=6748004}"
 
-          TOKEN=$(curl -sS --fail-with-body -X POST \
-            https://api.cloudways.com/api/v1/oauth/access_token \
-            -d "email=${CW_EMAIL}" -d "api_key=${CW_KEY}" \
-            | python3 -c 'import sys,json; print(json.load(sys.stdin)["access_token"])')
+          if [ -n "$CW_TOKEN" ]; then
+            TOKEN="$CW_TOKEN"
+            echo "Using CLOUDWAYS_ACCESS_TOKEN."
+          else
+            TOKEN=$(curl -sS --fail-with-body -X POST \
+              https://api.cloudways.com/api/v1/oauth/access_token \
+              -d "email=${CW_EMAIL}" -d "api_key=${CW_KEY}" \
+              | python3 -c 'import sys,json; print(json.load(sys.stdin)["access_token"])')
+            echo "Exchanged email + API key for a token."
+          fi
           if [ -z "$TOKEN" ]; then
-            echo "::error::Could not get a Cloudways access token."; exit 1
+            echo "::error::Could not obtain a Cloudways token."; exit 1
           fi
 
           # deploy_path empty => public_html itself, matching the branch-root layout.
@@ -144,7 +156,7 @@ jobs:
       # way the job goes green is if the pages are genuinely reachable by a visitor.
       # GitHub emails on a failed run, so a stalled release reports itself.
       - name: Verify the live site is serving this build
-        if: steps.publish.outputs.published == 'true'
+        if: steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           SITE="$(python3 -c "import json;print(json.load(open('site/config.json'))['site_url'].rstrip('/'))")"
           echo "Checking ${SITE} ..."
