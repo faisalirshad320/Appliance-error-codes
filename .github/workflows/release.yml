@@ -161,9 +161,14 @@ jobs:
             echo "::warning::No operation_id in the response; cannot track the pull."
           else
             echo "Tracking operation ${OP} ..."
-            for i in $(seq 1 30); do
+            # Bounded by wall clock, not by attempt count: with a per-request timeout
+            # the attempt count alone let a stuck operation hold the run open for
+            # twenty minutes. An unconfigured git deployment does exactly that, because
+            # Cloudways queues the pull and it never completes.
+            DEADLINE=$(( $(date +%s) + 180 ))
+            while [ "$(date +%s)" -lt "$DEADLINE" ]; do
               sleep 10
-              OPRESP=$(curl -sS --max-time 30 \
+              OPRESP=$(curl -sS --max-time 15 \
                 "https://api.cloudways.com/api/v1/operation/${OP}" \
                 -H "Authorization: Bearer ${TOKEN}" || echo '{}')
               DONE=$(printf '%s' "$OPRESP" | python3 tools/cw_operation.py 2>/dev/null || echo "|unreadable")
@@ -174,6 +179,12 @@ jobs:
                 break
               fi
             done
+            if [ "$(date +%s)" -ge "$DEADLINE" ]; then
+              echo "::warning::Operation ${OP} did not report complete within 3 minutes."
+              echo "::warning::A pull that never completes usually means Deployment via"
+              echo "::warning::Git is not configured on the application, so there is no"
+              echo "::warning::repository for Cloudways to pull from."
+            fi
           fi
 
       # The end-to-end check. Everything above can succeed while the public site stays
