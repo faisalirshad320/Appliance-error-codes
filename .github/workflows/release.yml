@@ -153,6 +153,29 @@ jobs:
             -d "branch_name=deploy" -d "deploy_path=")
           echo "Cloudways responded: ${RESP}"
 
+          # git/pull is asynchronous: the response only says the job was queued.
+          # Poll the operation so a pull that fails on the server is reported here,
+          # rather than showing up later as a site that silently did not change.
+          OP=$(python3 -c "import sys,json; print(json.load(sys.stdin).get('operation_id',''))" <<<"$RESP")
+          if [ -z "$OP" ]; then
+            echo "::warning::No operation_id in the response; cannot track the pull."
+          else
+            echo "Tracking operation ${OP} ..."
+            for i in $(seq 1 30); do
+              sleep 10
+              OPRESP=$(curl -sS --max-time 30 \
+                "https://api.cloudways.com/api/v1/operation/${OP}" \
+                -H "Authorization: Bearer ${TOKEN}" || echo '{}')
+              DONE=$(printf '%s' "$OPRESP" | python3 tools/cw_operation.py 2>/dev/null || echo "|unreadable")
+              IS_DONE=${DONE%%|*}; REST=${DONE#*|}
+              echo "  op ${OP}: ${REST}"
+              if [ "$IS_DONE" = "1" ] || [ "$IS_DONE" = "True" ]; then
+                echo "Pull operation finished."
+                break
+              fi
+            done
+          fi
+
       # The end-to-end check. Everything above can succeed while the public site stays
       # unchanged — that is exactly how five days went by unnoticed. This compares the
       # sitemap the live domain actually serves against the one just built, so the only
@@ -173,10 +196,18 @@ jobs:
             echo "attempt ${attempt}: not matching yet"
           done
           echo "::error::${SITE} is not serving the build that was just published."
-          echo "::error::The deploy branch is correct, so this is the hosting side:"
-          echo "::error::check the Cloudways pull above, DNS, and the SSL certificate."
-          curl -sS -o /dev/null -w "::error::homepage returned %{http_code}\n" \
+          echo "::error::The deploy branch is correct, so this is the hosting side."
+          echo "--- what the live site is actually serving ---"
+          curl -sS -o /dev/null -w "homepage           : HTTP %{http_code}\n" \
             --max-time 30 "${SITE}/" || true
+          curl -sS -o /dev/null -w "sitemap.xml        : HTTP %{http_code}\n" \
+            --max-time 30 "${SITE}/sitemap.xml" || true
+          echo "urls in live sitemap: $(curl -fsS --max-time 30 "${SITE}/sitemap.xml" 2>/dev/null | grep -c '<loc>' || echo 'unreadable')"
+          echo "urls in this build  : $(grep -c '<loc>' dist/sitemap.xml)"
+          echo "homepage <title>    : $(curl -fsS --max-time 30 "${SITE}/" 2>/dev/null | grep -o '<title>[^<]*' | head -1 || echo 'unreadable')"
+          echo "----------------------------------------------"
+          echo "::error::If the live sitemap is missing or the title is not this site,"
+          echo "::error::Deployment via Git is not set up on the Cloudways application."
           exit 1
 
       # Bing, Yandex, Seznam, Naver and Yep take submissions over IndexNow, so each
