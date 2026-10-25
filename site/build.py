@@ -14,6 +14,15 @@ import diagrams, schema as pschema
 CFG = json.loads((ROOT / "site" / "config.json").read_text())
 SITE, URL = CFG["site_name"], CFG["site_url"].rstrip("/")
 TODAY = datetime.date.today().isoformat()
+
+# A page's dates come from the day its wave went live, never from the day the build
+# happened. Stamping today's date on every page every morning tells search engines all
+# 252 pages changed daily when nothing did, which is both untrue and the kind of
+# freshness signal that gets discounted. It also made the build output differ every day,
+# so the deploy branch churned and there was no clean way to tell a real release from a
+# rebuild. Populated by main(); PUB_DATE maps slug -> ISO date, LATEST is the newest
+# live wave's date and covers hubs, the home page and anything not tied to one wave.
+PUB_DATE, LATEST, URL_DATE = {}, TODAY, {}
 E = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
 # Populated by main() once it knows which pages have content. The footer and any other
@@ -138,11 +147,16 @@ def ld_faq(d):
         {"@type":"Question","name":f["q"],
          "acceptedAnswer":{"@type":"Answer","text":f["a"]}} for f in d["faqs"]]}
 
+def _pubdate(page):
+    """The date this page went live, falling back to the newest live wave."""
+    return PUB_DATE.get(page["slug"], LATEST)
+
+
 def ld_article(d, page, canonical):
     return {"@context":"https://schema.org","@type":"TechArticle",
         "headline":d["h1"],"description":d["meta_description"],
         "mainEntityOfPage":{"@type":"WebPage","@id":canonical},
-        "datePublished":TODAY,"dateModified":TODAY,
+        "datePublished":_pubdate(page),"dateModified":_pubdate(page),
         "author":{"@type":"Organization","name":CFG["publisher"],"url":URL+"/about/"},
         "publisher":{"@type":"Organization","name":CFG["publisher"],"url":URL},
         "about":{"@type":"Thing",
@@ -247,7 +261,7 @@ def render_code_page(page, d, index):
     body = f'''<div class="page">
 <article>
 <h1>{E(d["h1"])}</h1>
-<p class="updated">Last reviewed {TODAY} · {E(brand)} {E(appl.lower())}</p>
+<p class="updated">Last reviewed {_pubdate(page)} · {E(brand)} {E(appl.lower())}</p>
 <div class="answer" id="answer"><span class="lede">What it means</span><p>{E(d["answer"])}</p></div>
 {facts}
 {safety}
@@ -605,13 +619,25 @@ def released(today=None):
     """
     f = ROOT/"pipeline"/"release-schedule.json"
     if os.environ.get("PUBLISH_ALL") == "1" or not f.exists():
+        # Whole-site build: every page dated from its own wave anyway, so the dates
+        # stay stable between a full build and a released one.
+        if f.exists():
+            s = json.loads(f.read_text())
+            d0 = datetime.date.fromisoformat(s["launch_date"])
+            for w in s["waves"]:
+                day = (d0 + datetime.timedelta(days=w["offset_days"])).isoformat()
+                for sl in w["slugs"]:
+                    PUB_DATE[sl] = day
         return None, 0, 0
     sched = json.loads(f.read_text())
     launch = datetime.date.fromisoformat(sched["launch_date"])
     today = today or datetime.date.today()
     due, n = set(), 0
     for w in sched["waves"]:
-        if launch + datetime.timedelta(days=w["offset_days"]) <= today:
+        day = (launch + datetime.timedelta(days=w["offset_days"]))
+        for sl in w["slugs"]:
+            PUB_DATE[sl] = day.isoformat()
+        if day <= today:
             due |= set(w["slugs"]); n += 1
     if not n:
         # launch_date is still in the future. Ship the seed wave anyway: whatever is on
@@ -626,6 +652,9 @@ def main():
     content_dir = ROOT/"content"
     dist = ROOT/"dist"
     due, waves_due, waves_total = released()
+    global LATEST
+    live_dates = [d for s, d in PUB_DATE.items() if due is None or s in due]
+    LATEST = max(live_dates) if live_dates else TODAY
 
     loaded, problems, held = {}, [], 0
     for p in pages:
@@ -675,6 +704,7 @@ def main():
         if p["slug"] not in loaded: continue
         write(p["url"], render_code_page(p, loaded[p["slug"]], idx))
         urls.append((p["url"], "0.9"))
+        URL_DATE[p["url"]] = PUB_DATE.get(p["slug"], LATEST)
 
     # brand hubs and brand+appliance hubs
     for brand, ps in idx.by_brand.items():
@@ -751,11 +781,18 @@ def main():
 
     sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-          + "".join(f"<url><loc>{URL}{u}</loc><lastmod>{TODAY}</lastmod>"
+          + "".join(f"<url><loc>{URL}{u}</loc>"
+                    f"<lastmod>{URL_DATE.get(u, LATEST)}</lastmod>"
                     f"<priority>{pr}</priority></url>\n" for u, pr in sorted(set(urls)))
           + "</urlset>\n")
     write("/sitemap.xml", sm)
     write("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n")
+
+    # IndexNow ownership proof. The protocol wants a file at the site root named
+    # <key>.txt whose only content is the key; the release workflow then pushes each
+    # wave's URLs to Bing, Yandex, Seznam, Naver and Yep without anyone clicking
+    # anything. Google does not use IndexNow and reads the sitemap instead.
+    write(f"/{CFG['indexnow_key']}.txt", CFG["indexnow_key"])
     write("/.htaccess", HTACCESS)
     write("/404.html", layout(title=f"Page not found | {SITE}",
           desc="That page does not exist.", canonical=URL+"/404.html",

@@ -115,8 +115,12 @@ jobs:
             echo "it up only when you click Pull/Deploy in the Cloudways panel."
             exit 0
           fi
-          : "${CW_SERVER:=1680067}"   # from phpstack-1680067-6730149.cloudwaysapps.com
-          : "${CW_APP:=6730149}"
+          # App 6748004 is "www.appliancecodex.com" on 2027 Server. The earlier default
+          # pointed at 6730149, a different application on the same server, so a pull
+          # would have deployed to the wrong place. Override with repository variables
+          # if either ever changes.
+          : "${CW_SERVER:=1680067}"
+          : "${CW_APP:=6748004}"
 
           TOKEN=$(curl -sS --fail-with-body -X POST \
             https://api.cloudways.com/api/v1/oauth/access_token \
@@ -133,3 +137,64 @@ jobs:
             -d "server_id=${CW_SERVER}" -d "app_id=${CW_APP}" \
             -d "branch_name=deploy" -d "deploy_path=")
           echo "Cloudways responded: ${RESP}"
+
+      # The end-to-end check. Everything above can succeed while the public site stays
+      # unchanged — that is exactly how five days went by unnoticed. This compares the
+      # sitemap the live domain actually serves against the one just built, so the only
+      # way the job goes green is if the pages are genuinely reachable by a visitor.
+      # GitHub emails on a failed run, so a stalled release reports itself.
+      - name: Verify the live site is serving this build
+        if: steps.publish.outputs.published == 'true'
+        run: |
+          SITE="$(python3 -c "import json;print(json.load(open('site/config.json'))['site_url'].rstrip('/'))")"
+          echo "Checking ${SITE} ..."
+          for attempt in 1 2 3 4 5 6; do
+            sleep 20
+            if curl -fsS --max-time 30 "${SITE}/sitemap.xml" -o live-sitemap.xml 2>/dev/null \
+               && diff -q live-sitemap.xml dist/sitemap.xml >/dev/null; then
+              echo "Live site matches the build (attempt ${attempt})."
+              exit 0
+            fi
+            echo "attempt ${attempt}: not matching yet"
+          done
+          echo "::error::${SITE} is not serving the build that was just published."
+          echo "::error::The deploy branch is correct, so this is the hosting side:"
+          echo "::error::check the Cloudways pull above, DNS, and the SSL certificate."
+          curl -sS -o /dev/null -w "::error::homepage returned %{http_code}\n" \
+            --max-time 30 "${SITE}/" || true
+          exit 1
+
+      # Bing, Yandex, Seznam, Naver and Yep take submissions over IndexNow, so each
+      # wave announces itself without anyone opening a dashboard. Google ignores
+      # IndexNow and reads the sitemap instead; it also retired its sitemap ping
+      # endpoint in 2023, so there is nothing to call for Google here.
+      - name: Submit the new URLs to IndexNow
+        if: steps.publish.outputs.published == 'true'
+        continue-on-error: true      # never fail a good release over a notification
+        run: |
+          python3 - <<'PY' > indexnow.json
+          import json, pathlib, re, subprocess
+          cfg = json.loads(pathlib.Path("site/config.json").read_text())
+          site = cfg["site_url"].rstrip("/")
+          host = site.split("://", 1)[1]
+          changed = subprocess.run(
+              ["git", "-C", "deploy-wc", "diff", "--name-only", "HEAD~1", "HEAD"],
+              capture_output=True, text=True).stdout.split()
+          urls = sorted({
+              site + "/" + re.sub(r"index\.html$", "", f)
+              for f in changed if f.endswith("index.html")
+          })
+          if not urls:                      # first release, or a non-page change
+              urls = re.findall(r"<loc>([^<]+)</loc>",
+                                pathlib.Path("dist/sitemap.xml").read_text())
+          print(json.dumps({
+              "host": host,
+              "key": cfg["indexnow_key"],
+              "keyLocation": f"{site}/{cfg['indexnow_key']}.txt",
+              "urlList": urls[:10000],
+          }))
+          PY
+          echo "submitting $(python3 -c "import json;print(len(json.load(open('indexnow.json'))['urlList']))") urls"
+          curl -sS --max-time 60 -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d @indexnow.json -w "\nIndexNow HTTP %{http_code}\n"

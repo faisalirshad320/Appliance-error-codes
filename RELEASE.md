@@ -56,6 +56,33 @@ missed before it.
 This is also why publishing does not depend on this repository's Claude session, your PC,
 or anything you have to remember to do.
 
+## What runs without you
+
+Once the two Cloudways secrets exist, a wave needs no human action at all:
+
+1. The daily workflow sees a wave is due and builds it.
+2. It pushes the built document root to `deploy`, asserting the sync landed.
+3. It calls the Cloudways API so the server pulls it.
+4. **It then fetches the live sitemap and compares it to the build.** The run only
+   goes green if the public site is genuinely serving the new pages. GitHub emails
+   you when a run fails, so a stalled release reports itself.
+5. It submits the new URLs to IndexNow (Bing, Yandex, Seznam, Naver, Yep).
+
+Google is the exception. It ignores IndexNow, and it retired its sitemap ping endpoint
+in 2023, so there is nothing to call. Google finds new pages by re-reading
+`/sitemap.xml`, which it does on its own schedule — the sitemap is always current, so
+no action is needed. "Request indexing" in Search Console stays manual and is optional;
+it is a nudge, not a requirement.
+
+## Page dates
+
+A page is dated from the day its wave went live, not the day the build ran. Stamping
+today's date on all 252 pages every morning would claim they all changed daily, which
+is untrue and is the sort of freshness signal that gets discounted. It also meant the
+output differed every day, so the deploy branch churned and there was no way to tell a
+real release from a rebuild. Builds are now reproducible: run it twice on the same day
+and the bytes match.
+
 ## Changing the pacing
 
 Everything lives in `pipeline/release-schedule.json`. Edit the constants at the top of
