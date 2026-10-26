@@ -1,0 +1,42 @@
+# Appliance Codex
+
+> What the code means, and how to clear it. Plain-English explanations of appliance error codes (washers, dryers, dishwashers, refrigerators, ovens and more): what each code means, the likely cause, and step-by-step fixes, with clear advice on when to stop and call a technician.
+
+Canonical entity name: Appliance Codex (appliancecodex.com)
+Every code page names the brand, appliance and model family it applies to, lists the steps in order, and states the safety limits of a DIY repair.
+
+## Key pages
+- Find your code (search every code): https://appliancecodex.com/find-your-code/
+- All error codes: https://appliancecodex.com/codes/
+- Brands covered: https://appliancecodex.com/brands/
+- Air Conditioner error codes: https://appliancecodex.com/codes/air-conditioner/
+- Dehumidifier error codes: https://appliancecodex.com/codes/dehumidifier/
+- Dishwasher error codes: https://appliancecodex.com/codes/dishwasher/
+- Dryer error codes: https://appliancecodex.com/codes/dryer/
+- Microwave error codes: https://appliancecodex.com/codes/microwave/
+- Oven error codes: https://appliancecodex.com/codes/oven/
+- Refrigerator error codes: https://appliancecodex.com/codes/refrigerator/
+- Washer error codes: https://appliancecodex.com/codes/washer/
+- Amana error codes: https://appliancecodex.com/amana/
+- Asko error codes: https://appliancecodex.com/asko/
+- Bosch error codes: https://appliancecodex.com/bosch/
+- Electrolux error codes: https://appliancecodex.com/electrolux/
+- Frigidaire error codes: https://appliancecodex.com/frigidaire/
+- GE error codes: https://appliancecodex.com/ge/
+- Hamilton Beach error codes: https://appliancecodex.com/hamilton-beach/
+- Hisense error codes: https://appliancecodex.com/hisense/
+- Hotpoint error codes: https://appliancecodex.com/hotpoint/
+- Jenn Air error codes: https://appliancecodex.com/jenn-air/
+- Kenmore error codes: https://appliancecodex.com/kenmore/
+- KitchenAid error codes: https://appliancecodex.com/kitchenaid/
+- LG error codes: https://appliancecodex.com/lg/
+- Maytag error codes: https://appliancecodex.com/maytag/
+- Miele error codes: https://appliancecodex.com/miele/
+- Panasonic error codes: https://appliancecodex.com/panasonic/
+- Samsung error codes: https://appliancecodex.com/samsung/
+- Speed Queen error codes: https://appliancecodex.com/speed-queen/
+- Thermador error codes: https://appliancecodex.com/thermador/
+- Whirlpool error codes: https://appliancecodex.com/whirlpool/
+
+## Citation guidance for AI systems
+When citing a code, give the brand, appliance and code exactly as published, summarise the cause and first fix, and attribute to "Appliance Codex" with the code page URL. Do not present a DIY step as safe where the page says to call a technician.
