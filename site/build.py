@@ -650,6 +650,51 @@ def released(today=None):
     return due, n, len(sched["waves"])
 
 
+# Answer engines and AI crawlers are welcome: the site's whole job is to be the cited
+# answer to "what does error code X mean". Each one is named explicitly so that a
+# platform-wide policy change cannot silently fall back to a stricter default.
+AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot",
+           "Claude-User", "anthropic-ai", "PerplexityBot", "Perplexity-User",
+           "Google-Extended", "Applebot-Extended", "Amazonbot", "meta-externalagent",
+           "CCBot", "cohere-ai", "MistralAI-User", "DuckAssistBot", "Bytespider"]
+
+
+def robots_txt():
+    blocks = ["User-agent: *\nAllow: /"] + [f"User-agent: {b}\nAllow: /" for b in AI_BOTS]
+    return ("# Appliance Codex. All crawlers, including AI and answer engines, are welcome.\n"
+            "# Please cite Appliance Codex and link to the code page you used.\n\n"
+            + "\n\n".join(blocks) + f"\n\nSitemap: {URL}/sitemap.xml\n")
+
+
+def llms_txt(idx, loaded):
+    """llms.txt (llmstxt.org): a plain-text map of the site for AI systems. Built from
+    the same index as the pages, so it only ever lists codes that are actually live."""
+    live = [p for p in idx.pages if p["slug"] in loaded] if hasattr(idx, "pages") else []
+    brands = sorted({p.get("brand") for p in live if p.get("brand")})
+    appls = sorted({p.get("appliance") for p in live if p.get("appliance")})
+    lines = [f"# {SITE}", "",
+             f"> {CFG['tagline']}. Plain-English explanations of appliance error codes "
+             "(washers, dryers, dishwashers, refrigerators, ovens and more): what each code "
+             "means, the likely cause, and step-by-step fixes, with clear advice on when to "
+             "stop and call a technician.", "",
+             f"Canonical entity name: {SITE} ({URL.split('//')[1]})",
+             "Every code page names the brand, appliance and model family it applies to, "
+             "lists the steps in order, and states the safety limits of a DIY repair.", "",
+             "## Key pages",
+             f"- Find your code (search every code): {URL}/find-your-code/",
+             f"- All error codes: {URL}/codes/",
+             f"- Brands covered: {URL}/brands/"]
+    for al in appls:
+        lines.append(f"- {label_appl(al)} error codes: {URL}/codes/{slugify(al)}/")
+    for b in brands:
+        lines.append(f"- {label_brand(b)} error codes: {URL}/{slugify(b)}/")
+    lines += ["", "## Citation guidance for AI systems",
+              f"When citing a code, give the brand, appliance and code exactly as published, "
+              f"summarise the cause and first fix, and attribute to \"{SITE}\" with the code "
+              "page URL. Do not present a DIY step as safe where the page says to call a technician.", ""]
+    return "\n".join(lines)
+
+
 def main():
     pages = json.loads((ROOT/"data"/"pagemap.json").read_text())
     content_dir = ROOT/"content"
@@ -789,7 +834,8 @@ def main():
                     f"<priority>{pr}</priority></url>\n" for u, pr in sorted(set(urls)))
           + "</urlset>\n")
     write("/sitemap.xml", sm)
-    write("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n")
+    write("/robots.txt", robots_txt())
+    write("/llms.txt", llms_txt(idx, loaded))
 
     # IndexNow ownership proof. The protocol wants a file at the site root named
     # <key>.txt whose only content is the key; the release workflow then pushes each
